@@ -12,6 +12,7 @@ A comprehensive web application analyzing 305 public comments on the **HHS-ONC-2
 The HTI-5 proposed rule seeks to remove or reduce health IT certification requirements under the guise of burden reduction. This website provides a systematic, data-driven analysis of all 305 public comments submitted during the 60-day public comment period (January 28 – February 27, 2026).
 
 **Key Finding:** The response was decisively negative. Average sentiment scored −0.81 on a −3 to +3 scale. Of 274 comments with a clear position:
+
 - **129 (47%)** opposed the proposed actions
 - **71 (26%)** supported them
 - **74** took neutral or mixed positions
@@ -21,6 +22,7 @@ The HTI-5 proposed rule seeks to remove or reduce health IT certification requir
 ## Features
 
 ### 📊 Dashboard
+
 - Position distribution chart (strongly oppose → strongly support)
 - Key statistics (total comments, sentiment, stakeholder breakdown)
 - Top 11 comment themes with mention counts
@@ -28,6 +30,7 @@ The HTI-5 proposed rule seeks to remove or reduce health IT certification requir
 - Key findings and executive summary
 
 ### 💬 Searchable Comments Database
+
 - Full-text search across all 305 comments
 - Filter by position, theme, organization type, and coordination status
 - View original comment text, commenter affiliation, and position metadata
@@ -35,6 +38,7 @@ The HTI-5 proposed rule seeks to remove or reduce health IT certification requir
 - Coordination badges showing organized advocacy campaigns
 
 ### 🎯 Thematic Analysis
+
 - 11 major policy themes identified through systematic analysis:
   - Patient Safety (245 mentions)
   - Burden Reduction (224 mentions)
@@ -46,12 +50,14 @@ The HTI-5 proposed rule seeks to remove or reduce health IT certification requir
 - Theme distribution across stakeholder types
 
 ### 📋 Coordination Analysis
+
 - Identifies organized comment campaigns (attorney networks, form letter campaigns, professional associations)
 - Detects shared language patterns and coordination fingerprints
 - Transparent about which comments are part of organized advocacy
 - Links to GitHub issues for each coordinated campaign
 
 ### 💡 Policy Recommendations
+
 - Evidence-based recommendations to regulators
 - Derived from stakeholder feedback and technical analysis
 - Consensus points across different stakeholder groups
@@ -62,20 +68,25 @@ The HTI-5 proposed rule seeks to remove or reduce health IT certification requir
 ## Data & Sources
 
 ### Public Comments
+
 - **Source:** https://www.regulations.gov/document/HHS-ONC-2025-0005-0001/comment
 - **Count:** 305 submissions
 - **Period:** January 28 – February 27, 2026
 - **Status:** Public record, analyzed with permission
 
 ### Analysis Framework
+
 The analysis applies a **healthcare policy analyst framework** emphasizing:
+
 - Patient safety as the primary lens
 - Expert credibility weighting (clinicians, standards bodies, patient advocates)
 - Conflict-of-interest flagging (vendors with financial interest in deregulation)
 - Standards genealogy tracing (why specific technical requirements exist)
 
 ### Data Files
+
 All analysis data is included in the repository:
+
 - `client/src/data/comments.json` — Full comments with position/theme classifications
 - `client/src/data/themes.json` — 11 themes with detailed analysis and examples
 - `client/src/data/stats.json` — Aggregate statistics
@@ -87,6 +98,7 @@ All analysis data is included in the repository:
 ## Tech Stack
 
 ### Frontend
+
 - **React 19** — UI framework
 - **Vite** — Build tool & dev server
 - **Tailwind CSS v4** — Utility-first styling
@@ -95,14 +107,17 @@ All analysis data is included in the repository:
 - **Wouter** — Lightweight client-side router
 
 ### Backend
+
 - **Express.js** — Node.js web server
 - **Axios** — HTTP client
 
 ### Deployment
+
 - **Vercel** — Hosting & CDN
 - **Vercel Analytics** — Privacy-focused traffic tracking
 
 ### Development
+
 - **TypeScript** — Strict mode type checking
 - **ESM** — ECMAScript modules (Node.js native)
 - **pnpm** — Package manager (monorepo support)
@@ -113,6 +128,7 @@ All analysis data is included in the repository:
 ## Getting Started
 
 ### Prerequisites
+
 - Node.js 18+
 - pnpm 10.4.1+ (or npm/yarn)
 
@@ -187,6 +203,7 @@ hti5/
 This website includes a comment submission feature (the irony is intentional—a comments section on a comments analysis site).
 
 ### Submitting a Comment
+
 1. Click **"Add a comment"** in the sidebar footer
 2. Enter your name, email, and comment
 3. Click **Submit Comment**
@@ -194,10 +211,13 @@ This website includes a comment submission feature (the irony is intentional—a
 5. You receive a link to view your comment on GitHub
 
 ### Viewing Comments
+
 All submitted comments are visible as GitHub issues:
+
 - https://github.com/jacobmr/hti5/issues
 
 Comments are public and labeled with `user-comment`. This approach:
+
 - Keeps feedback transparent and public
 - Enables discussion via GitHub comments
 - Avoids building yet another comment system
@@ -208,10 +228,13 @@ Comments are public and labeled with `user-comment`. This approach:
 ## Contributing
 
 ### Report an Issue
+
 Found a data error or analysis problem? Open an issue:
+
 - https://github.com/jacobmr/hti5/issues
 
 ### Improve the Analysis
+
 The codebase is fully open source (MIT License). Contributions welcome:
 
 1. Fork the repository
@@ -222,6 +245,7 @@ The codebase is fully open source (MIT License). Contributions welcome:
 6. Open a pull request
 
 ### Share Feedback
+
 Use the **Add a comment** feature to share feedback, suggestions, or questions about the analysis.
 
 ---
@@ -229,17 +253,21 @@ Use the **Add a comment** feature to share feedback, suggestions, or questions a
 ## Data Privacy & Transparency
 
 ### What We Track
+
 - **Vercel Analytics** — Page views, device types, geographic regions
 - No cookies, no personal tracking
 - Privacy-respecting analytics (https://vercel.com/analytics)
 
 ### Data Retention
+
 - Comments submitted via the form are posted to GitHub as public issues
 - Raw comment data from regulations.gov is retained as part of the analysis
 - No additional data is stored or sold
 
 ### Your Information
+
 When you submit a comment:
+
 - Your name and email are posted as part of the GitHub issue
 - Your email is visible to GitHub (public issue)
 - No additional data is collected
@@ -249,7 +277,9 @@ When you submit a comment:
 ## About the Analysis
 
 ### Methodology
+
 Comments were analyzed using:
+
 1. **Position Classification** — Categorizing each comment's stance on deregulation
 2. **Thematic Analysis** — Identifying 11 major policy themes
 3. **Stakeholder Segmentation** — Grouping commenters by organization type
@@ -257,13 +287,16 @@ Comments were analyzed using:
 5. **Sentiment Analysis** — Calculating average sentiment scores
 
 ### Limitations
+
 - Sentiment analysis is heuristic-based (rule-based, not ML)
 - Theme detection may miss novel arguments
 - Organization type classification relies on self-reported information
 - Coordination detection uses pattern matching (not perfect)
 
 ### Verification
+
 All analysis code and data are publicly available. You can:
+
 - Review the raw comment data in `raw-data/comments/`
 - Examine the analysis scripts in `source/`
 - Check the theme definitions in `client/src/data/themes.json`
@@ -276,6 +309,7 @@ All analysis code and data are publicly available. You can:
 MIT License — See LICENSE file for details.
 
 This means:
+
 - You can freely use, modify, and distribute this code
 - You must include a copy of the license
 - The author provides no warranty
@@ -308,6 +342,7 @@ This means:
 ## Acknowledgments
 
 This analysis was conducted to support evidence-based healthcare policy discussion. We thank:
+
 - The 305 commenters who submitted thoughtful feedback
 - Healthcare organizations, clinicians, and patient advocates who prioritize safety
 - Regulators at HHS-ONC who take public feedback seriously
