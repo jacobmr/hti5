@@ -557,14 +557,14 @@ guidance.
    Blocking (Part
    However, HL7 recommends:
 
-171)                                                         •   Clarifying the scope and expectations for autonomous AI systems.
-                                                             •   Ensuring audit trail access remains available to support patient-initiated
-                                                                 corrections and accountability.
+171)                                                           •   Clarifying the scope and expectations for autonomous AI systems.
+                                                               •   Ensuring audit trail access remains available to support patient-initiated
+                                                                   corrections and accountability.
 
-                                                          HL7 emphasizes the clarification that information blocking applies to automated and
-                                                          AI-driven access, is a critical and forward-looking element of HTI-5. This change
-                                                          reflects the reality that access decisions are increasingly embedded in systems, APIs
-                                                          and workflows rather than made solely by humans.
+                                                            HL7 emphasizes the clarification that information blocking applies to automated and
+                                                            AI-driven access, is a critical and forward-looking element of HTI-5. This change
+                                                            reflects the reality that access decisions are increasingly embedded in systems, APIs
+                                                            and workflows rather than made solely by humans.
 
       C. Severability
       Downstream Costs: HL7 agrees HTI-5 may reduce direct developer compliance
@@ -592,12 +592,12 @@ guidance.
       through contracts, Quality Assurance (QA) and bilateral testing.
       • Fragmentation in CDA↔FHIR transformations.
 
-                                                  HL7 recommends and supports:
+                                                    HL7 recommends and supports:
 
-                                                  ASTP/ONC pairing deregulation with a transition plan that preserves validation
-                                                  tooling (SITE/open source) and maintains trust-enabling security/audit capabilities.
+                                                    ASTP/ONC pairing deregulation with a transition plan that preserves validation
+                                                    tooling (SITE/open source) and maintains trust-enabling security/audit capabilities.
 
-                                                  Modernization and API-first exchange, but HL7 strongly urges ASTP/ONC to
-                                                  provide clear transition guidance, preserve accountability mechanisms and avoid
-                                                  unintended fragmentation during the industry’s evolution from document-centric to
-                                                  API-centric interoperability.
+                                                    Modernization and API-first exchange, but HL7 strongly urges ASTP/ONC to
+                                                    provide clear transition guidance, preserve accountability mechanisms and avoid
+                                                    unintended fragmentation during the industry’s evolution from document-centric to
+                                                    API-centric interoperability.
