@@ -10,7 +10,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const themesPath = path.join(__dirname, "../client/src/data/themes.json");
+const themesPath = path.join(__dirname, "../data/themes.json");
 const outputDir = path.join(__dirname, "../themes-markdown");
 
 // Ensure output directory exists

@@ -84,4 +84,4 @@ Key files for analysis:
 Public comments submitted to a federal docket (regulations.gov).
 All content is public record.
 
-For analysis details, see `/client/src/data/themes.json` and `stats.json` in the main repository.
+For analysis details, see `/data/themes.json` and `/data/stats.json` in the main repository.

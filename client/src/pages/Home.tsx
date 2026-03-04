@@ -17,28 +17,12 @@ import {
   Pie,
   Legend,
 } from "recharts";
-import statsData from "@/data/stats.json";
-import themesData from "@/data/themes.json";
-import commentsData from "@/data/comments.json";
-import coordinationData from "@/data/coordination_groups.json";
+import statsData from "@data/stats.json";
+import themesData from "@data/themes.json";
+import commentsData from "@data/comments.json";
+import coordinationData from "@data/coordination_groups.json";
 
-const POSITION_COLORS: Record<string, string> = {
-  strongly_oppose_deregulation: "#C4862A",
-  oppose_deregulation: "#E0A84A",
-  neutral_mixed: "#8A8A8A",
-  support_deregulation: "#2A7A6B",
-  strongly_support_deregulation: "#1B5C4E",
-  unclear: "#AAAAAA",
-};
-
-const POSITION_LABELS: Record<string, string> = {
-  strongly_oppose_deregulation: "Strongly Oppose",
-  oppose_deregulation: "Oppose",
-  neutral_mixed: "Neutral / Mixed",
-  support_deregulation: "Support",
-  strongly_support_deregulation: "Strongly Support",
-  unclear: "Unclear",
-};
+import { POSITION_LABELS, POSITION_COLORS } from "@shared/const";
 
 const THEME_LABELS: Record<string, string> = {
   fhir_standards: "FHIR Standards & Interoperability",

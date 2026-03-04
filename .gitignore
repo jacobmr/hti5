@@ -107,3 +107,12 @@ temp/
 
 # Webdev artifacts (checkpoint zips, migrations, etc.)
 .webdev/
+
+# Claude Code workspace
+CLAUDE.md
+.claude/
+.omc/
+
+# Working notes (not project content)
+PERFORMANCE_REVIEW.md
+ideas.md

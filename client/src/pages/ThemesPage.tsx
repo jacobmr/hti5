@@ -5,27 +5,11 @@
  */
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
-import themesData from "@/data/themes.json";
+import themesData from "@data/themes.json";
 
 type Theme = (typeof themesData)[0];
 
-const POSITION_COLORS: Record<string, string> = {
-  strongly_oppose_deregulation: "#C4862A",
-  oppose_deregulation: "#E0A84A",
-  neutral_mixed: "#8A8A8A",
-  support_deregulation: "#2A7A6B",
-  strongly_support_deregulation: "#1B5C4E",
-  unclear: "#AAAAAA",
-};
-
-const POSITION_LABELS: Record<string, string> = {
-  strongly_oppose_deregulation: "Strongly Oppose",
-  oppose_deregulation: "Oppose",
-  neutral_mixed: "Neutral/Mixed",
-  support_deregulation: "Support",
-  strongly_support_deregulation: "Strongly Support",
-  unclear: "Unclear",
-};
+import { POSITION_LABELS, POSITION_COLORS } from "@shared/const";
 
 function PositionBar({ breakdown }: { breakdown: Record<string, number> }) {
   const total = Object.values(breakdown).reduce((a, b) => a + b, 0);

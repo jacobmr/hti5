@@ -11,7 +11,7 @@ import { fileURLToPath } from "url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const markdownDir = path.join(__dirname, "../themes-markdown");
-const themesPath = path.join(__dirname, "../client/src/data/themes.json");
+const themesPath = path.join(__dirname, "../data/themes.json");
 
 // Read existing themes.json to preserve structure and order
 const existingThemes = JSON.parse(fs.readFileSync(themesPath, "utf8"));

@@ -5,19 +5,12 @@
  */
 import { useState, useMemo } from "react";
 import { Search, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
-import commentsData from "@/data/comments.json";
-import coordinationData from "@/data/coordination_groups.json";
+import commentsData from "@data/comments.json";
+import coordinationData from "@data/coordination_groups.json";
 
 type Comment = (typeof commentsData)[0];
 
-const POSITION_LABELS: Record<string, string> = {
-  strongly_oppose_deregulation: "Strongly Oppose",
-  oppose_deregulation: "Oppose",
-  neutral_mixed: "Neutral / Mixed",
-  support_deregulation: "Support",
-  strongly_support_deregulation: "Strongly Support",
-  unclear: "Unclear",
-};
+import { POSITION_LABELS } from "@shared/const";
 
 const POSITION_BADGE: Record<string, string> = {
   strongly_oppose_deregulation: "badge-oppose",

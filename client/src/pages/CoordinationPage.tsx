@@ -5,7 +5,7 @@
 
 import { Link } from "wouter";
 import { ArrowRight } from "lucide-react";
-import coordinationData from "@/data/coordination_groups.json";
+import coordinationData from "@data/coordination_groups.json";
 
 interface CoordinationGroup {
   id: string;

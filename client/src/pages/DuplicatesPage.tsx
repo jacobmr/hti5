@@ -3,19 +3,60 @@
  * Transparency page showing the 7 duplicate submissions removed from analysis
  */
 import { ExternalLink } from "lucide-react";
-import duplicatesData from "@/data/duplicates.json";
+import duplicatesData from "@data/duplicates.json";
 
-const POSITION_LABELS: Record<string, string> = {
-  strongly_oppose_deregulation: "Strongly Oppose",
-  oppose_deregulation: "Oppose",
-  neutral_mixed: "Neutral / Mixed",
-  support_deregulation: "Support",
-  strongly_support_deregulation: "Strongly Support",
-  unclear: "Unclear",
-};
+import { POSITION_LABELS } from "@shared/const";
 
 function regGovUrl(id: string) {
   return `https://www.regulations.gov/comment/${id}`;
+}
+
+function CommentCard({
+  entry,
+  variant,
+}: {
+  entry: {
+    id: string;
+    short_id: string;
+    commenter: string;
+    organization: string | null;
+    position: string;
+  };
+  variant: "retained" | "removed";
+}) {
+  const isRetained = variant === "retained";
+  return (
+    <div
+      className={`${isRetained ? "bg-muted/30 border-border" : "bg-muted/10 border-border/60 opacity-80"} border p-4 rounded-sm`}
+    >
+      <div className="text-xs font-mono text-muted-foreground uppercase tracking-wider mb-2">
+        {isRetained ? "Retained" : "Removed (duplicate)"}
+      </div>
+      <div className="text-sm font-semibold text-foreground">
+        {entry.commenter}
+      </div>
+      {entry.organization && entry.organization !== entry.commenter && (
+        <div className="text-xs text-muted-foreground">
+          {entry.organization}
+        </div>
+      )}
+      <div className="flex items-center gap-2 mt-2">
+        <span className="text-xs text-muted-foreground">
+          {POSITION_LABELS[entry.position] || entry.position}
+        </span>
+        <span className="text-muted-foreground">·</span>
+        <a
+          href={regGovUrl(entry.id)}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 text-xs font-mono text-primary hover:underline"
+        >
+          {entry.short_id}
+          <ExternalLink size={10} />
+        </a>
+      </div>
+    </div>
+  );
 }
 
 export default function DuplicatesPage() {
@@ -75,69 +116,8 @@ export default function DuplicatesPage() {
               </p>
 
               <div className="grid sm:grid-cols-2 gap-4">
-                {/* Kept */}
-                <div className="bg-muted/30 border border-border p-4 rounded-sm">
-                  <div className="text-xs font-mono text-muted-foreground uppercase tracking-wider mb-2">
-                    Retained
-                  </div>
-                  <div className="text-sm font-semibold text-foreground">
-                    {pair.kept.commenter}
-                  </div>
-                  {pair.kept.organization &&
-                    pair.kept.organization !== pair.kept.commenter && (
-                      <div className="text-xs text-muted-foreground">
-                        {pair.kept.organization}
-                      </div>
-                    )}
-                  <div className="flex items-center gap-2 mt-2">
-                    <span className="text-xs text-muted-foreground">
-                      {POSITION_LABELS[pair.kept.position] ||
-                        pair.kept.position}
-                    </span>
-                    <span className="text-muted-foreground">·</span>
-                    <a
-                      href={regGovUrl(pair.kept.id)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-xs font-mono text-primary hover:underline"
-                    >
-                      {pair.kept.short_id}
-                      <ExternalLink size={10} />
-                    </a>
-                  </div>
-                </div>
-
-                {/* Removed */}
-                <div className="bg-muted/10 border border-border/60 p-4 rounded-sm opacity-80">
-                  <div className="text-xs font-mono text-muted-foreground uppercase tracking-wider mb-2">
-                    Removed (duplicate)
-                  </div>
-                  <div className="text-sm font-semibold text-foreground">
-                    {pair.removed.commenter}
-                  </div>
-                  {pair.removed.organization &&
-                    pair.removed.organization !== pair.removed.commenter && (
-                      <div className="text-xs text-muted-foreground">
-                        {pair.removed.organization}
-                      </div>
-                    )}
-                  <div className="flex items-center gap-2 mt-2">
-                    <span className="text-xs text-muted-foreground">
-                      {POSITION_LABELS[pair.removed.position] ||
-                        pair.removed.position}
-                    </span>
-                    <span className="text-muted-foreground">·</span>
-                    <a
-                      href={regGovUrl(pair.removed.id)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 text-xs font-mono text-primary hover:underline"
-                    >
-                      {pair.removed.short_id}
-                      <ExternalLink size={10} />
-                    </a>
-                  </div>
-                </div>
+                <CommentCard entry={pair.kept} variant="retained" />
+                <CommentCard entry={pair.removed} variant="removed" />
               </div>
             </div>
           </div>
