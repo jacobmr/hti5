@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0037",
+  "commenter_name": "Meridian Verity Group LLC",
+  "organization": "Meridian Verity Group LLC",
+  "posted_date": "2026-01-29T05:00:00Z",
+  "has_text": true,
+  "comment_length": 7557,
+  "org_type": "health_it_company",
+  "summary": "Meridian Verity Group supports the HTI-5 deregulatory burden reduction but urges ONC to preserve a minimal Predictive Decision Support Intervention (DSI) baseline. They propose replacing the removal of certain certification criteria with a requirement for certified Health IT Modules to support an exportable, machine-readable Evidence Artifact that ensures transparency and risk governance without exposing sensitive data.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "ai_regulation",
+    "interoperability",
+    "data_privacy",
+    "fhir_standards"
+  ],
+  "specific_provisions": ["170.315(b)(11)(iv)-(vi)"],
+  "key_arguments": [
+    "Predictive DSIs influence care and payment decisions and require transparency for trust and audit readiness.",
+    "Removing the current Predictive DSI certification provisions would increase due diligence costs and reduce comparability.",
+    "A computable Evidence Artifact can preserve essential transparency and risk governance with minimal burden.",
+    "The Evidence Artifact should exclude raw training data, PHI, and trade secrets to protect confidentiality."
+  ],
+  "recommendations": [
+    "Replace the proposed removal of Predictive DSI source-attribute and risk-management requirements (\u00a7170.315(b)(11)(iv)-(vi)) with a minimal Evidence Artifact requirement.",
+    "Clarify that summary-level descriptors and attestations are acceptable without requiring raw training data, PHI, or trade secrets.",
+    "Clarify that export can be satisfied via standards-based APIs and interoperable envelopes such as FHIR."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Preserving a minimal, computable Predictive DSI Evidence Artifact baseline is a narrow, high-leverage compromise."
+}

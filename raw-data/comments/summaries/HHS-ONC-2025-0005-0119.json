@@ -1,0 +1,48 @@
+{
+  "id": "HHS-ONC-2025-0005-0119",
+  "commenter_name": "Trinity Health",
+  "organization": "Trinity Health",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 20064,
+  "org_type": "health_system",
+  "summary": "Trinity Health appreciates efforts to reduce regulatory burden but strongly opposes many proposed deregulatory changes in HTI-5, citing risks to patient safety, data privacy, interoperability, and compliance with existing federal regulations. They urge ONC to maintain key certification criteria until FHIR adoption is widespread and comprehensive risk evaluations are completed.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "data_privacy",
+    "interoperability",
+    "fhir_standards",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "Patient Demographics criteria",
+    "Care Coordination criteria",
+    "Privacy and Security Framework certification criteria (\u00a7170.315(d))",
+    "Patient Engagement Certification criteria",
+    "Public Health Certification criteria (Transmission to Cancer Registries, Antimicrobial Use and Resistance Reporting, eCR Reporting)",
+    "Design and Performance Certification criteria",
+    "Information Blocking Infeasibility and Manner Exceptions",
+    "TEFCA Manner Exception"
+  ],
+  "key_arguments": [
+    "Removing demographic gender identity data conflicts with federal non-discrimination regulations and risks undermining patient trust.",
+    "Eliminating Care Coordination criteria risks fragmenting the EHR marketplace and harming quality and continuity of care.",
+    "Removing privacy and security certification criteria conflicts with HHS OCR security regulations and weakens protections against threats to electronic medical records.",
+    "Premature removal of public health reporting criteria threatens critical public health surveillance and response capabilities."
+  ],
+  "recommendations": [
+    "Do not finalize changes to Patient Demographics criteria.",
+    "Maintain Care Coordination criteria to support patient safety and quality.",
+    "Retain Privacy and Security Framework certification criteria until comprehensive risk evaluation and HTI-6 finalization.",
+    "Maintain Patient Engagement Certification criteria to support federal program compliance.",
+    "Preserve Public Health reporting criteria for cancer registries, antimicrobial use, and eCR.",
+    "Do not finalize removal of Design and Performance Certification criteria.",
+    "Codify balanced requirements for automated access and use before finalizing related provisions.",
+    "Address misuse before changing the Infeasibility Exception in information blocking.",
+    "Delay finalizing Manner Exception changes until FHIR adoption is widespread.",
+    "Maintain TEFCA Manner Exception until governance and network maturity."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing demographic indicators for only one specific population may be perceived as disrespectful and could undermine our patients\u2019 trust."
+}

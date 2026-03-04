@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0175",
+  "commenter_name": "Point of Care Partners",
+  "organization": "Point of Care Partners",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4885,
+  "org_type": "health_it_company",
+  "summary": "Point of Care Partners supports the HTI-5 deregulatory goals but urges careful implementation to avoid burden shifting onto providers and payers. They recommend maintaining a clear interoperability floor, executable API requirements, enforceable information blocking rules, and embedding security and AI safeguards.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "api_requirements",
+    "security_and_consent",
+    "ai_regulation"
+  ],
+  "specific_provisions": [
+    "removal of C-CDA creation certification",
+    "audit log requirements",
+    "EHI export requirements",
+    "USCDI data class requirements",
+    "standardized API requirements",
+    "TEFCA",
+    "AI-enabled Decision Support Interventions (DSI)"
+  ],
+  "key_arguments": [
+    "Deregulatory actions must not shift cost, risk, or operational burden onto providers, payers, and implementers.",
+    "A minimum interoperability floor should be maintained during the transition to FHIR-based APIs to ensure scalable exchange.",
+    "API requirements need clear scope and conformance to be executable and reduce custom integration burdens.",
+    "Security, identity, consent, and AI governance must remain core components to protect transparency and patient access."
+  ],
+  "recommendations": [
+    "Assign displaced safeguards and capabilities clearly to Health IT developers with post-rule evaluation.",
+    "Define a minimum interoperability floor and outline the path for replacing certification criteria with FHIR APIs.",
+    "Embed interoperable authentication, authorization, identity, and consent approaches using HL7 FAST IGs.",
+    "Retain governance and transparency for AI-enabled DSIs and ensure testing reflects clinical risk.",
+    "Publish a phased, testable implementation timeline aligned with HTI-6 to minimize uncertainty."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Prevent burden shifting and preserve accountability for displaced safeguards."
+}

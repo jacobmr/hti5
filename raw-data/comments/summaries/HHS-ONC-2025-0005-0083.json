@@ -1,0 +1,23 @@
+{
+  "id": "HHS-ONC-2025-0005-0083",
+  "commenter_name": "Lindsay Lawrence",
+  "organization": "",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 79,
+  "org_type": "other",
+  "summary": "The commenter argues that audit trail and preservation standards should be strengthened rather than deregulated. They express concern about weakening these requirements in the proposed rule.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": ["audit_log_standards", "data_preservation", "patient_safety"],
+  "specific_provisions": ["170.315(d)(2) audit logs"],
+  "key_arguments": [
+    "Audit trail standards are critical and should not be weakened.",
+    "Preservation of audit logs is essential for security and accountability.",
+    "Deregulating these standards could harm patient safety and data integrity."
+  ],
+  "recommendations": [
+    "Strengthen audit trail and preservation standards instead of removing or reducing them."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trail and preservation standards need to be strengthened not deregulated."
+}

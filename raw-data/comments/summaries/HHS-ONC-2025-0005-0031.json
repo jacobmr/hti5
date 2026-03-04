@@ -1,0 +1,29 @@
+{
+  "id": "HHS-ONC-2025-0005-0031",
+  "commenter_name": "Brian Snyder",
+  "organization": "",
+  "posted_date": "2026-01-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1362,
+  "org_type": "other",
+  "summary": "The commenter emphasizes the critical importance of audit trails in ensuring the integrity and trustworthiness of health records for both patients and providers. They argue that removing or reducing audit log requirements would increase healthcare fraud and jeopardize patient safety.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_integrity",
+    "patient_safety",
+    "healthcare_fraud"
+  ],
+  "specific_provisions": ["170.315(d)(2) audit logs"],
+  "key_arguments": [
+    "Audit trails ensure the integrity and accuracy of health records.",
+    "Audit logs protect providers in legal defenses by proving record authenticity.",
+    "Patients rely on audit trails to trust their health information has not been manipulated.",
+    "Removing audit trail requirements will increase healthcare fraud and endanger patients."
+  ],
+  "recommendations": [
+    "Maintain current audit log certification requirements to ensure record integrity and prevent fraud."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Without regulated audit trails, healthcare will become the wild west."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0196",
+  "commenter_name": "American College of Surgeons",
+  "organization": "American College of Surgeons",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 26695,
+  "org_type": "professional_association",
+  "summary": "The American College of Surgeons supports ONC's FHIR-forward modernization and deregulatory goals but urges careful sequencing to protect existing quality measurement infrastructure. They emphasize the need for clear transition plans, monitoring of new standards, and equitable cost distribution to avoid disrupting patient care and burdening clinicians.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "interoperability",
+    "patient_safety",
+    "vendor_burden"
+  ],
+  "specific_provisions": [
+    "removal of Consolidated Clinical Document Architecture (C-CDA) creation certification criterion",
+    "removal of Privacy and Security Certification Criteria",
+    "removal of multiple certification criteria incorporated in CMS incentive programs",
+    "transition to FHIR-based solutions"
+  ],
+  "key_arguments": [
+    "Removing C-CDA criteria without mature FHIR replacements risks destabilizing quality measurement registries like NSQIP.",
+    "Deregulation must be sequenced to avoid gaps in data-driven quality measurement critical to surgical patients.",
+    "Costs of updating systems and building API connectors should not disproportionately burden clinicians and specialty organizations.",
+    "CMS Promoting Interoperability programs should be modernized alongside certification criteria to reflect evolving health IT needs."
+  ],
+  "recommendations": [
+    "Develop clear timelines and actionable blueprints for transitioning from removed certification criteria to mature FHIR-based solutions.",
+    "Implement mechanisms to monitor new standards' implementation and impact on clinical workflows.",
+    "Ensure equitable distribution of costs for API development and system updates, avoiding unfunded mandates on clinicians.",
+    "Collaborate with CMS to modernize Promoting Interoperability programs to incorporate new technologies and use cases such as AI."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "Deregulation must be sequenced to protect the integrity of the existing quality infrastructure while the bridge to FHIR-native solutions is built."
+}

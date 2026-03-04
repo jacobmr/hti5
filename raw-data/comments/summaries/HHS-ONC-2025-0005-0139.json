@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0139",
+  "commenter_name": "Firely USA Inc",
+  "organization": "Firely USA Inc",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8174,
+  "org_type": "health_it_company",
+  "summary": "Firely USA Inc. supports the HTI-5 deregulatory actions to streamline certification by removing outdated criteria and reducing burden while maintaining strong interoperability standards. They urge alignment with modern FHIR-based standards, recommend technology-neutral approaches for quality reporting, and support removal of certain information blocking exceptions to enhance data access.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "fhir_standards",
+    "interoperability",
+    "clinical_quality_measures",
+    "information_blocking"
+  ],
+  "specific_provisions": [
+    "170.315(c)(3) Clinical Quality Measures",
+    "170.315(b)(1) C-CDA removal",
+    "170.315(g)(6) C-CDA removal",
+    "170.315(g)(10,31\u201333) Real World Testing",
+    "171.403 TEFCA Manner Exception removal",
+    "171.204(a)(3) Third-Party Seeking Modification Condition removal",
+    "171.204(a)(4) Manner Exception Exhausted Condition removal"
+  ],
+  "key_arguments": [
+    "Retaining QRDA-based quality reporting creates inconsistency with FHIR-forward clinical exchange and should be revised for technology neutrality.",
+    "Real World Testing criteria were previously burdensome and are improved by HTI-5, but standardized metrics are needed for meaningful results.",
+    "Removing the TEFCA Manner Exception will prevent closed networks and promote interoperability.",
+    "Removing vague information blocking exceptions will reduce misuse and improve legitimate data access."
+  ],
+  "recommendations": [
+    "Revise \u00a7170.315(c)(3) to allow compliance via QRDA or FHIR-based quality reporting and establish a sunset for QRDA.",
+    "Collaborate with HL7 and developers to define standardized Real World Testing metrics.",
+    "Remove the TEFCA Manner Exception (\u00a7171.403) to prevent closed networks.",
+    "Remove the Third-Party Seeking Modification Condition (\u00a7171.204(a)(3)) and the Manner Exception Exhausted Condition (\u00a7171.204(a)(4)) entirely."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We support ASTP/ONC\u2019s efforts to streamline the ONC Health IT Certification Program, eliminate outdated or redundant certification criteria."
+}

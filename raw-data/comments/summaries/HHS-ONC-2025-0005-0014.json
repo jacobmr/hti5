@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0014",
+  "commenter_name": "Jennifer Marshall",
+  "organization": "",
+  "posted_date": "2026-01-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4162,
+  "org_type": "other",
+  "summary": "The commenter, a patient advocate lawyer, strongly opposes the HTI-5 proposed deregulatory actions, emphasizing that audit trails and data integrity are foundational to patient safety, billing integrity, and legal accountability. She urges HHS to pause certification changes until modern, robust audit and preservation standards are established.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_integrity",
+    "patient_safety",
+    "ehi_export",
+    "ai_regulation"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "EHI export requirements",
+    "certification requirements related to data creation and preservation"
+  ],
+  "key_arguments": [
+    "Removing or weakening audit log requirements risks patient harm and undermines trust in healthcare records.",
+    "Current audit standards (ASTM E2147-18) are outdated and insufficient for modern clinical environments.",
+    "Audit trails must capture AI activities, software used, user roles, and detailed activity logs to prevent fraud and ensure transparency.",
+    "Data retention policies must ensure availability for patient care, investigations, and litigation, prohibiting ephemeral messaging."
+  ],
+  "recommendations": [
+    "Pause proposed certification changes until a modern, robust audit and preservation standard is finalized.",
+    "Update and codify standards for audit trails before deregulating certification requirements.",
+    "Prohibit ephemeral messaging or automatic destruction of data to ensure data retention.",
+    "Define clear, shared definitions for terms like ePHI, EHI, Generative AI, and Synthetic Data."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

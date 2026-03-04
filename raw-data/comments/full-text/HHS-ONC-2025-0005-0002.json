@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0002",
+  "title": "Comment from Willis, Debi, HHS_FRDOC_0001, HHS_FRDOC_0001-1013, 2025-23896",
+  "commenter_name": "Debi Willis",
+  "commenter_first": "Debi",
+  "commenter_last": "Willis",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2025-12-30T05:00:00Z",
+  "received_date": "2025-12-29T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "I request that you reconsider the proposal to remove the Consolidated CDA creation certification criterion in &sect;&thinsp;170.315(g)(6). Though FHIR may have the ability to provide discrete structured elements found in CDAs, the segmented data elements in the varying FHIR resources are not all easily and quickly located if a patient or caregiver wishes to understand \"What happened at the ER visit last night?\". To gather this information without a consolidated document, a user must look at timestamps for all resources to get a clear and complete picture of the events that happened recently. Additionally, if a user wishes to send the information to someone else, the consolidated document is the easiest resource (rather than researching and copying down multiple FHIR resources from a variety of locations). It is also my experience that consolidated documents contain valuable information for patients and caregivers that is not found in any other resource. The loss of this significant and valuable document will have a negative impact on patients and caregivers.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

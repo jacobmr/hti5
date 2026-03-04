@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0166",
+  "commenter_name": "Association for Behavioral Health and Wellness",
+  "organization": "Association for Behavioral Health and Wellness",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16453,
+  "org_type": "payer",
+  "summary": "The Association for Behavioral Health and Wellness supports modernization and burden reduction in health IT certification but urges caution in removing privacy, security, and design-related criteria due to the sensitivity of behavioral health data. They emphasize preserving Direct messaging requirements and aligning USCDI v3.1 with existing state and accreditation mandates to avoid operational challenges.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "data_privacy",
+    "audit_log_standards",
+    "direct_messaging",
+    "uscdi_data_classes",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "removal of 14 privacy and security certification criteria",
+    "audit logging",
+    "multi-factor authentication",
+    "Direct messaging certification requirements",
+    "USCDI v3.1 data class requirements",
+    "decision support interventions related to AI transparency"
+  ],
+  "key_arguments": [
+    "Behavioral health data is uniquely sensitive and requires strong privacy and security safeguards beyond HIPAA.",
+    "Removing privacy and security certification criteria may increase compliance risk and operational burden for providers and health plans.",
+    "Eliminating Direct messaging certification risks undermining a critical interoperability pathway relied upon for care coordination.",
+    "USCDI v3.1 requirements may conflict with state mandates and accreditation standards, causing fragmentation and inefficiencies."
+  ],
+  "recommendations": [
+    "Exercise caution in removing privacy, security, and design-related certification criteria to protect behavioral health information.",
+    "Preserve a baseline Direct messaging certification requirement to maintain interoperability.",
+    "Align USCDI data class requirements with existing state and accreditation mandates, especially regarding sexual orientation and gender identity data.",
+    "Focus AI transparency requirements on higher-risk applications and support industry-driven standards with provider input."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Deregulation should not unintentionally shift disproportionate compliance risk onto providers and health plans."
+}

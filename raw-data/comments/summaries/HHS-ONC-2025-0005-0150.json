@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0150",
+  "commenter_name": "Aaron Gotwalt",
+  "organization": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3672,
+  "org_type": "health_it_company",
+  "summary": "The commenters support the HTI-5 proposed deregulatory rule but recommend clarifying that 'use' of electronic health information includes automated reconciliation and deduplication from multiple sources. They argue that while data access has improved, meaningful use requires automated data usability to reduce friction and support competition.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "ai_regulation",
+    "information_blocking",
+    "fhir_standards",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "\u00a7 171.102 definition of 'use'",
+    "\u00a7 170.315(b)(2) Clinical Information Reconciliation and Incorporation",
+    "\u00a7 171.204(a)(3) Infeasibility Exception",
+    "\u00a7 171.301(a) Manner Exception",
+    "\u00a7 170.404 successor technology or standards"
+  ],
+  "key_arguments": [
+    "Access to data is largely solved but automated use, including reconciliation and deduplication, remains a gap.",
+    "Manual reconciliation requirements failed and removing them without recognizing automated reconciliation misses a key usability dimension.",
+    "Data that resists automated reconciliation creates friction that inhibits competition and switching, contrary to the Cures Act goals.",
+    "Clarifying 'use' to include automated reconciliation aligns with deregulatory goals and enforcement against anti-competitive practices."
+  ],
+  "recommendations": [
+    "Amend \u00a7 171.102 to explicitly include automated reconciliation, deduplication, and merging of electronic health information as part of 'use'.",
+    "Provide interpretive clarity that practices frustrating automated reconciliation can be evaluated under information blocking rules."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "\"Access without usability is not meaningful access. We urge ASTP/ONC to make this explicit.\""
+}

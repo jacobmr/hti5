@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0097",
+  "commenter_name": "Patient ID Now",
+  "organization": "Patient ID Now",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 7481,
+  "org_type": "advocacy_group",
+  "summary": "Patient ID Now opposes the removal of the \u00a7170.315(b)(1) Transitions of Care certification criterion because it is the only criterion referencing patient matching, which is critical for patient safety and privacy. They urge ONC to maintain this criterion until better patient matching standards or criteria are established.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "patient_safety",
+    "patient_matching",
+    "data_standards",
+    "privacy"
+  ],
+  "specific_provisions": [
+    "\u00a7170.315(b)(1) Transitions of Care",
+    "\u00a7170.315(b)(1)(iii) create",
+    "USCDI data elements",
+    "HR 2002 Patient Matching and Transparency in Certified Health IT Act of 2025",
+    "MATCH IT Act of 2025"
+  ],
+  "key_arguments": [
+    "Removing the 'create' section of Transitions of Care removes the only certification criterion referencing patient matching.",
+    "Patient matching data in CCD improves patient safety by reducing misidentification and medical errors.",
+    "Current USCDI elements lack standardized data entry formats, causing interoperability and matching challenges.",
+    "Patient misidentification leads to significant patient safety risks, privacy breaches, and financial costs."
+  ],
+  "recommendations": [
+    "Do not remove \u00a7170.315(b)(1) Transitions of Care certification criterion until alternative patient matching criteria are in place.",
+    "Adopt provisions from HR 2002 or MATCH IT Act to define a minimum data set and data standards for patient matching.",
+    "Update USCDI to facilitate better patient matching with standardized demographic data formats."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The inclusion of patient matching criteria within the continuity of care document improves patient safety and security."
+}

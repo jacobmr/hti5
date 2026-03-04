@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0016",
+  "commenter_name": "Erin Vorhees",
+  "organization": "",
+  "posted_date": "2026-01-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4881,
+  "org_type": "other",
+  "summary": "The commenter, a healthcare consumer and lawyer, expresses strong concern that the HTI-5 proposed deregulatory actions risk undermining patient safety and data integrity by removing or weakening audit trail and data preservation standards before updating foundational data standards. They urge HHS to prioritize modernizing audit trail standards and data retention policies before implementing certification deregulation.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_preservation",
+    "patient_safety",
+    "ehi_export",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "EHI export requirements",
+    "certification criteria removal"
+  ],
+  "key_arguments": [
+    "Current audit trail standards are outdated and insufficient for modern clinical environments.",
+    "Removing certification guardrails without updated data standards risks patient harm and fraud.",
+    "Audit trails must capture AI, medical device activity, software identification, and granular metadata to ensure transparency and prevent fraud.",
+    "Data retention must be durable and prohibit ephemeral messaging to maintain trustworthy records."
+  ],
+  "recommendations": [
+    "Pause proposed certification changes until modern, robust audit and preservation standards are finalized.",
+    "Prioritize revision of audit trail standards to include AI, device integration, software interoperability, and detailed activity logs.",
+    "Prohibit ephemeral messaging and require durable data retention in readable, reproducible formats.",
+    "Establish clear definitions for ePHI, EHI, Generative AI, and Synthetic Data before deregulation."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

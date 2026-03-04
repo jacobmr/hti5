@@ -1,0 +1,46 @@
+{
+  "id": "HHS-ONC-2025-0005-0185",
+  "commenter_name": "Joy Rivera",
+  "organization": "",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4166,
+  "org_type": "other",
+  "summary": "The commenter appreciates ONC/ASTP's efforts to improve interoperability and reduce burden but strongly opposes removing key Health IT Certification Program criteria that ensure patient safety. They emphasize that these criteria address critical safety risks and recommend retaining or modernizing them rather than eliminating them.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "audit_log_standards",
+    "clinical_workflow",
+    "burden_reduction",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "170.315(b)(11) Decision Support Interventions",
+    "170.315(g)(3) Safety-Enhanced Design",
+    "170.315(b)(2) Clinical Information Reconciliation and Incorporation",
+    "170.315(d)(2) Auditable Events and Tamper-Resistance",
+    "170.315(d)(1) Authentication, Access Control, and Authorization",
+    "170.315(g)(4) Quality Management System",
+    "170.315(d)(10) Auditing Actions on Health Information",
+    "170.315(b)(1) Transitions of Care",
+    "170.315(d)(13) Multi-Factor Authentication",
+    "170.315(a)(9) Clinical Decision Support",
+    "170.315(d)(3) Audit Reports",
+    "170.315(d)(5) Automatic Access Time-Out",
+    "170.315(d)(8) Integrity"
+  ],
+  "key_arguments": [
+    "Removing these criteria would reduce patient safety protections and diminish accountability across vendors and products.",
+    "These criteria address well-documented risks such as medication errors, wrong-patient events, and care transition breakdowns.",
+    "The Health IT Certification Program serves as a national baseline for safety that should not be weakened without clear evidence of risk mitigation.",
+    "Modernizing and streamlining these criteria is preferable to outright removal to reflect new technologies and care models."
+  ],
+  "recommendations": [
+    "Retain the identified safety-related certification criteria either in their current form or updated to modern standards.",
+    "Align requirements with established standards, simplify testing procedures, and clarify expectations instead of removing protections.",
+    "Ensure that interoperability and innovation progress alongside a strong commitment to patient safety."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing them would diminish the certification program\u2019s role as a safety assurance mechanism and reduce industry-wide accountability."
+}

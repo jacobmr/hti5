@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0092",
+  "commenter_name": "Mosaic Life Tech, LLC",
+  "organization": "Mosaic Life Tech, LLC",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 22941,
+  "org_type": "health_it_company",
+  "summary": "Mosaic Life Tech supports ONC's deregulatory and FHIR-forward goals but raises concerns about removing AI model card requirements, highlighting a governance readiness gap for autonomous AI access to EHI. They urge ONC to maintain organizational accountability and provide guidance and support to under-resourced providers to ensure patient safety and transparency.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "patient_safety",
+    "burden_reduction",
+    "fhir_standards",
+    "organizational_accountability"
+  ],
+  "specific_provisions": [
+    "AI model card requirements",
+    "Safety-Enhanced Design criterion (\u00a7 170.315(g)(3))",
+    "definitions of 'access' and 'use' including autonomous AI systems",
+    "information blocking exceptions (Infeasibility Exception, Manner Exception)"
+  ],
+  "key_arguments": [
+    "Removing AI model card requirements creates a transparency gap shifting burden to health systems unprepared for AI governance.",
+    "Safety-Enhanced Design is important for AI-enabled clinical decision support and should be modernized, not fully removed.",
+    "Expansion of 'access' and 'use' definitions to include autonomous AI systems introduces new governance challenges requiring guidance.",
+    "Disparities exist between well-resourced and under-resourced providers in AI governance capacity, risking widened inequities."
+  ],
+  "recommendations": [
+    "Publish non-binding guidance on reasonable organizational AI transparency practices based on HTI-1 framework.",
+    "Coordinate with The Joint Commission to align accreditation expectations with federal policy on AI transparency.",
+    "Establish a voluntary disclosure framework for developers maintaining model card-equivalent documentation.",
+    "Consider technical assistance programs similar to Regional Extension Centers to build AI governance capacity in under-resourced organizations.",
+    "Refer safety validation for AI-enabled health IT to HITAC for development of a modernized, less burdensome approach.",
+    "Clarify guidance on managing autonomous AI-mediated access under tightened information blocking exceptions, especially the Manner Exception."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Removing these requirements without a replacement mechanism creates a transparency gap that shifts the entire burden of AI tool evaluation to individual health systems."
+}

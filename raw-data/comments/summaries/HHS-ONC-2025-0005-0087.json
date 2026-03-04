@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0087",
+  "commenter_name": "Family Caregiver Alliance",
+  "organization": "Family Caregiver Alliance",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 22288,
+  "org_type": "advocacy_group",
+  "summary": "Family Caregiver Alliance supports the FHIR-first certification reset but urges inclusion of standardized caregiver data elements. They oppose removal of AI model card transparency requirements and support information blocking reforms with caregiver protections, emphasizing the need for caregiver data infrastructure in health IT.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "uscdi_data_classes",
+    "ai_regulation",
+    "interoperability",
+    "caregiver_data_inclusion"
+  ],
+  "specific_provisions": [
+    "FHIR API scope expansion",
+    "USCDI v3.1",
+    "\u00a7170.315(b)(11) AI model card transparency",
+    "Information blocking reforms"
+  ],
+  "key_arguments": [
+    "Certified EHRs currently lack standardized caregiver data elements, limiting interoperability for caregiver-inclusive care.",
+    "Removing AI transparency requirements risks harm to vulnerable populations relying on predictive decision support.",
+    "HTI-5's FHIR-first reset is an opportunity to embed caregiver data as core infrastructure, not an afterthought.",
+    "Caregiver data exchange supports cost avoidance in Medicaid HCBS programs and aligns with state and federal policies."
+  ],
+  "recommendations": [
+    "Include caregiver identification, strain assessments, and dyadic care planning data elements explicitly in FHIR API scope and future USCDI versions.",
+    "Maintain AI model card transparency requirements for predictive tools used in vulnerable populations.",
+    "Add protections for caregiver-inclusive care coordination data in information blocking reforms.",
+    "Recognize caregiver outcomes as qualifying metrics in AI reimbursement and patient safety frameworks."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "Without this inclusion, the FHIR-first certification reset will leave America\u2019s 53 million family caregivers invisible."
+}

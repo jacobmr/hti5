@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0066",
+  "commenter_name": "MLCommons",
+  "organization": "MLCommons",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 66574,
+  "org_type": "academic_research",
+  "summary": "MLCommons supports the HTI-5 proposed deregulatory actions, emphasizing that interoperability via FHIR APIs is foundational for AI-enabled healthcare and advancing the Quintuple Aim. They advocate for federated evaluation approaches to preserve data privacy while enabling robust AI assessment and urge that deregulation preserve safety guardrails for AI systems.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "fhir_standards",
+    "burden_reduction",
+    "ai_regulation",
+    "data_privacy"
+  ],
+  "specific_provisions": [
+    "FHIR-based approach",
+    "audit log requirements",
+    "EHI export",
+    "USCDI data classes",
+    "standardized API requirements"
+  ],
+  "key_arguments": [
+    "FHIR APIs enable scalable AI integration and population health analytics supporting the Quintuple Aim.",
+    "Federated evaluation platforms like MedPerf allow robust AI assessment while preserving privacy and reducing duplicative validation costs.",
+    "Open, neutral benchmarking builds clinician and patient trust and reduces costs.",
+    "Deregulation should not compromise AI safety and effectiveness, especially for high-risk clinical applications."
+  ],
+  "recommendations": [
+    "Maintain robust mechanisms for evaluating AI safety and effectiveness despite deregulation.",
+    "Support federated evaluation and benchmarking through cooperative agreements and recognition of community standards.",
+    "Continue advancing FHIR-based interoperability to enable AI integration and data sharing.",
+    "Ensure technical policies provide transparency and integrity for AI governance."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Interoperability is foundational for AI and the Quintuple Aim: The proposed FHIR-forward approach directly enables AI evaluation, benchmarking, and deployment at scale."
+}

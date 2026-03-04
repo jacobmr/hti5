@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0050",
+  "commenter_name": "SLI Compliance",
+  "organization": "SLI Compliance",
+  "posted_date": "2026-02-18T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4446,
+  "org_type": "health_it_company",
+  "summary": "SLI Compliance requests clarification and streamlining regarding Real World Testing (RWT) and SVAP reporting requirements, expresses concern about reverting to older 170.315(f)(5)(i) standards, and points out incorrect references in 170.315(e)(1). They emphasize reducing developer burden and avoiding redundant reporting.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "real_world_testing",
+    "svap_reporting",
+    "burden_reduction",
+    "certification_criteria_clarity",
+    "regulatory_consistency"
+  ],
+  "specific_provisions": [
+    "45 CFR 170.405(a) Real World Testing",
+    "170.315(f)(5)",
+    "170.315(e)(1) references",
+    "SVAP reporting requirements"
+  ],
+  "key_arguments": [
+    "Requiring RWT Results Reports solely to indicate SVAP info already on CHPL is redundant and burdensome.",
+    "Reverting to 170.315(f)(5)(i) standards after developers attest to (f)(5)(ii) creates unnecessary burden and confusion.",
+    "Clarification is needed on which SVAP standards must be reported in RWT Results Reports.",
+    "Incorrect references in 170.315(e)(1) ambulatory and inpatient settings should be corrected."
+  ],
+  "recommendations": [
+    "Limit SVAP information inclusion in RWT Results Reports to criteria g10 and g31-33 only.",
+    "Do not require RWT Results Reports for non-API criteria solely for SVAP reporting.",
+    "Maintain 170.315(f)(5)(ii) requirements without reverting to (f)(5)(i), consistent with Enforcement Discretion.",
+    "Correct the ambulatory and inpatient setting references in 170.315(e)(1)."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "We question the value of requiring developers to submit a Real World Test Results Report containing only that same information."
+}

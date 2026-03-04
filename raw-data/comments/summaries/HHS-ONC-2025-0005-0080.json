@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0080",
+  "commenter_name": "Keith Boone",
+  "organization": "",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4538,
+  "org_type": "other",
+  "summary": "The commenter generally supports the deregulatory actions in HTI-5, believing removed criteria reflect widely adopted or unused features. However, they argue ONC underestimates the true cost of rule review and overestimates savings from deregulatory actions.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "cost_estimates",
+    "ccda_removal",
+    "certification_costs",
+    "rule_review_burden"
+  ],
+  "specific_provisions": [
+    "Consolidated CDA (C-CDA) creation certification criterion",
+    "audit log requirements",
+    "EHI export requirements",
+    "USCDI data class requirements"
+  ],
+  "key_arguments": [
+    "Removed criteria mostly represent features already widely adopted or never adopted, so impact of removal is limited.",
+    "ONC underestimates the cost and time burden on reviewers of the HTI-5 rule.",
+    "ONC overestimates cost savings from deregulatory actions by assuming savings in development rather than maintenance.",
+    "Most certification costs are from recertification and maintenance, not initial development of removed features."
+  ],
+  "recommendations": [
+    "Provide clearer rationale in prefatory content explaining the reasons for removals and 'mission accomplished' status.",
+    "Reassess and increase estimated costs for rule review to better reflect actual reviewer time and effort.",
+    "Reevaluate savings estimates to focus on realistic reductions in recertification effort rather than development costs."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "The removed criteria either represent a capability unlikely to disappear or was never really adopted in the first place."
+}

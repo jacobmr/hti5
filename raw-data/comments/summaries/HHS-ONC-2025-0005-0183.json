@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0183",
+  "commenter_name": "Radiological Society of North America",
+  "organization": "Radiological Society of North America",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 6961,
+  "org_type": "professional_association",
+  "summary": "The Radiological Society of North America supports the HTI-5 deregulatory actions to reduce burden and encourage innovation, particularly agreeing with removing prescriptive AI transparency requirements. They emphasize the need for standardized, clinically relevant disclosures for AI decision support and urge inclusion of diagnostic imaging in interoperability standards and USCDI expansions.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "burden_reduction",
+    "fhir_standards",
+    "interoperability",
+    "uscdi_data_classes"
+  ],
+  "specific_provisions": [
+    "Care Coordination Certification Criteria for Decision Support Interventions",
+    "source data transparency requirements (HTI-1)",
+    "HL7 FHIR and FHIR-based APIs",
+    "USCDI expansion",
+    "Health IT Certification Program"
+  ],
+  "key_arguments": [
+    "Prescriptive AI transparency formats impose burdens without meaningful user benefit",
+    "Standardized model cards with clinically actionable disclosures improve trust and responsible AI use",
+    "Diagnostic imaging must be recognized as fundamental EHI and included in interoperability and certification standards",
+    "Alignment of AI transparency requirements across all healthcare AI systems is necessary"
+  ],
+  "recommendations": [
+    "Adopt standardized model cards for AI-based decision support with key clinical disclosures",
+    "Expand USCDI and Health IT Certification Program to include medical imaging data and DICOM/FHIR integration",
+    "Coordinate with federal partners to align AI transparency policies across healthcare",
+    "Provide clear guidance on using FHIR-based APIs to access diagnostic images"
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "RSNA strongly encourages ASTP/ONC to recognize that clinically relevant disclosures improve transparency and build trust in AI."
+}

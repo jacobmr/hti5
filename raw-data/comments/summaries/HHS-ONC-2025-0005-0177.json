@@ -1,0 +1,44 @@
+{
+  "id": "HHS-ONC-2025-0005-0177",
+  "commenter_name": "American Hospital Association",
+  "organization": "American Hospital Association",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 22186,
+  "org_type": "professional_association",
+  "summary": "The American Hospital Association supports the goal of transitioning to FHIR-based certification but urges realistic timelines and retention of C-CDA criteria to protect rural providers. They recommend preserving certain certification criteria related to privacy, security, decision support, and transitions of care to ensure patient safety and interoperability. The AHA also calls for maintaining current information blocking definitions and exceptions while repealing excessive provider disincentives.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "burden_reduction",
+    "patient_safety",
+    "privacy_and_security",
+    "decision_support_interventions",
+    "transitions_of_care",
+    "information_blocking"
+  ],
+  "specific_provisions": [
+    "removal of Consolidated Clinical Data Architecture (C-CDA) criteria",
+    "transition to FHIR-based certification criteria",
+    "decision support interventions (DSI) criterion",
+    "transitions of care certification criterion",
+    "privacy and security certification criteria",
+    "information blocking definition and third-party seeking modification exception"
+  ],
+  "key_arguments": [
+    "Transitioning exclusively to FHIR-based standards requires realistic timelines due to technical and provider readiness challenges, especially for rural and smaller hospitals.",
+    "Removing C-CDA criteria risks degrading baseline exchange functionality and may impose additional costs on providers, harming interoperability and patient care.",
+    "Certain certification criteria, such as decision support interventions and transitions of care, are critical for transparency, patient safety, and effective data exchange and should be retained.",
+    "Maintaining current privacy, security, and information blocking provisions is essential to protect patient safety and prevent inappropriate data modifications."
+  ],
+  "recommendations": [
+    "Develop a reasonable glidepath with at least 24 months for transitioning to FHIR-based certification criteria.",
+    "Retain C-CDA-based certification criteria to support providers reliant on this framework and avoid additional vendor fees.",
+    "Preserve current privacy and security certification criteria as well as decision support interventions and transitions of care criteria.",
+    "Retain the information blocking definition and the third-party seeking modification infeasibility exception.",
+    "Evaluate impacts of AI integration into information blocking definitions before updating and repeal excessive provider disincentives."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "We urge the agency to pursue realistic timelines and not set arbitrary certification criteria migration dates."
+}

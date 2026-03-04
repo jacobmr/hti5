@@ -1,0 +1,31 @@
+{
+  "id": "HHS-ONC-2025-0005-0071",
+  "commenter_name": "Lauge Sokol-Hessner",
+  "organization": "",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1372,
+  "org_type": "individual_clinician",
+  "summary": "The commenter, a practicing physician, urges ONC/ASTP to retain usability testing and safety-focused design certification criteria for EHRs, emphasizing that these are critical for patient safety. They argue that removing these requirements risks increased errors, clinician burden, and patient harm.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "usability",
+    "burden_reduction",
+    "clinical_workflow",
+    "certification_requirements"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Poorly designed EHR interfaces contribute to medication errors, incorrect orders, and diagnostic delays.",
+    "Usability testing and safety practices in certification protect patients and clinicians from harm.",
+    "Removing these requirements to reduce burden may increase adverse events, malpractice risk, and clinician burnout.",
+    "Safety and burden reduction can coexist through thoughtful usability standards."
+  ],
+  "recommendations": [
+    "Preserve usability and safety-focused certification requirements for EHR systems.",
+    "Do not eliminate usability testing and safety design criteria in the name of burden reduction."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "EHR usability is not an abstract concern, it is a patient safety issue."
+}

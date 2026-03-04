@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0088",
+  "title": "Comment from Rocha, David, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "David Rocha",
+  "commenter_first": "David",
+  "commenter_last": "Rocha",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "received_date": "2026-02-25T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "The remaining US states that are not live on FHIR APIs need acceleration to adopt and align with the latest FHIR IGs at scale (such as the Da Vinci FHIR IGs, CARIN Alliance FHIR IGs, Gravity Project FHIR IGs) to catalyze nationwide interoperability in Medicaid interoperability infrastructure.\n\nThe remaining US territories that are not live on FHIR APIs will also need acceleration to adopt and align with the latest FHIR IGs at scale.\n\nCMS and ASTP/ONC need to monitor FHIR IG adoption by US states and territories.\n\nSome of the potential areas can include:\nHow many states are adopting the latest Da Vinci (such as PDex, CDex, PCT) and CARIN IGs?\nOnly ___ / 50 states have adopted Da Vinci CDex IG\n____ / 50 states have adopted Da Vinci Postable Remittance IG\n_____ / 50 states have adopted CARIN Digital insurance cards IG\nThe same questions can be applied to US territories:\nOnly ___ / 6 territories have adopted Da Vinci Plan Net/Directory IG\n___ / 6 territories have adopted CARIN Real time pharmacy benefit check (RTPBC) IG\n____ / 6 territories have adopted Gravity SDOH Clinical Care IG",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

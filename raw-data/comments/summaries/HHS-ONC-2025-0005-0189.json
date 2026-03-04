@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0189",
+  "commenter_name": "CRISP Shared Services, Inc.",
+  "organization": "CRISP Shared Services, Inc.",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16077,
+  "org_type": "other",
+  "summary": "CRISP Shared Services, Inc. generally supports ONC/ASTP's deregulatory approach focusing on value and outcomes rather than technical criteria, while emphasizing enforcement of Information Blocking rules. They support clarifications on automated access/use of EHI but oppose removal of the 'third party seeking modification use' exception and caution against the proposed definition of 'contract of adhesion' which could disrupt existing interoperability agreements.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "information_blocking",
+    "contractual_fairness",
+    "ai_regulation",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "Information Blocking framework",
+    "third party seeking modification use exception",
+    "Manner Exception Exhausted condition (\u00a7 171.301)",
+    "contract of adhesion definition",
+    "FAVES guidance (45 CFR \u00a7 170.315(b)(11))"
+  ],
+  "key_arguments": [
+    "Overregulation stifles innovation and shifts focus from patient care to compliance.",
+    "Automated technologies accessing EHI must comply with existing privacy and security standards.",
+    "The 'third party seeking modification use' exception is necessary to ensure data accuracy and should not be removed without clear guidance.",
+    "The proposed broad definition of 'contract of adhesion' threatens foundational interoperability agreements and could be presumed as information blocking."
+  ],
+  "recommendations": [
+    "Retain the 'third party seeking modification use' exception or provide explicit guidance on applying Security and Preventing Harm exceptions if removed.",
+    "Maintain the Manner Exception Exhausted condition with proposed clarifications to prevent abuse.",
+    "If defining 'contract of adhesion,' adopt the common law definition rather than creating a new standard to preserve trust in interoperability agreements.",
+    "Continue monitoring AI tools to ensure alignment with FAVES principles."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "CMS and ONC/ASTP should drive value rather than regulating standards and software and enforce its rules when those who should be sharing data do not."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0077",
+  "commenter_name": "Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 5861,
+  "org_type": "advocacy_group",
+  "summary": "The Pennsylvania Association for Justice opposes the HTI-5 proposed deregulatory actions, emphasizing that removing or weakening audit trail and certification requirements risks compromising patient safety, data integrity, and fraud prevention. They call for updated, enforceable audit trail standards before any deregulation.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "fraud_prevention",
+    "ehi_access"
+  ],
+  "specific_provisions": [
+    "170.315(d)(10)",
+    "170.315(d)(2)",
+    "170.315(d)(3)",
+    "170.315(b)(11)",
+    "170.315(g)(3)",
+    "170.102 (provider chat platforms)"
+  ],
+  "key_arguments": [
+    "Audit trails are essential to verify medical record integrity and prevent fraud.",
+    "Current audit trail standards are outdated and must be modernized before deregulation.",
+    "Removing certification requirements without updated safeguards risks patient harm and loss of trust.",
+    "Data retention policies must prohibit ephemeral messaging and ensure data availability for care and legal needs."
+  ],
+  "recommendations": [
+    "Update and codify audit trail standards to include AI, medical device integration, software identification, and granular metadata.",
+    "Ensure audit trails capture detailed user activities such as copy-paste and deletions.",
+    "Prohibit ephemeral messaging and automatic data destruction.",
+    "Define provider chat platforms as Electronic Health Information under section 170.102.",
+    "Maintain existing certification requirements (sections 170.315(d)(10), (d)(2), (d)(3), (b)(11), and (g)(3)) until safeguards are in place."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are essential to patient safety and accountability."
+}

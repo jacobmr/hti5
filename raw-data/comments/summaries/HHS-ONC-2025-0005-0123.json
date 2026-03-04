@@ -1,0 +1,43 @@
+{
+  "id": "HHS-ONC-2025-0005-0123",
+  "commenter_name": "Texas Health Services Authority",
+  "organization": "Texas Health Services Authority",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10028,
+  "org_type": "other",
+  "summary": "The Texas Health Services Authority supports the goal of reducing burden and encouraging innovation but strongly opposes removing or reducing certification requirements, citing risks to data quality, interoperability, and increased provider burden. They emphasize the importance of maintaining standards and certification to ensure data integrity, comparability, and support for clinical workflows.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "audit_log_standards",
+    "ehi_export",
+    "interoperability",
+    "vendor_burden",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "Consolidated CDA creation performance",
+    "audit log requirements",
+    "EHI export requirements",
+    "Direct Project, Edge Protocol and XDR/XDM",
+    "Clinical Quality Measures",
+    "Automated numerator recording",
+    "Automated measure calculation",
+    "Quality management system"
+  ],
+  "key_arguments": [
+    "Removing standards and certifications will increase burden due to proprietary standards requiring multiple mappings.",
+    "Lack of certification oversight shifts data integrity responsibility solely to providers, increasing their administrative costs.",
+    "Removing certification risks data incompatibility, undermines trust, and negatively impacts measure calculation and program effectiveness.",
+    "Vendors may only implement minimum requirements, limiting innovation and support for stable, integrated workflows."
+  ],
+  "recommendations": [
+    "Maintain certification requirements and restructure administrative processes to reduce burden without removing standards.",
+    "Revise vendor certification to include status of implemented and deployed features.",
+    "Include community-based organization vendors and vendors supporting Medicare-funded organizations in certification.",
+    "Provide incentives for organizations to use certified products."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "If the intent is to reduce burden, removing standards and certifications will increase burden rather than reduce it."
+}

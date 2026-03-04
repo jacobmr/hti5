@@ -1,0 +1,43 @@
+{
+  "id": "HHS-ONC-2025-0005-0195",
+  "commenter_name": "Cleveland Clinic",
+  "organization": "Cleveland Clinic",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 22096,
+  "org_type": "health_system",
+  "summary": "Cleveland Clinic supports removing outdated certification criteria to reduce burden but urges retention of key privacy and security protections, especially audit logging and DS4P capabilities. They support adopting USCDI v3.1 for privacy but caution against removing AI transparency requirements and emphasize continued enforcement of security standards despite deregulatory actions.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "data_privacy",
+    "audit_log_standards",
+    "ai_regulation",
+    "uscdi_data_classes"
+  ],
+  "specific_provisions": [
+    "\u00a7170.315(d) privacy and security certification criteria",
+    "\u00a7170.315(b)(7)-(8) DS4P security tags",
+    "\u00a7170.315(b)(11) decision support interventions (DSI) AI transparency",
+    "USCDI v3.1",
+    "\u00a7170.205(o) DS4P standard",
+    "\u00a7170.202(a)(2) Direct Project transport standard",
+    "Conditions and Maintenance of Certification (\u00a7170.402, \u00a7170.404, \u00a7170.406, \u00a7170.405, \u00a7170.407)"
+  ],
+  "key_arguments": [
+    "Removing all privacy and security certification criteria risks operational security and vendor baseline drift, especially for smaller vendors.",
+    "Eliminating DS4P send/receive criteria without a transition risks inadvertent redisclosure of sensitive data protected under 42 CFR Part 2 and state laws.",
+    "Removing AI transparency and risk management reduces ability to evaluate bias and patient safety as AI adoption grows.",
+    "Adopting USCDI v3.1 reduces exposure of sensitive data but SOGI data should still be collectable with consent."
+  ],
+  "recommendations": [
+    "Retain or embed minimum security requirements such as audit logging, event integrity, and enterprise monitoring in certification criteria.",
+    "Maintain at least partial DS4P capabilities or provide a transition roadmap until scalable FHIR-based security labeling is available.",
+    "Consider a voluntary 'Advanced Transparency' designation for AI to promote governance without universal mandates.",
+    "Coordinate with FDA and OCR to ensure AI governance continues via other channels if transparency requirements are removed.",
+    "Remind developers to follow industry best practices (e.g., NIST) for security even if standards are removed from CFR.",
+    "Monitor interoperability outcomes through alternative feedback mechanisms despite reduced formal testing requirements."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Regulatory burden reduction should not mean diminishing important protective measures that ensure the privacy and security of health information."
+}

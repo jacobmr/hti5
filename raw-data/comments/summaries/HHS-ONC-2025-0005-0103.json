@@ -1,0 +1,44 @@
+{
+  "id": "HHS-ONC-2025-0005-0103",
+  "commenter_name": "Minnesota e-Health Initiative",
+  "organization": "Minnesota e-Health Initiative",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 35436,
+  "org_type": "advocacy_group",
+  "summary": "The Minnesota e-Health Initiative supports interoperability and burden reduction but strongly opposes deregulatory actions that remove AI transparency, privacy, security, and audit log requirements, citing risks to patient safety, privacy, and equity. They urge maintaining key certification criteria and pairing policy changes with funding and support for under-resourced settings.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "data_privacy",
+    "audit_log_standards",
+    "uscdi_data_classes",
+    "fhir_standards",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "removal of AI model card and transparency requirements",
+    "removal of privacy and security certification criteria",
+    "removal or reduction of audit log requirements",
+    "proposed adoption of USCDI v3.1 with removal of key demographic elements",
+    "removal of C-CDA and Direct certification criteria without FHIR readiness",
+    "removal of public health-related certification criteria (e.g., cancer registry transmission)",
+    "revisions to information blocking definitions and exceptions"
+  ],
+  "key_arguments": [
+    "Removing transparency and risk management shifts responsibility from vendors to providers who lack resources to evaluate AI tools safely.",
+    "Eliminating privacy and security certification risks widening digital trust gaps and leaves providers without necessary vendor capabilities.",
+    "Removing audit log requirements could leave providers legally vulnerable without technical support from health IT products.",
+    "Lack of demographic data in USCDI v3.1 and removal of public health criteria may worsen health disparities and impair public health functions."
+  ],
+  "recommendations": [
+    "Maintain AI transparency and risk management certification criteria including model cards.",
+    "Retain privacy and security certification requirements to ensure baseline protections.",
+    "Keep audit log related certification criteria to support HIPAA compliance.",
+    "Ensure USCDI includes key demographic data elements to support equity and public health.",
+    "Delay removal of C-CDA and Direct criteria until widespread FHIR readiness is achieved.",
+    "Pair deregulatory policy changes with funding and implementation support for under-resourced providers."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The proposed deregulatory changes risk shifting responsibility for AI safety, clinical decision support reliability, cybersecurity, and legal accountability from regulated health IT developers to provider organizations."
+}

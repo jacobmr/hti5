@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0067",
+  "title": "Comment from Watts, Chloe , HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Chloe Watts",
+  "commenter_first": "Chloe",
+  "commenter_last": "Watts",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "received_date": "2026-02-23T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "I support ONC&rsquo;s goals of reducing unnecessary regulatory burden, fostering innovation, and advancing interoperable access to electronic health information, including the long\u2011term vision of a FHIR\u2011enabled, API\u2011driven ecosystem. However, I am concerned that this proposed rule removes critical certification, reporting, and public health infrastructure safeguards before replacement capabilities are operationally ready at scale.\nFHIR\u2011based access alone does not equate to readiness for downstream use cases such as public health surveillance, reporting, and emergency response. The success of a FHIR\u2011forward strategy depends not only on data availability, but also on the readiness of receiving systems, governance, workforce capacity, and operational workflows. Many state, local, territorial, and tribal public health agencies are not yet positioned to reliably receive and operationalize FHIR\u2011based reporting at scale, and existing CDA\u2011based or hybrid pipelines remain essential for continuity.\nThe proposed removal or weakening of public health certification criteria and reporting transparency risks data gaps, reduced situational awareness, and uneven impacts across jurisdictions with differing levels of technical capacity. Modernization should not come at the expense of continuity, particularly during public health emergencies.\nI am also concerned about the implicit retirement or de\u2011emphasis of the CDC&rsquo;s Vocabulary Access and Distribution System (PHIN/VADS). PHIN/VADS remains a critical operational dependency for jurisdictions and immunization information systems, and is relied upon regularly&mdash;often daily&mdash;to guide implementation decisions, resolve vocabulary questions, align reporting expectations, and support active technical discussions with providers and vendors. Retiring or allowing PHIN/VADS\u2011dependent workflows to atrophy before a fully operational, authoritative, and jurisdiction\u2011ready substitute is available risks fragmentation, inconsistent interpretation of standards, and regression in public health reporting quality. PHIN/VADS or an equivalent service should remain available until states and public health agencies confirm that replacement solutions fully meet their technical and governance needs.\nThe proposed rule emphasizes access to electronic health information while reducing requirements that historically supported reliability, usability, safety, and accountability once data is exchanged. This shift from outcome assurance to access assurance introduces risk for both clinical care and public health, particularly for under\u2011resourced providers and jurisdictions that rely on certification as a baseline safeguard.\nI urge ONC to adopt a phased, readiness\u2011based approach to deregulation. Removal of public health and reporting\u2011related certification requirements should be conditioned on demonstrated readiness and sustained operational capability. A minimal, enforceable public health reporting baseline should be maintained during the transition, along with limited transparency measures that assess whether public health data exchange is actually occurring, not merely whether APIs exist.\nI support ONC&rsquo;s modernization goals, but modernization must proceed in a way that preserves patient safety, public health continuity, and equity while acknowledging current operational realities.\n\nThank you for the opportunity to comment. This comment reflects my personal professional perspective and does not represent the views of my employer or any affiliated organization.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

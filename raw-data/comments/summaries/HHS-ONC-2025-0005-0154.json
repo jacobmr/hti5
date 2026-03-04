@@ -1,0 +1,48 @@
+{
+  "id": "HHS-ONC-2025-0005-0154",
+  "commenter_name": "Anesthesia Patient Safety Foundation",
+  "organization": "Anesthesia Patient Safety Foundation",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 7801,
+  "org_type": "professional_association",
+  "summary": "The Anesthesia Patient Safety Foundation strongly opposes the removal of key health IT certification criteria proposed in HTI-5, emphasizing that these safety-related standards were established in response to real patient harm and remain essential. They argue that deregulation risks eroding critical safety protections, particularly in high-risk clinical environments, and that interoperability does not replace intrinsic product safety.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "audit_log_standards",
+    "authentication_and_access_control",
+    "clinical_decision_support_transparency",
+    "quality_management_system",
+    "interoperability",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "170.315(g)(3) Safety-Enhanced Design",
+    "170.315(g)(4) Quality Management System",
+    "170.315(d)(2) audit logs",
+    "170.315(d)(3) tamper-resistance",
+    "170.315(d)(10) audit logs",
+    "170.315(d)(1) authentication",
+    "170.315(d)(13) multi-factor access control",
+    "170.315(b)(11) CDS source attribution"
+  ],
+  "key_arguments": [
+    "Certification criteria were implemented in direct response to documented patient harm and are essential safety interventions.",
+    "Widespread adoption of safety features is due to certification requirements, not a reason to remove them.",
+    "Security controls such as authentication and audit logs are critical safety measures, not just privacy protections.",
+    "Removing these criteria would weaken enforcement mechanisms and risk creating a two-tier market with uneven safety standards."
+  ],
+  "recommendations": [
+    "Retain Safety-Enhanced Design requirement (170.315(g)(3)) in full.",
+    "Retain Quality Management System requirement (170.315(g)(4)).",
+    "Retain audit log and tamper-resistance requirements (170.315(d)(2), (d)(3), (d)(10)).",
+    "Retain authentication and multi-factor access control requirements (170.315(d)(1), (d)(13)).",
+    "Retain CDS source attribution and funding transparency requirements (170.315(b)(11)).",
+    "Reject the 'widespread adoption' rationale for removing safety requirements.",
+    "Clearly distinguish between interoperability validation and intrinsic product safety.",
+    "Preserve enforcement mechanisms that protect patients and public resources."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing core safety criteria shifts verification burdens onto organizations least equipped to perform independent evaluation."
+}

@@ -1,0 +1,46 @@
+{
+  "id": "HHS-ONC-2025-0005-0210",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3385,
+  "org_type": "academic_research",
+  "summary": "The commenter opposes the removal of key Health IT certification criteria in the HTI-5 proposed rule, emphasizing their critical role in patient safety and accountability. They recommend maintaining or optimizing these criteria rather than eliminating them to ensure continued safety safeguards in health IT systems.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "audit_log_standards",
+    "clinical_workflow",
+    "quality_management",
+    "authentication"
+  ],
+  "specific_provisions": [
+    "170.315(b)(11) Decision Support Interventions",
+    "170.315(g)(3) Safety-Enhanced Design",
+    "170.315(b)(2) Clinical Information Reconciliation and Incorporation",
+    "170.315(d)(2) Auditable Events and Tamper-Resistance",
+    "170.315(d)(1) Authentication, Access Control, and Authorization",
+    "170.315(g)(4) Quality Management System",
+    "170.315(d)(10) Auditing Actions on Health Information",
+    "170.315(b)(1) Transitions of Care",
+    "170.315(d)(13) Multi-Factor Authentication",
+    "170.315(a)(9) Clinical Decision Support",
+    "170.315(d)(3) Audit Reports",
+    "170.315(d)(5) Automatic Access Time-Out",
+    "170.315(d)(8) Integrity"
+  ],
+  "key_arguments": [
+    "Removing these criteria would weaken safety assurance and reduce accountability in health IT systems.",
+    "These certification criteria mitigate known patient safety risks such as medication errors and wrong-patient events.",
+    "The Health IT Certification Program provides a critical national safety floor ensuring baseline protections.",
+    "Optimization is preferable to elimination, as safety risks remain and no superior alternatives are demonstrated."
+  ],
+  "recommendations": [
+    "Maintain the current certification criteria related to patient safety.",
+    "Optimize and modernize criteria to align with evolving technologies and care delivery models rather than removing them.",
+    "Streamline testing processes and harmonize with existing standards without eliminating foundational safeguards."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing HTI-5 protections would weaken the certification program\u2019s role as a safety assurance mechanism."
+}

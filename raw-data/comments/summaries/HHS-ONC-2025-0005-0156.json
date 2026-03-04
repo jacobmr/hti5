@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0156",
+  "commenter_name": "Healthcare Trust Institute",
+  "organization": "Healthcare Trust Institute",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 22971,
+  "org_type": "advocacy_group",
+  "summary": "Healthcare Trust Institute supports ONC's deregulatory efforts to reduce burden and promote FHIR-based interoperability but urges caution to preserve provider trust, patient safety, and baseline privacy/security safeguards. They emphasize the need for consistent governance norms, practical AI transparency, and balanced privacy/security certification to avoid shifting risks to providers.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "privacy_security",
+    "ai_regulation",
+    "burden_reduction",
+    "interoperability",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "45 CFR \u00a7170.315(g)(10) FHIR-based APIs",
+    "privacy and security certification criteria removal",
+    "audit log requirements",
+    "AI transparency/model card requirements",
+    "HTI-1 enforcement discretion policies"
+  ],
+  "key_arguments": [
+    "FHIR APIs should enable bidirectional data exchange with clinician oversight to reduce burden and errors.",
+    "Removing all privacy and security certification risks shifting compliance burdens to providers, especially smaller ones.",
+    "AI transparency requirements, like model cards, support safe and responsible AI adoption and should be retained voluntarily.",
+    "A common set of governance and accountability norms is needed in a deregulated FHIR ecosystem to maintain trust and reduce risk."
+  ],
+  "recommendations": [
+    "Develop a common, possibly voluntary, framework for FHIR implementation consistency, governance, and accountability.",
+    "Retain or offer voluntary modular privacy and security certification approaches to preserve baseline assurances.",
+    "Maintain audit-related certification requirements to support oversight and trust.",
+    "Consider retaining a voluntary AI transparency framework to support responsible AI use without undue burden."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "A common set of rules would support trust, scalability, and sustainable partnerships in a FHIR-enabled environment."
+}

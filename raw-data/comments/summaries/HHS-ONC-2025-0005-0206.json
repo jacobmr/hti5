@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0206",
+  "commenter_name": "National Association of Chain Drug Stores",
+  "organization": "National Association of Chain Drug Stores",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 11474,
+  "org_type": "professional_association",
+  "summary": "The National Association of Chain Drug Stores supports ONC's efforts to modernize health IT certification and streamline information blocking regulations but emphasizes the need to fully integrate community pharmacies into interoperability frameworks. They advocate for clarifications to support AI-enabled data flows, bidirectional FHIR-based exchange, and removal of contractual and technical barriers to pharmacy participation in health data exchange.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "ai_regulation",
+    "fhir_standards",
+    "information_blocking",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "Information Blocking exceptions",
+    "Infeasibility Exception",
+    "Manner Exception",
+    "TEFCA participation",
+    "FHIR-based APIs"
+  ],
+  "key_arguments": [
+    "Pharmacies are critical healthcare access points and must be fully integrated into national interoperability efforts to improve care coordination and patient safety.",
+    "Clarifying that automated and AI-enabled data flows qualify as permissible 'use' will reduce ambiguity and support scalable pharmacy workflows.",
+    "Removing or narrowing certain Information Blocking exceptions will prevent misuse of unfair contractual terms and reduce barriers to bidirectional data exchange.",
+    "Clear guidance on TEFCA participation is needed to protect good-faith pharmacy involvement and sustain confidence in national exchange frameworks."
+  ],
+  "recommendations": [
+    "Finalize clarification that 'access,' 'exchange,' and 'use' include automated and AI-enabled data flows.",
+    "Ensure FHIR-based interoperability supports structured, bidirectional exchange aligned with pharmacy workflows.",
+    "Fully integrate pharmacies into national health information exchange frameworks including TEFCA and federal incentive programs.",
+    "Narrow Information Blocking exceptions to prevent misuse of unfair contracts.",
+    "Remove the 'third party seeking modification use' condition under the Infeasibility Exception.",
+    "Overhaul or eliminate the 'manner exception exhausted' condition to prevent reliance on nominal alternative manners.",
+    "Provide guidance protecting good-faith pharmacy participation in TEFCA to avoid enforcement risk."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Pharmacies are essential partners in delivering coordinated, patient-centered care."
+}

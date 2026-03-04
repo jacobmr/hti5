@@ -1,0 +1,56 @@
+{
+  "id": "HHS-ONC-2025-0005-0136",
+  "commenter_name": "Texas Medical Association",
+  "organization": "Texas Medical Association",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 13604,
+  "org_type": "professional_association",
+  "summary": "The Texas Medical Association opposes many of the proposed deregulatory actions in HTI-5, arguing that removing key certification criteria risks patient safety, interoperability, and consistent quality of care. They urge ONC to amend rather than remove criteria to reduce burden while maintaining essential standards.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "clinical_decision_support",
+    "care_coordination",
+    "patient_safety",
+    "fhir_standards",
+    "public_health_reporting",
+    "usability",
+    "certification_burden"
+  ],
+  "specific_provisions": [
+    "170.315(a)(9) Clinical Decision Support",
+    "170.315(a)(5) Family Health History",
+    "170.315(b)(2) Clinical information reconciliation and incorporation",
+    "170.315(b)(9) Care plan",
+    "170.315(g)(7) Application access \u2013 Patient selection",
+    "170.315(g)(9) Application access \u2013 All data request",
+    "170.315(b)(11) Decision Support Interventions",
+    "170.315(c)(4) Clinical quality measure \u2013 Filter",
+    "170.315(g)(1) Automated numerator recording",
+    "170.315(g)(2) Automated measure calculation",
+    "170.315(g)(3) Safety Enhanced Design",
+    "170.315(g)(6) Consolidated CDA Creation Performance",
+    "170.315(f)(4) Transmission to cancer registries",
+    "170.315(f)(5) Transmission to public health agencies \u2013 Electronic case reporting",
+    "170.315(f)(6) Transmission to public health agencies \u2013 Antimicrobial use and resistance reporting",
+    "170.315(f)(7) Transmission to public health agencies \u2013 Health care surveys"
+  ],
+  "key_arguments": [
+    "Removing certification criteria risks fragmentation of EHR market and loss of baseline safety, usability, and interoperability.",
+    "Certification provides a durable accountability framework critical for meeting federal program requirements like MIPS.",
+    "Eliminating criteria such as clinical information reconciliation and decision support transparency compromises patient safety.",
+    "Transitioning fully to FHIR standards is premature; legacy standards like C-CDA remain essential for care coordination."
+  ],
+  "recommendations": [
+    "Retain and update clinical decision support criteria to reflect AI and machine learning advances rather than removing them.",
+    "Maintain family health history certification to preserve vital structured data for continuity of care.",
+    "Do not eliminate care coordination and reconciliation criteria to ensure reliable data exchange and patient safety.",
+    "Preserve design and performance criteria to maintain measurement reliability and reduce risk of misreporting.",
+    "Retain safety-enhanced design criteria to ensure usability and patient safety are prioritized.",
+    "Keep consolidated CDA creation performance criteria until FHIR standards are ubiquitously adopted.",
+    "Retain public health certification criteria to avoid reporting gaps during transition to FHIR-based reporting."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing certification requirements risks a fragmented EHR market with variable safety, usability, and exchange capabilities."
+}

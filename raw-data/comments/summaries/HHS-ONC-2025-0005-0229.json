@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0229",
+  "commenter_name": "The Medical Group Management Association (MGMA)",
+  "organization": "The Medical Group Management Association (MGMA)",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 41413,
+  "org_type": "professional_association",
+  "summary": "MGMA supports reducing regulatory burden on health IT developers but expresses concern that removing many certification criteria too quickly could shift costs and compliance burdens to medical groups, disrupt workflows, and risk patient safety. They recommend extending timelines for removal of key criteria like C-CDA to ensure market and practice stability and advocate for phased, evidence-based transitions with input from advisory bodies.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ccda_removal",
+    "burden_reduction",
+    "clinical_workflow",
+    "fhir_standards",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "C-CDA creation certification criterion",
+    "removal of 34 certification criteria",
+    "FHIR-based API ecosystem",
+    "Health IT Alignment Program"
+  ],
+  "key_arguments": [
+    "Rapid removal of certification criteria risks shifting costs and compliance burdens downstream to medical groups.",
+    "Loss of 'out-of-the-box' EHR functionality may require renegotiation of EHR contracts and disrupt clinical workflows.",
+    "Extending timelines for removal, especially for C-CDA, will support market stability and reduce disruption to care.",
+    "Trust, governance, and consistency are essential as the program transitions to FHIR-based interoperability."
+  ],
+  "recommendations": [
+    "Establish a phased, strategic, longer-term timeline for removal of non-redundant certification criteria.",
+    "Conduct further analysis and seek input from the Health IT Advisory Committee before finalizing large-scale removals.",
+    "Ensure continued reliable support for document-based exchange during transition away from C-CDA.",
+    "Leverage the Health IT Alignment Program to address credentialing inefficiencies and promote standardized data use."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Eliminating C-CDA certification requirements without ensuring these functions remain reliably supported risks increasing manual workflows."
+}

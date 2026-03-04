@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0102",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1413,
+  "org_type": "other",
+  "summary": "The commenter emphasizes the critical importance of data retention and preservation standards, opposing the removal of key certification criteria related to audit logs and data reproducibility. They urge HHS to prohibit ephemeral messaging and modernize data preservation standards before any deregulation occurs to ensure patient safety and prevent fraud.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_preservation",
+    "patient_safety",
+    "ehi_export",
+    "regulatory_enforcement"
+  ],
+  "specific_provisions": [
+    "170.315(d)(10)",
+    "170.315(d)(2)",
+    "170.315(d)(3)",
+    "170.315(b)(11)",
+    "170.315(g)(3)"
+  ],
+  "key_arguments": [
+    "Accurate data retention is essential for patient care, investigations, and legal compliance.",
+    "Ephemeral messaging or automatic data deletion must be prohibited to preserve data integrity.",
+    "Data preservation standards must be modernized and enforced before deregulating certification.",
+    "Removing audit trail requirements risks patient safety and increases vulnerability to fraud."
+  ],
+  "recommendations": [
+    "Prohibit use of ephemeral messaging or systems allowing automatic data deletion.",
+    "Retain existing certification criteria in sections 170.315(d)(10), (d)(2), (d)(3), (b)(11), and (g)(3).",
+    "Develop clear, uniform definitions for ePHI, EHI, Generative AI, and Synthetic Data.",
+    "Modernize, codify, and enforce data preservation and reproducibility standards before deregulation."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "We strongly urge HHS to prohibit the use of \u201cephemeral messaging\u201d or any system that permits automatic deletion of data."
+}

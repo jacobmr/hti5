@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0140",
+  "commenter_name": "Cooperative Exchange, The National Clearinghouse Association",
+  "organization": "Cooperative Exchange, The National Clearinghouse Association",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 11265,
+  "org_type": "professional_association",
+  "summary": "The Cooperative Exchange supports modernization and burden reduction but warns that removing many certification criteria risks interoperability fragmentation, shifts burdens to providers and intermediaries, and weakens cybersecurity. They urge ONC to maintain baseline expectations, clarify AI accountability, align information blocking rules with operational control, and recognize the hybrid interoperability environment.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "interoperability",
+    "burden_reduction",
+    "ai_regulation",
+    "cybersecurity",
+    "information_blocking"
+  ],
+  "specific_provisions": [
+    "45 C.F.R. Part 170 certification criteria removals",
+    "45 C.F.R. Part 171 information blocking exceptions",
+    "AI-enabled access and exchange",
+    "FHIR API requirements",
+    "HIPAA administrative transactions"
+  ],
+  "key_arguments": [
+    "Removing certification criteria does not eliminate operational needs but shifts burden to providers and intermediaries, increasing variability and costs.",
+    "AI-driven automated access requires clear accountability assigned to AI deployers, not neutral intermediaries.",
+    "Narrowing information blocking exceptions risks misallocating liability to intermediaries who lack discretionary control over data release.",
+    "The healthcare ecosystem is hybrid; a FHIR-only approach is insufficient and transition must be phased to avoid disruption."
+  ],
+  "recommendations": [
+    "Retain or clearly articulate minimum baseline interoperability and security expectations despite certification removals.",
+    "Publish impact analyses on removed criteria and establish post-final monitoring for unintended consequences.",
+    "Assign AI access responsibility to entities deploying AI and clarify auditability and traceability requirements.",
+    "Distinguish intermediaries from decision-makers in information blocking rules and align enforcement with operational control.",
+    "Recognize hybrid interoperability realities and engage clearinghouses in implementation planning.",
+    "Maintain baseline cybersecurity expectations referencing recognized frameworks and coordinate across federal agencies."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Deregulation should not unintentionally fragment baseline interoperability expectations or weaken cybersecurity and trust."
+}

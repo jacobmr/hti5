@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0127",
+  "commenter_name": "Texas Health Informatics Alliance",
+  "organization": "Texas Health Informatics Alliance",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2415,
+  "org_type": "academic_research",
+  "summary": "The Texas Health Informatics Alliance emphasizes the need for mandatory AI governance within certified health IT to ensure patient safety, equity, and quality. They urge alignment of HTI-5 with the ANSI 2800:2025 AI Governance Framework and call for explicit data quality and governance requirements to support effective AI oversight.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "data_quality",
+    "patient_safety",
+    "health_equity",
+    "regulatory_compliance"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "AI is embedded in healthcare workflows but often unreported and ungoverned, posing risks to patient safety and equity.",
+    "AI governance should be a shared responsibility across clinical, technical, and administrative domains.",
+    "Alignment with ANSI 2800:2025 provides a comprehensive, operational framework for AI governance.",
+    "Strong data governance including provenance, bias monitoring, and accountability is essential for effective AI oversight."
+  ],
+  "recommendations": [
+    "Establish baseline expectations for AI governance in certified EHR technologies within HTI-5.",
+    "Encourage or require alignment with the ANSI 2800:2025 AI Governance Framework.",
+    "Include explicit expectations for data provenance, bias monitoring, ongoing model evaluation, and data integrity accountability."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "AI governance must be treated as a patient safety, equity, quality, and leadership responsibility."
+}

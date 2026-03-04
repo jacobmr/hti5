@@ -1,0 +1,46 @@
+{
+  "id": "HHS-ONC-2025-0005-0230",
+  "commenter_name": "Pharmacy Health Information Technology Collaborative (PHIT)",
+  "organization": "Pharmacy Health Information Technology Collaborative (PHIT)",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 9779,
+  "org_type": "professional_association",
+  "summary": "PHIT supports several deregulatory changes proposed in HTI-5 but raises concerns about potential increased liability for providers and risks to patient safety if audit and oversight requirements are removed. They emphasize the need for interoperability improvements in pharmacy practice and recommend model contract language to share risks between vendors and providers.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "audit_log_standards",
+    "ccda_removal",
+    "ai_regulation",
+    "vendor_burden",
+    "patient_safety"
+  ],
+  "specific_provisions": [
+    "170.315(a)(5) Patient Demographics and Observations",
+    "170.315(a)(9) Clinical Decision Support",
+    "170.315(b)(1) Transitions of Care",
+    "170.315(b)(9) Care Plan",
+    "170.315(b)(11) Decision Support Intervention",
+    "170.315(c)(1) Clinical Quality Measures \u2013 Record and Export",
+    "170.315(g)(6) Consolidated CDA Creation Performance",
+    "170.315(g)(7) Application Access \u2013 Patient Selection",
+    "170.315(g)(9) Application Access \u2013 All Data Request",
+    "170.315(h)(1) Direct Project",
+    "170.315(h)(2) Direct Project, Edge Protocol, and XDR/XDM"
+  ],
+  "key_arguments": [
+    "Removing audit/feedback mechanisms for Decision Support Intervention may reduce vendor accountability and risk patient safety.",
+    "Pharmacists were excluded from CMS Promoting Interoperability Programs, limiting interoperability progress in pharmacy practice.",
+    "Deregulatory actions may shift liability from vendors to healthcare providers, necessitating shared risk contract language.",
+    "Interoperability and bidirectional data exchange are critical for pharmacists to provide person-centered care, especially with AI advancements."
+  ],
+  "recommendations": [
+    "Include pharmacists in CMS Promoting Interoperability Programs to advance pharmacy interoperability.",
+    "Develop model contract language for providers to share risks equally with vendors, especially regarding AI and clinical decision support.",
+    "Maintain oversight mechanisms like audit/feedback for Decision Support Intervention to ensure patient safety.",
+    "Consider augmented intelligence in clinical decision support revisions to address population biases."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "If regulations are removed, PHIT recommends ASTP develop model language so risks are shared equally."
+}

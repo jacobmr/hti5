@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0061",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-23T05:00:00Z",
+  "has_text": true,
+  "comment_length": 426,
+  "org_type": "other",
+  "summary": "The commenter argues that non-standards-based formats like PDFs, faxes, JPEGs, and TIFs should never replace standards-based electronic transactions or structured EHI exchange. They assert that entities using such formats are committing information blocking and emphasize the necessity of standards-based machine-readable formats exchanged via APIs.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "information_blocking",
+    "standards_based_exchange",
+    "api_requirements"
+  ],
+  "specific_provisions": ["standardized API requirements", "EHI export"],
+  "key_arguments": [
+    "Non-standards-based formats are inadequate substitutes for structured EHI exchange.",
+    "Use of PDFs, faxes, and image files constitutes information blocking.",
+    "Standards-based machine-readable formats via APIs must be mandatory for health information exchange."
+  ],
+  "recommendations": [
+    "Maintain or strengthen requirements for standards-based electronic transactions and structured EHI exchange.",
+    "Reject removal or reduction of standardized API requirements.",
+    "Ensure that entities cannot use PDFs, faxes, or image files as substitutes for proper EHI exchange."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Entities that only send electronic PDFs, electronic faxes, faxes, JPEGs, or TIF files are committing information blocking."
+}

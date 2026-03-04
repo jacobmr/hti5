@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0042",
+  "commenter_name": "Larry Garber",
+  "organization": "",
+  "posted_date": "2026-02-13T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1043,
+  "org_type": "individual_clinician",
+  "summary": "The commenter values current EHR certification criteria for supporting coordinated and secure healthcare and acknowledges the need to reduce barriers for new vendors. However, they oppose removing certification criteria outright and suggest shifting them to attestation to maintain important features without certification burden.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "vendor_burden",
+    "certification_criteria",
+    "clinical_workflow",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "certification criteria removal",
+    "audit log requirements",
+    "EHR certification burden"
+  ],
+  "key_arguments": [
+    "Current certification criteria provide critical benefits to clinicians and patients.",
+    "Removing criteria risks losing important features that support healthcare quality and security.",
+    "Reducing certification burden is important but should be done by easing certification, not removing criteria.",
+    "Attestation can ensure continued implementation without certification burden."
+  ],
+  "recommendations": [
+    "Shift any criteria intended for removal to attestation instead of eliminating them.",
+    "Make certification easier rather than removing important certification requirements."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "It is my proposal that any criteria you intend to remove simply be shifted to attestation."
+}

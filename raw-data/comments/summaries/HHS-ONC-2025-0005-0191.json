@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0191",
+  "commenter_name": "ECRI",
+  "organization": "ECRI",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8060,
+  "org_type": "other",
+  "summary": "ECRI strongly opposes the HTI-5 proposed rule's removal of critical health IT certification criteria, citing significant risks to patient safety, clinician usability, and AI transparency. They urge retaining safety, usability, and security guardrails while supporting enhanced FHIR-based API features.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "clinical_workflow",
+    "ai_regulation",
+    "audit_log_standards",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "removal of clinical decision support certification",
+    "removal of safety-enhanced design criteria",
+    "removal of usability and accessibility-centered design criteria",
+    "removal of audit log requirements",
+    "removal of privacy and security certification criteria",
+    "removal of AI model card requirements"
+  ],
+  "key_arguments": [
+    "Removing safety and usability criteria eliminates minimum safety floors, increasing risk of patient harm and clinician burden.",
+    "Eliminating audit logs reduces traceability critical for root cause analysis after adverse events.",
+    "Removing AI transparency requirements (model cards) risks biased or inappropriate AI deployment without provider awareness.",
+    "Shifting safety and security verification burden to providers, especially smaller practices, increases workload and risks inconsistent standards."
+  ],
+  "recommendations": [
+    "Retain existing safety, usability, security, and audit log certification criteria rather than removing them.",
+    "Maintain AI model card and transparency requirements to ensure safe and equitable AI adoption.",
+    "Balance burden reduction with preserving critical guardrails for patient safety and clinician usability.",
+    "Support enhancement of FHIR-based API features as proposed."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The rule eliminates long-standing expectations around usability, safety engineering, system integrity, auditability, and secure access."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0294",
+  "commenter_name": "Dynamic Health IT",
+  "organization": "Dynamic Health IT",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1078,
+  "org_type": "health_it_company",
+  "summary": "Dynamic Health IT opposes the removal of the 170.315(b)(1) and (b)(2) certification criteria, arguing that without these or a replacement FHIR certification, interoperability will suffer. They highlight the importance of the C-CDA Validation Tool and the lack of current FHIR certification requirements to ensure bi-directional data exchange.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "interoperability",
+    "fhir_standards",
+    "certification_requirements",
+    "transitions_of_care"
+  ],
+  "specific_provisions": [
+    "170.315(b)(1) Transitions of Care",
+    "170.315(b)(2) Clinical information reconciliation and incorporation",
+    "C-CDA Validation Tool"
+  ],
+  "key_arguments": [
+    "Removing (b)(1) and (b)(2) will harm healthcare interoperability.",
+    "No current certification exists to receive and ingest TOC FHIR data as a replacement.",
+    "The C-CDA Validation Tool is critical to ensure interoperable C-CDAs.",
+    "Without these requirements, EHR vendors may stop generating or produce faulty C-CDAs."
+  ],
+  "recommendations": [
+    "Maintain the 170.315(b)(1) and (b)(2) certification criteria or establish a replacement FHIR certification criterion.",
+    "Ensure certification requirements exist to support bi-directional FHIR data exchange for TOC."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Without a replacement requirement for EHRs to support bi-directional FHIR data, this leaves a big gap in healthcare interoperability."
+}

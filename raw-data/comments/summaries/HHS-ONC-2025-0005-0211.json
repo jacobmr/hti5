@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0211",
+  "commenter_name": "Anonymous",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 11444,
+  "org_type": "advocacy_group",
+  "summary": "The Rising T1DE Alliance supports the HTI-5 rule's emphasis on API-based interoperability to improve diabetes care but urges ONC to retain or clearly replace baseline security, auditability, and performance requirements to avoid shifting risk and burden onto healthcare organizations. They emphasize that consistent baseline assurances are critical for safe, scalable integration of diabetes device data into clinical workflows.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "audit_log_standards",
+    "api_security",
+    "clinical_workflow",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "authentication and authorization",
+    "encryption expectations",
+    "API performance transparency",
+    "removal of certain certification requirements"
+  ],
+  "key_arguments": [
+    "Reducing certification security and assurance requirements without replacement shifts risk and operational burden to healthcare organizations.",
+    "Consistent baseline auditability and security are essential for trust and safe use of diabetes device data in clinical care.",
+    "Inconsistent interoperability and assurance practices slow adoption and reduce clinician trust in integrated data.",
+    "API performance transparency is necessary to ensure reliability for real-world clinical and patient use cases."
+  ],
+  "recommendations": [
+    "Retain baseline security, audit, and assurance capabilities within certification where possible.",
+    "If removing certification requirements, publish a clear minimum assurance set for healthcare organizations and developers.",
+    "Ensure baseline audit logging includes user/app identity, data accessed, timestamps, patient records, and authorization scopes.",
+    "Maintain baseline expectations for authentication, authorization, and encryption aligned with API-enabled exchange realities.",
+    "Promote transparency around API uptime, latency, rate limiting, and downtime to support clinical workflows."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We urge ONC to retain minimum baseline expectations for auditability, authentication/authorization, encryption, and API performance transparency."
+}

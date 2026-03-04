@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0018",
+  "commenter_name": "Christopher Wright",
+  "organization": "",
+  "posted_date": "2026-01-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4170,
+  "org_type": "other",
+  "summary": "The commenter, an attorney and patient advocate, opposes the HTI-5 proposed deregulatory actions, emphasizing the need for updated audit trail standards and data preservation before removing certification requirements. He stresses that audit trails are essential for patient safety, billing integrity, and legal accountability.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_preservation",
+    "interoperability",
+    "fraud_prevention"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "EHI export",
+    "certification requirements removal"
+  ],
+  "key_arguments": [
+    "Current audit trail standards are outdated and insufficient for modern clinical environments.",
+    "Removing certification guardrails before updating data standards risks patient harm and fraud.",
+    "Audit trails must capture AI, medical device activities, and detailed user actions to ensure transparency.",
+    "Data must be preserved durably and not be subject to ephemeral deletion to support care and legal needs."
+  ],
+  "recommendations": [
+    "Pause deregulatory certification changes until modern, robust audit and preservation standards are finalized.",
+    "Prioritize revision of audit trail standards to include AI, device integration, software identification, and granular metadata.",
+    "Prohibit ephemeral messaging and automatic data destruction to ensure durable data retention.",
+    "Establish clear definitions and codify data preservation standards before deregulation."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

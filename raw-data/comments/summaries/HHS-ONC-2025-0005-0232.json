@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0232",
+  "commenter_name": "Participatory Health",
+  "organization": "Participatory Health",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8835,
+  "org_type": "advocacy_group",
+  "summary": "The comment emphasizes that AI-enabled interoperability requires enumerable and attributable endpoints, which current certification lacks. It argues for embedding a National Provider Directory (NPD) to enable accountability, measurable enforcement, and true patient-controlled longitudinal health records.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "interoperability",
+    "ai_regulation",
+    "fhir_standards",
+    "information_blocking_enforcement",
+    "patient_controlled_data"
+  ],
+  "specific_provisions": [
+    "FHIR API certification",
+    "information blocking enforcement",
+    "EHI export"
+  ],
+  "key_arguments": [
+    "Interoperability cannot be enforced or scaled without enumerable endpoints.",
+    "Certification confirms technical capability but not operational accountability.",
+    "A National Provider Directory is essential infrastructure for measurable enforcement.",
+    "Longitudinal health records depend on consumer-mediated data aggregation enabled by enumerability."
+  ],
+  "recommendations": [
+    "Recognize consumer-mediated longitudinal aggregation as a national interoperability objective.",
+    "Align API certification with machine-readable endpoint publication.",
+    "Recognize enumerability as a prerequisite for scalable information blocking enforcement.",
+    "Encourage transparency in API reliability and SMART configuration.",
+    "Preserve computable, reusable EHI export suitable for AI use."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Certification without enumerability produces compliance without accountability."
+}

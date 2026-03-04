@@ -1,0 +1,45 @@
+{
+  "id": "HHS-ONC-2025-0005-0304",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2743,
+  "org_type": "other",
+  "summary": "The commenter appreciates the intent to update health IT regulations but strongly opposes removing key security certification criteria and revising AI decision support requirements. They argue these changes shift risk and technical burdens from developers to healthcare providers, increasing systemic liability and compromising patient safety.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "security_certification",
+    "burden_shift",
+    "patient_safety",
+    "ai_regulation",
+    "risk_management"
+  ],
+  "specific_provisions": [
+    "170.315(d)(1) Authentication, access control, authorization",
+    "170.315(d)(2) Auditable events and tamper-resistance",
+    "170.315(d)(3) Audit report(s)",
+    "170.315(d)(4) Amendments",
+    "170.315(d)(5) Automatic access time-out",
+    "170.315(d)(6) Emergency access",
+    "170.315(d)(7) End-user device encryption",
+    "170.315(d)(8) Integrity",
+    "170.315(d)(9) Trusted connection",
+    "170.315(d)(12) Encrypt authentication credentials",
+    "170.315(d)(13) Multi-factor authentication (MFA)",
+    "170.315(b)(11) Decision Support Interventions (DSI)"
+  ],
+  "key_arguments": [
+    "Removing security criteria shifts technical vetting burden from federal certification to healthcare organizations, creating unfunded mandates.",
+    "HIPAA Security Rule compliance is organizational, not a substitute for product-level certification.",
+    "Removing the AI Model Card eliminates transparency about AI development and testing, increasing clinical safety risks.",
+    "The proposal transfers liability and risk from developers to providers without reducing overall industry burden."
+  ],
+  "recommendations": [
+    "Reconsider removal of the 11 security-related certification criteria to maintain product-level technical vetting.",
+    "Retain the Model Card requirement in Decision Support Interventions to ensure AI transparency and clinical safety.",
+    "Account for the increased burden and liability on healthcare providers before finalizing deregulatory actions."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "This proposal is a systemic transfer of liability."
+}

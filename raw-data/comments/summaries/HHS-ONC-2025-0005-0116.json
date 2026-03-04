@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0116",
+  "commenter_name": "LGBT Tech & The Cancer Network",
+  "organization": "LGBT Tech & The Cancer Network",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 155,
+  "org_type": "advocacy_group",
+  "summary": "LGBT Tech & The Cancer Network, along with 53 other organizations, strongly oppose the HTI-5 proposed rule. They express concern that the deregulatory actions will undermine health IT interoperability and patient safety.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "patient_safety",
+    "ccda_removal",
+    "ehi_export",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA",
+    "EHI export",
+    "audit log requirements",
+    "USCDI data classes"
+  ],
+  "key_arguments": [
+    "Removing C-CDA creation certification will reduce interoperability and data sharing capabilities.",
+    "Reducing audit log requirements threatens patient data security and accountability.",
+    "Scaling back EHI export requirements limits patient access to their health information.",
+    "Reducing USCDI data classes undermines comprehensive data exchange and health equity."
+  ],
+  "recommendations": [
+    "Retain the C-CDA creation certification criterion to ensure interoperability.",
+    "Maintain robust audit log requirements to protect patient data privacy and security.",
+    "Preserve EHI export requirements to guarantee patient access to their health information.",
+    "Keep USCDI data class requirements intact to support comprehensive data exchange."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Oppose the proposed rule as it threatens interoperability, patient safety, and health equity."
+}

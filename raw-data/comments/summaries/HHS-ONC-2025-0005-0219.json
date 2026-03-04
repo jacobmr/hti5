@@ -1,0 +1,34 @@
+{
+  "id": "HHS-ONC-2025-0005-0219",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 12776,
+  "org_type": "other",
+  "summary": "The commenter advocates for a comprehensive, layered certification approach focused on certifying APIs, AI agents, and multi-agent orchestration systems rather than traditional EHR certification. They emphasize the need for interoperability standards, trust frameworks, and tiered certification for AI agents and swarms to enable advanced healthcare automation and collaboration.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ai_regulation",
+    "interoperability",
+    "certification_frameworks",
+    "fhir_standards",
+    "health_it_innovation"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Certification should evolve from EHRs to APIs, AI agents, and orchestration engines to support advanced healthcare workflows.",
+    "A layered, maturity-based certification approach aligned with standards like FHIR, SNOMED CT, and LOINC is essential.",
+    "AI agents and swarms require tiered certification addressing performance, safety, governance, and ethical considerations.",
+    "Interoperability standards and trust frameworks are critical prerequisites for automating agentic workflows and multi-agent collaboration."
+  ],
+  "recommendations": [
+    "ONC should accelerate certification focus from EHRs to APIs, data quality services, CDS, autonomous agents, and orchestration engines.",
+    "Develop and implement layered certification tiers for APIs and AI agents based on maturity and functionality.",
+    "Establish interoperability standards and trust frameworks to enable multi-agent communication and swarm intelligence.",
+    "Coordinate with other agencies (FDA, CMS, FTC) for AI agent certification related to safety and operational readiness.",
+    "Create AI agents within government agencies and ONC to support health IT functions and governance."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "We need a layered certification approach Certify APIs by maturity levels: Terminology services, Data governance, Security maturity."
+}

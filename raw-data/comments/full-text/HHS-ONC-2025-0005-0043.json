@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0043",
+  "title": "Comment from Rocha, David , HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "David Rocha",
+  "commenter_first": "David",
+  "commenter_last": "Rocha",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-13T05:00:00Z",
+  "received_date": "2026-02-12T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "ASTP/ONC should look at the evolution of FHIR APIs to align with graph query standards, such as ISO 39075 for graph query language. This will be useful for relationship aware interoperability and returning context graphs while preserving REST based interoperability.\n\nReferences:\nISO 39075\nhttps://www.iso.org/standard/76120.html\n\nhttps://jtc1info.org/wp-content/uploads/2024/04/2024-Article-39075-Database-Language-GQL.docx.pdf",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

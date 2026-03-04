@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0044",
+  "title": "Comment from Rocha, David, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "David Rocha",
+  "commenter_first": "David",
+  "commenter_last": "Rocha",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-13T05:00:00Z",
+  "received_date": "2026-02-12T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "ASTP/ONC should assess real time and push notifications using FHIR APIs with serverless processing, durable streaming (like Kafka and Pulsar), and real time analytics (like Spark and Flink)\n\njournal article Reference:\n Tools and techniques for real-time data processing: A review\n\nhttps://journalijsra.com/sites/default/files/fulltext_pdf/IJSRA-2025-0252.pdf",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

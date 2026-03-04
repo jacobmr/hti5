@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0202",
+  "commenter_name": "Association for Utah Community Health (AUCH)",
+  "organization": "Association for Utah Community Health (AUCH)",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 22797,
+  "org_type": "professional_association",
+  "summary": "The Association for Utah Community Health (AUCH) supports certain interoperability improvements in the HTI-5 proposed rule but strongly opposes the removal of key privacy and security certification criteria. They emphasize that deregulatory actions risk shifting burdens and liabilities to resource-constrained community health centers (CHCs), potentially compromising patient safety and data security. AUCH urges retention of critical audit log requirements and cautions against removing federal 'floors' that ensure vendor accountability.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "audit_log_standards",
+    "data_privacy",
+    "vendor_burden",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.315(a)(12) Information Blocking Infeasibility Exception",
+    "\u00a7 170.315(d)(1)-(d)(13) Privacy and Security Certification Criteria",
+    "\u00a7 170.315(d)(2), (3), and (10) Audit Log Requirements",
+    "Certified Electronic Health Record Technologies (CEHRT)",
+    "Standardized APIs (FHIR)"
+  ],
+  "key_arguments": [
+    "Removing privacy and security certification criteria will shift costly verification burdens to financially constrained CHCs lacking IT expertise.",
+    "Eliminating audit log and MFA requirements risks increased cybersecurity vulnerabilities and data breaches.",
+    "Supporting interoperability improvements like removing write-back restrictions and recognizing AI users will improve clinical workflow and reduce administrative burden.",
+    "Removing federal certification 'floors' may allow vendors to unbundle or remove essential features, harming care for vulnerable populations."
+  ],
+  "recommendations": [
+    "Retain audit log certification requirements (\u00a7 170.315(d)(2), (3), and (10)) to ensure fraud detection.",
+    "Maintain privacy and security certification criteria to provide assurance and reduce liability for CHCs.",
+    "Provide sufficient transition time, targeted funding, and clear vendor accountability to support CHCs in compliance.",
+    "Continue engagement with ASTP/ONC to ensure final policies are workable for safety net providers."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing privacy and security certification criteria would shift responsibility to providers, exposing CHCs to security flaws and data breaches."
+}

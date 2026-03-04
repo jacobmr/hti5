@@ -1,0 +1,31 @@
+{
+  "id": "HHS-ONC-2025-0005-0203",
+  "commenter_name": "Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10706,
+  "org_type": "professional_association",
+  "summary": "The NAACCR supports HTI-5's goals to reduce burden and modernize standards but opposes removing the \u00a7170.315(f)(4) certification criterion for cancer registry transmission due to immaturity of FHIR resources and risks to timely, standardized cancer reporting. They urge retaining this criterion until FHIR-based reporting matures with a phased transition plan.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "public_health_reporting",
+    "burden_reduction",
+    "clinical_workflow"
+  ],
+  "specific_provisions": ["170.315(f)(4) Transmission to cancer registries"],
+  "key_arguments": [
+    "FHIR-based resources for cancer registry reporting are immature and not widely implemented.",
+    "Removing the certification criterion risks disrupting timely, complete, and quality cancer incidence reporting.",
+    "Eliminating the criterion removes incentives for EHRs to support standardized cancer data interoperability.",
+    "Transition without a national FHIR standard will increase burden on jurisdictions and providers."
+  ],
+  "recommendations": [
+    "Retain \u00a7170.315(f)(4) certification criterion until FHIR-based reporting matures.",
+    "Implement a phased transition plan with defined minimum content expectations and coordinated testing to prevent reporting gaps."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removal of \u00a7170.315(f)(4) risks disrupting timely incidence cancer reporting."
+}

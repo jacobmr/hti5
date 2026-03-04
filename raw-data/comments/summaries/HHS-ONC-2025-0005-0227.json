@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0227",
+  "commenter_name": "Ibis Reproductive Health",
+  "organization": "Ibis Reproductive Health",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4982,
+  "org_type": "advocacy_group",
+  "summary": "Ibis Reproductive Health strongly opposes the HTI-5 proposed rule, arguing it would harm ongoing health research and worsen health disparities for marginalized groups, especially transgender and gender diverse individuals. They emphasize that removing or revising key USCDI fields related to gender identity and sex parameters undermines high-quality, affirming care and research.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "uscdi_data_classes",
+    "health_equity",
+    "patient_safety",
+    "clinical_workflow",
+    "research_quality"
+  ],
+  "specific_provisions": [
+    "USCDI data class removals and revisions including name to use, gender identity, pronouns, sex parameters for clinical use"
+  ],
+  "key_arguments": [
+    "Removing or revising these fields will exacerbate barriers to care for transgender and gender diverse people.",
+    "These fields are essential for comprehensive understanding and improved clinical care tailored to patient demographics.",
+    "Inclusion of these fields reduces bias and supports public health education reflective of diverse identities.",
+    "Accurate data collection enables higher quality research and increases participation and trust in health initiatives."
+  ],
+  "recommendations": [
+    "Withdraw the proposed rule in its entirety to protect data fields critical for affirming care and research."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "We strongly oppose the proposed rule and urge its withdrawal."
+}

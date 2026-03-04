@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0015",
+  "commenter_name": "Ronald Kaplan",
+  "organization": "",
+  "posted_date": "2026-01-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2807,
+  "org_type": "individual_clinician",
+  "summary": "The commenter, a surgeon and attorney, expresses strong concern that the HTI-5 proposed deregulatory actions risk patient safety and record integrity by weakening audit trail standards before foundational data standards are modernized. He emphasizes the need for robust, transparent, and durable audit trails, especially with AI and medical device integration, and opposes any deregulation until clear, enforceable frameworks are established.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "ai_regulation",
+    "data_retention"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "electronic health information (EHI) export requirements",
+    "health IT certification requirements"
+  ],
+  "key_arguments": [
+    "Current audit trail standards (ASTM E2147-18) are outdated and insufficient for modern healthcare needs.",
+    "Audit trails must be transparent, traceable, and include AI and connected medical device activities to prevent fraud and ensure patient safety.",
+    "Data must be durable, with clear retention policies compliant with state and federal laws; ephemeral messaging or data destruction must be prohibited.",
+    "Clear, shared definitions and enforceable frameworks for AI, synthetic data, EHI, and related terms must be established before any deregulation."
+  ],
+  "recommendations": [
+    "Prioritize revision and modernization of audit trail standards before any deregulation.",
+    "Ensure audit trails capture AI algorithm activities and connected device updates.",
+    "Prohibit ephemeral messaging and data destruction; enforce durable data retention policies.",
+    "Establish and codify clear definitions and frameworks for AI, synthetic data, EHI, and related technologies prior to changing certification rules."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "We must create a medical record in all forms that is beyond reproach before we can change the rules for certification."
+}

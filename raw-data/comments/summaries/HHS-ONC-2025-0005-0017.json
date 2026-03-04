@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0017",
+  "commenter_name": "Craig Daue",
+  "organization": "",
+  "posted_date": "2026-01-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1050,
+  "org_type": "other",
+  "summary": "The commenter, an experienced attorney in medical malpractice, emphasizes the critical importance of complete audit trails in electronic health records for verifying record completeness and protecting record integrity. He urges ONC to maintain current audit trail requirements to ensure transparency and patient safety.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "access_to_audit_trails"
+  ],
+  "specific_provisions": ["170.315(d)(2) audit logs"],
+  "key_arguments": [
+    "Complete audit trails are essential to confirm all medical records are obtained.",
+    "Audit trails reveal undisclosed records critical for legal and clinical purposes.",
+    "Protecting audit trail integrity supports understanding of record events by providers and patients.",
+    "Easy access to audit trails is necessary for transparency and patient safety."
+  ],
+  "recommendations": [
+    "Continue protecting requirements for complete audit trails.",
+    "Maintain access to audit trails without reduction or removal."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "A complete audit trail is vital to assuring that providers and patients are able to understand what, when, why, how and by whom events occurred."
+}

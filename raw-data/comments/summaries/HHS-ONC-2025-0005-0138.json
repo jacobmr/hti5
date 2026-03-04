@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0138",
+  "commenter_name": "Civitas Networks for Health",
+  "organization": "Civitas Networks for Health",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 19427,
+  "org_type": "other",
+  "summary": "Civitas Networks for Health supports modernization and deregulatory efforts focusing on FHIR-based APIs but urges caution in removing certification requirements for foundational standards like C-CDA and HL7 v2 messaging. They emphasize preserving interoperability, accountability, and operational reliability during transitions, and recommend clear guidance on information blocking exceptions to avoid penalizing good-faith actors.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "interoperability",
+    "information_blocking",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "C-CDA creation certification criterion",
+    "secure messaging transport",
+    "HL7 v2 messaging",
+    "electronic laboratory reporting",
+    "FHIR-based API functionality",
+    "Infeasibility Exception (\u00a7171.204)"
+  ],
+  "key_arguments": [
+    "Removing certification for foundational standards risks degradation of critical interoperability functions relied upon by providers and public health.",
+    "Certification reductions shift oversight burdens onto providers, states, and intermediaries who may lack capacity to validate health IT functionality.",
+    "Interoperability policy must balance modernization with maintaining baseline standards and real-world operational reliability.",
+    "Information blocking exception revisions should preserve flexibility for good-faith actors managing complex, heterogeneous exchange environments."
+  ],
+  "recommendations": [
+    "Clearly articulate how essential functions formerly in certification will be preserved or overseen via alternative mechanisms.",
+    "Maintain enforcement of both FHIR APIs and baseline exchange standards during defined transition periods with transparent milestones.",
+    "Emphasize real-world interoperability testing including inter-version compatibility and practical exchange performance.",
+    "Provide clear examples and guidance illustrating permissible good-faith alternative manners of exchange under information blocking exceptions.",
+    "Affirm that reasonable sequencing, transition periods, and accommodation of recipient limitations are not information blocking."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Modernization must account for the reality that a significant portion of exchange today remains dependent on widely implemented standards."
+}

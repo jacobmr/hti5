@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0047",
+  "title": "Comment from Rocha, David, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "David Rocha",
+  "commenter_first": "David",
+  "commenter_last": "Rocha",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-17T05:00:00Z",
+  "received_date": "2026-02-15T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "3 other countries are already doing the migration from CDA to FHIR:\n&bull;Australia \n&bull;Austria\n&bull;Estonia\n\nAustralia Digital Health Agency (ADHA) \nMigrating myHealth Record from CDA to FHIR\n\nhttps://www.digitalhealth.gov.au/newsroom/media/another-leap-forward-in-modernising-my-health-record-with-fhir\n\nAustria ELGAmoving CDA to FHIR\nhttps://www.devdays.com/wp-content/uploads/2023/08/230609_NikolaTanjga_Preparations-and-plans-from-the-Austrian-EHR-towards-FHIR.pdf\n\nEstonia TEHIKCDA to FHIR\nhttps://www.hl7europe.org/wp-content/uploads/2025/02/09_eusni2025_estonia.pdf\n\nhttps://s3-web-1a.tehik.ee/tehik-live-web-prd/s3fs-public/2025-06/Jaanika%20Merilo.pdf\nslide 16\n\nThis is the direction that global architecture is heading.\nThe US needs to competitive with EHDS by 2035 or the latest by 2037.\nThe US is and will always be a benchmark for nationwide interoperability.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

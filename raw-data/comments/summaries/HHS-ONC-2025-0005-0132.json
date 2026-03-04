@@ -1,0 +1,45 @@
+{
+  "id": "HHS-ONC-2025-0005-0132",
+  "commenter_name": "AAPM&R",
+  "organization": "AAPM&R",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 17204,
+  "org_type": "professional_association",
+  "summary": "AAPM&R appreciates efforts to reduce health IT certification burdens but urges caution to avoid unintended consequences that could disadvantage clinicians, especially in post-acute care. They recommend a gradual transition to new standards like FHIR, maintaining transparency and quality reporting criteria, and ensuring alignment with CMS programs.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ccda_removal",
+    "fhir_standards",
+    "interoperability",
+    "ai_regulation",
+    "quality_reporting",
+    "burden_reduction",
+    "clinical_workflow",
+    "transparency"
+  ],
+  "specific_provisions": [
+    "C-CDA removal",
+    "FHIR adoption",
+    "Decision Support Interventions (DSI) AI model card requirements",
+    "Insights Condition and Maintenance of Certification",
+    "CMS quality reporting mandates (MIPS, Promoting Interoperability)",
+    "Patient Demographics certification criteria"
+  ],
+  "key_arguments": [
+    "Premature removal of legacy standards like C-CDA risks disadvantaging clinicians, especially in resource-limited post-acute care settings.",
+    "Transparency requirements for AI-driven decision support tools are critical and should not be removed prematurely.",
+    "Scaling back the Insights reporting program before real-world data collection undermines transparency and accountability.",
+    "Removal of criteria tied to CMS quality programs should be delayed to allow harmonization and avoid wasted provider investments."
+  ],
+  "recommendations": [
+    "Adopt a gradual timeline for removing certification criteria ensuring replacements are tested and implementable.",
+    "Develop a clear, phased roadmap for transitioning from C-CDA to FHIR tailored to post-acute care settings.",
+    "Maintain AI transparency requirements such as model cards for decision support interventions.",
+    "Oppose scaling back the Insights Condition and Maintenance of Certification program prior to implementation.",
+    "Delay removal of criteria linked to CMS quality reporting mandates and coordinate closely with CMS.",
+    "Reconsider removing patient demographic data elements important for patient-centered care."
+  ],
+  "sentiment_score": -1,
+  "notable_quote": "AAPM&R urges ASTP/ONC to not abandon current, long-standing criteria that clinicians continue to rely on until an adequate replacement infrastructure is in place."
+}

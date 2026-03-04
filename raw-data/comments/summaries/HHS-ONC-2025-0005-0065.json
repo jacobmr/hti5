@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0065",
+  "commenter_name": "Satyadhar Joshi",
+  "organization": "",
+  "posted_date": "2026-02-23T05:00:00Z",
+  "has_text": true,
+  "comment_length": 139263,
+  "org_type": "academic_research",
+  "summary": "The commenter analyzes the HTI-5 proposed deregulatory rule from the perspective of agentic generative AI and FHIR-based interoperability, acknowledging the benefits of a FHIR-forward strategy but warning that removal of AI transparency and privacy/security certification criteria creates governance gaps. The comment urges ONC to consider complementary policy measures to ensure safe, equitable, and secure deployment of autonomous AI systems in healthcare.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ai_regulation",
+    "fhir_standards",
+    "interoperability",
+    "data_privacy",
+    "governance"
+  ],
+  "specific_provisions": [
+    "removal of AI transparency mandates",
+    "removal of privacy/security certification criteria",
+    "FHIR-forward architecture",
+    "automated access to EHI via APIs"
+  ],
+  "key_arguments": [
+    "FHIR-based standardized APIs are essential for autonomous AI systems in healthcare.",
+    "The proposed rule\u2019s deregulatory actions create governance gaps by removing AI transparency and privacy/security requirements.",
+    "Agentic AI systems require robust regulatory frameworks to ensure safe, equitable, and nationally secure deployment.",
+    "Complementary policies are needed alongside deregulatory measures to address AI governance challenges."
+  ],
+  "recommendations": [
+    "ONC should consider complementary policy measures to address governance gaps created by deregulation.",
+    "Develop a multi-layered governance framework for autonomous AI systems in healthcare.",
+    "Maintain or enhance AI transparency mandates and privacy/security certification criteria.",
+    "Support robust API infrastructure and clear regulatory guidance on automated access."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Certain deregulatory actions\u2014particularly removal of AI transparency mandates and privacy/security criteria\u2014create governance gaps."
+}

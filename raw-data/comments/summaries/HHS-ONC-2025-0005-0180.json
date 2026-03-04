@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0180",
+  "commenter_name": "American Academy of Pediatrics",
+  "organization": "American Academy of Pediatrics",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10035,
+  "org_type": "professional_association",
+  "summary": "The American Academy of Pediatrics supports reducing unnecessary burden on providers but strongly opposes broad removal of certification criteria that ensure accessibility, interoperability, transparency, and patient safety. They emphasize the importance of maintaining certification requirements for accessibility, care coordination, immunization data exchange, and AI transparency to protect pediatric patients and smaller practices.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "accessibility",
+    "ccda_removal",
+    "immunization_data_exchange",
+    "ai_regulation",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "removal of Consolidated CDA (C-CDA) creation certification criterion",
+    "removal of accessibility-related certification requirements",
+    "removal of Transitions of Care, Care Plan, and Clinical Information Reconciliation and Incorporation (CIRI) criteria",
+    "removal of immunization-related measures from the Insights Condition",
+    "removal of AI transparency requirements including model cards"
+  ],
+  "key_arguments": [
+    "Removing certification criteria risks vendors deprioritizing or removing critical but non-commercially advantageous functionalities.",
+    "Accessibility requires ongoing monitoring and removing requirements may reduce access for patients and caregivers with disabilities.",
+    "C-CDA remains essential as a backup for care coordination until FHIR-based exchange is fully adopted.",
+    "Eliminating AI transparency shifts safety evaluation burden to clinicians and reduces regulatory oversight."
+  ],
+  "recommendations": [
+    "Retain accessibility requirements or establish alternative mechanisms to ensure ongoing accessibility standards.",
+    "Maintain C-CDA certification until FHIR exchange is reliably available and support participation in Qualified Health Information Networks (QHINs).",
+    "Identify alternative mechanisms to monitor immunization data exchange utilization if reporting metrics are retired.",
+    "Maintain baseline AI transparency and governance requirements within the certification program."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing these expectations may inadvertently signal that certain capabilities are optional rather than essential."
+}

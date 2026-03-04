@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0167",
+  "commenter_name": "Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1154,
+  "org_type": "government_agency",
+  "summary": "North Carolina opposes the HTI-5 deregulatory approach, citing risks to interoperability, public health data integrity, and increased burdens on state public health agencies. The comment highlights concerns about the immaturity of FHIR standards for complex workflows and the lack of federal support for costly technology transitions.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "fhir_standards",
+    "public_health_data_exchange",
+    "vendor_burden",
+    "data_privacy"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "EHI export requirements",
+    "FHIR-based standards",
+    "interoperability standards"
+  ],
+  "key_arguments": [
+    "Deregulation risks ambiguity and inconsistent vendor implementation, harming interoperability.",
+    "FHIR standards are immature for complex public health workflows like electronic case reporting.",
+    "Deregulation undermines security, privacy, and governance needed for public health data.",
+    "State public health agencies face underfunded mandates and lack resources for transitions."
+  ],
+  "recommendations": [
+    "Maintain prescriptive interoperability and certification standards to ensure consistency.",
+    "Provide dedicated federal funding to support technology transitions for state public health agencies.",
+    "Exercise caution in transitioning to FHIR until standards mature and governance is established."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Deregulation could undermine interoperability and accountability in public health data exchange."
+}

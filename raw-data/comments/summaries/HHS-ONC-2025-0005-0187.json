@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0187",
+  "commenter_name": "Amazon",
+  "organization": "Amazon",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 12482,
+  "org_type": "health_it_company",
+  "summary": "Amazon supports ONC's deregulatory actions to streamline health IT certification, especially around AI use, privacy/security criteria, and FHIR interoperability. They emphasize patient-centric AI, removal of burdensome source attribute disclosures, and enhanced electronic access to medical images and prior authorization data. They also back narrowing information blocking exceptions and caution against overly prescriptive API security rules.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "data_privacy",
+    "fhir_standards",
+    "burden_reduction",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "removal of source attribute requirements for AI-enabled tools",
+    "removal of privacy and security certification requirements (45 C.F.R. 170.315(d))",
+    "FHIR-based interoperability certification",
+    "information blocking Manner Exception (45 C.F.R. 171.204(a)(4))"
+  ],
+  "key_arguments": [
+    "Source attribute disclosures for AI tools are burdensome, not helpful, and risk exposing proprietary trade secrets.",
+    "HIPAA Security Rule suffices for privacy/security; current certification criteria add unnecessary complexity without added security.",
+    "FHIR certification should be enhanced to include electronic access to medical images and support electronic prior authorization.",
+    "Testing AI tools in intended environments is more scientifically valid than focusing on training data disclosure."
+  ],
+  "recommendations": [
+    "Amend 'exchange' definition to include autonomous AI agents.",
+    "Remove source attribute requirements for predictive Decision Support Interventions.",
+    "Eliminate privacy and security certification criteria under 45 C.F.R. 170.315(d).",
+    "Collaborate to enable electronic access to medical images for patients and clinicians.",
+    "Work with CMS to implement electronic standards for prior authorization and real-time prescription benefit checks.",
+    "Retain a narrowed Manner Exception for information blocking with stronger requirements on fees and licensing exceptions.",
+    "Avoid prescriptive new regulations on certified API security to maintain flexibility and innovation."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We support the removal of requirements to make source attribute information available for predictive Decision Support Interventions."
+}

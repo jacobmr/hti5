@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0239",
+  "commenter_name": "The MetroHealth System",
+  "organization": "The MetroHealth System",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 5679,
+  "org_type": "health_system",
+  "summary": "The MetroHealth System supports ONC's efforts to modernize certification and reduce burdens while emphasizing the need for safeguards to manage increased transaction costs and risks. They urge preserving standards-based pathways, reasonable risk-based terms, and targeted revisions to ensure patient safety, data integrity, and operational feasibility.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "ai_regulation",
+    "fhir_standards",
+    "patient_safety"
+  ],
+  "specific_provisions": [
+    "information blocking definitions of access and use",
+    "Manner and Infeasibility exceptions",
+    "pricing and contract terms related to information blocking",
+    "TEFCA Manner Exception",
+    "Clinical Decision Support (CDS) evidence transparency"
+  ],
+  "key_arguments": [
+    "Expanded definitions of access/use for automation require reasonable risk-based guardrails to ensure safety and security.",
+    "Removing or weakening Manner and Infeasibility exceptions could increase costs and complexity by forcing bespoke integrations.",
+    "Standardized contracts should be allowed and Stark FMV pricing tests avoided to keep transaction costs manageable.",
+    "Maintaining TEFCA exceptions and incentivizing smaller providers will reduce fragmentation and promote nationwide exchange."
+  ],
+  "recommendations": [
+    "Delete 'without limitation' from access/use definitions and allow reasonable risk-based terms for automation.",
+    "Retain clearly defined Manner Exhausted condition and avoid lowering thresholds that force non-standard integrations.",
+    "Permit standardized, non-unconscionable contracts and avoid applying Stark FMV constructs to pricing tests.",
+    "Maintain TEFCA Manner Exception, extend eligibility, create safe harbor for low-resourced providers, and consider federal incentives.",
+    "Preserve core evidence transparency for Clinical Decision Support tools.",
+    "Provide at least six months' implementation timeline for information blocking revisions."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We support pro-competitive goals while urging ONC to preserve standards-first pathways and reasonable risk-based terms."
+}

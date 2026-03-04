@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0073",
+  "commenter_name": "Susan Petersen",
+  "organization": "",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 24328,
+  "org_type": "other",
+  "summary": "The commenter, an experienced trial attorney, strongly opposes the proposed deregulation of health IT certification requirements, emphasizing that audit trails are essential for uncovering medical record fraud and ensuring patient safety. She presents multiple documented legal cases demonstrating how federally certified audit logs have been critical in exposing medical record tampering and withholding.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "ehi_export",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "C-CDA creation certification"
+  ],
+  "key_arguments": [
+    "Removing audit log certification requirements will make medical record fraud invisible and prevent justice.",
+    "Federally certified audit trails have been crucial in multiple legal cases exposing fabricated or withheld medical records.",
+    "The proposed rule removes essential safeguards before any modern replacements or standards are implemented.",
+    "Health IT systems are complex and distributed, requiring robust audit trails across platforms to ensure accountability."
+  ],
+  "recommendations": [
+    "Pause the current rulemaking process.",
+    "First finalize, implement, and test a modern, comprehensive, enforceable audit trail standard.",
+    "Only then consider streamlining or removing existing certification requirements."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Remove the guardrails before the new road is built is not reform. It is an open invitation."
+}

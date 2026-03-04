@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0055",
+  "commenter_name": "Owen Belamaric",
+  "organization": "",
+  "posted_date": "2026-02-19T05:00:00Z",
+  "has_text": true,
+  "comment_length": 922,
+  "org_type": "other",
+  "summary": "The commenter expresses concern about the use of AI in psychological services, arguing it is dangerous and cannot replace human reasoning or physician care. They caution against trusting AI text generators for mental health diagnosis and emphasize the conflict between profit motives and medical ethics.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "patient_safety",
+    "clinical_workflow",
+    "health_equity"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "AI used for psychological services is dangerous and can worsen public mental health issues.",
+    "AI text generators do not think or reason and are inadequate for diagnosis.",
+    "Profit motives of private AI companies conflict with physicians' duty of care.",
+    "Use of AI in psychology risks damaging public trust in mental health care."
+  ],
+  "recommendations": [
+    "Do not deregulate or reduce oversight on AI applications in psychological services.",
+    "Maintain strict standards to ensure patient safety and ethical care in AI use."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "It is a text generator which makes sense more often than not, not a thinking machine."
+}

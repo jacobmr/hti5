@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0051",
+  "commenter_name": "George Wise",
+  "organization": "",
+  "posted_date": "2026-02-18T05:00:00Z",
+  "has_text": true,
+  "comment_length": 635,
+  "org_type": "other",
+  "summary": "The commenter, an attorney representing victims of medical negligence, argues that the proposed deregulation of health IT certification and information blocking rules would harm victims by making it harder to obtain complete medical records. They urge ONC to prioritize protections for victims rather than easing burdens on wrongdoers.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "ehi_export",
+    "burden_reduction",
+    "information_blocking",
+    "medical_record_access"
+  ],
+  "specific_provisions": [
+    "EHI export",
+    "health information technology certification criteria",
+    "information blocking"
+  ],
+  "key_arguments": [
+    "Deregulation will hurt victims of medical negligence by limiting access to complete medical records.",
+    "Current challenges already exist in obtaining full medical records in malpractice cases.",
+    "The rule would benefit wrongdoers committing malpractice rather than victims.",
+    "ONC should focus rulemaking on helping victims, not easing burdens on wrongdoers."
+  ],
+  "recommendations": [
+    "Maintain or strengthen regulations to ensure complete medical record access.",
+    "Avoid deregulation that reduces requirements for health IT certification and information blocking protections."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The proposed rule would hurt victims of medical negligence and help the wrongdoers who commit malpractice."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "HHS-ONC-2025-0005-0092",
+  "title": "Comment from Mosaic Life Tech, LLC, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Mosaic Life Tech, LLC",
+  "commenter_first": "",
+  "commenter_last": "",
+  "organization": "Mosaic Life Tech, LLC",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "received_date": "2026-02-25T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "Mosaic Life Tech submits comments on the AI governance implications of HTI-5. We support ASTP/ONC's deregulatory objectives and FHIR-forward direction. Our comments address the accountability shift created by removing AI model card requirements, the governance readiness gap for autonomous AI-mediated access to EHI, and the need for ASTP/ONC to signal that reduced federal certification does not reduce organizational accountability. Full comments are in the attached document.",
+  "has_attachments": true,
+  "attachments": [
+    {
+      "title": "MLT_HTI5_Public_Comment_FINAL",
+      "filename": "",
+      "url": "https://downloads.regulations.gov/HHS-ONC-2025-0005-0092/attachment_1.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "MLT_HTI5_Public_Comment_FINAL",
+      "filename": "",
+      "url": "https://downloads.regulations.gov/HHS-ONC-2025-0005-0092/attachment_1.docx",
+      "format": "docx"
+    }
+  ],
+  "doc_abstract": ""
+}

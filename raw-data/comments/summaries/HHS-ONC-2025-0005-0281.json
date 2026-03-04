@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0281",
+  "commenter_name": "AllianceChicago",
+  "organization": "AllianceChicago",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 213,
+  "org_type": "health_it_company",
+  "summary": "AllianceChicago provides comments on the HTI-5 proposed rule focusing on deregulation of health IT certification requirements. The comment addresses the potential impacts of removing or reducing standards such as C-CDA creation, audit logs, and EHI export.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ccda_removal",
+    "audit_log_standards",
+    "ehi_export",
+    "burden_reduction",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA",
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "USCDI data classes"
+  ],
+  "key_arguments": [
+    "Reducing certification requirements may lower developer burden",
+    "Certain standards remain important for interoperability and patient safety",
+    "Balance needed between deregulation and maintaining data quality",
+    "Potential risks if audit logs and data export capabilities are weakened"
+  ],
+  "recommendations": [
+    "Retain essential interoperability standards like C-CDA creation",
+    "Maintain robust audit log requirements to ensure security",
+    "Ensure EHI export capabilities are preserved for data access",
+    "Implement burden reduction without compromising patient safety"
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "AllianceChicago offers comments on HTI-5 to balance deregulation with interoperability and safety."
+}

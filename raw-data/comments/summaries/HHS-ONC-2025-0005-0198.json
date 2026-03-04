@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0198",
+  "commenter_name": "Zocdoc",
+  "organization": "Zocdoc",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 9879,
+  "org_type": "health_it_company",
+  "summary": "Zocdoc supports interoperability efforts but urges caution in deregulation to avoid weakening administrative data access critical for patient scheduling. They emphasize protecting third-party access, maintaining strong API standards, and removing the TEFCA exception to reduce administrative friction.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "interoperability",
+    "ai_regulation",
+    "fhir_standards",
+    "information_blocking",
+    "patient_access"
+  ],
+  "specific_provisions": [
+    "API requirements",
+    "Information Blocking rules",
+    "TEFCA exception",
+    "FHIR scheduling APIs"
+  ],
+  "key_arguments": [
+    "Administrative data and workflows are essential for patient access and should be protected under information blocking rules.",
+    "APIs must be functionally usable, not just compliant, to enable true interoperability in scheduling.",
+    "Restrictive contracts banning RPA or AI agents for scheduling access constitute information blocking and should be voided.",
+    "Removing the TEFCA exception will improve patient data exchange and reduce administrative burden."
+  ],
+  "recommendations": [
+    "Explicitly extend information blocking provisions to administrative data including appointment inventory and booking requirements.",
+    "Clarify that RPA and AI agents are legitimate, time-bounded access methods where APIs are insufficient, with guidance on consent and security.",
+    "Void contractual clauses that prohibit third-party use of RPA or AI for scheduling as information blocking.",
+    "Maintain strong baseline API standards and require exposure of all booking requirements and restrictions programmatically.",
+    "Adopt a FHIR-based technical roadmap for scheduling interoperability using schedule, slot, and appointment resources.",
+    "Support removal of the TEFCA exception to enhance patient data exchange and reduce administrative friction."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "True interoperability should support the full patient journey\u2014from provider discovery through appointment scheduling and care coordination."
+}

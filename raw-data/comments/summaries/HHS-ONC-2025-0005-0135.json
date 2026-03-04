@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0135",
+  "commenter_name": "American Medical Informatics Association (AMIA)",
+  "organization": "American Medical Informatics Association (AMIA)",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 35599,
+  "org_type": "professional_association",
+  "summary": "AMIA supports the goals of reducing burden and improving interoperability but considers the HTI-5 deregulatory actions premature and rushed. They caution that removing many certification criteria, including AI transparency requirements and C-CDA, risks reducing equitable access, patient safety, and interoperability progress.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "ai_regulation",
+    "fhir_standards",
+    "interoperability",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "removal of 34 certification criteria",
+    "Decision Support Interventions (DSI) AI model card requirements",
+    "Insights and Maintenance reporting obligations",
+    "C-CDA creation certification criterion",
+    "FHIR-based API infrastructure",
+    "USCDI data classes"
+  ],
+  "key_arguments": [
+    "Removing many certification criteria risks unbundling features into costly add-ons, limiting access for smaller providers.",
+    "Eliminating AI transparency requirements prematurely removes emerging standards before sufficient implementation data exists.",
+    "Narrowing reporting metrics to only FHIR use risks losing visibility into interoperability gaps across diverse care settings.",
+    "Transitioning away from widely adopted standards like C-CDA and HL7 v2.5.1 without mature alternatives is rushed and burdensome."
+  ],
+  "recommendations": [
+    "Assess potential equity impacts of removing certification criteria and clarify protections for patient access and interoperability.",
+    "Retain AI transparency requirements like model cards until sufficient data supports their removal.",
+    "Maintain broad, outcome-oriented interoperability metrics across all care settings, not just FHIR adoption.",
+    "Shift certification focus toward standardized data models and APIs rather than broad EHR functionality.",
+    "Ensure a person-centered, seamless API ecosystem balancing deregulation with accountability."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "The push to deregulate in 2026 by removing existing infrastructure before another, FHIR-based API infrastructure is available is rushed, unnecessary, and ill-conceived."
+}

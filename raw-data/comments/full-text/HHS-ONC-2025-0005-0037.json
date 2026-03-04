@@ -1,0 +1,27 @@
+{
+  "id": "HHS-ONC-2025-0005-0037",
+  "title": "Comment from Meridian Verity Group LLC, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Meridian Verity Group LLC",
+  "commenter_first": "",
+  "commenter_last": "",
+  "organization": "Meridian Verity Group LLC",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-01-29T05:00:00Z",
+  "received_date": "2026-01-29T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "Please see the attached 2-page comment letter regarding &ldquo;Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions To Unleash Prosperity&rdquo; (Docket ID: HHS-ONC-2025-0005; RIN: 0955-AA09; FR Doc. 2025-23896). \n\nSummary: I support HTI-5 burden reduction but urge ASTP/ONC to preserve a minimal Predictive DSI baseline by replacing the proposed removal of 45 CFR 170.315(b)(11)(iv)-(vi) with a requirement that certified Health IT Modules support an exportable, machine-readable Evidence Artifact for each Predictive DSI (intended use, performance/limitations, monitoring/update cadence, and risk-governance attestation), without requiring raw training data, PHI, or disclosure of trade secrets/confidential commercial information.",
+  "has_attachments": true,
+  "attachments": [
+    {
+      "title": "MeridianVerity_HTI-5_Comment_HHS-ONC-2025-0005_PUBLIC",
+      "filename": "",
+      "url": "https://downloads.regulations.gov/HHS-ONC-2025-0005-0037/attachment_1.pdf",
+      "format": "pdf"
+    }
+  ],
+  "doc_abstract": ""
+}

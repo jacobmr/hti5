@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0028",
+  "commenter_name": "RONDA KELSO",
+  "organization": "",
+  "posted_date": "2026-01-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1356,
+  "org_type": "individual_clinician",
+  "summary": "The commenter emphasizes the critical importance of maintaining audit trails in medical records to preserve record integrity and patient safety. They highlight how audit trails help track changes, authorship, and unauthorized access, which are essential for legal and privacy reasons.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_privacy",
+    "patient_safety",
+    "clinical_workflow"
+  ],
+  "specific_provisions": ["170.315(d)(2) audit logs"],
+  "key_arguments": [
+    "Audit trails preserve the integrity of medical records by tracking changes and authorship.",
+    "Audit logs are essential for legal accountability and privacy protection.",
+    "Removing or reducing audit log requirements risks patient safety and record accuracy.",
+    "Audit trails deter unauthorized access and help identify privacy violations."
+  ],
+  "recommendations": [
+    "Maintain robust audit trail requirements in health IT certification.",
+    "Ensure that any changes, deletions, or additions to medical records are fully tracked and transparent."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "It is imperative that we continue to have medical records which when altered, deleted or addended are tracked."
+}

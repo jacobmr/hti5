@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0046",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-17T05:00:00Z",
+  "has_text": true,
+  "comment_length": 688,
+  "org_type": "other",
+  "summary": "The commenter suggests that future rulemaking should consider adopting additional FHIR Implementation Guides (IGs) to enhance interoperability and data standardization. Specific FHIR IGs recommended include Laboratory Reporting, Medicolegal Death Investigation, Physical Activity, Structured Data Capture, and Genomics Reporting.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "future_rulemaking",
+    "data_standardization"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Adopting more FHIR IGs will improve interoperability and data exchange.",
+    "Medicolegal Death Investigation IG will aid in FHIR-izing death certificates.",
+    "Inclusion of diverse IGs supports broader health data capture and reporting."
+  ],
+  "recommendations": [
+    "Consider adopting HL7 Laboratory Reporting FHIR IG in future rulemaking.",
+    "Include Medicolegal Death Investigation FHIR IG for death certificate data.",
+    "Adopt Physical Activity, Structured Data Capture, and Genomics Reporting FHIR IGs."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Future consideration should be given to adopt more FHIR IGs into future rulemaking"
+}

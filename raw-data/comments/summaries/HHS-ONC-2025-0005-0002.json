@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0002",
+  "commenter_name": "Debi Willis",
+  "organization": "",
+  "posted_date": "2025-12-30T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1074,
+  "org_type": "individual_clinician",
+  "summary": "The commenter urges ONC to reconsider removing the Consolidated CDA creation certification criterion, emphasizing that consolidated documents provide a clearer, more accessible summary of patient visits than segmented FHIR resources. They highlight the importance of these documents for patients and caregivers to understand and share health information effectively.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "fhir_standards",
+    "patient_safety",
+    "interoperability",
+    "clinical_workflow"
+  ],
+  "specific_provisions": ["170.315(g)(6) C-CDA"],
+  "key_arguments": [
+    "FHIR resources are segmented and not easily or quickly navigable for patients or caregivers seeking a clear summary of events.",
+    "Consolidated CDA documents provide a complete and timely picture of clinical events, such as ER visits.",
+    "Consolidated documents facilitate easy sharing of health information with others.",
+    "Valuable patient and caregiver information exists only in consolidated documents and would be lost if removed."
+  ],
+  "recommendations": [
+    "Reconsider and retain the Consolidated CDA creation certification criterion in \u00a7170.315(g)(6)."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The loss of this significant and valuable document will have a negative impact on patients and caregivers."
+}

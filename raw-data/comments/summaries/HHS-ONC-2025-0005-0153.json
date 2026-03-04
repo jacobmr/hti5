@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0153",
+  "commenter_name": "Peggy Schwartz",
+  "organization": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 5634,
+  "org_type": "health_system",
+  "summary": "The commenter supports modernization and moving toward FHIR-based interoperability while emphasizing that deregulation should not compromise patient safety, data accuracy, or privacy protections. They advocate for maintaining core technical safeguards such as audit logs, authentication, and encryption despite reducing outdated requirements.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "patient_safety",
+    "fhir_standards",
+    "audit_log_standards",
+    "data_privacy",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "removal of Consolidated CDA (C-CDA) creation certification criterion",
+    "removal or reduction of audit log requirements",
+    "removal of privacy and security certification requirements including authentication, encryption, audit logging",
+    "updates to USCDI data elements",
+    "shift to FHIR-based APIs",
+    "information blocking updates"
+  ],
+  "key_arguments": [
+    "Removing outdated technical requirements is beneficial to reduce burden and focus on modern standards.",
+    "Core functions supporting safe clinical decision-making must be preserved to avoid risks like delayed care or errors.",
+    "Security safeguards such as audit logs, authentication, and encryption are foundational to patient privacy and trust.",
+    "Public health reporting simplification must not compromise reliability and completeness essential for safety."
+  ],
+  "recommendations": [
+    "Preserve core technical safeguards that support patient safety and accurate data exchange.",
+    "Maintain consistent baseline security functions in certified systems despite reducing duplication.",
+    "Ensure clarity and stability in USCDI data element updates to avoid confusion or gaps.",
+    "Balance expanded automated and AI data access with guardrails to protect system integrity and patient safety.",
+    "Simplify public health reporting only if reliability and completeness are preserved."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Modernization and the move toward more flexible, FHIR-based interoperability is supported. At the same time, patient safety must remain the guiding principle."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "HHS-ONC-2025-0005-0098",
+  "commenter_name": "Massachusetts Health Data Consortium",
+  "organization": "Massachusetts Health Data Consortium",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 21562,
+  "org_type": "professional_association",
+  "summary": "The Massachusetts Health Data Consortium supports the HTI-5 deregulatory efforts to modernize health IT certification and advance API-forward interoperability but emphasizes the need to prevent burden shifting, maintain security and interoperability floors, and provide clear implementation roadmaps. They urge ONC to address operational barriers, ensure trust, and avoid pay-to-play access to electronic health information.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "api_forward_exchange",
+    "security",
+    "information_blocking"
+  ],
+  "specific_provisions": [
+    "removal of legacy certification criteria",
+    "audit log requirements",
+    "EHI access and fees",
+    "information blocking policy",
+    "TEFCA",
+    "API security baselines"
+  ],
+  "key_arguments": [
+    "Burden reduction must decrease total friction without shifting costs or risks downstream to providers, payers, or implementers.",
+    "Operational reliability and predictable, reusable integration are critical as interoperability evolves toward API-forward workflows.",
+    "Maintaining minimum, testable security expectations is essential to preserve trust during deregulation.",
+    "Clear implementation roadmaps and responsibility assignments are needed to reduce uncertainty and rework."
+  ],
+  "recommendations": [
+    "Pair removed or revised regulations with clear crosswalks and responsibility assignments.",
+    "Preserve an interoperability floor during the transition to APIs.",
+    "Discourage network-by-network API arrangements; require scalable, reusable integration patterns.",
+    "Define minimum, testable API security baselines to avoid security gaps.",
+    "Provide an executable implementation roadmap with timelines and 'removed \u2192 replaced by' crosswalks.",
+    "Assign clear responsibility to developers for displaced capabilities and commit to post-final-rule evaluation.",
+    "Include worked examples for high-impact use cases.",
+    "Retain meaningful interoperability performance signals to maintain accountability.",
+    "Establish enforceable guardrails on fees and licensing to prevent pay-to-play EHI access.",
+    "Make information-blocking updates administrable with practical examples and checklists.",
+    "Ensure TEFCA remains effective without limiting adoption of superior API-based exchange."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Burden reduction will succeed only if it decreases total friction across the ecosystem - not if it shifts cost, risk, or bespoke integration work."
+}

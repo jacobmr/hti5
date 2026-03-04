@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0089",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1153,
+  "org_type": "other",
+  "summary": "The commenter emphasizes the need to accelerate adoption of the latest FHIR Implementation Guides (IGs) across US states and territories to achieve nationwide Medicaid interoperability. They urge CMS and ASTP/ONC to monitor and report on the adoption status of key FHIR IGs such as Da Vinci, CARIN, and Gravity Project.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "medicaid_infrastructure",
+    "government_monitoring"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Many US states and territories have not yet adopted the latest FHIR IGs at scale.",
+    "Acceleration is needed to align all states and territories with current FHIR standards.",
+    "CMS and ASTP/ONC should actively monitor and report on FHIR IG adoption progress.",
+    "Tracking adoption of specific IGs (Da Vinci, CARIN, Gravity) is critical for interoperability."
+  ],
+  "recommendations": [
+    "Accelerate adoption of Da Vinci, CARIN, and Gravity FHIR IGs in all US states and territories.",
+    "CMS and ASTP/ONC should monitor and publicly report adoption metrics for these IGs."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "CMS and ASTP/ONC need to monitor FHIR IG adoption by US states and territories."
+}

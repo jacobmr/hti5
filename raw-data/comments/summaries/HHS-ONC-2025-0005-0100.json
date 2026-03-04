@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0100",
+  "commenter_name": "Ryan Melewski",
+  "organization": "",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4622,
+  "org_type": "other",
+  "summary": "The commenter, an individual attorney, strongly opposes the HTI-5 proposed deregulatory actions that would remove or weaken audit trail and privacy/security certification criteria. He argues that audit trails are essential for patient safety, data integrity, and accountability, and urges ONC to retain these safeguards until modernized standards are established.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_privacy",
+    "patient_safety",
+    "privacy_security",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) auditable events and tamper resistance",
+    "170.315(d)(2) audit reports",
+    "170.315(d)(10) auditing actions on health information"
+  ],
+  "key_arguments": [
+    "Audit trails are foundational for trust, transparency, and accountability in electronic health information.",
+    "Removing audit requirements reduces the ability to detect errors, prevent harm, and investigate fraud.",
+    "Deregulation should not precede the establishment of updated standards for data creation, preservation, and exchange.",
+    "Weakening privacy and security safeguards shifts risk onto patients and erodes public confidence."
+  ],
+  "recommendations": [
+    "Retain and reinforce audit trail certification criteria until modernized standards are codified.",
+    "Update definitions and standards for audit logs, tamper resistance, and traceability to ensure consistent expectations.",
+    "Do not remove privacy and security safeguards until robust mechanisms protect data integrity and patient access.",
+    "Avoid deregulation that undermines tools for identifying systemic risk and protecting patients."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "An audit trail is not an optional feature. It is the foundation of trust in electronic health information."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "HHS-ONC-2025-0005-0212",
+  "commenter_name": "Ascension",
+  "organization": "Ascension",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 12988,
+  "org_type": "health_system",
+  "summary": "Ascension supports ONC's efforts to reduce regulatory burden and advance FHIR-based interoperability but urges caution to avoid shifting compliance risks onto providers. They emphasize preserving baseline privacy, security, and AI transparency safeguards to protect patient safety and provider liability. They also support simplification of information blocking exceptions but call for clear enforcement discretion and guidance.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "ai_regulation",
+    "data_privacy",
+    "information_blocking",
+    "burden_reduction",
+    "patient_safety",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "FHIR-based APIs",
+    "AI model card and transparency requirements",
+    "privacy and security certification criteria",
+    "audit log requirements",
+    "information blocking exceptions (infeasibility, manner, TEFCA manner)",
+    "enforcement discretion policies"
+  ],
+  "key_arguments": [
+    "Removing AI transparency and app-level API requirements may shift compliance risk and liability onto providers.",
+    "Complete removal of privacy and security certification criteria risks compliance gaps and vulnerabilities, especially for smaller providers.",
+    "FHIR APIs must support both data retrieval and controlled data contribution to reduce clinician burden and errors.",
+    "Simplifying information blocking exceptions improves clarity but requires explicit enforcement discretion to protect good-faith actors."
+  ],
+  "recommendations": [
+    "Retain voluntary or modular privacy and security standards rather than total removal.",
+    "Establish a voluntary transparency framework for AI to support clinical oversight and regulatory compliance.",
+    "Develop a universal, even if voluntary, framework for FHIR implementation consistency, auditability, and data provenance.",
+    "Provide clear guidance and consistent enforcement discretion for information blocking exceptions and enforcement discretion policies.",
+    "Clarify how TEFCA compliance will be balanced with information blocking obligations."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "Removing these barriers allows providers to refocus their energy where it matters most: preventing and treating chronic disease."
+}

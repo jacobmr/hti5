@@ -1,0 +1,33 @@
+{
+  "id": "HHS-ONC-2025-0005-0011",
+  "commenter_name": "Latricia Powell",
+  "organization": "",
+  "posted_date": "2026-01-16T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4842,
+  "org_type": "other",
+  "summary": "The commenter supports targeted deregulation that reduces burden and fosters innovation but stresses that deregulatory actions must comply with existing laws and preserve enforceable standards to protect competition, patient trust, equity, and accountability, especially given AI's growing role in health data. They urge HHS and ONC to maintain statutory protections and implement equity assessments and governance safeguards.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "health_equity",
+    "ai_regulation",
+    "data_privacy",
+    "regulatory_certainty"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Interoperability standards must remain enforceable and technology-neutral to prevent market failures and vendor lock-in.",
+    "Deregulation without equity impact assessments risks harming underserved populations and shifting burdens onto vulnerable providers.",
+    "Reducing transparency and auditability threatens trust and market confidence in AI-driven health technologies.",
+    "Patient agency and consent are essential trust infrastructure, not regulatory friction."
+  ],
+  "recommendations": [
+    "Retain core statutory protections consistent with the Administrative Procedure Act, 21st Century Cures Act, and HIPAA.",
+    "Pair deregulation with explicit equity impact assessments, performance metrics, and post-implementation monitoring.",
+    "Establish clear governance expectations for AI-enabled health technologies to prevent bias and preserve competition.",
+    "Ensure predictable, clearly scoped rules to lower transaction costs and support smaller innovators."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "Deregulation should strengthen\u2014not weaken\u2014competition, patient trust, equity, and accountability."
+}

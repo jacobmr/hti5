@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0120",
+  "commenter_name": "Dartmouth Health",
+  "organization": "Dartmouth Health",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 5663,
+  "org_type": "health_system",
+  "summary": "Dartmouth Health supports the goal of accelerating API-driven interoperability and reducing duplicative burdens but expresses concern that several deregulatory actions in HTI-5 risk creating gaps that could slow interoperability and weaken necessary transparency and risk management, especially for predictive Decision Support Interventions (DSIs) and public health data exchange. They urge retention of minimum guardrails and standards to ensure patient safety, data consistency, and trustworthiness of medical records.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ai_regulation",
+    "interoperability",
+    "burden_reduction",
+    "patient_safety",
+    "public_health_data_exchange"
+  ],
+  "specific_provisions": [
+    "45 C.F.R. \u00a7 170.315(b)(11)(iv)\u2013(vi) (predictive DSIs transparency and risk management)",
+    "auditability requirements",
+    "health IT certification criteria related to data standards and export",
+    "data creation, collection, preservation standards"
+  ],
+  "key_arguments": [
+    "Removing transparency and risk management elements for predictive DSIs risks patient harm and weakens clinical trust.",
+    "Minimum guardrails for DSIs can be maintained with low-burden, machine-readable Evidence Artifacts instead of prescriptive documentation.",
+    "Reducing or eliminating health IT standards will slow data flow and increase variability, harming public health data exchange and surveillance.",
+    "Lack of consistent standards forces public health agencies to handle multiple vendor-specific implementations, increasing inefficiency."
+  ],
+  "recommendations": [
+    "Retain minimum guardrails for predictive DSIs including intended use, monitoring, auditability, and human override pathways.",
+    "Require certified Health IT Modules to support exportable, machine-readable Evidence Artifacts for predictive DSIs.",
+    "Maintain standards and certification requirements that ensure data is created, collected, and preserved in usable, searchable, and sharable formats before removing functional guardrails."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "We are concerned that several deregulatory steps risk introducing architectural gaps that may slow real world interoperability."
+}

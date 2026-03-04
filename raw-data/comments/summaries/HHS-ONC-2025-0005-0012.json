@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0012",
+  "commenter_name": "Sean Domnick",
+  "organization": "",
+  "posted_date": "2026-01-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3897,
+  "org_type": "other",
+  "summary": "The commenter emphasizes the critical importance of maintaining strong, updated standards for audit trails and data integrity in electronic health records to ensure patient safety, transparency, and accountability. They argue that deregulation risks weakening interoperability and enabling fraud, and call for modern, enforceable standards that reflect current technologies including AI and automated documentation.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "interoperability",
+    "ai_regulation",
+    "data_integrity"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "C-CDA creation certification criterion",
+    "EHI export",
+    "USCDI data classes",
+    "standardized API requirements"
+  ],
+  "key_arguments": [
+    "Audit trails are essential for verifying data integrity, security, and preventing billing fraud.",
+    "Current standards are outdated and do not reflect modern EHR functionalities like AI and automated documentation.",
+    "Deregulation risks weakening interoperability, transparency, and patient protections.",
+    "Patients lack meaningful access to complete and transparent electronic health information."
+  ],
+  "recommendations": [
+    "Update and enforce modern audit trail standards that reflect current clinical technologies.",
+    "Ensure transparency and traceability of data creation and modification, especially involving AI and software.",
+    "Maintain strong certification requirements to protect patient safety and prevent fraud.",
+    "Define clear data retention standards compliant with laws and ongoing care needs."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

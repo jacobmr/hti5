@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0101",
+  "commenter_name": "Thomas Ryan",
+  "organization": "",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4165,
+  "org_type": "other",
+  "summary": "The commenter, an attorney experienced in reviewing electronic medical records, opposes the proposed removal or reduction of certification criteria related to audit logs and EHI export. He stresses that deregulation should not occur before modernizing audit trail standards to ensure patient safety, record integrity, and enforceable patient access.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "ehi_export",
+    "patient_safety",
+    "interoperability",
+    "authentication_integrity"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2)",
+    "170.315(d)(3)",
+    "170.315(d)(10)",
+    "170.315(b)(11)",
+    "170.315(g)(3)"
+  ],
+  "key_arguments": [
+    "Audit trails are essential for transparency, accountability, and patient safety by tracking edits and modifications.",
+    "Removing certification criteria without updated standards risks undermining the accuracy and reliability of medical records.",
+    "Patients face barriers to accessing complete records; regulatory reform should reinforce patient access rights.",
+    "Emerging technologies influencing care should be included in audit logs to maintain traceability."
+  ],
+  "recommendations": [
+    "Prioritize modernization of audit trail standards before reducing certification requirements.",
+    "Ensure audit logs capture clinically significant actions, user roles, and access activity.",
+    "Include logging of AI systems, connected devices, and messaging platforms affecting patient care.",
+    "Preserve clinically relevant communications in durable, readable formats consistent with retention laws.",
+    "Reinforce enforceable patient access rights under the 21st Century Cures Act."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Patients rely on their records as a source of truth. Federal health IT policy should ensure those records remain transparent, durable, and trustworthy."
+}

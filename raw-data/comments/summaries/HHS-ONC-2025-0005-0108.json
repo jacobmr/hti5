@@ -1,0 +1,31 @@
+{
+  "id": "HHS-ONC-2025-0005-0108",
+  "commenter_name": "North American Association of Central Cancer Registries",
+  "organization": "North American Association of Central Cancer Registries",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 5348,
+  "org_type": "professional_association",
+  "summary": "The North American Association of Central Cancer Registries supports HTI-5's goals to reduce burden and modernize standards but opposes removing the \u00a7170.315(f)(4) certification criterion for cancer registry transmission before FHIR-based reporting is mature. They warn this removal risks disrupting timely, standardized cancer reporting, increasing provider burden, and reducing data quality.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "public_health_reporting",
+    "burden_reduction",
+    "clinical_workflow"
+  ],
+  "specific_provisions": ["170.315(f)(4) Transmission to cancer registries"],
+  "key_arguments": [
+    "FHIR-based resources for cancer registry reporting are immature and not widely implemented.",
+    "Removing the certification criterion risks shifting to manual or non-standardized reporting, increasing burden and reducing data quality.",
+    "Certification incentives are critical to ensure EHR support for standardized cancer data reporting, especially in outpatient settings.",
+    "Transitioning without a phased plan will increase technical complexity and risk reporting gaps."
+  ],
+  "recommendations": [
+    "Retain \u00a7170.315(f)(4) certification criterion until FHIR-based reporting matures.",
+    "Implement a phased transition plan with defined minimum content and coordinated testing to avoid reporting gaps."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removal of \u00a7170.315(f)(4) risks disrupting timely incidence cancer reporting and increasing provider burden."
+}

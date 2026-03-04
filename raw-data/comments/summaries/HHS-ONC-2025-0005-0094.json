@@ -1,0 +1,29 @@
+{
+  "id": "HHS-ONC-2025-0005-0094",
+  "commenter_name": "MedStar Health",
+  "organization": "MedStar Health",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 241,
+  "org_type": "health_system",
+  "summary": "MedStar Health urges ONC to retain usability testing requirements to prevent design flaws that could cause patient harm and clinician inefficiency. They emphasize the importance of maintaining safeguards to ensure safety and usability in health IT products.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "usability_testing",
+    "patient_safety",
+    "clinical_workflow",
+    "burden_reduction"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Poor design can lead to deadly mistakes",
+    "Usability testing prevents daily frustration and inefficiency",
+    "Safeguards are essential to keep patients and clinicians safe"
+  ],
+  "recommendations": [
+    "Do not eliminate usability testing requirements",
+    "Maintain safeguards to ensure safety and usability"
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Please keep our patients and clinicians safe and keep usability testing in place!"
+}

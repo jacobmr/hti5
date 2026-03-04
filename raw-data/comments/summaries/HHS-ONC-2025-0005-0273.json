@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0273",
+  "commenter_name": "Michigan Primary Care Association",
+  "organization": "Michigan Primary Care Association",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 120,
+  "org_type": "professional_association",
+  "summary": "The Michigan Primary Care Association comments on the HTI-5 proposed rule, emphasizing the need to balance burden reduction with maintaining essential interoperability and patient safety standards. They express concerns about removing key certification criteria that could impact clinical workflows and data exchange.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "patient_safety",
+    "vendor_burden",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA",
+    "170.315(d)(2) audit logs",
+    "USCDI data classes",
+    "EHI export"
+  ],
+  "key_arguments": [
+    "Reducing certification requirements can lower vendor burden and costs",
+    "Certain standards like C-CDA and audit logs are critical for clinical workflows and patient safety",
+    "Complete removal of some provisions may hinder interoperability and data exchange",
+    "A balanced approach is needed to ensure both innovation and safety"
+  ],
+  "recommendations": [
+    "Retain essential certification criteria related to C-CDA and audit logs",
+    "Gradually phase out or modify requirements rather than full removal",
+    "Engage stakeholders to assess impact on clinical workflows before finalizing",
+    "Ensure patient safety and interoperability remain priorities"
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "A balanced approach is needed to ensure both innovation and safety in health IT certification."
+}

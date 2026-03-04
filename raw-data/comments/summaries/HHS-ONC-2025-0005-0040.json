@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0040",
+  "commenter_name": "Middlesex Health",
+  "organization": "Middlesex Health",
+  "posted_date": "2026-02-05T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2100,
+  "org_type": "health_system",
+  "summary": "Middlesex Health supports the proposed revisions clarifying that 'access' and 'use' of EHI include automation technologies like RPA and Agentic AI. They emphasize that this clarity will promote regulatory certainty, strengthen anti-information blocking protections, and enhance health system efficiency through AI adoption.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "information_blocking",
+    "regulatory_clarity",
+    "clinical_workflow",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "45 CFR 171.102 definitions of 'access' and 'use' of EHI"
+  ],
+  "key_arguments": [
+    "Explicitly naming RPA and Agentic AI removes ambiguity and enables confident investment and deployment.",
+    "Reinforces that interference with automated EHI access/use may constitute information blocking.",
+    "Clear framework for automated data use will accelerate AI adoption, improving efficiency and reducing costs.",
+    "Supports the spirit of the Cures Act in promoting seamless health data access in the era of advanced automation."
+  ],
+  "recommendations": [
+    "Finalize the proposed revisions to explicitly include automation technologies in the definitions of 'access' and 'use' of EHI."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "This regulatory clarity is crucial for the future of health information technology and patient care."
+}

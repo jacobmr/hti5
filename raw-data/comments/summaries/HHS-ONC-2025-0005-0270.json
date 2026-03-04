@@ -1,0 +1,46 @@
+{
+  "id": "HHS-ONC-2025-0005-0270",
+  "commenter_name": "Beth Daley Ullem",
+  "organization": "",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4253,
+  "org_type": "other",
+  "summary": "The commenter supports ONC/ASTP's efforts to reduce regulatory burden and modernize certification but strongly urges retaining key safety-related certification criteria. They emphasize that removing these criteria risks patient safety and undermines the reliability and accountability of health IT systems.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "audit_log_standards",
+    "clinical_decision_support",
+    "usability",
+    "certification_program"
+  ],
+  "specific_provisions": [
+    "170.315(b)(11) Decision Support Interventions",
+    "170.315(g)(3) Safety-Enhanced Design",
+    "170.315(b)(2) Clinical Information Reconciliation and Incorporation",
+    "170.315(d)(2) Auditable Events and Tamper-Resistance",
+    "170.315(d)(1) Authentication, Access Control, and Authorization",
+    "170.315(g)(4) Quality Management System",
+    "170.315(d)(10) Auditing Actions on Health Information",
+    "170.315(b)(1) Transitions of Care",
+    "170.315(d)(13) Multi-Factor Authentication",
+    "170.315(a)(9) Clinical Decision Support",
+    "170.315(d)(3) Audit Reports",
+    "170.315(d)(5) Automatic Access Time-Out",
+    "170.315(d)(8) Integrity"
+  ],
+  "key_arguments": [
+    "Health IT is integral to clinical care and requires safeguards to prevent harm.",
+    "Removing safety-related certification criteria increases risk of medication errors, wrong-patient orders, and delays in care.",
+    "Certification provides a consistent, nationwide baseline benefiting all healthcare organizations, especially those with limited resources.",
+    "Modernization is appropriate but should not eliminate essential safety protections."
+  ],
+  "recommendations": [
+    "Retain safety-related certification criteria within the program.",
+    "Revise and strengthen criteria as needed to reflect current technology and best practices.",
+    "Avoid removing protections that ensure usability, traceability, transparency, and risk management."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing these protections entirely would create unnecessary risk and reduce assurance that certified systems meet fundamental safety expectations."
+}

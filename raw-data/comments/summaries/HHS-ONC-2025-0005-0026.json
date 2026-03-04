@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0026",
+  "commenter_name": "Logan English",
+  "organization": "",
+  "posted_date": "2026-01-23T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2013,
+  "org_type": "other",
+  "summary": "The commenter emphasizes that electronic health records must remain accurate, complete, and trustworthy to ensure patient safety and effective medical decision-making. They caution against deregulation without establishing stronger, modernized audit trail standards that reflect current technology and AI use.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "ai_regulation",
+    "data_integrity",
+    "deregulation_risks"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "AI transparency and traceability"
+  ],
+  "key_arguments": [
+    "Inaccurate or incomplete records increase preventable medical errors and harm patients.",
+    "Audit trails must accurately document data creation and modification, including AI involvement.",
+    "Deregulation without stronger standards will worsen existing problems and create new risks.",
+    "Electronic health records serve multiple critical functions beyond clinical care, requiring trustworthy data."
+  ],
+  "recommendations": [
+    "Modernize and consistently apply foundational standards before any deregulation.",
+    "Ensure audit trail standards keep pace with AI use in healthcare.",
+    "Maintain strong, enforceable standards to protect patients and support clinicians."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "If information can be altered or added later without clear transparency, that record is no longer reliable."
+}

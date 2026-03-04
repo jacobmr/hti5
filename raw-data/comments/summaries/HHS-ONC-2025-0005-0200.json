@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0200",
+  "commenter_name": "Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 29365,
+  "org_type": "government_agency",
+  "summary": "The California Department of Justice opposes the removal of the AI model card requirement in the HTI-5 proposed rule, arguing it would reduce transparency, accountability, and exacerbate algorithmic discrimination in healthcare. The comment highlights evidence of bias in healthcare AI and stresses the importance of maintaining federal guardrails to ensure equitable access and safe use of decision support tools.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "health_equity",
+    "transparency",
+    "patient_safety",
+    "algorithmic_bias"
+  ],
+  "specific_provisions": [
+    "model card requirement",
+    "decision support interventions transparency (Section III(A)(2)(e))"
+  ],
+  "key_arguments": [
+    "Removing the model card requirement eliminates critical transparency and accountability safeguards for AI in healthcare.",
+    "Algorithmic decisionmaking tools have demonstrated racial and other biases that can worsen health disparities.",
+    "Transparency is essential to detect, regulate, and mitigate discriminatory impacts of AI tools.",
+    "Existing federal requirements promote equitable, safe, and effective healthcare delivery."
+  ],
+  "recommendations": [
+    "Retain the AI model card requirement in the ONC Health IT Certification Program.",
+    "Maintain transparency requirements for decision support interventions to ensure accountability.",
+    "Ensure federal regulations continue to address and prevent algorithmic discrimination in healthcare AI."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing the model card requirement would eliminate one of the most significant guardrails currently in place on a federal level for the use of AI in healthcare."
+}

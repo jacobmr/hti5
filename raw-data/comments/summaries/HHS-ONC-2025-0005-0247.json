@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0247",
+  "commenter_name": "Health Innovation Alliance",
+  "organization": "Health Innovation Alliance",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 71,
+  "org_type": "health_it_company",
+  "summary": "The Health Innovation Alliance supports the HTI-5 proposed deregulatory actions, emphasizing the need to reduce burdens on health IT developers. They highlight that removing certain certification requirements will foster innovation and improve interoperability.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "ccda_removal",
+    "audit_log_standards",
+    "vendor_burden"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA",
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "USCDI data classes"
+  ],
+  "key_arguments": [
+    "Reducing certification requirements lowers development costs and accelerates innovation.",
+    "Removing outdated standards like C-CDA creation aligns with current interoperability practices.",
+    "Simplifying audit log and EHI export requirements reduces unnecessary complexity.",
+    "Less prescriptive USCDI data class requirements allow for more flexible data exchange."
+  ],
+  "recommendations": [
+    "Proceed with removing the C-CDA creation certification criterion.",
+    "Reduce audit log and EHI export requirements as proposed.",
+    "Maintain flexibility in USCDI data class requirements to encourage innovation.",
+    "Avoid adding new burdensome certification criteria that hinder developer agility."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Removing certification requirements will foster innovation and improve interoperability."
+}

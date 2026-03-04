@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0186",
+  "commenter_name": "AdventHealth",
+  "organization": "AdventHealth",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 9118,
+  "org_type": "health_system",
+  "summary": "AdventHealth supports the goal of reducing regulatory burden to foster innovation but urges caution in fully removing privacy and security certification criteria. They emphasize maintaining baseline security functions, transparency for AI decision support tools, and balancing patient access with secure information exchange.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "data_privacy",
+    "audit_log_standards",
+    "ai_regulation",
+    "patient_access",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "privacy and security certification criteria",
+    "audit capabilities",
+    "authentication and access control",
+    "predictive decision support tools",
+    "information blocking policies"
+  ],
+  "key_arguments": [
+    "Removing privacy and security certification criteria may increase variability and burden on providers, especially smaller ones.",
+    "Maintaining transparency about AI tools supports responsible adoption and clinician confidence.",
+    "Reasonable security and identity-assurance practices are necessary to protect patients and maintain trust.",
+    "Certification provides a consistent baseline that helps providers deploy health IT safely across diverse settings."
+  ],
+  "recommendations": [
+    "Retain a limited set of foundational, outcome-oriented privacy and security expectations within certification.",
+    "Maintain baseline transparency requirements for predictive decision support tools without rigid documentation.",
+    "Clarify distinctions between legitimate security safeguards and inappropriate information blocking.",
+    "Continue exploring flexible, fit-for-purpose privacy and security approaches as interoperability expands."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "Removing them from certification may introduce greater variability across products and increase provider burden."
+}

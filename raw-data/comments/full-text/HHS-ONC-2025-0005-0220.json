@@ -1,0 +1,33 @@
+{
+  "id": "HHS-ONC-2025-0005-0220",
+  "title": "Comment from Rocha, David, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "David Rocha",
+  "commenter_first": "David",
+  "commenter_last": "Rocha",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "received_date": "2026-02-27T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "The Sparked FHIR accelerator in Australia is in early stages of creating a AU Encounter Record (country realm encounter record) for FHIR Documents. ASTP/ONC can monitor this project if this could apply for the future of encounter records using FHIR. See attached doc.",
+  "has_attachments": true,
+  "attachments": [
+    {
+      "title": "Encounter Record Comment 2-27-26",
+      "filename": "",
+      "url": "https://downloads.regulations.gov/HHS-ONC-2025-0005-0220/attachment_1.pdf",
+      "format": "pdf"
+    },
+    {
+      "title": "Encounter Record Comment 2-27-26",
+      "filename": "",
+      "url": "https://downloads.regulations.gov/HHS-ONC-2025-0005-0220/attachment_1.docx",
+      "format": "docx"
+    }
+  ],
+  "doc_abstract": ""
+}

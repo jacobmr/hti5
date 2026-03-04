@@ -1,0 +1,34 @@
+{
+  "id": "HHS-ONC-2025-0005-0293",
+  "commenter_name": "Lihua Liu",
+  "organization": "",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 907,
+  "org_type": "other",
+  "summary": "The commenter emphasizes the importance of maintaining consistent cancer data reporting standards set by NAACCR for accurate population-based cancer surveillance. They express concern that the HTI-5 proposed deregulation could undermine these standards and support NAACCR's recommended revisions.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "data_standards",
+    "uscdi_data_classes",
+    "ehi_export",
+    "burden_reduction",
+    "public_health_surveillance"
+  ],
+  "specific_provisions": [
+    "USCDI data class requirements",
+    "EHI export requirements"
+  ],
+  "key_arguments": [
+    "Population-based cancer surveillance relies on consistent, high-quality data standards.",
+    "NAACCR standards are critical and must be followed and updated regularly.",
+    "HTI-5 deregulation risks derailing existing cancer data reporting standards.",
+    "Maintaining standards is essential for sound public health policy and assessments."
+  ],
+  "recommendations": [
+    "Reject or revise HTI-5 deregulatory measures that threaten NAACCR standards.",
+    "Ensure continued adherence to NAACCR data reporting standards in health IT certification."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The HTI-5 proposed deregulation measures risk the derailment of the existing NAACCR standards."
+}

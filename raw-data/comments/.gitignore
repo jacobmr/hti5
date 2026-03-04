@@ -1,0 +1,6 @@
+# Exclude source zip files (already extracted)
+*.zip
+
+# Keep organized, extracted data
+!.gitignore
+!README.md

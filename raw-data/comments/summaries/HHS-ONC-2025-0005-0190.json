@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0190",
+  "commenter_name": "Mark Smith",
+  "organization": "",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 622,
+  "org_type": "other",
+  "summary": "The commenter opposes the proposed removal of many certification requirements, emphasizing that audit trails are essential for patient safety, fraud prevention, and legal accountability. They argue that standards should be modernized first, especially to address AI content, interoperability, metadata, and data retention, before reducing certification protections.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "ai_regulation",
+    "interoperability",
+    "data_retention"
+  ],
+  "specific_provisions": ["audit logs", "certification requirements broadly"],
+  "key_arguments": [
+    "Audit trails are foundational to patient safety, fraud prevention, and litigation accountability.",
+    "Removing certification requirements before updating standards is premature.",
+    "Standards need modernization to address AI-generated content, interoperability, metadata transparency, and data retention."
+  ],
+  "recommendations": [
+    "Modernize standards first, especially for AI, interoperability, metadata, and data retention.",
+    "Maintain current certification protections until updated standards are in place."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational to patient safety, fraud prevention, and accountability in litigation."
+}

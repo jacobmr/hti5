@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0221",
+  "commenter_name": "The Light Collective",
+  "organization": "The Light Collective",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 15628,
+  "org_type": "advocacy_group",
+  "summary": "The Light Collective opposes the proposed removal of ONC security certification requirements in HTI-5, emphasizing that eliminating baseline, independently testable security safeguards before replacements are in place risks patient safety and trust. They urge ONC to maintain or transition security requirements to prevent gaps, ensure minimal patient-protective safeguards, and increase transparency and accountability.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "security_certification",
+    "patient_safety",
+    "data_privacy",
+    "burden_reduction",
+    "ai_regulation"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.315(d) privacy and security certification criteria",
+    "\u00a7 170.550(h) Privacy and Security Certification Framework"
+  ],
+  "key_arguments": [
+    "Removing baseline security certification before a replacement is finalized creates a security gap risking patient harm.",
+    "Market competition does not ensure baseline security because patients and many providers cannot effectively assess or negotiate security quality.",
+    "Certification provides an important independent, testable floor for security controls despite not guaranteeing HIPAA compliance.",
+    "Federal policies like TEFCA require third-party cybersecurity certification, so removing ONC security certification would create policy misalignment and undermine trust."
+  ],
+  "recommendations": [
+    "Establish a transition policy maintaining current security requirements until replacements are operational or maintain them for 18-24 months.",
+    "Retain a minimal set of baseline safeguards including MFA, audit logging, and encryption compatible with modern APIs.",
+    "Allow a streamlined third-party security assurance pathway as an alternative to ONC-specific testing.",
+    "Require standardized, public-facing security transparency statements for certified products.",
+    "Operationalize 'No Aggregation Without Representation' through disclosure and patient-facing notices for downstream AI-related data uses."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing that floor\u2014before an enforceable replacement is finalized\u2014predictably increases risk of inconsistent security practices."
+}

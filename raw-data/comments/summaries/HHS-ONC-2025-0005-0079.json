@@ -1,0 +1,45 @@
+{
+  "id": "HHS-ONC-2025-0005-0079",
+  "commenter_name": "American Health Care Association/National Center for Assisted Living (AHCA/NCAL)",
+  "organization": "American Health Care Association/National Center for Assisted Living (AHCA/NCAL)",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 56837,
+  "org_type": "professional_association",
+  "summary": "AHCA/NCAL appreciates efforts to reduce regulatory burden but expresses significant concerns that removing or reducing certification criteria may harm LTPAC providers and vulnerable populations. They urge ONC to consider LTPAC-specific needs, maintain critical interoperability and patient engagement features, and provide adequate transition support.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "privacy_and_security_criteria",
+    "transitions_of_care",
+    "patient_engagement",
+    "ai_regulation",
+    "ltpac_specific_considerations"
+  ],
+  "specific_provisions": [
+    "privacy and security certification criteria",
+    "transitions of care and clinical information reconciliation",
+    "view, download, transmit (VDT)",
+    "patient health information capture",
+    "information blocking revisions",
+    "USCDI data elements",
+    "FHIR implementation guides"
+  ],
+  "key_arguments": [
+    "Removing certification criteria risks reducing vendor support for LTPAC-critical functionalities.",
+    "LTPAC providers have unique workflows, populations, and resource constraints not addressed by acute care-focused policies.",
+    "Adequate interoperability infrastructure and AI governance are essential for safe, effective care in LTPAC settings.",
+    "Transition timelines and implementation guidance are necessary to avoid disruption."
+  ],
+  "recommendations": [
+    "Retain or phase in privacy and security certification criteria with clear baseline expectations.",
+    "Maintain transitions of care and clinical reconciliation criteria.",
+    "Preserve patient engagement features including VDT and health information capture.",
+    "Ensure AI-enabled decision support transparency and oversight.",
+    "Clarify impact of information blocking changes on LTPAC providers using non-certified tech.",
+    "Provide sufficient transition timelines and implementation guidance for LTPAC providers and vendors.",
+    "Develop model contract language for LTPAC providers to secure essential capabilities post-deregulation.",
+    "Establish an LTPAC Health IT Advisory Group for ongoing stakeholder engagement."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Health IT policies developed primarily for acute care often fail to account for unique LTPAC characteristics."
+}

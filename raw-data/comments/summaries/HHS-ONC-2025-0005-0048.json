@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0048",
+  "commenter_name": "Dustin Herman",
+  "organization": "",
+  "posted_date": "2026-02-18T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2583,
+  "org_type": "other",
+  "summary": "The commenter emphasizes the critical need for updated and robust audit trail standards to ensure transparency, patient access, and trust in medical records before any deregulation of health IT certification. They highlight risks of automatic deletion of care-related messages and call for pausing deregulatory actions until trustworthy record standards are established.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_preservation",
+    "ai_regulation",
+    "transparency"
+  ],
+  "specific_provisions": ["170.315(d)(2) audit logs", "EHI export"],
+  "key_arguments": [
+    "Current audit trail standards allow critical patient care messages to be deleted automatically, risking patient safety and transparency.",
+    "Patients have a right to access all communications about their care, including provider messages.",
+    "Audit trails are essential for billing integrity, patient trust, and legal accountability.",
+    "AI use in care decisions requires transparency through audit trails."
+  ],
+  "recommendations": [
+    "Pause proposed certification deregulatory changes until modern, robust audit and preservation standards are finalized.",
+    "Update standards for data creation, collection, preservation, and reproducibility before deregulation.",
+    "Ensure all messages regarding patient care are included in audit trails and preserved."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

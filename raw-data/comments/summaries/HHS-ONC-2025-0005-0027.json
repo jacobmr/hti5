@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0027",
+  "commenter_name": "J Tolin Law",
+  "organization": "J Tolin Law",
+  "posted_date": "2026-01-23T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1812,
+  "org_type": "individual_clinician",
+  "summary": "The commenter, a former critical care respiratory therapist and current lawyer, strongly opposes deregulation of health IT certification requirements, emphasizing the importance of accurate and complete medical records for patient safety and legal accountability. They highlight how current deregulation could enable misuse of communication tools like EPIC's secure chat to obscure true clinical events.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "clinical_workflow",
+    "transparency"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "EHI export",
+    "standardized API requirements"
+  ],
+  "key_arguments": [
+    "Accurate records are essential for patient safety and advocacy.",
+    "Deregulation encourages software providers to obscure or misuse audit trails.",
+    "Secure chat communications are currently excluded from medical records, enabling fraud and lack of accountability.",
+    "Deregulation would worsen these issues and hinder truth and transparency."
+  ],
+  "recommendations": [
+    "Oppose any deregulation that reduces audit log or record accuracy requirements.",
+    "Require that all communications made within EMRs, including secure chat, be part of the official medical record."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Deregulation encourages software providers to misuse, obscure, or make audit trails harder to be accurate and complete."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0192",
+  "commenter_name": "HIMSS Electronic Health Record Association",
+  "organization": "HIMSS Electronic Health Record Association",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 52500,
+  "org_type": "professional_association",
+  "summary": "The HIMSS Electronic Health Record Association generally supports the HTI-5 deregulatory efforts to reduce certification burdens while maintaining interoperability and patient safety. They urge careful consideration of potential negative impacts on interoperability and safety, call for alignment with CMS programs, and request clarity on future certification plans in HTI-6. They also express concern that some information blocking proposals may increase complexity rather than reduce burden.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "patient_safety",
+    "certification_alignment",
+    "information_blocking"
+  ],
+  "specific_provisions": [
+    "removal of C-CDA creation certification criterion",
+    "audit log requirements",
+    "EHI export requirements",
+    "USCDI data class requirements",
+    "\u00a7 170.315(a)(5) Patient demographics and observations",
+    "\u00a7 170.315(a)(9) Clinical decision support",
+    "\u00a7 170.315(a)(12) Family health history"
+  ],
+  "key_arguments": [
+    "Removing certification criteria not directly tied to interoperability can reduce burden without harming progress.",
+    "Loss of regulatory 'weight' might reduce ongoing investment in existing functionalities.",
+    "New market entrants might ignore standardized approaches, risking interoperability and safety.",
+    "Information blocking proposals may add complexity and administrative burden rather than reduce it."
+  ],
+  "recommendations": [
+    "Carefully consider impacts on interoperability and patient safety before removing criteria.",
+    "Coordinate certification timelines and requirements closely with CMS programs for alignment.",
+    "Rapidly finalize HTI-5 deregulatory actions and promptly release HTI-6 proposals for clarity.",
+    "Simplify and clarify information blocking policies with better guidance and education.",
+    "Consider removing certain criteria entirely (e.g., patient demographics) and defer to USCDI."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We appreciate the efforts by ASTP/ONC to take deregulatory actions that could reduce burden... while maintaining progress toward interoperability."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0134",
+  "commenter_name": "Workgroup for Electronic Data Interchange (WEDI)",
+  "organization": "Workgroup for Electronic Data Interchange (WEDI)",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 31474,
+  "org_type": "professional_association",
+  "summary": "WEDI supports the overall goal of reducing health IT certification burdens but raises concerns about removing key certification criteria too quickly, especially those related to clinical decision support, C-CDA, and privacy/security. They emphasize the need for a cautious transition to ensure patient care and data security are not compromised.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "ccda_removal",
+    "clinical_workflow",
+    "data_privacy",
+    "fhir_standards"
+  ],
+  "specific_provisions": [
+    "USCDI v3",
+    "Clinical Decision Support (DSI)",
+    "170.315(g)(6) C-CDA",
+    "Privacy and Security Certification Criteria"
+  ],
+  "key_arguments": [
+    "Removing certification criteria may lead developers to drop functionalities users depend on, especially for new market entrants.",
+    "The transition from C-CDA to FHIR-based exchange is premature and risks disrupting clinical document exchange and patient care.",
+    "Privacy and security controls are critical and should not be weakened given ongoing cyber threats; embedding these in products is essential.",
+    "Compressed timelines for deregulatory changes do not allow adequate time for developers and users to adapt."
+  ],
+  "recommendations": [
+    "Remove Patient Demographics certification criterion and replace with USCDI v3 elements.",
+    "Do not finalize the proposed revisions to Clinical Decision Support certification criteria.",
+    "Retain the C-CDA creation and receipt certification criteria until further evaluation of FHIR-based alternatives is completed.",
+    "Maintain current privacy and security certification criteria to ensure robust protections and avoid shifting burdens to providers."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "We do not believe this is an appropriate time to remove any privacy and security controls or protections for patient health information."
+}

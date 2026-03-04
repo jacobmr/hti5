@@ -1,0 +1,44 @@
+{
+  "id": "HHS-ONC-2025-0005-0254",
+  "commenter_name": "Veradigm LLC",
+  "organization": "Veradigm LLC",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4010,
+  "org_type": "health_it_company",
+  "summary": "Veradigm supports ONC's efforts to modernize interoperability and reduce regulatory burden but urges careful, phased transitions to avoid operational gaps and misalignment with CMS programs. They emphasize maintaining transparency and trust, especially for AI tools, and recommend clarity on burden reduction claims.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "burden_reduction",
+    "ai_regulation",
+    "cms_alignment",
+    "interoperability",
+    "transparency",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "C-CDA removal",
+    "Decision Support Intervention (DSI) criterion",
+    "real world testing changes",
+    "automated numerator recording",
+    "SED removal",
+    "security requirements",
+    "public health survey criteria"
+  ],
+  "key_arguments": [
+    "Phased timelines are needed to prevent gaps before new interoperability frameworks are fully adopted.",
+    "Premature removal of requirements without operational alternatives may increase burden and risk.",
+    "Certification criteria must align with CMS programs to avoid conflicting requirements and disruption.",
+    "Transparency and clinician oversight must be preserved, especially for AI-enabled tools."
+  ],
+  "recommendations": [
+    "Implement careful, phased transitions when removing legacy standards like C-CDA and Direct.",
+    "Synchronize effective dates and retirement timelines with CMS Promoting Interoperability measures.",
+    "Maintain transparency expectations around provenance and accountability for AI tools.",
+    "Clarify that removal of certification criteria does not eliminate underlying legal or operational obligations."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We support ONC\u2019s direction toward FHIR based interoperability but recommend careful, phased timelines."
+}

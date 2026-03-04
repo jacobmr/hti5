@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0070",
+  "commenter_name": "Alliance for Nursing Informatics",
+  "organization": "Alliance for Nursing Informatics",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 7721,
+  "org_type": "professional_association",
+  "summary": "The Alliance for Nursing Informatics expresses concern that the HTI-5 deregulatory actions may compromise patient safety, interoperability, and shift risk to healthcare organizations and patients. They urge maintaining key certification requirements, especially around privacy, security, and standardized data to support safe AI deployment.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "data_privacy",
+    "ai_regulation",
+    "interoperability",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "privacy and security certification criteria",
+    "expanded AI access via APIs",
+    "standardized data elements and reporting requirements",
+    "removal of certification requirements"
+  ],
+  "key_arguments": [
+    "Removing certification criteria shifts compliance burden to healthcare organizations lacking resources.",
+    "New market entrants may not voluntarily comply with standards without mandates.",
+    "Expanded AI access to health data risks patient privacy without clear consent and guardrails.",
+    "Relaxing data standardization undermines safe, scalable AI deployment and interoperability."
+  ],
+  "recommendations": [
+    "Reconsider removal of privacy and security certification criteria and invest in support for compliance.",
+    "Clarify limits on agentic AI data access to not exceed patient-authorized access.",
+    "Maintain standardization and reporting requirements to ensure safe AI development.",
+    "Provide targeted support to smaller and newer developers rather than removing requirements."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing privacy and security criteria transfers the onus to healthcare organizations lacking security infrastructure."
+}

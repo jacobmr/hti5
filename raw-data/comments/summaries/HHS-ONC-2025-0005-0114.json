@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0114",
+  "commenter_name": "American Academy of Dermatology Association",
+  "organization": "American Academy of Dermatology Association",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8552,
+  "org_type": "professional_association",
+  "summary": "The American Academy of Dermatology Association supports burden reduction efforts in the HTI-5 proposed rule but urges caution to avoid clinical care disruptions and patient safety risks. They emphasize retaining certain patient demographic data capture, AI transparency requirements, and call for clear transition plans and alignment with CMS reporting.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "patient_safety",
+    "ai_regulation",
+    "uscdi_data_classes",
+    "transition_planning"
+  ],
+  "specific_provisions": [
+    "Patient Demographics certification criteria",
+    "Consolidated Clinical Data Architecture (C-CDA)",
+    "AI model transparency requirements (model cards)",
+    "Patient Health Information Capture",
+    "Automated Measure Calculation"
+  ],
+  "key_arguments": [
+    "Removing sexual orientation, gender identity, and sex parameters risks clinical miscommunication and patient harm.",
+    "Eliminating C-CDA criteria before new standards are implemented may create informational gaps.",
+    "Removing AI transparency requirements undermines accountability and risks AI-related errors.",
+    "Deregulation should not create data or clinical care gaps and must align with CMS reporting requirements."
+  ],
+  "recommendations": [
+    "Retain patient demographic data capture criteria and re-institute them in USCDI.",
+    "Develop guidance on capturing patient demographic data if criteria are removed.",
+    "Create a seamless transition plan before removing certification criteria to avoid care disruptions.",
+    "Reconsider removal of AI transparency requirements to maintain accountability.",
+    "Coordinate with CMS to align certification criteria with provider reporting requirements.",
+    "Prioritize physician education on information blocking rules and provide opportunities for corrective action before penalties."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "AADA strongly urges ASTP/ONC to reconsider removal of transparency on algorithms and programming used in AI clinical decision-making models."
+}

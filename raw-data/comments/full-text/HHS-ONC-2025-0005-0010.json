@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0010",
+  "title": "Comment from Jain, Kanav, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Kanav Jain",
+  "commenter_first": "Kanav",
+  "commenter_last": "Jain",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-01-14T05:00:00Z",
+  "received_date": "2026-01-13T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "Re: Health Data, Technology, and Interoperability &mdash; Deregulatory Actions &mdash; Preserve Evidentiary Capacity and Contestability\n\nDepartment of Health and Human Services  \nASTP/ONC\n\nI submit this comment on the proposed Health Data, Technology, and Interoperability deregulatory actions. The rule proposes amendments to 45 CFR Parts 170 and 171. The authority citations include 42 U.S.C. 300jj&ndash;11, 42 U.S.C. 300jj&ndash;14, and 5 U.S.C. 552 for Part 170, and 42 U.S.C. 300jj&ndash;52 and 5 U.S.C. 552 for Part 171.\n\nBurden reduction can be appropriate. However, there is a predictable failure mode where &ldquo;deregulatory&rdquo; changes reduce not only compliance overhead but also the evidentiary capacity required for accountability: the ability to reconstruct what happened, why it happened, and how it can be repaired.\n\n1) Documentation and traceability are not paperwork &mdash; they are accountability infrastructure\n    In health IT, the cost of insufficient logging and traceability is shifted downstream:\n    &bull; clinicians become private auditors,\n    &bull; patients become private archivists,\n    &bull; disputes become unwinnable because the record is incomplete.\n    This is not efficiency; it is burden shifting.\n\n2) Deregulation should not produce &ldquo;read-only&rdquo; accountability\n    Interoperability and access rights depend on the ability to contest failures. Visibility without correction pathways produces procedural theater.\n\n3) Recommended guardrails while streamlining compliance\n    ASTP/ONC should ensure any deregulatory changes preserve:\n    &bull; Durable audit trails for behaviors that affect clinical decision-making and information access.\n    &bull; Attribution and traceability (who/what changed what, when, and under which configuration/policy).\n    &bull; Contestability pathways for disputes, especially those implicating information access and information-blocking claims.\n    &bull; Clocked response obligations when harm or access failures are reported, including escalation when deadlines are missed.\n\nClosing:\nStreamlining should reduce needless work without collapsing the record needed for remedy. If the system cannot reliably produce evidence, affected parties cannot contest outcomes, and accountability becomes a luxury good.\n\nRespectfully submitted,\nKanav Jain\nIndependent researcher and systems designer (Chicago, IL)",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

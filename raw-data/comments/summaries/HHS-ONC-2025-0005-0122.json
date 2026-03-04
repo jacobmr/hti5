@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0122",
+  "commenter_name": "eHealth Exchange",
+  "organization": "eHealth Exchange",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 66487,
+  "org_type": "health_it_company",
+  "summary": "eHealth Exchange supports clarifications to Information Blocking definitions to include automated technologies and removal of certain exceptions but strongly opposes ONC's primary Manner Exception proposal due to overbroad contract definitions that threaten trusted health information networks. They recommend adopting ONC's alternative proposals to avoid harming HINs/HIEs and under-resourced organizations.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "information_blocking",
+    "contractual_terms",
+    "interoperability",
+    "ai_regulation",
+    "trusted_exchange_framework"
+  ],
+  "specific_provisions": [
+    "\u00a7 171.102 Access and Use definitions",
+    "\u00a7 171.204 Infeasibility Exception",
+    "\u00a7 171.301 Manner Exception",
+    "\u00a7 171.403 TEFCA Manner Exception"
+  ],
+  "key_arguments": [
+    "Clarifying 'access', 'use', and 'exchange' to explicitly include automated technologies avoids regulatory ambiguity.",
+    "Removing the Third Party Seeking Modification Use Condition supports innovation and provider access to third-party software.",
+    "The proposed 'contract of adhesion' definition is overbroad and would disrupt standardized agreements critical to trusted exchange.",
+    "The primary Manner Exception proposal would raise costs and create compliance crises for health information networks."
+  ],
+  "recommendations": [
+    "Finalize clarifications to 'access', 'use', and 'exchange' definitions to include automated technologies.",
+    "Remove the Third Party Seeking Modification Use Condition from the Infeasibility Exception.",
+    "Retain 'similarly situated' language in the Manner Exception Exhausted Condition with suggested alternative wording.",
+    "Reject the primary Manner Exception proposal adding contractual limitations; instead, adopt the alternative proposal removing \u00a7 171.301(a)(2).",
+    "Remove the TEFCA Manner Exception consistent with changes to Exchange Purposes SOP."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "The proposed \u201ccontract of adhesion\u201d definition is substantially overbroad... and would create an immediate compliance crisis for HINs/HIEs."
+}

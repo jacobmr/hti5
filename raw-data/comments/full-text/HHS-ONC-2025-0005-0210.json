@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0210",
+  "title": "Comment on HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Anonymous Anonymous",
+  "commenter_first": "Anonymous",
+  "commenter_last": "Anonymous",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "received_date": "2026-02-27T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "I appreciate ONC/ASTP&rsquo;s continued leadership in advancing interoperability, improving data liquidity, and modernizing the Health IT Certification Program through the HTI-5 proposed rule. Removing HTI-5 protections would weaken the certification program&rsquo;s role as a safety assurance mechanism and reduce accountability for ensuring that health IT systems incorporate baseline safety safeguards.\n\nRather than removing these criteria, I respectfully recommend that ONC/ASTP maintain them in their current form or optimize and modernize them as needed to align with evolving technologies and care delivery models\n\nHealth IT plays a central role in care delivery, and its design, functionality, and safeguards have direct implications for patient safety. My own research, my work with real-world safety events, and federal enforcement actions have demonstrated that deficiencies in usability, authentication, clinical decision support transparency, and quality management can contribute to medication errors, wrong-patient events, failures in care transitions, and an inability to investigate and correct system-related harm. \n\nThe Health IT Certification Program has served as a critical national safety floor, ensuring that baseline protections are present across products and vendors. Certification criteria requiring usability testing, audit logging, clinical decision support transparency, authentication, and systematic quality management were adopted specifically to mitigate known and documented patient safety risks. These criteria help ensure accountability, transparency, and systematic risk mitigation in systems that clinicians and patients rely upon every day.\n\nBased on analysis of the HTI-5 proposed removals, the following criteria represent important patient safety protections:\nTier 1: Critical Safety Risk Criteria\n170.315(b)(11) &ndash; Decision Support Interventions (source attribution and transparency)\n170.315(g)(3) &ndash; Safety-Enhanced Design (usability testing and human factors processes)\n170.315(b)(2) &ndash; Clinical Information Reconciliation and Incorporation\n170.315(d)(2) &ndash; Auditable Events and Tamper-Resistance\n\nTier 2: High Safety Risk Criteria\n170.315(d)(1) &ndash; Authentication, Access Control, and Authorization\n170.315(g)(4) &ndash; Quality Management System\n170.315(d)(10) &ndash; Auditing Actions on Health Information\n170.315(b)(1) &ndash; Transitions of Care\n170.315(d)(13) &ndash; Multi-Factor Authentication\n\nTier 3: Moderate Safety Concern Criteria\n170.315(a)(9) &ndash; Clinical Decision Support\n170.315(d)(3) &ndash; Audit Reports\n170.315(d)(5) &ndash; Automatic Access Time-Out\n170.315(d)(8) &ndash; Integrity\n\nThese criteria collectively address core safety domains, including usability, clinical workflow reliability, authentication and access control, clinical decision support transparency, and systematic quality management. \n\nOptimization could include streamlining testing processes, harmonizing with existing standards, or clarifying requirements&mdash;but eliminating these criteria entirely risks removing foundational safeguards without evidence that the underlying safety risks have been eliminated or mitigated through superior alternative mechanisms.\n\nI appreciate the opportunity to provide input and thank ONC/ASTP for its continued commitment to improving the safety and effectiveness of health IT.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

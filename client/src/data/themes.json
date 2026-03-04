@@ -1,0 +1,561 @@
+[
+  {
+    "key": "patient_safety",
+    "label": "Patient Safety",
+    "comment_count": 245,
+    "position_breakdown": {
+      "strongly_oppose_deregulation": 21,
+      "oppose_deregulation": 2,
+      "neutral_mixed": 4,
+      "support_deregulation": 2,
+      "strongly_support_deregulation": 0
+    },
+    "dominant_position": "The overwhelming majority of patient safety organizations and experts strongly oppose the removal of key health IT certification criteria in the HTI-5 proposed rule, citing significant risks to patient safety and usability.",
+    "analysis": "The dominant position among patient safety organizations and experts regarding the ONC HTI-5 proposed rule is one of strong opposition to the removal of critical health IT certification criteria. While some, like the American Medical Association and American Nurses Association, acknowledge the goal of reducing unnecessary regulatory burden and fostering innovation, they universally emphasize that this must not come at the expense of patient safety. Organizations such as the Anesthesia Patient Safety Foundation, ECRI, and a group of health IT safety experts, explicitly state their strong opposition, arguing that the proposed deregulation risks eroding essential safety protections that were established in response to documented patient harm.\n\nThese patient safety experts are deeply concerned because many of the criteria proposed for removal were initially put in place following the Institute of Medicine's 2011 report, 'Health IT and Patient Safety: Building Safer Systems for Better Care,' which highlighted the potential for health IT to contribute to patient harm. They argue that these safety-related standards are not outdated but remain crucial, particularly in high-risk clinical environments. The College of American Pathologists, for instance, raises specific concerns about the immediate release of complex pathology results without clinician context, which could lead to patient anxiety or misinterpretation, directly impacting patient safety and trust.\n\nSpecifically, commenters urge the retention of several key certification criteria. These include Safety-Enhanced Design (170.315(g)(3)), which ensures health IT is designed to minimize errors; Quality Management Systems (170.315(g)(4)), which mandates a structured approach to product quality and safety; Audit Log and Tamper-Resistance requirements (170.315(d)(2), (d)(3), (d)(10)), essential for accountability and investigating incidents; Authentication and Access Control (170.315(d)(1), (d)(13)), vital for data security and preventing unauthorized access; and Clinical Decision Support (CDS) Source Attributes (170.315(b)(11)), which provide transparency into the basis of clinical recommendations. The American Medical Association also advocates for retaining a minimum safety and trust package for high-risk AI decision-support interventions, including transparency, governance, auditability, and change control.\n\nThe argument that these criteria can be removed due to 'widespread adoption' is directly challenged by safety experts and researchers, who label it a 'logical fallacy.' They, along with ECRI, contend that widespread adoption does not equate to inherent safety or eliminate the need for regulatory oversight. Instead, they argue that the very ubiquity of health IT makes robust safety standards even more critical, as errors can propagate widely. Furthermore, the commenters implicitly and explicitly point to the importance of an enforcement mechanism, recalling past cases like the eClinicalWorks and Practice Fusion False Claims Act settlements, which demonstrated the consequences of health IT vendors failing to meet certification requirements and the resulting patient safety risks.\n\nIn summary, while there's a shared desire for interoperability and burden reduction, the patient safety community overwhelmingly prioritizes maintaining robust safety guardrails. They advocate for a nuanced approach that retains essential protections, particularly for high-risk functionalities and AI, while carefully transitioning to new standards. The consistent message is that deregulation without clear, equivalent, and enforceable safety mechanisms poses an unacceptable risk to patient care and trust in health IT.",
+    "top_arguments": {
+      "for": [
+        "Reducing unnecessary regulatory burden fosters innovation.",
+        "Promoting interoperability through FHIR-based APIs is a positive goal.",
+        "Removing outdated and redundant certification criteria can streamline development."
+      ],
+      "against": [
+        "Removal of safety-related standards risks eroding critical patient safety protections.",
+        "Widespread adoption of health IT does not negate the need for safety criteria; it makes them more critical.",
+        "Deregulation can lead to patient harm, especially in high-risk clinical environments.",
+        "Interoperability does not replace intrinsic product safety requirements.",
+        "Immediate release of complex results (e.g., pathology) without clinician context can harm patients."
+      ]
+    },
+    "top_recommendations": [
+      "Retain Safety-Enhanced Design requirement (170.315(g)(3)).",
+      "Retain Quality Management System requirement (170.315(g)(4)).",
+      "Retain audit log and tamper-resistance requirements (170.315(d)(2), (d)(3), (d)(10)).",
+      "Retain or revise transparency requirements for AI/ML decision support tools, including disclosure of AI influence.",
+      "Establish a blanket exception to the Information Blocking Rule for pathology and laboratory results to allow clinician review prior to patient release.",
+      "Conduct impact assessments to ensure privacy and security safeguards remain strong after criteria removal."
+    ],
+    "notable_voices": [
+      {
+        "commenter": "Health IT Safety Experts Group",
+        "org": "Reider, Fairbanks, Ratwani, Weinger, Neil, Goldman, Mehta, Lichtscheidl",
+        "id": "HHS-ONC-2025-0005-0224",
+        "quote": "We do not remove seatbelt requirements because cars have seatbelts. The requirement is what made them so."
+      },
+      {
+        "commenter": "ECRI",
+        "org": "ECRI (Marcus Schabacker, MD, PhD, CEO)",
+        "id": "HHS-ONC-2025-0005-0191",
+        "quote": "These changes eliminate long-standing expectations around usability, safety engineering, system integrity, auditability, and secure access that have historically functioned as a minimum safety floor."
+      },
+      {
+        "commenter": "Anesthesia Patient Safety Foundation",
+        "org": "Anesthesia Patient Safety Foundation",
+        "id": "HHS-ONC-2025-0005-0154",
+        "quote": "The safety-related standards were established in response to real patient harm and remain essential."
+      },
+      {
+        "commenter": "American Medical Association",
+        "org": "American Medical Association",
+        "id": "HHS-ONC-2025-0005-0081",
+        "quote": "ONC should adopt a risk-based, tiered approach to AI transparency to ensure patient safety while reducing unnecessary burden."
+      },
+      {
+        "commenter": "Patients For Patient Safety US",
+        "org": "Patients For Patient Safety US",
+        "id": "HHS-ONC-2025-0005-0280",
+        "quote": "Removing these requirements creates variability that is invisible to patients, caregivers, and clinicians."
+      }
+    ],
+    "key_tensions": [
+      "Balancing burden reduction and innovation with maintaining essential patient safety guardrails.",
+      "The perceived 'widespread adoption' of health IT versus the ongoing need for explicit safety certification.",
+      "The desire for immediate patient access to information (e.g., lab results) versus the need for clinician context to prevent harm or misunderstanding."
+    ]
+  },
+  {
+    "key": "burden_reduction",
+    "label": "Regulatory Burden Reduction",
+    "comment_count": 224,
+    "position_breakdown": {
+      "strongly_oppose_deregulation": 4,
+      "support_deregulation": 3,
+      "neutral_mixed": 2,
+      "oppose_deregulation": 2
+    },
+    "analysis": "The theme of Regulatory Burden Reduction in the public comments on the ONC HTI-5 proposed rule reveals a clear divide between stakeholders prioritizing patient safety and those emphasizing the need to reduce administrative and developer burdens. Several commenters, including health care administrators, clinicians, and health systems, strongly oppose deregulation efforts that would weaken certification criteria related to usability, safety, and transparency. They argue that such deregulation risks increasing financial burdens on health institutions due to potential patient harm, clinician burnout, and safety incidents. These stakeholders emphasize that usability testing and safety-focused design are critical components of health IT certification that protect both patients and clinicians from errors and inefficiencies.\n\nOn the other hand, some health IT companies support deregulation measures that streamline reporting requirements and reduce redundant or unclear obligations, such as Real World Testing (RWT) and SVAP reporting. They advocate for clarifications and corrections to specific regulatory references to avoid unnecessary developer burden and confusion. This group focuses on improving regulatory efficiency without compromising essential protections, highlighting the need to balance burden reduction with maintaining meaningful standards.\n\nProfessional associations like the College of American Pathologists take a more nuanced stance, supporting the overall goals of burden reduction and interoperability but cautioning against removing critical transparency requirements, especially related to AI tools and the release of pathology results. They underscore the importance of clinician context in interpreting complex lab results and maintaining patient trust and safety. This reflects a tension between advancing regulatory flexibility and safeguarding clinical integrity and patient understanding.\n\nOverall, the comments illustrate a complex landscape where the desire to reduce regulatory burden intersects with concerns about maintaining robust protections for patient safety, clinician usability, and trustworthy health IT practices. The debate centers on how to achieve meaningful deregulation without sacrificing essential safeguards that prevent harm and support effective care delivery.",
+    "top_arguments": {
+      "against_deregulation": [
+        "Deregulation increases financial burden on health institutions and states due to potential safety incidents and errors.",
+        "Removing usability testing and safety design criteria risks increased medication errors, clinician burnout, and patient harm.",
+        "Maintaining AI transparency and clinician review of pathology results is essential to ensure patient safety and trust.",
+        "Safeguards in certification criteria prevent deadly mistakes and inefficiencies in health IT use."
+      ],
+      "for_deregulation": [
+        "Reducing redundant reporting requirements (e.g., RWT Results Reports duplicating SVAP info) decreases developer burden.",
+        "Clarifying and correcting regulatory references avoids confusion and unnecessary compliance efforts.",
+        "Maintaining certain enforcement discretion provisions (e.g., 170.315(f)(5)(ii)) prevents reverting to outdated and burdensome standards."
+      ]
+    },
+    "top_recommendations": [
+      "Preserve usability testing and safety-focused certification requirements for EHR systems.",
+      "Maintain AI transparency requirements and allow clinician review before releasing complex lab results to patients.",
+      "Clarify and streamline Real World Testing and SVAP reporting requirements to reduce redundancy and developer burden.",
+      "Correct inaccurate regulatory references to ambulatory and inpatient settings in certification criteria.",
+      "Avoid deregulation that reduces protections for patients and health care workers."
+    ],
+    "notable_voices": [
+      "Anonymous health care administrator opposing deregulation due to financial and safety concerns",
+      "SLI Compliance advocating for streamlined reporting and regulatory clarifications",
+      "Lauge Sokol-Hessner, individual clinician emphasizing patient safety and usability",
+      "MedStar Health, health system urging retention of usability testing safeguards",
+      "College of American Pathologists (CAP), professional association balancing burden reduction with patient safety and AI transparency"
+    ],
+    "key_tensions": [
+      "Balancing the reduction of regulatory and developer burden with the need to maintain robust patient safety and usability standards.",
+      "Reconciling the desire for streamlined reporting and regulatory clarity with the risk of removing critical transparency and safety requirements.",
+      "Differing perspectives on the impact of deregulation on financial burdens for health institutions versus administrative burdens for developers.",
+      "The challenge of ensuring timely patient access to information while preserving clinician context and preventing patient confusion."
+    ],
+    "dominant_position": "Strong opposition to deregulation that reduces patient safety, usability, and transparency requirements"
+  },
+  {
+    "key": "ai_regulation",
+    "label": "AI Regulation & Governance",
+    "comment_count": 112,
+    "position_breakdown": {
+      "strongly_support_deregulation": 2,
+      "support_deregulation": 32,
+      "neutral_mixed": 31,
+      "oppose_deregulation": 16,
+      "strongly_oppose_deregulation": 30
+    },
+    "analysis": "AI regulation and governance in the ONC HTI-5 proposed rule represent a critical juncture in health IT policy. The 112 comments on this theme reveal a deeply divided stakeholder base, with professional associations and safety-focused organizations emphasizing the urgent need for transparency, auditability, and human oversight in AI-driven clinical decision support systems, while health IT vendors and some integrators advocate for regulatory flexibility to accelerate innovation and deployment. The core tension centers on whether certification criteria designed to ensure AI transparency, explainability, and change control should be retained or removed in favor of market-based oversight mechanisms.\n\nProponents of deregulation argue that removing AI-specific certification criteria and transparency requirements will accelerate innovation in predictive analytics, clinical decision support, and automated workflows, enabling health IT vendors to respond more quickly to emerging market demands without navigating complex regulatory pathways. They contend that widespread AI adoption in healthcare, combined with ongoing industry investment in responsible AI practices, creates sufficient market incentives for vendors to implement safety safeguards without explicit regulatory mandates. This perspective emphasizes that rigid certification criteria may lag behind rapidly evolving AI methodologies and best practices, potentially constraining beneficial innovation.\n\nConversely, patient safety organizations, clinicians, and many professional associations strongly oppose deregulation of AI governance. They argue that health IT systems wielding AI-driven recommendations for diagnosis, treatment, and resource allocation represent fundamentally different risk profiles than traditional EHR systems, and that certification criteria requiring model transparency, auditability, periodic recalibration, and human override pathways are essential safeguards. They cite the documented risks of algorithmic bias, model drift over time, and failure modes that can propagate at scale once deployed in healthcare systems. Organizations like the Anesthesia Patient Safety Foundation and individual clinician groups emphasize that AI systems in healthcare should operate under the same scrutiny as pharmaceutical interventions, with evidence of safety and efficacy required before deployment.\n\nA significant middle ground exists among commenters who support AI adoption while advocating for risk-stratified governance. They propose tiered approaches where high-risk AI applications (those affecting life-and-death decisions) maintain full transparency and auditability requirements, while lower-risk applications (workflow optimization, administrative routing) operate under lighter oversight. This perspective reflects recognition that blanket deregulation poses unacceptable risks, but that one-size-fits-all criteria may impose unnecessary burdens on lower-risk systems.\n\nThe theme also encompasses concerns about the cascading effects of removing CDS Source Attributes certification (170.315(b)(11)), which currently requires that AI model recommendations be explicitly labeled and explained. Commenters warn that removing this requirement erodes transparency and creates \"black box\" decision support systems where clinicians cannot assess the basis of recommendations. The debate also touches on broader questions about information blocking exceptions and automated access to patient data, with some commenters concerned that deregulating AI governance simultaneously with information blocking exceptions creates conditions for vendors to extract and use patient data in AI model training without explicit patient consent or organizational oversight.",
+    "top_arguments": {
+      "for_deregulation": [
+        "Removing rigid certification criteria allows AI innovation to progress at industry pace without regulatory constraint.",
+        "Widespread adoption and market pressures create sufficient incentives for responsible AI practices without explicit regulation.",
+        "Prescriptive transparency and auditability requirements may lag behind evolving AI methodologies and best practices.",
+        "Vendor investment in responsible AI is increasing, reducing need for regulatory mandates."
+      ],
+      "against_deregulation": [
+        "AI in healthcare poses fundamentally different risks than traditional EHR systems; requires explicit safeguards.",
+        "Documented algorithmic bias and model drift necessitate transparency, auditability, and change control requirements.",
+        "Removing certification criteria shifts safety verification burden from vendors to healthcare organizations and clinicians.",
+        "Black box decision support systems erode clinician trust and transparency in care decisions.",
+        "High-stakes AI decisions (diagnosis, treatment recommendations) warrant evidence-based safety requirements comparable to pharmaceutical interventions."
+      ]
+    },
+    "top_recommendations": [
+      "Maintain minimum transparency, monitoring, auditability, and human override pathways for high-risk AI applications.",
+      "Implement risk-stratified governance: full requirements for high-risk predictive decision support; lighter requirements for administrative AI.",
+      "Require explicit labeling and source attribution for all AI-driven recommendations visible to clinicians.",
+      "Retain CDS Source Attributes certification criterion (170.315(b)(11)) to preserve transparency into algorithmic basis.",
+      "Establish periodic recalibration and drift monitoring requirements for AI models in production environments.",
+      "Require explicit opt-in consent mechanisms for use of patient data in AI model training and validation.",
+      "Create enforcement mechanism for violations of AI transparency and auditability requirements."
+    ],
+    "notable_voices": [
+      "Minnesota e-Health Initiative (advocacy group, strong opposition to deregulation)",
+      "IRIS Health Solutions (health IT company, strong support for deregulation)",
+      "Community Health Center Association of Connecticut (professional association, strong opposition citing operational risk)",
+      "Y Combinator (venture capital, supportive of vendor flexibility)",
+      "Anesthesia Patient Safety Foundation (patient safety organization, strong opposition)"
+    ],
+    "key_tensions": [
+      "Balancing acceleration of AI innovation with the need for safety safeguards in high-stakes clinical decisions.",
+      "Market-based oversight versus regulatory certification for AI transparency and auditability.",
+      "Risk-stratified approaches versus uniform requirements across diverse AI applications.",
+      "Vendor autonomy in AI governance versus patient/clinician transparency and accountability.",
+      "Cascading effects of simultaneous deregulation of AI oversight and information blocking exceptions."
+    ],
+    "dominant_position": "Mixed with significant opposition: Professional associations and safety-focused organizations strongly oppose deregulation, while health IT vendors support flexibility. The weight of safety-critical arguments favors retention of AI transparency and auditability requirements, particularly for high-risk clinical applications."
+  },
+  {
+    "key": "data_privacy",
+    "label": "Data Privacy & Security Standards",
+    "comment_count": 108,
+    "position_breakdown": {
+      "strongly_support_deregulation": 1,
+      "support_deregulation": 32,
+      "neutral_mixed": 22,
+      "oppose_deregulation": 22,
+      "strongly_oppose_deregulation": 31
+    },
+    "analysis": "Data privacy and security standards in the ONC HTI-5 proposed rule elicit nuanced debate reflecting deep concerns about the adequacy of current safeguards in an era of expanded data access, AI-driven analytics, and automated information exchange. The 108 comments on this theme reveal a nearly even split between deregulation advocates and safety-focused opponents, with significant middle ground among those supporting selective modernization while retaining core protections.\n\nOpponents of deregulation emphasize that privacy and security capabilities are not ancillary features but foundational infrastructure for trusted interoperability. They argue that removing certification criteria designed to ensure authentication, access control, encryption, and intrusion detection creates a regulatory vacuum precisely when expanded access and automated use of patient data amplify breach risks. They cite the vulnerability of current health IT systems to ransomware attacks, insider threats, and data exfiltration, and contend that removing certification guardrails accelerates these vulnerabilities. Community health centers and safety-focused organizations specifically highlight that removal of certification 'floors' materially increases operational risk and financial exposure to healthcare organizations responsible for protecting patient data.\n\nA critical concern focuses on the expansion of information blocking exceptions and definitions of 'access' and 'use' to include robotic process automation (RPA) and agentic AI. Opponents worry that codifying unlimited automated access to patient data without explicit security and privacy certification requirements creates conditions for unintended data exposure and misuse. They point to the current inability of EHR vendors to segment sensitive data (e.g., intimate partner violence survivors, substance use disorder patients) as evidence that deregulation will disproportionately harm vulnerable populations.\n\nProponents of selective deregulation argue that modernizing privacy and security standards to reflect cloud-based architectures, API-based data access, and AI-driven analytics is overdue. They contend that some existing certification criteria reflect outdated assumptions about network perimeters and client-server architectures, and that updated standards should emphasize outcomes (e.g., zero-trust security models, encryption in transit and at rest) rather than prescriptive mechanisms. This perspective acknowledges the importance of privacy and security while arguing that the specific criteria should evolve with technology.\n\nA significant middle-ground position advocates for retaining privacy and security assurance floors while streamlining specific requirements. This perspective supports removing redundant or outdated criteria while maintaining enforceable baselines for authentication, access control, and breach notification. Many professional associations take this approach, supporting burden reduction in areas where standards have matured, while opposing wholesale removal of privacy and security requirements.",
+    "top_arguments": {
+      "for_retaining_standards": [
+        "Privacy and security are foundational infrastructure, not optional features; removal creates vacuum when risks are increasing.",
+        "Current EHR systems cannot adequately segment sensitive patient data; deregulation will disproportionately harm vulnerable populations.",
+        "Removal of certification floors eliminates accountability mechanisms for data breaches and unauthorized access.",
+        "Expanded automated access (RPA, agentic AI) requires explicit security and privacy certification, not deregulation."
+      ],
+      "for_selective_modernization": [
+        "Current certification criteria reflect outdated network perimeter assumptions; should emphasize outcomes rather than mechanisms.",
+        "Cloud-based architectures and zero-trust security models require updated standards, not wholesale removal.",
+        "Streamlining redundant requirements can reduce burden while retaining essential assurance floors.",
+        "Privacy by design should be prioritized over prescriptive certifications."
+      ]
+    },
+    "top_recommendations": [
+      "Retain enforceable privacy and security assurance floors, particularly for authentication, access control, and breach notification.",
+      "Modernize certification criteria to reflect cloud architectures, zero-trust security models, and API-based access patterns.",
+      "Implement explicit requirements for data segmentation to protect sensitive patient populations (IPV survivors, adolescents, pregnant/substance use disorder patients).",
+      "Require enhanced security and privacy certification for expanded automated access definitions (RPA, agentic AI).",
+      "If privacy/security certification criteria are removed, establish compensatory, explicit, and enforceable assurance mechanisms.",
+      "Conduct impact assessments to measure privacy and security implications of HTI-5 before finalization.",
+      "Retain third-party penetration testing and security audit requirements."
+    ],
+    "notable_voices": [
+      "Shift Collaborative (advocacy group, strong opposition citing privacy as foundational infrastructure)",
+      "Community Health Center Association of Connecticut (professional association, strong opposition citing operational and financial risk)",
+      "Patient ID Now (advocacy group, strong opposition emphasizing patient matching security)",
+      "American Health Information Management Association (professional association, opposition emphasizing readiness concerns)",
+      "Multiple state health information exchanges (mixed positions, many cautioning against accelerated deregulation)"
+    ],
+    "key_tensions": [
+      "Balancing innovation in data access and AI analytics with foundational privacy and security safeguards.",
+      "Modernization of outdated certification criteria versus wholesale removal of privacy/security assurance floors.",
+      "Vendor burden reduction versus organizational burden of implementing compensatory privacy/security controls.",
+      "Expanded automated access to patient data versus ability to segment sensitive information.",
+      "Deregulation of privacy/security certification simultaneous with expansion of information blocking exceptions."
+    ],
+    "dominant_position": "Opposition to broad deregulation: While selective modernization is supported, most commenters oppose removal of privacy and security certification 'floors.' Professional associations and patient safety organizations emphasize that privacy and security are foundational to trusted interoperability, not optional features that can be deregulated."
+  },
+  {
+    "key": "audit_log_standards",
+    "label": "Audit Log Standards & Security",
+    "comment_count": 81,
+    "position_breakdown": {
+      "strongly_support_deregulation": 2,
+      "support_deregulation": 29,
+      "strongly_oppose_deregulation": 62,
+      "oppose_deregulation": 21,
+      "neutral_mixed": 24
+    },
+    "analysis": "The public comments on the ONC HTI-5 proposed rule regarding Audit Log Standards & Security reveal a nuanced debate balancing deregulatory ambitions with patient safety and accountability concerns. Proponents of deregulation, primarily health IT companies and advocacy groups, emphasize the need to remove outdated and low-value certification criteria that impose costly burdens without commensurate interoperability benefits. They advocate for modern, API-first integration approaches that streamline system-to-system access, reduce unintentional information blocking, and enable scalable, secure data exchange architectures. These supporters argue that reducing certification complexity allows vendors and integrators to focus on data quality, AI safety, and operational reliability, ultimately advancing health IT innovation and government program support.\n\nConversely, clinicians and some advocacy organizations express strong opposition or cautious skepticism toward deregulation absent robust safeguards. They highlight that current audit trail and data preservation standards are outdated and insufficient for modern clinical environments, especially given the increasing use of AI and medical devices. These commenters warn that removing certification guardrails prematurely risks undermining patient safety, legal accountability, and data integrity. They call for modernization of audit log standards to explicitly capture AI and device activities, granular metadata, and durable data retention policies before any deregulatory actions proceed. Concerns also focus on preserving transparency, contestability, and equitable patient access, particularly for vulnerable populations.\n\nThe dialogue reveals a tension between streamlining regulatory burdens to foster innovation and maintaining enforceable, testable baselines for privacy, security, accessibility, and auditability. While deregulatory supporters prioritize flexibility and modernization aligned with real-world workflows, opponents emphasize the foundational role of audit logs and security standards in ensuring trust, safety, and legal compliance. Both sides recognize the importance of balancing burden reduction with maintaining essential protections, but differ on the sequencing and sufficiency of proposed changes. The comments collectively urge ONC to carefully calibrate deregulatory actions to avoid shifting burdens onto patients or clinicians and to ensure that modernization efforts do not compromise accountability or data integrity.",
+    "top_arguments": {
+      "for_deregulation": [
+        "Current certification requirements are costly, outdated, and do not improve interoperability effectively.",
+        "API-first, modular integration layers better support government health programs and legacy system integration.",
+        "Clarifying automated system-to-system access reduces unintentional information blocking and aligns policy with modern workflows.",
+        "Reducing certification burden enables focus on data quality, AI model safety, and operational reliability."
+      ],
+      "against_deregulation": [
+        "Current audit trail standards are outdated and insufficient for modern clinical environments, risking patient harm if removed prematurely.",
+        "Removing certification guardrails before updating data creation and preservation standards undermines legal accountability and patient trust.",
+        "Audit trails must capture AI, medical device, and messaging activities to ensure transparency and traceability.",
+        "Data must be preserved durably and not be subject to ephemeral deletion to maintain clinical and legal integrity.",
+        "Removing privacy/security certification criteria without enforceable assurance floors risks weakening baseline protections."
+      ]
+    },
+    "top_recommendations": [
+      "Prioritize revision and modernization of audit trail standards before deregulating certification requirements.",
+      "Finalize proposed certification removals with minimal re-expansion, reinforcing API-first interoperability as the primary policy objective.",
+      "Retain or replace WCAG conformance with a functionally equivalent, testable accessibility baseline for VDT.",
+      "Implement explicit, enforceable, and testable assurance floors if privacy/security certification criteria are removed.",
+      "Include explicit capture of AI, medical device, and messaging activities in audit trails with granular metadata collection.",
+      "Provide clear guidance affirming automated system-to-system access under information blocking rules.",
+      "Pause proposed certification changes until robust audit and preservation standards are finalized."
+    ],
+    "notable_voices": [
+      "IRIS Health Solutions (health IT company, strong supporter of deregulation)",
+      "Public Policy Resilience Institute (advocacy group, conditional supporter emphasizing safeguards)",
+      "Nursine Jackson (individual clinician, strong opponent emphasizing audit trail modernization)",
+      "Kanav Jain (other, opposing deregulation due to accountability concerns)"
+    ],
+    "key_tensions": [
+      "Balancing the need to reduce regulatory burdens and outdated certification criteria versus maintaining robust audit log and security standards to ensure patient safety and legal accountability.",
+      "Sequencing of modernization efforts: whether to deregulate first to enable innovation or to update foundational audit and data preservation standards prior to deregulation.",
+      "Ensuring that deregulatory actions do not shift burdens onto vulnerable patients or clinicians, particularly regarding accessibility, transparency, and contestability.",
+      "Reconciling the push for API-first, automated system-to-system access with the need for enforceable privacy, security, and auditability assurances.",
+      "Determining appropriate enforceable baselines for privacy, security, and accessibility in the absence of existing certification criteria."
+    ],
+    "dominant_position": "The theme exhibits a divided sentiment with a slight dominance of cautious opposition or conditional support. While health IT companies and some advocacy groups strongly support deregulatory actions to reduce certification burdens and modernize interoperability, a significant portion of clinicians and patient-focused advocates strongly oppose deregulation without prior modernization of audit log and security standards. Overall, the dominant position favors deregulatory streamlining only if it preserves or replaces critical safeguards for auditability, security, and patient access."
+  },
+  {
+    "key": "clinical_data_completeness",
+    "label": "Clinical Data Completeness",
+    "comment_count": 73,
+    "position_breakdown": {
+      "strongly_support_deregulation": 1,
+      "support_deregulation": 21,
+      "neutral_mixed": 16,
+      "oppose_deregulation": 12,
+      "strongly_oppose_deregulation": 23
+    },
+    "analysis": "Health equity and data inclusivity in the ONC HTI-5 proposed rule address fundamental questions about whose health information is captured, protected, and exchanged through certified health IT systems. The 73 comments on this theme reveal strong opposition from LGBTQ+ advocacy organizations, caregiver advocates, and health equity researchers to proposed removal of data elements essential to delivering culturally competent, equitable care to vulnerable and underrepresented populations.\n\nThe core concern centers on proposed removal or deprioritization of data classes essential to serving specific populations: sexual orientation and gender identity (SOGI) data for LGBTQ+ patients; caregiver information and strain assessments for patients requiring family support; and demographic data fields supporting health equity analysis and quality improvement. Advocacy organizations like Rocky Mountain Equality and Trinity Health emphasize that removing regulatory requirements for these data classes signals institutional deprioritization and may lead vendors to eliminate or marginalize these fields in their systems, resulting in degraded care for LGBTQ+ and other vulnerable populations.\n\nRocky Mountain Equality and similar organizations argue that SOGI data is not a luxury or optional field but essential infrastructure for delivering high-quality care. They cite research demonstrating health disparities in LGBTQ+ populations, higher rates of substance use disorders and mental health conditions, and documented instances of healthcare discrimination. They contend that EHR systems lacking explicit SOGI data fields and workflows perpetuate information gaps that lead to missed diagnoses, inappropriate treatment, and failure to address the social determinants of health disproportionately affecting LGBTQ+ people.\n\nCaregivers and long-term care advocates emphasize that standardized caregiver data elements in certified health IT are essential infrastructure for coordinated, family-centered care. They argue that removing regulatory requirements for caregiver identification, strain assessments, and dyadic care planning will undermine efforts to integrate informal caregiving into the healthcare system and will perpetuate the invisibility of caregivers in health IT, despite their critical role in patient outcomes. This concern is especially acute in long-term and post-acute care settings, where caregiver engagement is essential to quality of life and safety.\n\nProponents of maintaining or enhancing health equity data requirements point to CMS and CMMI policies promoting prevention and addressing health disparities, which rely on rich demographic and social determinant data captured in health IT. They argue that adopting updated USCDI versions (v4 or v6) that include emerging data classes (e.g., physical activity, nutritional status) represents an opportunity to advance health equity rather than regress by removing protective data classes.\n\nDeregulation proponents counter that prescriptive data element requirements increase vendor burden without demonstrated benefit, and that market demand and organizational priorities will ensure that important data fields are retained even without regulatory mandate. However, this position is challenged by commenters who note that vendor decisions about which data elements to prioritize have historically reflected the interests of the largest customers (often EHR-dominant hospitals) rather than populations with less market power or visibility in health IT decision-making.\n\nA significant middle-ground position supports retention of health equity data requirements while acknowledging the need for streamlined, outcome-focused standards. These commenters advocate for clarifying which data elements are essential to regulatory compliance versus discretionary, and for updating outdated data class definitions to reflect contemporary understanding of health equity and social determinants.",
+    "top_arguments": {
+      "for_maintaining_or_expanding_standards": [
+        "SOGI data and caregiver information are essential infrastructure for equitable care, not optional features.",
+        "Removing regulatory requirements for health equity data signals institutional deprioritization and enables vendor elimination of these fields.",
+        "Health IT systems lacking explicit SOGI data fields perpetuate information gaps leading to missed diagnoses and inappropriate care.",
+        "Caregiver data is essential for coordinated, family-centered care, especially in long-term and post-acute settings.",
+        "CMS and CMMI policies rely on rich demographic data; deregulation undermines health equity and disparity reduction initiatives."
+      ],
+      "for_deregulation_or_streamlining": [
+        "Prescriptive data element requirements increase vendor burden without demonstrated benefit.",
+        "Market demand and organizational priorities will ensure important data fields are retained without regulatory mandate.",
+        "Outcome-focused standards are preferable to prescriptive data element lists."
+      ]
+    },
+    "top_recommendations": [
+      "Maintain regulatory requirements for LGBTQ+-relevant data fields including sexual orientation, gender identity, and pronouns.",
+      "Retain or expand caregiver data elements including caregiver identification, strain assessments, and dyadic care planning.",
+      "Adopt USCDI version 4 (or preferably v6) to include physical activity assessment and other emerging health equity data classes.",
+      "Require EHR vendors to provide technical documentation demonstrating support for SOGI data capture, storage, and exchange.",
+      "Establish enforcement mechanisms for data element availability and accuracy, particularly for health equity-critical fields.",
+      "Implement organizational policies requiring capture and use of health equity data in care processes.",
+      "Conduct equity impact assessments for all proposed certification removals to measure effects on health equity and vulnerable populations."
+    ],
+    "notable_voices": [
+      "Rocky Mountain Equality (LGBTQ+ advocacy organization, strong opposition to SOGI data removal)",
+      "Trinity Health (health system, strong opposition citing cultural competence concerns)",
+      "Family Caregiver Alliance (caregiver advocacy, strong opposition to caregiver data removal)",
+      "Physical Activity Alliance (advocacy for physical activity data inclusion)",
+      "American Medical Association (professional association, supporting equity data retention while balancing burden)"
+    ],
+    "key_tensions": [
+      "Balancing deregulation and burden reduction with the need to maintain health equity data infrastructure.",
+      "Market-driven vendor decisions versus regulatory requirements ensuring data capture for underrepresented populations.",
+      "Prescriptive data element requirements versus outcome-focused, flexible approaches.",
+      "Vendor burden reduction versus health equity and care quality for vulnerable populations.",
+      "Institutional capacity to use and act on health equity data when regulatory requirements are relaxed."
+    ],
+    "dominant_position": "Strong opposition to deregulation: Patient advocacy organizations, LGBTQ+ advocates, and caregiver organizations strongly oppose removal of health equity and data inclusivity requirements. Professional associations largely support retention while acknowledging need for streamlining. The dominant position prioritizes health equity and inclusive care over vendor burden reduction."
+  },
+  {
+    "key": "information_blocking",
+    "label": "Information Blocking Rules & Enforcement",
+    "comment_count": 70,
+    "position_breakdown": {
+      "strongly_support_deregulation": 2,
+      "support_deregulation": 29,
+      "neutral_mixed": 22,
+      "oppose_deregulation": 10,
+      "strongly_oppose_deregulation": 7
+    },
+    "analysis": "Information blocking rules and enforcement in the ONC HTI-5 proposed rule represent an arena where commercial interests, patient care coordination needs, and regulatory clarity intersect in complex ways. The 70 comments on this theme reveal a more nuanced and commercially-oriented debate than safety-focused themes, with health IT companies and vendors arguing for clarification and narrowing of information blocking exceptions, while health systems and quality advocates express concerns about both enforcement gaps and the potential for deregulation to weaken data sharing guardrails.\n\nProponents of selective changes to information blocking rules argue that current exceptions (infeasibility, manner, excluded permissible uses) are too broad and are being exploited by vendors and intermediaries to block or delay patient data access in ways inconsistent with the intent of the 21st Century Cures Act. They point to specific cases where pharmacies invoke infeasibility exceptions despite demonstrated technical feasibility, and where health IT vendors use manner exceptions to justify burdensome or delayed data access workflows. This perspective supports narrowing exceptions and providing clearer regulatory guidance to reduce gaming and ensure that information blocking rules achieve their stated purpose of enabling patient access and care coordination.\n\nHealth IT companies and integrators, however, argue that current information blocking rules create regulatory uncertainty and stifle innovation in data access and exchange. They contend that clarifying the definitions of 'access,' 'use,' and 'exchange' to explicitly include automation technologies (RPA, agentic AI) and expanding safe harbors for API-based data exchange would reduce ambiguity and enable more efficient, vendor-agnostic data sharing at scale. This perspective emphasizes that modern health IT increasingly relies on automated, system-to-system data flows, and that regulatory language should evolve to accommodate these architectures.\n\nA critical tension exists between expanding definitions of 'use' to include automated access and use (supporting vendor efficiency) and the concerns raised by patient advocates and health system operators about the unintended consequences of codifying unlimited automated access without explicit privacy, security, and governance requirements. Organizations like the American College of Obstetricians & Gynecologists and patient safety advocates worry that expanding information blocking exceptions to include unlimited automated use could enable uncontrolled extraction of sensitive patient data for AI model training, algorithm validation, or commercial purposes without patient awareness or consent.\n\nProfessional associations and health system commenters express nuanced positions. Many support narrowing infeasibility and manner exceptions while maintaining enforceable guardrails against information blocking, particularly for essential care coordination workflows. They advocate for strong enforcement mechanisms, including penalties for pharmacies and other entities that abuse exceptions, and for explicit requirements that delegated entities (e.g., pharmacy networks, HIEs) comply with information blocking rules rather than passing responsibility to smaller providers.\n\nThe enforcement landscape reveals gaps identified by commenters: pharmacy information blocking is particularly problematic, with many commenters noting that pharmacies routinely invoke infeasibility exceptions despite demonstrated technical feasibility of direct integration. Some suggest that stronger enforcement mechanisms, potentially including reduced reimbursement or removal of preferred network status, are necessary to ensure pharmacies comply with information blocking rules rather than prioritizing cost avoidance through exception claims.",
+    "top_arguments": {
+      "for_clarification_and_narrowing": [
+        "Current information blocking exceptions are exploited to justify unjustified data access delays and information blocking.",
+        "Pharmacies routinely invoke infeasibility exceptions despite demonstrated technical feasibility of direct integration.",
+        "Clearer regulatory guidance and narrower exceptions would reduce gaming and enable genuine patient data access.",
+        "Expanding definitions to include automation technologies would enable efficient, system-to-system data exchange at scale."
+      ],
+      "for_caution_or_opposition": [
+        "Expanding automated access definitions without explicit privacy and security safeguards risks uncontrolled data extraction.",
+        "Information blocking exceptions should be narrowed, not expanded; enforcement gaps should be closed.",
+        "Pharmacies and other delegated entities abuse exceptions; stronger enforcement is needed, not deregulation.",
+        "Automated AI model training and validation on patient data requires explicit consent and governance, not blanket allowance."
+      ]
+    },
+    "top_recommendations": [
+      "Explicitly prohibit pharmacies from invoking infeasibility and manner exceptions when technical feasibility is demonstrated.",
+      "Establish disincentives for Medicare Part D pharmacies including reduced dispensing fees, loss of preferred network status, and mandatory contractual disclosures of information blocking practices.",
+      "Provide clear regulatory guidance affirming that automated system-to-system API access is an essential, non-blocking use case under information blocking rules.",
+      "Finalize narrowing of information blocking exceptions with specific guidance on permissible uses and clear triggers for enforcement.",
+      "Require delegated entities (pharmacy networks, HIEs) to contractually obligate their members to comply with information blocking rules.",
+      "Implement public reporting on information blocking enforcement actions and penalties to deter future violations.",
+      "Establish clear definitions of 'access,' 'use,' and 'exchange' that account for modern automated data flows while preserving privacy and consent protections."
+    ],
+    "notable_voices": [
+      "Health system administrators (e.g., Trinity Health) emphasizing enforcement gaps and pharmacy information blocking",
+      "WENO Exchange LLC (health IT company) advocating for stricter enforcement against pharmacy information blocking",
+      "David Rocha (consultant) emphasizing accountability for delegated entities",
+      "The Moses Firm (legal representation of medical negligence victims) emphasizing patient access to complete medical records",
+      "Multiple professional associations (mixed positions: support narrowing exceptions while retaining guardrails)"
+    ],
+    "key_tensions": [
+      "Clarifying information blocking rules to reduce ambiguity versus maintaining guardrails against vendor misuse.",
+      "Expanding automated access definitions to enable efficient data exchange versus preserving privacy and consent protections.",
+      "Enforcement against pharmacy information blocking versus vendor arguments about compliance burden.",
+      "Patient access to complete medical records versus vendor convenience in data sharing.",
+      "Narrowing infeasibility and manner exceptions versus legitimate cases where alternative manners are technically infeasible."
+    ],
+    "dominant_position": "Mixed but leaning toward selective clarification with enforcement emphasis: While health IT vendors support clearer definitions and expanded safe harbors for automation, health systems and patient advocates emphasize that information blocking exceptions should be narrowed, not expanded, and that enforcement gaps (particularly regarding pharmacies) should be closed. The dominant sentiment is that clarification is needed, but not in the direction of expanding vendor loopholes."
+  },
+  {
+    "key": "fhir_interoperability",
+    "label": "FHIR & Interoperability Standards",
+    "comment_count": 57,
+    "position_breakdown": {
+      "neutral_mixed": 22,
+      "strongly_support_deregulation": 1,
+      "support_deregulation": 20,
+      "strongly_oppose_deregulation": 6,
+      "oppose_deregulation": 8
+    },
+    "analysis": "The public comments on the ONC HTI-5 proposed rule under the theme of FHIR & Interoperability Standards reveal a nuanced landscape of stakeholder perspectives balancing deregulation with the imperative to maintain robust interoperability guardrails. Many commenters recognize the value of streamlining certification requirements to reduce administrative burden and foster innovation, particularly through the adoption of FHIR-based standards. This shift is seen as critical to enabling scalable, secure, and modern health IT systems that better support patient care and government service delivery. Health IT companies, such as Trilogy Innovation, strongly support the deregulatory approach, emphasizing that removing outdated certification criteria will free resources for innovation and improve mission impact without compromising technical outcomes.\n\nHowever, there is also significant caution expressed by clinicians and other stakeholders concerned about the potential weakening of interoperability standards that underpin critical programs like the Medicare Shared Savings Program (MSSP) and patient-centered care models. These commenters urge the preservation of enforceable interoperability guardrails and the narrowing of information blocking exceptions to prevent misuse that could undermine data sharing and care coordination. They highlight the risk that deregulation might shift compliance burdens from vendors to providers or accountable care organizations (ACOs), potentially eroding data integrity and trust.\n\nA recurring theme is the call for stronger enforcement and accountability mechanisms, especially regarding pharmacies and delegated entities. For example, WENO Exchange LLC advocates for prohibiting pharmacies from abusing information blocking exceptions and mandates alternative DEA-compliant access methods to safeguard patient care. Similarly, David Rocha emphasizes the need for CMS and ONC to require delegated entities to adopt FHIR APIs and collaborate with accrediting bodies to enforce interoperability in hospitals and public health agencies. These recommendations underscore the importance of not only setting standards but also ensuring their practical adoption and enforcement across diverse health IT stakeholders.\n\nOverall, the comments reflect a tension between advancing deregulation to promote innovation and maintaining sufficient regulatory guardrails to protect interoperability, patient care, and compliance integrity. There is broad agreement on the centrality of FHIR-based standards as the foundation for future interoperability efforts, but divergent views on how aggressively certification requirements should be relaxed and how enforcement should be structured to prevent information blocking and ensure equitable access to health information.",
+    "top_arguments": {
+      "for_deregulation": [
+        "Removing low-value certification criteria reduces administrative burden without sacrificing technical outcomes.",
+        "Focus on FHIR-based standards supports secure, scalable, and interoperable health IT systems.",
+        "Reduced certification burden allows reallocation of resources toward innovation and mission impact."
+      ],
+      "against_deregulation_or_caution": [
+        "Reducing certification requirements too aggressively risks re-empowering vendor behaviors that hinder interoperability and patient care.",
+        "Narrowing information blocking exceptions with clear operational guidance is essential to prevent misuse and support care coordination.",
+        "Deregulation should not shift compliance burdens from vendors to providers or ACOs, which undermines data integrity and trust.",
+        "Pharmacies abuse infeasibility and manner exceptions despite demonstrated technical feasibility, requiring stricter guardrails.",
+        "Delegated entities must be held accountable to adopt FHIR APIs to enable full enforcement of CMS rules and interoperability."
+      ]
+    },
+    "top_recommendations": [
+      "Explicitly prohibit pharmacies from invoking infeasibility and manner exceptions when technical feasibility is demonstrated.",
+      "Mandate alternative DEA-compliant retrieval methods if direct integration is lacking, denying infeasibility exceptions otherwise.",
+      "Update regulatory frameworks (e.g., 45 CFR Part 156) to include FHIR API compliance obligations for delegated entities.",
+      "Collaborate with accrediting bodies to include auditable FHIR interoperability requirements in hospital accreditation.",
+      "Preserve core certification criteria essential to interoperability and MSSP compliance while narrowing information blocking exceptions with practical guidance.",
+      "Monitor and publicly report on state and territorial public health agencies' live FHIR endpoints to encourage interoperability progress."
+    ],
+    "notable_voices": [
+      "WENO Exchange LLC (health IT company) advocating for stricter enforcement against pharmacy information blocking.",
+      "David Rocha (other) emphasizing accountability for delegated entities and collaboration with accrediting bodies.",
+      "Raymond Blair (individual clinician) urging caution to preserve interoperability guardrails and modernize related regulations.",
+      "Trilogy Innovation, Inc. (health IT company) strongly supporting deregulatory actions aligned with FHIR adoption."
+    ],
+    "key_tensions": [
+      "Balancing deregulation to reduce certification burden with the need to maintain enforceable interoperability standards and guardrails.",
+      "Ensuring that deregulation does not shift compliance burdens from vendors to providers or ACOs, which could undermine data integrity.",
+      "Reconciling the push for innovation and agility in health IT with the necessity of preventing information blocking and misuse of exceptions.",
+      "Determining the appropriate level of enforcement and accountability for pharmacies and delegated entities in adopting FHIR APIs and interoperable practices.",
+      "Aligning modernization of interoperability regulations with updates to related legal frameworks such as HIPAA and Stark Law to support value-based care."
+    ],
+    "dominant_position": "The dominant sentiment among commenters is cautiously supportive of deregulation efforts that streamline certification and promote FHIR-based interoperability standards, provided that strong guardrails and enforcement mechanisms remain in place to prevent information blocking and protect patient care. While health IT companies tend to strongly support deregulatory actions, clinicians and other stakeholders express mixed or neutral positions emphasizing the need for balance between reducing burden and preserving interoperability integrity."
+  },
+  {
+    "key": "ccda_cda_removal",
+    "label": "C-CDA / Consolidated CDA Removal",
+    "comment_count": 31,
+    "position_breakdown": {
+      "strongly_oppose_deregulation": 9,
+      "support_deregulation": 10,
+      "oppose_deregulation": 4,
+      "neutral_mixed": 8
+    },
+    "analysis": "The theme of C-CDA / Consolidated CDA Removal in the ONC HTI-5 proposed rule has elicited a diverse range of opinions from stakeholders, reflecting the complexity of transitioning health IT standards. Many commenters emphasize the importance of the Consolidated CDA (C-CDA) as a critical document that provides a comprehensive, accessible summary of patient clinical events, which is particularly valuable for patients and caregivers. These stakeholders argue that removing the C-CDA creation certification criterion could negatively impact the clarity and usability of health information exchange, especially for non-technical users who find segmented FHIR resources difficult to navigate.\n\nConversely, a significant portion of commenters support deregulation and the removal of C-CDA requirements, advocating for an accelerated transition to FHIR Clinical Documents. They highlight that FHIR represents the future of health IT interoperability, offering more granular and flexible data exchange capabilities. Supporters also point to international trends, noting that several countries are migrating from CDA to FHIR standards, and urge the US to align with these global interoperability frameworks to maintain leadership and competitiveness.\n\nSome health IT companies and consulting organizations express nuanced positions, supporting the shift toward FHIR but cautioning against premature removal of C-CDA requirements. They stress the readiness of public health agencies and the broader ecosystem, recommending a phased approach that retains existing standards like CDA and HL7 v2.5.1 until FHIR adoption is more mature. These commenters also raise concerns about potential increases in variability and burden on developers and public health entities if certification criteria are removed too quickly.\n\nOverall, the discourse reveals a tension between innovation and stability, with stakeholders balancing the need to modernize health IT standards against the practical realities of implementation, usability, and the diverse needs of end users including patients, caregivers, and public health agencies.",
+    "top_arguments": {
+      "for_deregulation": [
+        "FHIR Clinical Documents represent the future standard for health IT interoperability and should be prioritized.",
+        "Accelerating the transition from CDA/CCDA to FHIR aligns the US with global interoperability trends and maintains international competitiveness.",
+        "Providing funding, support, and a clear timeline will facilitate industry-wide adoption of FHIR and reduce implementation barriers."
+      ],
+      "against_deregulation": [
+        "Consolidated CDA documents provide a clearer, more accessible, and comprehensive summary of clinical events than segmented FHIR resources, which benefits patients and caregivers.",
+        "Removing certification criteria prematurely increases variability and burden on health IT developers, healthcare organizations, and public health agencies not yet ready for full FHIR adoption.",
+        "Public health agencies rely on existing standards like CDA and HL7 v2.5.1 and need continued support to maintain essential data reporting and interoperability."
+      ]
+    },
+    "top_recommendations": [
+      "Reconsider and retain the Consolidated CDA creation certification criterion in §170.315(g)(6) to preserve valuable patient and caregiver information.",
+      "Accelerate the transition timeline from CDA/CCDA to FHIR Clinical Documents while providing funding, support, and assistance to implementers.",
+      "Maintain support for CDA and HL7 v2.5.1 standards until public health agencies are ready for widespread FHIR adoption.",
+      "Adopt higher versions of USCDI (v4 or preferably v6) in certification to ensure comprehensive patient demographic data.",
+      "Do not remove Insights Conditions reporting and Bulk FHIR as they provide valuable data on real-world interface deployment."
+    ],
+    "notable_voices": [
+      "Debi Willis (individual clinician) - strong opposition to removal of Consolidated CDA",
+      "David Rocha (other) - strong support for accelerated transition to FHIR Clinical Documents and alignment with global standards",
+      "HLN Consulting, LLC (health IT company) - opposition emphasizing readiness of public health agencies and need to retain existing standards",
+      "InterSystems Corporation (health IT company) - supports FHIR shift but urges maintaining baseline C-CDA capabilities and strong governance"
+    ],
+    "key_tensions": [
+      "Balancing innovation and modernization through FHIR adoption against the need for stability and usability provided by Consolidated CDA documents.",
+      "The readiness of public health agencies and healthcare organizations to adopt FHIR versus the push to accelerate deregulation and remove legacy standards.",
+      "Ensuring patient and caregiver access to clear, consolidated clinical information versus transitioning to more granular but potentially fragmented FHIR resources.",
+      "Aligning US health IT certification with global interoperability trends while addressing domestic implementation challenges and stakeholder concerns."
+    ],
+    "dominant_position": "The dominant sentiment among commenters is mixed but leans toward cautious support for deregulation and transition to FHIR, tempered by significant opposition advocating retention of the Consolidated CDA to ensure continuity, usability, and support for public health needs."
+  },
+  {
+    "key": "uscdi_data_standards",
+    "label": "USCDI Data Standards & Classes",
+    "comment_count": 13,
+    "position_breakdown": {
+      "strongly_oppose_deregulation": 6,
+      "neutral_mixed": 3,
+      "support_deregulation": 4
+    },
+    "analysis": "The public comments on the USCDI Data Standards & Classes theme in the ONC HTI-5 proposed rule reveal a nuanced landscape of stakeholder perspectives balancing deregulation with the need to maintain or enhance data standards critical to patient care and interoperability. Several advocacy groups emphasize the importance of preserving or expanding data classes that support vulnerable populations, such as LGBTQ+ patients and caregivers, highlighting that removing or reducing these requirements could undermine care quality and health equity. These groups argue that data elements related to sexual orientation, gender identity, caregiver information, and physical activity are essential for delivering comprehensive, patient-centered care and aligning with broader public health goals.\n\nProfessional associations like the American Medical Association take a more mixed stance, supporting deregulation efforts aimed at reducing unnecessary burdens to foster innovation, particularly in AI-driven decision support tools. However, they strongly advocate for retaining transparency, governance, and risk management requirements for high-risk AI applications to ensure patient safety and trust. They propose a risk-based, tiered framework that balances regulatory relief with necessary safeguards, preserving access to the full USCDI data set for high-risk tools while allowing narrower data scopes for lower-risk applications.\n\nThere is also a forward-looking push to adopt newer versions of the USCDI standard, such as USCDI v4, to incorporate emerging data classes like physical activity assessments, which align with CMS and CMMI policies promoting prevention and lifestyle-based care. Commenters urge ONC to leverage existing FHIR implementation guides to facilitate interoperability and support population health management. Overall, the comments reflect a tension between deregulation to reduce burden and the imperative to maintain or enhance data standards that support equitable, safe, and effective healthcare delivery through certified health IT.",
+    "top_arguments": {
+      "for_preserving_or_expanding_data_standards": [
+        "Removing critical data fields, especially those relevant to LGBTQ+ patients, will regress interoperability and harm quality care.",
+        "Standardized caregiver data elements are essential for caregiver-inclusive care coordination and align with Medicaid HCBS cost avoidance goals.",
+        "Adopting USCDI v4 to include physical activity data supports chronic disease prevention, population health, and aligns with CMS and CMMI policies.",
+        "Maintaining AI transparency and risk management requirements ensures patient safety and trust, particularly for high-risk predictive decision support tools."
+      ],
+      "for_deregulation_or_reduction": [
+        "Reducing unnecessary regulatory burden can foster innovation and reduce compliance costs for health IT developers.",
+        "A risk-based, tiered approach to AI transparency and data scope can balance safety with flexibility, allowing lighter requirements for low-risk tools.",
+        "Right-sizing and standardizing requirements is preferable to wholesale removal, addressing burden concerns without compromising essential safeguards."
+      ]
+    },
+    "top_recommendations": [
+      "Maintain regulatory requirements for LGBTQ+ relevant data fields including sexual orientation, gender identity, and pronouns in electronic health records.",
+      "Retain AI model card transparency, governance, auditability, and change control requirements for high-risk predictive decision support interventions.",
+      "Adopt USCDI version 4 instead of 3.1 to include physical activity assessment data in certified health IT.",
+      "Include standardized caregiver data elements such as caregiver identification, strain assessments, and dyadic care planning explicitly in FHIR API scope and future USCDI versions.",
+      "Implement a two-tiered risk framework for AI tools with lighter requirements for low-risk applications and full USCDI data access for high-risk tools."
+    ],
+    "notable_voices": [
+      "Rocky Mountain Equality (advocacy group focused on LGBTQ+ health equity)",
+      "American Medical Association (professional association representing physicians)",
+      "Physical Activity Alliance (advocacy group promoting physical activity data inclusion)",
+      "Family Caregiver Alliance (advocacy group emphasizing caregiver data infrastructure)"
+    ],
+    "key_tensions": [
+      "Balancing deregulation to reduce developer burden with the need to maintain comprehensive data standards that support vulnerable populations and patient safety.",
+      "Determining the appropriate scope and transparency requirements for AI decision support tools, especially high-risk predictive models.",
+      "Choosing between adopting newer USCDI versions with expanded data classes versus maintaining existing standards to avoid implementation complexity.",
+      "Integrating caregiver data elements into certified health IT as core infrastructure versus treating them as optional or secondary data."
+    ],
+    "dominant_position": "The dominant sentiment among commenters is cautious opposition to broad deregulation of USCDI data standards and classes. While there is some support for reducing unnecessary regulatory burden, most commenters emphasize the critical importance of maintaining or expanding data elements that support vulnerable populations, patient safety, and interoperability. There is strong advocacy for preserving transparency and governance requirements for AI tools and for adopting updated USCDI versions to include emerging data classes."
+  },
+  {
+    "key": "ehi_export",
+    "label": "EHI Export Requirements",
+    "comment_count": 3,
+    "position_breakdown": {
+      "support_deregulation": 1,
+      "strongly_oppose_deregulation": 1,
+      "oppose_deregulation": 1
+    },
+    "analysis": "The theme of EHI Export Requirements in the ONC HTI-5 proposed rule reveals a clear divide among stakeholders regarding the expansion of definitions around access, use, and exchange of electronic health information (EHI), particularly with respect to automation technologies such as robotic process automation (RPA) and agentic artificial intelligence (AI). Supporters of the proposed revisions, such as Middlesex Health, emphasize the importance of regulatory clarity to foster innovation and efficiency in health IT. They argue that explicitly including automation technologies in the regulatory framework will reduce ambiguity, encourage investment, and accelerate AI adoption, ultimately benefiting health systems and patients through improved data access and reduced costs. This perspective aligns with the broader goals of the Cures Act to promote seamless health data interoperability and access in an era of advanced automation.\n\nConversely, opponents, including the American College of Obstetricians & Gynecologists (ACOG) and an individual commenter representing victims of medical negligence, express significant concerns about the potential risks these deregulatory actions pose to patient safety and privacy. ACOG highlights the vulnerabilities of sensitive patient populations—such as survivors of intimate partner violence, adolescents, and pregnant individuals with substance use disorders—and cautions that current EHR systems lack adequate capabilities to segment sensitive data. They warn that expanding definitions to include unlimited automated access and use could increase the risk of unauthorized data exposure and administrative burdens. Similarly, the attorney representing victims of medical negligence argues that deregulation could hinder access to complete medical records, thereby disadvantaging victims and potentially benefiting wrongdoers.\n\nThese divergent views underscore a fundamental tension between promoting technological innovation and safeguarding patient privacy and safety. While proponents focus on the benefits of automation and regulatory certainty, opponents prioritize protecting sensitive data and ensuring equitable access to health information. The debate also touches on specific regulatory mechanisms, such as the Manner Exception, where changes to the number of alternative manners required and vocabulary adjustments raise concerns about potential confusion and exploitation. Overall, the comments reflect a need for a balanced approach that supports innovation while maintaining robust protections for vulnerable populations and ensuring transparency and fairness in health information access.",
+    "top_arguments": {
+      "for_deregulation": [
+        "Explicitly naming RPA and Agentic AI removes ambiguity and enables confident investment and deployment in health IT.",
+        "Reinforces that interference with automated EHI access/use may constitute information blocking, strengthening protections.",
+        "A clear regulatory framework for automated data use will accelerate AI adoption, improving health system efficiency and reducing costs.",
+        "Supports the spirit of the Cures Act by promoting seamless health data access in the era of advanced automation."
+      ],
+      "against_deregulation": [
+        "Current EHR vendors lack capability to segment sensitive health data, risking patient safety if unlimited access/use/exchange is codified.",
+        "Automation technologies and AI in health data exchange are not fully tested, posing risks of data exposure to malicious parties.",
+        "Deregulation will hurt victims of medical negligence by limiting access to complete medical records, benefiting wrongdoers.",
+        "Increasing the minimum number of alternative manners in the Manner Exception could delay data receipt and increase administrative burden.",
+        "Vocabulary changes in the Manner Exception exhausted condition may cause confusion and be exploited by bad actors, endangering sensitive patient data."
+      ]
+    },
+    "top_recommendations": [
+      "Do not finalize proposals expanding definitions of access, use, and exchange of EHI to include unlimited use of automation technologies and AI.",
+      "Finalize the proposed revisions to explicitly include automation technologies in the definitions of 'access' and 'use' of EHI (supporting view).",
+      "Maintain or strengthen regulations to ensure complete medical record access, avoiding deregulation that reduces health IT certification and information blocking protections.",
+      "Avoid increasing the minimum number of alternative manners required in the Manner Exception from two to all.",
+      "Refrain from making minor vocabulary changes that add confusion to the Manner Exception exhausted condition.",
+      "Ensure policies protect privacy and safety of sensitive patient data, especially for vulnerable populations such as IPV survivors, adolescents, and pregnant/postpartum individuals."
+    ],
+    "notable_voices": [
+      "Middlesex Health (health system) - supportive of deregulatory revisions to include automation technologies.",
+      "American College of Obstetricians & Gynecologists (professional association) - opposes deregulatory expansions due to patient safety and privacy concerns.",
+      "George Wise (attorney representing victims of medical negligence) - strongly opposes deregulation that could harm victims' access to medical records."
+    ],
+    "key_tensions": [
+      "Balancing the promotion of innovation and AI adoption in health IT with the need to protect sensitive patient data and privacy.",
+      "Ensuring regulatory clarity and reducing ambiguity versus preventing potential exploitation or confusion in exceptions like the Manner Exception.",
+      "The risk of increased administrative burden and delayed data access against the benefits of streamlined automated data use.",
+      "Protecting vulnerable populations' confidentiality while enabling broader automated access and use of EHI.",
+      "Differing perspectives on whether deregulation benefits health systems and technology adoption or disproportionately harms patients and victims of malpractice."
+    ],
+    "dominant_position": "Opposition to deregulation is the dominant sentiment among commenters on this theme, with two out of three comments expressing concerns about the risks to patient safety, privacy, and equitable access to health information. Only one comment supports the proposed deregulatory revisions, emphasizing benefits related to automation and AI adoption."
+  }
+]

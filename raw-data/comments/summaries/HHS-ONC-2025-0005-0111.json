@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0111",
+  "commenter_name": "Allen Tittle",
+  "organization": "",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3047,
+  "org_type": "other",
+  "summary": "The commenter, a medical malpractice attorney, strongly opposes the HTI-5 deregulatory proposals, emphasizing that removing audit log requirements will undermine the integrity and traceability of electronic medical records, which are critical for detecting falsification in legal cases. He urges ONC to establish a modern, enforceable audit trail standard before eliminating existing certification safeguards.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "burden_reduction",
+    "ai_regulation",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "removal of certification safeguards",
+    "EHI export (implied)",
+    "API-driven access (implied)"
+  ],
+  "key_arguments": [
+    "Federally required audit trails are essential to detect fabrication, backdating, and post-event alterations in EMRs.",
+    "Removing audit log requirements will hide falsified documentation and weaken accountability amid increasing automation and AI use.",
+    "Cost savings to developers do not account for harm to patients or increased forensic costs in litigation.",
+    "Modern EMR complexity demands enforceable audit standards before deregulation."
+  ],
+  "recommendations": [
+    "Finalize and codify a modern audit trail standard that flags AI-generated entries and identifies copy-forward sources.",
+    "Require audit continuity across all platforms involved in patient care.",
+    "Ensure audit trails are non-privileged and fully accessible to patients.",
+    "Prohibit automatic destruction of care-related data and require retention in native, machine-readable formats.",
+    "Pause deregulatory removals until a comprehensive audit framework is implemented."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Efficiency cannot come at the expense of integrity."
+}

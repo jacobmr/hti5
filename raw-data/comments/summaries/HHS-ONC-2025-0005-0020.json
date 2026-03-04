@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0020",
+  "commenter_name": "Stephen Barnes, MD, JD",
+  "organization": "",
+  "posted_date": "2026-01-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4980,
+  "org_type": "individual_clinician",
+  "summary": "The commenter urges HHS to pause the HTI-5 proposed deregulatory rule until updated, robust audit trail standards are finalized to ensure the integrity, security, and trustworthiness of electronic health records. He emphasizes that removing certification guardrails prematurely risks patient safety, fraud, and loss of data transparency.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_preservation",
+    "interoperability",
+    "fraud_prevention"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "certification requirements related to audit trails"
+  ],
+  "key_arguments": [
+    "Current audit trail standards (ASTM E2147-18) are outdated and insufficient for modern clinical environments.",
+    "Removing or reducing audit log certification requirements before updating standards risks patient harm and fraud.",
+    "Audit trails must capture AI, medical device activity, software identification, and granular metadata to ensure transparency and prevent fraud.",
+    "Data must be preserved durably and not be subject to ephemeral destruction to maintain legal and clinical accountability."
+  ],
+  "recommendations": [
+    "Pause the HTI-5 proposed certification changes until modern, robust audit trail and data preservation standards are finalized.",
+    "Prioritize revision of audit trail standards to include AI, device integration, software interoperability, and detailed metadata.",
+    "Prohibit ephemeral messaging or automatic data destruction to ensure durable data retention.",
+    "Establish and enforce updated definitions and standards for ePHI, EHI, Generative AI, and Synthetic Data before deregulation."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are fundamental to medical record integrity, patient trust, and legal accountability."
+}

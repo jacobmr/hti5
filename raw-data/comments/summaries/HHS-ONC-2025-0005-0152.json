@@ -1,0 +1,31 @@
+{
+  "id": "HHS-ONC-2025-0005-0152",
+  "commenter_name": "Valerie Yoder",
+  "organization": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4343,
+  "org_type": "other",
+  "summary": "The commenter supports HTI-5's goals to reduce burden and modernize standards but opposes removing the \u00a7170.315(f)(4) certification criterion for cancer registry transmission. They argue that FHIR-based resources are immature, removal risks disrupting timely cancer reporting, and eliminating certification incentives may reduce interoperability and data quality.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "public_health_reporting",
+    "interoperability",
+    "burden_reduction",
+    "clinical_workflow"
+  ],
+  "specific_provisions": ["170.315(f)(4) Transmission to cancer registries"],
+  "key_arguments": [
+    "FHIR-based resources for cancer registry reporting are not mature or widely implemented.",
+    "Removing the certification criterion risks disrupting timely, standardized cancer incidence reporting.",
+    "Eliminating certification incentives may reduce EHR support for interoperability and increase burden on jurisdictions.",
+    "Cancer reporting is critical for public health monitoring, research, and prevention strategies."
+  ],
+  "recommendations": [
+    "Retain \u00a7170.315(f)(4) transmission to cancer registries certification criterion until FHIR-based reporting matures.",
+    "Implement a phased transition plan with defined minimum content expectations and coordinated testing to prevent reporting gaps."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removal of \u00a7170.315(f)(4) risks disrupting timely incidence cancer reporting and increases provider burden."
+}

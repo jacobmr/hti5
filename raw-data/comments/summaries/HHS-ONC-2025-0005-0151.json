@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0151",
+  "commenter_name": "DirectTrust",
+  "organization": "DirectTrust",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 60165,
+  "org_type": "professional_association",
+  "summary": "DirectTrust supports the overall goals of reducing regulatory burden and modernizing certification but urges retention of certification criteria supporting Direct Secure Messaging and privacy/security standards. They emphasize that removing these could increase operational burdens and disrupt critical, widely used document-based exchange workflows that are not yet replaced by FHIR push models.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "interoperability",
+    "burden_reduction",
+    "direct_secure_messaging",
+    "privacy_security",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.202(a)(2) Direct Standard and Applicability Statement for Secure Health Transport",
+    "\u00a7 170.315(h)(1) and \u00a7 170.315(h)(2) Direct Secure Messaging criteria"
+  ],
+  "key_arguments": [
+    "Removing certification criteria may shift burden to other stakeholders and increase costs due to variability and custom integrations.",
+    "Direct Secure Messaging remains the only nationally deployed, standards-based push transport for cross-organizational referrals and transitions of care.",
+    "Certification ensures consistent implementation and interoperability at scale, which is critical for many clinical and public health workflows.",
+    "FHIR push messaging is not yet operational at scale to replace document-based exchange supported by Direct Secure Messaging."
+  ],
+  "recommendations": [
+    "Retain certification criteria supporting Direct Secure Messaging and related standards to preserve reliable, consistent document-based exchange.",
+    "Maintain stand-alone privacy and security certification criteria to ensure patient data protection, especially in rural and under-resourced settings.",
+    "Align related certification criteria to ensure consistent implementation of Direct interfaces.",
+    "Support modernization efforts without disrupting existing operational workflows that function at scale."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Direct Secure Messaging remains the only nationally deployed, standards-based push exchange mechanism."
+}

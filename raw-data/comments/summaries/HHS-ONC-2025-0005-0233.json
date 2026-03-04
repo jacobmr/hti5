@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0233",
+  "commenter_name": "Clinical Architecture",
+  "organization": "Clinical Architecture",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8718,
+  "org_type": "health_it_company",
+  "summary": "Clinical Architecture supports HTI-5's deregulatory actions to advance interoperability and reduce burden, while emphasizing the need to focus next on data quality and fitness-for-use. They propose incorporating structured, standards-based data quality assessment, such as the USCDI v3 Data Quality Rubric and the HL7-balloted PIQI Framework, into future certification programs.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "uscdi_data_classes",
+    "data_quality",
+    "fhir_standards",
+    "certification_program"
+  ],
+  "specific_provisions": [
+    "USCDI v3",
+    "Certification Program",
+    "API-based exchange",
+    "HTI-5",
+    "HTI-6"
+  ],
+  "key_arguments": [
+    "HTI-5 advances API-based exchange and reduces regulatory burden, reinforcing interoperability.",
+    "The next challenge is ensuring exchanged data is trustworthy, complete, and fit for use.",
+    "USCDI elements alone do not guarantee data quality or usability for downstream purposes.",
+    "Automated, standards-based data quality assessment is feasible, scalable, and actionable."
+  ],
+  "recommendations": [
+    "Consider referencing the PIQI Framework as an optional capability in the Certification Program to encourage data quality assessment.",
+    "Engage with the USCDI v3 Data Quality Rubric and HL7-balloted PIQI Framework initiatives to advance national data quality expectations.",
+    "Incorporate structured data quality assessment thoughtfully in HTI-6 after real-world beta testing and adoption."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "The country is ready for interoperability that is not only connected\u2014but trusted."
+}

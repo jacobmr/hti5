@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0069",
+  "commenter_name": "Advocate Health",
+  "organization": "Advocate Health",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10443,
+  "org_type": "health_system",
+  "summary": "Advocate Health supports ONC's efforts to modernize information blocking definitions and remove burdensome conditions, emphasizing the need for clear guidelines to ensure security, patient safety, and predictable compliance. They agree with removing the third-party modification use condition and revising the infeasibility exception but urge ONC to provide clarity to avoid increased administrative burden and enforcement uncertainty.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "information_blocking",
+    "interoperability",
+    "regulatory_clarity",
+    "patient_safety",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "\u00a7 171.201(A)(3) third-party seeking modification use condition",
+    "\u00a7 171.201(A)(4) infeasibility exception manner exhausted condition",
+    "\u00a7 171.301(A) manner exception manner requested condition"
+  ],
+  "key_arguments": [
+    "Modernizing definitions to include automated and AI-driven processes aligns regulations with current healthcare interoperability.",
+    "Removing the third-party modification use condition reduces undue legal exposure and administrative burden.",
+    "Revising or removing the manner exception exhaustion condition should be paired with clear guidelines to avoid subjective enforcement and documentation burdens.",
+    "New contract-related terms in the manner exception risk confusing providers who do not control pricing or contract terms."
+  ],
+  "recommendations": [
+    "Pair definition updates with clear guidelines recognizing legitimate security, system stability, and patient safety controls.",
+    "Define 'reasonable efforts' clearly when assessing infeasibility and recognize system degradation, cybersecurity risk, patient safety, and clinical workflow impacts as valid bases.",
+    "Provide clear guidance distinguishing provider decisions from third-party vendor pricing and contract terms.",
+    "Offer examples of when infeasibility applies and clarify documentation expectations to reduce compliance burden."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We want clear and defensible rules that we can use consistently across our compliance and legal departments."
+}

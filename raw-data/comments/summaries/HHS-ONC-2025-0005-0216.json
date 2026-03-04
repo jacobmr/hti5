@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0216",
+  "commenter_name": "Caroline Morrow",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 21516,
+  "org_type": "other",
+  "summary": "The commenter opposes the full removal of Decision Support Intervention source attributes, Intervention Risk Management, and privacy/security certification criteria, arguing these are essential for responsible AI deployment, fairness evaluation, and patient safety. They propose retaining a streamlined transparency framework to balance burden reduction with necessary governance.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "patient_safety",
+    "health_equity",
+    "burden_reduction",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "170.315(b)(11)(iv)-(v) Decision Support Intervention source attributes",
+    "170.315(b)(11)(vi) Intervention Risk Management requirements",
+    "170.315(d)(2), (d)(3), (d)(10) privacy/security certification criteria"
+  ],
+  "key_arguments": [
+    "Model cards are critical infrastructure enabling responsible AI deployment, governance, and iteration, not bureaucratic artifacts.",
+    "Removing transparency and fairness documentation risks patient safety by obscuring bias and undermining clinical governance.",
+    "Ongoing maintenance documentation is essential for detecting model drift and ensuring quality management over time.",
+    "Premature conclusions about lack of use of source attributes ignore the early stage of adoption and underestimate their institutional value."
+  ],
+  "recommendations": [
+    "Retain a streamlined minimum viable transparency framework covering core identity, intended use, fairness processes, performance baselines, maintenance monitoring, risk management, and local adaptation documentation.",
+    "Avoid full removal of the cited certification criteria; instead, revise them to reduce burden while preserving essential documentation for health systems.",
+    "Maintain regulatory floor for model documentation to prevent asymmetries in vendor negotiations and support safe AI iteration."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing it does not unleash innovation: it removes the guardrails that make innovation sustainable."
+}

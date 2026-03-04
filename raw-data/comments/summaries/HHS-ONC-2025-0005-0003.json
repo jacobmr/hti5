@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0003",
+  "commenter_name": "IRIS Health Solutions",
+  "organization": "IRIS Health Solutions",
+  "posted_date": "2026-01-05T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4967,
+  "org_type": "health_it_company",
+  "summary": "IRIS Health Solutions, a systems integrator, strongly supports HTI-5's deregulatory approach to health IT certification, emphasizing outcome-driven interoperability and API-first integration. The comment highlights the benefits of removing low-value certification criteria to focus on scalable, secure, and modern interoperability architectures, including automated system-to-system access and AI data use.",
+  "position": "strongly_support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "fhir_standards",
+    "ai_regulation",
+    "information_blocking"
+  ],
+  "specific_provisions": [
+    "removal of low-value certification criteria",
+    "FHIR-based APIs",
+    "information blocking rules clarifying automated access",
+    "reduction of documentation and audit log requirements"
+  ],
+  "key_arguments": [
+    "Current certification requirements are costly and lag real-world practice without improving interoperability.",
+    "API-first, modular integration layers better support government health programs and legacy system integration.",
+    "Clarifying automated system-to-system access reduces unintentional information blocking and aligns policy with modern workflows.",
+    "Reducing certification burden enables focus on data quality, AI model safety, and operational reliability."
+  ],
+  "recommendations": [
+    "Finalize proposed certification removals with minimal re-expansion.",
+    "Reinforce API-first interoperability as the primary policy objective.",
+    "Provide clear guidance affirming automated system-to-system access under information blocking rules.",
+    "Continue engaging systems integrators during finalization and implementation."
+  ],
+  "sentiment_score": 3,
+  "notable_quote": "Removing low-value certification criteria allows vendors and integrators to focus on interoperability that works at scale."
+}

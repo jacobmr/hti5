@@ -1,0 +1,31 @@
+{
+  "id": "HHS-ONC-2025-0005-0286",
+  "commenter_name": "FNU Kanishka",
+  "organization": "",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 747,
+  "org_type": "government_agency",
+  "summary": "The commenter expresses serious concerns about changing eCR certification criteria to a functional requirement, fearing it will hinder standardized public health reporting and burden agencies. They also worry about the move to FHIR-based standards due to lack of technical infrastructure and expertise, which could negatively impact public health response.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ecr_certification",
+    "fhir_standards",
+    "public_health_burden",
+    "technical_infrastructure",
+    "workforce_training"
+  ],
+  "specific_provisions": ["eCR certification criteria", "FHIR-based standards"],
+  "key_arguments": [
+    "Changing eCR certification to a functional requirement undermines progress toward standardized, automated public health reporting.",
+    "This change would impose significant new burdens on public health agencies and local health departments.",
+    "State and local health agencies lack the technical infrastructure and workforce expertise to adopt FHIR standards.",
+    "Additional staff, training, and resources would be required, making the transition difficult and potentially impacting public health response."
+  ],
+  "recommendations": [
+    "Maintain current eCR certification criteria rather than converting to a functional requirement.",
+    "Provide support and resources before moving towards FHIR-based standards to ensure agencies can comply without compromising public health response."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "This would be an extremely difficult step for us and could impact public health response."
+}

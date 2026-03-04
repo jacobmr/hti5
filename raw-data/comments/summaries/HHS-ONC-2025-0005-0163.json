@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0163",
+  "commenter_name": "American Pharmacists Association",
+  "organization": "American Pharmacists Association",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 32114,
+  "org_type": "professional_association",
+  "summary": "The American Pharmacists Association supports the removal of unnecessary certification criteria to reduce burden and enhance interoperability but urges caution to ensure patient care and privacy are not compromised. They emphasize the critical role of pharmacists in care transitions and medication safety, expressing concern about removing certain decision support and privacy/security criteria.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "patient_safety",
+    "privacy_security",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "170.315(b)(1) transitions of care",
+    "170.315(b)(11) decision support interventions",
+    "170.315(d) privacy and security certification criteria",
+    "C-CDA creation certification criterion"
+  ],
+  "key_arguments": [
+    "Pharmacists play an integral role in transitions of care and medication safety, reducing errors and readmissions.",
+    "Removing or revising certification criteria should not negatively impact patient care or privacy.",
+    "Enhanced interoperability benefits all providers by ensuring accurate medication information is shared.",
+    "Removal of privacy and security certification criteria may reduce protections and should be carefully considered."
+  ],
+  "recommendations": [
+    "Ensure removal or revision of certification criteria does not harm patient care or privacy.",
+    "Maintain or confirm support for drug-drug and drug-allergy interaction checks in decision support.",
+    "Promote interoperability frameworks that include pharmacists and pharmacies as key care providers.",
+    "Consider pharmacists as Eligible Professionals in CMS programs requiring CEHRT."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "APhA encourages ASTP/ONC to remove regulatory barriers to support providers, including pharmacists, in caring for their patients."
+}

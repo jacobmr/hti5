@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0107",
+  "commenter_name": "American Academy of Family Physicians",
+  "organization": "American Academy of Family Physicians",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 39606,
+  "org_type": "professional_association",
+  "summary": "The American Academy of Family Physicians supports ONC's intent to reduce health IT certification burdens to spur innovation and reduce costs, especially for small practices. However, they caution against removing foundational interoperability standards like C-CDA and clinical reconciliation requirements prematurely, emphasizing the need for a deliberate transition to FHIR-based APIs with consistent implementation and business incentives.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "ccda_removal",
+    "fhir_standards",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "170.315(b)(1) Consolidated Clinical Document Architecture (C-CDA)",
+    "170.315(b)(2) Clinical Information Reconciliation and Incorporation",
+    "Health IT Certification Program criteria removal and revision",
+    "FHIR-based API standards"
+  ],
+  "key_arguments": [
+    "Reducing certification burden may encourage new health IT developers and benefit small practices.",
+    "C-CDA remains a critical baseline for care coordination and should not be removed before viable FHIR alternatives are mature.",
+    "Standardized APIs alone are insufficient without consistent implementation practices and business incentives.",
+    "Removing clinical reconciliation certification prematurely risks patient safety and increases physician burden."
+  ],
+  "recommendations": [
+    "Align ONC and CMS certification criteria and timelines to reduce regulatory confusion.",
+    "Retain and revise clinical reconciliation certification to support FHIR and expand data elements rather than remove it outright.",
+    "Establish best practices for CEHRT developers to ensure predictable, efficient API integration, potentially making them mandatory over time.",
+    "Avoid removing C-CDA certification requirements until proven FHIR-based replacements are universally implemented."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "Removing C-CDA-related certification risks destabilizing the data exchange floor before viable alternatives exist."
+}

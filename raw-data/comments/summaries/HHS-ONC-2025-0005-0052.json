@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0052",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-18T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2300,
+  "org_type": "individual_clinician",
+  "summary": "The commenter expresses concern that removing certain certification requirements will shift burden from vendors to providers and health care entities, particularly regarding audit logs and transition of care data. They recommend maintaining minimum codified data sets for continuity of care and clearer CMS guidance on CEHRT implementation.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "ccda_removal",
+    "interoperability",
+    "burden_reduction",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "audit logs",
+    "C-CDA creation",
+    "Transition of Care (CCD-A)",
+    "CEHRT base edition requirements"
+  ],
+  "key_arguments": [
+    "Removing audit log requirements will hinder breach investigations and privacy tracking.",
+    "Vendors may omit key tracking functionality, increasing burden on providers to track data externally.",
+    "Transition of Care documents lack codified data, reducing continuity of care effectiveness.",
+    "Lack of clear CMS guidance on CEHRT implementation creates confusion."
+  ],
+  "recommendations": [
+    "Retain audit log and amendment requirements to support investigations and privacy concerns.",
+    "Add language requiring a minimum data set of codified information in Transition of Care documents.",
+    "Require Medicare/Medicaid providers to comply with these minimum data set requirements.",
+    "CMS should provide transparent and clear guidance on CEHRT implementation timelines."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Allowing vendors to not be held to specific requirements will increase burden on providers."
+}

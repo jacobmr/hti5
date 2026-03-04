@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0238",
+  "commenter_name": "Ann & Robert H. Lurie Children's Hospital of Chicago",
+  "organization": "Ann & Robert H. Lurie Children's Hospital of Chicago",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 20318,
+  "org_type": "health_system",
+  "summary": "Ann & Robert H. Lurie Children's Hospital supports ONC's focus on interoperability and patient access but urges caution against removing key certification requirements that ensure security, privacy, and pediatric confidentiality. They emphasize the need for practical safeguards, minimum assurance baselines, and clear guidance on pediatric privacy and automated access to avoid shifting burdens to providers and risking patient safety.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "interoperability",
+    "data_privacy",
+    "audit_log_standards",
+    "pediatric_privacy",
+    "ai_regulation"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "security certification criteria",
+    "information blocking policy",
+    "proxy access",
+    "automated EHI access"
+  ],
+  "key_arguments": [
+    "Reducing certification requirements without replacements shifts assurance burdens to hospitals, increasing risk and inequities.",
+    "Baseline security and audit capabilities are critical as interoperability and third-party app use expand.",
+    "Pediatric and adolescent confidentiality needs require explicit attention in information blocking and access policies.",
+    "Automated access to EHI should not be restricted or monetized in ways that delay or limit patient and provider access."
+  ],
+  "recommendations": [
+    "Finalize interoperability improvements with feasible implementation timelines and safeguards for legacy systems.",
+    "Maintain or replace a minimum assurance baseline for security and auditability in certified health IT.",
+    "Require standardized vendor assurance disclosures if security criteria are removed from certification.",
+    "Explicitly address pediatric consent, confidentiality, and proxy access in final rule and guidance.",
+    "Ensure enforcement frameworks distinguish lawful privacy protections from inappropriate access restrictions.",
+    "Provide guidance to prevent monetization or artificial restriction of automated EHI access.",
+    "Preserve expectations for sensitive data handling and proxy-aware access or require transparent disclosure of limitations."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Progress must not come at the expense of security, privacy, accessibility, and trust."
+}

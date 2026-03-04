@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0172",
+  "commenter_name": "Greater New York Hospital Association",
+  "organization": "Greater New York Hospital Association",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 26655,
+  "org_type": "health_system",
+  "summary": "The Greater New York Hospital Association expresses concern that the HTI-5 proposed deregulatory actions shift burdens from health IT developers to hospitals without providing hospitals comparable relief. They urge retention of core privacy and security certification criteria and alignment with hospital compliance needs to avoid increased operational and financial pressures.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "data_privacy",
+    "privacy_and_security",
+    "medicare_promoting_interoperability",
+    "vendor_burden"
+  ],
+  "specific_provisions": [
+    "removal of privacy and security certification criteria (45 CFR \u00a7170.315(d); 45 CFR \u00a7170.550(h))",
+    "removal of certification criteria supporting Medicare Promoting Interoperability Program",
+    "audit logging",
+    "access controls",
+    "authentication",
+    "encryption"
+  ],
+  "key_arguments": [
+    "Removing certification criteria shifts burden, risk, and cost from vendors to hospitals without reducing overall burden.",
+    "Privacy and security capabilities embedded in certification support hospital compliance with HIPAA and state laws.",
+    "Market forces alone may not ensure vendors maintain necessary privacy and security features, disadvantaging especially low-resourced hospitals.",
+    "Eliminating certification criteria that support Medicare PI Program reporting increases operational burden on hospitals."
+  ],
+  "recommendations": [
+    "Retain a core baseline of standardized, embedded privacy and security capabilities within certification criteria.",
+    "Coordinate with OCR to determine which privacy and security safeguards to retain, including access controls, authentication, encryption, and audit logging.",
+    "Ensure deregulatory changes do not shift burden, risk, or cost to hospitals.",
+    "Align certification changes with Medicare Promoting Interoperability Program requirements to preserve hospitals' ability to comply."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Lifting requirements for developers/vendors without corresponding adjustments for those who use and rely on their products does not reduce burden overall; it simply shifts that burden to hospitals."
+}

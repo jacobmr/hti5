@@ -1,0 +1,29 @@
+{
+  "id": "HHS-ONC-2025-0005-0035",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-01-28T05:00:00Z",
+  "has_text": true,
+  "comment_length": 429,
+  "org_type": "other",
+  "summary": "The commenter urges ONC/ASTP to accelerate the transition from CDA/CCDA to FHIR Clinical Documents, emphasizing the need for a clear timeline and support. They highlight implementers' preference for funding and assistance to facilitate this industry-wide shift.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "fhir_standards",
+    "interoperability",
+    "vendor_burden"
+  ],
+  "specific_provisions": ["170.315(g)(6) C-CDA"],
+  "key_arguments": [
+    "Implementers prefer a clearly defined and accelerated transition timeline from CDA/CCDA to FHIR Clinical Documents.",
+    "Funding, support, and assistance are necessary to help the industry move forward with this transition.",
+    "FHIR Clinical Documents represent the future standard and should be prioritized."
+  ],
+  "recommendations": [
+    "Accelerate the transition timeline from CDA/CCDA to FHIR Clinical Documents.",
+    "Provide funding, support, and assistance to implementers to facilitate this transition."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "ASTP/ONC should accelerate the industry\u2019s transition from CDA/CCDA to FHIR Clinical Documents."
+}

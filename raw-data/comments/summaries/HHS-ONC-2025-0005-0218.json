@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0218",
+  "commenter_name": "The Sequoia Project",
+  "organization": "The Sequoia Project",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 23034,
+  "org_type": "other",
+  "summary": "The Sequoia Project supports the overall goal of reducing regulatory burden and modernizing health IT certification but urges caution on timing and sequencing to avoid disruption. They emphasize the continued importance of C-CDA document exchange and privacy/security criteria, recommending phased transitions and maintaining some voluntary certification options to preserve interoperability and security.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "privacy_security",
+    "interoperability",
+    "burden_reduction",
+    "fhir_standards"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA",
+    "170.315(d) Privacy and Security Criteria",
+    "170.315(d)(13) Multi-factor Authentication",
+    "170.315(b)(7) Security tags \u2013 summary of care \u2013 send",
+    "170.315(b)(8) Security tags \u2013 summary of care \u2013 receive"
+  ],
+  "key_arguments": [
+    "C-CDA document exchange remains foundational nationally with very high volumes and should be supported until FHIR-based approaches are fully ready.",
+    "Removing privacy and security certification criteria prematurely risks increasing regulatory fragmentation and weakening baseline security posture.",
+    "Maintaining voluntary certification pathways for privacy and security criteria can reduce burden while preserving transparency and market differentiation.",
+    "Community-supported testing tools are critical to ensure consistent, high-quality interoperability during transitions."
+  ],
+  "recommendations": [
+    "Delay removal of C-CDA criteria until clear equivalence with FHIR is defined and validation tools remain available.",
+    "Carefully evaluate timing of privacy and security criteria removals, considering phased transitions aligned with federal security updates.",
+    "Maintain multi-factor authentication as a required or at least voluntary certification criterion.",
+    "Retain voluntary security tags criteria to support computable consent and privacy protections.",
+    "Consider removing required dependencies in privacy/security framework but keep criteria voluntary to preserve market flexibility."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "C-CDA document exchange remains foundational at national scale today."
+}

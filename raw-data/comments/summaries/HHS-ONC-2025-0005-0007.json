@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0007",
+  "commenter_name": "Raymond Blair",
+  "organization": "",
+  "posted_date": "2026-01-09T05:00:00Z",
+  "has_text": true,
+  "comment_length": 21025,
+  "org_type": "individual_clinician",
+  "summary": "The commenter appreciates efforts to reduce regulatory burden and modernize certification but urges caution to avoid weakening interoperability standards that underpin MSSP compliance and patient-centered care. They emphasize the need to preserve enforceable interoperability guardrails, support narrowing information blocking exceptions, and modernize related regulatory frameworks like HIPAA and Stark Law.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "interoperability",
+    "information_blocking",
+    "certification_criteria",
+    "ai_regulation",
+    "regulatory_modernization"
+  ],
+  "specific_provisions": [
+    "information blocking exceptions",
+    "health IT certification criteria",
+    "MSSP program compliance",
+    "HIPAA Business Associate Agreement (BAA)",
+    "Stark Law"
+  ],
+  "key_arguments": [
+    "Reducing certification requirements too aggressively risks re-empowering vendor behaviors that hinder interoperability and patient care.",
+    "Narrowing information blocking exceptions with clear operational guidance is essential to prevent misuse and support care coordination.",
+    "Deregulation should not shift compliance burdens from vendors to providers or ACOs, which undermines data integrity and trust.",
+    "Modernization of HIPAA and Stark Law is urgently needed to align with current clinical practice and value-based care realities."
+  ],
+  "recommendations": [
+    "Finalize narrowing of information blocking exceptions with continued practical guidance.",
+    "Preserve core certification criteria essential to interoperability and MSSP compliance.",
+    "Explicitly assess HTI-5 impacts on federally regulated value-based care programs.",
+    "Avoid shifting compliance burden from vendors to providers and ACOs.",
+    "Maintain guardrails that protect physician autonomy, patient-centered care, and data integrity.",
+    "Modernize HIPAA BAA requirements to reduce administrative barriers and support responsible AI adoption.",
+    "Reconsider Stark Law to reduce legal risks that hinder compassionate patient care."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Efficiency in healthcare delivery is patient protection."
+}

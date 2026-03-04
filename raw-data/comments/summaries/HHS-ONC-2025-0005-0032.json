@@ -1,0 +1,31 @@
+{
+  "id": "HHS-ONC-2025-0005-0032",
+  "commenter_name": "The Moses Firm (Atlanta, GA)",
+  "organization": "The Moses Firm (Atlanta, GA)",
+  "posted_date": "2026-01-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 959,
+  "org_type": "other",
+  "summary": "The commenter, an attorney representing patients in medical malpractice cases, emphasizes the frequent alteration and deletion of medical records after adverse events. They stress the importance of maintaining medical record integrity and enforcing penalties to prevent information blocking and cover-ups.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "data_integrity",
+    "information_blocking",
+    "medical_record_integrity"
+  ],
+  "specific_provisions": ["information blocking revisions"],
+  "key_arguments": [
+    "Healthcare providers often alter or delete medical records after catastrophic events.",
+    "Such alterations cover up preventable medical errors.",
+    "Strong penalties are necessary to ensure providers produce accurate patient information.",
+    "Protecting the integrity of medical records is critical for patient safety."
+  ],
+  "recommendations": [
+    "Ensure the integrity of the medical record is protected.",
+    "Maintain or strengthen penalties for facilities and providers who refuse to produce patient information.",
+    "Do not weaken information blocking rules that help prevent cover-ups."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Please ensure that the integrity of the medical record is protected and the information blocking revisions continue to impose serious penalties."
+}

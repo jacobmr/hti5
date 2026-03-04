@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0242",
+  "commenter_name": "athenahealth",
+  "organization": "athenahealth",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 17909,
+  "org_type": "ehr_vendor",
+  "summary": "athenahealth supports the HTI-5 proposed deregulatory actions aimed at reducing regulatory complexity and burden on health IT developers, emphasizing alignment with CMS and maintaining interoperability. They recommend removing overly prescriptive requirements, especially around Predictive and Evidence Based Decision Support Interventions, to better balance burden reduction with meaningful transparency and user choice.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "predictive_decision_support",
+    "regulatory_alignment",
+    "vendor_burden"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.315(b)(11)(iii) Predictive Decision Support Interventions activation",
+    "Predictive DSI transparency requirements",
+    "Evidence Based Decision Support interventions (EBDSI) feedback requirement",
+    "Manner Requested Exception pricing methodologies"
+  ],
+  "key_arguments": [
+    "Retaining activation requirements for Predictive DSI without transparency provisions is inconsistent and burdensome without clear benefit.",
+    "Prescriptive activation and feedback requirements do not reflect real-world workflows and add unnecessary complexity.",
+    "Alignment between ASTP/ONC and CMS is critical to reduce confusion and duplicative obligations.",
+    "Flexibility in pricing models under the Manner Exception is essential to support innovation and sustainable participation."
+  ],
+  "recommendations": [
+    "Remove the user activation requirement in \u00a7 170.315(b)(11)(iii) for both Predictive DSI and EBDSI.",
+    "Eliminate the EBDSI feedback data download requirement to reduce prescriptive burdens.",
+    "Ensure close coordination between ASTP/ONC and CMS to harmonize requirements and timelines.",
+    "Maintain flexibility in permissible pricing methodologies under the Manner Requested Exception."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We strongly support efforts to ensure certification requirements remain targeted, outcomes-driven, and aligned with advancing high-quality, connected, and efficient care delivery."
+}

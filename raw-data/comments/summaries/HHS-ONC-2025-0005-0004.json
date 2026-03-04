@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0004",
+  "commenter_name": "Public Policy Resilience Institute (PPRi)",
+  "organization": "Public Policy Resilience Institute (PPRi)",
+  "posted_date": "2026-01-05T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8539,
+  "org_type": "advocacy_group",
+  "summary": "PPRI supports deregulatory actions that reduce unnecessary compliance burdens but only if safeguards remain to prevent shifting burdens onto vulnerable patients. They urge ONC to retain or replace measurable accessibility, AI accountability, privacy/security, and administrative access protections to ensure equitable, reliable patient access.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "patient_safety",
+    "health_equity",
+    "data_privacy",
+    "ai_regulation"
+  ],
+  "specific_provisions": [
+    "45 C.F.R. \u00a7 170.315(e)(1)(i) VDT WCAG conformance",
+    "45 C.F.R. \u00a7 170.315(g)(5) accessibility-centered design",
+    "45 C.F.R. \u00a7 170.315(b)(11)(iv)\u2013(vi) predictive DSI transparency and risk management",
+    "45 C.F.R. \u00a7 170.315(d) privacy/security certification criteria",
+    "45 C.F.R. \u00a7 170.550(h) Privacy and Security Certification Framework"
+  ],
+  "key_arguments": [
+    "Removing certification-era safeguards risks shifting burden and access barriers onto patients, especially vulnerable populations.",
+    "Accessibility requirements like WCAG conformance must be retained or replaced with testable, enforceable baselines to ensure usable patient access.",
+    "Predictive AI decision support tools require minimum transparency and monitoring guardrails proportional to clinical risk.",
+    "Privacy and security certification criteria removal must be paired with explicit, enforceable assurance floors to maintain baseline protections."
+  ],
+  "recommendations": [
+    "Retain WCAG conformance or adopt a functionally equivalent, testable accessibility baseline for VDT.",
+    "Replace removed accessibility-centered design transparency with a binding, standardized public attestation and remediation process.",
+    "Maintain minimum transparency, monitoring, auditability, and human override pathways for predictive DSIs.",
+    "If privacy/security certification criteria are removed, implement an explicit, enforceable, and testable assurance floor.",
+    "Explicitly assess and monitor impacts on administrative/adjudicative access and implement corrective actions for access barriers."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "PPRI supports deregulatory streamlining only where it reduces burden without shifting burden onto patients."
+}

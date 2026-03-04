@@ -1,0 +1,47 @@
+{
+  "id": "HHS-ONC-2025-0005-0142",
+  "commenter_name": "NextGen Healthcare",
+  "organization": "NextGen Healthcare",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8791,
+  "org_type": "ehr_vendor",
+  "summary": "NextGen Healthcare supports targeted deregulatory actions to reduce certification burdens while maintaining interoperability and patient access. They emphasize the need for regulatory clarity, alignment with CMS programs, and realistic timelines, and express concerns about increased complexity in information blocking provisions.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "fhir_standards",
+    "uscdi_data_classes",
+    "information_blocking",
+    "data_privacy"
+  ],
+  "specific_provisions": [
+    "Consolidated CDA creation certification criterion",
+    "Clinical Information Reconciliation and Incorporation",
+    "Safety-Enhanced Design",
+    "Security Tags\u2014Summary of Care",
+    "Predictive Decision Support Interventions (PDSIs)",
+    "USCDI requirements",
+    "audit logging",
+    "information blocking exceptions",
+    "Fees and Licensing Exceptions",
+    "TEFCA participation"
+  ],
+  "key_arguments": [
+    "Removing mature, well-adopted criteria will not reduce functionality as they remain embedded in workflows.",
+    "Predictive and AI tools require simplified, principles-based transparency and risk management rather than full removal of guardrails.",
+    "Information blocking exception revisions introduce significant compliance complexity and ambiguity, increasing costs and uncertainty.",
+    "Baseline security controls must remain mandatory even if discrete security criteria are retired."
+  ],
+  "recommendations": [
+    "Pair deregulatory changes with regulatory clarity, CMS alignment, and realistic implementation timelines.",
+    "Adopt simplified, principles-based standards for AI/predictive decision support transparency and risk management.",
+    "Retain clear baseline security controls aligned with NIST frameworks and require objective evidence in certification.",
+    "Quantify incremental costs of information blocking revisions and provide clear, objective criteria for ambiguous terms like 'analogous'.",
+    "Provide flexibility in Fees and Licensing Exceptions to reflect ongoing infrastructure and security costs.",
+    "Offer meaningful incentives or safe harbors for TEFCA participation.",
+    "Provide revised burden estimates distinguishing deregulatory actions from new regulatory obligations before finalization."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We support streamlining the Certification Program to focus on FHIR-based APIs and USCDI."
+}

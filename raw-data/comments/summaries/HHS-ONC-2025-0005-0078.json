@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0078",
+  "commenter_name": "Association of Public Health Laboratories",
+  "organization": "Association of Public Health Laboratories",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 13898,
+  "org_type": "professional_association",
+  "summary": "The Association of Public Health Laboratories opposes key deregulatory actions in the HTI-5 rule, emphasizing that removing standards and certification requirements will increase costs and complexity for public health reporting. They advocate for maintaining certification for public health systems, adopting LOI and LRI standards for lab orders/results, allowing standardized contracts in public health contexts, and recognizing the unique needs of public health interoperability.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "health_it_certification",
+    "laboratory_standards",
+    "contractual_requirements",
+    "public_health_infrastructure"
+  ],
+  "specific_provisions": [
+    "removal of standards for cancer registry reporting",
+    "removal of standards for electronic case reporting (eCR)",
+    "removal of antimicrobial use and resistance reporting standards",
+    "withdrawal of Health IT certification requirements for public health systems",
+    "withdrawal of LOI and LRI standards for electronic test orders and results (ETOR)",
+    "revision of \u00a7 171.301(a) contractual limitations"
+  ],
+  "key_arguments": [
+    "Removing mandated standards shifts burden and cost to healthcare organizations and public health agencies, increasing complexity and fragmentation.",
+    "Certification of public health systems is essential to modernize infrastructure and enable seamless data exchange.",
+    "Adoption of LOI and LRI standards is critical to accelerate ETOR, improving patient care and lab efficiency.",
+    "Standardized contracts are necessary in public health contexts to reduce administrative burden and support equitable data exchange."
+  ],
+  "recommendations": [
+    "Retain certification requirements for public health systems to ensure interoperability and modernization.",
+    "Maintain and require LOI and LRI standards for electronic test orders and results.",
+    "Allow standardized contract language for public health reporting agreements developed through governance processes.",
+    "Recognize and address the distinct priorities and constraints of public health interoperability separate from healthcare IT."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Standards are not bureaucratic obstacles; they are the foundation of true interoperability."
+}

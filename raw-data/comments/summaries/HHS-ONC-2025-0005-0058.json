@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0058",
+  "commenter_name": "The Pew Charitable Trusts",
+  "organization": "The Pew Charitable Trusts",
+  "posted_date": "2026-02-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 11382,
+  "org_type": "advocacy_group",
+  "summary": "The Pew Charitable Trusts urges maintaining certain health IT certification requirements critical for public health data reporting, including immunization data exchange and electronic case reporting standards. They oppose removing or weakening these requirements, emphasizing the importance of standardized, timely, and accurate data exchange to support public health efforts.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "public_health_data_reporting",
+    "interoperability",
+    "certification_requirements",
+    "immunization_data",
+    "electronic_case_reporting"
+  ],
+  "specific_provisions": [
+    "Insights Condition measure for Immunization Administrations",
+    "Transmission to Public Health Agencies \u2013 Electronic Case Reporting (eCR) certification criteria",
+    "new certification criteria for health IT modules supporting public health data exchange"
+  ],
+  "key_arguments": [
+    "Removing the Insights Condition measure impedes efforts to assess and improve public health data exchange.",
+    "Standards-based electronic case reporting improves data quality, timeliness, and reduces burden.",
+    "Withdrawal of new certification criteria for public health IT modules should be accompanied by thorough impact analysis and support.",
+    "Public health agencies need investment, technical support, and phased implementation to adopt certification criteria effectively."
+  ],
+  "recommendations": [
+    "Maintain the Insights Condition measure for immunization data exchange.",
+    "Retain consensus-based, standards-driven certification criteria for electronic case reporting.",
+    "Conduct comprehensive financial and impact analysis before requiring new public health IT certification criteria.",
+    "Provide phased implementation, technical support, education, and sustained investment for public health agencies."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "The potential removal of this measure impedes federal, state, and local efforts to assess and improve public health and clinical data exchange."
+}

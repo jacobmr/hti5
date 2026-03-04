@@ -1,0 +1,43 @@
+{
+  "id": "HHS-ONC-2025-0005-0118",
+  "commenter_name": "Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 6069,
+  "org_type": "government_agency",
+  "summary": "The Washington State Health Care Authority acknowledges potential benefits of reducing certification burdens but warns that removing key interoperability and security requirements could increase variability and operational risks. They emphasize the need to maintain stable, reliable APIs and clear accountability, while preserving state authority to enforce standards through contracts.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "api_conditions",
+    "real_world_testing",
+    "state_authority"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.404 \u2014 API Conditions & Maintenance",
+    "\u00a7 170.405 \u2014 Real World Testing",
+    "\u00a7 170.102 \u2014 Certification Scope and Base EHR Definition",
+    "\u00a7 171.102 \u2014 Definitions of \u201cAccess\u201d and \u201cUse\u201d",
+    "\u00a7 171.204 Infeasibility Exception",
+    "\u00a7 171.301 Manner Exception"
+  ],
+  "key_arguments": [
+    "Reducing certification requirements may lower vendor/provider burden but risks increasing variability and operational challenges for states.",
+    "Existing interoperable FHIR APIs must remain stable and reliable to support Medicaid operations without requiring contract rewrites.",
+    "Real World Testing is critical to ensure APIs perform reliably at scale and should not be weakened during implementation.",
+    "State authority to require specific interoperability standards contractually must be preserved if certification no longer guarantees capabilities."
+  ],
+  "recommendations": [
+    "Do not reduce availability, reliability, or consistency of existing FHIR APIs.",
+    "Avoid ambiguity in responsibilities to prevent data delays or failures.",
+    "Maintain or strengthen Real World Testing requirements during 2026\u20132027 implementation.",
+    "Preserve stability in certification scope and Base EHR definition to avoid operational risks.",
+    "Clarify information blocking definitions to prevent misuse of exceptions that delay data access.",
+    "Ensure federal rules do not limit state authority to require interoperability standards via contracts.",
+    "Publish clear implementation guidance with timelines and examples alongside final rule."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "If certification scope criteria are removed or narrowed, those changes must not break existing FHIR APIs."
+}

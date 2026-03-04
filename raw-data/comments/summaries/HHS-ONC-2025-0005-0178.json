@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0178",
+  "commenter_name": "Council of State and Territorial Epidemiologists (CSTE)",
+  "organization": "Council of State and Territorial Epidemiologists (CSTE)",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 42657,
+  "org_type": "professional_association",
+  "summary": "The Council of State and Territorial Epidemiologists (CSTE) opposes the proposed deregulation in HTI-5 that would remove or revise public health reporting certification criteria, emphasizing the need to maintain standardized data exchange to ensure data quality and interoperability. They urge ONC to adopt updated standards and maintain certification criteria that support consistent, high-quality public health data reporting nationwide.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "public_health_reporting",
+    "certification_criteria",
+    "data_quality",
+    "standards_adoption"
+  ],
+  "specific_provisions": [
+    "removal or revision of public health reporting criteria",
+    "replacement of CDA standards with functional requirements",
+    "170.315(f)(1) Immunization registries\u2014Bi-directional exchange",
+    "HL7 v2.5.1 Implementation Guide for Immunization Messaging",
+    "HTI-2 proposed certification criteria for public health reporting"
+  ],
+  "key_arguments": [
+    "Removing or revising certification criteria to replace CDA standards with functional requirements would increase resource demands and reduce data quality.",
+    "Certification criteria ensure predictable, standardized public health reporting that benefits HIT developers, providers, and public health agencies.",
+    "Updated standards adoption incentivizes HIT developers and improves public health surveillance and response.",
+    "Withdrawal of HTI-2 proposed public health reporting criteria would stall progress in interoperability and data quality."
+  ],
+  "recommendations": [
+    "Maintain and update public health reporting certification criteria rather than removing them.",
+    "Align certification criteria with current or newer standards to sustain nationwide interoperability.",
+    "Finalize HTI-2 proposed certification criteria for public health reporting.",
+    "Adopt newer standards for electronic laboratory reporting (ELR) and electronic case reporting (eCR)."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "CSTE opposes ASTP/ONC\u2019s proposal to deregulate HIT certification by removing or revising public health reporting criteria."
+}

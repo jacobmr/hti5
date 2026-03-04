@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0084",
+  "commenter_name": "Advanced Medical Technology Association (AdvaMed)",
+  "organization": "Advanced Medical Technology Association (AdvaMed)",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 6418,
+  "org_type": "professional_association",
+  "summary": "AdvaMed supports streamlining outdated certification criteria and modernizing interoperability with FHIR-based APIs to reduce burdens and foster innovation. However, they caution ONC to consider the continued need for non-FHIR standards, clarify AI-related information blocking definitions, and ensure technical and safety distinctions justify differentiated access under the Manner Exception.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "ai_regulation",
+    "manner_exception",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "removal of non-API certification criteria",
+    "transition to FHIR-based APIs",
+    "definitions of 'access' and 'use' including AI systems",
+    "Manner Exception revisions regarding 'analogous' access"
+  ],
+  "key_arguments": [
+    "Non-FHIR standards like HL7 v2 and Direct-based exchange remain essential for imaging and clinical workflows and should not be deprecated.",
+    "Treating all automated AI data access as equivalent to human access may create compliance ambiguity and burdens.",
+    "Technical, safety, and regulatory differences justify differentiated access and should be recognized in the Manner Exception.",
+    "Reducing unnecessary compliance burdens can accelerate innovation and deployment of advanced medical technologies."
+  ],
+  "recommendations": [
+    "Clarify that removal of certification criteria does not imply federal preference to deprecate non-FHIR standards.",
+    "Provide additional guidance on actor responsibilities and compliance in multi-system AI environments.",
+    "Confirm FDA-regulated AI device developers are not subject to duplicative oversight under information blocking rules.",
+    "Clarify that technical, safety, and regulatory distinctions are legitimate grounds for differentiated access under the Manner Exception."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Reducing unnecessary compliance burdens can create capacity for innovation and accelerate deployment of advanced medical technologies."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "HHS-ONC-2025-0005-0063",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-23T05:00:00Z",
+  "has_text": true,
+  "comment_length": 399,
+  "org_type": "other",
+  "summary": "The commenter argues that CSV files and spreadsheets should not replace standards-based electronic transactions or structured EHI exchange. They emphasize that standards-based machine-readable formats via APIs must be required for electronic health information exchange.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "ehi_export",
+    "standards_based_exchange",
+    "information_blocking"
+  ],
+  "specific_provisions": ["EHI export", "standardized API requirements"],
+  "key_arguments": [
+    "CSV files and spreadsheets are inadequate substitutes for standards-based electronic transactions.",
+    "Exchanging health information without standards-based APIs constitutes information blocking.",
+    "Standards-based machine-readable formats via APIs should be mandatory for EHI exchange."
+  ],
+  "recommendations": [
+    "Maintain or strengthen requirements for standards-based APIs for electronic health information exchange.",
+    "Do not allow CSV or spreadsheet formats to replace structured, standards-based data exchange."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "CSV files and spreadsheets shall never substitute for standards based electronic transactions or structured EHI exchange."
+}

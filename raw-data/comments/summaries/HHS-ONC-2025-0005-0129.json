@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0129",
+  "commenter_name": "Qualifacts System LLC",
+  "organization": "Qualifacts System LLC",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8944,
+  "org_type": "health_it_company",
+  "summary": "Qualifacts supports HTI-5's focus on interoperability and burden reduction but strongly opposes removing privacy and security certification criteria. They emphasize that such removal risks patient safety, provider compliance, and trust in certified health IT products.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "burden_reduction",
+    "data_privacy",
+    "patient_safety",
+    "quality_management_system"
+  ],
+  "specific_provisions": [
+    "privacy and security certification criteria",
+    "quality management system (QMS) certification criterion \u00a7 170.315(g)(4)"
+  ],
+  "key_arguments": [
+    "Removing privacy and security criteria undermines providers' ability to comply with HIPAA and shifts risk to providers and patients.",
+    "Certification ensures baseline, testable security features; without it, shortcuts in development increase risks.",
+    "Third-party certifications like SOC 2 and HITRUST do not guarantee application-level security.",
+    "QMS requirements ensure disciplined development practices that prevent unsafe or vulnerable products."
+  ],
+  "recommendations": [
+    "Retain and modernize privacy and security certification criteria aligned with current cybersecurity threats and HIPAA Security Rule.",
+    "Preserve application-level testing requirements to support provider compliance and protect sensitive information.",
+    "Maintain QMS certification expectations to ensure rigor in certified health IT development."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing these criteria undermines providers\u2019 ability to meet regulatory obligations and shifts disproportionate risk onto healthcare organizations and patients."
+}

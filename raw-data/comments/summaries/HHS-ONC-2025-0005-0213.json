@@ -1,0 +1,33 @@
+{
+  "id": "HHS-ONC-2025-0005-0213",
+  "commenter_name": "Anonymous",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10320,
+  "org_type": "government_agency",
+  "summary": "The County of Santa Clara opposes the proposed removal of the standards-based electronic case reporting requirement, arguing that it would increase data variability and burden on public health agencies. They emphasize the critical need for standardized, automated data exchange to ensure timely and reliable public health responses.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "ccda_removal",
+    "public_health_reporting",
+    "data_standards",
+    "burden_shift"
+  ],
+  "specific_provisions": [
+    "45 CFR \u00a7 170.315(f)(5)(ii) electronic case reporting"
+  ],
+  "key_arguments": [
+    "Removing standards-based requirements will increase data variability and complexity for public health agencies.",
+    "Greater flexibility without strong standards will degrade data reliability and comparability across jurisdictions.",
+    "Deregulation shifts interoperability burdens from vendors and healthcare organizations to under-resourced public health agencies.",
+    "Strong, enforceable data standards are essential for scalable interoperability and effective public health response."
+  ],
+  "recommendations": [
+    "Maintain the existing standards-based electronic case reporting requirement in 45 CFR \u00a7 170.315(f)(5)(ii).",
+    "Continue to promote clear, consistent data standards to support national interoperability and public health modernization."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Guardrails are not barriers to innovation; they are prerequisites for scalable interoperability."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0234",
+  "commenter_name": "Informal Provider Association Coalition",
+  "organization": "Informal Provider Association Coalition",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 12445,
+  "org_type": "professional_association",
+  "summary": "The Informal Provider Association Coalition supports burden reduction and innovation efforts in the HTI-5 proposed rule but strongly opposes removal of key privacy, security, and C-CDA certification criteria. They emphasize maintaining robust cybersecurity protections and preserving C-CDA to ensure interoperability and protect less resourced providers. They also call for regulatory stability and thorough review before further changes.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "data_privacy",
+    "ccda_removal",
+    "fhir_standards",
+    "long_term_stability"
+  ],
+  "specific_provisions": [
+    "\u00a7170.315(d) Authentication, access control, and authorization",
+    "\u00a7170.315(b)(1) Transitions of Care",
+    "\u00a7170.315(b)(9) Care Plan",
+    "information blocking exceptions",
+    "C-CDA certification criteria"
+  ],
+  "key_arguments": [
+    "Removing privacy and security certification criteria shifts costs and risks to providers, especially under-resourced ones.",
+    "Eliminating C-CDA certification risks breaking existing data exchange and forces reliance on immature FHIR standards.",
+    "Frequent regulatory changes create unpredictability and increase compliance burden for providers and developers.",
+    "Wide adoption of criteria does not guarantee continued inclusion if removed, potentially leading to additional charges."
+  ],
+  "recommendations": [
+    "Preserve privacy and security certification criteria instead of removing them.",
+    "Retain C-CDA certification criteria to maintain current interoperability and protect vulnerable providers.",
+    "Avoid frequent or abrupt changes to certification and information blocking programs to ensure regulatory stability.",
+    "Collaborate with other HHS agencies to coordinate compliance requirements and provide clear implementation plans."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing these criteria opens the door for developers to charge providers for continued inclusion of these functionalities."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0294",
+  "title": "Comment from Dynamic Health IT, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Dynamic Health IT",
+  "commenter_first": "",
+  "commenter_last": "",
+  "organization": "Dynamic Health IT",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "received_date": "2026-02-27T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "We feel that the proposed changes to the 170.315(b)(1) Transitions of Care (TOC) criterion and removal of the 170.315(b)(2) Clinical information reconciliation and incorporation criterion will be detrimental to healthcare interoperability.  ONC/ASTP mentions FHIR as an alternative but there is no current certification requirement to receive and ingest TOC FHIR data. The current C-CDA Validation Tool is important for ensuring useful, interoperable C-CDAs.  Even with the current (b)(1) requirements, we&rsquo;ve seen many production C-CDAs that couldn&rsquo;t pass the Validation Tool.  Without it, many EHR vendors will either:\n\n- Stop generating C-CDAs entirely, or\n- Generate C-CDAs with errors that prevent them from being ingested.\n\nWithout a replacement requirement for EHRs to support bi-directional FHIR data, this leaves a big gap in healthcare interoperability and the entire TOC process. FHIR Documents are the apparent replacement for the C-CDA and, although there is an HL7 Implementation Guide, there is no associated certification criterion to ensure adoption.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0021",
+  "commenter_name": "Laura Ozak",
+  "organization": "",
+  "posted_date": "2026-01-21T05:00:00Z",
+  "has_text": true,
+  "comment_length": 293986,
+  "org_type": "individual_clinician",
+  "summary": "The commenter, a registered nurse and lawyer, strongly opposes the proposed deregulatory actions that would remove or reduce health IT certification requirements, particularly audit log standards. She argues that such removals would harm patient autonomy and privacy, facilitate fraud, and remove essential protections for patients' control over their personal health information.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_privacy",
+    "patient_safety",
+    "ehi_export",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "170.315(g)(6) C-CDA"
+  ],
+  "key_arguments": [
+    "Removing audit trails and other guardrails will harm patients and violate their rights to control PHI.",
+    "Current standards already make it difficult for patients to access audit trail information; reducing requirements will worsen this.",
+    "Data mining and manipulation of PHI for billing purposes is rampant and needs oversight.",
+    "Removing protections without superior replacements will encourage fraud and victimization of patients."
+  ],
+  "recommendations": [
+    "HHS should pause deregulatory actions until a superior framework is in place to protect patients.",
+    "Maintain existing audit log and data export requirements to preserve patient autonomy and data integrity."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing existing guardrails without a superior process in place will be devastating."
+}

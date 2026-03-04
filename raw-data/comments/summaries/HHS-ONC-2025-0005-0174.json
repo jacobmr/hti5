@@ -1,0 +1,34 @@
+{
+  "id": "HHS-ONC-2025-0005-0174",
+  "commenter_name": "USAging",
+  "organization": "USAging",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 5631,
+  "org_type": "advocacy_group",
+  "summary": "USAging supports the overall deregulatory intent of the HTI-5 proposed rule but strongly opposes removing certification requirements for Direct Project protocols. They emphasize that Direct Secure Messaging is critical for secure health information exchange between health care and community-based organizations, especially for older adults and people with disabilities.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "direct_secure_messaging",
+    "burden_reduction",
+    "community_based_organizations",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "170.315(h)(1) Direct Project",
+    "170.315(h)(2) Direct Project, Edge Protocol, and XDR/XDM"
+  ],
+  "key_arguments": [
+    "Direct Secure Messaging is widely adopted and has no scalable alternative today",
+    "Removing certification may jeopardize access to Direct for AAAs and CBOs, increasing manual workflows",
+    "AAAs and CBOs lack federal IT investments and rely on Direct to securely exchange protected health information",
+    "Loss of Direct certification could increase workload and widen the divide between health and social care systems"
+  ],
+  "recommendations": [
+    "Do not remove the Certification Criteria for Direct Project \u00a7 170.315(h)(1)",
+    "Do not remove the Certification Criteria for Direct Project, Edge Protocol, and XDR/XDM \u00a7 170.315(h)(2)"
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing this element may lead to increased workload and widen the divide between health and social care systems."
+}

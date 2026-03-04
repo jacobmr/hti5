@@ -1,0 +1,27 @@
+{
+  "id": "HHS-ONC-2025-0005-0254",
+  "title": "Comment from Veradigm LLC, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Veradigm LLC",
+  "commenter_first": "",
+  "commenter_last": "",
+  "organization": "Veradigm LLC",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "received_date": "2026-02-27T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "On behalf of Veradigm we thank the Office of the National Coordinator for the opportunity to provide comments on the Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing (HTI 5) proposed rule. We appreciate ONC&rsquo;s continued commitment to advancing interoperability, reducing unnecessary regulatory burden, and modernizing the nation&rsquo;s health information infrastructure.\n\nWe welcome the direction outlined in HTI 5, particularly ONC&rsquo;s efforts to streamline certification, promote clarity in the information blocking regulations, and prepare the ecosystem for a more API centered interoperability framework. At the same time, we believe several aspects of the proposed rule warrant further consideration to ensure operational stability, alignment with CMS program requirements, and continued trust and usability for providers, patients, and public health agencies.\n\nTo help frame our detailed comments in the attached pdf, we have summarized below the overarching themes reflected across our feedback:\n\nKey Themes of Our Comments\n\n1.Support for Modernization with Structured, Predictable Transitions\nWe support ONC&rsquo;s direction toward FHIR based interoperability but recommend careful, phased timelines&mdash;particularly where removal of C CDA, Direct, or standards based reporting could create gaps before replacement frameworks are fully implemented and adopted.\n\n2.Avoiding Unintended Burden Through Premature Deregulation\nWhile we appreciate ONC&rsquo;s deregulatory intent, in several areas (e.g., transitions of care, reconciliation, real world testing changes, automated numerator recording), removing requirements without fully operational alternatives may inadvertently increase burden, complexity, or financial risk for developers and providers.\n\n3.Need for Alignment with CMS Programs and Industry Dependencies\nMany certification criteria remain tightly coupled to CMS Promoting Interoperability measures and real world clinical workflows. We encourage ONC to synchronize effective dates, retirement timelines, and expectations across programs to avoid misalignment, conflicting requirements, or operational disruption.\n\n4.Preserving Transparency, Safety, and Trust&mdash;Especially for AI Enabled Tools\nWe support simplification of the Decision Support Intervention (DSI) criterion but highlight the importance of maintaining transparency expectations&mdash;particularly around provenance, accountability, and clinician oversight&mdash;given increasing reliance on predictive and automated technologies.\n\n5.Recognition That Some Proposed Removals Do Not Reduce Practical Burden\nIn areas such as accessibility, demographics, device information, and security controls, the removal of certification criteria does not eliminate underlying legal or operational obligations. Our comments suggest clarity to avoid creating the appearance of burden reduction where real world responsibilities remain unchanged.\n\n6.Support for Removing Low Value or Obsolete Criteria\nWe agree with ONC&rsquo;s efforts to streamline the program by removing outdated, low utilization, or duplicative certification criteria, including SED, certain security requirements, unused public health survey criteria, and fully deprecated definitions.\n\n7.Recommendations for Thoughtful Modernization of &ldquo;Access, Exchange, and Use&rdquo; Definitions\n\nWe support inclusion of automated technologies within these definitions, while recommending that ONC ensure consistency across access, use, and exchange and reinforce safeguards for patient matching, routing, and human in the loop review where clinically appropriate.\n\nWe appreciate ONC&rsquo;s thoughtful approach in developing the HTI 5 proposed rule and remain fully supportive of the agency&rsquo;s long term interoperability vision. We hope our feedback is helpful as ONC works to finalize a rule that promotes both innovation and stability across the health information ecosystem.",
+  "has_attachments": true,
+  "attachments": [
+    {
+      "title": "Veradigm HTI-5 Comments",
+      "filename": "",
+      "url": "https://downloads.regulations.gov/HHS-ONC-2025-0005-0254/attachment_1.pdf",
+      "format": "pdf"
+    }
+  ],
+  "doc_abstract": ""
+}

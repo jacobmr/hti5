@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0148",
+  "commenter_name": "Texas Association of Community Health Centers",
+  "organization": "Texas Association of Community Health Centers",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 23270,
+  "org_type": "professional_association",
+  "summary": "The Texas Association of Community Health Centers supports certain interoperability improvements in the HTI-5 proposed rule but strongly opposes the removal of key privacy and security certification criteria. They emphasize that deregulatory actions should not weaken safeguards critical to safety net providers, who face workforce and financial constraints. They urge ONC to retain audit log requirements and ensure vendor accountability to protect CHCs from security risks and operational burdens.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "audit_log_standards",
+    "data_privacy",
+    "vendor_burden",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.315(d)(1)-(d)(13) privacy and security certification criteria",
+    "\u00a7 170.315(d)(2), (3), and (10) audit log requirements",
+    "Information Blocking regulations \u00a7 170.315(a)(12) Infeasibility Exception",
+    "standardized APIs (FHIR)",
+    "HIPAA Security Rule (45 CFR 164.312(b))"
+  ],
+  "key_arguments": [
+    "Removing privacy and security certification shifts costly and complex compliance burdens to resource-constrained CHCs lacking internal IT expertise.",
+    "Eliminating audit log and MFA requirements increases risk of data breaches, ransomware, and HIPAA noncompliance, exposing CHCs to liability.",
+    "Interoperability improvements like removing write-back restrictions and recognizing AI agents as users will reduce administrative burden and improve care coordination.",
+    "CHCs rely heavily on certified EHR technology to maintain quality and safety; deregulation risks vendors unbundling features into costly add-ons or removing them."
+  ],
+  "recommendations": [
+    "Retain privacy and security certification criteria, especially audit log requirements (\u00a7 170.315(d)(2), (3), and (10)).",
+    "Maintain federal 'floors' for certification to protect CHCs from security flaws and hidden vendor costs.",
+    "Provide sufficient transition time, targeted funding, and clear vendor accountability to support CHCs' operational capacity.",
+    "Support interoperability advances that enable third-party write-back and AI system access to reduce staff burden."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing privacy and security certification criteria would impose undue financial hardship and create significant liability concerns for CHCs."
+}

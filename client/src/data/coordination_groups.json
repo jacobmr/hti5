@@ -1,0 +1,36 @@
+{
+  "groups": [
+    {
+      "id": "attorney_audit_trail",
+      "label": "Legal Professional Network: Audit Trail Preservation",
+      "description": "Legal professionals sharing a common template arguing to preserve ASTM E2147-18 audit trail standards. Campaign coordinated through a patient safety advocacy network. These comments represent organized legal advocacy for patient safety\u2014the strongest organized opposition to audit trail deregulation.",
+      "theme": "audit_log_standards",
+      "stance": "oppose_deregulation",
+      "count": 9,
+      "comment_ids": [
+        "HHS-ONC-2025-0005-0009",
+        "HHS-ONC-2025-0005-0016",
+        "HHS-ONC-2025-0005-0015",
+        "HHS-ONC-2025-0005-0014",
+        "HHS-ONC-2025-0005-0020",
+        "HHS-ONC-2025-0005-0018",
+        "HHS-ONC-2025-0005-0033",
+        "HHS-ONC-2025-0005-0076",
+        "HHS-ONC-2025-0005-0137"
+      ],
+      "fingerprint_phrases": [
+        "ASTM E2147",
+        "ephemeral messaging",
+        "copy-paste and copy forward",
+        "audit trail",
+        "audit record"
+      ],
+      "significance": "Organized legal advocacy for patient safety. Not commercial interest. Strongest organized opposition to audit trail deregulation."
+    }
+  ],
+  "summary": {
+    "total_coordinated": 9,
+    "pct_of_comments": 3.0,
+    "campaigns_identified": 1
+  }
+}

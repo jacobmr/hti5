@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0225",
+  "commenter_name": "The Fenway Institute, Fenway Health",
+  "organization": "The Fenway Institute, Fenway Health",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 9972,
+  "org_type": "academic_research",
+  "summary": "The Fenway Institute strongly opposes the proposed removal of sexual orientation, gender identity, chosen name, pronouns, and sex parameters from USCDI, emphasizing their critical role in providing culturally responsive and clinically competent care for LGBTQI+ patients. They argue that removing these data elements would harm continuity of care, clinical accuracy, and health equity for millions of Americans.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "uscdi_data_classes",
+    "health_equity",
+    "clinical_workflow",
+    "patient_safety"
+  ],
+  "specific_provisions": [
+    "USCDI data class removal related to SOGI, chosen name, pronouns, sex parameters"
+  ],
+  "key_arguments": [
+    "SOGI and related data are essential for culturally responsive, clinically competent care for LGBTQI+ patients.",
+    "Removing these data elements will disrupt continuity of care and undermine clinical accuracy.",
+    "Collecting these data supports population health management and addresses health disparities.",
+    "LGBTQI+ patients face widespread discrimination and health disparities that these data help mitigate."
+  ],
+  "recommendations": [
+    "Reject the proposed removal of SOGI and related fields from USCDI.",
+    "Maintain inclusion of sexual orientation, gender identity, chosen name, pronouns, and sex parameters in health IT standards."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "We urge you to reject these proposed changes that would literally erase LGBTQI+ patients from health IT systems."
+}

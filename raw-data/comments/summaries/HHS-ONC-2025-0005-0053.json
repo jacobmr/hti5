@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0053",
+  "commenter_name": "Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-18T05:00:00Z",
+  "has_text": true,
+  "comment_length": 7212,
+  "org_type": "government_agency",
+  "summary": "The Oregon Health Authority strongly opposes the proposed deregulatory actions in HTI-5, arguing that reducing health IT standards will slow data flow, increase variability, and undermine public health surveillance infrastructure. They emphasize that maintaining strong, enforceable standards is essential for timely, uniform, and reliable public health data exchange.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "public_health_surveillance",
+    "data_standardization",
+    "burden_shift",
+    "infrastructure_modernization"
+  ],
+  "specific_provisions": [
+    "removal of public health standards and certification requirements",
+    "elimination of Laboratory Order Interface and Laboratory Results Interface standards",
+    "withdrawal of Health IT certification for public health systems"
+  ],
+  "key_arguments": [
+    "Removing standards increases variability and slows data flow, delaying outbreak detection and response.",
+    "Non-standard data requires public health agencies to spend limited resources on data normalization instead of innovation.",
+    "Lack of uniform data undermines national comparability and weakens coordinated public health response.",
+    "Fragmented data ecosystems threaten the sustainability of public health surveillance infrastructure, especially in under-resourced jurisdictions."
+  ],
+  "recommendations": [
+    "Reinstate withdrawn public health standards and certification requirements.",
+    "Preserve strong, enforceable interoperability expectations to ensure timely, uniform, and reliable data exchange.",
+    "Avoid deregulatory actions that reduce standardization and increase fragmentation."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Reducing standardization slows the flow of usable data, increases inconsistencies, and degrades public health response."
+}

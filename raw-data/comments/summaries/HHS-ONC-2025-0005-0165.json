@@ -1,0 +1,44 @@
+{
+  "id": "HHS-ONC-2025-0005-0165",
+  "commenter_name": "UnitedHealth Group",
+  "organization": "UnitedHealth Group",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8251,
+  "org_type": "payer",
+  "summary": "UnitedHealth Group supports streamlining health IT certification to reduce developer burden and promote interoperability but opposes removal of key certification criteria such as implantable device lists, C-CDA creation, SMART app launch patient selection, all data request capabilities, and Direct Project messaging. They emphasize the importance of these criteria for clinical decision-making, care coordination, and data exchange until newer standards like FHIR are fully mature and widely adopted.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "interoperability",
+    "ccda_removal",
+    "uscdi_data_classes",
+    "clinical_workflow",
+    "burden_reduction",
+    "fhir_standards"
+  ],
+  "specific_provisions": [
+    "45 CFR 170.315(b)(11) Decision Support Intervention",
+    "45 CFR 170.315(a)(14) Implantable Device List",
+    "45 CFR 170.315(g)(6) Consolidated CDA Creation Performance",
+    "45 CFR 170.315(g)(7) Application Access \u2013 Patient Selection",
+    "45 CFR 170.315(g)(9) Application Access \u2013 All Data Request",
+    "45 CFR 170.315(h)(1) Direct Project",
+    "45 CFR 170.315(h)(2) Direct Project, Edge Protocol and XDR/XDM"
+  ],
+  "key_arguments": [
+    "DSI criteria revisions are supported as they streamline requirements while maintaining clinical decision support.",
+    "Removing implantable device list criteria is premature as access to UDIs is critical for clinical decisions.",
+    "C-CDA creation criteria should be retained until FHIR standards are finalized and widely adopted.",
+    "Removing patient selection and all data request criteria risks non-standard implementations and harms interoperability.",
+    "Direct messaging capabilities remain essential for critical data flows and should not be deregulated."
+  ],
+  "recommendations": [
+    "Retain implantable device list certification criteria to ensure access to UDIs.",
+    "Pause removal of C-CDA creation performance criteria until FHIR standards mature.",
+    "Retain application access patient selection criteria to support SMART app launch interoperability.",
+    "Retain application access all data request criteria to ensure comprehensive data exchange.",
+    "Retain Direct Project messaging certification criteria to preserve critical data exchange capabilities."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "It is premature at this time to remove the ability to exchange, record, and access UDIs from the required criteria."
+}

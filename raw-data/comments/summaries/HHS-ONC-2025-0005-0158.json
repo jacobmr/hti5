@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0158",
+  "commenter_name": "American Immunization Registry Association",
+  "organization": "American Immunization Registry Association",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 20377,
+  "org_type": "professional_association",
+  "summary": "The American Immunization Registry Association (AIRA) expresses concerns about removing interoperability and reporting requirements, emphasizing the need to maintain existing standards like HL7 V2 and CDA during the transition to FHIR. They urge retention of security and public health reporting requirements to ensure data protection and effective public health surveillance.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "fhir_standards",
+    "data_privacy",
+    "public_health_reporting",
+    "security_requirements"
+  ],
+  "specific_provisions": [
+    "Insights Conditions related to IIS and EHR interoperability",
+    "Certification Criteria for Health IT (security and authentication)",
+    "\u00a7 171.102 Information Blocking definitions (including autonomous AI systems)",
+    "Cancer Registries reporting requirements",
+    "Removal of C-CDA creation certification criterion"
+  ],
+  "key_arguments": [
+    "Maintaining existing messaging standards (HL7 V2, CDA) is critical due to low FHIR adoption and implementation challenges.",
+    "Removing Insights Conditions will reduce transparency and interoperability between IIS and EHRs, harming clinical care and public health.",
+    "Security and privacy protections must be retained to protect patient data from unauthorized access.",
+    "Removing cancer registry reporting requirements without supporting FHIR implementation risks undermining critical public health surveillance."
+  ],
+  "recommendations": [
+    "Retain and enforce existing Insights Conditions related to public health interoperability.",
+    "Maintain current security and authentication certification requirements until better privacy/security standards are developed.",
+    "Clarify Information Blocking definitions to ensure only authorized autonomous AI systems can access data.",
+    "Retain cancer registry reporting certification requirements until FHIR-based reporting is fully implemented and standardized."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "We recommend the retention and enforcement of the existing Insights Conditions related to public health interoperability."
+}

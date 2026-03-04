@@ -1,0 +1,29 @@
+{
+  "id": "HHS-ONC-2025-0005-0126",
+  "commenter_name": "Megan Frantz Oldham",
+  "organization": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 776,
+  "org_type": "other",
+  "summary": "The commenter, an attorney working with electronic medical records, expresses concern that the proposed deregulatory changes in HTI-5 could hinder efforts to uncover the truth in medical record investigations. She urges ONC to pause the rule and ensure protections for the integrity of patient medical records.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "ehi_export"
+  ],
+  "specific_provisions": ["170.315(d)(2) audit logs", "EHI export"],
+  "key_arguments": [
+    "Current rules already make it difficult to obtain truthful medical record information.",
+    "Medical records are sometimes altered or deleted to prevent patients or families from learning the truth.",
+    "Deregulatory actions could worsen the ability to preserve and verify medical record integrity."
+  ],
+  "recommendations": [
+    "Pause the HTI-5 rulemaking process.",
+    "Ensure proper steps, protocols, and enforcement mechanisms are in place to protect medical record integrity."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Medical records are already not being preserved or are being changed and deleted."
+}

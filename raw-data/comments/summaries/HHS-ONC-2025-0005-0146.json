@@ -1,0 +1,57 @@
+{
+  "id": "HHS-ONC-2025-0005-0146",
+  "commenter_name": "National Association of ACOs (NAACOS)",
+  "organization": "National Association of ACOs (NAACOS)",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16264,
+  "org_type": "professional_association",
+  "summary": "NAACOS supports streamlining health IT certification to reduce burden but urges caution to avoid unintended consequences for providers. They recommend delaying removal of criteria tied to CMS mandates until 2028, enhancing post-certification oversight, improving transparency, and involving ACOs in future certification design.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "post_certification_oversight",
+    "cms_alignment",
+    "transparency"
+  ],
+  "specific_provisions": [
+    "MIPS Promoting Interoperability (PI) related criteria",
+    "Clinical Decision Support",
+    "Family Health History",
+    "Implantable Device List",
+    "Transitions of Care",
+    "Clinical Information Reconciliation and Incorporation",
+    "Security Tags",
+    "Care Plan",
+    "Patient Health Information Capture",
+    "Clinical Quality Measures",
+    "Privacy and Security",
+    "Audit Reports",
+    "End-user Device Encryption",
+    "Integrity",
+    "Multi-factor Authentication",
+    "Patient Engagement (View, Download, Transmit)",
+    "Quality Management System",
+    "Application Access",
+    "Direct Project, Edge Protocol, XDR/XDM",
+    "AI model card transparency requirement",
+    "Insights Condition and Maintenance of Certification"
+  ],
+  "key_arguments": [
+    "Rapid deregulation risks undermining providers' ability to meet CMS program requirements and may increase costs.",
+    "Market prevalence of capabilities does not guarantee continued vendor support once certification criteria are removed.",
+    "Lack of transparency and oversight could exacerbate interoperability challenges and burden especially for small providers.",
+    "Alignment between ASTP certification criteria and CMS mandates is critical to avoid provider penalties."
+  ],
+  "recommendations": [
+    "Delay removal or revision of certification criteria tied to CMS mandates until at least 2028.",
+    "Enhance post-certification oversight via random surveillance and developer attestations.",
+    "Monitor whether cost savings benefit providers and not just IT developers.",
+    "Increase transparency by requiring vendors to provide plain language explanations of product compliance and costs on CHPL.",
+    "Retain AI model card transparency and Insights Condition and Maintenance of Certification requirements.",
+    "Leverage ACOs to help design future certification requirements."
+  ],
+  "sentiment_score": -1,
+  "notable_quote": "We are concerned that deregulation may have unintended consequences and potential downstream financial impact on providers."
+}

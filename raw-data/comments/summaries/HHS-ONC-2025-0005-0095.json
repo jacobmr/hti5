@@ -1,0 +1,31 @@
+{
+  "id": "HHS-ONC-2025-0005-0095",
+  "commenter_name": "Oncology Nursing Society",
+  "organization": "Oncology Nursing Society",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3838,
+  "org_type": "professional_association",
+  "summary": "The Oncology Nursing Society supports removing the 'Transmission to Cancer Registries' certification criterion to reduce burden, recognizing ongoing modernization efforts toward FHIR-based reporting. However, they urge delaying removal until cancer registries can practically receive electronic data to avoid disrupting cancer surveillance.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "burden_reduction",
+    "fhir_standards",
+    "public_health_reporting",
+    "interoperability"
+  ],
+  "specific_provisions": ["170.315(f)(4) Transmission to Cancer Registries"],
+  "key_arguments": [
+    "The current CDA-based criterion is duplicative as cancer registry reporting evolves toward FHIR.",
+    "Cancer case reporting remains mandated by state laws, so removal won't affect legal obligations.",
+    "Removing the criterion prematurely risks shifting burden to manual processes and harms data timeliness and completeness.",
+    "Modernized cancer registry reporting initiatives (e.g., USCDI+ Cancer) are underway but not yet fully ready."
+  ],
+  "recommendations": [
+    "Delay removal of the Transmission to Cancer Registries certification criterion until central cancer registries demonstrate readiness for modernized electronic reporting.",
+    "Ensure removal does not disrupt cancer surveillance data collection."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "ONS urges ASTP/ONC to delay removal until registries demonstrate readiness to support modernized electronic reporting."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0144",
+  "commenter_name": "National Rural Health Association",
+  "organization": "National Rural Health Association",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 18595,
+  "org_type": "professional_association",
+  "summary": "The National Rural Health Association expresses concern that the HTI-5 proposed deregulatory actions may disproportionately harm rural health providers due to their limited resources, infrastructure, and cybersecurity capacity. They urge ONC to carefully evaluate the impact on rural hospitals before removing certification criteria that serve as essential safeguards.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "cybersecurity",
+    "health_equity",
+    "interoperability",
+    "certification_criteria",
+    "rural_health_challenges"
+  ],
+  "specific_provisions": [
+    "170.315(b)(11) Decision Support Interventions",
+    "USCDI v3",
+    "Certified Electronic Health Record Technology (CEHRT)",
+    "audit log requirements",
+    "security, integrity, authentication, auditing criteria"
+  ],
+  "key_arguments": [
+    "High certified EHR adoption rates do not reflect rural providers' limited operational and cybersecurity capacity.",
+    "Removing certification criteria risks weakening baseline protections critical for rural hospitals with constrained resources.",
+    "Rural providers face persistent digital divides, including limited broadband and workforce shortages, impairing interoperability and security.",
+    "HTI-5 deregulatory actions may widen disparities between urban and rural health systems and threaten rural health infrastructure sustainability."
+  ],
+  "recommendations": [
+    "Conduct and publish a rural-stratified impact analysis before finalizing removals of certification criteria.",
+    "Maintain certification guardrails that serve as minimum enforceable floors for cybersecurity and interoperability in rural settings.",
+    "Consider the cumulative impact of deregulatory changes on rural cybersecurity posture and vendor accountability.",
+    "Ensure federal alignment supports state rural health transformation initiatives dependent on stable certification frameworks."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Certification standards are not redundant administrative requirements; they often serve as the minimum enforceable floor ensuring basic protections."
+}

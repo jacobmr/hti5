@@ -1,0 +1,27 @@
+{
+  "id": "HHS-ONC-2025-0005-0216",
+  "title": "Comment from Morrow, Caroline, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Caroline Morrow",
+  "commenter_first": "Caroline",
+  "commenter_last": "Morrow",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "received_date": "2026-02-27T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "I am an independent healthcare technology consultant with professional experience in quality improvement, healthcare operations, and clinical technology implementation, and a member of the American Physical Therapy Association (APTA) AI Taskforce. My attached comment, which are of my own opinion based on my expertise, addresses the proposed removal of Decision Support Intervention source attributes (&sect;170.315(b)(11)(iv)-(v)), Intervention Risk Management requirements (&sect;170.315(b)(11)(vi)), and privacy/security certification criteria (&sect;170.315(d)(2), (d)(3), (d)(10)).\n\nI respectfully oppose full removal of these requirements and instead propose retaining a streamlined minimum viable transparency framework covering: core identity and intended use; training data representativeness and fairness processes; quantitative performance baselines (including AUROC, sensitivity/specificity, and threshold rationale); ongoing maintenance and drift monitoring documentation; risk management; and a new local adaptation addendum for health systems that fine-tune or retrain certified models. This compromise would reduce developer burden while preserving the documentation infrastructure that health systems need for responsible deployment, fairness evaluation, root cause analysis, and continuous quality improvement of clinical AI. The detailed comment with specific regulatory text references and compromise proposal is attached.",
+  "has_attachments": true,
+  "attachments": [
+    {
+      "title": "HTI5_Comment_DSI_Model_Card",
+      "filename": "",
+      "url": "https://downloads.regulations.gov/HHS-ONC-2025-0005-0216/attachment_1.pdf",
+      "format": "pdf"
+    }
+  ],
+  "doc_abstract": ""
+}

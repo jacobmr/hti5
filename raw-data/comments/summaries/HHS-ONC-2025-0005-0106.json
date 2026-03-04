@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0106",
+  "commenter_name": "American Health Information Management Association (AHIMA)",
+  "organization": "American Health Information Management Association (AHIMA)",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 30203,
+  "org_type": "professional_association",
+  "summary": "AHIMA supports some deregulatory efforts in HTI-5 but strongly cautions against removing key certification criteria such as C-CDA, patient matching, decision support interventions, and privacy/security requirements. They emphasize the risk to nationwide interoperability, patient safety, and data privacy if these provisions are removed prematurely.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "patient_safety",
+    "interoperability",
+    "data_privacy",
+    "ai_regulation"
+  ],
+  "specific_provisions": [
+    "45 CFR \u00a7 170.315(b)(1)(iii) Transitions of Care - create (C-CDA)",
+    "45 CFR \u00a7 170.315(b)(11) Decision Support Interventions",
+    "45 CFR \u00a7 170.315(d) Privacy and Security Certification Criteria",
+    "45 CFR \u00a7 170.550(h) Privacy and Security Certification Framework"
+  ],
+  "key_arguments": [
+    "Removing C-CDA certification criteria risks disrupting nationwide interoperability and limits data exchange for under-resourced providers.",
+    "Eliminating patient matching requirements jeopardizes patient safety by increasing misidentification risks.",
+    "Removing the Decision Support Interventions criterion reduces transparency and trust in AI/DSI tools, hindering innovation adoption.",
+    "Dropping privacy and security certification criteria exposes sensitive patient data amid rising cyber threats and increases burden on providers."
+  ],
+  "recommendations": [
+    "Retain C-CDA certification criteria until FHIR is fully developed, tested, and widely adopted.",
+    "Maintain patient matching requirements or adopt provisions from HR 2002 and the MATCH IT Act to improve patient matching standards.",
+    "Preserve the Decision Support Interventions criterion and explore ways to improve it rather than removing it.",
+    "Do not remove privacy and security certification criteria; seek alternative reforms through future rulemaking."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing C-CDA functionality without understanding readiness jeopardizes ongoing nationwide interoperability."
+}

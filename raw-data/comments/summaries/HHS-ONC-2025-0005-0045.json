@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0045",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-13T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1197,
+  "org_type": "other",
+  "summary": "The commenter urges that all first tier, downstream, and related entities (FDR) be required to implement the latest Da Vinci, CARIN Alliance, and Gravity Project FHIR Implementation Guides (IGs) to ensure comprehensive interoperability and data exchange.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "data_exchange",
+    "regulatory_requirements"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "FDR entities should adopt the latest FHIR IGs to support standardized data exchange.",
+    "Use of Da Vinci, CARIN Alliance, and Gravity Project IGs is essential for interoperability.",
+    "Mandating these IGs will improve data sharing across healthcare stakeholders."
+  ],
+  "recommendations": [
+    "Require FDR entities to use all latest Da Vinci FHIR IGs listed.",
+    "Require FDR entities to use all latest CARIN Alliance FHIR IGs listed.",
+    "Require FDR entities to use all latest Gravity Project FHIR IGs, including SDOH Clinical Care IG."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "FDR shall be required to use all of the latest Da Vinci, CARIN Alliance, and Gravity Project FHIR IGs."
+}

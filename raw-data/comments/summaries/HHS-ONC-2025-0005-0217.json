@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0217",
+  "commenter_name": "CareQuest Institute for Oral Health",
+  "organization": "CareQuest Institute for Oral Health",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8173,
+  "org_type": "advocacy_group",
+  "summary": "CareQuest Institute for Oral Health opposes the removal of C-CDA generation and related certification criteria, citing risks to medical-dental interoperability, patient safety, and increased administrative burden. They urge ONC to maintain these requirements until the dental sector can fully adopt FHIR-based interoperability and AI governance standards.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "interoperability",
+    "patient_safety",
+    "ai_regulation",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "170.315(b)(1) C-CDA generation for transitions of care",
+    "170.315(b)(2) Clinical Information Reconciliation and Incorporation",
+    "170.315(b)(9) Care Plan",
+    "170.315(b)(11) Decision Support transparency and risk management"
+  ],
+  "key_arguments": [
+    "Eliminating C-CDA generation risks creating interoperability gaps between medical and dental providers, isolating dental care in legacy silos.",
+    "Removal of structured clinical summaries threatens patient safety by obscuring critical clinical context needed for safe dental treatment.",
+    "Eliminating reconciliation and care plan requirements increases administrative burden and fragments care coordination.",
+    "Rolling back AI decision support transparency and risk management reduces clinical trust and increases patient safety risks."
+  ],
+  "recommendations": [
+    "Maintain C-CDA generation certification requirement (\u00a7 170.315(b)(1)) at least during a transition period.",
+    "Retain Clinical Information Reconciliation and Incorporation (\u00a7 170.315(b)(2)) and Care Plan (\u00a7 170.315(b)(9)) certification criteria.",
+    "Preserve Decision Support transparency and risk management requirements (\u00a7 170.315(b)(11)).",
+    "Consider the unique needs and readiness of the oral health sector in interoperability policy decisions."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Eliminating the requirement for certified medical EHRs to generate C-CDAs... will further isolate dental providers in a 'legacy silo.'"
+}

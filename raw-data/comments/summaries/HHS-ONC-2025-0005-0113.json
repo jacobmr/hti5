@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0113",
+  "commenter_name": "Myriddian LLC",
+  "organization": "Myriddian LLC",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1711,
+  "org_type": "health_it_company",
+  "summary": "Myriddian LLC cautions against removing the current cancer reporting certification criteria before FHIR resources are fully validated and widely adopted. They emphasize that premature removal could disrupt cancer surveillance workflows and negatively impact data timeliness and accuracy.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "clinical_workflow",
+    "patient_safety",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "170.315(f)(4) certification criterion transmission to cancer registries"
+  ],
+  "key_arguments": [
+    "Current FHIR resources for cancer reporting lack sufficient validation and real-world testing.",
+    "Removing established certification criteria prematurely would disrupt cancer surveillance workflows.",
+    "Disruptions would impair continuity, completeness, and timeliness of cancer case reporting.",
+    "Timely and accurate cancer data is essential for monitoring trends, disparities, research, and policy."
+  ],
+  "recommendations": [
+    "Maintain existing certification criteria for cancer reporting until FHIR resources are broadly tested and stable.",
+    "Ensure sufficient adoption across vendors and healthcare systems before deregulating."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing certification criteria before FHIR readiness would significantly disrupt cancer surveillance workflows."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0039",
+  "commenter_name": "John Travis",
+  "organization": "",
+  "posted_date": "2026-02-04T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16865,
+  "org_type": "other",
+  "summary": "The commenter generally supports the deregulatory intent of HTI-5 to reduce burdens on HIT developers, especially new entrants, but urges retention or moderation of certain certification criteria to maintain quality, transparency, and security. He expresses concerns about removing AI transparency requirements, security criteria, and design/performance standards, and recommends clearer timing and consideration for specialty EHR developers.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "fhir_standards",
+    "ai_regulation",
+    "security_criteria",
+    "design_and_performance_standards"
+  ],
+  "specific_provisions": [
+    "170.315(b)(11) Decision Support Interventions",
+    "170.315(d) Privacy and Security Certification Criteria",
+    "170.315(d)(2), (d)(3), (d)(10) audit criteria",
+    "170.315(g)(3)-(5) Safety-Enhanced Design (SED), Quality Management System (QMS), Accessibility-Centered Design",
+    "Direct Project transport standards"
+  ],
+  "key_arguments": [
+    "Removing AI source attribute and risk management requirements reduces transparency and buyer information, risking premature deregulation of healthcare AI.",
+    "Security certification criteria remain important as new HIT developers may not be subject to HIPAA, so a minimum cybersecurity bar is needed.",
+    "Removing design and performance criteria risks an unlevel playing field and lowers developer accountability, especially for new entrants.",
+    "The proposed two compliance dates create confusion and little practical transition time; a single effective date or enforcement discretion is preferable."
+  ],
+  "recommendations": [
+    "Retain AI transparency and risk management requirements in 170.315(b)(11) until market self-regulation matures.",
+    "Maintain security certification criteria, especially audit-related ones, to ensure minimum cybersecurity standards.",
+    "Retain QMS and Accessibility-Centered Design requirements; consider moderating but not removing SED testing.",
+    "Postpone removal of Direct Project transport criteria until FHIR-based interoperability is more fully established.",
+    "Simplify compliance timing by adopting a single effective date or applying enforcement discretion immediately.",
+    "Consider provisions for specialty EHR developers to avoid monolithic certification requirements."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Certification has been taken as an assurance to buyers and users that good development practices are in place."
+}

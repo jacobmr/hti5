@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0231",
+  "commenter_name": "New Jersey Primary Care Association",
+  "organization": "New Jersey Primary Care Association",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 22188,
+  "org_type": "health_system",
+  "summary": "The New Jersey Primary Care Association supports certain interoperability improvements in the HTI-5 proposed rule but strongly opposes the removal of key privacy and security certification criteria. They emphasize that deregulatory actions should not weaken safety net providers' protections, given their limited resources and workforce constraints. They urge retention of audit log requirements and caution against shifting security burdens to resource-limited health centers.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "data_privacy",
+    "audit_log_standards",
+    "health_equity",
+    "vendor_burden"
+  ],
+  "specific_provisions": [
+    "170.315(d)(1)-(d)(13) privacy and security certification criteria",
+    "170.315(d)(2), (3), and (10) audit log requirements",
+    "Information Blocking regulations \u00a7 170.315(a)(12)",
+    "Standardized APIs (FHIR)",
+    "Access definition including autonomous AI systems"
+  ],
+  "key_arguments": [
+    "Removing privacy and security certification shifts costly and complex burdens to CHCs lacking resources and expertise.",
+    "Eliminating audit log and MFA requirements increases risk of data breaches and cybersecurity attacks.",
+    "Interoperability improvements like removing write-back restrictions and recognizing AI agents as users will reduce administrative burden and improve care coordination.",
+    "CHCs rely heavily on certified EHR technology to maintain quality and safety; deregulation risks unbundling features into costly add-ons or removing them."
+  ],
+  "recommendations": [
+    "Retain audit log certification requirements (\u00a7 170.315(d)(2), (3), and (10)) to detect fraud and abuse.",
+    "Maintain privacy and security certification criteria to ensure vendor software supports HIPAA compliance.",
+    "Provide sufficient transition time, targeted funding, and clear accountability for certified developers.",
+    "Avoid removing federal certification 'floors' that protect safety net providers from security flaws and hidden costs."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing privacy and security certification criteria would impose undue financial hardship and create significant liability concerns for CHCs."
+}

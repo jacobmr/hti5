@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0030",
+  "commenter_name": "Rohan Sharma",
+  "organization": "",
+  "posted_date": "2026-01-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 9560,
+  "org_type": "other",
+  "summary": "The commenter warns that removing privacy and security certification criteria risks creating gaps between legal obligations and technical capabilities, shifting verification burdens unfairly to providers. They also caution against ONC overstepping statutory authority by defining economic terms in Information Blocking rules and recommend retaining key technical baselines and transparency requirements to ensure market efficiency and patient safety.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "audit_log_standards",
+    "data_privacy",
+    "ai_regulation",
+    "information_blocking",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "170.315(d) Privacy and Security",
+    "170.315(b)(11)(iv) Source Attributes",
+    "171.204(a)(3) Third Party Modification",
+    "171.301 Manner Exception",
+    "170.315(g)(3) Safety-Enhanced Design",
+    "171.403 TEFCA Manner Exception"
+  ],
+  "key_arguments": [
+    "Removing privacy and security certification shifts costly verification from developers to providers who lack technical capacity.",
+    "Defining 'market rate' and 'contract of adhesion' exceeds ONC's statutory authority and risks judicial invalidation.",
+    "Removing AI transparency requirements increases information asymmetry, harming clinical safety and market function.",
+    "Unfettered third-party write access without data integrity safeguards risks clinical safety."
+  ],
+  "recommendations": [
+    "Retain baseline privacy and security criteria (authentication, auditable events, credential encryption) as binary presence checks.",
+    "Keep AI source attribute transparency as a 'nutrition label' while reducing governance burdens.",
+    "Add a 'Data Integrity & Validation' condition to the Infeasibility Exception allowing rejection of invalid third-party writes.",
+    "Strike definitions of 'market rate' and 'contract of adhesion' and replace with non-discrimination language consistent with the Cures Act.",
+    "Use post-market user feedback to monitor usability instead of pre-market Safety-Enhanced Design documentation."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Removing the legal requirement for a feature does not remove the market necessity or downstream legal reliance."
+}

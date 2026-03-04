@@ -1,0 +1,47 @@
+{
+  "id": "HHS-ONC-2025-0005-0214",
+  "commenter_name": "Ethan Larsen",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4070,
+  "org_type": "other",
+  "summary": "The commenter appreciates ONC/ASTP's efforts to modernize health IT and reduce burden but strongly cautions against removing key certification criteria that ensure patient safety. They emphasize that these criteria address critical safety risks and recommend maintaining or optimizing them rather than eliminating them.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "audit_log_standards",
+    "clinical_workflow",
+    "quality_management",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "170.315(b)(11) Decision Support Interventions",
+    "170.315(g)(3) Safety-Enhanced Design",
+    "170.315(b)(2) Clinical Information Reconciliation and Incorporation",
+    "170.315(d)(2) Auditable Events and Tamper-Resistance",
+    "170.315(d)(1) Authentication, Access Control, and Authorization",
+    "170.315(g)(4) Quality Management System",
+    "170.315(d)(10) Auditing Actions on Health Information",
+    "170.315(b)(1) Transitions of Care",
+    "170.315(d)(13) Multi-Factor Authentication",
+    "170.315(a)(9) Clinical Decision Support",
+    "170.315(d)(3) Audit Reports",
+    "170.315(d)(5) Automatic Access Time-Out",
+    "170.315(d)(8) Integrity"
+  ],
+  "key_arguments": [
+    "Health IT certification criteria serve as a critical national safety floor to mitigate known patient safety risks.",
+    "Removing these criteria would weaken safety assurances and reduce accountability in health IT systems.",
+    "The criteria address core safety domains including usability, auditability, authentication, and quality management.",
+    "Optimization of criteria is preferable to elimination, ensuring alignment with evolving technologies without losing safeguards."
+  ],
+  "recommendations": [
+    "Maintain the identified patient safety-related certification criteria in their current form.",
+    "Optimize and modernize criteria as needed to align with new technologies and care models.",
+    "Streamline testing, harmonize with existing standards, or clarify requirements rather than removing criteria.",
+    "Preserve core safety-focused criteria to ensure innovation does not come at the expense of patient safety."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing these protections would weaken the certification program\u2019s role as a safety assurance mechanism."
+}

@@ -1,0 +1,45 @@
+{
+  "total_comments": 305,
+  "comments_with_text": 305,
+  "position_distribution": {
+    "strongly_support_deregulation": 3,
+    "oppose_deregulation": 39,
+    "strongly_oppose_deregulation": 91,
+    "neutral_mixed": 74,
+    "support_deregulation": 68,
+    "unclear": 30
+  },
+  "org_type_distribution": {
+    "other": 77,
+    "professional_association": 54,
+    "health_it_company": 44,
+    "unknown": 31,
+    "advocacy_group": 30,
+    "health_system": 24,
+    "individual_clinician": 20,
+    "government_agency": 7,
+    "academic_research": 6,
+    "payer": 5,
+    "ehr_vendor": 3,
+    "patient_advocate": 1,
+    "pharmacy": 1,
+    "lab": 1,
+    "patient_safety_experts": 1
+  },
+  "top_themes": {
+    "patient_safety": 245,
+    "burden_reduction": 224,
+    "ai_regulation": 112,
+    "data_privacy": 108,
+    "audit_log_standards": 81,
+    "clinical_data_completeness": 73,
+    "information_blocking": 70,
+    "fhir_interoperability": 57,
+    "ccda_cda_removal": 31,
+    "uscdi_data_standards": 13,
+    "ehi_export": 3
+  },
+  "avg_sentiment": -1.0926829268292684,
+  "patient_safety_orgs": 9,
+  "comments_with_attachments": 217
+}

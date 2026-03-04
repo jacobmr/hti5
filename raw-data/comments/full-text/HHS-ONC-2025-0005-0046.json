@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0046",
+  "title": "Comment from Rocha, David, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "David Rocha",
+  "commenter_first": "David",
+  "commenter_last": "Rocha",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-17T05:00:00Z",
+  "received_date": "2026-02-14T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "Future consideration should be given to adopt more FHIR IGs into future rulemaking, including:\n&bull;HL7 Laboratory Reporting FHIR IG\n&bull;Medicolegal Death Investigation FHIR IG\n&bull;Physical Activity FHIR IG\n&bull;Structured Data Capture FHIR IG\n&bull;Genomics Reporting FHIR IG\n\nHL7 Laboratory Report FHIR IG\nhttps://build.fhir.org/ig/HL7/uv-lab-rep-ig/\nMedicolegal Death Investigation FHIR IG\nhttps://hl7.org/fhir/us/mdi/\nthis will be helpful for FHIR-ized death certificates\nUS Physical Activity IG \nhttps://build.fhir.org/ig/HL7/physical-activity/\nStructured Data Capture FHIR IG\nhttps://hl7.org/fhir/uv/sdc/\nGenomics Reporting FHIR IG \nhttps://hl7.org/fhir/uv/genomics-reporting/",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

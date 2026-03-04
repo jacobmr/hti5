@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0141",
+  "commenter_name": "AARP",
+  "organization": "AARP",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 12140,
+  "org_type": "advocacy_group",
+  "summary": "AARP appreciates efforts to reduce information blocking and supports technology improving patient outcomes but strongly opposes removing or weakening certification criteria, especially those related to privacy, security, consumer-facing features, and AI transparency. They argue that removing these criteria risks lowering standards, reducing trust, and harming vulnerable populations like older adults.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "data_privacy",
+    "certification_criteria_removal",
+    "ai_regulation",
+    "consumer_protection",
+    "patient_engagement"
+  ],
+  "specific_provisions": [
+    "removal of 34 and revision of 7 certification criteria",
+    "removal of all 14 privacy and security criteria",
+    "revision of patient demographics and observations criterion",
+    "removal of family health history criterion",
+    "removal of patient health information capture criterion",
+    "removal of AI model card transparency and source-attribute requirements",
+    "removal of auditable events and tamper resistance criteria"
+  ],
+  "key_arguments": [
+    "Certification criteria serve as a baseline floor to ensure minimum standards and protect consumers; removing them risks regression to lower standards.",
+    "HIPAA alone is insufficient to ensure technology security; certification criteria provide necessary federal guardrails on health IT developers and products.",
+    "Removing AI transparency requirements could erode trust and limit adoption of AI-enabled decision support tools.",
+    "Assuming developers will maintain features without certification requirements is flawed; removing criteria signals these features are no longer important."
+  ],
+  "recommendations": [
+    "Retain existing certification criteria related to privacy, security, patient demographics, family health history, patient health information capture, and AI transparency.",
+    "Consider revising certification processes to reduce burden through attestation rather than removing requirements.",
+    "Maintain auditable events, tamper resistance, and audit report criteria to ensure security.",
+    "Ensure standards maximize access and quality for all people, especially vulnerable populations like older adults."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing or lessening any criteria indicates that it is no longer important and should not be required."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0226",
+  "commenter_name": "Health IT End-Users Alliance",
+  "organization": "Health IT End-Users Alliance",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10345,
+  "org_type": "advocacy_group",
+  "summary": "The Health IT End-Users Alliance supports the intent to reduce regulatory burden but expresses concern that proposed deregulatory actions will increase burdens on end-users by shifting compliance costs and reducing technology quality. They urge ONC to retain real-world testing and decision support intervention transparency requirements to ensure technology meets clinical needs and supports AI trust and safety.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "real_world_testing",
+    "ai_regulation",
+    "dsi_transparency",
+    "information_blocking"
+  ],
+  "specific_provisions": [
+    "Condition and Maintenance of Certification Real World Testing requirement",
+    "Decision Support Intervention (DSI) transparency requirements",
+    "Information blocking exceptions"
+  ],
+  "key_arguments": [
+    "Removing real-world testing will lead to poorly designed technology, increased workarounds, and wasted resources.",
+    "Eliminating DSI transparency removes critical AI oversight, undermining trust and end-user ability to make informed decisions.",
+    "End-users face ongoing exclusion from development processes, increasing implementation burdens and costs.",
+    "Frequent changes to information blocking rules create compliance challenges and unpredictability for end-users."
+  ],
+  "recommendations": [
+    "Retain and strengthen real-world testing requirements in the Certification Program.",
+    "Preserve DSI transparency criteria or develop an alternative AI transparency framework with end-user input.",
+    "Ensure information blocking exceptions are carefully reviewed to prevent misuse but avoid frequent changes post-finalization.",
+    "Engage end-users earlier in policy and technology development to reduce burdens and improve outcomes."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "We urge ASTP/ONC to refrain from removing the real-world testing requirement from the Certification Program."
+}

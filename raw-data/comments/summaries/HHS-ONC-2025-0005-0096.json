@@ -1,0 +1,34 @@
+{
+  "id": "HHS-ONC-2025-0005-0096",
+  "commenter_name": "College of American Pathologists (CAP)",
+  "organization": "College of American Pathologists (CAP)",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8063,
+  "org_type": "professional_association",
+  "summary": "The College of American Pathologists supports the overall goals of the HTI-5 proposed rule to reduce burden and promote interoperability but raises concerns about removing AI transparency requirements and the immediate release of pathology results to patients without clinician context. They emphasize patient safety and trust in AI, and urge exceptions to information blocking rules to allow clinician review before releasing complex lab results.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ai_regulation",
+    "information_blocking",
+    "patient_safety",
+    "clinical_workflow",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.315(b)(11)(iv), (v), and (vi) - Decision Support Interventions",
+    "Information Blocking Rule"
+  ],
+  "key_arguments": [
+    "Maintaining AI transparency requirements is essential for pathologists to assess AI tools, ensure patient safety, and build trust.",
+    "Removing these AI informational requirements risks increased waste, fraud, and abuse in healthcare.",
+    "Immediate release of pathology and lab results without clinician interpretation can cause patient confusion, distress, and hinder care coordination.",
+    "A blanket exception to the Information Blocking Rule is needed to allow clinician review and contextualization before releasing complex test results."
+  ],
+  "recommendations": [
+    "Retain the informational requirements for AI decision support interventions in the Health IT Certification Program.",
+    "Establish a blanket exception to the Information Blocking Rule for pathology and laboratory results to allow clinician review prior to patient release."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "The CAP urges a blanket exception to allow clinicians to provide medical context before releasing pathology results."
+}

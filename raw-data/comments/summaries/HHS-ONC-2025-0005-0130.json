@@ -1,0 +1,33 @@
+{
+  "id": "HHS-ONC-2025-0005-0130",
+  "commenter_name": "Vega Health",
+  "organization": "Vega Health",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 33022,
+  "org_type": "health_it_company",
+  "summary": "Vega Health supports ASTP/ONC's deregulatory efforts to reduce burdens on health IT innovators, emphasizing the need to address information blocking by incumbents and to prepare for increased FHIR API demands from AI-native companies. They highlight the importance of transparent AI evaluation and urge focus on outcome-based regulation rather than development-based restrictions.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "ai_regulation",
+    "interoperability",
+    "fhir_standards",
+    "information_blocking"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Information blocking by incumbent vendors remains a major barrier to new entrants and innovation.",
+    "Regulatory focus should be on harmful AI outcomes rather than on development processes to avoid stifling innovation.",
+    "Simplifying and aligning health IT security, interoperability, and privacy requirements will foster AI adoption across health systems of all sizes.",
+    "Certified health IT vendors use complex regulations to obstruct lawful data access, disadvantaging competitors and innovation."
+  ],
+  "recommendations": [
+    "ASTP/ONC should establish controls to prevent certified health IT vendors from leveraging market power to block or disadvantage competitors.",
+    "Focus enforcement on unlawful outcomes rather than imposing preemptive developer-facing regulations.",
+    "Support transparent, objective evaluation frameworks for AI solutions in the absence of federally mandated model cards.",
+    "Continue efforts to reduce regulatory, administrative, and artificial barriers that hinder new market entrants."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Vega Health applauds ASTP/ONC\u2019s deliberate efforts to reduce the regulatory, administrative, and artificial barriers that have been erected by large incumbents."
+}

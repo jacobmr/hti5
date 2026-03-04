@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0143",
+  "commenter_name": "Altarum Institute",
+  "organization": "Altarum Institute",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 17052,
+  "org_type": "other",
+  "summary": "Altarum Institute emphasizes the importance of maintaining existing health IT certification standards to ensure data quality, interoperability, and public health responsiveness. They caution against replacing established standards with functional requirements, which could increase complexity and degrade data quality, and recommend a cautious, phased approach to adopting FHIR standards.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "interoperability",
+    "public_health_reporting",
+    "health_it_certification"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.315(f)(4) Transmission to cancer registries",
+    "\u00a7 170.315(f)(5) Electronic case reporting",
+    "privacy and security certification criteria",
+    "removal of C-CDA creation certification criterion",
+    "functional requirements replacing standards"
+  ],
+  "key_arguments": [
+    "Replacing established standards with functional requirements increases downstream integration complexity and risks data quality degradation.",
+    "Removing certification criteria before FHIR standards mature could disrupt critical public health reporting such as cancer registries and electronic case reporting.",
+    "Functional requirements lack the detailed data standardization (e.g., LOINC, SNOMED) necessary for reliable data exchange and public health decision-making.",
+    "The proposed timelines for FHIR adoption are unrealistic given current resource constraints and technology readiness."
+  ],
+  "recommendations": [
+    "Retain existing certification criteria while adding FHIR as an optional pathway to allow choice and gradual adoption.",
+    "Avoid functional requirements that increase complexity and reduce data standardization.",
+    "Retain \u00a7 170.315(f)(4) Transmission to cancer registries criterion until FHIR-based reporting matures.",
+    "Preserve HTI-1 standards-based requirements for electronic case reporting and emphasize FHIR as the required standard by 2029.",
+    "Reconsider the 2027 implementation timeline to allow adequate time for FHIR adoption.",
+    "Maintain privacy and security certification criteria or clearly articulate alternative safeguards."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Stepping back from established healthcare interoperability standards risks degrading the communication networks that support healthcare and public health."
+}

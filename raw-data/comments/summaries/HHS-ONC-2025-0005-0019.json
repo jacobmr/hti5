@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0019",
+  "commenter_name": "David Damick",
+  "organization": "",
+  "posted_date": "2026-01-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3721,
+  "org_type": "individual_clinician",
+  "summary": "The commenter urges maintaining and strengthening audit trail standards to ensure the integrity and security of electronic health records, warning that deregulation will increase confusion, mistrust, and fraud. They emphasize the need for updated standards addressing AI use and transparency in health IT systems to protect patient care and trust.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "ai_regulation",
+    "interoperability",
+    "patient_safety",
+    "data_security"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "AI/computer intelligence analysis recording",
+    "interoperability and portability standards"
+  ],
+  "key_arguments": [
+    "Integrity of medical records depends on comprehensive, transparent audit trails.",
+    "Current audit trail standards (ASTM E2147-18) are outdated and insufficient.",
+    "AI and medical device inputs require explicit regulation and disclosure in records.",
+    "Deregulation risks increased fraud, loss of trust, and inability to verify record authenticity."
+  ],
+  "recommendations": [
+    "Retain and strengthen audit trail certification requirements.",
+    "Develop updated standards addressing AI and medical device data inputs.",
+    "Require disclosure of software programs used in patient care within records.",
+    "Ensure audit trails are transparent and accessible to patients and representatives.",
+    "Regulate or restrict ephemeral caregiver messaging that cannot be stored or reproduced."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The integrity of a medical record is only as reliable as its audit trail."
+}

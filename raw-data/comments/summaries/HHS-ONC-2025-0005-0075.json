@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0075",
+  "commenter_name": "Shift Collaborative",
+  "organization": "Shift Collaborative",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 25607,
+  "org_type": "advocacy_group",
+  "summary": "Shift Collaborative appreciates ONC's goal to reduce burden and foster innovation but strongly opposes removal of privacy and security criteria, emphasizing that privacy and security are foundational to trusted interoperability. They support maintaining and advancing granular data segmentation standards, especially DS4P FHIR and PCF IHE profiles, to protect sensitive patient data and promote patient control over data sharing.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "data_privacy",
+    "fhir_standards",
+    "ds4p_criteria",
+    "patient_safety",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "Data Segmentation for Privacy (DS4P) criteria",
+    "Privacy and Security criteria",
+    "Decision Support Interventions criterion",
+    "45 CFR 170.205(o) DS4P CDA standard"
+  ],
+  "key_arguments": [
+    "Privacy and security capabilities are foundational infrastructure for trusted interoperability, not ancillary features.",
+    "Removing DS4P criteria risks undermining patient trust and safe adoption of interoperable health IT.",
+    "Granular data segmentation and computable consent standards are urgently needed to address diverse state privacy laws and patient needs.",
+    "Without reliable segmentation, providers may over-share or under-share data, harming patient privacy and care quality."
+  ],
+  "recommendations": [
+    "Retain DS4P CDA R1 as an ONC-adopted standard with tagging at document, section, and entry levels.",
+    "Provide a glide path for future validation and adoption of DS4P FHIR and PCF IHE profile standards.",
+    "Do not remove Privacy and Security certification criteria as they are essential to public trust.",
+    "Support development and implementation of granular segmentation and computable consent standards."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Privacy and security capabilities are not ancillary features; they are foundational infrastructure for trusted interoperability."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0297",
+  "commenter_name": "EMR Discovery",
+  "organization": "EMR Discovery",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1603,
+  "org_type": "health_it_company",
+  "summary": "The commenter, a long-time health IT professional and patient, expresses concern that the HTI-5 proposal loosens certification requirements before updating foundational standards for audit trails and data preservation. They emphasize the need for modernized audit trail standards that track AI and device activity and ensure data retention for safety and accountability.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_preservation",
+    "patient_access",
+    "ai_regulation",
+    "patient_safety"
+  ],
+  "specific_provisions": ["170.315(d)(2) audit logs"],
+  "key_arguments": [
+    "Audit trails are essential for trust and accountability in medical records.",
+    "Current audit standards are outdated given new technologies like AI and device integrations.",
+    "Loosening requirements without modernizing standards risks mistakes, safety issues, and fraud.",
+    "Data must be preserved in readable formats for care, investigations, and legal needs."
+  ],
+  "recommendations": [
+    "Pause proposed certification changes until updated audit trail and data preservation standards are developed.",
+    "Develop new audit trail standards that capture AI/device actions, software used, detailed user activity, and ensure patient access.",
+    "Establish clear rules for data retention to prevent auto-deletion or loss of important information."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails aren\u2019t optional\u2014they\u2019re the foundation of trust and accountability."
+}

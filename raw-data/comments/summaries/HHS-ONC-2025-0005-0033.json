@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0033",
+  "commenter_name": "Bucky Slomski",
+  "organization": "",
+  "posted_date": "2026-01-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3854,
+  "org_type": "individual_clinician",
+  "summary": "The commenter emphasizes the critical importance of maintaining robust audit trail standards to ensure the integrity, security, and trustworthiness of electronic health information. They oppose deregulation of certification requirements until updated, comprehensive audit and data preservation standards are established and enforced.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_preservation",
+    "ai_regulation",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "USCDI data classes",
+    "standardized API requirements"
+  ],
+  "key_arguments": [
+    "Current audit trail standards (ASTM E2147-18) are outdated and insufficient for modern clinical environments.",
+    "Removing or weakening certification requirements before updating foundational data standards risks patient harm and fraud.",
+    "Audit trails must capture AI, medical device, and messaging activities to ensure transparency and traceability.",
+    "Data must be preserved durably and not be subject to ephemeral deletion to maintain legal and clinical accountability."
+  ],
+  "recommendations": [
+    "Pause deregulation of certification requirements until modern, robust audit trail and data preservation standards are finalized.",
+    "Prioritize revision of audit trail standards to include AI, device integration, software identification, granular metadata, and fraud prevention.",
+    "Prohibit ephemeral messaging or automatic destruction of data to ensure durable data retention.",
+    "Establish clear, shared definitions for ePHI, EHI, Generative AI, and Synthetic Data before changing certification rules."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

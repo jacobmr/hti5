@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0168",
+  "commenter_name": "Healthcare Information Management and Systems Society (HIMSS)",
+  "organization": "Healthcare Information Management and Systems Society (HIMSS)",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 19598,
+  "org_type": "professional_association",
+  "summary": "HIMSS supports the transition to API-enabled information access and the removal of outdated C-CDA certification criteria, emphasizing the need to consider economic impacts and alignment with CMS programs. They urge careful coordination between ASTP and CMS, recommend phased implementation timelines, and highlight the need for investment in public health infrastructure to support FHIR adoption.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "api_enabled_access",
+    "burden_reduction",
+    "interoperability",
+    "cms_coordination"
+  ],
+  "specific_provisions": [
+    "removal of C-CDA creation certification criterion",
+    "reduction of audit log requirements",
+    "transition to API-enabled information access",
+    "alignment with CMS Promoting Interoperability Program",
+    "removal of certain certification criteria"
+  ],
+  "key_arguments": [
+    "Current information access frameworks impose disproportionate costs on providers while benefits accrue to downstream firms.",
+    "API-based architectures can meet CURES Act requirements without overburdening providers.",
+    "Removing certification criteria must be coordinated with CMS program requirements to avoid compliance gaps.",
+    "Public health agencies need significant investment to transition from C-CDA to FHIR-based systems."
+  ],
+  "recommendations": [
+    "Maintain regular engagement with end users to monitor impacts of removing certification criteria.",
+    "Align certification requirements with CMS reporting programs and coordinate timing of regulatory changes.",
+    "Implement a two-year voluntary compliance window following final rule publication.",
+    "Advocate for substantial federal investment in public health infrastructure to support FHIR adoption."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "HIMSS supports ASTP\u2019s plan to move away from C-CDA supported certification functionality."
+}

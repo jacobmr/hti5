@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0060",
+  "commenter_name": "InterSystems Corporation",
+  "organization": "InterSystems Corporation",
+  "posted_date": "2026-02-23T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3835,
+  "org_type": "health_it_company",
+  "summary": "InterSystems supports ONC's shift toward FHIR-based interoperability and AI-enabled data exchange but urges maintaining baseline C-CDA create/send capabilities for transitions of care. They emphasize the need for strong governance, security, and auditability in AI interoperability and caution against removing key certification criteria prematurely.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "ai_regulation",
+    "interoperability",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "170.315(b)(1) Transitions of Care C-CDA create/send",
+    "FHIR-based exchange",
+    "Model Context Protocol (MCP)",
+    "USCDI"
+  ],
+  "key_arguments": [
+    "FHIR resource-based model enables more granular, discrete data exchange supporting automation and analytics.",
+    "AI-enabled interoperability requires strong security, provenance, auditability, and governance to avoid fragmented exchange.",
+    "Transitions of care remain a high-volume workflow where document-based exchange will persist, so removing create/send C-CDA certification risks degrading implementation consistency.",
+    "Maintaining end-to-end transitions-of-care capabilities during the transition period reduces downstream integration burden."
+  ],
+  "recommendations": [
+    "Emphasize computable interoperability with reliably structured, attributable, and usable data.",
+    "Frame MCP-like AI context-sharing as complementary to, not replacing, core standards like FHIR/USCDI.",
+    "Implement guardrails for AI interoperability including strong authentication, provenance, audit logging, and governance to prevent proprietary side channels.",
+    "Retain baseline certification for create/send and receive/validate transitions-of-care C-CDA capabilities while advancing FHIR alternatives."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We recommend ASTP/ONC maintain a baseline, end-to-end transitions-of-care capability during the transition."
+}

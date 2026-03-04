@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0038",
+  "commenter_name": "Taylor Hunt",
+  "organization": "",
+  "posted_date": "2026-01-29T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2789,
+  "org_type": "other",
+  "summary": "The commenter emphasizes the critical importance of maintaining and modernizing audit trail standards to ensure patient safety, data integrity, and transparency. They express concern that the HTI-5 proposed deregulatory actions risk undermining these safeguards before necessary updates to data standards are made.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "ai_regulation",
+    "transparency"
+  ],
+  "specific_provisions": ["170.315(d)(2) audit logs"],
+  "key_arguments": [
+    "Audit trails are essential for detecting unauthorized access and ensuring data integrity.",
+    "Current audit trail standards are outdated and do not reflect modern EHR complexities.",
+    "AI and automated systems require explicit auditability to ensure accountability.",
+    "Weakening audit log requirements risks patient safety and trust amid growing data complexity."
+  ],
+  "recommendations": [
+    "Prioritize modernization of audit trail and data integrity standards before changing certification requirements.",
+    "Ensure updated standards address transparency in AI, medical devices, and electronic messaging.",
+    "Strengthen audit trail standards to support patient access and understanding of data use."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails serve as a primary control for detecting inappropriate access, unauthorized modification, and inaccurate attribution."
+}

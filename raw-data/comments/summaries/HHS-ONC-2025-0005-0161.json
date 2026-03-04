@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0161",
+  "commenter_name": "AHIP",
+  "organization": "AHIP",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 27730,
+  "org_type": "payer",
+  "summary": "AHIP supports ONC's efforts to reduce administrative burden and advance FHIR-based interoperability but urges retention of key certification criteria related to C-CDA, Direct messaging, and privacy/security to avoid risks to interoperability and cybersecurity. They also support withdrawal of HTI-2 health plan API certification proposals and recommend advancing digital quality measurement and preventing information blocking fees.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "interoperability",
+    "burden_reduction",
+    "data_privacy",
+    "fhir_standards"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA",
+    "Direct secure messaging",
+    "Health IT Certification Program privacy and security criteria",
+    "HTI-2 voluntary certification criteria for health plan APIs",
+    "USCDI+ Quality data elements",
+    "TEFCA Manner Exception removal"
+  ],
+  "key_arguments": [
+    "Removing C-CDA and Direct messaging certification could degrade interoperability and disrupt federal program alignment.",
+    "Removing privacy and security certification shifts burden to providers, increasing variability and costs amid rising cyber threats.",
+    "FHIR-based APIs are the future and should be prioritized, but document-based exchange remains critical during transition.",
+    "Voluntary certification of health plan APIs risks confusion and regulatory overreach, so withdrawal is appropriate."
+  ],
+  "recommendations": [
+    "Retain certification criteria for C-CDA creation and Direct secure messaging.",
+    "Maintain privacy and security controls within the Health IT Certification Program.",
+    "Advance digital quality measurement by addressing CQL engine access, bulk FHIR data exchange, and patient-reported data.",
+    "Prevent information blocking by prohibiting fees charged to health plans for clinical and quality data access within TEFCA."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "AHIP strongly supports movement toward bidirectional APIs that support health plan access to clinical data."
+}

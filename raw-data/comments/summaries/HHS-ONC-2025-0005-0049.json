@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0049",
+  "commenter_name": "Lois McGruder-Jarman",
+  "organization": "",
+  "posted_date": "2026-02-18T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1167,
+  "org_type": "other",
+  "summary": "The commenter opposes deregulation of health IT certification requirements due to ongoing data breaches and privacy concerns. They emphasize the need for stronger protections rather than loosening regulations, citing personal experience with medical data breaches and risks of biased AI.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "data_privacy",
+    "audit_log_standards",
+    "patient_safety",
+    "ai_regulation"
+  ],
+  "specific_provisions": ["audit log requirements", "data protection measures"],
+  "key_arguments": [
+    "Data breaches remain frequent, so reducing protections is unwise.",
+    "Protecting patient privacy must be prioritized over deregulation.",
+    "AI systems can perpetuate harmful biases if not properly regulated.",
+    "Deregulation risks weakening safety and privacy standards."
+  ],
+  "recommendations": [
+    "Maintain or strengthen current data protection and audit log requirements.",
+    "Implement more stringent measures to protect patient information."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The system needs to implement more stringent measures to protect information not loosen the reins"
+}

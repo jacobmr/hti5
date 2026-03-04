@@ -1,0 +1,28 @@
+{
+  "id": "HHS-ONC-2025-0005-0237",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 132,
+  "org_type": "other",
+  "summary": "The commenter urges ONC not to remove data fields as proposed, warning that such actions would negatively affect research and resources for the US population. They emphasize the importance of maintaining current requirements to avoid regression.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "uscdi_data_classes",
+    "ccda_removal",
+    "research_impact",
+    "health_equity"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Removing fields will dramatically impact research capabilities",
+    "Such deregulatory actions will reduce resources available to the US population",
+    "Maintaining current data standards is essential to avoid backward steps"
+  ],
+  "recommendations": [
+    "Do not remove the fields or data requirements as proposed"
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Please do not remove the fields! This will dramatically impact research and resources for the US population!"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "HHS-ONC-2025-0005-0064",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-23T05:00:00Z",
+  "has_text": true,
+  "comment_length": 829,
+  "org_type": "other",
+  "summary": "The commenter argues that non-standards-based formats like PDFs, faxes, JPEGs, and TIFs should not be accepted as substitutes for structured electronic health information exchange. They urge ONC/ASTP and CMS to remove these formats as HIPAA electronic substitutes and recommend enforcement actions against entities that persist in using them.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "data_standards",
+    "information_blocking",
+    "regulatory_enforcement"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Non-standards-based formats (PDFs, faxes, JPEGs, TIFs) are inadequate substitutes for structured EHI exchange.",
+    "Use of these formats constitutes information blocking.",
+    "Standards-based machine-readable formats via APIs should be mandatory for electronic health information exchange.",
+    "Health systems repeatedly using these formats should face review by the Joint Commission."
+  ],
+  "recommendations": [
+    "Remove electronic PDFs, faxes, electronic faxes, JPEGs, TIFs, CSVs, and spreadsheets as HIPAA electronic substitutes.",
+    "Require standards-based APIs as the method for electronic health information exchange.",
+    "Subject health systems and hospitals repeatedly exchanging data via non-standard formats to Joint Commission review."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Electronic PDFs, faxes, electronic faxes, JPEGs, and TIFs shall never substitute for standards based electronic transactions."
+}

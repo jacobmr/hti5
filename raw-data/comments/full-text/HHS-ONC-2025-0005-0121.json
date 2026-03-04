@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0121",
+  "title": "Comment from Keyes, Bart, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Bart Keyes",
+  "commenter_first": "Bart",
+  "commenter_last": "Keyes",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "received_date": "2026-02-26T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "My law firm regularly represents patients and families in medical negligence cases. Our work holds negligent providers accountable and protects patient safety for the whole community.\n\nI am concerned that the Health Data, Technology and Interoperability (HTI-5) proposed rule risks unintentionally impairing patient&rsquo;s ability to access all of their data by modifying certification requirements before modernizing data standards.  We routinely use audit trail data to uncover medical data that was added to, modified or deleted from the original data.  At times, these changes to the medical record are routine and consistent with standards of care. Yet there are many times when we find that this altering of data resulted in preventable catastrophic harm or, even worse, were attempts to conceal conduct that must be revealed so that it can be prevented in the future. The integrity of the medical record is only as reliable as its audit trail.  An updated audit trail standard is required for the security of EHI to verify its integrity and curtail billing fraud.  The current standard, ASTM E2147-18, is outdated.  Since 2018 the use and content of medical records have evolved dramatically.  If we move forward with the decertification or removal of functional guardrails without first defining how data is created, collected, and preserved in a usable, searchable, and shareable format, we invite patient harm and compromise the trustworthiness of our healthcare system.   \n\nWe must establish clear, shared definitions for terms like ePHI, EHI, Generative AI and Synthetic Data.  But, these standards for data preservation and the ability to reproduce data must be updated, codified and enforced before deregulation of certification is considered.  Taking away this system without first putting critical safeguards in place ensures continued unsafe practices and insidious billing fraud.    I oppose the deletions of sections 170.315(d)(10), 170.315(d)(2), 170.315(d)(3), 170.315(b)(11) and 170.315(g)(3). I'm also deeply concerned with the safety implication of failing to define provider chat platforms as Electronic Health Information in section 170.102. Audit trails are essential to patient safety and accountability.  Without well-defined standards it will be impossible to ensure the integrity of electronic health information leaving consumers open to clinical dangers while leaving taxpayers vulnerable to fraud.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0006",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-01-09T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1773,
+  "org_type": "other",
+  "summary": "The commenter urges CMS and ONC to require delegated entities to adopt FHIR APIs for delegated functions, collaborate with accrediting bodies to enforce FHIR interoperability in hospitals, and monitor state public health agencies' FHIR endpoint adoption. These steps are seen as critical to advancing API adoption and interoperability.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "api_adoption",
+    "regulatory_enforcement",
+    "public_health_it"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Delegated entities performing CMS functions must be held accountable to use FHIR APIs to enable full enforcement of CMS rules.",
+    "Collaboration with accrediting bodies like the Joint Commission can drive hospitals to expose live FHIR endpoints through audit requirements.",
+    "Monitoring state public health agencies' FHIR endpoint status is necessary to track and encourage interoperability progress."
+  ],
+  "recommendations": [
+    "Update 45 CFR Part 156 to include FHIR API compliance obligations for delegated entities.",
+    "Create new FHIR profiles for delegated entities such as DelegatedEntity, DelegatedRelationship, and DelegatedEndpoint.",
+    "CMS should collaborate with accrediting bodies to include auditable FHIR interoperability requirements in hospital accreditation.",
+    "CMS and ONC should monitor and publicly report on state and territorial public health agencies' live FHIR endpoints."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "These organizations need to be held accountable to such movement to APIs and using FHIR in production."
+}

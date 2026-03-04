@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0085",
+  "commenter_name": "South Carolina Primary Health Care Association",
+  "organization": "South Carolina Primary Health Care Association",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 25913,
+  "org_type": "advocacy_group",
+  "summary": "The South Carolina Primary Health Care Association supports certain interoperability improvements in the HTI-5 proposed rule but strongly opposes the removal of key privacy and security certification criteria. They emphasize that deregulatory actions should not weaken safety and security safeguards critical for safety net providers like CHCs, which face workforce and financial constraints. They urge ONC to retain audit log requirements and ensure protections that support vulnerable populations and maintain trust in health IT.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "audit_log_standards",
+    "data_privacy",
+    "patient_safety",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "170.315(d)(1)-(d)(13) privacy and security certification criteria",
+    "170.315(d)(2), (3), and (10) audit logs",
+    "Information Blocking regulations \u00a7 170.315(a)(12)",
+    "Standardized APIs (FHIR)",
+    "Removal of Multi-Factor Authentication (MFA) requirement"
+  ],
+  "key_arguments": [
+    "Removing privacy and security certification shifts costly and complex burdens to resource-constrained CHCs, risking security flaws and liability exposure.",
+    "Strong federal health IT standards are essential for safe, coordinated, and equitable care delivery in underserved, rural, and high-need communities.",
+    "Workforce shortages and financial instability limit CHCs' ability to absorb new technical and compliance responsibilities without harming patient care.",
+    "Supporting interoperability improvements like removing write-back restrictions and recognizing AI agents will reduce administrative burden and improve care coordination."
+  ],
+  "recommendations": [
+    "Retain audit log certification requirements (\u00a7 170.315(d)(2), (3), and (10)) to detect fraud and abuse.",
+    "Maintain privacy and security certification criteria to ensure vendor software supports HIPAA compliance.",
+    "Provide sufficient transition time, targeted funding, and clear accountability for certified developers to avoid imposing undue burdens on CHCs.",
+    "Continue engagement with safety net providers to ensure final policies are workable and protect vulnerable populations."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing federal 'floors' for certification will shift the burden of verification from the government to resource-constrained health centers."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "HHS-ONC-2025-0005-0047",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-17T05:00:00Z",
+  "has_text": true,
+  "comment_length": 877,
+  "org_type": "other",
+  "summary": "The commenter highlights that several countries including Australia, Austria, and Estonia are migrating from CDA to FHIR, emphasizing that the US must keep pace with global interoperability standards by 2035-2037. The US is positioned as a benchmark for nationwide interoperability and should align with this global direction.",
+  "position": "support_deregulation",
+  "key_themes": ["fhir_standards", "ccda_removal", "interoperability"],
+  "specific_provisions": ["170.315(g)(6) C-CDA"],
+  "key_arguments": [
+    "Global health systems are moving from CDA to FHIR standards.",
+    "The US needs to remain competitive with international interoperability frameworks like EHDS by 2035-2037.",
+    "The US is a benchmark for nationwide interoperability and should continue to lead by adopting modern standards."
+  ],
+  "recommendations": [
+    "Support removal of the C-CDA creation certification criterion to facilitate migration to FHIR.",
+    "Align US health IT certification with global interoperability trends focusing on FHIR."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "This is the direction that global architecture is heading."
+}

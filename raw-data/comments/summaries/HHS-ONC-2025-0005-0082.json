@@ -1,0 +1,44 @@
+{
+  "id": "HHS-ONC-2025-0005-0082",
+  "commenter_name": "Connecting for Better Health",
+  "organization": "Connecting for Better Health",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 13879,
+  "org_type": "advocacy_group",
+  "summary": "Connecting for Better Health generally supports the HTI-5 deregulatory proposals aimed at promoting interoperability and reducing burden but emphasizes maintaining essential certification capabilities to avoid disruptions. They highlight concerns about shifting accountability to private sector purchasers, the removal of emergency access criteria, and the need for transparency in AI and decision support systems. The comment also stresses the importance of granular data segmentation to address information blocking and calls for increased transparency and stakeholder engagement.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "burden_reduction",
+    "certification_criteria",
+    "ai_regulation",
+    "information_blocking",
+    "fhir_standards",
+    "patient_safety",
+    "data_privacy"
+  ],
+  "specific_provisions": [
+    "170.315(d)(6) emergency access",
+    "170.315(b)(11) decision support interventions",
+    "information blocking regulations",
+    "FHIR-based APIs",
+    "Manner Exception in information blocking"
+  ],
+  "key_arguments": [
+    "Certification simplification should not compromise existing capabilities relied upon by stakeholders to avoid workflow disruptions.",
+    "Shifting accountability to private sector purchasers risks fragmentation and increased costs, especially for small providers and community organizations.",
+    "Removing emergency access certification could negatively impact patient safety during emergencies and system outages.",
+    "Transparency and risk management in AI-enabled systems are critical for safe implementation, particularly for organizations lacking evaluation capacity."
+  ],
+  "recommendations": [
+    "Monitor maintenance of certified health IT during transition to ensure simplification strengthens data exchange.",
+    "Carefully review the removal of emergency access criterion to understand clinical and safety implications.",
+    "Maintain transparency provisions for decision support and AI systems or provide alternative measures.",
+    "Support adoption of granular data segmentation and consent capabilities to reduce information blocking.",
+    "Engage stakeholders to clarify scope of contract of adhesion exclusions to avoid unintended impacts on standardized agreements.",
+    "Increase transparency and accountability in information blocking enforcement, including publishing complaint outcomes and enabling provider opt-in for complaint visibility."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "Certification requirements are streamlined, it will be critical to ensure that existing capabilities within certified health IT are maintained."
+}

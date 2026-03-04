@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0171",
+  "commenter_name": "American Clinical Laboratory Association",
+  "organization": "American Clinical Laboratory Association",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 13260,
+  "org_type": "lab",
+  "summary": "The American Clinical Laboratory Association expresses cautious concern about ONC's proposed deregulatory actions, emphasizing the need to maintain data quality and interoperability standards critical to laboratory operations. They urge ONC to clarify policies on electronic signatures, the manner exception, and to carefully consider the impact of removing certification criteria on laboratories' operational burdens.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "manner_exception",
+    "certification_criteria_removal",
+    "electronic_signatures",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "45 CFR \u00a7 171.301 manner exception",
+    "170.315(a)(12) family health history certification criterion",
+    "removal of cancer case reporting criterion",
+    "HL7v2 messaging standards",
+    "C-CDA creation certification criterion"
+  ],
+  "key_arguments": [
+    "HL7v2 remains essential for high-volume lab orders and results; FHIR is not yet mature enough for core lab transactions.",
+    "Proposed manner exception revisions could unintentionally undermine existing OIG policies that allow labs to bear interface costs without charging providers.",
+    "Removing certification criteria risks lowering data quality, shifting burden and costs from EHR vendors to laboratories.",
+    "Electronic orders submitted via EHR with password-protected login should be deemed valid electronic signatures evidencing clinician intent."
+  ],
+  "recommendations": [
+    "Delay mandating FHIR-based lab data exchange until standards mature and adoption is widespread.",
+    "Amend manner exception language to clarify fees apply only if charged, preserving labs' ability to provide free interfaces to providers.",
+    "Restore cancer case reporting certification criterion and monitor data quality impacts of deregulatory actions.",
+    "Recognize EHR-submitted electronic orders with secure login as valid electronic signatures for lab orders."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "HL7v2 is a 'transactional' standard capable of handling high-volume clinical laboratory ordering and resulting."
+}

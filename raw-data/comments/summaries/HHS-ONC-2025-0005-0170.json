@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0170",
+  "commenter_name": "American Nurses Association",
+  "organization": "American Nurses Association",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 9026,
+  "org_type": "professional_association",
+  "summary": "The American Nurses Association supports ONC's efforts to reduce outdated and redundant certification criteria to lower burden and improve interoperability, but urges preservation of nursing-essential functionalities, transparency in AI decision support, and strong data privacy protections. They recommend clear transition guidance, inclusion of nursing data in FHIR standards, clarification of information blocking definitions, and ongoing nursing engagement in HIT policy.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "data_privacy",
+    "ai_regulation",
+    "fhir_standards",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Removing obsolete certification criteria reduces developer and healthcare organization burden and improves workflow efficiency.",
+    "Transparency in AI and decision support tools is essential for nurses to understand clinical recommendations and potential biases.",
+    "Data privacy and security must be maintained despite removal of legacy certification criteria.",
+    "Clear guidance and transition support are necessary to help stakeholders adapt to changes."
+  ],
+  "recommendations": [
+    "Remove outdated certification criteria while preserving essential nursing functionalities like care plans and decision support.",
+    "Retain or revise transparency requirements for AI/ML decision support tools, including disclosure of AI influence.",
+    "Conduct impact assessments to ensure privacy and security safeguards remain strong after criteria removal.",
+    "Provide detailed timelines, transition plans, and educational resources for implementation changes.",
+    "Include nursing-relevant data elements in FHIR implementation guides and engage nursing informatics experts.",
+    "Clarify information blocking definitions to avoid new access obstacles, especially in post-acute and community settings.",
+    "Establish continuous nursing involvement in standards updates, monitoring, and evaluation."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "ANA supports reducing unnecessary burden but urges preserving transparency and patient privacy."
+}

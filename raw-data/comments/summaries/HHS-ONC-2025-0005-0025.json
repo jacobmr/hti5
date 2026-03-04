@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0025",
+  "commenter_name": "isobel thomas",
+  "organization": "",
+  "posted_date": "2026-01-23T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3897,
+  "org_type": "patient_advocate",
+  "summary": "The commenter emphasizes the critical importance of maintaining strong, updated standards for electronic health information integrity, audit trails, and interoperability to ensure patient safety and trust. They argue that deregulation risks weakening these protections and enabling fraud, and call for modern, enforceable standards that reflect current technologies including AI.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "interoperability",
+    "patient_safety",
+    "ai_regulation",
+    "data_integrity"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "C-CDA creation certification criterion",
+    "EHI export",
+    "USCDI data classes",
+    "API requirements"
+  ],
+  "key_arguments": [
+    "Deregulation risks weakening interoperability, transparency, and patient protection.",
+    "Audit trails are essential for verifying data integrity, security, and preventing billing fraud.",
+    "Current standards do not reflect modern EHR functionalities including AI and automated documentation.",
+    "Patients lack meaningful access to complete, transparent electronic health information."
+  ],
+  "recommendations": [
+    "Update standards for data creation, collection, preservation, and reproducibility before deregulation.",
+    "Develop an updated, enforceable audit trail standard that includes AI and software transparency.",
+    "Ensure audit trails reveal all data modifications including corrections, deletions, and copy-forwards.",
+    "Maintain strong interoperability requirements compliant with TEFCA and legal data retention standards."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

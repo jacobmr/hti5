@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0104",
+  "commenter_name": "Community Health Center Association of Connecticut",
+  "organization": "Community Health Center Association of Connecticut",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 29855,
+  "org_type": "professional_association",
+  "summary": "The Community Health Center Association of Connecticut opposes the removal of federal privacy and security certification criteria in the HTI-5 proposed rule, citing increased operational risk and cybersecurity vulnerabilities for safety net providers with limited IT resources. They support interoperability improvements like easing information blocking and AI system access but caution that deregulatory actions should not weaken essential safeguards relied upon by community health centers.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "data_privacy",
+    "cybersecurity",
+    "interoperability",
+    "burden_reduction",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.315(d)(1)-(d)(13) privacy and security certification criteria",
+    "Information Blocking regulations \u00a7 170.315(a)(12) Infeasibility Exception",
+    "Certified Electronic Health Record Technology (CEHRT)",
+    "Standardized APIs (FHIR)",
+    "EHI export"
+  ],
+  "key_arguments": [
+    "Removing certification criteria shifts compliance and risk management burdens onto resource-constrained health centers lacking control over software design.",
+    "Certification safeguards are critical for HIPAA Security Rule compliance and protecting sensitive patient data in complex, multi-vendor environments.",
+    "Workforce shortages and limited in-house cybersecurity expertise make vendor-based certification essential for operational and financial risk mitigation.",
+    "Interoperability improvements like removing write-back restrictions and recognizing AI systems as users will reduce administrative burden and improve care coordination."
+  ],
+  "recommendations": [
+    "Retain federal privacy and security certification criteria to maintain minimum safety and security standards.",
+    "Provide sufficient transition time, targeted funding, and clear accountability for certified developers to support health centers.",
+    "Continue to support interoperability enhancements such as removing the 'Third Party Seeking Modification Use' condition and clarifying AI system access.",
+    "Avoid deregulatory actions that could lead to unbundling of standard features into costly add-ons or removal of essential functionalities."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removal of certification 'floors' materially increases operational risk, financial exposure, and vulnerability to cybersecurity threats."
+}

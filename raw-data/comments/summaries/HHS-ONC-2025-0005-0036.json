@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0036",
+  "commenter_name": "John Travis",
+  "organization": "",
+  "posted_date": "2026-01-29T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16900,
+  "org_type": "other",
+  "summary": "The commenter generally supports the deregulatory intent of HTI-5 to reduce burdens on HIT developers and shift toward FHIR interoperability but urges caution on removing certain certification criteria. He emphasizes the need to retain minimum cybersecurity, AI transparency, quality management, and accessibility requirements to maintain trust and safety. He also recommends clearer timing for compliance dates and consideration for specialty EHR developers.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "fhir_standards",
+    "ai_regulation",
+    "privacy_and_security",
+    "quality_management_system"
+  ],
+  "specific_provisions": [
+    "170.315(b)(11) Decision Support Interventions",
+    "170.315(d) Privacy and Security Certification Criteria",
+    "170.315(d)(2), (d)(3), (d)(10) Audit Criteria",
+    "170.315(g)(3)-(5) Safety-Enhanced Design, QMS, Accessibility-Centered Design",
+    "Direct Project and Edge Protocol, XDR/XDM Transport Methods"
+  ],
+  "key_arguments": [
+    "Removing AI model transparency and risk management requirements prematurely reduces buyer and implementer trust.",
+    "Eliminating privacy and security criteria risks lowering cybersecurity standards especially for new HIT developers not covered by HIPAA.",
+    "Removing QMS and accessibility requirements risks an uneven playing field and lowers minimum development standards.",
+    "The proposed two compliance dates create confusion and insufficient lead time for developers to adapt."
+  ],
+  "recommendations": [
+    "Retain AI source attribute and risk management requirements in 170.315(b)(11) until market self-regulation matures.",
+    "Maintain minimum cybersecurity certification criteria, especially audit requirements, despite other deregulatory efforts.",
+    "Keep QMS and Accessibility-Centered Design certification criteria to ensure accountability and quality.",
+    "Moderate but do not remove Safety-Enhanced Design testing to reduce burden without eliminating it.",
+    "Postpone removal of Direct Project and related transport protocol criteria until FHIR-based interoperability is more widely adopted.",
+    "Simplify compliance timing by having all changes effective at the start of a calendar year or provide enforcement discretion now."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Removing AI transparency and risk management requirements feels short sighted until self-regulation is widespread."
+}

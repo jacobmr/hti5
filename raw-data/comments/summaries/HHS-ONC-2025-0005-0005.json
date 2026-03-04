@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0005",
+  "commenter_name": "WENO Exchange LLC",
+  "organization": "WENO Exchange LLC",
+  "posted_date": "2026-01-08T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4513,
+  "org_type": "health_it_company",
+  "summary": "WENO Exchange supports streamlining certification but urges stricter guardrails to prevent pharmacies from abusing information blocking exceptions. They call for prohibiting selective interoperability, mandatory use of alternative access methods, and enforcement measures for Medicare Part D pharmacies to protect patient care.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "information_blocking",
+    "interoperability",
+    "enforcement",
+    "patient_safety",
+    "regulatory_exceptions"
+  ],
+  "specific_provisions": [
+    "45 CFR \u00a7 171.204 (Infeasibility)",
+    "45 CFR \u00a7 171.301 (Manner)",
+    "Medicare Part D enforcement"
+  ],
+  "key_arguments": [
+    "Pharmacies abuse infeasibility and manner exceptions despite demonstrated technical feasibility.",
+    "Corporate policy should not justify refusal to accept interoperable ePrescriptions.",
+    "Alternative DEA-compliant retrieval methods exist and should be mandated if direct integration is lacking.",
+    "Medicare Part D pharmacies lack enforcement disincentives, enabling information blocking without risk."
+  ],
+  "recommendations": [
+    "Explicitly prohibit pharmacies from invoking infeasibility and manner exceptions when technical feasibility is demonstrated.",
+    "Deny infeasibility exceptions if a legal, DEA-compliant alternative retrieval method is offered at no cost.",
+    "Establish disincentives for Medicare Part D pharmacies including reduced dispensing fees, loss of preferred status, and mandatory contractual disclosures."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "A pharmacy\u2019s 'manner' of doing business should not override a physician's legal prescription."
+}

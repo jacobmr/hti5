@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0137",
+  "commenter_name": "SABRINA CUNNINGHAM",
+  "organization": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4130,
+  "org_type": "other",
+  "summary": "The commenter emphasizes the critical importance of maintaining accurate, complete, and trustworthy electronic medical records, particularly highlighting the need for modernized audit trail standards. They oppose the proposed deregulatory changes in HTI-5 that reduce certification requirements before establishing robust data creation, preservation, and audit standards to ensure patient safety and trust.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_preservation",
+    "interoperability",
+    "trustworthy_records"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "USCDI data classes"
+  ],
+  "key_arguments": [
+    "Current audit trail standards (ASTM E2147-18) are outdated and insufficient for modern clinical and technological environments.",
+    "Audit trails are essential for transparency, accountability, fraud prevention, billing integrity, and legal accountability.",
+    "Patient access to complete EMRs remains inadequate despite legal requirements.",
+    "Data must be durable and preserved, prohibiting ephemeral messaging or automatic data destruction to support ongoing care and compliance."
+  ],
+  "recommendations": [
+    "Pause proposed certification changes until a modern, robust audit and preservation standard is finalized.",
+    "Develop a new audit trail standard that includes AI, medical device integration, granular metadata, fraud prevention, and detailed activity logging.",
+    "Prohibit ephemeral messaging and automatic destruction of health data to ensure data durability and compliance."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

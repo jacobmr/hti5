@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0228",
+  "commenter_name": "Clinical Architecture LLC",
+  "organization": "Clinical Architecture LLC",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8921,
+  "org_type": "health_it_company",
+  "summary": "Clinical Architecture supports HTI-5's deregulatory actions advancing interoperability and API-driven exchange but urges ONC to focus next on data quality and fitness-for-use. They propose incorporating structured, standards-based data quality assessment, such as the USCDI v3 Data Quality Rubric and HL7-balloted PIQI Framework, into future certification programs.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "uscdi_data_classes",
+    "data_quality",
+    "fhir_standards",
+    "certification_program"
+  ],
+  "specific_provisions": [
+    "USCDI v3",
+    "Certification Program",
+    "API-based exchange"
+  ],
+  "key_arguments": [
+    "HTI-5 advances API-based exchange and reduces regulatory burden, reinforcing interoperability.",
+    "As interoperability matures, data quality and trustworthiness become critical challenges beyond mere data availability.",
+    "The USCDI v3 Data Quality Rubric and PIQI Framework provide measurable, machine-evaluable standards-based approaches to assess data quality.",
+    "Incorporating data quality assessment into certification can improve usability, trust, and downstream use without imposing premature mandates."
+  ],
+  "recommendations": [
+    "Consider referencing the HL7-balloted PIQI Framework as an optional certification capability in HTI-5 or HTI-6.",
+    "Engage with the USCDI v3 Data Quality Rubric initiative and PIQI Framework to advance national data quality expectations.",
+    "Use HTI-6 as a venue to thoughtfully incorporate standardized data quality assessment informed by real-world pilots."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "The country is ready for interoperability that is not only connected\u2014but trusted."
+}

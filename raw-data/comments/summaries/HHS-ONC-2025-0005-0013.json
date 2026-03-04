@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0013",
+  "commenter_name": "Molly Hamilton",
+  "organization": "",
+  "posted_date": "2026-01-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2058,
+  "org_type": "other",
+  "summary": "The commenter argues that before any deregulation of health IT certification, standards for data creation, audit trails, and data retention must be updated to ensure security, transparency, and interoperability. They emphasize that audit trails are essential for billing integrity, patient trust, and legal accountability, and that deregulation could worsen fraud and data misuse.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_retention",
+    "interoperability",
+    "ai_regulation",
+    "billing_fraud_prevention"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "TEFCA compliance"
+  ],
+  "key_arguments": [
+    "Updated audit trail standards are necessary to secure EHI and prevent billing fraud.",
+    "Current standards are outdated and do not address AI, medical devices, or messaging transparency.",
+    "Patients still lack access to their EHI despite legal requirements.",
+    "Audit trails must be transparent, non-proprietary, and reveal all data modifications to prevent fraud."
+  ],
+  "recommendations": [
+    "Update standards for data creation, collection, and preservation before deregulating certification.",
+    "Maintain or strengthen audit trail requirements including AI audit capabilities.",
+    "Ensure software interoperability to comply with TEFCA and support safe patient care.",
+    "Define data retention policies aligned with care, investigations, litigation, and regulations."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0128",
+  "commenter_name": "College of Healthcare Information Management Executives (CHIME)",
+  "organization": "College of Healthcare Information Management Executives (CHIME)",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 35176,
+  "org_type": "professional_association",
+  "summary": "CHIME supports deregulatory actions that reduce burden on healthcare providers but urges ONC to ensure meaningful burden reduction without compromising patient safety, interoperability, or privacy. They recommend extended implementation timelines and retaining key privacy, security, and patient matching criteria until alternatives are established.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "patient_safety",
+    "interoperability",
+    "privacy_and_security",
+    "implementation_timeline"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.315(b)(1) Transitions of Care",
+    "\u00a7 170.315(d) Privacy and Security Certification criteria",
+    "\u00a7 170.550(h) Privacy and Security Certification Framework",
+    "USCDI data elements",
+    "C-CDA creation criterion",
+    "audit log requirements",
+    "EHI export requirements"
+  ],
+  "key_arguments": [
+    "Deregulatory actions must result in measurable burden reduction for providers, not just shift burdens from vendors to providers.",
+    "Implementation timelines should be at least 24-36 months to accommodate vendor development, provider training, workforce shortages, and competing mandates.",
+    "Removing patient matching references in transitions of care criteria risks patient safety until alternative standards are adopted.",
+    "Regulatory changes should not weaken essential privacy, security, interoperability, or patient safety safeguards."
+  ],
+  "recommendations": [
+    "Retain baseline privacy and security certification criteria under \u00a7 170.315(d) and associated framework under \u00a7 170.550(h).",
+    "Do not finalize removal of transitions of care criteria referencing patient matching until alternative standards are adopted.",
+    "Set implementation timelines no shorter than 24-36 months after final rule publication.",
+    "Consider cumulative regulatory burden on providers across federal programs when finalizing deregulatory actions."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Deregulation that merely shifts compliance burdens from technology vendors to providers will not achieve the Administration\u2019s goals."
+}

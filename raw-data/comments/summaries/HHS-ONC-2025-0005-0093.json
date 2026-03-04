@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0093",
+  "commenter_name": "Y Combinator",
+  "organization": "Y Combinator",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 19614,
+  "org_type": "other",
+  "summary": "Y Combinator strongly supports the proposed rule's information blocking reforms, urging removal of specific infeasibility exception conditions and contract fairness provisions to enhance startup access to EHR data. They highlight how incumbent EHR vendors exploit current exceptions to limit competition and innovation, harming patients and providers.",
+  "position": "strongly_support_deregulation",
+  "key_themes": [
+    "information_blocking",
+    "api_access",
+    "fhir_standards",
+    "contract_fairness",
+    "ai_regulation"
+  ],
+  "specific_provisions": [
+    "\u00a7 171.204(a)(3) Third Party Seeking Modification Use Condition",
+    "\u00a7 171.204(a)(4) Manner Exception Exhausted Condition",
+    "\u00a7 171.301(a)(2)(iii) Manner Exception Contract Fairness Provisions",
+    "\u00a7 171.102 definitions of access and use",
+    "Security Exception (\u00a7 171.203)",
+    "Preventing Harm Exception (\u00a7 171.201)"
+  ],
+  "key_arguments": [
+    "Incumbent EHR vendors exploit exceptions to block startup access to EHR data, suppressing innovation.",
+    "Removing \u00a7 171.204(a)(3) is essential to enable two-way data exchange critical for clinical AI and care coordination.",
+    "The Manner Exception Exhausted Condition (\u00a7 171.204(a)(4)) should be removed entirely to prevent manipulation by incumbents.",
+    "Contract fairness provisions are necessary to address power imbalances and prevent unconscionable terms and excessive fees."
+  ],
+  "recommendations": [
+    "Finalize the strongest versions of information blocking reforms, especially removing \u00a7\u00a7 171.204(a)(3) and (a)(4).",
+    "Adopt the contract fairness provisions in \u00a7 171.301(a)(2)(iii) to prohibit contracts of adhesion, unconscionable terms, and above-market pricing.",
+    "Explicitly include automated access (AI and robotic process automation) in definitions of access and use.",
+    "Maintain Security and Preventing Harm Exceptions for genuine security concerns."
+  ],
+  "sentiment_score": 3,
+  "notable_quote": "Classic monopoly playbook: dominant vendor making things much harder for healthcare software companies."
+}

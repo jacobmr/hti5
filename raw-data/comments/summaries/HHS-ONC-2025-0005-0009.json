@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0009",
+  "commenter_name": "Nursine Jackson",
+  "organization": "",
+  "posted_date": "2026-01-12T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3971,
+  "org_type": "individual_clinician",
+  "summary": "The commenter, a professional nurse and healthcare consumer, expresses strong concern that the HTI-5 proposed deregulatory actions risk undermining patient safety by removing or weakening audit trail and data preservation standards before updating foundational data standards. She urges HHS to modernize audit trail standards and data retention policies prior to any deregulation to ensure trustworthy, secure, and durable electronic health records.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_preservation",
+    "patient_safety",
+    "interoperability",
+    "ai_regulation"
+  ],
+  "specific_provisions": [
+    "audit log requirements",
+    "EHI export",
+    "certification requirements removal"
+  ],
+  "key_arguments": [
+    "Current audit trail standards are outdated and insufficient for modern clinical environments.",
+    "Removing certification guardrails before updating data creation and preservation standards risks patient harm and fraud.",
+    "Audit trails must capture AI, medical device, and messaging activities to ensure transparency and traceability.",
+    "Data must be preserved durably and not be subject to ephemeral deletion to maintain legal and clinical integrity."
+  ],
+  "recommendations": [
+    "Prioritize revision and modernization of audit trail standards before deregulating certification requirements.",
+    "Include explicit capture of AI, medical device, and messaging activities in audit trails.",
+    "Mandate granular metadata collection including user roles and detailed activity logs.",
+    "Prohibit ephemeral messaging and automatic data destruction to ensure durable data retention.",
+    "Pause proposed certification changes until robust audit and preservation standards are finalized."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are foundational\u2014not optional\u2014to billing integrity, patient trust, and legal accountability."
+}

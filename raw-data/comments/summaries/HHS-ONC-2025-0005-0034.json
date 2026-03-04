@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0034",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-01-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 556,
+  "org_type": "other",
+  "summary": "The commenter, with experience in health care administration, strongly opposes the proposed deregulation of health IT standards and certification criteria. They argue that deregulation would increase financial burdens on health institutions and states while enabling for-profit companies to operate without adequate patient and worker protections.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "patient_safety",
+    "vendor_burden",
+    "regulatory_protections",
+    "financial_burden"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Deregulation increases financial burden on health institutions and states",
+    "Lack of commonsense regulations risks patient and health care worker safety",
+    "For-profit companies may exploit deregulation to the detriment of stakeholders"
+  ],
+  "recommendations": [
+    "Maintain current health IT certification criteria and standards",
+    "Avoid deregulation that reduces protections for patients and health care workers"
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "This proposed deregulation places more of a financial burden on health institutions and states"
+}

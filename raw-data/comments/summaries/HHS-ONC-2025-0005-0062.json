@@ -1,0 +1,23 @@
+{
+  "id": "HHS-ONC-2025-0005-0062",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-23T05:00:00Z",
+  "has_text": true,
+  "comment_length": 118,
+  "org_type": "individual_clinician",
+  "summary": "The commenter expresses concern about the continued use of non-interoperable formats like PDFs, faxes, JPEGs, or TIFs for data exchange. They suggest that repeated reliance on these formats should trigger review by the Joint Commission to ensure better interoperability and data exchange standards.",
+  "position": "oppose_deregulation",
+  "key_themes": ["interoperability", "patient_safety", "clinical_workflow"],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Use of non-standard formats like PDFs and faxes hinders effective data exchange.",
+    "Repeated attempts to exchange data via these formats indicate systemic interoperability failures.",
+    "Oversight by the Joint Commission could enforce better data exchange practices."
+  ],
+  "recommendations": [
+    "Implement review processes by the Joint Commission for repeated use of non-interoperable data exchange methods."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Repeated attempts to exchange data via PDFs, faxes, JPEGs or TIFs should be subject to review by the Joint Commission."
+}

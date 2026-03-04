@@ -1,0 +1,41 @@
+{
+  "id": "HHS-ONC-2025-0005-0041",
+  "commenter_name": "SMART Health IT, Computational Health Informatics Program",
+  "organization": "SMART Health IT, Computational Health Informatics Program",
+  "posted_date": "2026-02-13T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16309,
+  "org_type": "academic_research",
+  "summary": "SMART Health IT supports the goal of accelerating FHIR-based interoperability and reducing duplicative burdens but raises concerns that some deregulatory actions in HTI-5 risk creating gaps that could hinder real-world interoperability and ecosystem observability. They urge retention of key testing and metrics, protection of AI agent access, and enhancements to patient and provider data access workflows.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ai_regulation",
+    "ehi_export",
+    "fhir_standards",
+    "interoperability",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "EHI export",
+    "Insights Condition of Certification",
+    "TEFCA Manner Exception",
+    "API access for AI agents",
+    "Bulk Data API reporting"
+  ],
+  "key_arguments": [
+    "Automated AI agents should not face additional licensing fees or contractual barriers when accessing data through standard user interfaces.",
+    "Removing Real World Testing of EHI Export risks losing visibility into actual patient data access and compliance with the 21st Century Cures Act.",
+    "Reducing Insights metrics, especially Bulk Data observability, will create a strategic blind spot during a critical interoperability transition.",
+    "Removing TEFCA as a manner shield supports architectural integrity and prevents limiting direct API access."
+  ],
+  "recommendations": [
+    "Clarify that authorized AI agents acting on behalf of users should be treated economically like those users, with no extra fees except for marginal compute costs.",
+    "Retain Real World Testing of EHI Export to monitor implementation quality and practical accessibility of full EHI.",
+    "Maintain a minimal but meaningful set of Insights metrics including Bulk Data usage, number of distinct apps, and user-type stratification.",
+    "Support removal of TEFCA Manner Exception to prevent it from limiting direct API access.",
+    "Enhance patient and provider access by mandating portal-based single sign-on, imaging data access via OAuth, full EHI API access including PDFs, dynamic app registration, and FHIR Subscriptions.",
+    "Require Bulk FHIR implementations to be performant, support filtering parameters, cohort definitions, and have enforceable performance expectations."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "The standard interface of a certified health IT product should not become an artificial toll booth merely because the actor is automated."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0205",
+  "commenter_name": "Vanderbilt Health",
+  "organization": "Vanderbilt Health",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 15519,
+  "org_type": "health_system",
+  "summary": "Vanderbilt Health supports ONC's efforts to modernize health IT and promote FHIR APIs but urges caution on removing certain information blocking exceptions, emphasizing patient privacy, safety, and the need for strong governance around third-party AI modifications to EHI. They request finalizing the Requester Preference exception and providing detailed guidance to empower patient control over EHI sharing.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "interoperability",
+    "patient_safety",
+    "data_privacy",
+    "ai_regulation",
+    "fhir_standards"
+  ],
+  "specific_provisions": [
+    "information blocking exception: Third-party Seeking Modification Use",
+    "information blocking exception: Requester Preference",
+    "FHIR APIs",
+    "Privacy Exception",
+    "EHI sharing and patient portal"
+  ],
+  "key_arguments": [
+    "Removing the Third-party Seeking Modification Use exception without a strong trust framework risks patient safety and EHR integrity due to unregulated third-party AI modifications.",
+    "Finalizing the Requester Preference exception would empower patients with granular control over EHI sharing and reduce provider burden.",
+    "Lack of detailed sub-regulatory guidance on patient preferences increases risk of privacy violations and lower quality care.",
+    "AI integration requires robust governance and monitoring to prevent errors and liability concerns."
+  ],
+  "recommendations": [
+    "Delay removal of the Third-party Seeking Modification Use information blocking exception until a strong trust framework and best practices are established.",
+    "Finalize the HTI-2-proposed Requester Preference information blocking exception to enhance patient agency.",
+    "Issue actionable sub-regulatory guidance on technology supporting patient preferences for EHI sharing under the Privacy Exception.",
+    "Adopt a measured, risk-based approach to third-party API use that protects patient safety and provider liability."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "We urge ASTP to preserve the Third-party Seeking Modification Use exception until critical patient safety concerns are addressed."
+}

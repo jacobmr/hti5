@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0121",
+  "commenter_name": "Bart Keyes",
+  "organization": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2432,
+  "org_type": "other",
+  "summary": "The commenter, representing patients in medical negligence cases, opposes the HTI-5 proposed deregulatory actions due to concerns that removing or reducing audit log and certification requirements will impair patient data integrity and safety. They emphasize the need to update and enforce audit trail standards before deregulation to prevent harm and fraud.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "ehi_security",
+    "billing_fraud"
+  ],
+  "specific_provisions": [
+    "170.315(d)(10)",
+    "170.315(d)(2)",
+    "170.315(d)(3)",
+    "170.315(b)(11)",
+    "170.315(g)(3)",
+    "170.102"
+  ],
+  "key_arguments": [
+    "Audit trails are essential to verify the integrity of medical records and uncover harmful or fraudulent alterations.",
+    "Current audit trail standards (ASTM E2147-18) are outdated and must be modernized before deregulation.",
+    "Removing certification requirements without updated data preservation standards risks patient harm and undermines trust.",
+    "Clear definitions for ePHI, EHI, Generative AI, and Synthetic Data are necessary before reducing regulatory guardrails."
+  ],
+  "recommendations": [
+    "Update, codify, and enforce audit trail and data preservation standards before any deregulation.",
+    "Retain the certification requirements in sections 170.315(d)(10), 170.315(d)(2), 170.315(d)(3), 170.315(b)(11), and 170.315(g)(3).",
+    "Define provider chat platforms as Electronic Health Information in section 170.102 to ensure safety and accountability."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are essential to patient safety and accountability."
+}

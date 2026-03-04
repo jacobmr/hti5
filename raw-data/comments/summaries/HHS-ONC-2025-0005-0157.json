@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0157",
+  "commenter_name": "Alliance",
+  "organization": "Alliance",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 6828,
+  "org_type": "advocacy_group",
+  "summary": "The Alliance, representing patients and caregivers, expresses strong concern about removing transparency and safety requirements in the HTI-5 proposed rule. Members prioritize patient safety and algorithmic transparency over deregulation and worry that shifting evaluation burdens to hospitals will reduce confidence and exacerbate health inequities.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "patient_safety",
+    "transparency",
+    "health_equity",
+    "burden_shift"
+  ],
+  "specific_provisions": [
+    "removal of transparency requirements",
+    "elimination of model cards",
+    "shift of AI evaluation responsibility from developers to hospitals"
+  ],
+  "key_arguments": [
+    "Majority of members are concerned about AI-caused medical errors due to bias, hallucinations, and lack of interpretability.",
+    "Removing developer transparency shifts evaluation burden to hospitals lacking technical expertise and resources.",
+    "This shift risks exacerbating health inequities between large academic and smaller rural hospitals.",
+    "Collaborative evaluation between developers and hospitals is preferred to ensure safety and accuracy."
+  ],
+  "recommendations": [
+    "Abandon the proposed rollback of mandatory transparency disclosures.",
+    "If rollbacks proceed, invest substantially in public communication about benefits to end users."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "AI developers AND hospitals should jointly do AI system evaluation. More evaluation is better."
+}

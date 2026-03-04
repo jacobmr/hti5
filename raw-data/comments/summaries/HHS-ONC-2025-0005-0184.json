@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0184",
+  "commenter_name": "Joint Public Health Informatics Taskforce (JPHIT)",
+  "organization": "Joint Public Health Informatics Taskforce (JPHIT)",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 27147,
+  "org_type": "professional_association",
+  "summary": "JPHIT appreciates efforts to reduce regulatory burden but strongly urges retaining legacy standards like CDA and HL7 v2 for public health reporting until FHIR is mature and widely adopted. They emphasize the need for sustained investment and time for public health agencies to transition to FHIR without disrupting existing data flows and compromising data quality.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "hl7_v2",
+    "interoperability",
+    "standards_based_requirements"
+  ],
+  "specific_provisions": [
+    "C-CDA creation certification criterion",
+    "HL7 v2.5.1",
+    "FHIR implementation guides",
+    "public health reporting standards"
+  ],
+  "key_arguments": [
+    "Removing legacy standards prematurely will disrupt critical public health data flows and increase burden.",
+    "FHIR standards and implementation guides are still under development and not ready for broad adoption.",
+    "Public health agencies lack resources and infrastructure to implement FHIR without sustained investment.",
+    "Standards-based certification ensures data quality, interoperability, and reduces burden on providers and PHAs."
+  ],
+  "recommendations": [
+    "Retain CDA and HL7 v2.5.1 standards during the transition to FHIR.",
+    "Provide adequate time and sustained funding for PHAs to develop FHIR capabilities.",
+    "Coordinate with PHAs before deregulating existing standards.",
+    "Maintain standards-based certification criteria rather than shifting to functional requirements.",
+    "Conduct FHIR pilot programs with public health to evaluate feasibility before broad adoption."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing these standards would reverse years of progress and squander substantial investments."
+}

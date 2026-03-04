@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0181",
+  "commenter_name": "SPEKTRUM Health",
+  "organization": "SPEKTRUM Health",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2112,
+  "org_type": "health_it_company",
+  "summary": "SPEKTRUM Health strongly opposes key deregulatory provisions in the HTI-5 proposed rule, citing risks to patient safety, data privacy, and health equity. They emphasize the need to maintain certification criteria for AI transparency, safety design, security measures, and demographic data capture.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "patient_safety",
+    "data_privacy",
+    "health_equity",
+    "audit_log_standards"
+  ],
+  "specific_provisions": [
+    "removal of Clinical Decision Support (CDS) certification",
+    "removal of safety-enhanced design (SED) requirements",
+    "removal or descoping of multi-factor authentication (MFA), audit reports, and encryption",
+    "removal of standardized demographic data elements (sex, sexual orientation, gender identity)"
+  ],
+  "key_arguments": [
+    "Removing CDS oversight reduces transparency into AI algorithms and risks clinician decision-making.",
+    "Eliminating safety design requirements increases medical errors and clinician burnout.",
+    "Reducing security standards exposes patient data to greater cybersecurity threats.",
+    "Removing demographic data capture harms public health efforts and marginalized communities."
+  ],
+  "recommendations": [
+    "Maintain certification criteria for Clinical Decision Support including AI transparency measures.",
+    "Retain patient safety and user-centered design requirements such as safety-enhanced design.",
+    "Preserve privacy and security guardrails including MFA, audit logs, and encryption standards.",
+    "Continue standardized capture of demographic data to support health equity initiatives."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The proposed reset prioritizes developer convenience over patient safety and data integrity."
+}

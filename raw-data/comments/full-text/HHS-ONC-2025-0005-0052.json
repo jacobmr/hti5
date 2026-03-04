@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0052",
+  "title": "Comment on HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Anonymous Anonymous",
+  "commenter_first": "Anonymous",
+  "commenter_last": "Anonymous",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-18T05:00:00Z",
+  "received_date": "2026-02-18T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "While the intent is to decrease burden, removing some of the requirements will have impacts downstream. It allows the EMR vendors to not incorporate key functionality into the base CEHRT edition that are necessary for regulatory reporting and other initiatives. For example, removing auditable events, audit reports and amendments will lead to lack of information needed for breach and other types of investigations. Vendor may opt to no add tracking functionality on new tables/fields, etc. Health centers frequently use auditable events and reports to track changes in a patient's medical record for complaints and/or privacy concerns. Likewise, as patients become more aware of their digital record accounting of disclosures are being requested. With this being removed, vendors will not be required to ensure there is an ease of reporting. While decreasing the vendor burden, it is inflating providers and health care entity burden to track and produce outside of the CEHRT. \n\nTransition of Care (CCD-A) information continues to bring much frustration without requirements of codified data that must be included. Health care providers often receive a document that contain no codified or relevant information for continuity. It has been a check the box for Promoting Interoperability rather than the intent it was supposed to have. I recommend instead of removing to add language surrounding a minimum data set of codified information that must be included in the transmission for continuity of care. It would be ideal that any provider who received payments from Medicare/Medicaid must abide by the requirements. This will provide a strong foundation for reducing health care cost and improving patient outcomes.\n\nIt would also be helpful if CMS provided transparent and clear guidance on when a CEHRT has to be implemented in order to participate in programs that require use of a CEHRT. This is a grey area and personally received conflicting guidance from CMS inquires. \n\nIn summary, this rule has several areas intended to reduce burden. However, at whose cost does this come. In many instances, allowing vendors to not be held to specific requirements for inclusion in the base edition CEHRT will open the door to increased burden of individual providers and health care providing entities.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

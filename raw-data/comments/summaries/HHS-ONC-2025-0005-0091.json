@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0091",
+  "commenter_name": "Aquila Health",
+  "organization": "Aquila Health",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10413,
+  "org_type": "health_it_company",
+  "summary": "Aquila Health supports the HTI-5 deregulatory efforts to reduce regulatory burden and accelerate innovation but urges a shift from prescriptive compliance to measurable performance standards. They emphasize the need for governance safeguards, AI transparency, federated trust architectures, and prioritization of data quality to ensure interoperability modernization is effective and trustworthy.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "ai_regulation",
+    "fhir_standards",
+    "data_quality",
+    "governance",
+    "information_blocking"
+  ],
+  "specific_provisions": [
+    "removal of prescriptive certification requirements",
+    "audit log requirements",
+    "information blocking safe harbors",
+    "federated trust architectures",
+    "AI transparency and auditability"
+  ],
+  "key_arguments": [
+    "Documentation-based certification does not guarantee real-world interoperability performance.",
+    "AI readiness requires governance frameworks addressing provenance, auditability, and reidentification risks.",
+    "Federated architectures better support scalable, secure, and accountable data sharing than centralized models.",
+    "Data quality and semantic standardization are foundational to effective interoperability."
+  ],
+  "recommendations": [
+    "Replace checklist-based certification with outcome-based interoperability validation.",
+    "Recognize federated trust architectures as preferred modernization pathways.",
+    "Clarify governance safeguards as permissible under information blocking rules.",
+    "Integrate AI transparency and auditability requirements alongside deregulation.",
+    "Elevate data quality measurement and improvement as a national interoperability priority."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Durable innovation fundamentally requires durable trust. HTI-5 is poised to advance both objectives."
+}

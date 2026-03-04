@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0059",
+  "commenter_name": "Fairview Health Services",
+  "organization": "Fairview Health Services",
+  "posted_date": "2026-02-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16145,
+  "org_type": "health_system",
+  "summary": "Fairview Health Services supports ONC's goals to reduce administrative burden and modernize interoperability standards but cautions against deregulation that erodes core safeguards for AI transparency, clinical decision support, data standards, and cybersecurity. They emphasize the need for maintaining provider oversight, data quality, and security while urging ONC to provide resources for QHIN participation and structured interoperability frameworks.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ai_regulation",
+    "interoperability",
+    "clinical_workflow",
+    "data_privacy",
+    "cybersecurity"
+  ],
+  "specific_provisions": [
+    "FHIR-based APIs",
+    "QHIN data sharing",
+    "TEFCA network",
+    "clinical decision support (CDS)",
+    "audit log requirements",
+    "AI transparency artifacts (model cards)"
+  ],
+  "key_arguments": [
+    "Removing AI transparency artifacts shifts burden and risk to health systems, risking safety and quality.",
+    "Lack of standards for high-risk longitudinal data leads to inaccurate AI interpretations and clinical errors.",
+    "Erosion of certified clinical decision support places undue burden on providers and risks loss of oversight.",
+    "Reducing cybersecurity standards, such as encryption for authentication, increases risk of attacks and data leakage."
+  ],
+  "recommendations": [
+    "Designate resources to help organizations join QHINs and provide appropriate QHIN oversight.",
+    "Require QHINs to share data effectively in standardized ways and EHR vendors to integrate data into clinical workflows.",
+    "Maintain guardrails to preserve clinical safety, auditability, provider oversight, and user transparency despite deregulation.",
+    "Retain targeted real-world testing for FHIR API performance and provider usability.",
+    "Avoid elimination of AI model cards or ensure clinical safety and trust are maintained.",
+    "Publish a crosswalk mapping removed criteria to how safety and oversight will be preserved."
+  ],
+  "sentiment_score": -1,
+  "notable_quote": "The most dangerous elements from this proposed deregulation are: loss of AI transparency artifacts, erosion of CDS, and cybersecurity risks."
+}

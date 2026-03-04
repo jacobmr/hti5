@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0167",
+  "title": "Comment from North Carolina Division of Public Health, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Anonymous",
+  "commenter_first": "",
+  "commenter_last": "",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "received_date": "2026-02-27T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "North Carolina opposes the deregulatory approach outlined in HTI-5. Moving away from prescriptive standards risks creating ambiguity and inconsistency. Vendors may interpret the requirements differently which increases interoperability gaps. Safeguarding the integrity of people's health data and ensuring they receive consistent follow-up care is essential for maintaining public health trust and positive health outcomes. Deregulation could undermine interoperability and accountability in public health data exchange, such as electronic case reporting (eCR).\n\nSimilarly, While FHIR-based standards are attractive for clinical operability, they remain immature for complex public health workflows such as eCR. Transitioning to FHIR would impose significant resource burdens without clear evidence of improved outcomes for North Carolinians. FHIR also introduces security and privacy risks that require governance (which deregulation does not support).\n\nThese proposals create underfunded mandates for North Carolina's public health agency, which lacks the resources to absorb the costs of major technology transitions without dedicated federal support.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

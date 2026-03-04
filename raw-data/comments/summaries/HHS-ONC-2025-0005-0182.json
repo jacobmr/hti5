@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0182",
+  "commenter_name": "MRO",
+  "organization": "MRO",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 11892,
+  "org_type": "health_it_company",
+  "summary": "MRO supports ONC's HTI-5 deregulatory actions to reduce burden and advance FHIR-based interoperability while emphasizing the need to maintain strong privacy and security safeguards. They highlight challenges with current FHIR implementations and advocate for continued support of legacy standards during the transition. MRO also supports clarifications to the Information Blocking framework and maintaining reasonable fees for medical records release.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "burden_reduction",
+    "data_privacy",
+    "interoperability",
+    "information_blocking"
+  ],
+  "specific_provisions": [
+    "Real World Testing requirements",
+    "FHIR-based API criteria",
+    "TEFCA Manner Exception removal",
+    "Fees Exception",
+    "Legacy standards support (HL7 v2, C-CDA)"
+  ],
+  "key_arguments": [
+    "Reducing certification and testing burdens will allow developers to focus on customer needs and improve real-world interoperability.",
+    "Strong privacy and security protections must be maintained even as deregulatory actions proceed.",
+    "Current Bulk FHIR capabilities are limited and need enhancements for scalability and dynamic patient groups.",
+    "Certification alone is insufficient due to inconsistent FHIR implementations in production."
+  ],
+  "recommendations": [
+    "Prioritize bi-directional FHIR capabilities such as FHIR Subscriptions and CDS Hooks.",
+    "Advance Bulk FHIR to support dynamic patient groups and larger data volumes with robust privacy filtering.",
+    "Continue supporting legacy standards like HL7 v2 and C-CDA during the transition to FHIR.",
+    "Ensure privacy and security capabilities are not diminished by shifting certification criteria.",
+    "Maintain the Fees Exception to allow cost-based fees for medical records release."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Maintaining patient and provider trust in privacy and security is essential to the success of interoperability priorities."
+}

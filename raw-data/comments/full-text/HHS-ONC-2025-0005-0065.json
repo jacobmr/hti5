@@ -1,0 +1,27 @@
+{
+  "id": "HHS-ONC-2025-0005-0065",
+  "title": "Comment from Joshi, Satyadhar, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Satyadhar Joshi",
+  "commenter_first": "Satyadhar",
+  "commenter_last": "Joshi",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-23T05:00:00Z",
+  "received_date": "2026-02-22T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "Re: Comment on Proposed Rule &mdash; Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions to Unleash Prosperity\nDocket ID: HHS-ONC-2025-0005\nDear Office of the Assistant Secretary for Technology Policy / Office of the National Coordinator for Health Information Technology,\nI am submitting this comment as an independent researcher in response to the above-referenced proposed rule published December 29, 2025. My comment is accompanied by an attached academic working paper:\nInteroperability Agentic Gen AI for API-Driven Health IT: Advancing the Modernized US ONC Framework\nSatyadhar Joshi (February 2026)\nThis paper analyzes the proposed rule's deregulatory provisions from the perspective of agentic generative AI systems, FHIR-based API interoperability, and AI governance. It draws on over 100 academic, industry, and policy sources to argue that while the rule's FHIR-forward strategy creates essential technical conditions for autonomous AI in healthcare, certain deregulatory actions &mdash; particularly the removal of AI transparency mandates and privacy/security certification criteria &mdash; create governance gaps that warrant complementary policy measures.\nAI Use Disclosure: Consistent with full transparency, I disclose that portions of the attached paper were drafted with the assistance of AI writing tools, including ChatGPT and Claude (Anthropic), to improve clarity and organization. LaTeX formatting was assisted by GitHub Copilot and DeepSeek. All AI-generated content was reviewed, edited, and verified by me for accuracy and coherence. I take sole responsibility for all analysis, conclusions, and any errors in the attached work.\nI respectfully request that ONC consider the attached paper in its deliberations on this rulemaking.\nRespectfully submitted,\nSatyadhar Joshi\nIndependent Researcher\nAlumnus, International MBA, Bar-Ilan University, Israel\nAlumnus, MSIT, Touro College, New York, USA\nORCID: 0009-0002-6011-5080\nsatyadhar.joshi@gmail.com",
+  "has_attachments": true,
+  "attachments": [
+    {
+      "title": "Interoperability_AgenticAI_HealthIT_API_Regulatory_Framework",
+      "filename": "",
+      "url": "https://downloads.regulations.gov/HHS-ONC-2025-0005-0065/attachment_1.pdf",
+      "format": "pdf"
+    }
+  ],
+  "doc_abstract": ""
+}

@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0295",
+  "commenter_name": "ADVION Advocates",
+  "organization": "ADVION Advocates",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 157,
+  "org_type": "advocacy_group",
+  "summary": "ADVION Advocates supports the HTI-5 proposed deregulatory actions, emphasizing the need to reduce burdens on health IT developers while maintaining patient safety and interoperability. They highlight the importance of balancing deregulation with safeguards to ensure data privacy and clinical workflow integrity.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "patient_safety",
+    "data_privacy",
+    "vendor_burden"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA",
+    "170.315(d)(2) audit logs",
+    "USCDI data classes",
+    "EHI export"
+  ],
+  "key_arguments": [
+    "Reducing certification requirements will lower costs and accelerate innovation.",
+    "Maintaining core interoperability standards is essential to protect patient safety.",
+    "Audit log and EHI export requirements can be streamlined without compromising data privacy.",
+    "Overly prescriptive standards hinder vendor flexibility and clinical workflow improvements."
+  ],
+  "recommendations": [
+    "Retain essential interoperability standards to ensure safe data exchange.",
+    "Simplify but do not eliminate audit log requirements to balance privacy and burden.",
+    "Phase in USCDI data class reductions carefully to avoid loss of critical data.",
+    "Engage stakeholders continuously to monitor impacts of deregulatory actions."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Reducing certification burdens will unleash innovation while safeguarding patient safety and interoperability."
+}

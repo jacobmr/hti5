@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0194",
+  "commenter_name": "Oregon Health & Science University (OHSU)",
+  "organization": "Oregon Health & Science University (OHSU)",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8027,
+  "org_type": "health_system",
+  "summary": "OHSU supports innovation and reducing regulatory burden but strongly opposes removing key certification criteria and transparency requirements, citing risks to patient safety and increased burden on providers. They urge maintaining privacy, security, interoperability standards, and information blocking exceptions to protect patients and providers.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "certification_criteria",
+    "information_blocking",
+    "patient_safety",
+    "data_privacy"
+  ],
+  "specific_provisions": [
+    "Predictive Decision Support Interventions transparency (Model Cards)",
+    "Removal of 34 certification criteria including privacy and security",
+    "Information Blocking exceptions (Third-Party Seeking Modification Use Condition, TEFCA exception)"
+  ],
+  "key_arguments": [
+    "Removing AI transparency requirements increases opacity and risks harming patients.",
+    "Removing certification criteria shifts interoperability burden to providers who lack technical power.",
+    "Privacy and security features must be baseline requirements, not optional add-ons.",
+    "Removing or tightening information blocking exceptions increases provider burden and risks patient data integrity."
+  ],
+  "recommendations": [
+    "Retain AI transparency requirements including model cards for predictive decision support.",
+    "Maintain existing certification criteria to ensure baseline privacy, security, and interoperability.",
+    "Preserve current Information Blocking exceptions, including the Third-Party Seeking Modification and TEFCA exceptions.",
+    "Expand definition of Health IT Developer to include non-HIPAA entities requesting data via Certified APIs with penalties for breaches."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing it does not unleash innovation; it unleashes opacity that may harm patients and erode trust in AI tools."
+}

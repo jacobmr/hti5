@@ -1,0 +1,48 @@
+{
+  "id": "HHS-ONC-2025-0005-0224",
+  "commenter_name": "Jacob Reider",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 55358,
+  "org_type": "individual_clinician",
+  "summary": "The comment strongly opposes the HTI-5 proposed deregulatory actions that remove key health IT certification criteria, emphasizing the critical importance of retaining patient safety requirements, audit logs, authentication, and quality management systems. It argues that the rationale of 'widespread adoption' is flawed and that removing these criteria undermines enforcement mechanisms and patient safety.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "patient_safety",
+    "audit_log_standards",
+    "authentication_access_control",
+    "quality_management_system",
+    "clinical_decision_support",
+    "enforcement_mechanisms",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "170.315(g)(3) Safety-Enhanced Design",
+    "170.315(g)(4) Quality Management System",
+    "170.315(d)(2) Audit Logs",
+    "170.315(d)(3) Audit Logs",
+    "170.315(d)(10) Audit Logs",
+    "170.315(d)(1) Authentication",
+    "170.315(d)(13) Access Control",
+    "170.315(b)(11) Clinical Decision Support Source Attributes"
+  ],
+  "key_arguments": [
+    "Removing safety-enhanced design and quality management requirements risks patient harm as these address usability and systematic safety.",
+    "Audit logs are essential for error investigation, fraud detection, quality improvement, and enforcement; removing them eliminates proven enforcement tools.",
+    "Authentication and access controls prevent wrong-patient errors and certification verifies their implementation beyond HIPAA requirements.",
+    "The 'widespread adoption' rationale is a logical fallacy; certification drives adoption and should not be removed because of it."
+  ],
+  "recommendations": [
+    "Retain Safety-Enhanced Design criterion (170.315(g)(3)) in full.",
+    "Retain Quality Management System requirements (170.315(g)(4)).",
+    "Retain all audit log and tamper-resistance requirements (170.315(d)(2),(d)(3),(d)(10)); consolidate if needed but do not remove.",
+    "Retain authentication and access control requirements including multi-factor authentication (170.315(d)(1),(d)(13)).",
+    "Retain Clinical Decision Support source attribute requirements (170.315(b)(11)) including funding disclosure.",
+    "Reject and remove any reference to the 'widespread adoption' rationale for removing safety requirements.",
+    "Maintain certification criteria addressing internal product safety alongside interoperability standards.",
+    "Analyze enforcement impacts before removing any certification criterion."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "We do not remove seatbelt requirements because cars have seatbelts. The requirement is what made them so."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0199",
+  "commenter_name": "American Psychiatric Association",
+  "organization": "American Psychiatric Association",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 15313,
+  "org_type": "professional_association",
+  "summary": "The American Psychiatric Association appreciates efforts to reduce health IT burdens but strongly cautions against removing key certification requirements without replacement safeguards, especially for sensitive behavioral health data. They emphasize risks to privacy, consent, auditability, and clinical integrity with expanded automated and AI-driven data access, urging retention of baseline privacy/security controls and transparency.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "data_privacy",
+    "audit_log_standards",
+    "ai_regulation",
+    "uscdi_data_classes",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "model card transparency for Decision Support Interventions (DSI)",
+    "USCDI v3.1 baseline data elements",
+    "data segmentation/security tags",
+    "privacy and security certification criteria (e.g., role-based access, audit logging, multi-factor authentication)",
+    "information blocking definitions and exceptions"
+  ],
+  "key_arguments": [
+    "Removing transparency requirements for AI-driven models increases 'black box' risks and undermines trust, especially for sensitive behavioral health data.",
+    "Reducing standardization of sensitive demographic data may create interoperability gaps and disrupt integrated care.",
+    "Eliminating certification for data segmentation and security tags risks inconsistent privacy protections and increases clinician burden.",
+    "Removing baseline privacy/security certification criteria threatens confidentiality, access governance, and patient safety in behavioral health."
+  ],
+  "recommendations": [
+    "Retain a minimum, scalable model card transparency requirement for predictive models in certified health IT.",
+    "Clarify support for patient-centered documentation if USCDI standardization is reduced and prevent new interoperability barriers.",
+    "Retain certification requirements for data segmentation/security tagging or provide a clear alternative ensuring interoperable implementation.",
+    "Maintain a core privacy/security certification baseline including multi-factor authentication, role-based access, and audit logging.",
+    "Explicitly clarify that providers are not required to enable automated or bulk third-party access without appropriate safeguards.",
+    "Recognize clinical integrity, patient safety, and confidentiality as legitimate reasons to limit third-party automated access.",
+    "Provide guidance on handling consent and restricted data in automated access scenarios to avoid discouraging privacy protections."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing transparency requirements shifts risk to clinicians and patients and may undermine trust in health IT-enabled care."
+}

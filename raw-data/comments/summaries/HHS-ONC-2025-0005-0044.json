@@ -1,0 +1,30 @@
+{
+  "id": "HHS-ONC-2025-0005-0044",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-13T05:00:00Z",
+  "has_text": true,
+  "comment_length": 358,
+  "org_type": "other",
+  "summary": "The commenter suggests that ASTP/ONC should evaluate real-time and push notification capabilities using advanced FHIR APIs combined with serverless processing, durable streaming technologies, and real-time analytics frameworks. They reference a journal article reviewing tools and techniques for real-time data processing to support this suggestion.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "real_time_data_processing",
+    "technology_innovation"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Real-time and push notifications can be enhanced using modern streaming and analytics technologies.",
+    "FHIR APIs combined with serverless and durable streaming platforms enable better data interoperability.",
+    "Incorporating real-time analytics frameworks can improve health IT responsiveness and data utility."
+  ],
+  "recommendations": [
+    "ASTP/ONC should assess real-time and push notification capabilities using FHIR APIs with serverless processing.",
+    "Consider durable streaming technologies like Kafka and Pulsar for health IT data flows.",
+    "Incorporate real-time analytics tools such as Spark and Flink in interoperability standards."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "ASTP/ONC should assess real time and push notifications using FHIR APIs with serverless processing"
+}

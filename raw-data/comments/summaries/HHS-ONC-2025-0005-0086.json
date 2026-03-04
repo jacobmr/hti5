@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0086",
+  "commenter_name": "Physical Activity Alliance",
+  "organization": "Physical Activity Alliance",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 5149,
+  "org_type": "advocacy_group",
+  "summary": "The Physical Activity Alliance urges ONC to adopt USCDI v4 instead of v3.1 to include physical activity assessment in certified health IT, aligning with CMS and CMMI policies and leveraging existing FHIR implementation guides to improve interoperability and support population health.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "uscdi_data_classes",
+    "interoperability",
+    "fhir_standards",
+    "clinical_workflow",
+    "population_health"
+  ],
+  "specific_provisions": ["USCDI v3.1", "USCDI v4", "\u00a7170.213"],
+  "key_arguments": [
+    "Inclusion of physical activity assessment in USCDI v4 enables standardized capture and exchange of physical activity data in certified EHRs.",
+    "Adoption aligns with CMS and CMMI policies promoting prevention and lifestyle-based care.",
+    "Existing HL7 FHIR Physical Activity Implementation Guide supports integration and interoperability.",
+    "Physical activity data is critical for chronic disease prevention, improved health outcomes, and cost containment."
+  ],
+  "recommendations": [
+    "Adopt USCDI v4 in \u00a7170.213 instead of USCDI v3.1.",
+    "Support certification pathways that enable standardized physical activity data exchange.",
+    "Consider incentivizing adoption of the Physical Activity Implementation Guide within certification criteria."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Adoption of USCDI v4 is essential to enable standardized capture, exchange, and use of physical activity data within certified health IT."
+}

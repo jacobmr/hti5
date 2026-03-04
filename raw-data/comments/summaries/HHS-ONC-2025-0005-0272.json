@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0272",
+  "commenter_name": "Consensus Cloud Solutions",
+  "organization": "Consensus Cloud Solutions",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 63,
+  "org_type": "health_it_company",
+  "summary": "Consensus Cloud Solutions supports the proposed deregulatory actions in HTI-5, emphasizing the reduction of certification burdens to foster innovation and improve interoperability. They highlight the benefits of removing outdated requirements like C-CDA creation and easing audit log and EHI export mandates.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "ccda_removal",
+    "audit_log_standards",
+    "ehi_export",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA",
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "USCDI data classes"
+  ],
+  "key_arguments": [
+    "Reducing certification requirements lowers development costs and accelerates innovation.",
+    "Removing outdated standards like C-CDA creation aligns with current interoperability practices.",
+    "Easing audit log and EHI export requirements reduces unnecessary burdens without compromising security.",
+    "Simplifying USCDI data class requirements allows more flexible data exchange."
+  ],
+  "recommendations": [
+    "Proceed with removing the C-CDA creation certification criterion.",
+    "Reduce audit log and EHI export requirements as proposed.",
+    "Maintain focus on burden reduction to encourage health IT innovation."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Reducing certification requirements lowers development costs and accelerates innovation."
+}

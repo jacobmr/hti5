@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0076",
+  "commenter_name": "Craig Tuttle",
+  "organization": "",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4639,
+  "org_type": "advocacy_group",
+  "summary": "The commenter, representing patient safety interests, opposes the HTI-5 proposed deregulatory actions, emphasizing that removing or reducing audit trail and data preservation requirements before updating foundational standards risks patient safety, data integrity, and trust. They urge HHS to modernize audit trail standards and data retention policies prior to any deregulation.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_preservation",
+    "interoperability",
+    "fraud_prevention"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "USCDI data classes",
+    "standardized API requirements"
+  ],
+  "key_arguments": [
+    "Current audit trail standards are outdated and insufficient for modern clinical environments.",
+    "Removing certification requirements before updating data creation, collection, and preservation standards jeopardizes patient safety and trust.",
+    "Audit trails are essential for verifying EHI integrity, preventing billing fraud, and ensuring legal accountability.",
+    "Data retention must be clearly defined and enforced to prevent loss of critical health information."
+  ],
+  "recommendations": [
+    "Prioritize revision and modernization of audit trail standards including AI, medical device, and messaging integration.",
+    "Require audit trails to capture software identification and interoperability details.",
+    "Mandate granular metadata collection to prevent fraud and ensure transparency of record changes.",
+    "Ensure patient access to EHI is fully implemented and gaps addressed.",
+    "Prohibit ephemeral messaging or automatic data destruction to guarantee data retention in readable formats.",
+    "Delay any deregulatory certification changes until robust audit and preservation standards are finalized."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Audit trails are essential to billing integrity, patient trust, and legal accountability."
+}

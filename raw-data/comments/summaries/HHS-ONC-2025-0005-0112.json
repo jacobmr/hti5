@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0112",
+  "commenter_name": "Drummond Group",
+  "organization": "Drummond Group",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 19733,
+  "org_type": "health_it_company",
+  "summary": "Drummond Group supports the overall direction of HTI-5 to streamline certification and focus on FHIR-based interoperability but urges a more cautious, phased approach to removing many certification criteria. They emphasize the need to maintain foundational privacy, security, and clinical workflow assurances, especially during early AI adoption, and recommend aligning and consolidating overlapping API requirements to reduce confusion and burden.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "privacy_and_security",
+    "ccda_removal",
+    "ai_regulation",
+    "burden_reduction",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "170.315(a)(9) Clinical Decision Support",
+    "170.315(b)(11) AI Model Cards / DSI API",
+    "170.315(g)(10) FHIR API",
+    "170.315(d)(1)-(13) Privacy and Security Criteria",
+    "170.315(b)(1) and (b)(2) C-CDA",
+    "170.315(g)(6) Document-Based Exchange"
+  ],
+  "key_arguments": [
+    "Removing large clusters of certification criteria risks gaps in assurance and increases variability across developers.",
+    "Source attribute requirements for AI-enabled decision support are critical for transparency and clinician trust during early adoption.",
+    "Privacy and security criteria removal may leave smaller providers vulnerable without a baseline assurance mechanism.",
+    "Aligning and consolidating overlapping API requirements (e.g., DSI API and FHIR API) would reduce developer confusion and burden."
+  ],
+  "recommendations": [
+    "Adopt a phased, targeted approach to removing certification criteria with clear replacement assurance mechanisms.",
+    "Retain foundational privacy and security criteria or require developer attestation to recognized security frameworks.",
+    "Align (b)(11) DSI API data support requirements with (g)(10) FHIR API or consider eliminating redundant requirements.",
+    "Retain some source attribute requirements for predictive decision support to ensure transparency and explainability.",
+    "Coordinate certification streamlining with other HTI-5 changes to avoid undermining safety or interoperability."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Removing large clusters of criteria at once risks unintended gaps in baseline assurance and increased variability."
+}

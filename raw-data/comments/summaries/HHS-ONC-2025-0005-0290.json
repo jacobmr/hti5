@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0290",
+  "commenter_name": "Virginia Lorenzi",
+  "organization": "",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3158,
+  "org_type": "other",
+  "summary": "The commenter, a patient and family caregiver, expresses concern that removing certification requirements will reduce data availability and transparency, especially around AI use and privacy/security features. They support FHIR's future potential but urge caution and recommend maintaining or transitioning certification requirements to ensure patient access and trust.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "audit_log_standards",
+    "ehi_export",
+    "ai_regulation",
+    "data_privacy",
+    "fhir_standards",
+    "patient_access"
+  ],
+  "specific_provisions": [
+    "C-CDA creation certification criterion",
+    "audit log requirements",
+    "EHI export requirements",
+    "AI transparency requirements",
+    "privacy and security criteria",
+    "PGHD criteria"
+  ],
+  "key_arguments": [
+    "Patients and caregivers rarely use information blocking threats, so data should be easily available by default.",
+    "Removing certification will lead vendors and providers to drop features, harming interoperability and data exchange.",
+    "AI transparency is critical for patient trust and should be part of the accessible health record.",
+    "Privacy and security features are essential and should not be removed as breaches are too late to address harm."
+  ],
+  "recommendations": [
+    "Replace removed certification requirements with attestation or delay removal until FHIR replacements are widely adopted.",
+    "Maintain AI transparency requirements in EHRs to allow patients to understand AI use.",
+    "Retain privacy and security certification criteria to ensure protections and audit capabilities remain.",
+    "Advance FHIR-based patient functionalities such as structured writes, appointment scheduling, and electronic requests."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Data should just be easily available, and the certification program... supports that."
+}

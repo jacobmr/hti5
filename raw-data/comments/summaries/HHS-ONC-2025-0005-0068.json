@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0068",
+  "commenter_name": "SNOMED International",
+  "organization": "SNOMED International",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10127,
+  "org_type": "professional_association",
+  "summary": "SNOMED International supports deregulatory efforts that reduce burden on health IT developers but cautions against removing key standards that ensure patient safety and semantic interoperability. They emphasize the critical role of SNOMED CT in maintaining data quality and recommend its continued use and explicit referencing in future standards and criteria.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "semantic_interoperability",
+    "uscdi_data_classes",
+    "burden_reduction",
+    "patient_safety",
+    "fhir_standards"
+  ],
+  "specific_provisions": [
+    "170.315(a)(5) Patient Demographics",
+    "170.315(a)(12) Family Health History",
+    "170.315(a)(14) Implantable Device List",
+    "USCDI v3.1",
+    "CDA removal",
+    "FHIR transition"
+  ],
+  "key_arguments": [
+    "Removing certification criteria may reduce incentives for developers to update to latest SNOMED CT versions, risking data quality.",
+    "FHIR provides transport but SNOMED CT ensures clinical data integrity and semantic interoperability.",
+    "Removal of Implantable Device List criterion risks losing critical device attribute data encoded with SNOMED CT, impacting patient safety.",
+    "Continued referencing of SNOMED CT prevents semantic fragmentation and regression to proprietary local codes."
+  ],
+  "recommendations": [
+    "Continue referencing SNOMED CT in remaining and future certification criteria and voluntary standards like USCDI.",
+    "Explicitly list SNOMED CT as preferred terminology in any criteria converted to functional-only requirements.",
+    "Retain SNOMED CT as the backbone terminology to avoid costly adoption of new terminologies like ICD-11.",
+    "Caution against removal of Implantable Device List criterion to preserve clinical context and patient safety."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "We caution the agency to ensure that patient safety, trust, and semantic interoperability are not compromised by the removal of key guardrails."
+}

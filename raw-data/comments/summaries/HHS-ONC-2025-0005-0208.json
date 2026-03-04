@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0208",
+  "commenter_name": "Eliel Oliveira",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2404,
+  "org_type": "other",
+  "summary": "The commenter supports deregulatory actions in HTI-5 but urges ASTP to implement domestic ownership and control standards for Jurisdictional Hubs to protect national security. They also recommend establishing State-Designated Health Data Utilities as safe harbors for small rural hospitals and aligning federal grants with CMS-aligned, non-profit networks to prevent data fragmentation and foreign control.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "domestic_ownership",
+    "interoperability",
+    "ai_regulation",
+    "data_governance",
+    "rural_health"
+  ],
+  "specific_provisions": [
+    "TEFCA Manner Exception",
+    "Jurisdictional Hubs",
+    "Rural Health Transformation Program (RHTP)",
+    "AI-enabled interoperability"
+  ],
+  "key_arguments": [
+    "Domestic ownership and control of Jurisdictional Hubs is critical to safeguard national security and prevent foreign interference.",
+    "Small rural hospitals need a technical safe harbor via State-Designated Health Data Utilities to manage AI-related risks and comply with information blocking rules.",
+    "Federal grants should support CMS-aligned, non-profit networks to avoid data fragmentation and foreign-controlled proprietary silos.",
+    "AI access to health data must be governed by public-interest entities to ensure clinical efficiency and security."
+  ],
+  "recommendations": [
+    "Establish a 'Domestic Ownership Standard' requiring Jurisdictional Hubs to be 100% U.S.-owned and operated without foreign collaboration.",
+    "Create a 'Domestic-Control Standard' for Jurisdictional Hubs aligned with EO 14192 and CIRCIA.",
+    "Replace the TEFCA Manner Exception with a 'State-Designated Utility (HDU) Safe Harbor' to support small rural hospitals.",
+    "Require states receiving RHTP grants to use a 'CMS-Aligned Network' model managed by Non-Profit Jurisdictional Utilities."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Entities managing the 'Data Pipe' must be U.S.-owned to prevent foreign-parent interference in critical health infrastructure."
+}

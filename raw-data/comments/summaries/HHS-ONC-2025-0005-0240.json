@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0240",
+  "commenter_name": "Kno2",
+  "organization": "Kno2",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16543,
+  "org_type": "health_it_company",
+  "summary": "Kno2 supports reducing unnecessary regulatory burdens to enable modern interoperability and AI-enabled tools but urges caution to avoid interoperability regressions, especially for under-resourced providers relying on legacy methods like Direct. They recommend phasing out legacy criteria only after practical replacements are widely adopted and maintaining transparency into real-world interoperability performance.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "burden_reduction",
+    "direct_protocol",
+    "fhir_standards",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "170.315(h)(1) Direct Project",
+    "170.315(h)(2) Direct Project, Edge Protocol, XDR/XDM",
+    "170.315(b)(1) Transitions of care",
+    "Conditions and Maintenance of Certification",
+    "FHIR-based API requirements"
+  ],
+  "key_arguments": [
+    "Removing Direct-related certification criteria prematurely risks disrupting practical interoperability for providers lacking resources to adopt FHIR quickly.",
+    "Deregulatory actions should avoid interoperability regression, especially for low-margin, under-resourced providers in LTPAC and similar settings.",
+    "Reducing certification and reporting requirements may reduce visibility into real-world interoperability performance.",
+    "A FHIR-forward policy should not become FHIR-exclusive in practice during the transition period."
+  ],
+  "recommendations": [
+    "Adopt a 'no interoperability regression' principle with phased or deferred removal of legacy criteria based on market readiness.",
+    "Do not finalize immediate removal of Direct-related certification criteria; if removed, require continued support for existing document exchange pathways.",
+    "Evaluate transitions-of-care revisions with outcome-based criteria and provide guidance for under-resourced settings.",
+    "Include post-finalization market monitoring to assess if deregulation shifts costs to providers.",
+    "Retain minimal but meaningful real-world interoperability measures beyond FHIR app usage.",
+    "Explicitly acknowledge need for multiple interoperable transport methods during FHIR transition.",
+    "Prioritize implementation resources and technical assistance for smaller, under-resourced providers."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "HTI-5 should not remove practical interoperability pathways faster than the market has fully replaced them at scale."
+}

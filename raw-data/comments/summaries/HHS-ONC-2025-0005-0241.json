@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0241",
+  "commenter_name": "Innovaccer, Inc.",
+  "organization": "Innovaccer, Inc.",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16463,
+  "org_type": "health_it_company",
+  "summary": "Innovaccer, Inc. supports the HTI-5 proposed rule's deregulatory actions, emphasizing the importance of data liquidity and AI-enabled interoperability. They strongly back revisions to information blocking definitions to include automated/AI access and urge removal or revision of certain exceptions to promote bidirectional integration and fair contracting.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "information_blocking",
+    "ai_regulation",
+    "interoperability",
+    "fhir_standards",
+    "vendor_burden"
+  ],
+  "specific_provisions": [
+    "\u00a7171.102 definitions of access and use",
+    "Infeasibility Exception \u00a7171.204(a)(3)",
+    "Manner Exception Exhausted Condition \u00a7171.204(a)(4)",
+    "Manner Exception \u00a7171.301(a)",
+    "TEFCA Manner Exception Subpart D of Part 171 (\u00a7171.403, \u00a7171.401)"
+  ],
+  "key_arguments": [
+    "Automated and AI-driven access, use, and exchange of EHI must be explicitly included in information blocking definitions to reduce friction and ambiguity.",
+    "The third-party modification use condition in the Infeasibility Exception blocks essential bidirectional integration and should be removed.",
+    "The Manner Exception Exhausted Condition should be revised to prevent misuse by requiring genuine, functionally equivalent alternatives at market rates.",
+    "Unconscionable contract terms by EHR developers restrict fair data access and should be prohibited with guidance on market rates and transparency mechanisms."
+  ],
+  "recommendations": [
+    "Adopt the alternative proposal to revise the 'exchange' definition alongside 'access' and 'use' to cover automated AI systems.",
+    "Remove the third-party modification use condition from the Infeasibility Exception and issue guidance to ensure meaningful access.",
+    "Clarify and revise the Manner Exception Exhausted Condition to prevent sham alternatives and require good-faith efforts.",
+    "Issue guidance defining 'market rate' for EHI access and establish a reporting mechanism for unconscionable contract terms.",
+    "Remove the TEFCA-specific Manner Exception to prevent gatekeeping and ensure uniform application of information blocking rules."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Data liquidity, the ability of health information to move in high-quality, standardized form, is the foundation on which effective healthcare AI is built."
+}

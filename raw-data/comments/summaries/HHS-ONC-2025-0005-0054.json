@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0054",
+  "commenter_name": "HLN Consulting, LLC",
+  "organization": "HLN Consulting, LLC",
+  "posted_date": "2026-02-18T05:00:00Z",
+  "has_text": true,
+  "comment_length": 6383,
+  "org_type": "health_it_company",
+  "summary": "HLN Consulting opposes many deregulatory actions in the HTI-5 proposed rule, emphasizing that removing certification criteria and standards will increase complexity and burden for public health agencies and vendors. They support the shift toward FHIR but stress that public health agencies are not ready for it and recommend retaining existing standards like CDA and HL7 v2.5.1.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "uscdi_data_classes",
+    "interoperability",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "170.315(f)(4) Cancer Registries",
+    "170.315(f)(5) Electronic Case Reporting (eCR)",
+    "170.315(f)(6) Antimicrobial Use and Resistance Reporting",
+    "170.315(f)(7) Healthcare surveys",
+    "USCDI v3.1",
+    "Insights Conditions reporting",
+    "Bulk FHIR",
+    "C-CDA creation certification criterion"
+  ],
+  "key_arguments": [
+    "Removing certification criteria will increase variability and burden on health IT developers, healthcare organizations, and public health agencies.",
+    "Public health agencies are not ready to adopt FHIR widely and need continued support for CDA and HL7 v2.5.1 standards.",
+    "Adopting USCDI v3.1 would roll back essential patient demographic data important for public health; higher USCDI versions should be used.",
+    "Removing Insights Conditions and Bulk FHIR reporting will reduce valuable data on real-world interface deployment."
+  ],
+  "recommendations": [
+    "Retain certification criteria for public health transmissions including eCR, cancer registries, antimicrobial use, and healthcare surveys.",
+    "Maintain support for CDA and HL7 v2.5.1 standards until public health agencies are ready for FHIR.",
+    "Adopt at least USCDI v4 or preferably the latest USCDI version (v6) in certification.",
+    "Do not remove Insights Conditions reporting and Bulk FHIR as they provide valuable deployment data."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing these standards-based transmissions might result in increased variability and capabilities in the EHR systems."
+}

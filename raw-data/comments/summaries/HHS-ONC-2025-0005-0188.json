@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0188",
+  "commenter_name": "Manifest MedEx",
+  "organization": "Manifest MedEx",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 15124,
+  "org_type": "other",
+  "summary": "Manifest MedEx supports some deregulatory efforts but strongly opposes the proposed definition of 'contract of adhesion' and removal of certain exceptions, citing risks to health information exchange trust and operations. They recommend retaining existing legal standards and clarifying contract terms to avoid undermining standardized agreements critical for scalable data exchange.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "contract_of_adhesion_definition",
+    "information_blocking",
+    "health_information_exchange",
+    "manner_exception",
+    "automated_access"
+  ],
+  "specific_provisions": [
+    "\u00a7 171.102 contract of adhesion definition",
+    "\u00a7 171.301(a)(2) Manner Exception",
+    "\u00a7 171.403 TEFCA Manner Exception removal",
+    "\u00a7 171.204(a)(3) Infeasibility Exception third party modification use condition",
+    "automated access clarification"
+  ],
+  "key_arguments": [
+    "The proposed contract of adhesion definition would classify all standardized HIE agreements as presumptive information blocking, undermining trusted exchange.",
+    "Standardized agreements are essential for scalable, transparent, and trusted network participation and cannot be replaced by individualized negotiations.",
+    "Removing the TEFCA Manner Exception combined with the new contract definition creates regulatory contradictions for TEFCA participants.",
+    "The 'third party seeking modification use' condition in the Infeasibility Exception is important for ensuring data accuracy and should not be removed without clear guidance."
+  ],
+  "recommendations": [
+    "Retain the existing language at \u00a7 171.301(a)(1) and require compliance with Fees and Licensing Exceptions to satisfy the Manner Exception.",
+    "If redefining contract of adhesion, adopt a narrower definition aligned with common law focusing on bargaining power and one-sided terms.",
+    "Resolve inconsistencies between TEFCA participation requirements and contract of adhesion definition if TEFCA Manner Exception is removed.",
+    "Maintain the 'third party seeking modification use' condition or provide guidance on using Security and Preventing Harm exceptions for data modification requests.",
+    "Support clarification that automated access includes robotic process automation and AI, with continued compliance to security and privacy standards."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Standardized participation agreements are foundational to transparency, enabling trusted exchange through scalable networks."
+}

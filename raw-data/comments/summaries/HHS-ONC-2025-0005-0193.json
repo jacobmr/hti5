@@ -1,0 +1,45 @@
+{
+  "id": "HHS-ONC-2025-0005-0193",
+  "commenter_name": "Premier Inc.",
+  "organization": "Premier Inc.",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 25129,
+  "org_type": "health_it_company",
+  "summary": "Premier Inc. supports the HTI-5 deregulatory efforts to reduce burden and improve interoperability but urges ONC to preserve provider trust, transparency, safety, and accountability. They emphasize finalizing changes to information blocking exceptions to prevent misuse, advancing FHIR-based interoperability, and balancing innovation with privacy and security safeguards.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "information_blocking",
+    "interoperability",
+    "certification_program",
+    "burden_reduction",
+    "fhir_standards"
+  ],
+  "specific_provisions": [
+    "information blocking exceptions",
+    "Infeasibility Exception - third party seeking modification use condition",
+    "Infeasibility Exception - manner exception exhausted condition",
+    "Manner Exception contractual/pricing arrangements",
+    "TEFCA Manner Exception",
+    "real-world testing (RWT) requirements",
+    "standards version advancement process (SVAP)"
+  ],
+  "key_arguments": [
+    "Information blocking exceptions have been misused to deny legitimate access and inhibit interoperability.",
+    "Removing or limiting certain exceptions will promote fair, scalable, and automated data exchange.",
+    "Certification program deregulation should not reduce transparency or provider trust in health IT.",
+    "TEFCA should not be used to restrict alternative exchange pathways and ONC should clarify QHINs' refusal rights."
+  ],
+  "recommendations": [
+    "Finalize proposed changes to tighten information blocking exceptions to prevent misuse.",
+    "Remove the 'third party seeking modification' and 'manner exception exhausted' conditions from the Infeasibility Exception.",
+    "Amend the Manner Exception to exclude non-market rates and unconscionable contract terms.",
+    "Remove the TEFCA Manner Exception to avoid limiting non-TEFCA exchange.",
+    "Maintain transparency and provider trust when reducing certification requirements, especially regarding real-world testing.",
+    "Advance FHIR-based interoperability with consistent implementation and governance.",
+    "Coordinate across HHS to standardize supply chain and administrative data for true interoperability.",
+    "Extend burden reduction efforts broadly to avoid shifting complexity downstream."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Premier strongly supports the proposed revision and agrees that this exception has been routinely invoked to deny legitimate access."
+}

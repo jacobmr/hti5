@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0131",
+  "commenter_name": "American College of Obstetricians & Gynecologists",
+  "organization": "American College of Obstetricians & Gynecologists",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 21630,
+  "org_type": "professional_association",
+  "summary": "The American College of Obstetricians & Gynecologists (ACOG) expresses concerns about the proposed deregulatory actions in the HTI-5 rule, particularly regarding expanded definitions of access, use, and exchange of electronic health information (EHI) involving automation and AI. They emphasize the need to protect sensitive patient data, especially for vulnerable populations such as IPV survivors, adolescents, and pregnant individuals with substance use disorders, and caution against changes that could increase risk to patient safety or administrative burden.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "data_privacy",
+    "patient_safety",
+    "information_blocking",
+    "ai_regulation",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "Information Blocking (Part 171)",
+    "definitions of access, use, and exchange of EHI",
+    "Manner Exception Exhausted Condition",
+    "automation technologies including robotic process automation and autonomous AI systems"
+  ],
+  "key_arguments": [
+    "Current EHR vendors lack capability to segment sensitive health data, risking patient safety if unlimited access/use/exchange is codified.",
+    "Automation technologies and AI in health data exchange are not fully tested, posing risks of data exposure to malicious parties.",
+    "Increasing the minimum number of alternative manners in the Manner Exception could delay data receipt and increase administrative burden.",
+    "Vocabulary changes in the Manner Exception exhausted condition may cause confusion and be exploited by bad actors, endangering sensitive patient data."
+  ],
+  "recommendations": [
+    "Do not finalize proposals expanding definitions of access, use, and exchange of EHI to include unlimited use of automation technologies and AI.",
+    "Avoid increasing the minimum number of alternative manners required in the Manner Exception from two to all.",
+    "Refrain from making minor vocabulary changes that add confusion to the Manner Exception exhausted condition.",
+    "Ensure policies protect privacy and safety of sensitive patient data, especially for IPV survivors, adolescents, and pregnant/postpartum individuals."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Until confidentiality can be completely assured, the chances of risking patient safety are too high to codify unlimited usage of EHI."
+}

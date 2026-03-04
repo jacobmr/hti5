@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0029",
+  "commenter_name": "Amy Hernandez",
+  "organization": "",
+  "posted_date": "2026-01-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 6345,
+  "org_type": "other",
+  "summary": "The commenter, a medical malpractice trial lawyer, opposes premature deregulation of EHR certification requirements, especially audit log standards, citing risks to patient safety, legal accountability, and fraud prevention. She urges ONC to update and enforce robust audit trail standards before reducing certification burdens.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "legal_accountability",
+    "healthcare_fraud"
+  ],
+  "specific_provisions": ["170.315(d)(2)\u2013(3),(10) audit logs"],
+  "key_arguments": [
+    "Audit trails are essential for ensuring data integrity, patient safety, and legal accountability.",
+    "Removing mandatory audit log requirements risks enabling fraud and undermining trust in EHRs.",
+    "Current audit trail standards are outdated and must be updated to address AI and interoperability.",
+    "Audit trails provide critical evidence in malpractice cases and help detect unauthorized data changes."
+  ],
+  "recommendations": [
+    "Delay deregulation of EHR certification until audit trail standards are updated and enforced.",
+    "Update audit trail standards to include AI transparency, software identification, data retention, and interoperability.",
+    "Maintain mandatory audit log certification requirements to ensure accountability and patient trust."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Human nature being what it is, audit trails keep us honest."
+}

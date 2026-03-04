@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0057",
+  "commenter_name": "Orion Health (a HEALWELL Company)",
+  "organization": "Orion Health (a HEALWELL Company)",
+  "posted_date": "2026-02-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3884,
+  "org_type": "health_it_company",
+  "summary": "Orion Health supports reducing administrative burden but insists interoperability remain a core, enforceable requirement. They emphasize maintaining strong technical standards, measurable interoperability, vendor accountability, and transparency in AI deployment.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "fhir_standards",
+    "vendor_burden",
+    "ai_regulation"
+  ],
+  "specific_provisions": [
+    "removal of C-CDA creation certification criterion",
+    "audit log requirements",
+    "EHI export requirements",
+    "USCDI data class requirements",
+    "standardized API requirements"
+  ],
+  "key_arguments": [
+    "Simplification should not weaken interoperability standards.",
+    "Burden reduction should target duplicative documentation and manual workflows, not technical standards.",
+    "FHIR-based APIs must remain the default for secure, scalable data exchange.",
+    "Vendor accountability must include demonstrable interoperability, privacy, security, and avoidance of information blocking."
+  ],
+  "recommendations": [
+    "Preserve interoperability as a non-negotiable foundation.",
+    "Maintain measurable, testable interoperability in production environments.",
+    "Ensure transparency and clear disclosure for AI-supported capabilities.",
+    "Focus burden reduction on eliminating duplicative workflows rather than weakening standards."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Interoperability must remain a non-negotiable foundation of the health IT ecosystem."
+}

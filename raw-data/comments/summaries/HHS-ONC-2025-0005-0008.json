@@ -1,0 +1,34 @@
+{
+  "id": "HHS-ONC-2025-0005-0008",
+  "commenter_name": "Trilogy Innovation, Inc.",
+  "organization": "Trilogy Innovation, Inc.",
+  "posted_date": "2026-01-09T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2009,
+  "org_type": "health_it_company",
+  "summary": "Trilogy Innovation, Inc. strongly supports the HTI-5 proposed deregulatory rule, emphasizing its alignment with agile, FHIR-based interoperability and reduced certification burdens. They highlight the benefits of removing outdated certification criteria to enable innovation and improved government service delivery.",
+  "position": "strongly_support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "burden_reduction",
+    "interoperability",
+    "vendor_burden",
+    "agile_frameworks"
+  ],
+  "specific_provisions": [
+    "removal of outdated certification criteria",
+    "FHIR-based standards",
+    "streamlined certification"
+  ],
+  "key_arguments": [
+    "Removing low-value certification criteria reduces administrative burden without sacrificing technical outcomes",
+    "Focus on FHIR-based standards supports secure, scalable, and interoperable health IT systems",
+    "Reduced certification burden allows reallocation of resources toward innovation and mission impact",
+    "Acquisition strategies should reward technical realism and proven delivery models over low-cost proposals"
+  ],
+  "recommendations": [
+    "ONC should reinforce acquisition strategies that prioritize credible staffing, agile frameworks, and operational continuity"
+  ],
+  "sentiment_score": 3,
+  "notable_quote": "We particularly commend the removal of outdated, low-value certification criteria, which too often impose administrative burdens."
+}

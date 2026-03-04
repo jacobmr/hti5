@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0204",
+  "commenter_name": "CVS Health",
+  "organization": "CVS Health",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 13391,
+  "org_type": "pharmacy",
+  "summary": "CVS Health supports the goal of reducing regulatory burden to advance interoperability but urges caution to avoid undermining trust and progress. They emphasize the need for a clear, consistent FHIR strategy and maintaining privacy, security, and clinical quality measure certification criteria to ensure stable, trustworthy health IT ecosystems.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "fhir_standards",
+    "privacy_security",
+    "clinical_quality_measures",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "removal of certification criteria",
+    "clinical quality measure certification criterion",
+    "privacy and security certification criteria",
+    "FHIR implementation and API requirements"
+  ],
+  "key_arguments": [
+    "Too rapid deregulation without a clear FHIR framework risks eroding trust and slowing interoperability adoption.",
+    "Long-term use of enforcement discretion creates uncertainty and undermines stable investment decisions.",
+    "Removing clinical quality measure certification will disrupt provider workflows and hinder value-based care.",
+    "Eliminating privacy and security certification criteria risks weakening protections and trust in digital health."
+  ],
+  "recommendations": [
+    "Do not finalize removal of certification criteria, especially clinical quality measures and privacy/security.",
+    "Pair deregulatory actions with a transparent, aligned plan consistent with HHS and CMS priorities.",
+    "Limit enforcement discretion to short-term, discrete situations only.",
+    "Create a clear, durable FHIR framework with strong national consistency and conformance expectations."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Too much deregulation too fast could unintentionally delay the advancement of the Administration\u2019s broader goals."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "HHS-ONC-2025-0005-0223",
+  "commenter_name": "Blue Cross Blue Shield Association",
+  "organization": "Blue Cross Blue Shield Association",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 29281,
+  "org_type": "payer",
+  "summary": "The Blue Cross Blue Shield Association supports ONC's efforts to streamline health IT certification to reduce complexity and improve interoperability but urges retaining C-CDA creation requirements until FHIR-based exchange is mature. They also support replacing CCDS with USCDI and recommend policy actions to promote real-time data sharing and payer participation in interoperability initiatives.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ccda_removal",
+    "uscdi_data_classes",
+    "interoperability",
+    "burden_reduction",
+    "api_adoption"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA creation criterion",
+    "Common Clinical Data Set (CCDS) removal",
+    "USCDI as baseline data standard",
+    "FHIR-based transition-of-care exchange",
+    "Information blocking definitions (access and use)"
+  ],
+  "key_arguments": [
+    "C-CDA remains foundational for current clinical workflows and premature removal risks data fragmentation and interoperability setbacks.",
+    "Replacing CCDS with USCDI simplifies certification and aligns regulatory frameworks, reducing complexity without loss of data quality.",
+    "High-quality C-CDA documents support seeding FHIR longitudinal records and hybrid exchange models during transition.",
+    "Policy barriers limit real-time data sharing; ecosystem-wide API adoption and payer engagement are critical."
+  ],
+  "recommendations": [
+    "Retain C-CDA creation certification requirements until FHIR-based exchange is mature, with phased reductions to protect data quality.",
+    "Fully replace CCDS with USCDI as the sole standardized data baseline for certification.",
+    "Work with CMS to require hospitals and clinicians to enable and use FHIR-based APIs via Medicare Conditions of Participation.",
+    "Create a 'Provider Interoperability Readiness' grant for small and rural providers to implement APIs and EHR upgrades.",
+    "Publish and maintain a national endpoint directory requiring registration by payers, providers, and EHR developers.",
+    "Establish a federal advisory committee with payer representation to support interoperability initiatives and reduce payer barriers to TEFCA participation.",
+    "Encourage HHS/OCR to issue guidance clarifying HIPAA flexibilities for data sharing to promote real-time data exchange."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Premature reductions in C-CDA certification could risk fragmenting data exchange and undermining interoperability gains."
+}

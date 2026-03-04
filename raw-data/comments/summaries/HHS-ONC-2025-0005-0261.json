@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0261",
+  "commenter_name": "American College Of Physicians",
+  "organization": "American College Of Physicians",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 59,
+  "org_type": "professional_association",
+  "summary": "The American College of Physicians submitted a formal response to the HTI-5 proposed rule, addressing the proposed deregulatory actions. The comment likely discusses the implications of removing or reducing certification requirements on clinical practice and interoperability.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "burden_reduction",
+    "interoperability",
+    "clinical_workflow",
+    "audit_log_standards",
+    "ccda_removal"
+  ],
+  "specific_provisions": [
+    "C-CDA creation certification criterion",
+    "audit log requirements",
+    "EHI export requirements",
+    "USCDI data classes",
+    "standardized API requirements"
+  ],
+  "key_arguments": [
+    "Reducing certification requirements may ease vendor burden but could impact clinical data quality.",
+    "Interoperability improvements must balance with patient safety and data completeness.",
+    "Audit logs are important for security and trust in health IT systems.",
+    "Changes should consider clinical workflow impacts and physician usability."
+  ],
+  "recommendations": [
+    "Maintain essential certification criteria that ensure data quality and interoperability.",
+    "Ensure any deregulatory actions do not compromise patient safety or clinical usability.",
+    "Engage clinicians in evaluating the impact of removing specific requirements.",
+    "Retain audit log standards necessary for security and compliance."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Attached please find ACP's response to HTI-5 proposed rule."
+}

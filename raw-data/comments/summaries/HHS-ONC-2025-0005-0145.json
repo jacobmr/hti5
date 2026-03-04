@@ -1,0 +1,51 @@
+{
+  "id": "HHS-ONC-2025-0005-0145",
+  "commenter_name": "Medical Information Technology, Inc (MEDITECH)",
+  "organization": "Medical Information Technology, Inc (MEDITECH)",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 18738,
+  "org_type": "ehr_vendor",
+  "summary": "MEDITECH supports the HTI-5 deregulatory actions aimed at reducing duplicative certification requirements and aligning standards to reduce burden. They emphasize the need for clear timelines for USCDI updates, caution about removing C-CDA sending requirements without transitional safeguards, and advocate for balanced revisions rather than full eliminations in areas like decision support and audit logs.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "uscdi_data_classes",
+    "ccda_removal",
+    "audit_log_standards",
+    "fhir_standards"
+  ],
+  "specific_provisions": [
+    "USCDI v3.1",
+    "\u00a7 170.315(a)(5) Patient Demographics",
+    "\u00a7 170.315(a)(12) Family Health History",
+    "\u00a7 170.315(a)(14) Implantable Device List",
+    "\u00a7 170.315(b)(1) Transitions of Care (C-CDA send/receive)",
+    "\u00a7 170.315(b)(2) Clinical information reconciliation and incorporation",
+    "\u00a7 170.315(b)(11) Decision Support Interventions",
+    "\u00a7 170.315(c)(3) Clinical quality measures \u2014 report",
+    "\u00a7 170.315(g)(1) Automated numerator recording",
+    "\u00a7 170.315(g)(2) Automated measure calculation",
+    "\u00a7 170.315(d)(2) Auditable events and tamper resistance",
+    "\u00a7 170.315(d)(3) Audit reports",
+    "\u00a7 170.315(d)(10) Auditing actions on health information",
+    "\u00a7 170.315(e)(1) View, download, and transmit to 3rd party",
+    "\u00a7 170.315(e)(3) Patient health information capture"
+  ],
+  "key_arguments": [
+    "Removing or revising certification criteria reduces developer and provider burden and aligns with real-world usage.",
+    "Adequate lead time (minimum 24 months) is essential for USCDI version updates to ensure safe and reliable implementation.",
+    "Complete removal of some requirements (e.g., C-CDA sending) risks disrupting existing workflows without clear transitional guidance.",
+    "A risk-tiered, harmonized federal framework for AI-related transparency and risk management is preferable to burdensome, inconsistent requirements."
+  ],
+  "recommendations": [
+    "Provide at least 24 months lead time for USCDI version changes to allow safe development and deployment.",
+    "Consider removing \u00a7170.315(a)(5) Patient Demographics entirely and defer to USCDI demographic data class.",
+    "Retain C-CDA sending requirements in \u00a7170.315(b)(1) during transition and consider removing sending from \u00a7170.315(e)(1) due to low patient use.",
+    "Revise rather than eliminate decision support source attribute and risk management requirements to support transparency and a risk-tiered approach.",
+    "Retain audit log related certification criteria (\u00a7170.315(d)(2), (d)(3), (d)(10)) to ensure HIPAA compliance and provide guidance to developers.",
+    "Clarify CMS\u2019s plans before removing automated numerator recording and measure calculation criteria to avoid measurement inconsistencies."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Greater consistency across these frameworks is essential to minimizing confusion, implementation burden, and unnecessary cost."
+}

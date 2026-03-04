@@ -1,0 +1,34 @@
+{
+  "id": "HHS-ONC-2025-0005-0124",
+  "commenter_name": "Jennifer Lawrence",
+  "organization": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 420,
+  "org_type": "other",
+  "summary": "The commenter argues that the proposed deregulations would harm individuals by weakening the certification and audit trail requirements. They emphasize the need for stronger regulation and timely provision of audit trail data during medical record disclosures.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "data_certification",
+    "patient_safety",
+    "ehi_export"
+  ],
+  "specific_provisions": [
+    "170.315(d)(2) audit logs",
+    "EHI export",
+    "170.315(g)(6) C-CDA"
+  ],
+  "key_arguments": [
+    "Medical records often lack proper certification despite requests",
+    "Audit trail data is frequently unavailable or unusable",
+    "Audit trail data should be mandated and provided at the time of disclosures"
+  ],
+  "recommendations": [
+    "Maintain or strengthen audit trail regulations",
+    "Require timely production of audit trail data with medical record disclosures",
+    "Retain certification requirements for medical records"
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The audit trail data needs to be more strongly regulated and mandated to be produced at the time of the medical record disclosures."
+}

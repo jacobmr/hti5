@@ -1,0 +1,29 @@
+{
+  "id": "HHS-ONC-2025-0005-0160",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 900,
+  "org_type": "individual_clinician",
+  "summary": "The commenter urges ONC to maintain the collection of patient name to use, gender identity, pronouns, and sex parameters to ensure affirming care for transgender, non-binary, and intersex patients. They argue that removing these data fields will worsen barriers to care and increase mistrust and mistreatment in healthcare.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "health_equity",
+    "uscdi_data_classes",
+    "patient_safety",
+    "clinical_workflow"
+  ],
+  "specific_provisions": ["USCDI data class requirements"],
+  "key_arguments": [
+    "Collecting gender identity and related fields builds trust and improves care quality for gender diverse patients.",
+    "Removing these data fields will exacerbate existing barriers and discrimination in healthcare.",
+    "Failure to collect this data increases patient fear, mistrust, and mistreatment.",
+    "Transgender, intersex, and non-binary patients deserve quality, affirming care."
+  ],
+  "recommendations": [
+    "Continue to require collection of patient name to use, gender identity, pronouns, and sex parameters in health IT certification."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing these fields will strengthen formidable, existing barriers to care for transgender, intersex and non-binary patients."
+}

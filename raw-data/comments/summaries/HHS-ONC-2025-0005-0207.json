@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0207",
+  "commenter_name": "Anonymous",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 28723,
+  "org_type": "government_agency",
+  "summary": "The California Department of Public Health (CDPH) opposes the HTI-5 proposed rule as it risks undermining standardized interoperability critical for public health reporting. CDPH emphasizes the need to retain HL7 standards-based certification criteria, particularly for cancer registry transmission and electronic case reporting, to ensure data quality, timeliness, and reduce burden on public health agencies.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "fhir_standards",
+    "ccda_removal",
+    "public_health_reporting",
+    "vendor_burden"
+  ],
+  "specific_provisions": [
+    "170.315(f)(5) Electronic Case Reporting (eCR)",
+    "Certification Companion Guide v1.4 Transmission to Cancer Registries",
+    "HL7 CDA and FHIR standards",
+    "USCDI data classes",
+    "All data request API"
+  ],
+  "key_arguments": [
+    "Removing standards-based certification will increase variability and burden on public health agencies.",
+    "Current FHIR implementation for cancer registries and eCR is immature and not widely adopted, making removal premature.",
+    "Maintaining CDA-based reporting is essential until FHIR-based guides are fully tested and implemented.",
+    "Removing certification requirements risks reverting providers to manual, inefficient reporting methods."
+  ],
+  "recommendations": [
+    "Retain certification criteria requiring HL7 interoperability standards, including CDA transmission to cancer registries until FHIR IG is ready.",
+    "Preserve standards-based eCR certification requirements including both CDA and FHIR options until at least 2029.",
+    "Provide adequate funding and realistic timelines for public health agencies to build FHIR capabilities.",
+    "Reject the proposal to reduce eCR to functional requirements only and maintain clear standards to ensure interoperability."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing public health reporting from EHR certification eliminates any incentive for EHRs to support interoperability."
+}

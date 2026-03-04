@@ -1,0 +1,28 @@
+{
+  "id": "HHS-ONC-2025-0005-0043",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-02-13T05:00:00Z",
+  "has_text": true,
+  "comment_length": 428,
+  "org_type": "other",
+  "summary": "The commenter suggests that ASTP/ONC should consider evolving FHIR APIs to align with graph query standards like ISO 39075. This alignment would enhance relationship-aware interoperability and enable returning context graphs while maintaining REST-based interoperability.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "api_standards",
+    "technology_evolution"
+  ],
+  "specific_provisions": ["standardized API requirements"],
+  "key_arguments": [
+    "Aligning FHIR APIs with graph query standards will improve interoperability by supporting relationship-aware data queries.",
+    "Using ISO 39075 can enable returning context graphs, enhancing data context and usability.",
+    "Maintaining REST-based interoperability ensures compatibility with existing systems."
+  ],
+  "recommendations": [
+    "ASTP/ONC should incorporate or consider ISO 39075 graph query standards in evolving FHIR API requirements."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "ASTP/ONC should look at the evolution of FHIR APIs to align with graph query standards, such as ISO 39075."
+}

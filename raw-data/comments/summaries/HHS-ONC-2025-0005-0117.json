@@ -1,0 +1,34 @@
+{
+  "id": "HHS-ONC-2025-0005-0117",
+  "commenter_name": "LGBT Tech",
+  "organization": "LGBT Tech",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10588,
+  "org_type": "advocacy_group",
+  "summary": "LGBT Tech and 53 allied organizations strongly oppose the proposed removal of 34 USCDI data elements, including those related to chosen name, pronouns, sexual orientation, gender identity, and sex parameters for clinical use. They argue that these removals would undermine interoperability, patient safety, and health equity for LGBTQI+ individuals by increasing data fragmentation and care disruptions.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "uscdi_data_classes",
+    "interoperability",
+    "patient_safety",
+    "health_equity",
+    "data_privacy"
+  ],
+  "specific_provisions": [
+    "USCDI data class removals",
+    "removal of chosen name, pronouns, sexual orientation, gender identity, sex parameters for clinical use"
+  ],
+  "key_arguments": [
+    "Removing structured SOGI and related data elements will cause inconsistent data collection and reintroduce fragmentation.",
+    "Accurate and standardized demographic and clinical data are critical for safe, culturally competent care and patient identification.",
+    "Data inclusion enables identification of health disparities and targeted interventions to improve health equity.",
+    "Weakening USCDI baseline undermines trust, patient autonomy, and continuity of care, disproportionately harming LGBTQI+ patients."
+  ],
+  "recommendations": [
+    "Maintain structured USCDI data elements for chosen name, pronouns, sexual orientation, gender identity, and sex parameters for clinical use.",
+    "Withdraw proposed removals that reduce the USCDI baseline and undermine reliable interoperability."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Weakening the minimum dataset would undermine accuracy and continuity of care for LGBTQI+ patients."
+}

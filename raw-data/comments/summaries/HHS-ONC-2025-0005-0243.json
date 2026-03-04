@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0243",
+  "commenter_name": "Blue Cross Blue Shield of Massachusetts",
+  "organization": "Blue Cross Blue Shield of Massachusetts",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "has_text": true,
+  "comment_length": 15277,
+  "org_type": "payer",
+  "summary": "Blue Cross Blue Shield of Massachusetts supports certain deregulatory actions in the HTI-5 Proposed Rule, particularly revisions to information blocking exceptions and AI-related definitions, but urges stronger regulation of privacy and fees exceptions to prevent anti-competitive behavior and excessive fees that hinder interoperability. They advocate for clearer, more specific requirements on invoking privacy exceptions and limiting fees charged by EHR vendors for data access in payment and administrative use cases.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "information_blocking",
+    "data_privacy",
+    "fees_exception",
+    "ai_regulation",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "45 CFR 171.202 Privacy Exception",
+    "45 CFR 171.302 Fees Exception",
+    "45 CFR 171.204(a)(3) Infeasibility Exception",
+    "USCDI",
+    "FHIR standards"
+  ],
+  "key_arguments": [
+    "Privacy exceptions are sometimes misused without specific legal justification, requiring more detailed explanation.",
+    "Excessive fees charged by EHR vendors for payer data access inhibit interoperability and administrative efficiency.",
+    "Symmetric data flows between providers and payers for payment and operations use cases should be required at no charge.",
+    "Revisions to definitions of access, use, and exchange to include AI-driven automated processes are necessary and supported."
+  ],
+  "recommendations": [
+    "Add a requirement for actors invoking the privacy exception to provide specific citations and explanations of applicable laws.",
+    "Amend the fees exception to limit fees to actual costs and prohibit fees for non-standard designs that do not comply with ONC standards.",
+    "Empower HHS/ONC to designate fees with systemic anti-competitive or anti-innovative effects and prohibit such fees.",
+    "Require providers to provide payment and operations data at no charge to ensure symmetric data flows.",
+    "Support removal of the third party seeking modification use condition from the infeasibility exception."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Excessive fees are inimical to the aims of the Information Blocking regulations and inhibit sharing that would reduce administrative costs."
+}

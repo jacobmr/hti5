@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0045",
+  "title": "Comment from Rocha, David, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "David Rocha",
+  "commenter_first": "David",
+  "commenter_last": "Rocha",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-13T05:00:00Z",
+  "received_date": "2026-02-13T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "First tier, downstream and related entities (FDR) (i.e. all delegate entities) shall be required to use all of the latest Da Vinci FHIR IGs, including:\n&bull;PDex: Payer Data Exchange\n&bull;CDex: Clinical Data Exchange\n&bull;ATR: Member Attribution List\n&bull;Notifications\n&bull;CRD: Coverage Requirements Discovery\n&bull;DTR: Documentation Templates and Rules\n&bull;PAS: Prior Authorization Support\n&bull;PCT: Patient Cost Transparency\n&bull;VBPR: Value-Based Performance Reporting \n&bull;DEQM/GIC: Data Exchange for Quality Measures/Gaps In Care\n&bull;RA: Risk Adjustment\n&bull;HRex: Health Record Exchange \n&bull;Common CQL Artifacts for FHIR\n&bull;Postable Remittance \n&bull;Formulary\n&bull;Plan Net/Directory\n\nFirst tier, downstream and related entities (FDR) (i.e. all delegate entities) shall be required to use all of the latest CARIN Alliance FHIR IGs, including:\n&bull;CARIN IG for Blue Button\n&bull;CARIN IG for Digital Insurance Card\n&bull;CARIN Patient-facing Real Time Pharmacy Benefit Check\n\nFirst tier, downstream and related entities (FDR) (i.e. all delegate entities) shall be required to use all of the latest Gravity Project FHIR IGs, including the SDOH Clinical Care FHIR IG.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

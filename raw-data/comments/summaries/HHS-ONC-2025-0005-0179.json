@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0179",
+  "commenter_name": "Health Federation of Philadelphia",
+  "organization": "Health Federation of Philadelphia",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 23676,
+  "org_type": "advocacy_group",
+  "summary": "The Health Federation of Philadelphia supports certain interoperability improvements in the HTI-5 proposed rule but strongly opposes removing key privacy and security certification criteria. They caution that deregulatory actions could shift burdens and risks onto resource-constrained Community Health Centers (CHCs), potentially compromising patient safety and data security. They urge ONC to retain critical safeguards and provide adequate support to safety net providers.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "audit_log_standards",
+    "data_privacy",
+    "burden_reduction",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "170.315(d)(1)-(d)(13) privacy and security certification criteria",
+    "170.315(d)(2), (3), (10) audit logs",
+    "Information Blocking regulations \u00a7 170.315(a)(12)",
+    "Standardized APIs (FHIR)",
+    "Access definition including autonomous AI systems"
+  ],
+  "key_arguments": [
+    "Removing privacy and security certification shifts costly and complex compliance burdens to under-resourced CHCs, increasing liability and risk of breaches.",
+    "Removing audit log and MFA requirements undermines fraud detection and security safeguards critical for patient safety.",
+    "Interoperability improvements like removing write-back restrictions and recognizing AI agents as users will reduce administrative burden and improve care coordination.",
+    "CHCs lack sufficient internal IT and cybersecurity capacity, making reliance on vendor certification essential."
+  ],
+  "recommendations": [
+    "Retain privacy and security certification criteria, especially audit log requirements, to maintain federal safeguards.",
+    "Provide sufficient transition time, targeted funding, and clear accountability for certified developers to support CHCs.",
+    "Maintain federal 'floors' for certification to prevent vendors from unbundling or removing essential features.",
+    "Continue engagement with safety net providers to ensure workable final policies."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing the federal 'seal of approval' for security exposes CHCs to massive liabilities regarding data breaches and ransomware."
+}

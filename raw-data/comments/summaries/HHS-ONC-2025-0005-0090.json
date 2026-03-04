@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0090",
+  "commenter_name": "J Michael Consulting",
+  "organization": "J Michael Consulting",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16573,
+  "org_type": "health_it_company",
+  "summary": "J Michael Consulting supports a FHIR-enabled future for health data interoperability but urges retention of critical certification requirements, especially for data security and public health reporting. They caution against removing CDA-based document exchange requirements prematurely and emphasize the need for consistent standards to avoid interoperability issues.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "interoperability",
+    "data_privacy",
+    "public_health_reporting"
+  ],
+  "specific_provisions": [
+    "170.315(g)(6) C-CDA",
+    "Transmission to Cancer Registries certification requirement",
+    "FHIR-based Subscription functionality",
+    "Bulk Data Access",
+    "Decision Support Interventions transparency"
+  ],
+  "key_arguments": [
+    "FHIR is key to future interoperability but CDA-based documents remain critical today for patient care and public health.",
+    "Removing certification criteria without clear standards risks variable implementations and burdens on public health and private sectors.",
+    "Security and patient data protection must remain paramount in certification requirements.",
+    "Transition from CDA to FHIR-based reporting requires realistic timelines and resource support for public health agencies."
+  ],
+  "recommendations": [
+    "Retain CDA-based document exchange certification criteria until FHIR-based alternatives are fully supported and resourced.",
+    "Maintain existing security requirements until better privacy and security standards are developed.",
+    "Ensure certified HIT products maintain a consistent baseline functionality to support interoperability and a level playing field.",
+    "Incorporate requirements for FHIR Subscription and Bulk Data Access with cohort creation capabilities in certified HIT."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "We strongly recommend that Certification Criteria retain requirements that certified HIT adhere to existing HL7 interoperability standards."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "HHS-ONC-2025-0005-0125",
+  "commenter_name": "Radiology Partners",
+  "organization": "Radiology Partners",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 14168,
+  "org_type": "health_system",
+  "summary": "Radiology Partners highlights persistent interoperability challenges, particularly around information blocking and image sharing, despite existing technical standards like FHIR. They emphasize that barriers are often operational and organizational rather than technical, and call for policies that ensure timely, reliable data exchange to improve patient care and safety.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "interoperability",
+    "information_blocking",
+    "fhir_standards",
+    "image_sharing",
+    "ai_regulation",
+    "patient_safety"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "FHIR alone is insufficient to solve interoperability challenges due to organizational and incentive barriers.",
+    "Information blocking is a clinical safety issue that restricts access to critical patient data, leading to missed care opportunities and increased costs.",
+    "Current image sharing practices are outdated and inefficient, relying on physical media like CDs that hinder timely care.",
+    "Health systems restrict data access to maintain proprietary control, limiting AI development and transparency."
+  ],
+  "recommendations": [
+    "ONC should create strict clinician-defined benchmarking criteria for 'unreasonable' costs and effort related to API-based data exchanges.",
+    "Federal policy should classify practices like per-transaction fees for FHIR clinical exports as information blocking.",
+    "Enable a system where, with patient consent, referring providers send orders with all clinical information and receiving providers share new data back.",
+    "Promote API-native image sharing to make imaging data portable and accessible akin to medication lists."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Information blocking should be viewed as a fundamental clinical safety barrier restricting clinically relevant data flows."
+}

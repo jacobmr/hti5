@@ -1,0 +1,29 @@
+{
+  "id": "HHS-ONC-2025-0005-0074",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 358,
+  "org_type": "other",
+  "summary": "The commenter supports removing information blocking exceptions due to observed misuse and highlights additional information blocking behaviors such as leaving encounters open, duplicate patient records, and not finalizing radiology studies. They request HHS to address these problematic behaviors.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "information_blocking",
+    "clinical_workflow",
+    "patient_safety",
+    "regulatory_enforcement"
+  ],
+  "specific_provisions": ["information blocking exceptions"],
+  "key_arguments": [
+    "Information blocking exceptions are being misused.",
+    "Other information blocking tactics harm clinical workflow and patient care.",
+    "HHS should take action to stop these behaviors."
+  ],
+  "recommendations": [
+    "HHS should clarify and enforce measures to prevent misuse of information blocking exceptions.",
+    "HHS should address behaviors like leaving encounters open, duplicate patient records, and incomplete radiology studies."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "I fully support the removal of information blocking exceptions proposed and have observed misuse."
+}

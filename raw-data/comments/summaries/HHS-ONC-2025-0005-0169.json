@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0169",
+  "commenter_name": "Ohio Association of Community Health Centers",
+  "organization": "Ohio Association of Community Health Centers",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 25309,
+  "org_type": "professional_association",
+  "summary": "The Ohio Association of Community Health Centers supports certain interoperability improvements in the HTI-5 proposed rule but strongly opposes the removal of key privacy and security certification criteria. They emphasize that deregulatory actions should not weaken safeguards that protect vulnerable populations and that resource-constrained health centers lack capacity to absorb increased security and liability burdens. They urge retention of audit log requirements and caution against shifting verification burdens to providers.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "interoperability",
+    "audit_log_standards",
+    "data_privacy",
+    "cybersecurity",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "\u00a7 170.315(d)(1)-(d)(13) privacy and security certification criteria",
+    "\u00a7 170.315(d)(2), (3), and (10) audit log requirements",
+    "Information Blocking regulations \u00a7 170.315(a)(12) Infeasibility Exception",
+    "standardized APIs (FHIR)",
+    "Multi-Factor Authentication (MFA)"
+  ],
+  "key_arguments": [
+    "Removing privacy and security certification shifts costly and complex verification burdens to resource-limited CHCs, increasing liability and operational risk.",
+    "Audit logs and MFA are critical for detecting fraud, abuse, and cyberattacks, which have increased significantly, impacting CHCs and their patients.",
+    "Interoperability improvements like removing write-back restrictions and recognizing AI agents as users will reduce administrative burden and improve care coordination.",
+    "Workforce shortages and financial instability limit CHCs\u2019 ability to manage complex health IT requirements without federal safeguards."
+  ],
+  "recommendations": [
+    "Retain audit log certification requirements (\u00a7 170.315(d)(2), (3), and (10)) to ensure fraud and abuse detection.",
+    "Maintain privacy and security certification criteria to provide a federal 'seal of approval' and reduce liability for CHCs.",
+    "Provide sufficient transition time, targeted funding, and clear accountability for certified developers to support CHCs.",
+    "Support interoperability enhancements such as removing the 'Third Party Seeking Modification Use' condition and recognizing autonomous AI systems as permissible users."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "Removing the federal 'seal of approval' for security does not remove the HIPAA requirement but exposes CHCs to massive liabilities."
+}

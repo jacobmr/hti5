@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0201",
+  "commenter_name": "Pharmaceutical Care Management Association (PCMA)",
+  "organization": "Pharmaceutical Care Management Association (PCMA)",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 15160,
+  "org_type": "professional_association",
+  "summary": "PCMA supports the goal of reducing regulatory burden and modernizing health IT certification but urges caution to avoid fragmenting healthcare interoperability. They emphasize retaining baseline Direct messaging certification and delivery notifications until FHIR-based exchange is fully implemented, maintaining consistent policy and enforcement discretion, and preserving core privacy, security, and audit certification requirements.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "direct_messaging",
+    "fhir_standards",
+    "interoperability",
+    "data_privacy",
+    "enforcement_discretion"
+  ],
+  "specific_provisions": [
+    "Direct messaging certification requirements",
+    "delivery notification functionality",
+    "privacy and security certification requirements",
+    "audit-related certification requirements",
+    "FHIR-based API certification criteria"
+  ],
+  "key_arguments": [
+    "Direct messaging remains essential for many workflows until FHIR is consistently implemented nationwide.",
+    "Removing delivery notification risks operational uncertainty and patient safety issues.",
+    "Eliminating privacy and security certification shifts burden to providers without reducing risk or cost.",
+    "Consistent policy and transparent enforcement discretion are critical for long-term interoperability investments."
+  ],
+  "recommendations": [
+    "Retain baseline Direct messaging certification requirements including delivery notifications during transition to FHIR.",
+    "Maintain consistency across HTI rulemakings and provide clear enforcement discretion expectations.",
+    "Preserve core privacy, security, and audit-related certification requirements at the developer level."
+  ],
+  "sentiment_score": 1,
+  "notable_quote": "Direct messaging continues to support a wide range of critical workflows and should remain part of baseline certification."
+}

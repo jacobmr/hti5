@@ -1,0 +1,38 @@
+{
+  "id": "HHS-ONC-2025-0005-0197",
+  "commenter_name": "American Association for Justice",
+  "organization": "American Association for Justice",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 10599,
+  "org_type": "advocacy_group",
+  "summary": "The American Association for Justice strongly opposes the HTI-5 proposed rule, arguing it would undermine the integrity, transparency, and accountability of electronic health records by removing key audit log and AI safety requirements. They also highlight the failure to include provider chat platforms as electronic health information, which would exclude important patient data from records.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "ai_regulation",
+    "patient_safety",
+    "ehi_definition",
+    "transparency_accountability"
+  ],
+  "specific_provisions": [
+    "45 C.F.R. \u00a7 170.315(d)(2) audit logs",
+    "45 C.F.R. \u00a7 170.315(b)(11) Decision Support Interventions (DSI)",
+    "45 C.F.R. \u00a7 170.315(g)(3) user-centered design processes",
+    "definition of Electronic Health Information (EHI)"
+  ],
+  "key_arguments": [
+    "Removing audit log protections risks tampering and loss of medical record integrity.",
+    "Eliminating AI-related certification criteria endangers patient safety by allowing untested software and removing source attribution for decision support.",
+    "Excluding provider chat platforms from EHI omits critical patient information and care deliberations from records.",
+    "The proposed deregulatory actions reduce transparency and accountability, harming patients' rights and safety."
+  ],
+  "recommendations": [
+    "Reject the proposed removal of audit log certification criteria to preserve record integrity.",
+    "Maintain AI-related certification requirements to ensure safe and transparent medical decision-making.",
+    "Update the definition of EHI to include provider chat platforms to ensure comprehensive patient records.",
+    "Preserve strong audit trail standards to uphold transparency and accountability in healthcare."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The proposed rule would reduce transparency and erode accountability in our healthcare system at the expense of patient safety."
+}

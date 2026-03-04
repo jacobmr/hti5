@@ -1,0 +1,24 @@
+{
+  "id": "HHS-ONC-2025-0005-0220",
+  "commenter_name": "David Rocha",
+  "organization": "",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 1237,
+  "org_type": "other",
+  "summary": "The commenter highlights the early development of an Australian FHIR-based Encounter Record by the Sparked FHIR accelerator and suggests that ASTP/ONC monitor this initiative as a potential model for future US FHIR Encounter Records. The comment outlines workshop topics exploring the structure and use of such records.",
+  "position": "neutral_mixed",
+  "key_themes": ["fhir_standards", "interoperability", "clinical_workflow"],
+  "specific_provisions": [],
+  "key_arguments": [
+    "The AU Encounter Record project could inform future US FHIR Encounter Record development.",
+    "Monitoring international FHIR initiatives may benefit US health IT interoperability.",
+    "Understanding encounter record creation, usage, and documentation standards is important."
+  ],
+  "recommendations": [
+    "ASTP/ONC should research and monitor the Sparked FHIR AU Encounter Record project.",
+    "Consider the AU Encounter Record as a potential model for US FHIR-based Encounter Records."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "ASTP/ONC can research this to see if this could be a movement for FHIR Documents"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "HHS-ONC-2025-0005-0081",
+  "commenter_name": "American Medical Association",
+  "organization": "American Medical Association",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 61087,
+  "org_type": "professional_association",
+  "summary": "The AMA supports reducing unnecessary regulatory burden to foster innovation but strongly urges retaining transparency and risk management requirements for AI decision-support interventions (DSIs) to ensure patient safety. They recommend a risk-based, tiered approach to AI transparency and data scope, preserving safeguards for high-risk tools while allowing lighter requirements for lower-risk applications.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ai_regulation",
+    "burden_reduction",
+    "clinical_workflow",
+    "uscdi_data_classes",
+    "patient_safety"
+  ],
+  "specific_provisions": [
+    "Decision-Support Interventions (DSI) transparency requirements",
+    "DSI data scope tied to USCDI elements",
+    "Information Blocking Rule (IBR) definitions of access and use"
+  ],
+  "key_arguments": [
+    "Eliminating DSI transparency requirements would weaken trust and remove essential safety guardrails as AI use accelerates.",
+    "Lack of clinician engagement with source attribute info reflects poor design, not lack of value.",
+    "Narrowing predictive DSI data inputs risks constraining clinically important AI tools and increasing patient harm.",
+    "Burden concerns should be addressed by right-sizing and standardizing requirements, not removing them."
+  ],
+  "recommendations": [
+    "Retain a minimum safety and trust package for high-risk predictive DSIs including transparency, governance, auditability, and change control.",
+    "Adopt a two-tier framework with lighter requirements for low-risk predictive DSIs.",
+    "Preserve access to the full USCDI data set for high-risk predictive DSIs while allowing narrower data scope for low-risk tools.",
+    "Clarify that narrowed data scope is a floor, not a ceiling, so developers can use broader data as needed."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Removing the only enforceable transparency baseline in certified health IT would not address uneven oversight."
+}

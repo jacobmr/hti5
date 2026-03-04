@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0176",
+  "commenter_name": "American Academy of Allergy Asthma and Immunology",
+  "organization": "American Academy of Allergy Asthma and Immunology",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4667,
+  "org_type": "professional_association",
+  "summary": "The AAAAI generally supports the removal of CDA-based requirements for antimicrobial use and resistance reporting to reduce burden but urges ONC to ensure data integrity and interoperability during the transition to FHIR. They also highlight the need to address penicillin allergy mislabeling through certification criteria modernization and adoption of FHIR-based standards.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "public_health_reporting",
+    "interoperability",
+    "clinical_workflow",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "170.315(f)(6) transmission to public health agencies\u2014antimicrobial use and resistance reporting",
+    "170.205(r)(1) CDA-based implementation guide"
+  ],
+  "key_arguments": [
+    "Removing CDA requirements reduces developer burden as the industry transitions to FHIR.",
+    "Maintaining data integrity, completeness, and interoperability during the transition is essential for effective public health surveillance.",
+    "Current certification does not ensure clinically meaningful use of allergy data to address penicillin allergy mislabeling.",
+    "FHIR-based standards should replace outdated CDA references to support interoperability and clinical usability."
+  ],
+  "recommendations": [
+    "Ensure ongoing monitoring and clear implementation guardrails to preserve data quality during the transition from CDA to FHIR.",
+    "Explicitly consider penicillin allergy delabeling as a functional requirement in health IT certification.",
+    "Accompany removal of CDA-based standards with adoption of FHIR-based standards for certified EHR systems."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "AAAI generally supports this proposal but urges ASTP/ONC to ensure that revising this criterion does not compromise antimicrobial use and resistance reporting."
+}

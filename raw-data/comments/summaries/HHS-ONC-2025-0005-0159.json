@@ -1,0 +1,44 @@
+{
+  "id": "HHS-ONC-2025-0005-0159",
+  "commenter_name": "Health Universe",
+  "organization": "Health Universe",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 82438,
+  "org_type": "health_it_company",
+  "summary": "Health Universe, a certified health IT developer specializing in AI integration, supports ONC's deregulatory proposals that reduce burdens and enhance interoperability, especially those recognizing AI's role in health IT. They request modifications to ensure AI transparency, maintain certain standards during transitions, and address unaddressed barriers to AI innovation such as write-back capabilities and discriminatory API practices.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "ai_regulation",
+    "interoperability",
+    "burden_reduction",
+    "fhir_standards",
+    "clinical_workflow"
+  ],
+  "specific_provisions": [
+    "\u00a7171.102 definitions of access, use, exchange",
+    "\u00a7171.204(a)(3) removal of third party seeking modification use condition",
+    "\u00a7171.204(a)(4) manner exception revisions",
+    "\u00a7171.301(a)(2)(iii) contract fairness provisions",
+    "\u00a7170.315(b)(11) Decision Support Interventions criterion",
+    "\u00a7170.315(f)(4) cancer registry transmission criterion",
+    "C-CDA removal",
+    "TEFCA transition to FHIR"
+  ],
+  "key_arguments": [
+    "Explicit inclusion of AI and automation in definitions prevents denial of access to AI systems under information blocking rules.",
+    "Removing the third party seeking modification use condition enables essential write-back capabilities for AI clinical decision support.",
+    "Technical maturity of APIs and security exceptions sufficiently address risks, making some prior restrictions unnecessary.",
+    "Transition from C-CDA to FHIR standards must be coordinated to avoid gaps in data exchange and registry reporting."
+  ],
+  "recommendations": [
+    "Adopt consistent inclusion of automation technologies in 'access', 'use', and 'exchange' definitions.",
+    "Finalize removal of \u00a7171.204(a)(3) to enable third-party write-back to EHRs.",
+    "Provide a voluntary pathway for AI transparency and governance after removing certain requirements in \u00a7170.315(b)(11).",
+    "Retain C-CDA as an option for cancer registry reporting until FHIR-based alternatives are fully adopted.",
+    "Expand references to emerging AI interoperability standards beyond Model Context Protocol to maintain technology neutrality.",
+    "Address unaddressed barriers such as standardized write-back implementations, discriminatory API throttling, contracting delays, and enforcement clarity."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "The ability to write data back to EHR systems is essential for AI applications to deliver value in clinical workflows."
+}

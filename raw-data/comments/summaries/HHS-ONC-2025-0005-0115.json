@@ -1,0 +1,35 @@
+{
+  "id": "HHS-ONC-2025-0005-0115",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 4028,
+  "org_type": "other",
+  "summary": "The commenter supports the HTI-5 rule's deregulatory direction to reduce burdens and modernize health IT certification, especially around FHIR APIs. However, they oppose the public disclosure requirement of Service Base URLs, arguing it risks exposing competitively sensitive data and harms small developers by favoring incumbents.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "burden_reduction",
+    "vendor_burden",
+    "interoperability",
+    "market_competition"
+  ],
+  "specific_provisions": [
+    "45 CFR 170.404(b)(2)",
+    "\u00a7 170.315(g)(10)(viii)(B)"
+  ],
+  "key_arguments": [
+    "Publicly publishing Service Base URLs reveals sensitive commercial data, including customer footprint and identity.",
+    "This transparency disproportionately harms small and startup developers by enabling incumbents to monitor and target them.",
+    "Such disclosure can reinforce market consolidation and reduce competition, contrary to ASTP/ONC goals.",
+    "A threshold-based disclosure requirement would balance transparency with protection for new entrants."
+  ],
+  "recommendations": [
+    "Modify \u00a7 170.315(g)(10)(viii)(B) to require public Service Base URL disclosure only after meeting minimum qualifications based on customer count or size.",
+    "Preserve transparency objectives while protecting new entrants during vulnerable scaling phases.",
+    "Avoid compliance mechanisms that function as market-disadvantaging disclosure mandates."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "Eliminating this requirement is essential to ensure disclosures do not serve as a low-cost market surveillance tool for incumbents."
+}

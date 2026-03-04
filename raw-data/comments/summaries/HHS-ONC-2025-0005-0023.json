@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0023",
+  "commenter_name": "Mitchell Berger",
+  "organization": "",
+  "posted_date": "2026-01-21T05:00:00Z",
+  "has_text": true,
+  "comment_length": 8765,
+  "org_type": "individual_clinician",
+  "summary": "The commenter highlights the lag in EHR adoption in the behavioral health sector and urges ONC to maintain the emergency access (\u00a7170.315(d)(6)) and accounting of disclosures (\u00a7170.315(d)(11)) certification criteria. He cautions against removing these provisions due to their importance for patient care, privacy, and security, and recommends a more measured, phased approach to deregulation.",
+  "position": "oppose_deregulation",
+  "key_themes": [
+    "emergency_access",
+    "accounting_of_disclosures",
+    "behavioral_health_ehr_adoption",
+    "fhir_standards",
+    "privacy_and_security"
+  ],
+  "specific_provisions": [
+    "170.315(d)(6) emergency access",
+    "170.315(d)(11) accounting of disclosures"
+  ],
+  "key_arguments": [
+    "EHR adoption in behavioral health lags behind other sectors, requiring special consideration.",
+    "Emergency access is critical for clinical emergencies and public health incidents and should not be removed.",
+    "Accounting of disclosures is intertwined with HIPAA and other privacy/security rules, so removal could have unintended consequences.",
+    "A phased, cautious approach to deregulation is preferable to removing many criteria at once."
+  ],
+  "recommendations": [
+    "Maintain the emergency access certification criterion (\u00a7170.315(d)(6)).",
+    "Maintain the accounting of disclosures certification criterion (\u00a7170.315(d)(11)).",
+    "Acknowledge complexities of EHR adoption in behavioral health in the final rule.",
+    "Adopt a phased approach to deregulation, evaluating impacts before further removals."
+  ],
+  "sentiment_score": -2,
+  "notable_quote": "I suggest that the emergency access criterion (\u00a7170.315(d)(6)) not be removed as proposed."
+}

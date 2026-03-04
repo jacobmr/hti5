@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0173",
+  "commenter_name": "Alliance for Person-Centered Care",
+  "organization": "Alliance for Person-Centered Care",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 5478,
+  "org_type": "advocacy_group",
+  "summary": "The Alliance for Person-Centered Care supports ONC's deregulatory actions aimed at reducing burden and advancing interoperability, especially to facilitate the collection and sharing of patient-reported data. They urge alignment of certification with FHIR APIs, support technology-neutral quality reporting, and advocate for stronger information blocking rules to enhance data sharing and innovation.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "interoperability",
+    "fhir_standards",
+    "patient_reported_data",
+    "information_blocking",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "170.315(c)(3)",
+    "TEFCA Manner Exception",
+    "Third-Party Seeking Modification Use Condition",
+    "Manner Exception Exhausted Condition"
+  ],
+  "key_arguments": [
+    "Patient-reported data should be easy to submit once and shareable across providers to improve care.",
+    "Certification should support HL7 FHIR APIs to enable use of consumer-friendly tools outside EHRs.",
+    "Allowing technology-neutral quality reporting will advance digital quality measures including patient-reported data.",
+    "Removing or revising information blocking exceptions will reduce barriers to data sharing and innovation."
+  ],
+  "recommendations": [
+    "Align CEHRT certification to certify HL7 FHIR APIs received by providers and payers.",
+    "Revise \u00a7 170.315(c)(3) to permit technology-neutral quality reporting via QRDA or FHIR-based guides.",
+    "Remove the TEFCA Manner Exception and Third-Party Seeking Modification Use Condition.",
+    "Revise or remove the Manner Exception Exhausted Condition to strengthen information blocking rules.",
+    "Engage patients and families, especially those with complex needs, in interoperability policy design and implementation."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We commend ASTP/ONC for proposing significant deregulatory actions that reduce burden while advancing interoperability."
+}

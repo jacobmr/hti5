@@ -1,0 +1,39 @@
+{
+  "id": "HHS-ONC-2025-0005-0067",
+  "commenter_name": "Chloe Watts",
+  "organization": "",
+  "posted_date": "2026-02-24T05:00:00Z",
+  "has_text": true,
+  "comment_length": 3541,
+  "org_type": "other",
+  "summary": "The commenter supports ONC's goals of reducing regulatory burden and advancing interoperability but expresses concern that removing key certification and reporting requirements prematurely risks public health data gaps and operational failures. They urge a phased, readiness-based approach to deregulation that maintains essential safeguards until replacement systems are fully operational.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "fhir_standards",
+    "public_health_reporting",
+    "certification_requirements",
+    "patient_safety",
+    "health_equity"
+  ],
+  "specific_provisions": [
+    "removal of public health certification criteria",
+    "removal or reduction of audit log requirements",
+    "removal or reduction of EHI export requirements",
+    "removal or de-emphasis of PHIN/VADS",
+    "removal of C-CDA creation certification criterion"
+  ],
+  "key_arguments": [
+    "FHIR-based access alone is insufficient without readiness of receiving systems and workflows for public health use cases.",
+    "Removing public health certification and reporting safeguards risks data gaps and uneven impacts across jurisdictions.",
+    "Retiring PHIN/VADS before a fully operational replacement risks fragmentation and regression in public health reporting quality.",
+    "Shifting focus from outcome assurance to access assurance introduces risks for clinical care and public health, especially for under-resourced providers."
+  ],
+  "recommendations": [
+    "Adopt a phased, readiness-based approach to deregulation conditioned on demonstrated operational capability.",
+    "Maintain a minimal, enforceable public health reporting baseline during the transition.",
+    "Retain PHIN/VADS or an equivalent service until replacement solutions meet technical and governance needs.",
+    "Include transparency measures that verify actual public health data exchange, not just API availability."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "Modernization must proceed in a way that preserves patient safety, public health continuity, and equity."
+}

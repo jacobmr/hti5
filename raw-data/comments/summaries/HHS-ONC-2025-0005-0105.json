@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0105",
+  "commenter_name": "American College of Radiology (ACR)",
+  "organization": "American College of Radiology (ACR)",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 6003,
+  "org_type": "professional_association",
+  "summary": "The American College of Radiology supports transparency in AI decision support interventions and requests alternative transparency mechanisms if model card requirements are removed. They support the withdrawn requestor preferences exception with modifications and seek clarity on automated access to EHI to ensure compliance with privacy laws.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "ai_regulation",
+    "interoperability",
+    "information_blocking",
+    "data_privacy",
+    "regulatory_clarity"
+  ],
+  "specific_provisions": [
+    "170.315(b)(11) Decision Support Interventions",
+    "171.204 requestor preferences exception",
+    "171.102 definitions of use and access"
+  ],
+  "key_arguments": [
+    "Algorithm transparency is important for qualified end-users to safely implement predictive DSIs.",
+    "If model card requirements are removed, alternative transparency mechanisms should be implemented.",
+    "Requestor preferences exception provides useful flexibility for ethical sharing of test results.",
+    "Automation technologies accessing EHI must operate on behalf of lawful requestors under HIPAA or other laws."
+  ],
+  "recommendations": [
+    "Implement alternative transparency mechanisms coordinated with FDA if model card requirements are removed.",
+    "Codify the requestor preferences exception with modifications to reflect routine patient preference collection.",
+    "Clarify that automated technologies accessing EHI must act only on behalf of lawful requestors."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "ACR generally supports algorithm transparency to ensure qualified end-users can identify and implement predictive DSI."
+}

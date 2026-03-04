@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0038",
+  "title": "Comment from Hunt, Taylor, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Taylor Hunt",
+  "commenter_first": "Taylor",
+  "commenter_last": "Hunt",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-01-29T05:00:00Z",
+  "received_date": "2026-01-29T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "Dear ASTP Representatives,\n\nI am a health care consumer and consultant who has spent extensive time working to ensure the integrity and security of electronic health information. A cornerstone of this work is the use of audit trails as a mechanism for establishing a reliable source of truth in medical records. These safeguards are critical to patient safety, accountability, and trust in the healthcare system.\n\nWhile I support the goal of enhancing interoperability, I am deeply concerned that the Health Data, Technology, and Interoperability (HTI-5) proposed rule risks undermining these foundational values by modifying certification requirements before modernizing and stabilizing the underlying data standards.\n\nAn updated audit trail standard is essential to protect the security of electronic health information, verify data integrity, and curtail billing fraud. Audit trails serve as a primary control for detecting inappropriate access, unauthorized modification, and inaccurate attribution of clinical and financial data. Weakening or deferring these standards introduces risk at a time when healthcare data volume, velocity, and complexity continue to increase.\n\nAdditionally, standards must keep pace with the evolving use and content of medical records. Clinical documentation, data exchange, and secondary data use have changed substantially since the last audit trail standard, ASTM E2147-18, was published in 2018. The current regulatory approach does not adequately reflect the realities of modern electronic health records, longitudinal data aggregation, and cross-organizational data exchange.\n\nAny updated audit trail standard must also explicitly address transparency in data creation and use by artificial intelligence, medical devices, and electronic messaging systems. These technologies increasingly contribute to clinical decision-making and documentation, yet their involvement is often opaque within the record. Without clear auditability, it becomes difficult to determine authorship, provenance, and accountability for data generated or modified by automated systems.\n\nFinally, despite legal requirements for access and transparency, patients still do not have meaningful or comprehensive access to their electronic health information. Strengthening audit trail standards should support&mdash;not hinder&mdash;patients&rsquo; ability to understand who has accessed their data, how it has been used, and how clinical information about them is created and maintained.\n\nFor these reasons, I urge ASTP to prioritize the modernization of audit trail and data integrity standards as a prerequisite to changes in certification requirements under HTI-5, ensuring that interoperability advances do not come at the expense of patient safety, transparency, and trust.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

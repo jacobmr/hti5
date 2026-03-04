@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0048",
+  "title": "Comment from Herman, Dustin , HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "Dustin Herman",
+  "commenter_first": "Dustin",
+  "commenter_last": "Herman",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-02-18T05:00:00Z",
+  "received_date": "2026-02-17T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "Imagine a patient is sent home from an ER, but hourse later, blood tests come back showing the patient has a blood infection. But no one calls the patient and the patient dies. The doctor says he sent an electronic message to a nurse instructing the nurse to call the patient. The nurse says she never got the message. Later when the patient's family wants to see the messages, the hospital says those messages are automatically deleted after 7 days, so nobody can see what messages were or were not sent about the patient's care. This story is based on a real case. And messages like this about patient care are being automatically deleted every day in this country. \n\nWe need better audit trail standards to ensure transparency and patient access to medical records. Before any deregulation of certification is considered, standards for data creation, collection, preservation, and reproducibility must be updated.\n\nI am a healthcare consumer along with my wife and kids, as well as an attorney who represents patients in medical malpractice lawsuits. There is a critical need to update the audit trail standards to ensure transparency in healthcare. Patients must be able to trust their medical records--and must have access to all their medical records. Providers should never be permitted to communicate about patient care in a messaging app, but avoid having those messages saved in the EMR. Patients have the right to read any messages between providers regarding their care. Right now, if you walk into any hospital in the country, you will see nurses and doctors essentially sending text messages back and forth to each other about patients. This is great, and allows healthcare to be delivered more efficiently, but the problem is those messages are often not saved. And that is by design by the hosptial systems. Many of the messages are automatically deleted in 7 days, even though the messages were critical to the providers delivering care to a patient. The audit trail standards should be updated to include audit data for any message that is sent regarding patient care. Furthermore, AI is rapidly evolving, and patients have a right to know if AI suggestions or algorithms were used or followed by their doctors. Audit trails are foundational&mdash;not optional&mdash;to billing integrity, patient trust, and legal accountability. We must define what a \"trustworthy record\" is before we change the rules on how those records are certified. \n\nI ask that HHS pause the proposed certification changes until a modern, robust audit and preservation standard is finalized.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

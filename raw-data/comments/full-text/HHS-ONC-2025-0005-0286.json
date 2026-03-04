@@ -1,0 +1,20 @@
+{
+  "id": "HHS-ONC-2025-0005-0286",
+  "title": "Comment from Kanishka, FNU, HHS-ONC-2025-0005, HHS-ONC-2025-0005-0001, 2025-23896",
+  "commenter_name": "FNU Kanishka",
+  "commenter_first": "FNU",
+  "commenter_last": "Kanishka",
+  "organization": "",
+  "gov_agency": "",
+  "gov_agency_type": "",
+  "city": "",
+  "state": "",
+  "country": "",
+  "posted_date": "2026-03-02T05:00:00Z",
+  "received_date": "2026-02-27T05:00:00Z",
+  "page_count": 1,
+  "comment_text": "NE has serious concerns about making eCR certification criteria to a functional requirement because this change would undermine progress toward standardized, automated public health reporting and impose significant new burdens on our public health agency and local health departments.\n \n\nASTP/ONC&rsquo;s desire to move towards FHIR-based standards is also an area of apprehension for us. Our state and local health agencies do not currently have the technical infrastructure or a workforce with expertise in consuming HL7 FHIR and would need additional staff, significant training and/or upskilling, and resources to establish FHIR capability. This would be an extremely difficult step for us to undertake and could impact public health response.",
+  "has_attachments": false,
+  "attachments": [],
+  "doc_abstract": ""
+}

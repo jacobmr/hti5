@@ -1,0 +1,33 @@
+{
+  "id": "HHS-ONC-2025-0005-0162",
+  "commenter_name": "Nicholas Rider",
+  "organization": "",
+  "posted_date": "2026-02-27T05:00:00Z",
+  "has_text": true,
+  "comment_length": 441,
+  "org_type": "individual_clinician",
+  "summary": "The commenter urges ONC to retain core safety protections in health IT systems and opposes the HTI-5 proposed rule due to potential harm. They emphasize the importance of usability testing, audit logging, CDS transparency, and relevant controls.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "clinical_decision_support_transparency",
+    "patient_safety",
+    "usability_testing",
+    "health_it_safety_controls"
+  ],
+  "specific_provisions": ["audit logs", "CDS transparency"],
+  "key_arguments": [
+    "Removing safety protections could invoke harm to patients and clinicians",
+    "Usability testing is a meaningful approach that should be retained",
+    "Audit logging is critical for safety and accountability",
+    "Clinical decision support transparency and controls must not be removed"
+  ],
+  "recommendations": [
+    "Retain core safety protections in health IT systems",
+    "Do not remove or reduce audit logging requirements",
+    "Maintain CDS transparency and relevant controls",
+    "Continue requiring usability testing"
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Meaningful approaches such as usability testing, audit logging CDS transparency and relevant controls should be retained"
+}

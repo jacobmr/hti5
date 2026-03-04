@@ -1,0 +1,32 @@
+{
+  "id": "HHS-ONC-2025-0005-0022",
+  "commenter_name": "Rocky Mountain Equality",
+  "organization": "Rocky Mountain Equality",
+  "posted_date": "2026-01-21T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2050,
+  "org_type": "advocacy_group",
+  "summary": "Rocky Mountain Equality opposes the proposed deregulation of health IT certification requirements, arguing that removing critical data fields harms LGBTQ+ patients by undermining seamless data transfer and quality care. They emphasize that these data fields are essential for healthcare delivery and urge ONC to maintain current regulatory requirements.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "uscdi_data_classes",
+    "health_equity",
+    "interoperability",
+    "patient_safety"
+  ],
+  "specific_provisions": [
+    "USCDI data fields: name to use, sex parameters for clinical use, sexual orientation, gender identity, pronouns"
+  ],
+  "key_arguments": [
+    "Removing over half of required data fields will regress interoperability and seamless data transfer.",
+    "Critical data fields for LGBTQ+ patients are essential for delivering high quality care.",
+    "Including these data fields is not divisive but necessary for effective healthcare.",
+    "Deregulation will harm the health and well-being of LGBTQ+ Americans."
+  ],
+  "recommendations": [
+    "Maintain regulatory requirements for LGBTQ+ relevant data fields in electronic health records.",
+    "Do not remove or reduce USCDI data class requirements related to sexual orientation, gender identity, pronouns, and related fields."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "Removing critical data fields essential to delivering high quality care for the LGBTQ+ patient population."
+}

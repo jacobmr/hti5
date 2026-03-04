@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0222",
+  "commenter_name": "PointClickCare",
+  "organization": "PointClickCare",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 79214,
+  "org_type": "health_it_company",
+  "summary": "PointClickCare supports ONC's deregulatory direction to reduce certification burdens and prioritize FHIR-based interoperability but strongly opposes proposed changes to information-blocking rules that risk patient safety and privacy. They urge maintaining robust audit trails and security criteria to ensure accountability amid increasing automation and AI use. They also support USCDI v3.1 adoption with transition flexibility and call for certification requirements grounded in developer control.",
+  "position": "neutral_mixed",
+  "key_themes": [
+    "audit_log_standards",
+    "information_blocking",
+    "fhir_standards",
+    "uscdi_data_classes",
+    "patient_safety"
+  ],
+  "specific_provisions": [
+    "removal of Consolidated CDA (C-CDA) creation certification criterion",
+    "removal/reduction of audit log requirements",
+    "USCDI v3.1 adoption",
+    "information-blocking regulation changes",
+    "removal of CEHRT privacy and security criteria"
+  ],
+  "key_arguments": [
+    "Eliminating low-value certification criteria reduces burden and fosters innovation.",
+    "Proposed information-blocking changes are abrupt, inconsistent, exceed statutory authority, and threaten patient safety.",
+    "Removing audit and security certification criteria risks eroding accountability and traceability in complex data exchanges.",
+    "Deregulation in information blocking paradoxically increases costs and suppresses innovation due to regulatory uncertainty."
+  ],
+  "recommendations": [
+    "Reconsider and withdraw proposed information-blocking changes to preserve patient safety and regulatory clarity.",
+    "Retain, consolidate, or modernize security- and audit-related certification criteria as a baseline standard.",
+    "Clarify interaction between removed certification criteria and other federal frameworks like HIPAA and TEFCA.",
+    "Provide at least two years between USCDI version finalizations and allow enforcement discretion during transitions.",
+    "Ensure certification obligations focus on standards-based APIs and exclude attestation for ungoverned third-party automation."
+  ],
+  "sentiment_score": 0,
+  "notable_quote": "We urge ASTP/ONC to reconsider in their entirety HTI-5\u2019s proposed information-blocking changes."
+}

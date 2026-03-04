@@ -1,0 +1,44 @@
+{
+  "id": "HHS-ONC-2025-0005-0209",
+  "commenter_name": "1upHealth",
+  "organization": "1upHealth",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 16699,
+  "org_type": "health_it_company",
+  "summary": "1upHealth supports deregulation efforts that remove outdated certification requirements and promote modern RESTful FHIR APIs to enable a digital health economy. They emphasize the need to eliminate confusing information blocking exceptions, improve API write capabilities, and reform TEFCA to better align with modern interoperability standards. Security and privacy should defer to broader internet standards and OCR oversight.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "interoperability",
+    "information_blocking_exceptions",
+    "security_and_privacy",
+    "api_modernization"
+  ],
+  "specific_provisions": [
+    "removal of family history, reconciliation, patient health information capture and care plans certification",
+    "removal or reduction of audit log requirements",
+    "removal of targeted Information Blocking exceptions",
+    "TEFCA exception removal",
+    "removal of obsolete interoperability features such as VDT",
+    "promotion of RESTful FHIR APIs",
+    "write capabilities standardization with HL7"
+  ],
+  "key_arguments": [
+    "Certification requirements have led to EMR consolidation and stagnation; deregulation will foster innovation.",
+    "Modern healthcare requires continuous care enabled by highly functional APIs rather than episodic EMR-based care.",
+    "Information Blocking exceptions cause confusion and enable blocking without public benefit and should be removed.",
+    "TEFCA is outdated, anti-competitive, insecure, and impedes modern RESTful API interoperability."
+  ],
+  "recommendations": [
+    "Remove outdated certification criteria such as family history and reconciliation.",
+    "Eliminate the three targeted Information Blocking exceptions including the TEFCA exception.",
+    "ASTP should collaborate with HL7 to standardize write data fields for EHR APIs.",
+    "ASTP should defer security and privacy oversight to OCR and broader internet standards.",
+    "ASTP should conduct an independent security assessment of TEFCA.",
+    "ASTP should advance Bulk FHIR with SLA specifications and provide guidance on AI data access.",
+    "Focus on enabling modern RESTful APIs to support continuous care for chronic diseases."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "We applaud ASTP/ONC to enable modern APIs and power a digital health economy giving patients apps of their choice."
+}

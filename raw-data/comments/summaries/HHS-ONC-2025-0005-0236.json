@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0236",
+  "commenter_name": "AI Healthcare Coalition",
+  "organization": "AI Healthcare Coalition",
+  "posted_date": "2026-03-01T05:00:00Z",
+  "has_text": true,
+  "comment_length": 5041,
+  "org_type": "advocacy_group",
+  "summary": "The AI Healthcare Coalition supports ONC's deregulatory actions to reduce duplicative and burdensome requirements on FDA-authorized AI medical services. They emphasize that FDA oversight is sufficient for safety and efficacy, and removing ONC's additional predictive decision support intervention requirements will reduce costs and improve efficiency.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "ai_regulation",
+    "predictive_dsi",
+    "fda_authorization",
+    "risk_management"
+  ],
+  "specific_provisions": [
+    "45 CFR 170.315(b)(11)(iv)",
+    "45 CFR 170.315(b)(11)(v)",
+    "45 CFR 170.315(b)(vi)"
+  ],
+  "key_arguments": [
+    "ONC's predictive DSI source attribute and risk management requirements are duplicative of FDA review and oversight.",
+    "FDA is best positioned to assess safety and efficacy of AI/ML systems, making ONC's additional requirements unnecessary.",
+    "Removing these requirements will reduce burdens and costs for health IT developers, clinicians, and patients, especially in underserved areas.",
+    "Certified health IT developers should be able to rely on FDA authorization without additional ONC reporting or documentation."
+  ],
+  "recommendations": [
+    "Rescind the requirements in 45 CFR 170.315(b)(11)(iv) and (v) related to predictive DSI source attributes.",
+    "Remove the intervention risk management requirements in 45 CFR 170.315(b)(vi).",
+    "Allow reliance on FDA market authorization and oversight in lieu of duplicative ONC reporting requirements."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "The FDA is best positioned to assess the safety and efficacy of AI/ML systems and risk."
+}

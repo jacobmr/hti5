@@ -1,0 +1,29 @@
+{
+  "id": "HHS-ONC-2025-0005-0109",
+  "commenter_name": "Anonymous Anonymous",
+  "organization": "",
+  "posted_date": "2026-02-25T05:00:00Z",
+  "has_text": true,
+  "comment_length": 224,
+  "org_type": "individual_clinician",
+  "summary": "The commenter supports the proposed deregulatory actions, noting that standardization reduces errors during upgrades and improves data accuracy. They suggest that if more data is needed for research, special studies can be conducted instead of burdening routine data collection.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "burden_reduction",
+    "standardization",
+    "data_accuracy",
+    "research_data_access"
+  ],
+  "specific_provisions": [],
+  "key_arguments": [
+    "Standardization leads to more accurate data",
+    "Frequent edits during upgrades cause burden",
+    "Research can rely on special studies for additional data"
+  ],
+  "recommendations": [
+    "Implement standardization to reduce errors and burden",
+    "Allow research data needs to be met through special studies rather than routine data collection"
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "If you make things standard you will get accurate data and if research need more data then u can have a special study done."
+}

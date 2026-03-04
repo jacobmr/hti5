@@ -1,0 +1,40 @@
+{
+  "id": "HHS-ONC-2025-0005-0149",
+  "commenter_name": "Health Level Seven (HL7) International",
+  "organization": "Health Level Seven (HL7) International",
+  "posted_date": "2026-02-26T05:00:00Z",
+  "has_text": true,
+  "comment_length": 39336,
+  "org_type": "professional_association",
+  "summary": "HL7 International supports the HTI-5 proposed rule's shift toward a FHIR-first, market-driven interoperability ecosystem and the removal of outdated standards. However, they caution that deregulation must be balanced with clear transition guidance, retention of key certification criteria for trust and safety, and continued support for non-FHIR standards where FHIR maturity is lacking.",
+  "position": "support_deregulation",
+  "key_themes": [
+    "fhir_standards",
+    "ccda_removal",
+    "audit_log_standards",
+    "uscdi_data_classes",
+    "interoperability"
+  ],
+  "specific_provisions": [
+    "USCDI v3.1",
+    "removal of C-CDA creation certification criterion",
+    "removal/reduction of audit log requirements",
+    "removal/reduction of electronic health information (EHI) export requirements",
+    "removal of certain standardized API requirements"
+  ],
+  "key_arguments": [
+    "Deregulation enables innovation and lowers barriers but transfers risk to providers relying on document-based exchange.",
+    "Certain certification criteria related to auditability and data provenance are essential trust rails for safe AI integration and clinical workflows.",
+    "Removing or revising criteria without alternatives risks destabilizing existing programs and interoperability foundations.",
+    "Non-FHIR standards remain important baselines where FHIR standards are immature; a phased transition is necessary."
+  ],
+  "recommendations": [
+    "Pair deregulation with clear transition guidance, guardrails, and support for standards harmonization to prevent fragmentation.",
+    "Carefully re-examine removal or revision of certification criteria critical for trust, safety, and data provenance.",
+    "Retain or require attestation for high-impact criteria such as auditing, security tagging, and reconciliation workflows.",
+    "Maintain references to non-FHIR standards in certification criteria or via other formal mechanisms until FHIR maturity is sufficient.",
+    "Engage HL7 actively in finalizing and implementing the rule to align policy vision with technical realities."
+  ],
+  "sentiment_score": 2,
+  "notable_quote": "HL7 strongly supports the proposed rule\u2019s aims including to establish a new foundation for FHIR-based API requirements."
+}

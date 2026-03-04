@@ -1,0 +1,36 @@
+{
+  "id": "HHS-ONC-2025-0005-0056",
+  "commenter_name": "Jennifer Matyac",
+  "organization": "",
+  "posted_date": "2026-02-20T05:00:00Z",
+  "has_text": true,
+  "comment_length": 2060,
+  "org_type": "individual_clinician",
+  "summary": "The commenter strongly opposes weakening certification requirements before updating foundational data standards, emphasizing the need to modernize audit trail standards to ensure the integrity and safety of electronic health records. They argue that deregulation risks undermining patient safety, interoperability, and accountability.",
+  "position": "strongly_oppose_deregulation",
+  "key_themes": [
+    "audit_log_standards",
+    "patient_safety",
+    "data_integrity",
+    "interoperability",
+    "burden_reduction"
+  ],
+  "specific_provisions": [
+    "audit logs",
+    "certification requirements",
+    "data standards modernization"
+  ],
+  "key_arguments": [
+    "Current audit trail standards (ASTM E2147-18) are outdated and insufficient for modern clinical environments.",
+    "Integrity and auditability of EHRs are foundational to patient safety and quality of care.",
+    "Weakening certification requirements removes safeguards and risks patient safety.",
+    "Standards and certification exist to ensure interoperability and prevent data fragmentation."
+  ],
+  "recommendations": [
+    "Reconsider deregulatory actions that remove or dilute certification requirements.",
+    "Modernize and strengthen data integrity and audit trail standards before any deregulation.",
+    "Ensure modernization efforts enhance safety, integrity, transparency, and accountability."
+  ],
+  "sentiment_score": -3,
+  "notable_quote": "The integrity of a medical record is only as reliable as its audit trail."
+}
