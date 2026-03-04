@@ -1,7 +1,11 @@
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
-import axios from "axios";
+import {
+  validateCommentData,
+  createGitHubIssue,
+  formatValidationError,
+} from "../server/github-service.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -20,98 +24,41 @@ app.use(express.static(staticPath));
 
 // API endpoint for submitting comments via GitHub issues
 app.post("/api/comments", async (req, res) => {
-  console.log("[/api/comments] POST request received");
-
   try {
     const { name, email, comment } = req.body;
-    console.log(
-      `[/api/comments] Input validation - name: ${!!name}, email: ${!!email}, comment: ${!!comment}`
-    );
 
-    // Validate input
-    if (!name || !email || !comment) {
-      console.warn(
-        "[/api/comments] Validation failed: missing required fields"
-      );
-      return res.status(400).json({ error: "Missing required fields" });
-    }
-
-    if (comment.length < 10) {
-      console.warn(
-        `[/api/comments] Validation failed: comment too short (${comment.length} chars)`
-      );
-      return res
-        .status(400)
-        .json({ error: "Comment must be at least 10 characters" });
-    }
-
-    if (comment.length > 5000) {
-      console.warn(
-        `[/api/comments] Validation failed: comment too long (${comment.length} chars)`
-      );
-      return res
-        .status(400)
-        .json({ error: "Comment must be less than 5000 characters" });
-    }
-
-    console.log("[/api/comments] Input validation passed");
-
-    // Check GitHub token
-    const githubToken = process.env.GITHUB_TOKEN;
-    if (!githubToken) {
-      console.error(
-        "[/api/comments] GITHUB_TOKEN not configured in environment"
-      );
-      return res.status(500).json({
-        error: "GitHub token not configured",
+    // Validate input (centralized validation logic)
+    const validationErrors = validateCommentData(name, email, comment);
+    if (validationErrors.length > 0) {
+      return res.status(400).json({
+        success: false,
+        error: formatValidationError(validationErrors),
         issue_url: null,
       });
     }
-    console.log("[/api/comments] GitHub token found in environment");
 
-    const issueBody = `**Submitted by:** ${name}\n**Email:** ${email}\n\n---\n\n${comment}`;
+    // Create GitHub issue (centralized GitHub API logic)
+    const issueData = await createGitHubIssue(name, email, comment);
 
-    console.log("[/api/comments] Calling GitHub API to create issue...");
-    const response = await axios.post(
-      "https://api.github.com/repos/jacobmr/hti5/issues",
-      {
-        title: `Comment: ${name}`,
-        body: issueBody,
-        labels: ["user-comment"],
-      },
-      {
-        headers: {
-          Authorization: `token ${githubToken}`,
-          "Content-Type": "application/json",
-        },
-      }
-    );
-
-    console.log(
-      `[/api/comments] GitHub API success - issue #${response.data.number} created`
-    );
-    console.log(`[/api/comments] Issue URL: ${response.data.html_url}`);
+    console.log(`[/api/comments] Success - issue #${issueData.number} created`);
 
     res.json({
       success: true,
       message: "Comment submitted successfully!",
-      issue_url: response.data.html_url,
-      issue_number: response.data.number,
+      issue_url: issueData.html_url,
+      issue_number: issueData.number,
     });
   } catch (error) {
-    console.error(
-      "[/api/comments] ERROR:",
-      error instanceof Error ? error.message : String(error)
-    );
-    if (axios.isAxiosError(error)) {
-      console.error("[/api/comments] GitHub API error details:", {
-        status: error.response?.status,
-        statusText: error.response?.statusText,
-        data: error.response?.data,
-      });
-    }
-    res.status(500).json({
-      error: "Failed to submit comment",
+    const errorMessage =
+      error instanceof Error ? error.message : "Unknown error";
+    console.error(`[/api/comments] Error: ${errorMessage}`);
+
+    // Don't expose internal error details to client
+    const status = errorMessage.includes("not configured") ? 500 : 400;
+
+    res.status(status).json({
+      success: false,
+      error: status === 500 ? "Failed to submit comment" : errorMessage,
       issue_url: null,
     });
   }

@@ -4,7 +4,7 @@
  * Ironic: a comments section on a comments analysis site
  */
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import {
   Dialog,
   DialogContent,
@@ -23,6 +23,10 @@ interface CommentDialogProps {
   onOpenChange: (open: boolean) => void;
 }
 
+// Email validation regex (matches server-side validation)
+const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const COMMENT_TIMEOUT = 15000; // 15 seconds
+
 export default function CommentDialog({
   open,
   onOpenChange,
@@ -31,23 +35,58 @@ export default function CommentDialog({
   const [email, setEmail] = useState("");
   const [comment, setComment] = useState("");
   const [loading, setLoading] = useState(false);
+  const abortControllerRef = useRef<AbortController | null>(null);
+
+  const validateForm = (
+    name: string,
+    email: string,
+    comment: string
+  ): string | null => {
+    if (!name.trim()) return "Name is required";
+    if (!email.trim()) return "Email is required";
+    if (!EMAIL_REGEX.test(email)) return "Invalid email format";
+    if (!comment.trim()) return "Comment is required";
+    if (comment.length < 10) return "Comment must be at least 10 characters";
+    if (comment.length > 5000)
+      return "Comment must be less than 5000 characters";
+    return null;
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!name.trim() || !email.trim() || !comment.trim()) {
-      toast.error("Please fill in all fields");
+    // Client-side validation
+    const validationError = validateForm(name, email, comment);
+    if (validationError) {
+      toast.error(validationError);
+      return;
+    }
+
+    // Prevent duplicate submissions
+    if (loading) {
       return;
     }
 
     setLoading(true);
 
+    // Cancel previous request if still pending
+    abortControllerRef.current?.abort();
+    abortControllerRef.current = new AbortController();
+
     try {
+      const timeoutId = setTimeout(
+        () => abortControllerRef.current?.abort(),
+        COMMENT_TIMEOUT
+      );
+
       const response = await fetch("/api/comments", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, comment }),
+        signal: abortControllerRef.current.signal,
       });
+
+      clearTimeout(timeoutId);
 
       const data = await response.json();
 
@@ -75,10 +114,19 @@ export default function CommentDialog({
       setComment("");
       onOpenChange(false);
     } catch (error) {
-      console.error("Error submitting comment:", error);
-      toast.error("Network error. Please try again.");
+      if (error instanceof Error && error.name === "AbortError") {
+        toast.error("Request timed out. Please try again.");
+      } else {
+        console.error("Error submitting comment:", error);
+        toast.error(
+          error instanceof Error
+            ? error.message
+            : "Network error. Please try again."
+        );
+      }
     } finally {
       setLoading(false);
+      abortControllerRef.current = null;
     }
   };
 
