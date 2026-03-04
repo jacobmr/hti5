@@ -146,8 +146,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </a>
 
           <div className="text-xs text-sidebar-foreground/40 pt-3 border-t border-sidebar-border/50">
-            <div className="font-mono">v1.0.0</div>
-            <div>March 4, 2026</div>
+            <div className="font-mono">
+              {typeof __COMMIT_HASH__ !== "undefined"
+                ? __COMMIT_HASH__
+                : "build"}
+            </div>
             <div className="mt-2 text-sidebar-foreground/30">
               Comment period closed
               <br />
