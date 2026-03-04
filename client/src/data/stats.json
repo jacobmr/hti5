@@ -27,19 +27,20 @@
     "patient_safety_experts": 1
   },
   "top_themes": {
-    "patient_safety": 245,
+    "fhir_standards": 244,
     "burden_reduction": 224,
+    "patient_safety": 139,
     "ai_regulation": 112,
     "data_privacy": 108,
+    "clinical_workflow": 106,
     "audit_log_standards": 81,
-    "clinical_data_completeness": 73,
+    "health_equity": 73,
     "information_blocking": 70,
-    "fhir_interoperability": 57,
-    "ccda_cda_removal": 31,
-    "uscdi_data_standards": 13,
-    "ehi_export": 3
+    "ccda_removal": 54,
+    "uscdi_data_classes": 41,
+    "long_term_care": 2
   },
-  "avg_sentiment": -1.0926829268292684,
+  "avg_sentiment": -0.7344262295,
   "patient_safety_orgs": 9,
   "comments_with_attachments": 217
 }

@@ -84,8 +84,7 @@ export default function CoordinationPage() {
                     </span>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    {Math.round((group.count / 305) * 10) / 10}% of comment
-                    period
+                    {((group.count / 305) * 100).toFixed(1)}% of comment period
                   </p>
                 </div>
 

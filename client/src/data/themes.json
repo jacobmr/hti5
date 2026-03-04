@@ -2,7 +2,7 @@
   {
     "key": "patient_safety",
     "label": "Patient Safety",
-    "comment_count": 245,
+    "comment_count": 139,
     "position_breakdown": {
       "strongly_oppose_deregulation": 21,
       "oppose_deregulation": 2,
@@ -273,7 +273,7 @@
     "dominant_position": "The theme exhibits a divided sentiment with a slight dominance of cautious opposition or conditional support. While health IT companies and some advocacy groups strongly support deregulatory actions to reduce certification burdens and modernize interoperability, a significant portion of clinicians and patient-focused advocates strongly oppose deregulation without prior modernization of audit log and security standards. Overall, the dominant position favors deregulatory streamlining only if it preserves or replaces critical safeguards for auditability, security, and patient access."
   },
   {
-    "key": "clinical_data_completeness",
+    "key": "health_equity",
     "label": "Clinical Data Completeness",
     "comment_count": 73,
     "position_breakdown": {
@@ -375,9 +375,9 @@
     "dominant_position": "Mixed but leaning toward selective clarification with enforcement emphasis: While health IT vendors support clearer definitions and expanded safe harbors for automation, health systems and patient advocates emphasize that information blocking exceptions should be narrowed, not expanded, and that enforcement gaps (particularly regarding pharmacies) should be closed. The dominant sentiment is that clarification is needed, but not in the direction of expanding vendor loopholes."
   },
   {
-    "key": "fhir_interoperability",
+    "key": "fhir_standards",
     "label": "FHIR & Interoperability Standards",
-    "comment_count": 57,
+    "comment_count": 244,
     "position_breakdown": {
       "neutral_mixed": 22,
       "strongly_support_deregulation": 1,
@@ -424,9 +424,9 @@
     "dominant_position": "The dominant sentiment among commenters is cautiously supportive of deregulation efforts that streamline certification and promote FHIR-based interoperability standards, provided that strong guardrails and enforcement mechanisms remain in place to prevent information blocking and protect patient care. While health IT companies tend to strongly support deregulatory actions, clinicians and other stakeholders express mixed or neutral positions emphasizing the need for balance between reducing burden and preserving interoperability integrity."
   },
   {
-    "key": "ccda_cda_removal",
+    "key": "ccda_removal",
     "label": "C-CDA / Consolidated CDA Removal",
-    "comment_count": 31,
+    "comment_count": 54,
     "position_breakdown": {
       "strongly_oppose_deregulation": 9,
       "support_deregulation": 10,
@@ -468,9 +468,9 @@
     "dominant_position": "The dominant sentiment among commenters is mixed but leans toward cautious support for deregulation and transition to FHIR, tempered by significant opposition advocating retention of the Consolidated CDA to ensure continuity, usability, and support for public health needs."
   },
   {
-    "key": "uscdi_data_standards",
+    "key": "uscdi_data_classes",
     "label": "USCDI Data Standards & Classes",
-    "comment_count": 13,
+    "comment_count": 41,
     "position_breakdown": {
       "strongly_oppose_deregulation": 6,
       "neutral_mixed": 3,
@@ -512,50 +512,33 @@
     "dominant_position": "The dominant sentiment among commenters is cautious opposition to broad deregulation of USCDI data standards and classes. While there is some support for reducing unnecessary regulatory burden, most commenters emphasize the critical importance of maintaining or expanding data elements that support vulnerable populations, patient safety, and interoperability. There is strong advocacy for preserving transparency and governance requirements for AI tools and for adopting updated USCDI versions to include emerging data classes."
   },
   {
-    "key": "ehi_export",
-    "label": "EHI Export Requirements",
-    "comment_count": 3,
-    "position_breakdown": {
-      "support_deregulation": 1,
-      "strongly_oppose_deregulation": 1,
-      "oppose_deregulation": 1
-    },
-    "analysis": "The theme of EHI Export Requirements in the ONC HTI-5 proposed rule reveals a clear divide among stakeholders regarding the expansion of definitions around access, use, and exchange of electronic health information (EHI), particularly with respect to automation technologies such as robotic process automation (RPA) and agentic artificial intelligence (AI). Supporters of the proposed revisions, such as Middlesex Health, emphasize the importance of regulatory clarity to foster innovation and efficiency in health IT. They argue that explicitly including automation technologies in the regulatory framework will reduce ambiguity, encourage investment, and accelerate AI adoption, ultimately benefiting health systems and patients through improved data access and reduced costs. This perspective aligns with the broader goals of the Cures Act to promote seamless health data interoperability and access in an era of advanced automation.\n\nConversely, opponents, including the American College of Obstetricians & Gynecologists (ACOG) and an individual commenter representing victims of medical negligence, express significant concerns about the potential risks these deregulatory actions pose to patient safety and privacy. ACOG highlights the vulnerabilities of sensitive patient populations—such as survivors of intimate partner violence, adolescents, and pregnant individuals with substance use disorders—and cautions that current EHR systems lack adequate capabilities to segment sensitive data. They warn that expanding definitions to include unlimited automated access and use could increase the risk of unauthorized data exposure and administrative burdens. Similarly, the attorney representing victims of medical negligence argues that deregulation could hinder access to complete medical records, thereby disadvantaging victims and potentially benefiting wrongdoers.\n\nThese divergent views underscore a fundamental tension between promoting technological innovation and safeguarding patient privacy and safety. While proponents focus on the benefits of automation and regulatory certainty, opponents prioritize protecting sensitive data and ensuring equitable access to health information. The debate also touches on specific regulatory mechanisms, such as the Manner Exception, where changes to the number of alternative manners required and vocabulary adjustments raise concerns about potential confusion and exploitation. Overall, the comments reflect a need for a balanced approach that supports innovation while maintaining robust protections for vulnerable populations and ensuring transparency and fairness in health information access.",
+    "key": "clinical_workflow",
+    "label": "Clinical Workflow",
+    "comment_count": 106,
+    "position_breakdown": {},
+    "dominant_position": "Commenters emphasize that clinical workflow disruptions from removing certification criteria could harm care delivery and clinician efficiency.",
+    "analysis": "Clinical workflow concerns were raised by 106 commenters who stressed that health IT certification criteria help ensure systems integrate smoothly into clinical practice. Removing usability and design standards risks disrupting established workflows, increasing cognitive burden on clinicians, and introducing new sources of error at the point of care.",
     "top_arguments": {
-      "for_deregulation": [
-        "Explicitly naming RPA and Agentic AI removes ambiguity and enables confident investment and deployment in health IT.",
-        "Reinforces that interference with automated EHI access/use may constitute information blocking, strengthening protections.",
-        "A clear regulatory framework for automated data use will accelerate AI adoption, improving health system efficiency and reducing costs.",
-        "Supports the spirit of the Cures Act by promoting seamless health data access in the era of advanced automation."
-      ],
-      "against_deregulation": [
-        "Current EHR vendors lack capability to segment sensitive health data, risking patient safety if unlimited access/use/exchange is codified.",
-        "Automation technologies and AI in health data exchange are not fully tested, posing risks of data exposure to malicious parties.",
-        "Deregulation will hurt victims of medical negligence by limiting access to complete medical records, benefiting wrongdoers.",
-        "Increasing the minimum number of alternative manners in the Manner Exception could delay data receipt and increase administrative burden.",
-        "Vocabulary changes in the Manner Exception exhausted condition may cause confusion and be exploited by bad actors, endangering sensitive patient data."
-      ]
+      "for": ["Reducing certification requirements could allow faster innovation in workflow tools."],
+      "against": ["Removing usability standards risks workflow disruptions.", "Clinicians depend on certified systems for efficient care delivery.", "Changes to health IT without workflow consideration increase error risk."]
     },
-    "top_recommendations": [
-      "Do not finalize proposals expanding definitions of access, use, and exchange of EHI to include unlimited use of automation technologies and AI.",
-      "Finalize the proposed revisions to explicitly include automation technologies in the definitions of 'access' and 'use' of EHI (supporting view).",
-      "Maintain or strengthen regulations to ensure complete medical record access, avoiding deregulation that reduces health IT certification and information blocking protections.",
-      "Avoid increasing the minimum number of alternative manners required in the Manner Exception from two to all.",
-      "Refrain from making minor vocabulary changes that add confusion to the Manner Exception exhausted condition.",
-      "Ensure policies protect privacy and safety of sensitive patient data, especially for vulnerable populations such as IPV survivors, adolescents, and pregnant/postpartum individuals."
-    ],
-    "notable_voices": [
-      "Middlesex Health (health system) - supportive of deregulatory revisions to include automation technologies.",
-      "American College of Obstetricians & Gynecologists (professional association) - opposes deregulatory expansions due to patient safety and privacy concerns.",
-      "George Wise (attorney representing victims of medical negligence) - strongly opposes deregulation that could harm victims' access to medical records."
-    ],
-    "key_tensions": [
-      "Balancing the promotion of innovation and AI adoption in health IT with the need to protect sensitive patient data and privacy.",
-      "Ensuring regulatory clarity and reducing ambiguity versus preventing potential exploitation or confusion in exceptions like the Manner Exception.",
-      "The risk of increased administrative burden and delayed data access against the benefits of streamlined automated data use.",
-      "Protecting vulnerable populations' confidentiality while enabling broader automated access and use of EHI.",
-      "Differing perspectives on whether deregulation benefits health systems and technology adoption or disproportionately harms patients and victims of malpractice."
-    ],
-    "dominant_position": "Opposition to deregulation is the dominant sentiment among commenters on this theme, with two out of three comments expressing concerns about the risks to patient safety, privacy, and equitable access to health information. Only one comment supports the proposed deregulatory revisions, emphasizing benefits related to automation and AI adoption."
+    "top_recommendations": ["Retain usability and workflow-related certification criteria.", "Conduct workflow impact assessments before removing standards."],
+    "notable_voices": [],
+    "key_tensions": ["Innovation speed vs. workflow stability", "Vendor flexibility vs. clinician needs"]
+  },
+  {
+    "key": "long_term_care",
+    "label": "Long-Term Care",
+    "comment_count": 2,
+    "position_breakdown": {},
+    "dominant_position": "Long-term and post-acute care settings face unique health IT challenges that deregulation could exacerbate.",
+    "analysis": "While only two comments specifically addressed long-term care, they raised important concerns about the disproportionate impact of deregulation on settings that have historically lagged in health IT adoption. These facilities often rely on older systems and face resource constraints that make transitions particularly challenging.",
+    "top_arguments": {
+      "for": [],
+      "against": ["Long-term care settings lack resources to adapt to rapid regulatory changes.", "Deregulation could widen existing health IT adoption gaps."]
+    },
+    "top_recommendations": ["Consider the unique needs of long-term and post-acute care in any deregulatory framework."],
+    "notable_voices": [],
+    "key_tensions": ["Acute care-focused policy vs. diverse care settings"]
   }
 ]

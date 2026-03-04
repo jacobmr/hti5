@@ -295,11 +295,10 @@ export default function ThemesPage() {
           Thematic Analysis
         </h1>
         <p className="text-muted-foreground text-sm max-w-2xl mb-4">
-          Comments were analyzed and grouped into twelve major themes. Each
-          theme shows the position breakdown among comments that addressed it,
-          the dominant arguments on each side, and the most frequently cited
-          recommendations. Themes are ordered by comment frequency and safety
-          relevance.
+          Comments were analyzed and grouped into major themes. Each theme shows
+          the position breakdown among comments that addressed it, the dominant
+          arguments on each side, and the most frequently cited recommendations.
+          Themes are ordered by comment frequency and safety relevance.
         </p>
         <div className="bg-muted/40 border border-border p-4 rounded-sm text-sm leading-relaxed space-y-3 text-foreground/80">
           <p>
@@ -321,8 +320,8 @@ export default function ThemesPage() {
       </div>
 
       <div className="rule-line-thin mt-12 pt-4 text-xs text-muted-foreground font-mono">
-        Themes identified via LLM analysis of all 274 substantive comments ·
-        Expand each theme for full detail
+        Themes identified via LLM analysis of all 305 comments · Expand each
+        theme for full detail
       </div>
     </div>
   );

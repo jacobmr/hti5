@@ -41,17 +41,18 @@ const POSITION_LABELS: Record<string, string> = {
 };
 
 const THEME_LABELS: Record<string, string> = {
+  fhir_standards: "FHIR Standards & Interoperability",
   burden_reduction: "Burden Reduction",
   patient_safety: "Patient Safety",
   ai_regulation: "AI Regulation & Governance",
   data_privacy: "Data Privacy & Security",
+  clinical_workflow: "Clinical Workflow",
   audit_log_standards: "Audit Log Standards",
-  clinical_data_completeness: "Clinical Data Completeness",
+  health_equity: "Health Equity",
   information_blocking: "Information Blocking Enforcement",
-  fhir_interoperability: "FHIR Interoperability",
-  ccda_cda_removal: "C-CDA Removal Concerns",
-  uscdi_data_standards: "USCDI Data Standards",
-  ehi_export: "EHI Export Capabilities",
+  ccda_removal: "C-CDA Removal Concerns",
+  uscdi_data_classes: "USCDI Data Classes",
+  long_term_care: "Long-Term Care",
 };
 
 export default function Home() {
@@ -151,16 +152,16 @@ export default function Home() {
           {
             label: "Oppose / Strongly Oppose",
             value: `${totalOppose}`,
-            sub: `${Math.round((totalOppose / 274) * 100)}% of clear positions`,
+            sub: `${Math.round((totalOppose / 275) * 100)}% of clear positions`,
           },
           {
             label: "Support / Strongly Support",
             value: `${totalSupport}`,
-            sub: `${Math.round((totalSupport / 274) * 100)}% of clear positions`,
+            sub: `${Math.round((totalSupport / 275) * 100)}% of clear positions`,
           },
           {
             label: "Avg. Sentiment",
-            value: `${statsData.avg_sentiment?.toFixed(2) ?? "–0.81"}`,
+            value: `${statsData.avg_sentiment?.toFixed(2) ?? "–0.73"}`,
             sub: "scale: −3 to +3",
           },
         ].map(({ label, value, sub }) => (
@@ -301,10 +302,11 @@ export default function Home() {
           </div>
           <p className="text-sm text-muted-foreground leading-relaxed">
             A sharp divide emerged by stakeholder type:
-            <strong> 90.5% of individual clinicians</strong> opposed the
-            proposed actions, as did 66.7% of professional associations and
-            advocacy groups. In contrast, 54.5% of health IT companies supported
-            them. This split reveals competing interests: clinicians prioritize
+            <strong> 90% of individual clinicians</strong> (18/20) opposed the
+            proposed actions, as did <strong>66.7% of advocacy groups</strong>{" "}
+            (20/30) and <strong>40.7% of professional associations</strong>{" "}
+            (22/54). In contrast, 54.5% of health IT companies supported them.
+            This split reveals competing interests: clinicians prioritize
             safety; vendors prioritize burden reduction.
           </p>
           <div className="mt-4 flex gap-3">
@@ -376,10 +378,13 @@ export default function Home() {
 
           <p>
             <strong>The response was decisively negative.</strong> Average
-            sentiment scored −0.81 on a −3 to +3 scale. Of 274 comments with a
-            clear position, 129 (47%) opposed the proposed actions, while only
+            sentiment scored −0.73 on a −3 to +3 scale. Of 275 comments with a
+            clear position, 130 (47%) opposed the proposed actions, while only
             71 (26%) supported them. The remaining 74 took neutral or mixed
-            positions.
+            positions. Notably, some major organizations filed nuanced comments
+            that resist simple categorization—HIMSS and EHRA, for example,
+            support certain deregulatory steps while opposing others, reflecting
+            the conditional nature of industry support.
           </p>
 
           <p>
