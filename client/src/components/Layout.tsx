@@ -93,7 +93,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             Analysis
           </h1>
           <p className="text-xs text-sidebar-foreground/60 mt-2 leading-relaxed">
-            305 public comments on ONC's proposed deregulatory actions
+            298 public comments on ONC's proposed deregulatory actions
           </p>
         </div>
 

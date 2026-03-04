@@ -59,7 +59,7 @@ export default function CoordinationPage() {
                 {summary.pct_of_comments}%
               </div>
               <div className="text-sm text-muted-foreground mt-2">
-                of all 305 comments submitted
+                of all 298 comments submitted
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function CoordinationPage() {
                     </span>
                   </div>
                   <p className="text-sm text-muted-foreground">
-                    {((group.count / 305) * 100).toFixed(1)}% of comment period
+                    {((group.count / 298) * 100).toFixed(1)}% of comment period
                   </p>
                 </div>
 
@@ -192,7 +192,7 @@ export default function CoordinationPage() {
             </ul>
             <p>
               For comparison, the entire comment period received{" "}
-              <strong>305 comments</strong> from individual citizens, healthcare
+              <strong>298 comments</strong> from individual citizens, healthcare
               professionals, patient safety organizations, EHR vendors, and
               policy advocates.
             </p>

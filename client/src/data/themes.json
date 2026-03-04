@@ -2,7 +2,7 @@
   {
     "key": "patient_safety",
     "label": "Patient Safety",
-    "comment_count": 139,
+    "comment_count": 136,
     "position_breakdown": {
       "strongly_oppose_deregulation": 21,
       "oppose_deregulation": 2,
@@ -75,7 +75,7 @@
   {
     "key": "burden_reduction",
     "label": "Regulatory Burden Reduction",
-    "comment_count": 224,
+    "comment_count": 218,
     "position_breakdown": {
       "strongly_oppose_deregulation": 4,
       "support_deregulation": 3,
@@ -121,7 +121,7 @@
   {
     "key": "ai_regulation",
     "label": "AI Regulation & Governance",
-    "comment_count": 112,
+    "comment_count": 109,
     "position_breakdown": {
       "strongly_support_deregulation": 2,
       "support_deregulation": 32,
@@ -173,7 +173,7 @@
   {
     "key": "data_privacy",
     "label": "Data Privacy & Security Standards",
-    "comment_count": 108,
+    "comment_count": 105,
     "position_breakdown": {
       "strongly_support_deregulation": 1,
       "support_deregulation": 32,
@@ -224,7 +224,7 @@
   {
     "key": "audit_log_standards",
     "label": "Audit Log Standards & Security",
-    "comment_count": 81,
+    "comment_count": 79,
     "position_breakdown": {
       "strongly_support_deregulation": 2,
       "support_deregulation": 29,
@@ -275,7 +275,7 @@
   {
     "key": "health_equity",
     "label": "Clinical Data Completeness",
-    "comment_count": 73,
+    "comment_count": 72,
     "position_breakdown": {
       "strongly_support_deregulation": 1,
       "support_deregulation": 21,
@@ -326,7 +326,7 @@
   {
     "key": "information_blocking",
     "label": "Information Blocking Rules & Enforcement",
-    "comment_count": 70,
+    "comment_count": 69,
     "position_breakdown": {
       "strongly_support_deregulation": 2,
       "support_deregulation": 29,
@@ -377,7 +377,7 @@
   {
     "key": "fhir_standards",
     "label": "FHIR & Interoperability Standards",
-    "comment_count": 244,
+    "comment_count": 238,
     "position_breakdown": {
       "neutral_mixed": 22,
       "strongly_support_deregulation": 1,
@@ -470,7 +470,7 @@
   {
     "key": "uscdi_data_classes",
     "label": "USCDI Data Standards & Classes",
-    "comment_count": 41,
+    "comment_count": 40,
     "position_breakdown": {
       "strongly_oppose_deregulation": 6,
       "neutral_mixed": 3,
@@ -514,17 +514,29 @@
   {
     "key": "clinical_workflow",
     "label": "Clinical Workflow",
-    "comment_count": 106,
+    "comment_count": 104,
     "position_breakdown": {},
     "dominant_position": "Commenters emphasize that clinical workflow disruptions from removing certification criteria could harm care delivery and clinician efficiency.",
     "analysis": "Clinical workflow concerns were raised by 106 commenters who stressed that health IT certification criteria help ensure systems integrate smoothly into clinical practice. Removing usability and design standards risks disrupting established workflows, increasing cognitive burden on clinicians, and introducing new sources of error at the point of care.",
     "top_arguments": {
-      "for": ["Reducing certification requirements could allow faster innovation in workflow tools."],
-      "against": ["Removing usability standards risks workflow disruptions.", "Clinicians depend on certified systems for efficient care delivery.", "Changes to health IT without workflow consideration increase error risk."]
+      "for": [
+        "Reducing certification requirements could allow faster innovation in workflow tools."
+      ],
+      "against": [
+        "Removing usability standards risks workflow disruptions.",
+        "Clinicians depend on certified systems for efficient care delivery.",
+        "Changes to health IT without workflow consideration increase error risk."
+      ]
     },
-    "top_recommendations": ["Retain usability and workflow-related certification criteria.", "Conduct workflow impact assessments before removing standards."],
+    "top_recommendations": [
+      "Retain usability and workflow-related certification criteria.",
+      "Conduct workflow impact assessments before removing standards."
+    ],
     "notable_voices": [],
-    "key_tensions": ["Innovation speed vs. workflow stability", "Vendor flexibility vs. clinician needs"]
+    "key_tensions": [
+      "Innovation speed vs. workflow stability",
+      "Vendor flexibility vs. clinician needs"
+    ]
   },
   {
     "key": "long_term_care",
@@ -535,9 +547,14 @@
     "analysis": "While only two comments specifically addressed long-term care, they raised important concerns about the disproportionate impact of deregulation on settings that have historically lagged in health IT adoption. These facilities often rely on older systems and face resource constraints that make transitions particularly challenging.",
     "top_arguments": {
       "for": [],
-      "against": ["Long-term care settings lack resources to adapt to rapid regulatory changes.", "Deregulation could widen existing health IT adoption gaps."]
+      "against": [
+        "Long-term care settings lack resources to adapt to rapid regulatory changes.",
+        "Deregulation could widen existing health IT adoption gaps."
+      ]
     },
-    "top_recommendations": ["Consider the unique needs of long-term and post-acute care in any deregulatory framework."],
+    "top_recommendations": [
+      "Consider the unique needs of long-term and post-acute care in any deregulatory framework."
+    ],
     "notable_voices": [],
     "key_tensions": ["Acute care-focused policy vs. diverse care settings"]
   }

@@ -126,7 +126,7 @@ export default function Home() {
           </div>
         </div>
         <p className="mt-3 text-base text-muted-foreground max-w-2xl leading-relaxed">
-          A systematic analysis of all 305 public comments submitted on{" "}
+          A systematic analysis of 298 unique public comments submitted on{" "}
           <a
             href="https://www.regulations.gov/document/HHS-ONC-2025-0005-0001/comment"
             target="_blank"
@@ -146,18 +146,18 @@ export default function Home() {
         {[
           {
             label: "Total Comments",
-            value: "305",
-            sub: "submissions analyzed",
+            value: "298",
+            sub: "unique submissions analyzed",
           },
           {
             label: "Oppose / Strongly Oppose",
             value: `${totalOppose}`,
-            sub: `${Math.round((totalOppose / 275) * 100)}% of clear positions`,
+            sub: `${Math.round((totalOppose / 269) * 100)}% of clear positions`,
           },
           {
             label: "Support / Strongly Support",
             value: `${totalSupport}`,
-            sub: `${Math.round((totalSupport / 275) * 100)}% of clear positions`,
+            sub: `${Math.round((totalSupport / 269) * 100)}% of clear positions`,
           },
           {
             label: "Avg. Sentiment",
@@ -303,9 +303,9 @@ export default function Home() {
           <p className="text-sm text-muted-foreground leading-relaxed">
             A sharp divide emerged by stakeholder type:
             <strong> 90% of individual clinicians</strong> (18/20) opposed the
-            proposed actions, as did <strong>66.7% of advocacy groups</strong>{" "}
-            (20/30) and <strong>40.7% of professional associations</strong>{" "}
-            (22/54). In contrast, 54.5% of health IT companies supported them.
+            proposed actions, as did <strong>65.5% of advocacy groups</strong>{" "}
+            (19/29) and <strong>39.6% of professional associations</strong>{" "}
+            (21/53). In contrast, 53.5% of health IT companies supported them.
             This split reveals competing interests: clinicians prioritize
             safety; vendors prioritize burden reduction.
           </p>
@@ -371,16 +371,23 @@ export default function Home() {
           <p>
             The ASTP/ONC proposed rule (HTI-5) seeks to remove or reduce health
             IT certification requirements under the guise of burden reduction.
-            The public comment period closed February 27, 2026, with 305
+            The public comment period closed February 27, 2026, with 298 unique
             submissions from clinicians, vendors, advocacy groups, health
-            systems, government agencies, and professional associations.
+            systems, government agencies, and professional associations (7{" "}
+            <Link
+              href="/duplicates"
+              className="text-primary underline underline-offset-2 hover:opacity-80"
+            >
+              duplicate submissions
+            </Link>{" "}
+            were identified and excluded).
           </p>
 
           <p>
             <strong>The response was decisively negative.</strong> Average
-            sentiment scored −0.73 on a −3 to +3 scale. Of 275 comments with a
-            clear position, 130 (47%) opposed the proposed actions, while only
-            71 (26%) supported them. The remaining 74 took neutral or mixed
+            sentiment scored −0.73 on a −3 to +3 scale. Of 269 comments with a
+            clear position, 127 (47%) opposed the proposed actions, while only
+            70 (26%) supported them. The remaining 72 took neutral or mixed
             positions. Notably, some major organizations filed nuanced comments
             that resist simple categorization—HIMSS and EHRA, for example,
             support certain deregulatory steps while opposing others, reflecting
@@ -443,7 +450,7 @@ export default function Home() {
 
       {/* Footer */}
       <div className="rule-line-thin mt-12 pt-4 text-xs text-muted-foreground font-mono">
-        Analysis based on 305 comments fetched via regulations.gov API ·{" "}
+        Analysis based on 298 unique comments fetched via regulations.gov API ·{" "}
         {commentsData.length} comments with substantive text · Generated March
         2, 2026
       </div>

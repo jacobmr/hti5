@@ -1,21 +1,21 @@
 {
-  "total_comments": 305,
-  "comments_with_text": 305,
+  "total_comments": 298,
+  "comments_with_text": 298,
   "position_distribution": {
     "strongly_support_deregulation": 3,
-    "oppose_deregulation": 39,
-    "strongly_oppose_deregulation": 91,
-    "neutral_mixed": 74,
-    "support_deregulation": 68,
-    "unclear": 30
+    "oppose_deregulation": 38,
+    "strongly_oppose_deregulation": 89,
+    "neutral_mixed": 72,
+    "support_deregulation": 67,
+    "unclear": 29
   },
   "org_type_distribution": {
-    "other": 77,
-    "professional_association": 54,
-    "health_it_company": 44,
-    "unknown": 31,
-    "advocacy_group": 30,
-    "health_system": 24,
+    "other": 75,
+    "professional_association": 53,
+    "health_it_company": 43,
+    "unknown": 30,
+    "advocacy_group": 29,
+    "health_system": 23,
     "individual_clinician": 20,
     "government_agency": 7,
     "academic_research": 6,
@@ -27,20 +27,20 @@
     "patient_safety_experts": 1
   },
   "top_themes": {
-    "fhir_standards": 244,
-    "burden_reduction": 224,
-    "patient_safety": 139,
-    "ai_regulation": 112,
-    "data_privacy": 108,
-    "clinical_workflow": 106,
-    "audit_log_standards": 81,
-    "health_equity": 73,
-    "information_blocking": 70,
+    "fhir_standards": 238,
+    "burden_reduction": 218,
+    "patient_safety": 136,
+    "ai_regulation": 109,
+    "data_privacy": 105,
+    "clinical_workflow": 104,
+    "audit_log_standards": 79,
+    "health_equity": 72,
+    "information_blocking": 69,
     "ccda_removal": 54,
-    "uscdi_data_classes": 41,
+    "uscdi_data_classes": 40,
     "long_term_care": 2
   },
-  "avg_sentiment": -0.7344262295,
+  "avg_sentiment": -0.7315436242,
   "patient_safety_orgs": 9,
-  "comments_with_attachments": 217
+  "comments_with_attachments": 211
 }

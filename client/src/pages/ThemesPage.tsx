@@ -320,7 +320,7 @@ export default function ThemesPage() {
       </div>
 
       <div className="rule-line-thin mt-12 pt-4 text-xs text-muted-foreground font-mono">
-        Themes identified via LLM analysis of all 305 comments · Expand each
+        Themes identified via LLM analysis of 298 unique comments · Expand each
         theme for full detail
       </div>
     </div>

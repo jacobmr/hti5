@@ -136,7 +136,7 @@ export default function RecommendationsPage() {
           Policy Recommendations
         </h1>
         <p className="text-muted-foreground text-sm max-w-2xl mb-4">
-          Seven recommendations derived from the analysis of 305 public
+          Seven recommendations derived from the analysis of 298 unique public
           comments. Each recommendation is grounded in the evidence from the
           comment record and includes specific actionable steps.
         </p>
@@ -159,9 +159,9 @@ export default function RecommendationsPage() {
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           {[
-            { label: "Total Comments", value: "305" },
-            { label: "Oppose / Strongly Oppose", value: "129 (42.3%)" },
-            { label: "Support / Strongly Support", value: "71 (23.3%)" },
+            { label: "Total Comments", value: "298" },
+            { label: "Oppose / Strongly Oppose", value: "127 (47.2%)" },
+            { label: "Support / Strongly Support", value: "70 (26.0%)" },
             { label: "Recommendations Extracted", value: "1,002" },
           ].map(({ label, value }) => (
             <div key={label}>
@@ -268,14 +268,14 @@ export default function RecommendationsPage() {
             governance for high-risk tools. Strengthen information blocking
             enforcement. This approach achieves genuine burden reduction while
             maintaining protections that prevent patient harm. It is supported
-            by 90.5% of clinicians and 66.7% of advocacy groups—the communities
+            by 90% of clinicians and 65.5% of advocacy groups—the communities
             closest to patient care.
           </p>
         </div>
       </div>
 
       <div className="rule-line-thin mt-12 pt-4 text-xs text-muted-foreground font-mono">
-        Recommendations derived from analysis of 305 public comments on
+        Recommendations derived from analysis of 298 unique public comments on
         HHS-ONC-2025-0005-0001 · March 2, 2026
       </div>
     </div>

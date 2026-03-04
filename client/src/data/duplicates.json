@@ -1,0 +1,136 @@
+{
+  "summary": {
+    "total_original": 305,
+    "duplicates_removed": 7,
+    "total_after_dedup": 298,
+    "explanation": "Federal comment periods sometimes receive duplicate submissions — revised resubmissions, organizational comments also filed under personal names, or identical form letters counted twice. We identified 7 duplicate submissions in the original 305 comments. These are excluded from our statistical analysis to avoid double-counting. The original submissions remain accessible below and on regulations.gov for full transparency."
+  },
+  "pairs": [
+    {
+      "kept": {
+        "id": "HHS-ONC-2025-0005-0036",
+        "short_id": "0036",
+        "commenter": "John Travis",
+        "organization": null,
+        "position": "neutral_mixed"
+      },
+      "removed": {
+        "id": "HHS-ONC-2025-0005-0039",
+        "short_id": "0039",
+        "commenter": "John Travis",
+        "organization": null,
+        "position": "neutral_mixed"
+      },
+      "reason": "Same person resubmission",
+      "detail": "Same commenter submitted substantially identical comment (~17,000 characters) six days later. The earlier submission (0036) is retained."
+    },
+    {
+      "kept": {
+        "id": "HHS-ONC-2025-0005-0108",
+        "short_id": "0108",
+        "commenter": "North American Association of Central Cancer Registries",
+        "organization": "North American Association of Central Cancer Registries",
+        "position": "oppose_deregulation"
+      },
+      "removed": {
+        "id": "HHS-ONC-2025-0005-0110",
+        "short_id": "0110",
+        "commenter": "Heather Bates",
+        "organization": null,
+        "position": "oppose_deregulation"
+      },
+      "reason": "Organizational + personal name duplicate",
+      "detail": "97.8% identical text. The organizational submission (NAACCR, 0108) is retained; the personal-name filing (0110) by a likely staff member is removed."
+    },
+    {
+      "kept": {
+        "id": "HHS-ONC-2025-0005-0153",
+        "short_id": "0153",
+        "commenter": "Peggy Schwartz",
+        "organization": null,
+        "position": "neutral_mixed"
+      },
+      "removed": {
+        "id": "HHS-ONC-2025-0005-0155",
+        "short_id": "0155",
+        "commenter": "Peggy Schwartz",
+        "organization": null,
+        "position": "neutral_mixed"
+      },
+      "reason": "Same person resubmission",
+      "detail": "Same commenter, same day, revised resubmission with near-identical text. The earlier submission (0153) is retained."
+    },
+    {
+      "kept": {
+        "id": "HHS-ONC-2025-0005-0215",
+        "short_id": "0215",
+        "commenter": "The Light Collective",
+        "organization": "The Light Collective",
+        "position": "strongly_oppose_deregulation"
+      },
+      "removed": {
+        "id": "HHS-ONC-2025-0005-0221",
+        "short_id": "0221",
+        "commenter": "The Light Collective",
+        "organization": "The Light Collective",
+        "position": "strongly_oppose_deregulation"
+      },
+      "reason": "Same organization resubmission",
+      "detail": "Same organization, same day, revised resubmission with near-identical text (~15,600 characters). The earlier submission (0215) is retained."
+    },
+    {
+      "kept": {
+        "id": "HHS-ONC-2025-0005-0228",
+        "short_id": "0228",
+        "commenter": "Clinical Architecture LLC",
+        "organization": "Clinical Architecture LLC",
+        "position": "support_deregulation"
+      },
+      "removed": {
+        "id": "HHS-ONC-2025-0005-0233",
+        "short_id": "0233",
+        "commenter": "Clinical Architecture",
+        "organization": "Clinical Architecture",
+        "position": "support_deregulation"
+      },
+      "reason": "Same company, name variant",
+      "detail": "Same company filed under slightly different names ('Clinical Architecture LLC' vs 'Clinical Architecture'). Identical themes and sentiment. The full legal name submission (0228) is retained."
+    },
+    {
+      "kept": {
+        "id": "HHS-ONC-2025-0005-0300",
+        "short_id": "0300",
+        "commenter": "Datavant",
+        "organization": "Datavant",
+        "position": "unclear"
+      },
+      "removed": {
+        "id": "HHS-ONC-2025-0005-0303",
+        "short_id": "0303",
+        "commenter": "Datavant",
+        "organization": "Datavant",
+        "position": "unclear"
+      },
+      "reason": "Technical double-submit",
+      "detail": "Both are blank/attachment-only submissions with identical fields, submitted on the same day. Technical duplicate from the regulations.gov system. The earlier submission (0300) is retained."
+    },
+    {
+      "kept": {
+        "id": "HHS-ONC-2025-0005-0147",
+        "short_id": "0147",
+        "commenter": "Laura Barg-Walkow",
+        "organization": null,
+        "position": "strongly_oppose_deregulation"
+      },
+      "removed": {
+        "id": "HHS-ONC-2025-0005-0164",
+        "short_id": "0164",
+        "commenter": "Robert Turner",
+        "organization": null,
+        "position": "strongly_oppose_deregulation"
+      },
+      "reason": "Form letter duplicate",
+      "detail": "100% identical text submitted by different individuals. This appears to be a form letter template. Only one instance is counted to avoid inflating the totals; the earlier filing (Barg-Walkow, 0147) is retained."
+    }
+  ]
+}
