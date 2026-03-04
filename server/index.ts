@@ -1,3 +1,4 @@
+// Local development server only. Production uses api/index.js on Vercel.
 import express from "express";
 import { createServer } from "http";
 import path from "path";
@@ -33,15 +34,6 @@ async function startServer() {
   console.log(`Serving static files from: ${staticPath}`);
 
   app.use(express.json());
-
-  // Set CSP header to allow unsafe-eval for production libraries (Framer Motion, Radix UI, etc)
-  app.use((req, res, next) => {
-    res.setHeader(
-      "Content-Security-Policy",
-      "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://api.github.com https://fonts.googleapis.com"
-    );
-    next();
-  });
 
   app.use(express.static(staticPath));
 

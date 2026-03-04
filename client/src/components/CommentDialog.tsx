@@ -34,6 +34,7 @@ export default function CommentDialog({
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [comment, setComment] = useState("");
+  const [website, setWebsite] = useState(""); // honeypot field
   const [loading, setLoading] = useState(false);
   const abortControllerRef = useRef<AbortController | null>(null);
 
@@ -82,7 +83,7 @@ export default function CommentDialog({
       const response = await fetch("/api/comments", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, comment }),
+        body: JSON.stringify({ name, email, comment, website }),
         signal: abortControllerRef.current.signal,
       });
 
@@ -112,6 +113,7 @@ export default function CommentDialog({
       setName("");
       setEmail("");
       setComment("");
+      setWebsite("");
       onOpenChange(false);
     } catch (error) {
       if (error instanceof Error && error.name === "AbortError") {
@@ -145,6 +147,23 @@ export default function CommentDialog({
         </DialogHeader>
 
         <form onSubmit={handleSubmit} className="space-y-4">
+          {/* Honeypot field — hidden from real users, bots fill it in */}
+          <div
+            aria-hidden="true"
+            style={{ position: "absolute", left: "-9999px", top: "-9999px" }}
+          >
+            <label htmlFor="website">Website</label>
+            <input
+              id="website"
+              name="website"
+              type="text"
+              tabIndex={-1}
+              autoComplete="off"
+              value={website}
+              onChange={e => setWebsite(e.target.value)}
+            />
+          </div>
+
           <div>
             <label className="text-sm font-medium text-foreground">
               Your Name
