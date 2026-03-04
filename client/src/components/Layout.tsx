@@ -14,6 +14,7 @@ import {
   Menu,
   X,
   Github,
+  Copy,
 } from "lucide-react";
 import { useState } from "react";
 import CommentDialog from "./CommentDialog";
@@ -76,6 +77,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 {label}
               </Link>
             ))}
+            <Link
+              href="/duplicates"
+              onClick={() => setMobileOpen(false)}
+              className={`flex items-center gap-3 px-4 py-3 rounded text-sm font-medium transition-colors ${
+                location === "/duplicates"
+                  ? "bg-sidebar-accent text-white"
+                  : "text-sidebar-foreground/60 hover:bg-sidebar-accent/50 hover:text-white"
+              }`}
+            >
+              <Copy size={16} />
+              Duplicates (7)
+            </Link>
           </nav>
         </div>
       )}
@@ -124,6 +137,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <MessageSquare size={14} />
             Add a comment
           </button>
+
+          <Link
+            href="/duplicates"
+            className="flex items-center gap-2 text-xs text-sidebar-foreground/60 hover:text-sidebar-primary transition-colors"
+          >
+            <Copy size={12} />
+            Duplicates (7)
+          </Link>
 
           <a
             href="https://github.com/jacobmr/hti5"
