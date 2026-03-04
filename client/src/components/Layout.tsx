@@ -13,8 +13,10 @@ import {
   ExternalLink,
   Menu,
   X,
+  Github,
 } from "lucide-react";
 import { useState } from "react";
+import CommentDialog from "./CommentDialog";
 
 const navItems = [
   { path: "/", label: "Overview", icon: BarChart2 },
@@ -27,6 +29,7 @@ const navItems = [
 export default function Layout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [commentDialogOpen, setCommentDialogOpen] = useState(false);
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row">
@@ -113,7 +116,25 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </nav>
 
         {/* Footer */}
-        <div className="px-6 py-5 border-t border-sidebar-border">
+        <div className="px-6 py-5 border-t border-sidebar-border space-y-3">
+          <button
+            onClick={() => setCommentDialogOpen(true)}
+            className="w-full flex items-center gap-2 px-3 py-2 text-xs text-sidebar-foreground/80 hover:text-white hover:bg-sidebar-accent/50 rounded transition-colors"
+          >
+            <MessageSquare size={14} />
+            Add a comment
+          </button>
+
+          <a
+            href="https://github.com/jacobmr/hti5"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-xs text-sidebar-foreground/60 hover:text-sidebar-primary transition-colors"
+          >
+            <Github size={12} />
+            GitHub
+          </a>
+
           <a
             href="https://www.regulations.gov/document/HHS-ONC-2025-0005-0001/comment"
             target="_blank"
@@ -121,18 +142,29 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             className="flex items-center gap-2 text-xs text-sidebar-foreground/60 hover:text-sidebar-primary transition-colors"
           >
             <ExternalLink size={12} />
-            View on regulations.gov
+            regulations.gov
           </a>
-          <div className="text-xs text-sidebar-foreground/40 mt-2">
-            Comment period closed
-            <br />
-            Feb 27, 2026
+
+          <div className="text-xs text-sidebar-foreground/40 pt-3 border-t border-sidebar-border/50">
+            <div className="font-mono">v1.0.0</div>
+            <div>March 4, 2026</div>
+            <div className="mt-2 text-sidebar-foreground/30">
+              Comment period closed
+              <br />
+              Feb 27, 2026
+            </div>
           </div>
         </div>
       </aside>
 
       {/* Main content */}
       <main className="flex-1 min-w-0 bg-background">{children}</main>
+
+      {/* Comment Dialog */}
+      <CommentDialog
+        open={commentDialogOpen}
+        onOpenChange={setCommentDialogOpen}
+      />
     </div>
   );
 }

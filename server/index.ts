@@ -2,6 +2,7 @@ import express from "express";
 import { createServer } from "http";
 import path from "path";
 import { fileURLToPath } from "url";
+import axios from "axios";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,7 +28,71 @@ async function startServer() {
   console.log(`__dirname: ${__dirname}`);
   console.log(`Serving static files from: ${staticPath}`);
 
+  app.use(express.json());
   app.use(express.static(staticPath));
+
+  // API endpoint for submitting comments via GitHub issues
+  app.post("/api/comments", async (req, res) => {
+    try {
+      const { name, email, comment } = req.body;
+
+      // Validate input
+      if (!name || !email || !comment) {
+        return res.status(400).json({ error: "Missing required fields" });
+      }
+
+      if (comment.length < 10) {
+        return res
+          .status(400)
+          .json({ error: "Comment must be at least 10 characters" });
+      }
+
+      if (comment.length > 5000) {
+        return res
+          .status(400)
+          .json({ error: "Comment must be less than 5000 characters" });
+      }
+
+      // Create GitHub issue
+      const githubToken = process.env.GITHUB_TOKEN;
+      if (!githubToken) {
+        return res.status(500).json({
+          error: "GitHub token not configured",
+          issue_url: null,
+        });
+      }
+
+      const issueBody = `**Submitted by:** ${name}\n**Email:** ${email}\n\n---\n\n${comment}`;
+
+      const response = await axios.post(
+        "https://api.github.com/repos/jacobmr/hti5/issues",
+        {
+          title: `Comment: ${name}`,
+          body: issueBody,
+          labels: ["user-comment"],
+        },
+        {
+          headers: {
+            Authorization: `token ${githubToken}`,
+            "Content-Type": "application/json",
+          },
+        }
+      );
+
+      res.json({
+        success: true,
+        message: "Comment submitted successfully!",
+        issue_url: response.data.html_url,
+        issue_number: response.data.number,
+      });
+    } catch (error) {
+      console.error("Error submitting comment:", error);
+      res.status(500).json({
+        error: "Failed to submit comment",
+        issue_url: null,
+      });
+    }
+  });
 
   // Handle client-side routing - serve index.html for all routes
   app.get("*", (_req, res) => {
