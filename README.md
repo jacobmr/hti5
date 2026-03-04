@@ -2,7 +2,7 @@
 
 A comprehensive web application analyzing 305 public comments on the **HHS-ONC-2025-0005** proposed rule (Health Information Technology Certification Requirements and Standards).
 
-**Live:** https://hti5.vercel.app
+**Live:** https://hti5.org
 **Source:** https://github.com/jacobmr/hti5
 
 ---
