@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- Background -->
+  <rect width="32" height="32" fill="#1B3A6B" rx="4"/>
+
+  <!-- Document shape -->
+  <path d="M 8 4 L 8 28 L 24 28 L 24 10 L 18 4 Z" fill="#FFFFFF" opacity="0.9"/>
+
+  <!-- Chart bars (representing data analysis) -->
+  <rect x="10" y="16" width="2" height="8" fill="#1B3A6B"/>
+  <rect x="13" y="14" width="2" height="10" fill="#C4862A"/>
+  <rect x="16" y="12" width="2" height="12" fill="#1B3A6B"/>
+  <rect x="19" y="15" width="2" height="9" fill="#C4862A"/>
+</svg>
