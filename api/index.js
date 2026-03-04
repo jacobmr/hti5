@@ -11,6 +11,15 @@ const app = express();
 // Middleware
 app.use(express.json());
 
+// Set CSP header to allow unsafe-eval for production libraries
+app.use((req, res, next) => {
+  res.setHeader(
+    "Content-Security-Policy",
+    "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://api.github.com https://fonts.googleapis.com"
+  );
+  next();
+});
+
 // Serve static files from the dist/public directory
 // On Vercel, files are in .vercel/output/static/ or we use dist/public/
 const staticPath = path.resolve(__dirname, "..", "dist", "public");
