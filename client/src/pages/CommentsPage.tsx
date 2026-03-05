@@ -7,10 +7,73 @@ import { useState, useMemo, useEffect } from "react";
 import { Search, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
 import commentsData from "@data/comments.json";
 import coordinationData from "@data/coordination_groups.json";
+import assessmentData from "@data/comment_assessments.json";
 
 type Comment = (typeof commentsData)[0];
+type Assessment = (typeof assessmentData.assessments)[0];
 
 import { POSITION_LABELS } from "@shared/const";
+
+// Build assessment lookup by comment ID
+const assessmentLookup = new Map<string, Assessment>();
+for (const a of assessmentData.assessments) {
+  assessmentLookup.set(a.comment_id, a as Assessment);
+}
+
+const UNDERSTANDING_LABELS: Record<number, string> = {
+  0: "Off-topic",
+  1: "Weak",
+  2: "Partial",
+  3: "Adequate",
+  4: "Strong",
+  5: "Expert",
+};
+
+const UNDERSTANDING_COLORS: Record<number, string> = {
+  0: "bg-red-100 text-red-800 border-red-200",
+  1: "bg-orange-100 text-orange-800 border-orange-200",
+  2: "bg-amber-100 text-amber-800 border-amber-200",
+  3: "bg-sky-100 text-sky-800 border-sky-200",
+  4: "bg-emerald-100 text-emerald-800 border-emerald-200",
+  5: "bg-indigo-100 text-indigo-800 border-indigo-200",
+};
+
+const OUTGROWTH_LABELS: Record<string, { label: string; color: string }> = {
+  within_scope: {
+    label: "Within Scope",
+    color: "bg-emerald-100 text-emerald-800 border-emerald-200",
+  },
+  likely_within: {
+    label: "Likely Within",
+    color: "bg-sky-100 text-sky-800 border-sky-200",
+  },
+  borderline: {
+    label: "Borderline",
+    color: "bg-amber-100 text-amber-800 border-amber-200",
+  },
+  outside_scope: {
+    label: "Outside Scope",
+    color: "bg-red-100 text-red-800 border-red-200",
+  },
+  not_applicable: {
+    label: "N/A",
+    color: "bg-gray-100 text-gray-600 border-gray-200",
+  },
+};
+
+const POSTURE_LABELS_MAP: Record<string, { label: string; color: string }> = {
+  accept: { label: "Accept", color: "bg-emerald-100 text-emerald-800" },
+  accept_with_modification: {
+    label: "Accept w/ Mod",
+    color: "bg-teal-100 text-teal-800",
+  },
+  partially_accept: {
+    label: "Partially Accept",
+    color: "bg-sky-100 text-sky-800",
+  },
+  acknowledge: { label: "Acknowledge", color: "bg-gray-100 text-gray-700" },
+  reject: { label: "Reject", color: "bg-red-100 text-red-800" },
+};
 
 const POSITION_BADGE: Record<string, string> = {
   strongly_oppose_deregulation: "badge-oppose",
@@ -73,7 +136,9 @@ const coordinationLookup = new Map<string, string>();
 
 function CommentCard({ comment }: { comment: Comment }) {
   const [expanded, setExpanded] = useState(false);
+  const [assessmentExpanded, setAssessmentExpanded] = useState(false);
   const badgeClass = POSITION_BADGE[comment.position] || "badge-unclear";
+  const assessment = assessmentLookup.get(comment.id);
   const coordinationGroupId = coordinationLookup.get(comment.id);
   const coordinationGroup = coordinationGroupId
     ? (
@@ -191,6 +256,79 @@ function CommentCard({ comment }: { comment: Comment }) {
                   </li>
                 ))}
               </ul>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Assessment badges */}
+      {assessment && (
+        <div className="mt-3">
+          <button
+            onClick={() => setAssessmentExpanded(!assessmentExpanded)}
+            className="flex flex-wrap items-center gap-1.5 group"
+          >
+            <span
+              className={`text-xs px-1.5 py-0.5 rounded-sm border font-medium ${UNDERSTANDING_COLORS[assessment.understanding_score]}`}
+            >
+              {assessment.understanding_score}/5{" "}
+              {UNDERSTANDING_LABELS[assessment.understanding_score]}
+            </span>
+            {OUTGROWTH_LABELS[assessment.logical_outgrowth] && (
+              <span
+                className={`text-xs px-1.5 py-0.5 rounded-sm border ${OUTGROWTH_LABELS[assessment.logical_outgrowth].color}`}
+              >
+                {OUTGROWTH_LABELS[assessment.logical_outgrowth].label}
+              </span>
+            )}
+            {POSTURE_LABELS_MAP[assessment.agency_posture] && (
+              <span
+                className={`text-xs px-1.5 py-0.5 rounded-sm ${POSTURE_LABELS_MAP[assessment.agency_posture].color}`}
+              >
+                {POSTURE_LABELS_MAP[assessment.agency_posture].label}
+              </span>
+            )}
+            <span className="text-muted-foreground group-hover:text-primary transition-colors">
+              {assessmentExpanded ? (
+                <ChevronUp size={13} />
+              ) : (
+                <ChevronDown size={13} />
+              )}
+            </span>
+          </button>
+
+          {assessmentExpanded && (
+            <div className="mt-2 grid grid-cols-1 md:grid-cols-3 gap-3 text-xs border-t border-border/50 pt-3">
+              <div>
+                <div className="font-mono text-muted-foreground uppercase tracking-wider mb-1">
+                  Understanding
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  {assessment.understanding_rationale}
+                </p>
+              </div>
+              <div>
+                <div className="font-mono text-muted-foreground uppercase tracking-wider mb-1">
+                  Logical Outgrowth
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  {assessment.outgrowth_rationale}
+                </p>
+              </div>
+              <div>
+                <div className="font-mono text-muted-foreground uppercase tracking-wider mb-1">
+                  Agency Posture
+                </div>
+                <p className="text-muted-foreground leading-relaxed">
+                  {assessment.posture_rationale}
+                </p>
+                {assessment.provision_addressed && (
+                  <p className="mt-1 text-muted-foreground/70">
+                    Provision:{" "}
+                    {assessment.provision_addressed.replace(/_/g, " ")}
+                  </p>
+                )}
+              </div>
             </div>
           )}
         </div>
