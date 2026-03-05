@@ -12,6 +12,7 @@ import RecommendationsPage from "./pages/RecommendationsPage";
 import CoordinationPage from "./pages/CoordinationPage";
 import AssessmentPage from "./pages/AssessmentPage";
 import DuplicatesPage from "./pages/DuplicatesPage";
+import ProcessPage from "./pages/ProcessPage";
 import Layout from "./components/Layout";
 
 function Router() {
@@ -24,6 +25,7 @@ function Router() {
         <Route path="/recommendations" component={RecommendationsPage} />
         <Route path="/coordination" component={CoordinationPage} />
         <Route path="/assessment" component={AssessmentPage} />
+        <Route path="/process" component={ProcessPage} />
         <Route path="/duplicates" component={DuplicatesPage} />
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />

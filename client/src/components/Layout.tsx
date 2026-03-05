@@ -11,6 +11,7 @@ import {
   Lightbulb,
   Network,
   ClipboardCheck,
+  ScrollText,
   ExternalLink,
   Menu,
   X,
@@ -27,6 +28,7 @@ const navItems = [
   { path: "/coordination", label: "Coordination", icon: Network },
   { path: "/assessment", label: "Assessment", icon: ClipboardCheck },
   { path: "/recommendations", label: "Recommendations", icon: Lightbulb },
+  { path: "/process", label: "Process", icon: ScrollText },
 ];
 
 export default function Layout({ children }: { children: React.ReactNode }) {
