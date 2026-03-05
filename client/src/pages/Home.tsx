@@ -314,27 +314,27 @@ export default function Home() {
       <section className="mb-10">
         <div className="rule-line-thin mb-4" />
         <h2 className="font-display text-xl font-bold mb-3">
-          Coordinated Legal Advocacy
+          Organized Campaigns & Aligned Interests
         </h2>
         <div className="bg-amber/5 border border-amber/20 rounded-lg p-6">
           <p className="text-base leading-relaxed text-foreground mb-3">
-            Approximately{" "}
+            Intent-based analysis identified{" "}
             <strong>
-              {coordinationData.summary.total_coordinated} comments
+              {coordinationData.summary.campaigns_identified} campaigns
             </strong>{" "}
-            from legal professionals share a common template arguing to preserve
-            audit trail standards (ASTM E2147-18). These comments represent{" "}
+            involving{" "}
             <strong>
-              organized advocacy by a patient safety legal network
-            </strong>
-            —the strongest single organized opposition to the proposed audit
-            trail changes.
+              {coordinationData.summary.unique_after_dedup} unique comments
+            </strong>{" "}
+            ({coordinationData.summary.pct_of_comments}% of all submissions).
+            These range from organized legal advocacy networks and industry
+            blocs to coalition letters representing 100+ organizations.
           </p>
           <p className="text-sm text-muted-foreground mb-4">
-            This is a normal, legal feature of federal rulemaking. These legal
-            professionals are arguing for patient safety based on technical
-            standards expertise, not commercial interest. Their coordination
-            reflects legitimate professional concern about audit trail removal.
+            Coordinated campaigns are a normal, legal feature of federal
+            rulemaking. This analysis detects patterns of intent — shared policy
+            goals, temporal clustering, and organizational alignment — not just
+            text matching.
           </p>
           <Link
             href="/coordination"
