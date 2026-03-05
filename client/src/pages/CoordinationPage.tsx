@@ -116,9 +116,12 @@ export default function CoordinationPage() {
                           group.campaign_type}
                       </span>
                     </div>
-                    <span className="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-federal-blue/10 text-federal-blue whitespace-nowrap ml-4">
+                    <Link
+                      href={`/comments?coordination=${group.id}`}
+                      className="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium bg-federal-blue/10 text-federal-blue whitespace-nowrap ml-4 hover:bg-federal-blue/20 transition-colors"
+                    >
                       {group.count} comments
-                    </span>
+                    </Link>
                   </div>
                   <p className="text-sm text-muted-foreground">
                     {((group.count / 298) * 100).toFixed(1)}% of comment period
