@@ -10,6 +10,7 @@ import {
   MessageSquare,
   Lightbulb,
   Network,
+  ClipboardCheck,
   ExternalLink,
   Menu,
   X,
@@ -24,6 +25,7 @@ const navItems = [
   { path: "/themes", label: "Themes", icon: FileText },
   { path: "/comments", label: "Comments", icon: MessageSquare },
   { path: "/coordination", label: "Coordination", icon: Network },
+  { path: "/assessment", label: "Assessment", icon: ClipboardCheck },
   { path: "/recommendations", label: "Recommendations", icon: Lightbulb },
 ];
 
