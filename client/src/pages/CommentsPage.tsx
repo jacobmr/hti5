@@ -3,7 +3,7 @@
  * Design: Federal Register Meets Data Journalism
  * Searchable, filterable list of all 274 substantive comments
  */
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { Search, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
 import commentsData from "@data/comments.json";
 import coordinationData from "@data/coordination_groups.json";
@@ -219,9 +219,27 @@ export default function CommentsPage() {
   const [selectedThemes, setSelectedThemes] = useState<string[]>([]);
   const [selectedOrgType, setSelectedOrgType] = useState("");
   const [showOnlyCoordinated, setShowOnlyCoordinated] = useState(false);
+  const [coordinationFilter, setCoordinationFilter] = useState<string | null>(
+    null
+  );
   const [showFilters, setShowFilters] = useState(false);
   const [page, setPage] = useState(1);
   const PER_PAGE = 25;
+
+  // Read ?coordination=group_id from URL on mount
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const groupId = params.get("coordination");
+    if (groupId) {
+      const group = (coordinationData.groups as Array<{ id: string }>).find(
+        g => g.id === groupId
+      );
+      if (group) {
+        setCoordinationFilter(groupId);
+        setShowFilters(true);
+      }
+    }
+  }, []);
 
   const filtered = useMemo(() => {
     let results = commentsData as Comment[];
@@ -252,7 +270,15 @@ export default function CommentsPage() {
       results = results.filter(c => c.org_type === selectedOrgType);
     }
 
-    if (showOnlyCoordinated) {
+    if (coordinationFilter) {
+      const group = (
+        coordinationData.groups as Array<{ id: string; comment_ids: string[] }>
+      ).find(g => g.id === coordinationFilter);
+      if (group) {
+        const ids = new Set(group.comment_ids);
+        results = results.filter(c => ids.has(c.id));
+      }
+    } else if (showOnlyCoordinated) {
       results = results.filter(c => coordinationLookup.has(c.id));
     }
 
@@ -263,6 +289,7 @@ export default function CommentsPage() {
     selectedThemes,
     selectedOrgType,
     showOnlyCoordinated,
+    coordinationFilter,
   ]);
 
   const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
@@ -326,13 +353,15 @@ export default function CommentsPage() {
           {selectedPositions.length +
             selectedThemes.length +
             (selectedOrgType ? 1 : 0) +
-            (showOnlyCoordinated ? 1 : 0) >
+            (showOnlyCoordinated ? 1 : 0) +
+            (coordinationFilter ? 1 : 0) >
             0 && (
             <span className="ml-1 bg-primary text-primary-foreground text-xs px-1.5 py-0.5 rounded-full">
               {selectedPositions.length +
                 selectedThemes.length +
                 (selectedOrgType ? 1 : 0) +
-                (showOnlyCoordinated ? 1 : 0)}
+                (showOnlyCoordinated ? 1 : 0) +
+                (coordinationFilter ? 1 : 0)}
             </span>
           )}
         </button>
@@ -435,7 +464,8 @@ export default function CommentsPage() {
           {selectedPositions.length +
             selectedThemes.length +
             (selectedOrgType ? 1 : 0) +
-            (showOnlyCoordinated ? 1 : 0) >
+            (showOnlyCoordinated ? 1 : 0) +
+            (coordinationFilter ? 1 : 0) >
             0 && (
             <button
               onClick={() => {
@@ -443,6 +473,8 @@ export default function CommentsPage() {
                 setSelectedThemes([]);
                 setSelectedOrgType("");
                 setShowOnlyCoordinated(false);
+                setCoordinationFilter(null);
+                window.history.replaceState({}, "", "/comments");
                 setPage(1);
               }}
               className="text-xs text-destructive hover:opacity-80"
@@ -452,6 +484,35 @@ export default function CommentsPage() {
           )}
         </div>
       )}
+
+      {/* Coordination group banner */}
+      {coordinationFilter &&
+        (() => {
+          const group = (
+            coordinationData.groups as Array<{
+              id: string;
+              label: string;
+              count: number;
+            }>
+          ).find(g => g.id === coordinationFilter);
+          return group ? (
+            <div className="bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800 rounded-lg px-4 py-3 mb-4 flex items-center justify-between">
+              <p className="text-sm text-amber-800 dark:text-amber-200">
+                Showing <strong>{group.count} comments</strong> from the{" "}
+                <strong>{group.label}</strong> campaign
+              </p>
+              <button
+                onClick={() => {
+                  setCoordinationFilter(null);
+                  window.history.replaceState({}, "", "/comments");
+                }}
+                className="text-xs text-amber-700 dark:text-amber-300 hover:opacity-80 underline underline-offset-2"
+              >
+                Clear
+              </button>
+            </div>
+          ) : null;
+        })()}
 
       {/* Comment list */}
       <div className="space-y-3">
