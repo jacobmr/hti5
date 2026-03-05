@@ -24,13 +24,13 @@ const ROOT = join(__dirname, "..");
 
 // Load data sources
 const comments = JSON.parse(
-  readFileSync(join(ROOT, "data/comments.json"), "utf-8"),
+  readFileSync(join(ROOT, "data/comments.json"), "utf-8")
 );
 const allComments = JSON.parse(
   readFileSync(
     join(ROOT, "raw-data/comments/full-text/all-comments.json"),
-    "utf-8",
-  ),
+    "utf-8"
+  )
 );
 
 // Build lookup for full text
@@ -187,12 +187,11 @@ function scoreUnderstanding(comment, fullText) {
 
   // Expert signals (score 5): cites specific CFR sections, understands nuances
   const cfrCitations =
-    text.match(
-      /§\s*170\.315|45\s*cfr|170\.315|§170|part\s*170|part\s*171/gi,
-    ) || [];
+    text.match(/§\s*170\.315|45\s*cfr|170\.315|§170|part\s*170|part\s*171/gi) ||
+    [];
   const specificity =
     text.match(
-      /\(a\)\(\d+\)|\(b\)\(\d+\)|\(c\)\(\d+\)|\(d\)\(\d+\)|\(e\)\(\d+\)|\(f\)\(\d+\)|\(g\)\(\d+\)/g,
+      /\(a\)\(\d+\)|\(b\)\(\d+\)|\(c\)\(\d+\)|\(d\)\(\d+\)|\(e\)\(\d+\)|\(f\)\(\d+\)|\(g\)\(\d+\)/g
     ) || [];
 
   if (cfrCitations.length >= 3 && specificity.length >= 2) {
@@ -214,7 +213,7 @@ function scoreUnderstanding(comment, fullText) {
           "general_comment",
           "patient_safety",
           "health_equity",
-        ].includes(t),
+        ].includes(t)
     );
   if (addressesSpecificProvision && score < 4) {
     score = Math.max(score, 3);
@@ -227,7 +226,9 @@ function scoreUnderstanding(comment, fullText) {
     (text.includes("remov") || text.includes("propos"))
   ) {
     score = Math.max(score, 3);
-    reasons.push("Understands the proposal involves removing certification criteria");
+    reasons.push(
+      "Understands the proposal involves removing certification criteria"
+    );
   }
 
   // Distinction between certification and underlying law
@@ -237,14 +238,14 @@ function scoreUnderstanding(comment, fullText) {
   ) {
     score = Math.max(score, 4);
     reasons.push(
-      "Distinguishes between certification requirements and underlying law (HIPAA)",
+      "Distinguishes between certification requirements and underlying law (HIPAA)"
     );
   }
 
   // Understands HIPAA doesn't replace certification
   if (
     text.match(
-      /hipaa\s*(alone|insufficient|not\s*enough|does\s*not|doesn't|gap)/i,
+      /hipaa\s*(alone|insufficient|not\s*enough|does\s*not|doesn't|gap)/i
     )
   ) {
     score = Math.max(score, 4);
@@ -252,7 +253,11 @@ function scoreUnderstanding(comment, fullText) {
   }
 
   // Mentions NPRM-specific concepts
-  if (text.includes("hti-5") || text.includes("hti5") || text.includes("hti 5")) {
+  if (
+    text.includes("hti-5") ||
+    text.includes("hti5") ||
+    text.includes("hti 5")
+  ) {
     score = Math.max(score, 3);
     reasons.push("Identifies the specific rulemaking (HTI-5)");
   }
@@ -289,9 +294,7 @@ function scoreUnderstanding(comment, fullText) {
   }
 
   // Bonus: mentions specific standards or organizations
-  if (
-    text.match(/hl7|fhir|c-cda|uscdi|astm|nist|iso|ncpdp|x12/i)
-  ) {
+  if (text.match(/hl7|fhir|c-cda|uscdi|astm|nist|iso|ncpdp|x12/i)) {
     score = Math.max(score, 3);
     reasons.push("References specific health IT standards");
   }
@@ -319,7 +322,7 @@ function scoreUnderstanding(comment, fullText) {
     reasons.push(
       score >= 3
         ? "Shows general understanding of the proposal"
-        : "Limited engagement with specific NPRM provisions",
+        : "Limited engagement with specific NPRM provisions"
     );
   }
 
@@ -354,16 +357,16 @@ function classifyLogicalOutgrowth(comment, fullText) {
   // Within scope: asks to keep/remove something that's explicitly proposed for change
   const withinScopeSignals = [
     combined.match(
-      /retain|keep|do not remove|don't remove|maintain|preserve/,
+      /retain|keep|do not remove|don't remove|maintain|preserve/
     ) &&
       combined.match(
-        /\(d\)\(\d+\)|\(a\)\(9\)|\(b\)\(11\)|\(g\)\(6\)|certification|criteria/,
+        /\(d\)\(\d+\)|\(a\)\(9\)|\(b\)\(11\)|\(g\)\(6\)|certification|criteria/
       ),
     combined.match(/support.*remov|agree.*remov|favor.*deregulat/),
     combined.match(/oppose.*remov|against.*remov|reconsider.*remov/),
     combined.match(/transition.*period|phase|timeline|compliance.*date/),
     combined.match(
-      /uscdi.*v3|data element|data class.*remov|data class.*retain/,
+      /uscdi.*v3|data element|data class.*remov|data class.*retain/
     ),
     combined.match(/tefca|manner exception/),
     combined.match(/real world testing|rwt|svap/),
@@ -374,14 +377,13 @@ function classifyLogicalOutgrowth(comment, fullText) {
   // Outside scope: introduces concepts not in the NPRM
   const outsideScopeSignals = [
     combined.match(
-      /new\s+certification|new\s+criteria|add\s+new|create\s+new.*standard/,
+      /new\s+certification|new\s+criteria|add\s+new|create\s+new.*standard/
     ) && !combined.match(/uscdi|fhir/),
     combined.match(/medicare|medicaid|cms\s+should|cms\s+must/) &&
       !combined.match(/align|coordinate/),
     combined.match(/legislation|congress|statutory/),
-    combined.match(
-      /fda.*should|fda.*must|fda.*regulate/,
-    ) && !combined.match(/information blocking/),
+    combined.match(/fda.*should|fda.*must|fda.*regulate/) &&
+      !combined.match(/information blocking/),
   ];
 
   const outsideCount = outsideScopeSignals.filter(Boolean).length;
@@ -391,9 +393,8 @@ function classifyLogicalOutgrowth(comment, fullText) {
     combined.match(/expand.*scope|broaden|extend/),
     combined.match(/additional.*requirement|new.*requirement/) &&
       combined.match(/certification|criteria/),
-    combined.match(
-      /enforcement|penalty|penalties|sanction/,
-    ) && !combined.match(/information blocking/),
+    combined.match(/enforcement|penalty|penalties|sanction/) &&
+      !combined.match(/information blocking/),
   ];
 
   const borderlineCount = borderlineSignals.filter(Boolean).length;
@@ -443,7 +444,7 @@ function classifyLogicalOutgrowth(comment, fullText) {
         "ai_transparency",
         "information_blocking",
         "real_world_testing",
-      ].includes(t),
+      ].includes(t)
     )
   ) {
     return {
@@ -470,7 +471,7 @@ function identifyProvision(comment, fullText) {
   const matches = [];
   for (const [provision, keywords] of Object.entries(PROVISION_KEYWORDS)) {
     const matchCount = keywords.filter(kw =>
-      combined.includes(kw.toLowerCase()),
+      combined.includes(kw.toLowerCase())
     ).length;
     if (matchCount >= 2) {
       matches.push({ provision, matchCount });
@@ -697,5 +698,5 @@ console.log(
   "  Top provisions:",
   Object.entries(stats.provision_distribution)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 5),
+    .slice(0, 5)
 );

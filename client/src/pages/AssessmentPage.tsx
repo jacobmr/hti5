@@ -553,18 +553,28 @@ export default function AssessmentPage() {
               under the APA).
             </p>
             <p>
-              Scoring uses heuristic analysis combining keyword detection,
-              regulatory citation patterns, and existing theme/position data.
-              All scoring logic is transparent and available in the{" "}
+              Understanding and outgrowth use heuristic analysis combining
+              keyword detection and regulatory citation patterns (
               <a
                 href="https://github.com/jacobmr/hti5/blob/main/scripts/generate-assessments.mjs"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-primary hover:opacity-80 transition-opacity"
               >
-                assessment script
+                scoring script
               </a>
-              . The full methodology is documented in{" "}
+              ). Provision identification and agency posture use weighted
+              semantic pattern matching against comment summaries and
+              recommendations (
+              <a
+                href="https://github.com/jacobmr/hti5/blob/main/scripts/reassess-posture.mjs"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:opacity-80 transition-opacity"
+              >
+                posture script
+              </a>
+              ). The full methodology is documented in{" "}
               <a
                 href="https://github.com/jacobmr/hti5/blob/main/source/assessment-methodology.md"
                 target="_blank"
