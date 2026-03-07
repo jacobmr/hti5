@@ -7,7 +7,7 @@
 PUBLIC HEALTH DIVISION
 Office of the State Public Health Director
 Data Modernization Office
-Tina Kotek, Governor         
+Tina Kotek, Governor  
 February 18, 2026
 To the National Coordinator for Health Information Technology:
 On behalf of the Oregon Health Authority Public Health Data Modernization Office, we appreciate the opportunity to provide comments on the proposed rule addressing deregulatory actions within the Department of Health and Human Services related to health information technology standards, implementation specifications, certification criteria and certification programs, and information blocking.

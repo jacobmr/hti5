@@ -4,332 +4,322 @@
 
 ---
 
- 
- 
-5555 Gate Parkway, Ste 110 
-Jacksonville, FL 32256 
-1.800.282.4548 
-  Availity.com 
- 
-SUBMITTED ELECTRONICALLY VIA REGULATIONS.GOV 
- 
-February 27, 2026  
- 
-Thomas Keane, MD, MBA 
-Assistant Secretary for Technology Policy/National Coordinator for Health Information 
-Technology 
+5555 Gate Parkway, Ste 110
+Jacksonville, FL 32256
+1.800.282.4548
+Availity.com
+
+SUBMITTED ELECTRONICALLY VIA REGULATIONS.GOV
+
+February 27, 2026
+
+Thomas Keane, MD, MBA
+Assistant Secretary for Technology Policy/National Coordinator for Health Information
+Technology
 Attention: Health Data, Technology, and Interoperability  
-Mary E. Switzer Building 
-7033A, 330 C Street SW 
-Washington, DC 20201 
- 
-Re: Health Data, Technology, and Interoperability – ASTP/ONC Deregulatory Actions 
-to Unleash Prosperity (HTI-5) [RIN 0955-AA09] 
- 
-Dr. Keane: 
- 
-Availity, L.L.C. (“Availity”) is the largest dual-sided, real-time healthcare network in the United 
-States, directly connecting 3.5M+ providers, 95%+ of health plans, and 17K+ technology partners.  
- 
-We appreciate the opportunity to provide  input on the Assistant Secretary for Technology 
-Policy/National Coordinator for Health Information Technology ( “ASTP/ONC”) Deregulatory 
-Actions to Unleash Prosperity Proposed Rule  (HTI-5). Availity believes that our unique position 
-within the American healthcare system provides us a valuable perspective on information sharing 
-and opportunities to innovate the health technology ecosystem in a manner that empowers patients 
-and introduces efficiencies to empower a truly  great American health system.  Our work is 
-governed by a complex regulatory landscape that includes the Health Insurance Portability and 
-Accountability Act ( “HIPAA”), the Health Information Technology for Economic and Clinical 
-Health Act (“HITECH”), and various state-level privacy and security laws.  
- 
-Availity submits this comment to the HTI-5 proposed rule with a focus on the information blocking 
-provisions in 45 C.F.R. Part 171. We support ASTP/ONC’s objective to accelerate interoperable, 
-API-enabled exchange and its efforts to modernize the regulatory framework to reflect automated, 
-system-to-system data access.  These comments respond directly to ASTP/ONC’s requests for 
+Mary E. Switzer Building
+7033A, 330 C Street SW
+Washington, DC 20201
+
+Re: Health Data, Technology, and Interoperability – ASTP/ONC Deregulatory Actions
+to Unleash Prosperity (HTI-5) [RIN 0955-AA09]
+
+Dr. Keane:
+
+Availity, L.L.C. (“Availity”) is the largest dual-sided, real-time healthcare network in the United
+States, directly connecting 3.5M+ providers, 95%+ of health plans, and 17K+ technology partners.
+
+We appreciate the opportunity to provide input on the Assistant Secretary for Technology
+Policy/National Coordinator for Health Information Technology ( “ASTP/ONC”) Deregulatory
+Actions to Unleash Prosperity Proposed Rule (HTI-5). Availity believes that our unique position
+within the American healthcare system provides us a valuable perspective on information sharing
+and opportunities to innovate the health technology ecosystem in a manner that empowers patients
+and introduces efficiencies to empower a truly great American health system. Our work is
+governed by a complex regulatory landscape that includes the Health Insurance Portability and
+Accountability Act ( “HIPAA”), the Health Information Technology for Economic and Clinical
+Health Act (“HITECH”), and various state-level privacy and security laws.
+
+Availity submits this comment to the HTI-5 proposed rule with a focus on the information blocking
+provisions in 45 C.F.R. Part 171. We support ASTP/ONC’s objective to accelerate interoperable,
+API-enabled exchange and its efforts to modernize the regulatory framework to reflect automated,
+system-to-system data access. These comments respond directly to ASTP/ONC’s requests for
 comment concerning automated access and use , i ncluding artificial intelligence (“AI”),  
-transparency, HIPAA compliance, use of existin g technical pathways, fees and “market rate,” 
-licensing and contract terms, and the removal of certain information blocking exceptions . These 
-comments address proposed revisions to 45 C.F.R. §§ 171.102, 171.204, and 171.301 and related 
-requests for comment. 
+transparency, HIPAA compliance, use of existin g technical pathways, fees and “market rate,”
+licensing and contract terms, and the removal of certain information blocking exceptions . These
+comments address proposed revisions to 45 C.F.R. §§ 171.102, 171.204, and 171.301 and related
+requests for comment.
 
-Availity, L.L.C. 
-Page 2 
- 
- 
-Availity.com 
- 
-I.  Definitions of Access and Use 
- 
-Availity supports ASTP/ONC’s proposed clarification that “access” and “use” encompass 
-automated and system -to-system interactions, including those enabled by AI. We believe it is 
-essential that the final rule continues to advance standards-based interoperability and automation, 
-which are critical for achieving scalable, nationwide information exchange. Availity further 
-suggests that ASTP/ONC clarify that actors may not impose categorical restrictions on automated 
-access or the use of AI tools when these tools are deployed to facilitate otherwise permitted access, 
-exchange, or use of electronic health information (“ EHI”). ASTP/ONC should ensure that 
-reasonable, consistently applied security, identity verification, and system integrity controls 
-remain permitted.  
- 
-II. Access and Use Transparency 
- 
-To promote trust in automated access (including AI), Availity suggests the final rule confirm that 
-actors may require transparent disclosure of the identity and function of automated agents acting 
-on behalf of a requestor. Standards for transparency should, at minimum, include auditable logging 
-of automated access, provenance, and purpose of data use. These controls should be uniformly 
-applied, content-neutral, and no more restrictive than necessary to satisfy the Privacy and Security 
-Exceptions and applica ble law.  To further support this position, we suggest the following 
-clarifications to the final rule: 
- 
-• Affirm Parity. Authorized software agents and AI  should be entitled to the same access, 
-exchange, and use rights as the authorizing user, subject to reasonable security, system 
-integrity controls, and identity verification. We specifically note that due to the volume of 
-transactions that can be generated by AI and agents, actors should be able to include system 
-integrity controls limiting connections or balancing heavy volume demands to windows 
-where more capacity is available. Extremely high-volume activities may also impose 
-increased costs that should be allowed to be passed on to the high-volume users. 
- 
-• Disfavor Contractual Prohibitions. Contractual provisions that prohibit or unduly restrict 
-the use of software agents and AI tools for otherwise permitted access, exchange, or use of 
-EHI should be disfavored and may constitute interference unless justified under a Part 171 
-exception. Actors will retain the ability to implement reasonable, risk- based security, 
-patient safety, and governance controls for AI -enabled access, provided such controls are 
-applied in a nondiscriminatory manner a nd are not pretextual  provisions intended to 
+Availity, L.L.C.
+Page 2
+
+Availity.com
+
+I. Definitions of Access and Use
+
+Availity supports ASTP/ONC’s proposed clarification that “access” and “use” encompass
+automated and system -to-system interactions, including those enabled by AI. We believe it is
+essential that the final rule continues to advance standards-based interoperability and automation,
+which are critical for achieving scalable, nationwide information exchange. Availity further
+suggests that ASTP/ONC clarify that actors may not impose categorical restrictions on automated
+access or the use of AI tools when these tools are deployed to facilitate otherwise permitted access,
+exchange, or use of electronic health information (“ EHI”). ASTP/ONC should ensure that
+reasonable, consistently applied security, identity verification, and system integrity controls
+remain permitted.
+
+II. Access and Use Transparency
+
+To promote trust in automated access (including AI), Availity suggests the final rule confirm that
+actors may require transparent disclosure of the identity and function of automated agents acting
+on behalf of a requestor. Standards for transparency should, at minimum, include auditable logging
+of automated access, provenance, and purpose of data use. These controls should be uniformly
+applied, content-neutral, and no more restrictive than necessary to satisfy the Privacy and Security
+Exceptions and applica ble law. To further support this position, we suggest the following
+clarifications to the final rule:
+
+• Affirm Parity. Authorized software agents and AI should be entitled to the same access,
+exchange, and use rights as the authorizing user, subject to reasonable security, system
+integrity controls, and identity verification. We specifically note that due to the volume of
+transactions that can be generated by AI and agents, actors should be able to include system
+integrity controls limiting connections or balancing heavy volume demands to windows
+where more capacity is available. Extremely high-volume activities may also impose
+increased costs that should be allowed to be passed on to the high-volume users.
+
+• Disfavor Contractual Prohibitions. Contractual provisions that prohibit or unduly restrict
+the use of software agents and AI tools for otherwise permitted access, exchange, or use of
+EHI should be disfavored and may constitute interference unless justified under a Part 171
+exception. Actors will retain the ability to implement reasonable, risk- based security,
+patient safety, and governance controls for AI -enabled access, provided such controls are
+applied in a nondiscriminatory manner a nd are not pretextual provisions intended to
 materially interfere with lawful access, exchange, or use of EHI.
-1 
- 
-1 Security controls are appropriate and necessary safeguards when they are genuine, proportionate, and applied in a non -discriminatory manner. 
-Courts interpreting the 21st Century Cures Act and related interoperability obligations have made clear that actor s may implement security and 
-system-integrity controls to protect patient data and network performance. However, those controls are permissible only if they are grounded in 
-documented, specific risks, applied uniformly and proportionately, and do not unrea sonably interfere with otherwise lawful access, exchange, or 
+1
 
-Availity, L.L.C. 
-Page 3 
- 
- 
-Availity.com 
- 
-• Permit Reasonable Safeguards. Actors may implement authentication, rate management, 
-anomaly detection, and integrity controls necessary to maintain system stability and 
-security. Actors may also implement risk-based controls, including identity proofing, token 
-management, system integrity controls and incident response, provided such controls are 
-nondiscriminatory and are not pretextual  provisions intended to materially interfere with 
-otherwise lawful access, exchange, or use. 
- 
-III. HIPAA Compliance; De-Identification and Aggregation 
- 
-As noted by ASTP/ONC, we agree that HIPAA remains the governing framework for privacy and 
-security and operates together with the information blocking rules . With that said, Availity again 
-suggests that allowing payers and  providers to withhold de -identification and aggregation  
-permissions is complicating a clearinghouse’s ability to use data for treatment, payment, and 
-healthcare operation purposes and increase efficiency in the healthcare system . To the extent 
-permitted under HIPAA and other applicable laws , aggregation and de -identification should be 
-permissible and should not be curtailed by contract or policy to the extent the use cases are part of 
-for treatment, payment, and healthcare operation or  the internal healthcare operations of a 
-clearinghouse. Restrictions on de-identified or aggregated use interfere with access, exchange, or 
-use and prevent innovation. Effectively, tying one hand behind a clearinghouse ’s back on 
-innovating and reducing burdens in the healthcare ecosystem. Properly governed aggregation and 
-de-identification support quality improvement, fraud prevention, innovation, population health, 
-and AI development, consistent with the purposes of interoperability. 
- 
-In the same vein, Availity would also encourage ASTP/ONC to recommend Health and Human 
-Services (“HHS”) Office for Civil Rights (“OCR”) to reexamine the outdated de-identification and 
-data aggregation authorization rights in HIPAA that are restricting the ability of clearinghouses to 
-use data for AI-driven improvements in treatment, payment, and operations. While pathways exist 
-for using de -identified or limited datasets, business associates (including clearinghouses) often 
-need explicit contractual delegat ion to access these rights which are not generally granted by 
-covered entities (or actors). This contractual limitation frequently stems from commercial 
-considerations rather than privacy/security concerns and prevents clearinghouses from leveraging 
-a unique position to drive interoperability, operational efficiencies , and reduce administrative 
-waste. 
- 
-If clearinghouses are not constrained by outdated contractual or policy restrictions, they can fully 
-leverage protected health information (PHI) during the course of performing their clearinghouse 
-services. This would empower clearinghouses to use data for treatment, payment, and healthcare 
- 
-use of electronic health information. When a  “security” or “performance” control is introduced without identifying a concrete risk, applies 
-restrictions selectively to competitors, or fails to provide a reasonable alternative access pathway, such controls may constitute unlawful interference 
-with permitted data flows. By contrast, uniformly applied,  risk-based controls that are tailored to actual threats and allow continued compliant 
-access to remain  consistent with both HIPAA and the Cures Act interoperability framework.  See, e.g., Real Time Medical Systems, Inc. v. 
-PointClickCare Technologies, Inc., 4th Cir. 2025; Particle Health Inc. v. Epic Systems Corp., No. 1:24-cv-07174 (S.D.N.Y. 2025). 
+1 Security controls are appropriate and necessary safeguards when they are genuine, proportionate, and applied in a non -discriminatory manner.
+Courts interpreting the 21st Century Cures Act and related interoperability obligations have made clear that actor s may implement security and
+system-integrity controls to protect patient data and network performance. However, those controls are permissible only if they are grounded in
+documented, specific risks, applied uniformly and proportionately, and do not unrea sonably interfere with otherwise lawful access, exchange, or
 
-Availity, L.L.C. 
-Page 4 
- 
- 
-Availity.com 
- 
-operations that allows them to drive critical advancements in interoperability, quality 
-improvement, and fraud prevention.  Treating clearinghouses as a bridge between payers and 
-providers would accelerate interoperability by streamlining the flow of information across the 
-healthcare network. A clearinghouse’s unique advantage enables them to identify patterns across 
-a wide number of payers and providers, standardize processes, and provide actionable insights that 
-individual entities might miss. This role could be especial ly valuable in the context of CMS 
-Aligned Networks, where efficient, secure, and interoperable data sharing is necessary to achieve 
-the goals of this administration. Ultimately, clarifying and expanding the rights of clearinghouses 
-to aggregate and de -identify data, while coordinating with HHS and OCR to modernize HIPAA 
+Availity, L.L.C.
+Page 3
+
+Availity.com
+
+• Permit Reasonable Safeguards. Actors may implement authentication, rate management,
+anomaly detection, and integrity controls necessary to maintain system stability and
+security. Actors may also implement risk-based controls, including identity proofing, token
+management, system integrity controls and incident response, provided such controls are
+nondiscriminatory and are not pretextual provisions intended to materially interfere with
+otherwise lawful access, exchange, or use.
+
+III. HIPAA Compliance; De-Identification and Aggregation
+
+As noted by ASTP/ONC, we agree that HIPAA remains the governing framework for privacy and
+security and operates together with the information blocking rules . With that said, Availity again
+suggests that allowing payers and providers to withhold de -identification and aggregation  
+permissions is complicating a clearinghouse’s ability to use data for treatment, payment, and
+healthcare operation purposes and increase efficiency in the healthcare system . To the extent
+permitted under HIPAA and other applicable laws , aggregation and de -identification should be
+permissible and should not be curtailed by contract or policy to the extent the use cases are part of
+for treatment, payment, and healthcare operation or the internal healthcare operations of a
+clearinghouse. Restrictions on de-identified or aggregated use interfere with access, exchange, or
+use and prevent innovation. Effectively, tying one hand behind a clearinghouse ’s back on
+innovating and reducing burdens in the healthcare ecosystem. Properly governed aggregation and
+de-identification support quality improvement, fraud prevention, innovation, population health,
+and AI development, consistent with the purposes of interoperability.
+
+In the same vein, Availity would also encourage ASTP/ONC to recommend Health and Human
+Services (“HHS”) Office for Civil Rights (“OCR”) to reexamine the outdated de-identification and
+data aggregation authorization rights in HIPAA that are restricting the ability of clearinghouses to
+use data for AI-driven improvements in treatment, payment, and operations. While pathways exist
+for using de -identified or limited datasets, business associates (including clearinghouses) often
+need explicit contractual delegat ion to access these rights which are not generally granted by
+covered entities (or actors). This contractual limitation frequently stems from commercial
+considerations rather than privacy/security concerns and prevents clearinghouses from leveraging
+a unique position to drive interoperability, operational efficiencies , and reduce administrative
+waste.
+
+If clearinghouses are not constrained by outdated contractual or policy restrictions, they can fully
+leverage protected health information (PHI) during the course of performing their clearinghouse
+services. This would empower clearinghouses to use data for treatment, payment, and healthcare
+
+use of electronic health information. When a “security” or “performance” control is introduced without identifying a concrete risk, applies
+restrictions selectively to competitors, or fails to provide a reasonable alternative access pathway, such controls may constitute unlawful interference
+with permitted data flows. By contrast, uniformly applied, risk-based controls that are tailored to actual threats and allow continued compliant
+access to remain consistent with both HIPAA and the Cures Act interoperability framework. See, e.g., Real Time Medical Systems, Inc. v.
+PointClickCare Technologies, Inc., 4th Cir. 2025; Particle Health Inc. v. Epic Systems Corp., No. 1:24-cv-07174 (S.D.N.Y. 2025).
+
+Availity, L.L.C.
+Page 4
+
+Availity.com
+
+operations that allows them to drive critical advancements in interoperability, quality
+improvement, and fraud prevention. Treating clearinghouses as a bridge between payers and
+providers would accelerate interoperability by streamlining the flow of information across the
+healthcare network. A clearinghouse’s unique advantage enables them to identify patterns across
+a wide number of payers and providers, standardize processes, and provide actionable insights that
+individual entities might miss. This role could be especial ly valuable in the context of CMS
+Aligned Networks, where efficient, secure, and interoperable data sharing is necessary to achieve
+the goals of this administration. Ultimately, clarifying and expanding the rights of clearinghouses
+to aggregate and de -identify data, while coordinating with HHS and OCR to modernize HIPAA
 standards, would unlock their potential as innovation hubs within the healthcare system.  
-Specifically, Availity believes that HHS possesses the authority to affirm that clearinghouses are 
-covered entities (allowing data de identification, data aggregation along with treatment, payment, 
-and healthcare operations activities) under HIPAA.2  HHS should also affirm that clearinghouses 
-may de-identify and aggregate data for the purposes of  providing clearinghouse services. These 
-affirmations would empower clearinghouses to fully leverage their unique position within the 
-healthcare system and unlock their capacity to rapidly drive advancements in interoperability and 
-fraud prevention. This approach is not only consistent with the intent of HIPAA but also aligns 
-with the goals of modern interoperability initiatives such as CMS Align ed Networks. We urge 
-policymakers to remove unnecessary barriers and recognize the indispensable role clearinghouses 
-play in shaping a more efficient, integrated, and innovative healthcare future.  
- 
-IV. Access Through Existing Technical Pathways 
- 
-ASTP/ONC requests input on access to EHI where an actor already supports a given interface or 
-pathway. Availity agrees that if an actor already offers access through a given technical interface 
-or pathway, that pathway must be made available on equivalent terms to similarly situated 
-requestors using the same technology, without requiring material system modification or new 
-capacity. We agree that actors should not selectively deny or impose more burdensome conditions 
-on similarly situated requestors for an existing, viable pathway.  
- 
-While we agree that access through existing pathways should be made available to similarly 
-situated requestors using the same technology, reasonable exceptions should be permitted for 
-pathways that are being phased out due to obsolescence, security vulnera bilities, or compliance 
-with updated industry standards. We suggest that ASTP/ONC clarify that actors should not be 
-required to maintain access through obsolete interfaces or technical pathways that are scheduled 
-for decommissioning or have been identified as posing security or compliance risks. This approach 
-balances the need for equitable access with the imperative to protect system integrity. Ultimately, 
- 
-2 The U.S. healthcare system already has the necessary regulatory tools to facilitate this change. We believe the current ambig uities in HIPAA 
-regarding clearinghouse classification can be resolved through executive clarification by HHS, without requiring new legislation or formal 
-rulemaking. This action could enable greater data exchange almost immediately and would be directly aligned with the goals of this administration 
-to promote interoperability, efficiency, and innovation across the healthcare system. By taking this step, the administration would achieve a 
-meaningful policy win and demonstrate its commitment to modernizing healthcare infrastructure in support of its priorities. 
+Specifically, Availity believes that HHS possesses the authority to affirm that clearinghouses are
+covered entities (allowing data de identification, data aggregation along with treatment, payment,
+and healthcare operations activities) under HIPAA.2 HHS should also affirm that clearinghouses
+may de-identify and aggregate data for the purposes of providing clearinghouse services. These
+affirmations would empower clearinghouses to fully leverage their unique position within the
+healthcare system and unlock their capacity to rapidly drive advancements in interoperability and
+fraud prevention. This approach is not only consistent with the intent of HIPAA but also aligns
+with the goals of modern interoperability initiatives such as CMS Align ed Networks. We urge
+policymakers to remove unnecessary barriers and recognize the indispensable role clearinghouses
+play in shaping a more efficient, integrated, and innovative healthcare future.
 
-Availity, L.L.C. 
-Page 5 
- 
- 
-Availity.com 
- 
-actors may discontinue security vulnerable or obsolete pathways, provided this is done in a manner 
-that does not materially interfere with lawful permitted access, exchange, or use of EHI. A practical 
-example of the foregoing would be prohibiting screen scraping if a viable API exists to obtain the 
-same data. 
- 
-V. Fees and “Market Rate”  
- 
-ASTP/ONC proposes to prohibit reliance on the Manner Exception where access is conditioned 
-on pricing that is not at “market rate.” We support preventing pricing practices that are intended 
-to function as barriers to access. However, the rule references to “market rate” require objective, 
-administrable standards. “Market rate” should include  pricing and terms offered on equivalent 
-terms to similarly situated requestors using similar services. For example, the market price rate 
-burden for screen scraping may exceed the rate of the same transaction using an API . A market 
-rate fee should include cost recovery plus a reasonable profit necessary to sustain infrastructure, 
-capacity, and foster innovation.3 
- 
-Additionally, Availity suggests the final rule confirm that premium services are permissible so 
-long as baseline access remains sufficient, and premium features are not required to be included 
-in baseline access. Availity asks ASTP/ONC to confirm that per-transaction pricing, onboarding 
-fees, capacity tiers, security screening costs, and reasonable profit margins are permissible when 
-reasonable and nondiscriminatory. ASTP/ONC should also align “reasonable” pricing with fair 
-market value and commercial reasonableness standards used elsewhere in federal health care law 
-as ASTP/ONC discuses in the proposed rule to avoid creating a novel pricing regime subject to 
-scrutiny. A reasonable fee framework must ensure that baseline access to EHI is available on 
-nondiscriminatory terms to similarly situated requestors, while permitting commercially 
-reasonable pricing, including a reasonable profit . If there are no reimbursement mechanisms, the 
-system will not support itself.  
- 
-VI. Contractual Terms  
- 
-ASTP/ONC proposes to clarify that the Manner Exception cannot be satisfied if it is conditioned 
-on entering into a contract of adhesion or a contract that contains unconscionable terms. Availity 
-supports preventing contractual terms that materially interfere with access, exchange, or use of 
-EHI. However, we encourage  ASTP/ONC to consider anchoring the contract-related analysis to 
-existing legal standards, including nondiscrimination, fair market value, commercial 
-reasonableness, and established unconscionability doctrines under applicable law . This approach 
-will help ensure outcomes that are both predictable and easy to administer. We suggest that the 
-final rule should: 
- 
-3 We believe this is consistent with §171.302 that states in part “An actor's practice of charging fees, including fees that result in a reasonable profit 
-margin, for accessing, exchanging, or using electronic health information…”  
+IV. Access Through Existing Technical Pathways
 
-Availity, L.L.C. 
-Page 6 
- 
- 
-Availity.com 
- 
- 
-• Focus on substantive interference with a requestor’s legitimate business, not only the form 
-of the contract 
-• Distinguish procedural adhesion from substantive unfairness or unconscionability 
-• Provide a safe harbor for nondiscriminatory standard -form agreements that provide 
-meaningful baseline access, do not affect a  requestor’s ability to conduct its legitimate 
-business, and do not restrict lawful use of EHI 
- 
-Availity’s suggested approach leverages existing legal frameworks while preventing contracts 
-from functioning as information blocking. An actor’s capacity to apply reasonable, risk -based 
-measures for security, patient safety, system integrity controls or clinical workflow protections 
-under current exceptions would remain unchanged. Contractual term evaluation should follow 
-existing legal standards and guidance governing adhesion and unconscionability and focus  on 
-whether the substantive terms materially interfere with access, exchange, or use of EHI or with the 
-requestors ability to conduct its legitimate business . Example contractual clauses that present 
+ASTP/ONC requests input on access to EHI where an actor already supports a given interface or
+pathway. Availity agrees that if an actor already offers access through a given technical interface
+or pathway, that pathway must be made available on equivalent terms to similarly situated
+requestors using the same technology, without requiring material system modification or new
+capacity. We agree that actors should not selectively deny or impose more burdensome conditions
+on similarly situated requestors for an existing, viable pathway.
+
+While we agree that access through existing pathways should be made available to similarly
+situated requestors using the same technology, reasonable exceptions should be permitted for
+pathways that are being phased out due to obsolescence, security vulnera bilities, or compliance
+with updated industry standards. We suggest that ASTP/ONC clarify that actors should not be
+required to maintain access through obsolete interfaces or technical pathways that are scheduled
+for decommissioning or have been identified as posing security or compliance risks. This approach
+balances the need for equitable access with the imperative to protect system integrity. Ultimately,
+
+2 The U.S. healthcare system already has the necessary regulatory tools to facilitate this change. We believe the current ambig uities in HIPAA
+regarding clearinghouse classification can be resolved through executive clarification by HHS, without requiring new legislation or formal
+rulemaking. This action could enable greater data exchange almost immediately and would be directly aligned with the goals of this administration
+to promote interoperability, efficiency, and innovation across the healthcare system. By taking this step, the administration would achieve a
+meaningful policy win and demonstrate its commitment to modernizing healthcare infrastructure in support of its priorities.
+
+Availity, L.L.C.
+Page 5
+
+Availity.com
+
+actors may discontinue security vulnerable or obsolete pathways, provided this is done in a manner
+that does not materially interfere with lawful permitted access, exchange, or use of EHI. A practical
+example of the foregoing would be prohibiting screen scraping if a viable API exists to obtain the
+same data.
+
+V. Fees and “Market Rate”
+
+ASTP/ONC proposes to prohibit reliance on the Manner Exception where access is conditioned
+on pricing that is not at “market rate.” We support preventing pricing practices that are intended
+to function as barriers to access. However, the rule references to “market rate” require objective,
+administrable standards. “Market rate” should include pricing and terms offered on equivalent
+terms to similarly situated requestors using similar services. For example, the market price rate
+burden for screen scraping may exceed the rate of the same transaction using an API . A market
+rate fee should include cost recovery plus a reasonable profit necessary to sustain infrastructure,
+capacity, and foster innovation.3
+
+Additionally, Availity suggests the final rule confirm that premium services are permissible so
+long as baseline access remains sufficient, and premium features are not required to be included
+in baseline access. Availity asks ASTP/ONC to confirm that per-transaction pricing, onboarding
+fees, capacity tiers, security screening costs, and reasonable profit margins are permissible when
+reasonable and nondiscriminatory. ASTP/ONC should also align “reasonable” pricing with fair
+market value and commercial reasonableness standards used elsewhere in federal health care law
+as ASTP/ONC discuses in the proposed rule to avoid creating a novel pricing regime subject to
+scrutiny. A reasonable fee framework must ensure that baseline access to EHI is available on
+nondiscriminatory terms to similarly situated requestors, while permitting commercially
+reasonable pricing, including a reasonable profit . If there are no reimbursement mechanisms, the
+system will not support itself.
+
+VI. Contractual Terms
+
+ASTP/ONC proposes to clarify that the Manner Exception cannot be satisfied if it is conditioned
+on entering into a contract of adhesion or a contract that contains unconscionable terms. Availity
+supports preventing contractual terms that materially interfere with access, exchange, or use of
+EHI. However, we encourage ASTP/ONC to consider anchoring the contract-related analysis to
+existing legal standards, including nondiscrimination, fair market value, commercial
+reasonableness, and established unconscionability doctrines under applicable law . This approach
+will help ensure outcomes that are both predictable and easy to administer. We suggest that the
+final rule should:
+
+3 We believe this is consistent with §171.302 that states in part “An actor's practice of charging fees, including fees that result in a reasonable profit
+margin, for accessing, exchanging, or using electronic health information…”
+
+Availity, L.L.C.
+Page 6
+
+Availity.com
+
+• Focus on substantive interference with a requestor’s legitimate business, not only the form
+of the contract
+• Distinguish procedural adhesion from substantive unfairness or unconscionability
+• Provide a safe harbor for nondiscriminatory standard -form agreements that provide
+meaningful baseline access, do not affect a requestor’s ability to conduct its legitimate
+business, and do not restrict lawful use of EHI
+
+Availity’s suggested approach leverages existing legal frameworks while preventing contracts
+from functioning as information blocking. An actor’s capacity to apply reasonable, risk -based
+measures for security, patient safety, system integrity controls or clinical workflow protections
+under current exceptions would remain unchanged. Contractual term evaluation should follow
+existing legal standards and guidance governing adhesion and unconscionability and focus on
+whether the substantive terms materially interfere with access, exchange, or use of EHI or with the
+requestors ability to conduct its legitimate business . Example contractual clauses that present
 interference with a requestor’s legitimate business include non-compete clauses, no-hire or non-
-solicitation provisions, full assignment of intellect property rights by requestor, or other 
-restrictions that, while not directly addressing EHI access, exchange, or use, effectively prevent 
-the requestor from engaging in legitimate business activities or participating in the market. Such 
-provisions should be scrutinized to ensure they do not serve as indirect barriers to interoperability 
-or lawful use of EHI. 
- 
-Availity would be happy to meet to further discuss this complicated topic. 
- 
-VII. Removal of Exceptions 
- 
-Availity supports ASTP/ONC’s proposal to remove the expectation that an actor must exhaust the 
-Manner Exhausted Exception before relying on other exceptions, and to remove the third- party 
-modification condition in the Infeasibility Exception. We agree with ASTP/ONC’s statements that 
-these revisions are appropriate because the existing provisions have been susceptible to 
-misapplication and have at times been used to delay or deny access through procedural 
-mechanisms rather than advancing timely, meaningful interoperability. Eliminating these 
-requirements simplifies compliance, aligns the rule with API -based, system-to-system exchange, 
-and reduces opportunities to impose custom and bespoke interface demands or system changes 
-that are not necessary where an existing, viable pathway is available. Actors may continue to rely 
-on Security, Privacy, Infeasibility, and may implement reasonable, risk-based operational controls 
-and system integrity controls, so long as those controls are nondiscriminatory and are not 
-pretextual provisions intended to materially interfere with lawful access, exchange, or use of EHI.  
- 
+solicitation provisions, full assignment of intellect property rights by requestor, or other
+restrictions that, while not directly addressing EHI access, exchange, or use, effectively prevent
+the requestor from engaging in legitimate business activities or participating in the market. Such
+provisions should be scrutinized to ensure they do not serve as indirect barriers to interoperability
+or lawful use of EHI.
 
-Availity, L.L.C. 
-Page 7 
- 
- 
-Availity.com 
- 
-Availity also supports ASTP/ONC’s proposal to remove the TEFCA-related exception because, as 
-ASTP/ONC has stated, it is no longer necessary, has been susceptible to misapplication, and can 
-create unnecessary complexity and friction for EHI exchange through otherwise lawful technical 
-pathways. The existing Part 171 exceptions (including Security, Privacy, Infeasibility, and 
+Availity would be happy to meet to further discuss this complicated topic.
+
+VII. Removal of Exceptions
+
+Availity supports ASTP/ONC’s proposal to remove the expectation that an actor must exhaust the
+Manner Exhausted Exception before relying on other exceptions, and to remove the third- party
+modification condition in the Infeasibility Exception. We agree with ASTP/ONC’s statements that
+these revisions are appropriate because the existing provisions have been susceptible to
+misapplication and have at times been used to delay or deny access through procedural
+mechanisms rather than advancing timely, meaningful interoperability. Eliminating these
+requirements simplifies compliance, aligns the rule with API -based, system-to-system exchange,
+and reduces opportunities to impose custom and bespoke interface demands or system changes
+that are not necessary where an existing, viable pathway is available. Actors may continue to rely
+on Security, Privacy, Infeasibility, and may implement reasonable, risk-based operational controls
+and system integrity controls, so long as those controls are nondiscriminatory and are not
+pretextual provisions intended to materially interfere with lawful access, exchange, or use of EHI.
+
+Availity, L.L.C.
+Page 7
+
+Availity.com
+
+Availity also supports ASTP/ONC’s proposal to remove the TEFCA-related exception because, as
+ASTP/ONC has stated, it is no longer necessary, has been susceptible to misapplication, and can
+create unnecessary complexity and friction for EHI exchange through otherwise lawful technical
+pathways. The existing Part 171 exceptions (including Security, Privacy, Infeasibility, and
 Manner) already provide sufficient, technology -neutral guardrails . Eliminating a framework -
-specific carve-out reinforces the statute’s principles, supports CMS Aligned Network goals,  and 
-ensures that participation in any single exchange framework cannot be used to condition, limit, or 
-delay access, exchange, or use of EHI. 
- 
-VIII. Conclusion 
- 
-Availity supports ASTP/ONC’s efforts to tighten the information blocking exceptions . Availity 
-also suggests affirmation regarding a clearinghouse’s ability to de-identify and aggregate data for 
-payment, treatment and healthcare operations as well as allowing clearinghouses  to use such 
-aggregation for their internal operations. In addition, we encourage ASTP/ONC to coordinate with 
-other federal partners to promote national consistency in AI governance and interoperability 
-policy, avoiding fragmented state -by-state requirements that would undermine nationwide 
-exchange.  
- 
-Availity appreciates ASTP/ONC’s leadership and advancing modernization of the information 
-blocking framework through the HTI-5 proposed rule. Thank you for considering our comments. 
-We welcome continued  collaboration and stand ready to contribute to the development of 
-thoughtful, forward- looking policy that address es the needs of healthcare and government 
-technology providers.  
- 
-Respectfully submitted,  
- 
-/s/ Scott Herbst 
- 
-Scott Herbst 
+specific carve-out reinforces the statute’s principles, supports CMS Aligned Network goals, and
+ensures that participation in any single exchange framework cannot be used to condition, limit, or
+delay access, exchange, or use of EHI.
+
+VIII. Conclusion
+
+Availity supports ASTP/ONC’s efforts to tighten the information blocking exceptions . Availity
+also suggests affirmation regarding a clearinghouse’s ability to de-identify and aggregate data for
+payment, treatment and healthcare operations as well as allowing clearinghouses to use such
+aggregation for their internal operations. In addition, we encourage ASTP/ONC to coordinate with
+other federal partners to promote national consistency in AI governance and interoperability
+policy, avoiding fragmented state -by-state requirements that would undermine nationwide
+exchange.
+
+Availity appreciates ASTP/ONC’s leadership and advancing modernization of the information
+blocking framework through the HTI-5 proposed rule. Thank you for considering our comments.
+We welcome continued collaboration and stand ready to contribute to the development of
+thoughtful, forward- looking policy that address es the needs of healthcare and government
+technology providers.
+
+Respectfully submitted,
+
+/s/ Scott Herbst
+
+Scott Herbst
 Chief Legal Officer  
-Availity, L.L.C. 
+Availity, L.L.C.

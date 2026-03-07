@@ -11,12 +11,12 @@ At the same time, we urge ASTP/ONC to calibrate deregulatory changes to avoid un
 In that context, our core recommendation is straightforward: HTI-5 should not remove practical interoperability pathways faster than the market has fully replaced them at scale. In particular, ASTP/ONC should reconsider or phase the proposed removal of Direct-related certification criteria, given Direct’s continued role as a major, widely deployed way systems communicate today.
 We organize our comments by the major areas addressed in HTI-5.
 Deregulatory goals should include a “no interoperability regression” guardrail
-We recognize ASTP/ONC’s stated goals in HTI-5: streamline the Certification Program, update Information Blocking regulations, and establish a new foundation for FHIR-based APIs and AI-enabled interoperability. ASTP/ONC also proposes substantial changes to certification criteria (including removal of 34 out of 60 and revision of seven), along with descoping certain Conditions and Maintenance of Certification requirements and narrowing Insights reporting. 
+We recognize ASTP/ONC’s stated goals in HTI-5: streamline the Certification Program, update Information Blocking regulations, and establish a new foundation for FHIR-based APIs and AI-enabled interoperability. ASTP/ONC also proposes substantial changes to certification criteria (including removal of 34 out of 60 and revision of seven), along with descoping certain Conditions and Maintenance of Certification requirements and narrowing Insights reporting.
 We support burden reduction where requirements are duplicative, obsolete, or not meaningfully advancing interoperability. However, deregulatory actions should be evaluated not only for compliance burden reduction, but also for whether they create downstream exchange gaps in settings that depend on lower-cost, simpler, and already-embedded transport mechanisms.
 Recommendation:
 ASTP/ONC should explicitly adopt a “no interoperability regression” principle in the final rule, under which proposed removals are phased, conditioned, or deferred where there is evidence the removed capability remains a primary operational exchange path for significant provider segments.
 Certification criteria: support targeted cleanup, but protect capabilities that remain foundational in practice
-We appreciate ASTP/ONC’s intent to reduce burden and cost by removing criteria that are well-established, duplicative, or that may impede innovation. 
+We appreciate ASTP/ONC’s intent to reduce burden and cost by removing criteria that are well-established, duplicative, or that may impede innovation.
 However, HTI-5 should distinguish between:
 (1) criteria that are truly obsolete in market practice, and
 (2) criteria that may be “legacy” from a policy perspective but still function as the practical backbone of exchange in many settings.
@@ -25,7 +25,7 @@ A. Direct-related criteria (170.315(h)(1) and (h)(2)): proposed removal creates 
 ASTP/ONC’s HTI-5 chart indicates proposed removal of:
 Direct Project (§ 170.315(h)(1))
 Direct Project, Edge Protocol, and XDR/XDM (§ 170.315(h)(2))
-with removal effective on the final rule effective date. 
+with removal effective on the final rule effective date.
 This is one of the most consequential proposals in HTI-5 from the standpoint of practical interoperability.
 Direct remains a major way systems communicate today—especially for transitions of care, referrals, care coordination, and document exchange across heterogeneous environments. It is often the lowest-friction path available to organizations that:
 do not have modern API teams,
@@ -42,7 +42,7 @@ Preserve a certifiable baseline for document transport interoperability while FH
 Sequence policy transitions around actual provider adoption, not only future architecture goals.
 FHIR-forward policy is appropriate; forced transport transitions before affordability and implementation support exist are not.
 B. Transitions of care (§ 170.315(b)(1)) and broader care coordination functionality
-The HTI-5 chart shows “Transitions of care” (§ 170.315(b)(1)) as revised (effective January 1, 2027), while some adjacent criteria are proposed for removal. 
+The HTI-5 chart shows “Transitions of care” (§ 170.315(b)(1)) as revised (effective January 1, 2027), while some adjacent criteria are proposed for removal.
 We urge ASTP/ONC to ensure revisions to transitions-of-care functionality do not unintentionally weaken interoperability outcomes for providers who rely on document-based exchange and practical referral workflows. In many real-world settings, care coordination is not a single API transaction; it is a mix of document exchange, messaging, directory discovery, and workflow orchestration across organizations with uneven technical maturity.
 Recommendation:
 ASTP/ONC should evaluate transition-of-care revisions using outcome-based criteria (can providers actually send/receive/use relevant information across organizations at low cost?) and publish implementation guidance that explicitly addresses LTPAC/post-acute and other under-resourced settings.
@@ -52,7 +52,7 @@ For low-margin providers, interoperability costs are not abstract. Small increas
 Recommendation:
 ASTP/ONC should include in the final rule a request for post-finalization market monitoring (e.g., through listening sessions or a public RFI) focused on whether deregulatory changes increase effective interoperability costs for under-resourced providers.
 Conditions and Maintenance of Certification: support burden reduction, but preserve transparency into real-world performance
-ASTP/ONC proposes conforming edits to Assurances, APIs, and Attestations conditions; descoping aspects of Real World Testing; and removing/descoping measures associated with Insights consistent with prior enforcement discretion, leaving only the “use of FHIR in apps through certified health IT” measure. 
+ASTP/ONC proposes conforming edits to Assurances, APIs, and Attestations conditions; descoping aspects of Real World Testing; and removing/descoping measures associated with Insights consistent with prior enforcement discretion, leaving only the “use of FHIR in apps through certified health IT” measure.
 We support efforts to eliminate low-value reporting burden. However, we caution against reducing visibility into real-world interoperability performance at the same time the rule removes major certification requirements and accelerates a FHIR-centered reset.
 The combination of:
 reduced criteria,
@@ -65,7 +65,7 @@ Ensure measures capture provider-to-provider exchange use cases across care sett
 Include at least one low-burden measure related to operational exchange reliability/availability across common transactions (e.g., document exchange success/failure categories, response timeliness, or comparable proxies).
 Do not rely solely on FHIR app usage as a proxy for overall interoperability progress.
 New foundation for FHIR and AI-enabled interoperability: support direction, but avoid “FHIR-only in practice” policy effects
-ASTP/ONC states HTI-5 would reset the Certification Program’s scope and establish a foundation for future FHIR-based API requirements, with emphasis on automation, moving beyond read-only interactions, and expanding data scope; ASTP/ONC also frames this as supportive of AI-enabled interoperability solutions. 
+ASTP/ONC states HTI-5 would reset the Certification Program’s scope and establish a foundation for future FHIR-based API requirements, with emphasis on automation, moving beyond read-only interactions, and expanding data scope; ASTP/ONC also frames this as supportive of AI-enabled interoperability solutions.
 We support this direction. FHIR-based APIs are essential to the future of scalable interoperability, automation, and many high-value workflows. We also agree that policy should anticipate AI-enabled access, exchange, and use where appropriate.
 But a FHIR-forward policy should not become a FHIR-exclusive policy by effect, particularly in the near term.
 Many of the providers Kno2 serves will participate in a FHIR-enabled ecosystem through network services, intermediaries, and trading partners long before they can directly implement and maintain sophisticated API capabilities themselves. Policy must preserve a pluralistic interoperability environment during this transition.
@@ -78,7 +78,7 @@ We generally support ASTP/ONC’s efforts to address misuse of information block
 clarify “access” and “use” (and potentially “exchange”) to include automated means including autonomous AI systems,
 revise/remove certain Infeasibility Exception conditions,
 revise the Manner Exception’s “manner requested” condition to clarify it does not cover non-market, adhesion, or unconscionable terms,
-and remove the TEFCA Manner Exception. 
+and remove the TEFCA Manner Exception.
 These changes may improve access and reduce abusive gating. However, ASTP/ONC should be careful to preserve room for legitimate operational constraints, security controls, and scalable implementation sequencing—especially for entities serving fragmented provider markets with heterogeneous technologies.
 Recommendations:
 Finalize anti-abuse clarifications but provide concrete examples distinguishing improper barrier-setting from legitimate implementation and security constraints.
@@ -96,12 +96,12 @@ and practical exclusion from interoperability gains that the rule is intended to
 ASTP/ONC should include explicit analysis in the final rule of impacts on under-resourced provider sectors (including LTPAC/post-acute, home-based care, EMS, dental, and therapy providers), and should phase changes where the likely effect is concentrated harm to those sectors.
 We respectfully request that ASTP/ONC revise the proposal as follows:
 Reconsider removal of Direct-related certification criteria (§ 170.315(h)(1) and (h)(2)).
-Maintain these criteria, or at minimum defer removal and implement a measured transition supported by market-readiness evidence. 
+Maintain these criteria, or at minimum defer removal and implement a measured transition supported by market-readiness evidence.
 Add a no-regression interoperability principle to the final rule.
 Deregulatory changes should not reduce practical exchange capabilities for providers before viable, affordable alternatives are broadly available.
 Preserve a minimum set of real-world interoperability performance transparency mechanisms.
-If descoping Real World Testing/Insights, retain low-burden outcome-oriented measures sufficient to detect degradation in exchange performance. 
-Clarify that FHIR advancement is additive during transition, not a basis for early abandonment of existing operational exchange pathways. This is critical for provider inclusion and continuity of care coordination. 
+If descoping Real World Testing/Insights, retain low-burden outcome-oriented measures sufficient to detect degradation in exchange performance.
+Clarify that FHIR advancement is additive during transition, not a basis for early abandonment of existing operational exchange pathways. This is critical for provider inclusion and continuity of care coordination.
 Publish implementation guidance focused on low-margin and under-resourced provider settings.
 ASTP/ONC should provide examples and transition expectations that reflect real-world technical and financial constraints, not only enterprise-hospital assumptions.
 Conclusion

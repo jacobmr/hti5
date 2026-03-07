@@ -37,6 +37,6 @@ VI. Conclusion
 The information blocking reforms in this proposed rule would meaningfully advance competition and innovation in health IT. We urge the Department to finalize the strongest versions of its proposals—particularly the complete removal of §§ 171.204(a)(3) and (a)(4) and the contract fairness provisions for the Manner Exception.
 The 21st Century Cures Act envisioned a health data ecosystem where patients and providers could access, exchange, and use electronic health information "without special effort." That vision will not be realized as long as incumbent vendors can exploit regulatory exceptions to maintain control over the data that patients and providers need. The proposed rule takes important steps to close these loopholes, and we encourage the Department to move quickly to finalize it.
 Respectfully submitted,
-Luther Lowe 
-Head of Public Policy 
+Luther Lowe
+Head of Public Policy
 Y Combinator

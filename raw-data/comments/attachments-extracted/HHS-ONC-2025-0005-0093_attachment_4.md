@@ -7,9 +7,9 @@
 COMMENT OF Y COMBINATOR Docket No. RIN 0955-AA09 Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions To Unleash Prosperity
 February 27, 2026
 Assistant Secretary for Technology Policy
-Office of the National Coordinator for Health Information Technology Department of Health and Human Services 
-Mary E. Switzer Building, Mail Stop: 7033A 
-330 C Street SW 
+Office of the National Coordinator for Health Information Technology Department of Health and Human Services
+Mary E. Switzer Building, Mail Stop: 7033A
+330 C Street SW
 Washington, DC 20201
 Dear Assistant Secretary Tripathi:
 Y Combinator submits this comment on the proposed rule "Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions To Unleash Prosperity" (90 FR 60970). Y Combinator is the world's leading startup accelerator. Since 2005, we have funded over 5,000 companies—including more than 150 in healthcare and health IT—representing over $600 billion in combined market capitalization. Our portfolio includes companies building clinical AI tools, patient engagement platforms, EHR integrations, and health data infrastructure.
@@ -41,6 +41,6 @@ VI. Conclusion
 The information blocking reforms in this proposed rule would meaningfully advance competition and innovation in health IT. We urge the Department to finalize the strongest versions of its proposals—particularly the complete removal of §§ 171.204(a)(3) and (a)(4) and the contract fairness provisions for the Manner Exception.
 The 21st Century Cures Act envisioned a health data ecosystem where patients and providers could access, exchange, and use electronic health information "without special effort." That vision will not be realized as long as incumbent vendors can exploit regulatory exceptions to maintain control over the data that patients and providers need. The proposed rule takes important steps to close these loopholes, and we encourage the Department to move quickly to finalize it.
 Respectfully submitted,
-Luther Lowe 
-Head of Public Policy 
+Luther Lowe
+Head of Public Policy
 Y Combinator

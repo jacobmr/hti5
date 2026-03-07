@@ -4,14 +4,14 @@
 
 ---
 
-February 27, 2026 
-The Honorable Thomas Keane, MD, MBA 
+February 27, 2026
+The Honorable Thomas Keane, MD, MBA
 National Coordinator for Health Information Technology
 Assistant Secretary of for Technology Policy
 330 C St SW, Floor 7
 Washington, DC 20201
-RE: Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing (HTI-5) 
-Dear Assistant Secretary Keane,   
+RE: Health Data, Technology, and Interoperability: Certification Program Updates, Algorithm Transparency, and Information Sharing (HTI-5)
+Dear Assistant Secretary Keane,  
 Ann & Robert H. Lurie Children’s Hospital of Chicago appreciates the opportunity to comment on the HTI-5 proposed rule. Lurie Children’s is a free-standing pediatric academic medical center that serves children and families across Illinois and beyond. Our mission is to build healthier futures for children, and we view safe, secure, and accessible health information exchange as foundational to that mission.  
 As a regional specialty hospital, Lurie Children’s has the privilege of caring for critically ill and injured children who come to us from every corner of Illinois, 44 other states and 47 countries. Over 50 percent of our patients are insured by Medicaid and the Children’s Health Insurance Program (CHIP), and over 60 percent of our beds are licensed as critical care.    
 We commend ASTP/ONC for the positive direction of HTI-5, particularly its continued emphasis on standards-based interoperability, a stronger FHIR-first, API-enabled foundation for access and exchange, and clarifications that recognize how modern health information is increasingly accessed and used through automated means, including analytics and AI-enabled tools. We also appreciate ONC’s continued efforts to strengthen information blocking policy by narrowing ambiguity that can be used to delay or restrict appropriate access to electronic health information (EHI), including clarifying that “access” and “use” include automated technologies. We share ONC’s goals of enabling timely access to EHI, reducing unnecessary administrative friction, and supporting responsible innovation.  
@@ -69,6 +69,6 @@ Lurie Children’s strongly supports ONC’s direction toward more interoperable
 If HTI-5 is finalized with reduced certification requirements, hospitals should not be expected to “absorb” the resulting assurance gap through ad hoc contracting and local workarounds. To avoid fragmentation and increased risk, ONC should preserve a minimum assurance layer (or require standardized disclosures), strengthen guidance that supports pediatric privacy and proxy access realities, and maintain clear standards-based expectations for public health reporting. These steps will help ensure that interoperability accelerates in a way that is reliable, equitable, and worthy of the trust that children and families place in the healthcare system. 
 We would welcome the opportunity to engage further with ONC to provide pediatric-specific implementation perspectives, including examples of proxy access workflows, adolescent confidentiality configurations, and practical safeguards that support both access and privacy.  
 Thank you for your leadership and for considering these comments.
-Gratefully, 
-Juan Carlos Espinoza Salomon, MD			Susan Goodson 		
-Chief Research Informatics Officer			Chief Digital Information Officer
+Gratefully,
+Juan Carlos Espinoza Salomon, MD Susan Goodson
+Chief Research Informatics Officer Chief Digital Information Officer

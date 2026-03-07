@@ -6,11 +6,11 @@
 
 February 27, 2026
 Thomas Keane, MD
- Assistant Secretary for Technology Policy
- U.S. Department of Health and Human Services
- 200 Independence Avenue, SW
- Washington, DC 20201
-Submitted Electronically Via Regulations.gov  
+Assistant Secretary for Technology Policy
+U.S. Department of Health and Human Services
+200 Independence Avenue, SW
+Washington, DC 20201
+Submitted Electronically Via Regulations.gov 
 Re: Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions to Unleash Healthcare (HTI-5) Proposed Rule (RIN 0955-AA08)
 Dear Dr. Keane,
 ADVION, representing skilled nursing facilities, inpatient rehabilitation facilities, long-term care hospitals, home health agencies, and the specialized health IT vendors that serve them, appreciates the opportunity to comment on the HTI-5 proposed rule. Our members provide critical post-acute and long-term care services to patients with high medical and social complexity, and we depend heavily on external certified health IT systems-hospital and physician EHRs, health information exchanges, clearinghouses, and TEFCA participants-for seamless transitions of care and effective care management.
@@ -73,9 +73,9 @@ We ask ASTP/ONC to:
 Explicitly acknowledge LTPAC/rehab vendors in the Regulatory Impact Analysis and track participation trends among non‑hospital/ambulatory developers post‑HTI‑5.
 Consider alternative means of real‑world validation that are less burdensome than the current Real‑World Testing framework but still provide assurance that certified products function as intended in production environments-particularly for new entrants and AI‑driven tools.
 Provide targeted technical assistance to LTPAC/rehab vendors on:
- a. FHIR and USCDI adoption.
- b. API design and security best practices.
- c. Pathways to voluntary adoption of advanced features (e.g., USCDI v6/v7, Patient Access API, Provider Directory API) that benefit LTPAC workflows even if not certification requirements.
+a. FHIR and USCDI adoption.
+b. API design and security best practices.
+c. Pathways to voluntary adoption of advanced features (e.g., USCDI v6/v7, Patient Access API, Provider Directory API) that benefit LTPAC workflows even if not certification requirements.
 Ensure that conformance testing and other hands‑on validation mechanisms are strengthened to compensate for reduced ongoing reporting requirements, especially for API‑based certification.
 AUDIT TRAIL AND CLINICAL SAFETY FUNDAMENTALS
 While not a primary focus of HTI‑5, ADVION is concerned about the removal of audit trail and other foundational clinical safety requirements from certification criteria.
@@ -89,7 +89,7 @@ We ask ASTP/ONC to monitor whether the removal of these requirements from certif
 TRANSITIONS OF CARE AND CARE COORDINATION
 ADVION supports modernization of transitions of care standards but is concerned that the proposal to narrow § 170.315(b)(1) to “transitions of care-receive and validate” may be premature given the current state of FHIR adoption across care settings.
 The Reality Check: LTPAC Is Not Yet FHIR-Ready at Scale
-FHIR-based exchange has not yet achieved consistent, scalable adoption across all care settings, particularly in LPTCA and many other transitions-of-care settings.  The healthcare industry is essentially moving from proven legacy exchange approaches, including C‑CDA via Direct, which remains accessible and affordable for all providers, particularly those in rural settings, in favor of newer methods that do not yet have adequate technical infrastructure.
+FHIR-based exchange has not yet achieved consistent, scalable adoption across all care settings, particularly in LPTCA and many other transitions-of-care settings. The healthcare industry is essentially moving from proven legacy exchange approaches, including C‑CDA via Direct, which remains accessible and affordable for all providers, particularly those in rural settings, in favor of newer methods that do not yet have adequate technical infrastructure.
 Even the most advanced systems still struggle for full adoption and deployment at scale. Rather than requiring everyone to move to FHIR immediately, ADVION believes there should be a more gradual transition with FHIR implementation starting in more isolated use cases-such as public health for electronic case reporting or immunization-to create an onramp with a defined period of time.
 The reality in LTPAC is that many acute and post‑acute connections still rely on fax, phone, and manual processes. CMS has had to issue regulatory reminders (including a 2024 survey memo from QSOG) to hospitals about their existing obligation to send timely discharge information to skilled nursing facilities-this predates any electronic exchange requirement and illustrates how far we are from universal FHIR adoption.
 LTPAC Needs Bidirectional, Complete Data
@@ -100,13 +100,13 @@ Narrowing certification criteria without ensuring FHIR‑based TOC standards ade
 Our Request
 We ask ASTP/ONC to:
 Clarify expectations for FHIR‑based, element‑level TOC that support post‑acute settings, including:
- a. How discrete FHIR resources (Medication Request, Care Plan, Observation, Condition, Procedure, Goal, ServiceRequest) will replace or enhance current C‑CDA TOC documents.
- b. Whether and when FHIR‑based discharge summaries will consistently include therapy orders, functional status, ADL assessments, and SDOH data essential for LTPAC intake and care planning.
+a. How discrete FHIR resources (Medication Request, Care Plan, Observation, Condition, Procedure, Goal, ServiceRequest) will replace or enhance current C‑CDA TOC documents.
+b. Whether and when FHIR‑based discharge summaries will consistently include therapy orders, functional status, ADL assessments, and SDOH data essential for LTPAC intake and care planning.
 Ensure cross‑program alignment (IPPS, PFS, APMs, LTCH PPS, IRF PPS, SNF PPS, HH PPS) to maintain pressure on acute and ambulatory providers to send complete, standardized summaries to LTPAC at discharge.
 Consider a phased approach such as piloting mandatory FHIR exchange in a specific use case (e.g., public health reporting or a single payer program) with a defined on‑ramp period before requiring wholesale adoption across all TOC scenarios.
 Acknowledge the current state of certified EHR adoption and interoperability maturity in the LTPAC sector-we have some certified systems, but widespread FHIR capability is not yet the norm, and HTI‑5 should not assume LTPAC infrastructure that does not yet exist.
-ASTP/ONC should also preserve or strengthen the clinical information reconciliation criterion (§170.315(b)(2)) to guarantee safe medication, problem list, and allergy reconciliation when patients transition across settings, a high-risk period where LTPAC providers see the majority of medication errors. 
-We specifically request that transition summaries and medication profiles include LTPAC-critical data elements. The HL7 PACIO FHIR Workgroup recently balloted its Transition of Care FHIR Implementation Guide, a USCDI-compliant standard for post-acute handoffs. PACIO has also published medication profile specifications tailored to reconciliation needs. Without certification requirements or incentives, however, these critical standards remain voluntary with limited uptake among acute and ambulatory EHR vendors. 
+ASTP/ONC should also preserve or strengthen the clinical information reconciliation criterion (§170.315(b)(2)) to guarantee safe medication, problem list, and allergy reconciliation when patients transition across settings, a high-risk period where LTPAC providers see the majority of medication errors.
+We specifically request that transition summaries and medication profiles include LTPAC-critical data elements. The HL7 PACIO FHIR Workgroup recently balloted its Transition of Care FHIR Implementation Guide, a USCDI-compliant standard for post-acute handoffs. PACIO has also published medication profile specifications tailored to reconciliation needs. Without certification requirements or incentives, however, these critical standards remain voluntary with limited uptake among acute and ambulatory EHR vendors.
 To enable true bi-directional exchange, ASTP/ONC should actively promote PACIO standards adoption across all certified EHR vendors, not just those serving LTPAC. Acute/ambulatory vendors must support LTPAC-relevant data elements for seamless care coordination.
 Should ASTPONC proceed with removing §170.315(b)(2), we urge issuance of clear implementation guidance plus model contract language that LTPAC providers can use to contractually require vendors to maintain reconciliation capabilities and LTPAC-specific data exchange.
 USCDI V3.1 ADOPTION AND LTPAC‑RELEVANT DATA
@@ -141,16 +141,16 @@ Train staff on new data capture requirements.
 INFORMATION BLOCKING: MANNER, INFEASIBILITY, AND TEFCA
 ADVION strongly supports the removal of the TEFCA Manner Exception (§ 171.301(b)) and associated Subpart D provisions.
 Avoid TEFCA‑Only Requirements That Limit LTPAC Exchange
-LTPAC stakeholders have raised concerns that TEFCA participation is sometimes treated as a de facto prerequisite for exchange, with TEFCA‑only expectations discouraging use of regional HIEs, Direct, FHIR APIs, and other established networks that may better support post‑acute workflows.  While TEFCA holds promise as a national framework, using it as the sole acceptable exchange method could create barriers for post‑acute providers and vendors seeking timely, bidirectional data access, particularly where TEFCA‑based routes are not yet mature for their settings.
-ADVION believes that exchange is exchange-we need to make it work well. TEFCA is valuable as a national “onboard once and you’re done” framework.  However, making TEFCA the only acceptable option risks discouraging innovation and limiting flexibility; TEFCA should stand on its own merits alongside other lawful manners of exchange.
+LTPAC stakeholders have raised concerns that TEFCA participation is sometimes treated as a de facto prerequisite for exchange, with TEFCA‑only expectations discouraging use of regional HIEs, Direct, FHIR APIs, and other established networks that may better support post‑acute workflows. While TEFCA holds promise as a national framework, using it as the sole acceptable exchange method could create barriers for post‑acute providers and vendors seeking timely, bidirectional data access, particularly where TEFCA‑based routes are not yet mature for their settings.
+ADVION believes that exchange is exchange-we need to make it work well. TEFCA is valuable as a national “onboard once and you’re done” framework. However, making TEFCA the only acceptable option risks discouraging innovation and limiting flexibility; TEFCA should stand on its own merits alongside other lawful manners of exchange.
 ADVION also notes that the original rule contemplated that if both parties were on TEFCA, they could choose to exchange there. It did not require organizations to join TEFCA as a prerequisite. We are aware of instances where misinterpretation of this provision has, at times, been used to pressure parties inappropriately. To be clear, we recognize that the predominant barriers for LTPAC today remain prioritization, contracting, and access to high‑quality APIs and integrations, rather than TEFCA participation alone; our request is simply that TEFCA not become an additional lever to delay or deny feasible exchange.
 Support for Additional Manner Exception Reforms
 We also support:
 Removal of the “third party seeking modification use” condition at § 171.204(a)(3) and narrowing or removal of the “manner exception exhausted” condition at § 171.204(a)(4), which have been susceptible to misuse against post‑acute vendors seeking write‑back access or bidirectional integration.
 Clarifications that the Manner Exception cannot be satisfied with contracts that:
- a. Are not offered at market rate.
- b. Constitute contracts of adhesion.
- c. Contain unconscionable terms (e.g., overbroad intellectual property claims, excessive revenue‑sharing requirements, mandatory waiver of information blocking complaints).
+a. Are not offered at market rate.
+b. Constitute contracts of adhesion.
+c. Contain unconscionable terms (e.g., overbroad intellectual property claims, excessive revenue‑sharing requirements, mandatory waiver of information blocking complaints).
 Given known power imbalances between large EHR developers and LTPAC providers and vendors, these clarifications are essential.
 Request for LTPAC‑Specific Guidance
 We ask ASTP/ONC to provide concrete LTPAC use‑case examples in future guidance illustrating scenarios that would or would not meet information blocking exceptions, such as:
@@ -174,17 +174,17 @@ ADVION also recognizes the growing complexity of state‑level patient consent a
 Our Request
 We ask ASTP/ONC to:
 Confirm that blocking AI‑enabled EHI access used by LTPAC‑serving vendors can implicate information blocking, while clarifying the security and privacy exceptions that apply when access requests:
- a. Lack adequate business associate agreements.
- b. Involve autonomous write‑back that compromises audit trail integrity.
- c. Originate from entities that cannot demonstrate appropriate data governance.
+a. Lack adequate business associate agreements.
+b. Involve autonomous write‑back that compromises audit trail integrity.
+c. Originate from entities that cannot demonstrate appropriate data governance.
 Coordinate with OIG, FTC, and OCR to monitor for anti‑competitive restrictions on LTPAC‑focused AI tools while also addressing:
- a. Accountability and liability when AI systems produce erroneous clinical recommendations or documentation.
- b. Transparency requirements for AI algorithms acting on patient data.
- c. Patient consent models that account for automated and AI‑mediated data access.
+a. Accountability and liability when AI systems produce erroneous clinical recommendations or documentation.
+b. Transparency requirements for AI algorithms acting on patient data.
+c. Patient consent models that account for automated and AI‑mediated data access.
 Establish a framework for “responsible unfettered access” that balances innovation with patient safety, including:
- a. Standards for algorithmic transparency when AI systems access and act on EHI.
- b. Clear delineation between human‑generated and AI‑generated content in clinical records.
- c. Mechanisms to ensure actors using RPA/AI understand the data they are pulling and acting on.
+a. Standards for algorithmic transparency when AI systems access and act on EHI.
+b. Clear delineation between human‑generated and AI‑generated content in clinical records.
+c. Mechanisms to ensure actors using RPA/AI understand the data they are pulling and acting on.
 We support innovation, but innovation without guardrails risks patient safety and provider liability. ASTP/ONC should not finalize broad access rights for automated and AI systems without corresponding accountability measures.
 CONCLUSION AND OFFER OF TECHNICAL ASSISTANCE
 ADVION reiterates that many of the challenges discussed in this letter are rooted in the LTPAC sector’s historic exclusion from federal health IT incentive programs. As interoperability expectations expand under HTI‑5 and related rules, ASTP/ONC and CMS should identify funding mechanisms, grants, or incentive pathways to support LTPAC providers and the vendors that serve them, ensuring that policy expectations are aligned with available resources.
@@ -198,7 +198,7 @@ Pair deregulatory actions with clear implementation guidance, realistic timeline
 ADVION stands ready to serve as a resource for ASTP/ONC as the agency refines HTI‑5 and considers future interoperability and certification policy. We welcome the opportunity to provide targeted technical assistance, real‑world use cases, and ongoing feedback to ensure that health IT policy advances serve-rather than disadvantage-the post‑acute and long‑term care sector and the vulnerable patients we serve.
 Thank you for your consideration of these comments. I am available to provide additional input or clarification and can be reached at 202 803-2385 or Cynthia@ADVIONadvocates.org. 
 
-Sincerely, 
+Sincerely,
 
 Cynthia K. Morton, MPA
 CEO
