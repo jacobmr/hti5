@@ -1,0 +1,511 @@
+# HHS-ONC-2025-0005-0266 - attachment text
+
+1
+February 27, 2026 
+The Honorable Thomas Keane, M.D.
+Assistant Secretary for Technology Policy  
+U.S. Department of Health and Human Services  
+330 C St SW, Floor 7  
+Washington, DC 20201
+Re: RIN 0955-AA09 Health Data, Technology, and Interoperability: ASTP/ONC 
+Deregulatory Actions to Unleash Prosperity (HTI-5)
+Assistant Secretary Keane: 
+The Physicians Advocacy Institute (PAI) appreciates the opportunity to provide comments on 
+the Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions to Unleash 
+Prosperity (HTI-5) proposed rule.
+PAI is a not-for-profit organization that was established to advance fair and transparent policies 
+in the health care system to sustain the profession of medicine for the benefit of patients. PAI’s 
+Board of Directors is comprised of CEOs from nine state medical associations, representing 
+hundreds of thousands of physicians nationwide.1 As part of its mission, PAI seeks to better 
+understand the challenges facing physicians and their patients and educate policymakers about 
+these challenges.  PAI has worked with top research firms to study healthcare consolidation 
+trends and the implications for practicing physicians and their patients. PAI also develops tools 
+to help physicians participate successfully in value-based payment programs and maintain 
+independent medical practices amidst the broader trends of acquisitions by hospitals and health 
+systems, private equity firms, and insurer-affiliated corporate entities.
+PAI values the opportunity to work with the Assistant Secretary for Technology Policy and Office 
+of the National Coordinator for Health Information Technology (ASTP/ONC) to ensure the HTI-5 
+proposed rule considers the needs of small, independent, and rural physician practices. Heath 
+information technology (HIT) plays a critical role in shaping independent physician practices’ 
+sustainability by addressing administrative burdens and promoting cooperation amongst 
+regional competitors to ensure patients receive high-quality health care while preserving their 
+ability to choose their care team. We commend the Administration’s commitment to reducing 
+unnecessary regulatory burden, promoting competition, and accelerating innovation. As the 
+Administration works towards these goals, PAI cautions ASTP/ONC to ensure reforms are 
+carefully calibrated so that they do not inadvertently widen the gap between large health 
+1 California Medical Association, Connecticut State Medical Society, Medical Association of Georgia, 
+Nebraska Medical Association, Medical Society of the State of New York, North Carolina Medical Society, 
+South Carolina Medical Association, Tennessee Medical Association, and Texas Medical Association, and 
+a physician member from Kentucky. 
+
+2
+systems and small, independent, and rural physician practices. As such, PAI’s 
+recommendations include:
+A. Ensuring reforms advance the ultimate goals of strengthening independent 
+physician practice sustainability, reducing health care costs, and improving 
+patient outcomes
+B. Preserving certification criteria that meaningfully reduce physician administrative 
+burden and enhance clinical efficiency.
+C. Avoiding deregulation that shifts costs, compliance risks, technical complexity, 
+and due diligence onto small and independent physician practices.
+D. Strengthening and enforcing interoperability standards and information blocking 
+regulations to ensure seamless, usable data exchange
+E. Supporting a phased, coordinated transition away from the EDGE protocol 
+towards FHIR-based standards in order to minimize disruptions to active clinical 
+care.
+The Importance of Supporting Independent Physicians 
+Reducing Regulatory and Administrative Burden
+PAI’s research demonstrates the extraordinary strain independent physician practices, 
+especially those in rural areas, are facing. Research conducted in partnership with Avalere 
+found that 3.300 rural medical practices closed from January 2019 to January 2024, causing 
+rural communities to have access to 11 percent fewer medical practices overall.2 Over the same 
+period of time, more than 40 percent of rural independent medical practices closed or were 
+acquired by hospitals, health systems, and other corporate entities, contributing to the 43 
+percent decline in the number of independent physician practices.3  Now, over three-quarters of 
+physicians and medical practices in rural areas are employed by hospitals, health systems or 
+corporate entities and over 60 percent of rural medical practices are owned by non-physicians.4 
+These rural consolidation trends have been driven, in part, by rising administrative and 
+compliance costs that are increasingly difficult for small and independent practices to absorb.
+Similarly, PAI’s research with Avalere health on employment trends and acquisitions of medical 
+practices quantified the continuation of the decade-long trend away from private practice. From 
+2019 to 2023, 16,000 additional physicians became hospital employees and over 3,000 
+2 Physicians Advocacy Institute. Rural Areas Face Steep Decline in Independent Physicians and 
+Practices. 2024. https://www.physiciansadvocacyinstitute.org/Portals/0/assets/docs/PAI-Research/PAI-
+Avalere%20Report%20on%20Rural%20Physician%20Ownership%20Trends%20-%20final.pdf?ver=A7ou
+K0EF0N0_zrs1qQraOQ%3d%3d
+3 Ibid
+4 Ibid
+
+3
+additional physicians became employees of corporate entities.5 By 2023, almost four of five 
+physicians are employees of hospitals, health systems, and other corporate entities.6 . In 2023, 
+almost 60 percent of physician practices across the country are owned by hospitals, health 
+systems, and other corporate entities including private equity.7 These employment and 
+acquisition trends are happening across the country, with research showing growth in physician 
+employment and practice acquisitions growing in all regions of the country from 2019 to 2023.8
+HIT implementation and compliance costs disproportionately affect small, independent, and 
+rural practices. Unlike large systems, small, independent, and rural physician practices lack 
+dedicated compliance teams, in-house legal departments, and enterprise HIT support 
+personnel. Even modest regulatory changes can require software upgrades, contract 
+renegotiation, staff retraining, and workflow reeducation – costs that are far easier for large 
+health systems to amortize.
+Excessive and poorly designed HIT data, technology, and interoperability requirements can 
+accelerate consolidation by making independent practices fiscally untenable. At the same time, 
+deregulation that removes baseline requirements without ensuring functional interoperability 
+may also increase costs for small and independent practices by forcing them to purchase add-
+on functionality or custom interfaces to retain or replace previously required capabilities. Thus, 
+the policies proposed in the HTI-5 proposed rule must be evaluated not only on their 
+impact on developers and large health systems, but also on their downstream impact on 
+small, independent, and rural physician practices who typically operate on narrower 
+margins.
+Protecting the Physician-Patient Relationship
+PAI’s Employed Physician Survey, conducted by the National Opinion Research Center 
+(NORC) at the University of Chicago, documented substantial concerns pertaining to the impact 
+of ownership changes on patient outcomes.9 Among physicians employed by hospitals, health 
+systems, private equity firms, insurers, and other corporate entities, a majority of respondents 
+reported that employment arrangements diminished their clinical autonomy and shifted their 
+focus toward financial and operational priorities that may conflict with individualized patient 
+5 PAI-NORC Report on The Impact of Practice Acquisitions and Employment on Physician Experience 
+and Care Delivery. 2023. https://www.physiciansadvocacyinstitute.org/Portals/0/assets/docs/PAI-
+Research/NORC-Employed-Physician-Survey-Report-Final.pdf?ver=yInykkKFPb3EZ6JMfQCelA%3d%3d
+6 Ibid
+7 PAI-Avalere Physician Practice Acquisition Study:  National and Regional Employment Changes. 
+(January 2017).  Physicians Advocacy Institute.  Physicians Advocacy Institute > PAI Research > PAI-
+Avalere Study on Physician Employment-Practice Ownership Trends 2019-2023
+8 PAI-NORC Report on The Impact of Practice Acquisitions and Employment on Physician Experience 
+and Care Delivery. 2023. https://www.physiciansadvocacyinstitute.org/Portals/0/assets/docs/PAI-
+Research/NORC-Employed-Physician-Survey-Report-Final.pdf?ver=yInykkKFPb3EZ6JMfQCelA%3d%3d
+9 Ibid
+
+4
+needs.10 Nearly half of respondents indicated that the physician-patient relationship deteriorated 
+under corporate employment models, citing reduced time with patients, increased productivity 
+pressures, and administrative constraints that limit meaningful patient communication and 
+continuity of care.11 Furthermore, many physicians reported that employer policies and financial 
+incentives influence clinical decision-making, referral patterns, and treatment options.12
+These findings underscore that structural and operational pressures within consolidated 
+systems can directly affect the integrity of the physician-patient relationship.13 Preserving 
+policies that protect clinical autonomy, reduce administrative interference, and support the 
+sustainability of independent practices is essential to the services that define high-quality 
+medicine and lead to better patient outcomes. In fact, inefficient and poorly integrated health IT 
+systems compound these challenges by diverting independent physicians’ time away from direct 
+patient care.
+Administrative complexity and fragmented data exchange further intensify the very pressures 
+identified in the survey, particularly for small and independent practices operating with limited 
+administrative and technical support. Physicians routinely spend significant time reconciling 
+records from disparate systems, navigating incomplete or inconsistently formatted information, 
+and manually entering data that should flow seamlessly across care settings. Rather than 
+strengthening care coordination, poorly implemented interoperability standards often shift the 
+burden of integration onto front-line physicians. This diversion of time and resources away from 
+patient-facing activities undermines the quality of care provided, weakens the physician-patient 
+relationship, and contributes to professional burnout. Ultimately, these trends threaten the 
+sustainability of independent practices and may reduce patients’ ability to choose physicians 
+who best meet their individual care needs.
+For these reasons, HIT policy must be deliberately structured to alleviate these operational 
+pressures. HIT policy should support clinical autonomy, patient choice, and high-quality care by 
+ensuring that systems are meaningfully interoperate and integrate into clinical workflows. 
+Reforms that weaken core functionality, reduce certification requirements, or create uneven 
+technical standards risk further fragmenting data exchange and increasing inefficiency across 
+care settings. Without strong, uniform expectations for interoperability and usability, 
+small and independent practices may face higher integration costs, greater workflow 
+disruption, and diminished access to essential information. Therefore, balanced reform 
+should focus not only on reducing regulatory burden, but on preserving the foundational 
+standards that enable reliable, seamless data exchange and support high-quality, 
+patient-centered care regardless of where they receive health care services.
+10 Ibid
+11 Ibid
+12 Ibid
+13 Ibid
+
+5
+Reinforcing the Value of Integration Standards for All
+Small and independent practices operate in the health information data exchange environment 
+with limited negotiating leverage, fewer in-house legal and compliance resources, and lean IT 
+infrastructure. As a consequence, many small, independent, and rural physician practices often 
+rely on vendor-managed information, products, and support, frequently accepting standardized 
+contracts and pricing structures with little opportunity for modification. Contrastingly, large 
+hospitals and health systems can dedicate specialized teams to optimize electronic health 
+record (EHR) configurations, negotiate customized data use agreements, and manage complex 
+interface environments. In many markets, the dominant health systems exert substantial 
+influence over local data infrastructure, health information exchange (HIE) participation, and 
+EHR configuration, shaping how—and on what terms—data flows across the community. As a 
+result, even where national interoperability standards technically exist, practical barriers 
+including interface fees, vendor-required data-sharing restrictions, proprietary technical tools, 
+and delayed and incomplete data feeds significantly impede independent physicians’ ability to 
+access comprehensive patient information in a timely and affordable manner.
+Thus, the federal government’s active and consistent enforcement of information blocking 
+provisions is essential to ensure that independent physicians can obtain timely, complete 
+medical records without incurring excessive costs or facing contractual restrictions that interfere 
+with patient care. PAI is aware of arrangements in which an EHR contract with a hospital or 
+health system limits the secondary use of clinical data for patient care, quality improvement 
+activities, or value-based payment model data unless the small, independent physician makes 
+additional payments to the large corporation. These types of constraints effectively condition 
+access to necessary clinical information on financial terms that disproportionately burden small, 
+independent, and rural practices, undermining the intent of interoperability policy and placing 
+independent physicians at a competitive disadvantage. Meaningful interoperability requires 
+not only technical standards, but also fair and transparent data access practices that do 
+not privilege organizations based on size or market dominance. Thoughtful enforcement 
+that recognizes operational realities while maintaining strong accountability for entities that 
+create economic or technical barriers will better advance the shared goal of seamless data 
+exchange and high-quality patient care. PAI encourages ASTP/ONC to consider practice 
+size, resource constraints, and market dynamics when evaluating compliance 
+performance and contemplating enforcement actions. 
+Additionally, well-maintained patient portals and reliable EHR access mechanisms serve as 
+critical safeguards during cyberattacks, ransomware incidents, natural disasters, or other 
+catastrophic events that disrupt primary systems. Independent practices which may lack 
+redundant data centers or enterprise-level recovery infrastructure often rely heavily on certified 
+patient portal functionality and standardized, publicly available information as a contingency 
+mechanism to maintain continuity of care during crises. In fact, some physicians have reported 
+
+6
+that when their practice is acquired by a corporate entity, the EHR transition is so disorganized 
+that they rely on patient-facing portals and publicly available patient information to be able to 
+provide care to existing patients. Ensuring the availability, integrity, and usability of patient-
+facing and publicly managed health data resources are a matter not only of convenience, but of 
+patient safety and community resiliency. PAI urges ASTP/ONC to consider the value of 
+patient-facing and publicly available information databases as an important secondary 
+resource when promulgating regulation and funding investments in community health 
+data infrastructure.
+III.A Certification Criteria for Health Information Technology
+Support for Streamlining Regulatory Requirements
+PAI applauds ASTP/ONC’s efforts to modernize and streamline the Health IT Certification 
+Criteria by reducing duplicative requirements and aligning certification criteria across 
+federal programs. Regulatory clarity and coordination across agencies are essential to 
+fostering innovation while minimizing compliance complexity. All of the certification criteria 
+promote clinical efficiency, reduce administrative burden, and improve care coordination for 
+complex and chronically ill patients. In fact, the full scope of the certification criteria support the 
+administration’s efforts to Make America Healthy Again (MAHA), especially its initiatives to 
+promote chronic care management and strengthen rural health care infrastructure.
+PAI commends ASTP/ONC’s revision to the Decision Support Interventions criterion. PAI 
+agrees with ASTP/ONC’s argument that revising the criterion will enable developers to 
+create innovative, tailored tools that will meaningfully support physician’s patient care.
+Similarly, PAI appreciates ASTP/ONC’s revision to the Clinical Quality Measures – Report 
+criterion in order to streamline applicable regulatory language and remove unnecessary 
+language reflecting changing standards over the last decade.
+ASTP/ONC’s proposal to rename the Patient Demographics and Observations criterion to 
+Patient Demographics and exclude observational parameters including sex parameter for 
+clinical use, gender identity, name to use, and pronouns has broad impacts. PAI is concerned 
+about the removal of the name to use and pronouns data elements, as these can be helpful 
+tools to establish trust with patients, especially patients with long, non-traditional, and 
+androgenous names. Before HIT developers created discrete data fields for the name to use 
+and pronouns fields, independent physicians would create unique workarounds to record the 
+patient’s nickname and gender. However, these solutions were not able to be shared across 
+providers, creating information loss when transitioning care from one practice to another. When 
+physicians are not made aware of the patient’s nickname and pronouns, the patient-physician 
+relationship is threatened and physicians must fight to regain the patient’s trust. PAI suggests 
+that ASTP/ONC retain the name to use and pronouns data elements in the Patient 
+
+7
+Demographics criterion to ensure that small, independent, and rural physicians can 
+facilitate a clinical environment of personability and trust.
+Risks of Lowering Certification Requirements
+At the same time, deregulation must be carefully calibrated to ensure that the removal of 
+certification criteria does not inadvertently eliminate baseline functionality. In the proposed rule, 
+ASTP/ONC frequently justifies the removal of certification criteria by arguing that developers will 
+not remove preexisting functionality. PAI challenges this assumption.
+PAI is concerned that removing certain HIT certification criteria based on the assumption that 
+the HIT ecosystem has become “mature” overlooks the pragmatic function of market incentives. 
+Certification standards do more than define technical specifications, they shape vendor 
+investment, product development, and long-term infrastructure decision-making. If the proposed 
+removals of criteria are finalized as proposed, PAI expects HIT developers to alter their certified 
+HIT products in one of four ways:
+•HIT developers will continue to offer the deregulated functionality at the same cost and 
+continue to maintain the functionality,
+•HIT developers will continue to offer the deregulated functionality, but add-on fees to 
+cover the costs of maintaining the functionality,
+•HIT developers will continue to offer the deregulatory functionality at the same cost but 
+will not maintain it, effectively allowing the deregulated functionality to become obsolete, 
+and/or
+•HIT developers will sunset the functionality altogether to save costs.
+The criteria ASTP/ONC proposed to remove in the HTI-5 proposed rule collectively and 
+individually function as core safeguards for clinical data integrity, automated quality 
+measurement, privacy and security controls, and trusted interoperability. These functionalities 
+are not optional enhancements; they are foundational guardrails that protect patients, promote 
+accountability, and enable value-based care delivery. Removing certification requirements risk 
+the gradual erosion of critical functionality physicians across the country rely on to care for their 
+patients.
+Furthermore, the proposed removals shift regulatory compliance burden from vendors to 
+physicians and other clinicians, especially small, independent, and rural practices that rely on 
+certified systems to meet regulatory, reporting, and security obligations. A mature HIT 
+ecosystem requires durable standards, not fewer safeguards.
+Thus, ASTP/ONC cannot justify the removal of any certification criteria under the 
+assumption that the HIT ecosystem is mature and will continue to offer this functionality. 
+PAI requests that ASTP/ONC revisit all the proposed criteria for removal and finalize 
+
+8
+them in their current, preserved state or revise them to meet updated interoperability 
+standards and align with the current technology ecosystem.
+Consequences of Fragmented Development
+If ASTP/ONC finalizes the criteria removals as proposed, small, independent, and rural 
+physicians will bear a disproportionate share of the consequences. As outlined above, it is 
+reasonable to assume that formerly required criteria would cost more, become obsolete, or 
+become unreliable. For hospitals, large health systems, and corporately owned physician 
+practices, these shifts might be manageable. On the other hand, small, independent, and rural 
+physicians typically operate on slim margins and would not be able to afford the cost of add-on 
+fees, hire third-party vendors to fill the gap, redesign workflows, or pay additional administrative 
+staff in order view basic patient information. Any deregulation that results in uneven product 
+capabilities may widen the technological gap between small, independent, and rural 
+physician practices and large hospitals, health systems, and corporately owned 
+practices while further distorting local competition.
+For small, independent, and rural physicians, fragmentation in health IT is not an abstract 
+technical concern—it is a daily operational reality with direct financial and clinical 
+consequences. When interoperability standards are inconsistently implemented and enforced or 
+certification requirements are reduced without clear minimum standards, practices are often 
+forced to purchase additional technology, contract for customized configurations, and/or rely on 
+third-party vendors to bridge functionality gaps. Interface fees, ongoing maintenance costs, and 
+one-off integration projects can quickly exceed the limited IT budgets of small, independent, and 
+rural practices. Unlike large health systems that can distribute these expenses across enterprise 
+networks and dedicated IT departments, independent physicians frequently divert scarce 
+resources from staffing and patient services or absorb these costs directly. In many rural 
+communities, practices operate with minimal administrative staff, meaning physicians 
+themselves or their small administrative team must manage manual reconciliation of laboratory 
+results, referral documentation, discharge summaries, and medication histories across disparate 
+systems. This reliance on manual processes increases the risk of incomplete information, 
+duplicative services, and workflow inefficiencies that ultimately affect patient care.
+To meaningfully advance the stated objectives of the HTI-5 proposed rule and achieve the 
+Administration’s goals of reducing regulatory burden, promoting innovation, and unleashing 
+competition, ASTP/ONC must ensure that deregulation does not inadvertently exacerbate 
+fragmentation or shift technical complexity onto some of the smallest participants in the health 
+care ecosystem. Predictable, uniform technical expectations are essential to creating a stable 
+marketplace in which certified products reliably exchange data without costly customization. 
+Standardization promotes usability by allowing physicians to integrate external data into clinical 
+workflows in a consistent and actionable manner, rather than navigating varying formats and 
+incomplete datasets or paying for additional access. For small, independent, and rural 
+
+9
+physicians, durable interoperability progress relies on ASTP/ONC maintaining baseline 
+certification guardrails that protect against uneven market power and preserve seamless data 
+exchange across care settings. As such, PAI urges ASTP/ONC to consider the potential for 
+widening disparities between large, powerful health care entities and small, independent, 
+and rural physician practices when considering policies for inclusion in the HTI-5 final 
+rule.
+III.B Standards and Implementation Specifications for Health 
+Information Technology
+Aligning Targeted Deregulation with Related Federal Policies
+PAI supports deregulatory actions that promote alignment with existing federal frameworks and 
+eliminate duplicative requirements. Carefully deferring to established standards such as 
+USCDI+ and ensuring harmonization with the Centers for Medicare and Medicaid Services’ 
+(CMS) Medicare Promoting Interoperability Program and the Merit Based Incentive Payment 
+System (MIPS) Promoting Interoperability performance category can reduce redundant 
+technical development and reporting obligations. PAI encourages ASTP/ONC to continue 
+coordination across federal agencies, especially CMS, to harmonize data standards, 
+compliance requirements, and reporting structures.
+As ASTP/ONC recognized, physicians frequently participate in multiple federal programs 
+simultaneously, each with unique, overlapping expectations and incentives regarding data 
+functionality, management, exchange, and reporting. Reforms that simplify participation across 
+programs will reduce administrative burden on physicians who must attest that their technical 
+capabilities meet disparate federal requirements. Additionally, reduced regulatory compliance 
+burden on HIT developers could result in lower development costs, making HIT products more 
+affordable to small, independent, and rural physicians. As ASTP/ONC, CMS, and other 
+agencies coordinate to harmonize standards, PAI proposes the agencies collaborate to 
+develop one centralized document to assist physicians, developers, administrators, and 
+other relevant stakeholders in grasping the breadth of regulation and wayfinding the 
+appropriate guiding documents. Clear, consistent regulations across agencies will be critical 
+to ensuring that deregulatory actions achieve its intended effect of reducing complexity without 
+sacrificing interoperability or accountability.
+Reforms should meaningfully simplify physicians’ and other providers’ participation across 
+federal programs rather than create new technical or reporting silos that perpetuate complexity. 
+True simplification must translate into tangible operational relief at the practice level by reducing 
+duplicative reporting, minimizing workflow disruption, and lowering compliance costs. 
+Simplifying technical reclassifications or federal-level administrative restructuring alone retains 
+harmful administrative burdens on front-line physicians and other health care clinicians. To this 
+
+10
+end, PAI recommends ASTP/ONC partners with us and other stakeholders to ensure 
+each proposal meaningfully impacts the day-to-day practices of physicians and other 
+providers.
+IV. Information Blocking
+Reframing the Discussion on Information Blocking
+While information blocking standards and enforcement actions remain a vital safeguard, many 
+physicians experience the primary burden of information blocking not as deliberate actions, but 
+as persistent, structural failures. Inconsistent implementation of standards, incomplete data 
+feeds, proprietary technical requirements, and contractual restrictions often create operational 
+barriers that feel indistinguishable from information blocking when physicians and other 
+providers are in the middle of providing health care services.
+Physicians and their care teams devote substantial time to collecting, validating, and reconciling 
+fragmented patient information across disparate systems. As discussed in the section on 
+Reinforcing the Value of Integration Standards for All, PAI has found some instances where 
+EHR agreements that condition independent physicians’ access to or secondary use of clinical 
+data on additional compensation to a large hospital or health system, placing small, 
+independent, and rural practices at a financial and competitive disadvantage contrary to the 
+goals of interoperability. Interface fees, delayed feeds, and restrictive contractual provisions 
+effectively limit access to clinically necessary data without clearly violating information blocking 
+regulations.
+PAI suggests that ASTP/ONC conduct a landscape evaluation of covert information 
+blocking, update the information blocking regulations to include novel techniques that 
+prevent the timely, reliable, cooperative exchange of clinical information, and enforce all 
+information blocking policies. Ensuring affordable, reliable, timely access to data across 
+practices is essential to achieve meaningful interoperability and promote high-quality health care 
+services, especially in communities where dominant service providers create economic and 
+operational barriers to interoperability.
+Advancing Seamless Data Exchange
+Standardization through Fast Healthcare Interoperability Resources- (FHIR) based Application 
+Programming Interfaces (APIs) and alignment with USCDI+ represent important advancements 
+toward greater technical consistency and data liquidity across the health care ecosystem. 
+However, the existence of technical standards alone is insufficient to drive meaningful industry 
+progress. Without consistent guidance, clear regulatory expectations, and robust oversight, 
+interoperability standards will be deployed using disparate approaches, perpetuating the very 
+fragmentation the HTI-5 proposed rule seeks to resolve.
+
+11
+Moreover, technical conformance does not necessarily ensure practical usability or access. The 
+ultimate objective of interoperability policy is not technical compliance for its own sake, but 
+meaningful, timely data exchange that measurably improves patient care. Interoperability should 
+enable physicians to access comprehensive, up-to-date patient information at the point of care, 
+thereby improving diagnostic accuracy, reducing medication errors, and strengthening clinical 
+decision-making. Reliable data exchange supports coordinated care across primary, specialty, 
+and post-acute settings, particularly for patients with complex or chronic conditions who interact 
+with multiple physicians regularly. When implemented effectively, interoperability reduces 
+duplicative laboratory testing, imaging, and procedures, lowering costs for patients and the 
+broader health care system. Equally important, seamless exchange decreases administrative 
+burden by reducing manual data entry, record retrieval efforts, and reconciliation tasks that 
+divert physicians’ and other providers’ time away from direct patient care. 
+For small, independent, and rural physicians, achieving these goals requires not only technical 
+standards, but also consistent expectations, accountability mechanisms, affordability 
+safeguards, and tailored enforcement activity. Data must move in ways that are integrated into 
+clinical workflows, presented in usable formats, and accessible without prohibitive fees or 
+restrictive contractual limitations. Policies that prioritize real-world usability and access and are 
+supported by enforcement activity will ensure that interoperability reforms translate into tangible 
+improvements in patient outcomes, care coordination, practice sustainability, and lower the 
+overall cost of health care.
+To ensure that certified capabilities translate into real-world data exchange that is complete, 
+timely, reliable, and affordable, the federal government must leverage their enforcement 
+capabilities. PAI urges ASTP/ONC to reinforce the regulatory requirements with strong 
+information blocking and data transparency enforcement. Effective oversight will support 
+the essential foundation to promote comprehensive health data interoperability and 
+transparency.
+A New Foundation for FHIR
+Supporting Expanded FHIR Adoption
+PAI supports the broader implementation of FHIR-based standards to advance 
+interoperability, promote greater data liquidity, and encourage responsible innovation 
+across the health care ecosystem. Properly implemented, FHIR APIs can improve real-time 
+access to standardized clinical data, enhance patient engagement, support clinical decision-
+making, and facilitate the development of tools that support care coordination, population health 
+management, and value-based care participation. Expanded FHIR adoption has the potential to 
+reduce reliance on proprietary interfaces and point-to-point integrations, which have historically 
+increased costs and limited scalability for small and independent practices who are unable to 
+afford extensive HIT infrastructure.
+
+12
+PAI appreciates the federal government’s commitment to simplify prior authorizations and their 
+partnership with health insurance payors to standardize, clarify, and communicate prior 
+authorization expectations. Furthermore, PAI commends ASTP/ONC’s preservation of three 
+certification criteria that support prior authorization APIs:
+•§170.315(g)(31) Provider Prior Authorization API – Coverage Requirements 
+Discovery
+•§170.315(g)(32) Provider Prior Authorization API – Documentation Templates and 
+Rules
+•§170.315(a)(33) Provider Prior authorization API – Prior Authorization Support
+The preservation of these three certification criteria are essential components to support the 
+ongoing industry-wide work to improve the prior authorization process to promote patient 
+outcomes and reduce physician and other providers’ administrative burden. 
+Preserve Existing / Legacy API Requirements
+At the same time, the preservation of existing APIs and their associated required regulatory 
+criteria remains critical to providing imminent care to patients. Existing API requirements have 
+provided an essential baseline for standardized access, patient engagement capabilities, and 
+third-party application integration that small, independent, and rural physicians rely on. 
+Removing HIT certification requirements to preserve legacy APIs threatens the health and 
+safety of patients actively seeking care. To that effect, PAI recommends ASTP/ONC 
+preserve the following certification criteria:
+•§170.315(g)(7) Application Access – Patient Selection
+•§170.315(g)(9) Application Access – All Data Request
+•§170.315(h)(1) Direct Project
+•§170.315(h)(2) Direct Project, Edge Protocol, and XDR/XDM
+Multi-Phase Transition to FHIR-Based APIs
+To mitigate operational, financial, and clinical risk, PAI recommends ASTP/ONC adopt a 
+multi-phased approach to FHIR adoption. A staged implementation framework would allow 
+developers, physicians, and other stakeholders to identify implementation roadblocks, address 
+technical challenges, and refine workflows before full-scale deployment. Such an approach 
+would reduce the likelihood of costly mid-cycle upgrades, emergency system modifications, or 
+unintended workflow disruptions that disproportionately burden small practices. Similar to other 
+regulatory transitions to innovative technology, the approach could begin with voluntary 
+adoption and pilot testing and be followed by incremental expansion of required functionality.
+Clear implementation timelines, aligned across HHS agencies, are essential to provide 
+predictability for stakeholders. Cross-agency coordination among ASTP/ONC, CMS, and other 
+
+13
+relevant entities will help ensure that certification updates, payment program requirements, and 
+reporting obligations evolve in a synchronized manner. Additionally, predictable timelines and 
+harmonized guidance will allow small, independent, and rural physicians to plan investments, 
+train staff, and adjust workflows responsibly — advancing interoperability goals while 
+safeguarding practice sustainability and patient care continuity. As the health care industry 
+transitions to FHIR-based APIs and federal regulations reflect this innovation, regulatory 
+requirements must clearly outline a phased transition away from legacy APIs towards 
+FHIR-based APIs.
+Conclusion
+PAI strongly supports thoughtful, balanced reforms that reduce unnecessary regulatory burden 
+while preserving the foundational standards that promote meaningful interoperability, protect 
+clinical autonomy, support patient outcomes, reduce overall health care spending, and support 
+the sustainability of small, independent, and rural medical practices. As ASTP/ONC reviews 
+public comments and drafts the HTI-5 final rule, PAI urges the agency to carefully evaluate the 
+downstream impact of each deregulatory action on small, independent, and rural physician 
+practices. Reforms should not inadvertently shift costs, compliance risk, technical complexity, or 
+market leverage toward larger entities at the expense of small, independent, and rural 
+physicians who serve as essential access points for patients nationwide. Durable progress in 
+health information technology and interoperability depends on predictable standards, strategic 
+enforcement, and a stable regulatory environment that supports usability, affordability, and 
+seamless data exchange.
+While many of the proposed changes aim to promote innovation and accelerate adoption of 
+modern standards such as FHIR-based APIs, PAI remains concerned that rapid transitions or 
+removal of baseline certification criteria could create operational disruption, widen existing 
+disparities in technical capacity, harm patients, and increase health care costs. Small, 
+independent, and rural practices require clear timelines, coordinated federal guidance, and 
+phased implementation pathways to responsibly adapt to evolving interoperability expectations. 
+The ultimate measure of success for HTI-5 should not be the reduction of regulatory text alone, 
+but whether reforms meaningfully reduce administrative burden, strengthen the physician-
+patient relationship, improve patient outcomes, and lower health care spending. PAI appreciates 
+ASTP/ONC’s continued engagement with stakeholders to preserve meaningful interoperability 
+while supporting the sustainability of small, independent, and rural physician practices.
+PAI and the state medical societies represented on the PAI Board of Directors continue to 
+welcome the opportunity to work with ASTP/ONC to further implement and advance the data, 
+technology, and interoperability standards in a meaningful and impactful way. If you have any 
+questions, please contact me at k2strategiesllc@gmail.com. 
+Sincerely, 
+
+14
+Kelly C. Kenney 
+CEO, Physicians Advocacy Institute
+
+---
+
+

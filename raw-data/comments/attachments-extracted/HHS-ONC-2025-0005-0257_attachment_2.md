@@ -1,0 +1,687 @@
+# HHS-ONC-2025-0005-0257 - attachment 2
+
+**Source:** HHS-ONC-2025-0005-0257_attachment_2.pdf
+
+---
+
+ Washington, D.C.     I     LeavittPartners.com    I       ©2026
+February 26, 2026
+Dr. Thomas Keane, MD, MBA 
+Assistant Secretary for Technology Policy and National Coordinator for Health Information Technology 
+Office of the Assistant Secretary for Technology Policy and National Coordinator for Health Information 
+Technology 
+U.S. Department of Health and Human Services 
+200 Independence Avenue, S.W. 
+Washington, D.C. 20201 
+RE: The HTI Deregulatory Actions to Unleash Prosperity Proposed Rule (HTI-5)
+Dear Dr. Keane:
+On behalf of the Leavitt Partners, we want to thank you for providing the opportunity to comment on the 
+Office of the Assistant Secretary for Technology Policy and National Coordinator for Health Information 
+Technology (ASTP/ONC’s) work to advance deregulatory actions that we hope will advance consumer 
+access to health information, unleash innovation in the electronic health record (EHR) space, and advance the 
+interoperability of health data. 
+Leavitt Partners is a health care consulting firm focused on advancing proactive public policy that brings 
+value to the overall health care system. Among other activities, we have established The Leavitt Center for 
+Alliances, an initiative of Health Management Associates and Leavitt Partners. The Center aims to elevate 
+the national discourse on health care and help health care organizations solve their most complex challenges 
+through consensus-based, multi-sector alliances that bring payers, provider, patients, and technology 
+companies together. 
+Leavitt Partners provides staffing and operational support for several alliances whose focus areas align 
+closely with your work. These include:
+•The CARIN Alliance (https://www.carinalliance.com/) 
+• Pharmacy Interoperability and Clinical Services Alliance (PICSA)
+•The Digital Quality Implementers Community (DQIC)
+• Patient Information Quality Improvement Alliance (PIQI)
+• Alliance for Person-Centered Care 
+•The Oral Health Interoperability Alliance 
+•The One Utah Health Collaborative’s Digital Health Pilot
+•Our work with OSF Healthcare
+Across these projects, we work with dozens of provider groups, payer organizations, digital health 
+companies, patient advocacy organizations, and heath IT developers. While the contents of this letter reflect 
+the views of Leavitt Partners, they have been informed by all of these stakeholders. Leavitt Partners applauds 
+the Administration for its work to advance interoperability, remove well-intentioned but limiting regulatory 
+requirements, put patients at the center, and unleash innovation. 
+Again, we appreciate your consideration of our comments. 
+Ryan Howells
+Leavitt Partners
+
+Leavitt Partners, an HMA Company 2
+HTI-5 Proposals
+Leavitt Partners joins with many of our clients and partners in supporting the majority of proposals in HTI-5. 
+We support efforts to reduce the number of certification criteria that focus on internal functionality of 
+regulated Health IT instead of the ability of these tools to share data or provide insights. As discussed below, 
+we also support future rulemaking that will continue to support users of CEHRT and HIT products with other 
+regulatory requirements, including privacy and security requirements under HIPAA. We continue to 
+encourage CMS and ASTP/ONC to collaborate and coordinate with OCR to ensure de-regulatory activities 
+around the HIPAA Security Rule are realized and additional clarity is given around the HIPAA Privacy Rule 
+so that providers and patients can realize additional benefits from the actions taken in this rulemaking.
+We also support many of the changes to the information blocking rules, consistent with our recent White 
+Paper.1 We support the various references to HL7 FHIR® and proposals that would move away from C-CDA 
+document exchange. We also support proposed update to USCDI v3.1.
+One area of concern relates to one of the updated information blocking exceptions. We join other 
+organizations, including eHealth Exchange, in voicing concerns around one of the modifications in the 
+Information Blocking space. The Proposed Rule includes revisions to the Manner Exception (§ 171.301) that 
+could disqualify standardized participation agreements the contractual foundation of nearly every HIE and 
+HIN in the country—from Manner Exception protection. We join with eHealth Exchange in expressing 
+concern with the proposed “contract of adhesion” definition, which “would also likely constitute an 
+interference under the information blocking regulations.”
+The proposal would encompass all standardized HIE/HIN agreements: the eHealth Exchange DURSA, 
+Carequality Connected Agreement and Connection Terms, state and regional HIE participation agreements, 
+and—notably—ASTP’s own Common Agreement and Terms of Participation under TEFCA. While CARIN 
+members also have concerns with “contracts of adhesion,” including the disparate bargaining power that can 
+exist between purchasers and offerors of certain products, the power a vendor may exert over activities of the 
+purchaser, and other, “inherent power inequity between EHR developers and various types of requestors" as 
+ASTP/ONC notes in the preamble, we are concerned that the language would undermine other, important 
+activities within health care that do not establish disparate power dynamics or create an expectation of 
+information blocking based on agreement type or vendor/purchaser relationship. We agree with other 
+commenters that an updated, function-based definition of “contract of adhesion” would be more appropriate 
+or, alternatively, a carve-out for HIE/HIN organizations supporting TEFCA, the CMS-Aligned Networks, 
+public health data exchange, or other “public good” data exchange. In sum, we support ONC’s push to make 
+sure providers have other options beyond their EHRs to use, store, and share their data with patients and 
+others. 
+Future Rulemaking
+Leavitt Partners appreciates the signals from the proposed rule on future areas of rulemaking, "We intend to 
+sharpen the Certification Program’s future focus to prioritize FHIR®-based APIs that: (1) enhance 
+automation and API performance; (2) move beyond read-only interactions; and (3) expand the scope of data 
+available to support clinical efficiency, patient-centered care, and timely reporting (e.g., public health, 
+quality, government programs) use cases."
+1 https://leavittpartners.com/the-block-stops-here/ 
+
+Leavitt Partners, an HMA Company 3
+We join with our alliance memberships and clients in the belief that there is the potential to improve FHIR® 
+API performance and connectivity, require systems to both send and receive FHIR® API data, and other new 
+requirements that will enable true internet-based technology performance of health care data exchange. These 
+changes would enable health systems to rely less on their EHR to send clinical data and instead allow them to 
+use their own cloud-based systems and solutions which will enhance performance, timeliness, and 
+dramatically lower overall costs. Below, we outline several recommendations, across B2C and B2B domains, 
+from clinical to administrative functions, and across care settings and regulated entities, where future 
+rulemaking can advance this future.
+1. STANDARDS 
+Modernizing the CEHRT ecosystem through API certification
+ASTP/ONC has an important opportunity to modernize the definition of Certified Electronic Health Record 
+Technology (CEHRT) to better align with the statutory interoperability goals of the 21st Century Cures Act 
+and the realities of today’s API-driven health IT ecosystem. 
+As previously noted in the Leavitt Partners’ White Paper, “Kill the Clipboard,” rather than continuing to 
+certify bundled functionality within EHR products, ONC should redefine CEHRT to focus 
+certification on standardized, production-grade interoperability services — specifically conformant, 
+secure, and scalable FHIR APIs. Certification should attach to the interoperability layer itself, ensuring that 
+certified technology reliably supports bidirectional exchange, patient access, payer exchange, provider-to-
+provider workflows, and public health reporting through standards-based FHIR® APIs. In particular, this 
+change will make it easier to collect, use and share patient reported data in clinical care and quality 
+measurement, thus supporting the Administration’s priorities of increasing patient empowerment and driving 
+towards improving health and wellbeing.
+ASTP/ONC is able to redefine API CEHRT based on the original definition in the HITECH Act, which 
+includes the adoption of standards in Section 3004 and defines health information technology as inclusive all 
+of the “hardware, software, . . . or packaged solutions sold as services that are designed for or support the use 
+by health care entities or patients for the electronic creation, maintenance, access, or exchange of health 
+information.” 
+To support national exchange under CMS interoperability requirements and TEFCA, CEHRT 
+certification must move beyond laboratory conformance testing and incorporate objective cloud-based 
+performance standards. Certified interoperability services should meet defined uptime thresholds, API 
+response time benchmarks, elastic scalability requirements (including support for bulk FHIR® 
+transactions), disaster recovery standards, and transparent reporting of real-world production 
+performance metrics. As CMS programs increasingly rely on API-based exchanges including Patient 
+Access, Payer-to-Payer, and Prior Authorization APIs — certification must ensure not only technical 
+compliance, but operational readiness at scale.
+In addition, all of the APIs on ONC’s Inferno Test Kit website should be supported by payers, 
+providers, and CEHRT vendors and implemented within the next two years to ensure consistent, 
+standards-based interoperability and reduce unnecessary implementation variability across the 
+market.
+Modernizing CEHRT in this manner would reduce provider burden, encourage modular innovation, and 
+promote competition by allowing best-of-breed services to integrate through certified API layers without 
+requiring wholesale replacement or recertification of entire EHR platforms. By certifying the plumbing rather 
+
+Leavitt Partners, an HMA Company 4
+than the user interface, ONC can create a durable, future-proof certification framework that advances 
+interoperability outcomes, supports CMS program alignment, and reflects how healthcare data exchange is 
+delivered in practice today.
+CMS programs increasingly rely on FHIR®-based API exchange (e.g., Patient Access, Payer-to-Payer, Prior 
+Authorization APIs, and forthcoming provider-to-provider exchange requirements). However, current 
+CEHRT certification does not ensure that certified systems can reliably support these federally mandated 
+transactions at scale.
+API Performance
+Within the standards discussion, we believe a special discussion on API conformance is needed. TEFCA 
+works perfectly and every provider and payer in the country is connected, even with record location services 
+(RLS) the current CEHRT infrastructure would crumble because the systems are not designed to be high-
+volume, data exchange platforms. As such, each of the APIs that are certified need to have performance 
+standards attached to them to better enable nationwide data exchange. Some of our partners in the EHR space 
+are leading the way on API conformance and support. Examples of their feedback on API functionality are 
+included here, illustrating how the private sector is leading on this issue and how ASTP/ONC might consider 
+conformance verification as part of new reporting or certification protocols.
+The performance of APIs can be very complex because APIs can be used in so many ways. From a simple 
+read on a single resource to bulk data for a massive group or population. To properly determine performance, 
+you will need to break reporting or response times and payloads into categories. Some potential categories 
+include single resource read, search with no operations to return the first page, search with operations to 
+return the first page, API writes, $everything, and Bulk Data. These may need to be broken down further 
+because construction architecture and how much data is being asked have a large impact on performance and 
+responses. Here are the proposed averages for each category listed. 
+•Single resource read - < 1 second
+•Search, no operations, returns the first page - < 2 seconds
+•Search, operations, returns the first page - < 3.5 seconds
+•API writes - < 5 seconds
+•$everything - < 10 seconds
+•Bulk Data - < 10 seconds per patient
+If the cloud database doesn't impact user's system performance, vendors may be able to lower these further. 
+Under the 21st Century Cures Act, ASTP/ONC has the authority to require conformance reporting under their 
+EHR reporting requirements. We recommend ASTP/ONC require EHRs to report the conformance of their 
+9115, 0057, and other (g)(10) required APIs similar to the example outlined above.
+FHIR® API Endpoint Directory Transparency 
+We also recommend ASTP/ONC immediately publicly publish the TEFCA FHIR® API endpoint directory, 
+which includes the recommended data elements suggested on the HL7 website, which lists the technical 
+contact information (email and phone) and developer portal information to resolve any connectivity issues, 
+
+Leavitt Partners, an HMA Company 5
+thus streamlining registration and onboarding. This could be required under an accreditation program (such 
+as NCQA Health Plan Accreditation). We strongly believe the directory needs to be combined with the 
+CMS endpoint directory to ensure we have one directory that is supported by all federal agencies. 
+We recommend ASTP/ONC publish all regulated FHIR® API endpoints in a single, publicly available 
+location, regardless of whether those endpoints exchange data with a proprietary EHR or payer solution or 
+not. Options must be made available to providers and health plans to make the APIs available in ways that 
+are customized to that organization’s unique business needs.
+The Use of Smart Health Cards
+Leavitt Partners strongly supported the policy direction articulated in the HTI-2 proposed rule to improve 
+patient access and enable modern, consumer-friendly mechanisms for the portability and sharing of health 
+information. In particular, we supported the concepts discussed in the HTI-2 proposed rule that explored the 
+use of verifiable, standards-based approaches such as SMART Health Cards and Links to complement 
+existing API-based access models. These concepts aligned well with ASTP’s stated goals of enhancing 
+patient empowerment, reducing friction in information sharing, and supporting secure, trusted exchange.
+While we recognize the complexity of balancing innovation, burden, and security, we were disappointed that 
+these concepts were not included in the finalized HTI-2 rule, despite the clear rationale articulated in the 
+proposed rule. As described in HTI-2, approaches such as SMART Health Cards and Links can provide 
+patients with a portable, verifiable representation of their health information that is particularly valuable in 
+real-world scenarios where API connectivity may be limited or impractical, and where patients benefit from 
+having a durable, patient-controlled artifact.
+Now that the HL7® FHIR® SMART Health Cards and Links implementation guide has been published, we 
+encourage ASTP to revisit and advance this policy direction in the HTI-5 final rule, or, if additional policy 
+development is needed, to clearly propose it in the HTI-6 proposed rule. Doing so would:
+•Reinforce patient-centered access and control over health information.
+•Complement existing FHIR ®-based API requirements.
+•Support broader interoperability use cases, including public health, care transitions, and 
+consumer-mediated exchange.
+•Build on standards that have already seen real-world adoption.
+Reintroducing SMART Health Cards and Links would be consistent with the intent and analysis ASTP 
+shared in the HTI-2 proposed rule and would further strengthen the overall HTI framework. We respectfully 
+urge ASTP to continue this work and to provide clarity and direction on how such approaches can be 
+responsibly incorporated into certification and interoperability policy.
+We also recommend that ASTP/ONC require CEHRT to adopt the CARIN IG for Digital Insurance Card 
+(https://hl7.org/fhir/us/insurance-card/). There is widespread industry adoption for digital insurance cards 
+with over 1M being exchanged per month in production.  
+Identity Considerations
+The 21st Century Cures Act, the ONC Cures Act Final Rule, and the CMS Interoperability and Patient 
+Access rule have accelerated the ability for an individual to access their personal health information via an 
+application of their choice leveraging HL7® FHIR® Application Programming Interfaces or APIs. To support 
+
+Leavitt Partners, an HMA Company 6
+consumer access and overall FHIR® API based data exchange, the reduction of portal fatigue by providers, 
+and consistent engagement from payers, we must ensure that people are who they claim to be so the right 
+information can be shared with the right person at the right time. 
+Leavitt Partners joins many of our clients and all of our alliances in supporting CEHRT vendors to accept an 
+Open ID Connect (OIDC), “person-centric” digital identity credential that has been certified by an 
+independent third party such as Kantara International or DirectTrust to the NIST 800-63 IAL2 and AAL2 
+standard to facilitate person-centric data exchange. This does not mean the receiving organization pull the 
+demographic information out of the OIDC credential and send the information in an unsecured, IHE 
+transaction across the internet. The CEHRT needs to accept the cryptographically signed OIDC credential 
+from another system similar to how the credential is accepted today on the internet. Leavitt Partners strongly 
+believes we need to move toward more internet-based standards rather than healthcare specific ones. 
+An individual who has a portable, high-assurance digital identity credential they can use to control when and 
+how their personal information is shared across systems will facilitate seamless, secure data exchange across 
+systems. There are more than 100M Americans who already have one of these certified digital identity 
+credentials and they are being used by more than 25 states, multiple federal agencies, and dozens of private 
+sector organizations. 
+One way for ASTP/ONC to advance identity verification, as well as patient matching inside of TEFCA, is to 
+mandate the adoption of the patient matching logic agreed to within the CMS Health Tech Ecosystem. The 
+patient matching logic was agreed to by over 600 organizations, many of whom have real-world experience 
+in matching records across systems using TEFCA workflows today. 
+We also would strongly recommend the ASTP/ONC adopt the CSP common data model that was developed 
+as part of the CMS Health Tech Ecosystem and supports the work that is happening within TEFCA. The data 
+model and the patient matching logic will be incorporated into the HL7 FAST Interoperable and Digital 
+Identity and Patient Matching IG as part of an upcoming balloting cycle. 
+2. QUALITY REPORTING AND DATA QUALITY
+Recommendation: Apply Technology-Neutral Standards to Quality Reporting ( §§ 170.315(c)(1), 
+(c)(2), (c)(3) ), Mirroring Transitions of Care Modernization (§ 170.315(b)(1)) 
+We strongly urge ASTP/ONC to revise §§ 170.315(c)(1), (c)(2), and (c)(3) to permit FHIR®-based quality 
+reporting as a voluntary alternative to QRDA. The policy rationale ASTP/ONC applies to C-CDA removal—
+that legacy document formats "detract from industry efforts to move toward FHIR-based solutions"—applies 
+with equal force to QRDA, which shares identical limitations: no data element-level retrieval, no real-time 
+exchange, and incompatibility with contemporary web-based architecture. As proposed, mandatory QRDA 
+requirements persist at every stage of the CQM pipeline: export (c)(1), import (c)(2), and transmission (c)(3). 
+ASTP/ONC has already established a model in § 170.315(f)(5) for electronic case reporting, where either 
+legacy or FHIR®-based alternatives satisfy the requirement. We urge the same technology-neutral approach 
+here. The HL7® FHIR® DEQM Implementation Guide provides functionally equivalent capabilities across all 
+three criteria. NCQA is already transitioning HEDIS® measures to FHIR-based formats, and the industry-
+supported Advancing Digital Quality Reporting Using Regulated Endpoints whitepaper demonstrates that 
+nearly half of universal foundation and screening measures for provider-reported programs can be reported 
+today using only § 170.315(g)(10) endpoints. QRDA would remain fully acceptable; this change creates a 
+pathway, not a mandate—and closes the most significant gap between HTI-5's stated FHIR®-forward 
+direction and its actual regulatory effect.
+
+Leavitt Partners, an HMA Company 7
+3. PIQI FRAMEWORK 
+We commend ASTP for the continued evolution of the Health IT Certification Program through HTI-5. The 
+rule meaningfully advances API-based exchange, strengthens USCDI alignment, and reinforces the national 
+commitment to transparent, standards-based interoperability. HTI-5 builds critical infrastructure at a time 
+when TEFCA implementation, CMS interoperability programs, and consumer-directed exchange are 
+accelerating expectations across the healthcare ecosystem.
+The nation has largely answered the question of whether data can be exchanged. The next leadership 
+opportunity is to ensure that exchanged data can be trusted and used.
+As interoperability matures, data availability is no longer the primary constraint. Instead, usability, semantic 
+integrity, and fitness-for-purpose have become the defining challenges. USCDI has successfully established a 
+national floor for exchange, but the presence of a USCDI element does not necessarily mean that it is 
+complete, conformant, consistent, or reliable for downstream use. As exchange volumes grow, the absence of 
+transparent quality signals risks undermining trust in the very infrastructure federal policy has worked to 
+build.
+HTI-6 presents a timely opportunity to move the Certification Program into its next phase: from validating 
+capability to encouraging measurable data quality performance.
+To support this transition, we have initiated development of a USCDI Version 3 Data Quality Rubric. This 
+rubric operationalizes measurable criteria aligned directly to USCDI classes and elements and evaluates 
+patient-centric data across dimensions such as completeness, terminology conformance, logical consistency, 
+duplication, and provenance transparency. It is designed to be machine-evaluable, FHIR-compatible, and 
+capable of producing repeatable, benchmarkable scorecards.
+This work is being advanced within the Patient Information Quality Improvement (PIQI) Framework. PIQI is 
+an open-source, standards-based framework designed to assess whether electronic patient data meets defined 
+criteria for accuracy, conformity, availability, and plausibility. It produces computable scorecards and 
+structured feedback that enable data producers to identify and remediate issues at the source, strengthening 
+downstream usability across care delivery, patient access, quality measurement, public health reporting, and 
+analytics.
+The PIQI Alliance, an open-source, open-framework community of practice has gotten the attention of 
+healthcare organizations across the spectrum of healthcare including providers organizations, health data 
+utilities, QHINS, payer organizations, data aggregation vendors, standards organizations and government 
+entities like the Veterans Administration, Social Security Administration and Centers for Disease Control.
+Importantly, PIQI is currently undergoing formal HL7 ballot review as an Informative Document, and the 
+PIQI Cross-Paradigm Implementation Guide is being advanced for publication. This provides a national 
+consensus governance pathway and ensures alignment with the broader standards ecosystem.
+The draft USCDI v3 rubric and PIQI framework are already undergoing real-world testing.
+The PIQI Alliance has already conducted real-world proof of concept testing with the PIQI Framework.  This 
+was first done in collaboration with ONC/ASTP in 2024 where we used a initial version of the framework to 
+analyze over 100M lab results for a report to congress.  
+In 2025 the PIQI Alliance conducted over 12 pilots with multiple organizations, including the Connecticut 
+HIE (CONNIE), the Utah Health information network (UHIN), the Indiana Health Information Exchange 
+
+Leavitt Partners, an HMA Company 8
+(IHIE) and the Wisconsin Health Information Network (WISHIN), the Veterans Administration as well as 
+several provider organizations and data integrators.  
+The PIQI Alliance has over fifty participating organizations since it started at the beginning of 2025 and an 
+additional hundred that have requested to be kept up to date on the progress of the Alliance.  The PIQI 
+Alliance membership and activities can be found at www.piqialliance.org.  
+Early experience demonstrates that automated, standards-aligned quality evaluation is technically feasible, 
+scalable, and capable of producing actionable improvement signals. We would welcome ASTP’s engagement 
+in reviewing these pilots and shaping a national pathway forward.
+We believe ASTP has an opportunity to signal the importance of data quality without imposing premature 
+mandates. If the PIQI Cross-Paradigm Implementation Guide is finalized prior to issuance of the HTI-5 final 
+rule, ASTP could consider referencing PIQI as an optional capability within the Certification Program. An 
+optional pathway would allow developers to demonstrate standardized data quality assessment capabilities—
+such as generating machine-readable scorecards—while allowing the market to mature organically.
+If the Implementation Guide is not finalized in time for HTI-5, HTI-6 offers an ideal venue for thoughtful 
+incorporation. By that time, real-world beta implementations and early adoption results can inform federal 
+alignment.
+Federal interoperability policy has successfully built connectivity. The next chapter is credibility.
+Introducing structured, transparent, and standards-based data quality assessment into the certification 
+conversation would reinforce TEFCA trust, strengthen CMS program integrity, reduce administrative friction 
+caused by inconsistent data, and increase patient and consumer confidence in digital health systems.
+HTI-5 advances the infrastructure of exchange. HTI-6 can advance the integrity of exchange.
+We respectfully invite ASTP leadership to engage with the USCDI Version 3 Data Quality Rubric initiative 
+and the HL7-balloted PIQI Framework as vehicles for advancing national data quality expectations.
+The country is ready for interoperability that is not only connected—but trusted.
+4. PHARMACY
+Pharmacists are increasingly delivering immunizations, test-to-treat services, medication therapy 
+management, chronic care support, and other clinical interventions that measurably expand access and 
+improve outcomes. Yet, pharmacy data interoperability has not advanced at the same pace as other care 
+settings creating persistent gaps in care coordination, patient safety, and consumer experience. Leavitt 
+Partners’ work has found that the ability of pharmacies to contribute to value-based care and optimize patient 
+clinical outcomes and medication use depends on their ability to access and contribute to complete, up-to-
+date patient records in interoperable, workflow-friendly ways just as other providers must be able to 
+incorporate pharmacy-originated clinical documentation and status information into care delivery
+Why HTI‑5 Matters for Pharmacy
+While meaningful progress has occurred (e.g., COVID-era data sharing, immunization registries, PDMPs, 
+HIE participation, the HL7/NCPDP Pharmacist eCare Plan, and growing API maturity), these mechanisms 
+remain incomplete, fragmented, and inconsistently implemented, often forcing pharmacies and patients back 
+to manual workarounds that do not scale.  This is precisely the type of “real-world friction” ASTP/ONC’s 
+HTI agenda is designed to reduce and pharmacy is an essential setting where modern interoperability can 
+immediately improve access and safety. 
+
+Leavitt Partners, an HMA Company 9
+PICSA Perspective: Practical, Scalable Integration
+Leavitt Partners leads the Pharmacy Interoperability and Clinical Services Alliance (PICSA), a membership-
+driven collaboration of pharmacies, payers, EHR platforms, technology vendors, and regulators committed to 
+practical, scalable solutions that integrate pharmacists as clinical providers through standardized workflows, 
+interoperable exchange, and sustainable reimbursement.  PICSA’s work reinforces a key theme: 
+interoperability succeeds when it is implementable inside real pharmacy workflows, aligned to national 
+standards (HL7 FHIR®, USCDI, NCPDP), and supported by policy signals that reduce fragmentation and 
+encourage repeatable adoption. 
+In 2026, PICSA intends to pilot end‑to‑end workflows that enable bi‑directional clinical data exchange using 
+both the HL7/NCPDP Pharmacist eCare Plan and HL7 FHIR® APIs aligned with other clinician settings, 
+while also tackling operational barriers such as standardized credentialing and enrollment with health plans, 
+an essential dependency for accurate provider directories and scalable reimbursement.  PICSA also plans to 
+test the use of digital insurance cards to streamline patient check‑in, confirm coverage earlier, and enable 
+more reliable real‑time billing and reimbursement for pharmacist‑provided clinical services. 
+In the HTI‑5 final rule, ASTP should explicitly recognize pharmacy as an intended participant in its 
+interoperability and incentives strategy, with dispensing activities supported through established NCPDP 
+standards and pharmacist‑provided clinical services supported through modern, API‑based exchange aligned 
+with other clinical care providers.
+Alignment with HITAC: Clear, Actionable Priorities for ASTP/ONC
+The 2023 HITAC Pharmacy Interoperability & Emerging Therapeutics recommendations provide a timely 
+blueprint for federal action especially around bidirectional data exchange for test-to-treat, tighter pharmacist 
+integration into the care team, consumer engagement, and public health readiness.  HITAC called on ONC to 
+convene stakeholders to prioritize bi-directional data sharing among pharmacists, other providers, public 
+health agencies, and patients, and to accelerate adoption of standards through collaboration with HL7 and 
+NCPDP.  HITAC also recommended ONC address obstacles beyond technology such as contractual and 
+operational practices that impede exchange and consider a focused, certification approach for pharmacy 
+management systems (PMS) to drive consistent, standards-based interoperability. 
+Recommendations for HTI‑5 Final and Future Rulemaking
+To ensure HTI‑5 and the HTI roadmap fully enable pharmacists as clinical providers while reducing burden 
+and avoiding new fragmentation Leavitt Partners recommends ASTP/ONC:
+1. Explicitly include pharmacy in the “FHIR®-forward” certification trajectory and interoperability policy 
+signals.  
+a. Pharmacies have historically been excluded from EHR incentive structures and operate in a more 
+fragmented technology ecosystem, which has slowed standardization and increased reliance on 
+bespoke interfaces. 
+b. HTI policy should reinforce that pharmacies are part of nationwide interoperability expectations 
+and should benefit from the same modern API direction as other clinical settings. 
+2. Advance bidirectional exchange use cases that matter operationally: test-to-treat, medication 
+optimization, and transitions of care.  
+a. HITAC emphasized bidirectional access to patient and clinical data supporting testing through 
+treatment and integrating pharmacists into the care team (including medication reconciliation, 
+
+Leavitt Partners, an HMA Company 10
+labs, clinical encounter content from other providers, event notifications such as ADTs, and 
+standardized medication profiles). 
+b. Prioritizing these interactions (not just read access) would directly improve patient safety and 
+reduce delays. 
+3. Reduce fragmentation by encouraging a focused, fit‑for‑purpose certification pathway for systems that 
+support pharmacy dispensing and pharmacist‑provided clinical services.  
+a. Pharmacies generally do not use CEHRT and were not included in the incentives and 
+standardization pathways that accelerated interoperability elsewhere, leaving pharmacy 
+technology fragmented and interoperability more reliant on custom solutions. 
+b. ASTP should design a focused, fit‑for‑purpose certification pathway for pharmacy management 
+and clinical documentation systems that supports both dispensing and pharmacist‑provided 
+clinical service workflows, aligned to national standards.  Under this approach, dispensing and 
+product fulfillment workflows would continue to rely on established NCPDP standards, while 
+pharmacist‑provided clinical services would align with the same HL7‑based standards used across 
+the broader clinician ecosystem, including HL7® FHIR® APIs, SMART, Direct Messaging, and 
+other relevant exchange frameworks, with the Pharmacist eCare Plan used where appropriate. 
+c. A focused certification pathway tailored to pharmacy systems rather than full EHR certification 
+would provide a predictable adoption target, support bi‑directional clinical data exchange, and 
+reduce the proliferation of proprietary, one‑off solutions. 
+4. Strengthen policy levers that discourage information blocking behaviors affecting pharmacy connectivity.  
+a. Leavitt Partners’ pharmacy interoperability research underscores that enforcement of Cures Act 
+information sharing expectations especially holding CEHRT vendors and other stakeholders 
+accountable for sharing standardized data with pharmacies remains essential to closing gaps that 
+undermine clinical services and care coordination.  
+b. HITAC similarly identifies non-technical obstacles (including contractual practices) that impede 
+lawful exchange and should be addressed through guidance and/or regulation. 
+5. Promote scalable “network-ready” pharmacy participation across national and local exchange 
+infrastructure.  
+a. Pharmacy participation in local and regional Health Information Exchanges (HIEs) has proven 
+valuable for accessing clinical context needed to deliver pharmacist‑provided dispensing and 
+clinical services, but remains uneven due to costs of participation, geographic variability, 
+inconsistent participation requirements, workflow misalignment when access is limited to 
+standalone portals. At the same time, national exchange frameworks such as TEFCA offer the 
+potential to reduce fragmentation and blind spots across state and regional boundaries. Together, 
+these networks can support consistent query‑and‑response and event‑driven push notification 
+patterns across care settings, provided pharmacies are enabled to participate through 
+standards‑based, workflow‑integrated approaches rather than portal‑based access. 
+6. Support consumer-facing transparency and modern consumer engagement patterns.  
+a. Improving consumer engagement depends on greater transparency, actionable prescription fill 
+status visibility, and streamlined communication pathways among payers, pharmacies, providers, 
+and patients. Implementing these capabilities through standards‑based approaches would 
+meaningfully reduce patient burden and delays, especially when prior authorization or formulary 
+changes interrupt treatment.
+The success of the CARIN Alliance’s HL7® FHIR®–based Real‑Time Prescription Benefit Check 
+(RTPBC) Implementation Guide demonstrates that modern, standards‑based interoperability can 
+
+Leavitt Partners, an HMA Company 11
+materially improve consumer access, affordability, and informed decision‑making at the point of care. 
+The CARIN RTPBC FHIR Implementation Guide has been successfully balloted through HL7 and is 
+now in active production use, supporting real‑time exchange of formulary status, patient‑specific 
+out‑of‑pocket costs, and therapeutic alternatives. This implementation has proven substantial utility in 
+helping patients navigate to the most clinically appropriate and cost‑effective therapy, reducing surprise 
+costs, minimizing therapy abandonment, and supporting shared decision‑making. 
+The CARIN RTPBC experience is particularly instructive for HTI‑5 because it provides concrete, real‑world 
+evidence that FHIR®‑based administrative and pharmacy interoperability can scale nationally when paired 
+with clear implementation guidance, aligned incentives, and consumer‑relevant use cases. RTPBC has shown 
+that exposing actionable benefit and cost information through standardized FHIR® APIs rather than 
+proprietary portals or document‑based approaches directly advances ASTP/ONC’s goals of transparency, 
+reduced friction, and patient empowerment. 
+Given its demonstrated maturity, production adoption, and measurable consumer value, Leavitt Partners 
+strongly encourages ASTP/ONC to explicitly name the CARIN RTPBC HL7® FHIR® Implementation Guide 
+in regulation as an approved standard for consumer‑facing prescription cost and benefit transparency 
+solutions. Doing so would:
+•Provide regulatory clarity and certainty for payers, pharmacies, developers, and consumer 
+application vendors.
+•Prevent fragmentation by discouraging duplicative or proprietary approaches to prescription 
+benefit transparency.
+•Reinforce HTI‑5’s stated intent to prioritize FHIR ®‑based APIs that move beyond read‑only 
+access and deliver actionable data.
+•Establish a replicable policy pattern for naming mature, widely adopted FHIR ® implementation 
+guides that have proven real‑world value.
+Importantly, naming CARIN RTPBC would not require the creation of new standards or untested 
+infrastructure; rather, it would build directly on an existing, successful model that already advances consumer 
+access, affordability, and interoperability at scale. HTI‑5 presents a timely opportunity to formally recognize 
+and extend this success as part of ASTP/ONC’s broader FHIR®‑forward strategy for both clinical and 
+administrative data exchange
+Taken together, these recommendations reflect a pragmatic, implementation‑ready path for advancing 
+pharmacy interoperability that is fully aligned with ASTP/ONC’s HTI‑5 objectives. Pharmacists are already 
+delivering critical clinical services that expand access, improve outcomes, and support public health, yet the 
+interoperability infrastructure needed to support those services has lagged behind other care settings. HTI‑5 
+presents a timely opportunity to correct this imbalance by clearly including pharmacy within a 
+FHIR®‑forward interoperability strategy using established NCPDP standards for dispensing and modern 
+API‑based exchange aligned with other clinicians for pharmacist‑provided clinical services. By building on 
+proven standards, existing networks, and real‑world implementation momentum such as PICSA pilots and 
+the CARIN RTPBC experience, ASTP/ONC can reduce fragmentation, lower administrative burden, and 
+accelerate scalable adoption without creating new regulatory complexity. Leavitt Partners appreciates 
+ASTP/ONC’s leadership in advancing modern, patient‑centered interoperability and looks forward to 
+continued collaboration to ensure pharmacists are fully integrated as interoperable, value‑driven members of 
+the care team. 
+
+Leavitt Partners, an HMA Company 12
+Recommendations for Modifications to Current Certification Criteria
+The following criteria which were unchanged in HTI-5 should be re-evaluated with the stated goal of 
+“FHIR®-Forward” 
+a.§170.315(a)(1) currently requires that, as of January 1, 2028, systems perform 
+prescription-related electronic transactions using specific NCPDP standards, including 
+compliance with §170.205(b)(2) (SCRIPT) and the clinical terminology requirements in 
+§170.207(d)(2). ONC should expand this criterion to allow FHIR® R4 MedicationRequest as a 
+normative, API-based internal CPOE representation, while continuing to support NCPDP 
+SCRIPT for prescriber-to-pharmacy transactions. This approach would enable FHIR®-native 
+workflows without disrupting established electronic prescribing exchange.
+b. §170.315(a)(4) requires drug–drug and drug–allergy interaction checks as part of CPOE 
+functionality. Consistent with other HTI-5 provisions that sunset UI-prescriptive requirements in 
+favor of interface-based certification, ONC should reframe this criterion to focus on standardized 
+access to medication and allergy data and standardized invocation of decision support services. 
+This could be accomplished through integration with CDS Hooks or SMART on FHIR®, using 
+FHIR® MedicationRequest and AllergyIntolerance resources already available in USCDI v3 / 
+U.S. Core 6.0, rather than prescribing specific user interface behavior.
+c. For §170.315(b)(3) Electronic Prescribing, ONC should consider introducing an optional, 
+parallel FHIR®-based certification pathway in a future rule (e.g., HTI-6) that can coexist with 
+and complement existing NCPDP SCRIPT-based exchange. This pathway should be developed 
+in collaboration with NCPDP and pharmacy stakeholders and be required to demonstrate 
+functional equivalence, patient safety parity, auditability, and network interoperability prior 
+to broader adoption. Over time, this approach would allow ONC to evaluate the use of HL7 
+FHIR® MedicationRequest (R4), CARIN RTPBC STU 2.0.0, and related FHIR® medication 
+standards (e.g., Specialty Rx and Standardized Medication Profile) as part of a phased, 
+evidence-based transition strategy, while preserving continuity for existing electronic prescribing 
+workflows and pharmacy systems.
+5. DENTAL
+a.Recommendation: Incorporate Oral Health Data into §170.315(g)(10)—Standardized API 
+for Patient and Population Services
+The Oral Health Interoperability Alliance, in coordination with the American Dental Association 
+and Federal Electronic Health Record Modernization program have a new project in the PIE 
+workgroup to create a FHIR®-based Oral Health Data Exchange.  We urge ASTP/ONC to revise 
+§170.315(g)(10) to add the HL7 FHIR® Oral Health Data Exchange Implementation Guide as a 
+required implementation specification for Health IT Modules whose certified scope includes 
+dental or oral health data, and to add oral health data classes to USCDI through the standard 
+iterative USCDI update process to create the data element foundation that §170.315(g)(10) 
+requires. This recommendation, not a new standalone functional criterion, is the correct vehicle 
+for oral health interoperability within the regulatory framework HTI-5 is building. ASTP/ONC 
+has stated its intent to "sharpen the Certification Program's future focus to prioritize FHIR®-based 
+APIs" and to build from the API baseline that HTI-5 establishes.  In parallel, the Oral Health Data 
+Exchange Implementation Guide should be adopted as an implementation specification under 
+§170.215 and referenced in §170.315(g)(10) for Health IT Modules whose scope includes dental 
+
+Leavitt Partners, an HMA Company 13
+data, mirroring the approach used for the CARIN Blue Button IG at §170.215(k) and the Da Vinci 
+prior authorization suite at §170.215(j).
+b.Recommendation: Clarify that §170.315(a)(5) Oral Health Observations Be Accessible 
+Through API based on open standards
+We recommend that ASTP/ONC clarify through binding guidance or preamble language that oral 
+health status observations—when recorded in a Health IT Module certified to §170.315(a)(5)— 
+be accessible through the §170.315(g)(10) standardized FHIR® API or in a structured format 
+coded using ANSI-accredited dental and clinical terminology standards. We are not 
+recommending a new functional recording mandate in the (a)-series, which would be inconsistent 
+with ASTP/ONC's direction to reduce functionality-based certification requirements. Rather, we 
+are recommending that ASTP/ONC clarify the API exposure obligation that already attaches to 
+any structured data a certified Health IT Module records. 
+c. Recommendation: Revise §170.315(a)(3) — Computerized Provider Order Entry—
+Diagnostic Imaging to Require API-Based Image Transmission, Domain-Differentiated 
+Certification, and Provenance Metadata
+We strongly recommend that ASTP/ONC revise §170.315(a)(3) to require that diagnostic 
+images—not merely imaging orders—be transmittable through standards-based FHIR® APIs, and 
+that the criterion establish two distinct certification pathways: one for medical imaging and one 
+for dental imaging. These are not variations on the same requirement. They represent 
+fundamentally different clinical environments with different patient safety stakes, and a single 
+certification pathway built on hospital radiology assumptions will fail to validate meaningful 
+capability in either domain.
+The criterion as currently structured governs only order management, leaving the image itself—
+the most clinically and administratively significant element—entirely outside the certification 
+framework. This is directly inconsistent with ASTP/ONC's stated principle that health 
+information must be accessible and exchangeable without special effort. Diagnostic images flow 
+through diagnosis, treatment planning, clinical documentation, prior authorization, claims 
+submission, post-payment audit, and AI-assisted analysis. Every one of those uses depends on 
+structured, API-based image transmission, not local storage and manual export. Extending the 
+API access obligation ASTP/ONC has already established for every other category of clinical data 
+to imaging is not a new burden—it is the application of an existing principle to a data type that 
+has been structurally excluded from it.
+Dental imaging requires its own certification pathway because the clinical dependency on 
+imaging in dentistry has no parallel in general medicine. In a single dental visit, providers 
+routinely acquire images across multiple simultaneous modalities—periapical, bitewing, 
+panoramic, cephalometric, CBCT, and photographic—used concurrently and immediately for 
+diagnosis, treatment planning, documentation, and insurance justification. More critically, dental 
+imaging is the primary diagnostic substrate for the majority of clinical and coverage decisions in 
+the specialty; the image is frequently the sole evidence basis for prior authorization approval, 
+claims payment, and post-payment audit. This means that image transmissibility and metadata 
+integrity carry both clinical and legal significance that exceeds typical medical imaging contexts. 
+ASTP/ONC must establish dental-specific conformance testing that reflects this reality rather than 
+evaluating dental imaging systems against radiology assumptions they were never designed to 
+meet.
+
+Leavitt Partners, an HMA Company 14
+The revised criterion must also require that dental imaging data be accessible through the 
+administrative API frameworks ASTP/ONC has already adopted—the CARIN Blue Button Oral 
+Health Profile for patient access and payer data exchange under §170.215(k), and the Da Vinci 
+prior authorization suite under §170.215(j) for PA and claims support. Today, dental prior 
+authorization and claims review almost universally depend on manual image uploads and payer-
+specific portals. The infrastructure to fix this already exists in the Certification Program. 
+Connecting dental imaging to it is not a new burden; it is closing an exclusion that has no policy 
+justification.
+Finally, ASTP/ONC must treat imaging provenance and AI processing metadata as patient safety 
+requirements, not technical preferences. Dental images routinely pass through multiple AI 
+enhancement, analysis, and annotation systems before reaching a clinical reviewer or payer. If the 
+recipient cannot determine what processing an image has undergone, clinical judgment made 
+against it—by a human or a downstream AI—may rest on a false evidentiary foundation. The 
+revised criterion must require structured transmission of image provenance, processing history, 
+and versioning of derived images using ANSI-accredited imaging standards. Two dental-specific 
+elements are non-negotiable: layout and template positions, which define the spatial organization 
+of a full-mouth series without which no downstream system can correctly identify which tooth 
+each image represents, and tooth identification labeling as structured metadata rather than visual 
+annotation, which is lost or misread in transmission. ASTP/ONC has stated its intent to support 
+AI-enabled interoperability. That goal cannot be achieved for imaging without a provenance 
+framework that makes AI processing transparent. An imaging API that transmits files without 
+processing history does not enable safe AI-assisted analysis—it introduces opacity into a clinical 
+data stream where opacity causes diagnostic errors.
+d.Recommendation: Revise §170.315(b)(1) — Transitions of Care to Recognize FHIR ®-Based 
+Dental Summary Exchange Through API
+We support ASTP/ONC's proposal to narrow §170.315(b)(1) toward a receive-only posture as a 
+step toward FHIR-based exchange. We recommend that the revised criterion explicitly recognize 
+receipt of structured oral health summary FHIR Bundles conformant with the Oral Health Data 
+Exchange Implementation Guide as a supported transition format. Because no C-CDA template 
+for dental summary exchange has ever existed, FHIR® is not a future alternative for dental 
+transitions—it is the only viable path. Recognizing the Oral Health FHIR® IG here costs nothing 
+in terms of the deregulatory burden reduction ASTP/ONC is pursuing, and it closes a gap that 
+would otherwise leave dental care transitions entirely outside the transitions-of-care framework as 
+the criterion narrows.
+e.Recommendation: Clarify that §170.315(b)(10) — Electronic Health Information Export 
+Encompasses Dental Records 
+We urge ASTP/ONC to confirm through preamble language that dental and oral health data 
+maintained within a certified Health IT Module is within scope of the EHI export requirement 
+under §170.315(b)(10), and that such data must be exportable. We are not recommending a new 
+functional export capability. We are recommending that ASTP/ONC remove the ambiguity 
+created by the absence of oral health data classes in USCDI, which vendors have used in practice 
+to exclude dental records from EHI export as outside the defined data set. The information 
+blocking regulations define EHI broadly to encompass all electronic protected health information 
+in a designated record set. The API-forward certification framework requires that structured data 
+
+Leavitt Partners, an HMA Company 15
+accessible through the system be accessible through the API. Both principles compel the 
+conclusion that dental records are subject to EHI export requirements, and ASTP/ONC should say 
+so explicitly.
+6. SUPPORT FOR OTHER INDUSTRY RECOMMENDATIONS
+We join with the SMART Health Team in endorsing their recommendations for future-rulemaking:
+1.Comprehensive Patient Access to Their Own Data. SMART on FHIR ® and the US Core Data for 
+Interoperability establish a necessary foundation for patient access. We propose that this foundation be 
+extended to provide access to the full scope of electronic health information through streamlined, 
+modern, and automatable workflows, while preserving architectural integrity as access expands.
+•Mandate support for portal-based single sign-on with remote identity proofing so patients can 
+authenticate once and authorize access without repeated manual steps.
+•Enable patients to retrieve their imaging data—including metadata and full diagnostic-quality image 
+content— through the same OAuth-based authorization flows used for USCDI data, rather than 
+through parallel portals, credentials, or bespoke workflows that fragment access.
+•Enable patients to retrieve their full Electronic Health Information via an API that uses the same 
+OAuth based authorization flows used for USCDI data access. This requirement is necessary to 
+preserve access to the “long tail” of clinical data not fully represented in standard FHIR® profiles. 
+The Argonaut Project has profiled this approach in the EHI Export API Implementation Guide and 
+ASTP/ONC-funded prototypes have demonstrated its feasibility. Implementations should extend 
+beyond vendor-specific data formats to also include an option for retrieving a complete, human and 
+AI readable PDF version of the medical record, supporting direct use by patients, clinicians, and large 
+language models.
+•Support dynamic app registration outside of preconfigured trust networks. Absent this capability, the 
+friction involved in app registration approaches that vary by vendor and site limits the app choices 
+available to patients.
+•Enable patient use of FHIR ® Subscriptions, as profiled by Argonaut in the US Core Patient Data 
+Feed, to support proactive notification when new data become available and reduce the reliance on 
+manual polling in patient-facing applications.
+2.Comprehensive Provider Access to Their Patients’ Data. Bulk FHIR ® establishes a necessary 
+foundation for provider access to population-level data that enables streamlined movement of data 
+throughout the healthcare system. We propose that this foundation be preserved and strengthened by 
+requiring that Bulk FHIR® implementations are usable in practice, performant at scale, and functionally 
+aligned with certified REST interfaces. As with comprehensive patient access, providers would benefit 
+from integrated imaging access and support for FHIR® subscriptions.
+•Bulk export implementations should support _since, _type, and _typeFilter parameters with behavior 
+equivalent to certified REST interfaces, enabling minimum-necessary data extraction rather than 
+forcing unnecessarily broad exports. Support for bulk exports that are organized by patient (a feature 
+in v3 of the Bulk Export specification) would enable efficient quality measure calculation and 
+downstream analytics.
+
+Leavitt Partners, an HMA Company 16
+•Enable providers to define cohorts for bulk export flexibly through standard APIs, automatically 
+creating patient groups based on roster matching and clinical criteria rather than requiring users to 
+specify sets of patients manually in each system’s interface.
+•Clear and enforceable performance expectations are needed to prevent “checkbox” compliance, in 
+which capabilities exist on paper but fail under real world conditions. A performance-parity 
+approach—aligning Bulk FHIR® expectations with those of proprietary data export APIs—would 
+ensure that bulk access functions as an operational tool. Streamline provider workflows by endorsing 
+FHIR® Subscriptions, as profiled by Argonaut in the US Core Patient Data Feed, to notify apps for 
+decision support, patient care, public health, research and other use cases when relevant new data 
+become available.
+•Imaging access, including metadata and full diagnostic-quality image content, should likewise be 
+accessible through the same OAuth-based authorization flows used for USCDI data, preserving 
+architectural coherence across access pathways.
+3. Closed-Loop Performance Verification for FHIR ® Bulk Export. 
+Bulk FHIR® establishes a necessary foundation for population-level interoperability. Real world experience 
+demonstrates that Bulk FHIR® performance is frequently inadequate, with exports involving as few as a 
+thousand patients taking days or even weeks to complete. Published evaluations document these limitations 
+and indeed were cited in the HTI-2 Proposed Rule. Health systems have reported desired Bulk FHIR® use 
+cases but also operational impacts of poor technical performance through case reports on the SMART Health 
+IT Good Neighbor website.
+•Require performance verification for Bulk FHIR ® using new, Inferno-based testing tools or existing 
+open source ONC funded tools as a certification expectation.
+•Real world performance metrics should be reported by each institution to ASTP on a quarterly basis 
+rather than relying on one-time attestation. At a minimum, reported metrics would include completion 
+time distributions (P50 and P95) stratified by cohort-size bands; time to first byte or first file; 
+throughput measured in resources per minute or patients per hour; failure rates, retry behavior, and 
+cancellation behavior; and time to complete incremental exports covering the previous 24 hours or 
+the last N days.
+Together, these measures would enable ASTP/ONC to assess whether Bulk FHIR® is functioning as a 
+reliable, scalable foundation for population-level data exchange and to identify architectural gaps before they 
+impede real world use.
+Thank you for all your efforts in helping to advance patient-centered data exchange and helping to modernize 
+our health care data ecosystem. 
