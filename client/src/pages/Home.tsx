@@ -125,6 +125,24 @@ export default function Home() {
         <div className="rule-line-thin mt-6" />
       </div>
 
+      {/* Version update */}
+      <div className="mb-8 flex items-center gap-3 text-sm text-muted-foreground">
+        <span className="font-mono text-xs bg-muted/60 px-2 py-0.5 rounded border border-border">
+          v1.4
+        </span>
+        <span>
+          31 attachment-only comments now fully analyzed.{" "}
+          <a
+            href="https://github.com/jacobmr/hti5#analysis-updates"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-primary underline underline-offset-2 hover:opacity-80"
+          >
+            What changed
+          </a>
+        </span>
+      </div>
+
       {/* Key stats row */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
         {[
@@ -136,12 +154,12 @@ export default function Home() {
           {
             label: "Oppose / Strongly Oppose",
             value: `${totalOppose}`,
-            sub: `${Math.round((totalOppose / 269) * 100)}% of clear positions`,
+            sub: `${Math.round((totalOppose / statsData.total_comments) * 100)}% of all comments`,
           },
           {
             label: "Support / Strongly Support",
             value: `${totalSupport}`,
-            sub: `${Math.round((totalSupport / 269) * 100)}% of clear positions`,
+            sub: `${Math.round((totalSupport / statsData.total_comments) * 100)}% of all comments`,
           },
           {
             label: "Avg. Sentiment",
@@ -369,13 +387,13 @@ export default function Home() {
 
           <p>
             <strong>The response was decisively negative.</strong> Average
-            sentiment scored −0.73 on a −3 to +3 scale. Of 269 comments with a
-            clear position, 127 (47%) opposed the proposed actions, while only
-            70 (26%) supported them. The remaining 72 took neutral or mixed
-            positions. Notably, some major organizations filed nuanced comments
-            that resist simple categorization—HIMSS and EHRA, for example,
-            support certain deregulatory steps while opposing others, reflecting
-            the conditional nature of industry support.
+            sentiment scored −0.70 on a −3 to +3 scale. Of 298 comments, 139
+            (47%) opposed the proposed actions, while only 86 (29%) supported
+            them. The remaining 73 took neutral or mixed positions. Notably,
+            some major organizations filed nuanced comments that resist simple
+            categorization—HIMSS and EHRA, for example, support certain
+            deregulatory steps while opposing others, reflecting the conditional
+            nature of industry support.
           </p>
 
           <p>

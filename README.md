@@ -9,11 +9,11 @@
 
 The public response to proposed health IT deregulation was **decisively negative**.
 
-- **127 of 269 commenters with clear positions (47%) opposed** the proposed deregulation; 70 (26%) supported it
-- Average sentiment: **−0.73** on a −3 to +3 scale
+- **139 of 298 commenters (47%) opposed** the proposed deregulation; 86 (29%) supported it
+- Average sentiment: **−0.70** on a −3 to +3 scale
 - **90% of clinicians** opposed removing certification requirements
 - **Patient safety** was the dominant concern — commenters warned that removing audit log and data integrity standards would create direct clinical risks
-- **FHIR standards** (238 mentions) and **burden reduction** (218 mentions) were the most-discussed themes
+- **FHIR standards** (264 mentions) and **burden reduction** (240 mentions) were the most-discussed themes
 - Multiple **organized advocacy campaigns** were identified, including coordinated attorney networks and form letter campaigns
 
 ---
@@ -75,6 +75,34 @@ The analysis is presented as an interactive website at **[hti5.org](https://hti5
 - Evidence-based policy recommendations
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and technical details.
+
+---
+
+## Analysis Updates
+
+This analysis has evolved as the dataset and methodology improved:
+
+**v1.4** — _Attachment Text Extraction_ (March 7, 2026)
+
+- Fixed 31 comments that contained substantive text only in PDF/DOCX attachments, not inline. These had been classified as "unclear" with no themes. After extracting attachment text and re-analyzing, all 298 comments now have proper position classifications and theme tags.
+- Impact: oppose count rose from 127 to 139; support from 70 to 86; "unclear" positions eliminated entirely. Average sentiment shifted from −0.73 to −0.70.
+- Thanks to [David Rocha](https://github.com/jacobmr/hti5/issues/2) for reporting the gap.
+
+**v1.3** — _Assessment Accuracy_ (March 6, 2026)
+
+- Replaced keyword-based heuristics for `agency_posture` and `provision_addressed` fields with weighted pattern matching, improving accuracy of comment quality assessments.
+
+**v1.2** — _Comment Quality Assessment_ (March 5, 2026)
+
+- Added understanding scores (0–5) and logical outgrowth analysis for all 298 comments, stored in `comment_assessments.json`.
+
+**v1.1** — _Coordination Deep Dive_ (March 5, 2026)
+
+- Identified 5 organized advocacy campaigns covering 68 unique commenters (22.8% of submissions).
+
+**v1.0** — _Initial Analysis_ (March 2, 2026)
+
+- First release with position classification, thematic analysis, stakeholder segmentation, and sentiment scoring for 298 comments.
 
 ---
 
