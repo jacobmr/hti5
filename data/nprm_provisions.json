@@ -1,0 +1,6111 @@
+{
+  "metadata": {
+    "generated": "2026-03-08T01:21:14.639Z",
+    "total_comments": 298,
+    "methodology": "Weighted pattern matching on comment summaries, recommendations, and full text. Each comment mapped to one or more of 16 provision groups derived from NPRM Table 1. Stance determined from position field with text analysis fallback. See scripts/map-provisions.mjs for scoring logic."
+  },
+  "provisions": [
+    {
+      "id": "privacy_security",
+      "label": "Privacy & Security",
+      "nprm_section": "§3(a)-(d)",
+      "description": "Authentication, access control, audit log, encryption, and integrity certification criteria.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0004",
+          "stance": "support",
+          "name": "Public Policy Resilience Institute (PPRi)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0009",
+          "stance": "oppose",
+          "name": "Nursine Jackson"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0010",
+          "stance": "oppose",
+          "name": "Kanav Jain"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0019",
+          "stance": "oppose",
+          "name": "David Damick"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0012",
+          "stance": "oppose",
+          "name": "Sean Domnick"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0014",
+          "stance": "oppose",
+          "name": "Jennifer Marshall"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0018",
+          "stance": "oppose",
+          "name": "Christopher Wright"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0016",
+          "stance": "oppose",
+          "name": "Erin Vorhees"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0013",
+          "stance": "oppose",
+          "name": "Molly Hamilton"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0017",
+          "stance": "oppose",
+          "name": "Craig Daue"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0015",
+          "stance": "oppose",
+          "name": "Ronald Kaplan"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0020",
+          "stance": "oppose",
+          "name": "Stephen Barnes, MD, JD"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0021",
+          "stance": "oppose",
+          "name": "Laura Ozak"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0023",
+          "stance": "oppose",
+          "name": "Mitchell Berger"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0027",
+          "stance": "oppose",
+          "name": "J Tolin Law"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0026",
+          "stance": "oppose",
+          "name": "Logan English"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0025",
+          "stance": "oppose",
+          "name": "isobel thomas"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0028",
+          "stance": "oppose",
+          "name": "RONDA KELSO"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0029",
+          "stance": "oppose",
+          "name": "Amy Hernandez"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0033",
+          "stance": "oppose",
+          "name": "Bucky Slomski"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0031",
+          "stance": "oppose",
+          "name": "Brian Snyder"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0030",
+          "stance": "mixed",
+          "name": "Rohan Sharma"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0038",
+          "stance": "oppose",
+          "name": "Taylor Hunt"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0036",
+          "stance": "mixed",
+          "name": "John Travis"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0048",
+          "stance": "oppose",
+          "name": "Dustin Herman"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0052",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0049",
+          "stance": "oppose",
+          "name": "Lois McGruder-Jarman"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0056",
+          "stance": "oppose",
+          "name": "Jennifer Matyac"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0059",
+          "stance": "mixed",
+          "name": "Fairview Health Services"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0060",
+          "stance": "support",
+          "name": "InterSystems Corporation"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0065",
+          "stance": "support",
+          "name": "Satyadhar Joshi"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0083",
+          "stance": "oppose",
+          "name": "Lindsay Lawrence"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0073",
+          "stance": "oppose",
+          "name": "Susan Petersen"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0069",
+          "stance": "support",
+          "name": "Advocate Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0079",
+          "stance": "oppose",
+          "name": "American Health Care Association/National Center for Assisted Living (AHCA/NCAL)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0076",
+          "stance": "oppose",
+          "name": "Craig Tuttle"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0077",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0075",
+          "stance": "oppose",
+          "name": "Shift Collaborative"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0070",
+          "stance": "oppose",
+          "name": "Alliance for Nursing Informatics"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0090",
+          "stance": "mixed",
+          "name": "J Michael Consulting"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0085",
+          "stance": "oppose",
+          "name": "South Carolina Primary Health Care Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0105",
+          "stance": "support",
+          "name": "American College of Radiology (ACR)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0101",
+          "stance": "oppose",
+          "name": "Thomas Ryan"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0102",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0100",
+          "stance": "oppose",
+          "name": "Ryan Melewski"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0104",
+          "stance": "oppose",
+          "name": "Community Health Center Association of Connecticut"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0106",
+          "stance": "oppose",
+          "name": "American Health Information Management Association (AHIMA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0099",
+          "stance": "oppose",
+          "name": "Joseph Hartle"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0112",
+          "stance": "mixed",
+          "name": "Drummond Group"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0111",
+          "stance": "oppose",
+          "name": "Allen Tittle"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0103",
+          "stance": "oppose",
+          "name": "Minnesota e-Health Initiative"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0098",
+          "stance": "support",
+          "name": "Massachusetts Health Data Consortium"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0097",
+          "stance": "oppose",
+          "name": "Patient ID Now"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0119",
+          "stance": "oppose",
+          "name": "Trinity Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0134",
+          "stance": "mixed",
+          "name": "Workgroup for Electronic Data Interchange (WEDI)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0128",
+          "stance": "mixed",
+          "name": "College of Healthcare Information Management Executives (CHIME)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0145",
+          "stance": "support",
+          "name": "Medical Information Technology, Inc (MEDITECH)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0151",
+          "stance": "mixed",
+          "name": "DirectTrust"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0137",
+          "stance": "oppose",
+          "name": "SABRINA CUNNINGHAM"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0140",
+          "stance": "mixed",
+          "name": "Cooperative Exchange, The National Clearinghouse Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0144",
+          "stance": "oppose",
+          "name": "National Rural Health Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0153",
+          "stance": "mixed",
+          "name": "Peggy Schwartz"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0158",
+          "stance": "oppose",
+          "name": "American Immunization Registry Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0154",
+          "stance": "oppose",
+          "name": "Anesthesia Patient Safety Foundation"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0129",
+          "stance": "oppose",
+          "name": "Qualifacts System LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0142",
+          "stance": "support",
+          "name": "NextGen Healthcare"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0147",
+          "stance": "oppose",
+          "name": "Laura Barg-Walkow"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0141",
+          "stance": "oppose",
+          "name": "AARP"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0118",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0121",
+          "stance": "oppose",
+          "name": "Bart Keyes"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0116",
+          "stance": "oppose",
+          "name": "LGBT Tech & The Cancer Network"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0124",
+          "stance": "oppose",
+          "name": "Jennifer Lawrence"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0148",
+          "stance": "oppose",
+          "name": "Texas Association of Community Health Centers"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0156",
+          "stance": "support",
+          "name": "Healthcare Trust Institute"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0149",
+          "stance": "support",
+          "name": "Health Level Seven (HL7) International"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0162",
+          "stance": "oppose",
+          "name": "Nicholas Rider"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0163",
+          "stance": "support",
+          "name": "American Pharmacists Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0161",
+          "stance": "support",
+          "name": "AHIP"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0181",
+          "stance": "oppose",
+          "name": "SPEKTRUM Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0179",
+          "stance": "oppose",
+          "name": "Health Federation of Philadelphia"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0194",
+          "stance": "oppose",
+          "name": "Oregon Health & Science University (OHSU)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0177",
+          "stance": "mixed",
+          "name": "American Hospital Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0169",
+          "stance": "oppose",
+          "name": "Ohio Association of Community Health Centers"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0199",
+          "stance": "oppose",
+          "name": "American Psychiatric Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0201",
+          "stance": "support",
+          "name": "Pharmaceutical Care Management Association (PCMA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0191",
+          "stance": "oppose",
+          "name": "ECRI"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0197",
+          "stance": "oppose",
+          "name": "American Association for Justice"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0186",
+          "stance": "support",
+          "name": "AdventHealth"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0193",
+          "stance": "support",
+          "name": "Premier Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0189",
+          "stance": "support",
+          "name": "CRISP Shared Services, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0166",
+          "stance": "mixed",
+          "name": "Association for Behavioral Health and Wellness"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0204",
+          "stance": "support",
+          "name": "CVS Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0202",
+          "stance": "oppose",
+          "name": "Association for Utah Community Health (AUCH)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0175",
+          "stance": "support",
+          "name": "Point of Care Partners"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0170",
+          "stance": "support",
+          "name": "American Nurses Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0172",
+          "stance": "oppose",
+          "name": "Greater New York Hospital Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0182",
+          "stance": "support",
+          "name": "MRO"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0185",
+          "stance": "oppose",
+          "name": "Joy Rivera"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0190",
+          "stance": "oppose",
+          "name": "Mark Smith"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0205",
+          "stance": "mixed",
+          "name": "Vanderbilt Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0187",
+          "stance": "support",
+          "name": "Amazon"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0195",
+          "stance": "mixed",
+          "name": "Cleveland Clinic"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0211",
+          "stance": "support",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0234",
+          "stance": "oppose",
+          "name": "Informal Provider Association Coalition"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0209",
+          "stance": "support",
+          "name": "1upHealth"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0216",
+          "stance": "oppose",
+          "name": "Caroline Morrow"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0224",
+          "stance": "oppose",
+          "name": "Reider, Fairbanks, Ratwani, Weinger, Neil, Goldman, Mehta, Lichtscheidl"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0231",
+          "stance": "oppose",
+          "name": "New Jersey Primary Care Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0212",
+          "stance": "support",
+          "name": "Ascension"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0210",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0238",
+          "stance": "mixed",
+          "name": "Ann & Robert H. Lurie Children's Hospital of Chicago"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0214",
+          "stance": "oppose",
+          "name": "Ethan Larsen"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0218",
+          "stance": "support",
+          "name": "The Sequoia Project"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0215",
+          "stance": "oppose",
+          "name": "The Light Collective"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0222",
+          "stance": "mixed",
+          "name": "PointClickCare"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0243",
+          "stance": "support",
+          "name": "Blue Cross Blue Shield of Massachusetts"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0247",
+          "stance": "support",
+          "name": "Health Innovation Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0298",
+          "stance": "oppose",
+          "name": "Center for AI and Digital Policy (CAIDP)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0300",
+          "stance": "support",
+          "name": "Datavant"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0290",
+          "stance": "oppose",
+          "name": "Virginia Lorenzi"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0297",
+          "stance": "oppose",
+          "name": "EMR Discovery"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0280",
+          "stance": "oppose",
+          "name": "Patients for Patient Safety US"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0281",
+          "stance": "oppose",
+          "name": "AllianceChicago"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0245",
+          "stance": "oppose",
+          "name": "National Association of Community Health Centers (NACHC)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0261",
+          "stance": "oppose",
+          "name": "American College Of Physicians"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0270",
+          "stance": "oppose",
+          "name": "Beth Daley Ullem"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0272",
+          "stance": "support",
+          "name": "Consensus Cloud Solutions"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0273",
+          "stance": "oppose",
+          "name": "Michigan Primary Care Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0253",
+          "stance": "oppose",
+          "name": "Parkview Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0265",
+          "stance": "support",
+          "name": "Oracle Health and Life Sciences"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0295",
+          "stance": "support",
+          "name": "ADVION Advocates"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0260",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0299",
+          "stance": "oppose",
+          "name": "Primary Care Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0304",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        }
+      ],
+      "support_count": 31,
+      "oppose_count": 87,
+      "mixed_count": 16,
+      "total": 134
+    },
+    {
+      "id": "data_api_access",
+      "label": "API-Based Data Access & FHIR",
+      "nprm_section": "§2(c)-(d)",
+      "description": "FHIR-based API criteria for patient and population services, standardized API functionality.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0006",
+          "stance": "mixed",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0037",
+          "stance": "support",
+          "name": "Meridian Verity Group LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0036",
+          "stance": "mixed",
+          "name": "John Travis"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0043",
+          "stance": "support",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0044",
+          "stance": "support",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0045",
+          "stance": "mixed",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0041",
+          "stance": "mixed",
+          "name": "SMART Health IT, Computational Health Informatics Program"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0047",
+          "stance": "support",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0046",
+          "stance": "support",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0054",
+          "stance": "oppose",
+          "name": "HLN Consulting, LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0057",
+          "stance": "mixed",
+          "name": "Orion Health (a HEALWELL Company)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0059",
+          "stance": "mixed",
+          "name": "Fairview Health Services"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0060",
+          "stance": "support",
+          "name": "InterSystems Corporation"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0062",
+          "stance": "oppose",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0065",
+          "stance": "support",
+          "name": "Satyadhar Joshi"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0075",
+          "stance": "oppose",
+          "name": "Shift Collaborative"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0066",
+          "stance": "support",
+          "name": "MLCommons"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0089",
+          "stance": "mixed",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0090",
+          "stance": "mixed",
+          "name": "J Michael Consulting"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0107",
+          "stance": "support",
+          "name": "American Academy of Family Physicians"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0087",
+          "stance": "mixed",
+          "name": "Family Caregiver Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0108",
+          "stance": "oppose",
+          "name": "North American Association of Central Cancer Registries"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0106",
+          "stance": "oppose",
+          "name": "American Health Information Management Association (AHIMA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0088",
+          "stance": "support",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0112",
+          "stance": "mixed",
+          "name": "Drummond Group"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0084",
+          "stance": "support",
+          "name": "Advanced Medical Technology Association (AdvaMed)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0133",
+          "stance": "oppose",
+          "name": "National Comprehensive Cancer Network"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0138",
+          "stance": "mixed",
+          "name": "Civitas Networks for Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0152",
+          "stance": "oppose",
+          "name": "Valerie Yoder"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0151",
+          "stance": "mixed",
+          "name": "DirectTrust"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0158",
+          "stance": "oppose",
+          "name": "American Immunization Registry Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0130",
+          "stance": "support",
+          "name": "Vega Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0135",
+          "stance": "oppose",
+          "name": "American Medical Informatics Association (AMIA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0115",
+          "stance": "support",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0150",
+          "stance": "support",
+          "name": "Aaron Gotwalt"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0118",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0125",
+          "stance": "mixed",
+          "name": "Radiology Partners"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0139",
+          "stance": "support",
+          "name": "Firely USA Inc"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0156",
+          "stance": "support",
+          "name": "Healthcare Trust Institute"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0143",
+          "stance": "oppose",
+          "name": "Altarum Institute"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0149",
+          "stance": "support",
+          "name": "Health Level Seven (HL7) International"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0167",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0161",
+          "stance": "support",
+          "name": "AHIP"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0168",
+          "stance": "support",
+          "name": "Healthcare Information Management and Systems Society (HIMSS)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0165",
+          "stance": "mixed",
+          "name": "UnitedHealth Group"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0177",
+          "stance": "mixed",
+          "name": "American Hospital Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0173",
+          "stance": "support",
+          "name": "Alliance for Person-Centered Care"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0198",
+          "stance": "support",
+          "name": "Zocdoc"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0191",
+          "stance": "oppose",
+          "name": "ECRI"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0193",
+          "stance": "support",
+          "name": "Premier Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0159",
+          "stance": "support",
+          "name": "Health Universe"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0184",
+          "stance": "oppose",
+          "name": "Joint Public Health Informatics Taskforce (JPHIT)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0175",
+          "stance": "support",
+          "name": "Point of Care Partners"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0170",
+          "stance": "support",
+          "name": "American Nurses Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0171",
+          "stance": "oppose",
+          "name": "American Clinical Laboratory Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0176",
+          "stance": "support",
+          "name": "American Academy of Allergy Asthma and Immunology"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0182",
+          "stance": "support",
+          "name": "MRO"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0183",
+          "stance": "support",
+          "name": "Radiological Society of North America"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0196",
+          "stance": "support",
+          "name": "American College of Surgeons"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0205",
+          "stance": "mixed",
+          "name": "Vanderbilt Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0187",
+          "stance": "support",
+          "name": "Amazon"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0203",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0195",
+          "stance": "mixed",
+          "name": "Cleveland Clinic"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0220",
+          "stance": "mixed",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0217",
+          "stance": "oppose",
+          "name": "CareQuest Institute for Oral Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0209",
+          "stance": "support",
+          "name": "1upHealth"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0212",
+          "stance": "support",
+          "name": "Ascension"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0222",
+          "stance": "mixed",
+          "name": "PointClickCare"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0223",
+          "stance": "support",
+          "name": "Blue Cross Blue Shield Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0207",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0206",
+          "stance": "support",
+          "name": "National Association of Chain Drug Stores"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0251",
+          "stance": "support",
+          "name": "iShare Medical, LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0285",
+          "stance": "support",
+          "name": "Oral Health Interoperability Alliance - Leavitt Partners"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0289",
+          "stance": "support",
+          "name": "Cedar Cares, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0258",
+          "stance": "support",
+          "name": "Catherine DesRoches"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0264",
+          "stance": "support",
+          "name": "Alliance for Health Information Operations and Standards (AHIOS)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0286",
+          "stance": "oppose",
+          "name": "FNU Kanishka"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0294",
+          "stance": "oppose",
+          "name": "Dynamic Health IT"
+        }
+      ],
+      "support_count": 39,
+      "oppose_count": 20,
+      "mixed_count": 19,
+      "total": 78
+    },
+    {
+      "id": "ai_governance",
+      "label": "AI/ML & Predictive DSI Governance",
+      "nprm_section": "Cross-cutting",
+      "description": "AI transparency, model cards, algorithmic bias, predictive DSI oversight requirements.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0004",
+          "stance": "support",
+          "name": "Public Policy Resilience Institute (PPRi)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0011",
+          "stance": "support",
+          "name": "Latricia Powell"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0012",
+          "stance": "oppose",
+          "name": "Sean Domnick"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0013",
+          "stance": "oppose",
+          "name": "Molly Hamilton"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0015",
+          "stance": "oppose",
+          "name": "Ronald Kaplan"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0025",
+          "stance": "oppose",
+          "name": "isobel thomas"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0029",
+          "stance": "oppose",
+          "name": "Amy Hernandez"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0030",
+          "stance": "mixed",
+          "name": "Rohan Sharma"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0037",
+          "stance": "support",
+          "name": "Meridian Verity Group LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0036",
+          "stance": "mixed",
+          "name": "John Travis"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0055",
+          "stance": "oppose",
+          "name": "Owen Belamaric"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0059",
+          "stance": "mixed",
+          "name": "Fairview Health Services"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0065",
+          "stance": "support",
+          "name": "Satyadhar Joshi"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0081",
+          "stance": "mixed",
+          "name": "American Medical Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0077",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0066",
+          "stance": "support",
+          "name": "MLCommons"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0096",
+          "stance": "mixed",
+          "name": "College of American Pathologists (CAP)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0105",
+          "stance": "support",
+          "name": "American College of Radiology (ACR)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0101",
+          "stance": "oppose",
+          "name": "Thomas Ryan"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0102",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0087",
+          "stance": "mixed",
+          "name": "Family Caregiver Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0106",
+          "stance": "oppose",
+          "name": "American Health Information Management Association (AHIMA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0112",
+          "stance": "mixed",
+          "name": "Drummond Group"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0094",
+          "stance": "oppose",
+          "name": "MedStar Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0091",
+          "stance": "support",
+          "name": "Aquila Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0092",
+          "stance": "support",
+          "name": "Mosaic Life Tech, LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0103",
+          "stance": "oppose",
+          "name": "Minnesota e-Health Initiative"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0127",
+          "stance": "oppose",
+          "name": "Texas Health Informatics Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0114",
+          "stance": "mixed",
+          "name": "American Academy of Dermatology Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0120",
+          "stance": "mixed",
+          "name": "Dartmouth Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0145",
+          "stance": "support",
+          "name": "Medical Information Technology, Inc (MEDITECH)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0157",
+          "stance": "oppose",
+          "name": "Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0154",
+          "stance": "oppose",
+          "name": "Anesthesia Patient Safety Foundation"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0130",
+          "stance": "support",
+          "name": "Vega Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0132",
+          "stance": "mixed",
+          "name": "AAPM&R"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0135",
+          "stance": "oppose",
+          "name": "American Medical Informatics Association (AMIA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0147",
+          "stance": "oppose",
+          "name": "Laura Barg-Walkow"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0141",
+          "stance": "oppose",
+          "name": "AARP"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0136",
+          "stance": "oppose",
+          "name": "Texas Medical Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0121",
+          "stance": "oppose",
+          "name": "Bart Keyes"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0146",
+          "stance": "mixed",
+          "name": "National Association of ACOs (NAACOS)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0156",
+          "stance": "support",
+          "name": "Healthcare Trust Institute"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0181",
+          "stance": "oppose",
+          "name": "SPEKTRUM Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0194",
+          "stance": "oppose",
+          "name": "Oregon Health & Science University (OHSU)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0177",
+          "stance": "mixed",
+          "name": "American Hospital Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0199",
+          "stance": "oppose",
+          "name": "American Psychiatric Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0191",
+          "stance": "oppose",
+          "name": "ECRI"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0159",
+          "stance": "support",
+          "name": "Health Universe"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0166",
+          "stance": "mixed",
+          "name": "Association for Behavioral Health and Wellness"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0180",
+          "stance": "oppose",
+          "name": "American Academy of Pediatrics"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0183",
+          "stance": "support",
+          "name": "Radiological Society of North America"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0185",
+          "stance": "oppose",
+          "name": "Joy Rivera"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0200",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0187",
+          "stance": "support",
+          "name": "Amazon"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0195",
+          "stance": "mixed",
+          "name": "Cleveland Clinic"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0226",
+          "stance": "oppose",
+          "name": "Health IT End-Users Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0236",
+          "stance": "support",
+          "name": "AI Healthcare Coalition"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0217",
+          "stance": "oppose",
+          "name": "CareQuest Institute for Oral Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0216",
+          "stance": "oppose",
+          "name": "Caroline Morrow"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0224",
+          "stance": "oppose",
+          "name": "Reider, Fairbanks, Ratwani, Weinger, Neil, Goldman, Mehta, Lichtscheidl"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0212",
+          "stance": "support",
+          "name": "Ascension"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0210",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0230",
+          "stance": "support",
+          "name": "Pharmacy Health Information Technology Collaborative (PHIT)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0214",
+          "stance": "oppose",
+          "name": "Ethan Larsen"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0296",
+          "stance": "support",
+          "name": "Netsmart Technologies"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0298",
+          "stance": "oppose",
+          "name": "Center for AI and Digital Policy (CAIDP)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0290",
+          "stance": "oppose",
+          "name": "Virginia Lorenzi"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0245",
+          "stance": "oppose",
+          "name": "National Association of Community Health Centers (NACHC)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0270",
+          "stance": "oppose",
+          "name": "Beth Daley Ullem"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0242",
+          "stance": "support",
+          "name": "athenahealth"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0254",
+          "stance": "support",
+          "name": "Veradigm LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0255",
+          "stance": "support",
+          "name": "MedInformatix, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0260",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0299",
+          "stance": "oppose",
+          "name": "Primary Care Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0302",
+          "stance": "support",
+          "name": "Connected Health Initiative"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0304",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        }
+      ],
+      "support_count": 22,
+      "oppose_count": 40,
+      "mixed_count": 14,
+      "total": 76
+    },
+    {
+      "id": "information_blocking",
+      "label": "Information Blocking Provisions",
+      "nprm_section": "§7",
+      "description": "Information blocking definitions, exceptions, TEFCA manner exception, and enforcement.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0003",
+          "stance": "support",
+          "name": "IRIS Health Solutions"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0005",
+          "stance": "support",
+          "name": "WENO Exchange LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0007",
+          "stance": "mixed",
+          "name": "Raymond Blair"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0013",
+          "stance": "oppose",
+          "name": "Molly Hamilton"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0025",
+          "stance": "oppose",
+          "name": "isobel thomas"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0033",
+          "stance": "oppose",
+          "name": "Bucky Slomski"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0032",
+          "stance": "oppose",
+          "name": "The Moses Firm (Atlanta, GA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0030",
+          "stance": "mixed",
+          "name": "Rohan Sharma"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0040",
+          "stance": "support",
+          "name": "Middlesex Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0041",
+          "stance": "mixed",
+          "name": "SMART Health IT, Computational Health Informatics Program"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0051",
+          "stance": "oppose",
+          "name": "George Wise"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0059",
+          "stance": "mixed",
+          "name": "Fairview Health Services"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0064",
+          "stance": "oppose",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0063",
+          "stance": "oppose",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0061",
+          "stance": "oppose",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0074",
+          "stance": "support",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0069",
+          "stance": "support",
+          "name": "Advocate Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0079",
+          "stance": "oppose",
+          "name": "American Health Care Association/National Center for Assisted Living (AHCA/NCAL)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0082",
+          "stance": "support",
+          "name": "Connecting for Better Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0096",
+          "stance": "mixed",
+          "name": "College of American Pathologists (CAP)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0104",
+          "stance": "oppose",
+          "name": "Community Health Center Association of Connecticut"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0087",
+          "stance": "mixed",
+          "name": "Family Caregiver Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0093",
+          "stance": "support",
+          "name": "Y Combinator"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0091",
+          "stance": "support",
+          "name": "Aquila Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0084",
+          "stance": "support",
+          "name": "Advanced Medical Technology Association (AdvaMed)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0098",
+          "stance": "support",
+          "name": "Massachusetts Health Data Consortium"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0122",
+          "stance": "mixed",
+          "name": "eHealth Exchange"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0138",
+          "stance": "mixed",
+          "name": "Civitas Networks for Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0140",
+          "stance": "mixed",
+          "name": "Cooperative Exchange, The National Clearinghouse Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0158",
+          "stance": "oppose",
+          "name": "American Immunization Registry Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0130",
+          "stance": "support",
+          "name": "Vega Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0142",
+          "stance": "support",
+          "name": "NextGen Healthcare"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0141",
+          "stance": "oppose",
+          "name": "AARP"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0150",
+          "stance": "support",
+          "name": "Aaron Gotwalt"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0118",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0125",
+          "stance": "mixed",
+          "name": "Radiology Partners"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0131",
+          "stance": "oppose",
+          "name": "American College of Obstetricians & Gynecologists"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0139",
+          "stance": "support",
+          "name": "Firely USA Inc"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0161",
+          "stance": "support",
+          "name": "AHIP"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0194",
+          "stance": "oppose",
+          "name": "Oregon Health & Science University (OHSU)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0177",
+          "stance": "mixed",
+          "name": "American Hospital Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0173",
+          "stance": "support",
+          "name": "Alliance for Person-Centered Care"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0198",
+          "stance": "support",
+          "name": "Zocdoc"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0192",
+          "stance": "support",
+          "name": "HIMSS Electronic Health Record Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0197",
+          "stance": "oppose",
+          "name": "American Association for Justice"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0186",
+          "stance": "support",
+          "name": "AdventHealth"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0193",
+          "stance": "support",
+          "name": "Premier Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0189",
+          "stance": "support",
+          "name": "CRISP Shared Services, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0175",
+          "stance": "support",
+          "name": "Point of Care Partners"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0170",
+          "stance": "support",
+          "name": "American Nurses Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0171",
+          "stance": "oppose",
+          "name": "American Clinical Laboratory Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0182",
+          "stance": "support",
+          "name": "MRO"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0188",
+          "stance": "oppose",
+          "name": "Manifest MedEx"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0205",
+          "stance": "mixed",
+          "name": "Vanderbilt Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0187",
+          "stance": "support",
+          "name": "Amazon"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0226",
+          "stance": "oppose",
+          "name": "Health IT End-Users Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0234",
+          "stance": "oppose",
+          "name": "Informal Provider Association Coalition"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0209",
+          "stance": "support",
+          "name": "1upHealth"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0208",
+          "stance": "support",
+          "name": "Eliel Oliveira"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0212",
+          "stance": "support",
+          "name": "Ascension"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0232",
+          "stance": "oppose",
+          "name": "Participatory Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0239",
+          "stance": "support",
+          "name": "The MetroHealth System"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0222",
+          "stance": "mixed",
+          "name": "PointClickCare"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0206",
+          "stance": "support",
+          "name": "National Association of Chain Drug Stores"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0241",
+          "stance": "support",
+          "name": "Innovaccer, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0243",
+          "stance": "support",
+          "name": "Blue Cross Blue Shield of Massachusetts"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0269",
+          "stance": "oppose",
+          "name": "Epic"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0288",
+          "stance": "support",
+          "name": "Innovaccer"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0305",
+          "stance": "support",
+          "name": "HTD Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0250",
+          "stance": "support",
+          "name": "Healthcare Leadership Council"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0260",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0299",
+          "stance": "oppose",
+          "name": "Primary Care Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0302",
+          "stance": "support",
+          "name": "Connected Health Initiative"
+        }
+      ],
+      "support_count": 36,
+      "oppose_count": 24,
+      "mixed_count": 13,
+      "total": 73
+    },
+    {
+      "id": "data_c_cda",
+      "label": "C-CDA Creation & Transmission",
+      "nprm_section": "§2(a)-(b)",
+      "description": "Consolidated CDA document creation, transition of care, and clinical information reconciliation criteria.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0002",
+          "stance": "oppose",
+          "name": "Debi Willis"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0035",
+          "stance": "support",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0047",
+          "stance": "support",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0052",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0060",
+          "stance": "support",
+          "name": "InterSystems Corporation"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0075",
+          "stance": "oppose",
+          "name": "Shift Collaborative"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0090",
+          "stance": "mixed",
+          "name": "J Michael Consulting"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0107",
+          "stance": "support",
+          "name": "American Academy of Family Physicians"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0106",
+          "stance": "oppose",
+          "name": "American Health Information Management Association (AHIMA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0103",
+          "stance": "oppose",
+          "name": "Minnesota e-Health Initiative"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0134",
+          "stance": "mixed",
+          "name": "Workgroup for Electronic Data Interchange (WEDI)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0138",
+          "stance": "mixed",
+          "name": "Civitas Networks for Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0145",
+          "stance": "support",
+          "name": "Medical Information Technology, Inc (MEDITECH)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0132",
+          "stance": "mixed",
+          "name": "AAPM&R"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0135",
+          "stance": "oppose",
+          "name": "American Medical Informatics Association (AMIA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0150",
+          "stance": "support",
+          "name": "Aaron Gotwalt"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0116",
+          "stance": "oppose",
+          "name": "LGBT Tech & The Cancer Network"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0161",
+          "stance": "support",
+          "name": "AHIP"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0168",
+          "stance": "support",
+          "name": "Healthcare Information Management and Systems Society (HIMSS)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0165",
+          "stance": "mixed",
+          "name": "UnitedHealth Group"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0177",
+          "stance": "mixed",
+          "name": "American Hospital Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0159",
+          "stance": "support",
+          "name": "Health Universe"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0184",
+          "stance": "oppose",
+          "name": "Joint Public Health Informatics Taskforce (JPHIT)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0180",
+          "stance": "oppose",
+          "name": "American Academy of Pediatrics"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0176",
+          "stance": "support",
+          "name": "American Academy of Allergy Asthma and Immunology"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0182",
+          "stance": "support",
+          "name": "MRO"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0229",
+          "stance": "mixed",
+          "name": "The Medical Group Management Association (MGMA)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0237",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0234",
+          "stance": "oppose",
+          "name": "Informal Provider Association Coalition"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0217",
+          "stance": "oppose",
+          "name": "CareQuest Institute for Oral Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0218",
+          "stance": "support",
+          "name": "The Sequoia Project"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0223",
+          "stance": "support",
+          "name": "Blue Cross Blue Shield Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0213",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0247",
+          "stance": "support",
+          "name": "Health Innovation Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0251",
+          "stance": "support",
+          "name": "iShare Medical, LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0292",
+          "stance": "support",
+          "name": "John Donnelly"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0287",
+          "stance": "oppose",
+          "name": "Contexture"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0290",
+          "stance": "oppose",
+          "name": "Virginia Lorenzi"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0281",
+          "stance": "oppose",
+          "name": "AllianceChicago"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0259",
+          "stance": "support",
+          "name": "Abridge"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0272",
+          "stance": "support",
+          "name": "Consensus Cloud Solutions"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0273",
+          "stance": "oppose",
+          "name": "Michigan Primary Care Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0254",
+          "stance": "support",
+          "name": "Veradigm LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0255",
+          "stance": "support",
+          "name": "MedInformatix, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0248",
+          "stance": "support",
+          "name": "CARIN Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0265",
+          "stance": "support",
+          "name": "Oracle Health and Life Sciences"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0294",
+          "stance": "oppose",
+          "name": "Dynamic Health IT"
+        }
+      ],
+      "support_count": 22,
+      "oppose_count": 18,
+      "mixed_count": 7,
+      "total": 47
+    },
+    {
+      "id": "uscdi_standards",
+      "label": "USCDI Data Classes & Elements",
+      "nprm_section": "§5",
+      "description": "United States Core Data for Interoperability standards, data classes, and elements.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0022",
+          "stance": "oppose",
+          "name": "Rocky Mountain Equality"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0054",
+          "stance": "oppose",
+          "name": "HLN Consulting, LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0060",
+          "stance": "support",
+          "name": "InterSystems Corporation"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0081",
+          "stance": "mixed",
+          "name": "American Medical Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0068",
+          "stance": "mixed",
+          "name": "SNOMED International"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0086",
+          "stance": "support",
+          "name": "Physical Activity Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0107",
+          "stance": "support",
+          "name": "American Academy of Family Physicians"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0087",
+          "stance": "mixed",
+          "name": "Family Caregiver Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0103",
+          "stance": "oppose",
+          "name": "Minnesota e-Health Initiative"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0097",
+          "stance": "oppose",
+          "name": "Patient ID Now"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0114",
+          "stance": "mixed",
+          "name": "American Academy of Dermatology Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0134",
+          "stance": "mixed",
+          "name": "Workgroup for Electronic Data Interchange (WEDI)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0145",
+          "stance": "support",
+          "name": "Medical Information Technology, Inc (MEDITECH)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0153",
+          "stance": "mixed",
+          "name": "Peggy Schwartz"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0117",
+          "stance": "oppose",
+          "name": "LGBT Tech"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0116",
+          "stance": "oppose",
+          "name": "LGBT Tech & The Cancer Network"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0160",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0199",
+          "stance": "oppose",
+          "name": "American Psychiatric Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0192",
+          "stance": "support",
+          "name": "HIMSS Electronic Health Record Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0166",
+          "stance": "mixed",
+          "name": "Association for Behavioral Health and Wellness"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0170",
+          "stance": "support",
+          "name": "American Nurses Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0183",
+          "stance": "support",
+          "name": "Radiological Society of North America"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0195",
+          "stance": "mixed",
+          "name": "Cleveland Clinic"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0228",
+          "stance": "support",
+          "name": "Clinical Architecture LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0225",
+          "stance": "oppose",
+          "name": "The Fenway Institute, Fenway Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0227",
+          "stance": "oppose",
+          "name": "Ibis Reproductive Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0222",
+          "stance": "mixed",
+          "name": "PointClickCare"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0223",
+          "stance": "support",
+          "name": "Blue Cross Blue Shield Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0247",
+          "stance": "support",
+          "name": "Health Innovation Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0289",
+          "stance": "support",
+          "name": "Cedar Cares, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0277",
+          "stance": "support",
+          "name": "Valleywise Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0295",
+          "stance": "support",
+          "name": "ADVION Advocates"
+        }
+      ],
+      "support_count": 13,
+      "oppose_count": 10,
+      "mixed_count": 9,
+      "total": 32
+    },
+    {
+      "id": "general_framework",
+      "label": "General Regulatory Framework Comments",
+      "nprm_section": "General",
+      "description": "General comments on the overall regulatory direction, rulemaking process, or framework.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0008",
+          "stance": "support",
+          "name": "Trilogy Innovation, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0024",
+          "stance": "mixed",
+          "name": "Veronica Richards"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0034",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0042",
+          "stance": "oppose",
+          "name": "Larry Garber"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0053",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0080",
+          "stance": "support",
+          "name": "Keith Boone"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0078",
+          "stance": "oppose",
+          "name": "Association of Public Health Laboratories"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0113",
+          "stance": "oppose",
+          "name": "Myriddian LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0109",
+          "stance": "support",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0126",
+          "stance": "oppose",
+          "name": "Megan Frantz Oldham"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0174",
+          "stance": "oppose",
+          "name": "USAging"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0178",
+          "stance": "oppose",
+          "name": "Council of State and Territorial Epidemiologists (CSTE)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0244",
+          "stance": "mixed",
+          "name": "Community Clinic Association of Los Angeles County"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0252",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0276",
+          "stance": "mixed",
+          "name": "Wolters Kluwer"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0275",
+          "stance": "mixed",
+          "name": "Digital Quality Implementers Community - Leavitt Partners"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0291",
+          "stance": "mixed",
+          "name": "Availity, L.L.C."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0306",
+          "stance": "oppose",
+          "name": "CHRISTINE VON RAESFELD"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0282",
+          "stance": "mixed",
+          "name": "Invest for Progress"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0283",
+          "stance": "mixed",
+          "name": "EMI Advisors LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0274",
+          "stance": "oppose",
+          "name": "Theresa Blanco"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0246",
+          "stance": "mixed",
+          "name": "Altera Digital Health, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0249",
+          "stance": "mixed",
+          "name": "Essentia Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0262",
+          "stance": "mixed",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0257",
+          "stance": "mixed",
+          "name": "Leavitt Partners"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0256",
+          "stance": "oppose",
+          "name": "Indiana Health Information Exchange, Inc."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0267",
+          "stance": "mixed",
+          "name": "OCHIN"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0278",
+          "stance": "support",
+          "name": "Healthcare Information Management and Systems Society (HIMSS)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0293",
+          "stance": "oppose",
+          "name": "Lihua Liu"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0279",
+          "stance": "mixed",
+          "name": "Real Time Medical Systems."
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0284",
+          "stance": "mixed",
+          "name": "Intermountain Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0263",
+          "stance": "mixed",
+          "name": "Allina Health"
+        }
+      ],
+      "support_count": 4,
+      "oppose_count": 13,
+      "mixed_count": 15,
+      "total": 32
+    },
+    {
+      "id": "clinical_cds",
+      "label": "Clinical Decision Support",
+      "nprm_section": "§1(b)",
+      "description": "CDS certification criteria including source attribution, knowledge artifact linking, and evidence-based triggers.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0030",
+          "stance": "mixed",
+          "name": "Rohan Sharma"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0036",
+          "stance": "mixed",
+          "name": "John Travis"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0059",
+          "stance": "mixed",
+          "name": "Fairview Health Services"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0112",
+          "stance": "mixed",
+          "name": "Drummond Group"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0134",
+          "stance": "mixed",
+          "name": "Workgroup for Electronic Data Interchange (WEDI)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0145",
+          "stance": "support",
+          "name": "Medical Information Technology, Inc (MEDITECH)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0154",
+          "stance": "oppose",
+          "name": "Anesthesia Patient Safety Foundation"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0147",
+          "stance": "oppose",
+          "name": "Laura Barg-Walkow"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0136",
+          "stance": "oppose",
+          "name": "Texas Medical Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0162",
+          "stance": "oppose",
+          "name": "Nicholas Rider"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0181",
+          "stance": "oppose",
+          "name": "SPEKTRUM Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0182",
+          "stance": "support",
+          "name": "MRO"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0185",
+          "stance": "oppose",
+          "name": "Joy Rivera"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0187",
+          "stance": "support",
+          "name": "Amazon"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0236",
+          "stance": "support",
+          "name": "AI Healthcare Coalition"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0219",
+          "stance": "support",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0216",
+          "stance": "oppose",
+          "name": "Caroline Morrow"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0224",
+          "stance": "oppose",
+          "name": "Reider, Fairbanks, Ratwani, Weinger, Neil, Goldman, Mehta, Lichtscheidl"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0210",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0230",
+          "stance": "support",
+          "name": "Pharmacy Health Information Technology Collaborative (PHIT)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0239",
+          "stance": "support",
+          "name": "The MetroHealth System"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0214",
+          "stance": "oppose",
+          "name": "Ethan Larsen"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0296",
+          "stance": "support",
+          "name": "Netsmart Technologies"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0245",
+          "stance": "oppose",
+          "name": "National Association of Community Health Centers (NACHC)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0270",
+          "stance": "oppose",
+          "name": "Beth Daley Ullem"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0250",
+          "stance": "support",
+          "name": "Healthcare Leadership Council"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0299",
+          "stance": "oppose",
+          "name": "Primary Care Association"
+        }
+      ],
+      "support_count": 9,
+      "oppose_count": 13,
+      "mixed_count": 5,
+      "total": 27
+    },
+    {
+      "id": "burden_cost",
+      "label": "Regulatory Burden & Cost Impact",
+      "nprm_section": "Cross-cutting",
+      "description": "Regulatory compliance costs, implementation burden, and economic impact analysis.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0007",
+          "stance": "mixed",
+          "name": "Raymond Blair"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0057",
+          "stance": "mixed",
+          "name": "Orion Health (a HEALWELL Company)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0071",
+          "stance": "oppose",
+          "name": "Lauge Sokol-Hessner"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0067",
+          "stance": "mixed",
+          "name": "Chloe Watts"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0108",
+          "stance": "oppose",
+          "name": "North American Association of Central Cancer Registries"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0095",
+          "stance": "support",
+          "name": "Oncology Nursing Society"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0091",
+          "stance": "support",
+          "name": "Aquila Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0133",
+          "stance": "oppose",
+          "name": "National Comprehensive Cancer Network"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0128",
+          "stance": "mixed",
+          "name": "College of Healthcare Information Management Executives (CHIME)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0152",
+          "stance": "oppose",
+          "name": "Valerie Yoder"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0123",
+          "stance": "oppose",
+          "name": "Texas Health Services Authority"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0184",
+          "stance": "oppose",
+          "name": "Joint Public Health Informatics Taskforce (JPHIT)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0176",
+          "stance": "support",
+          "name": "American Academy of Allergy Asthma and Immunology"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0203",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0235",
+          "stance": "support",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0207",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0266",
+          "stance": "support",
+          "name": "Physicians Advocacy Institute"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0270",
+          "stance": "oppose",
+          "name": "Beth Daley Ullem"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0254",
+          "stance": "support",
+          "name": "Veradigm LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0240",
+          "stance": "support",
+          "name": "Kno2"
+        }
+      ],
+      "support_count": 7,
+      "oppose_count": 9,
+      "mixed_count": 4,
+      "total": 20
+    },
+    {
+      "id": "health_equity",
+      "label": "Health Equity & Vulnerable Populations",
+      "nprm_section": "Cross-cutting",
+      "description": "SOGI data, health disparities, LTPAC considerations, and equitable access concerns.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0045",
+          "stance": "mixed",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0079",
+          "stance": "oppose",
+          "name": "American Health Care Association/National Center for Assisted Living (AHCA/NCAL)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0072",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0085",
+          "stance": "oppose",
+          "name": "South Carolina Primary Health Care Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0087",
+          "stance": "mixed",
+          "name": "Family Caregiver Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0088",
+          "stance": "support",
+          "name": "David Rocha"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0141",
+          "stance": "oppose",
+          "name": "AARP"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0117",
+          "stance": "oppose",
+          "name": "LGBT Tech"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0131",
+          "stance": "oppose",
+          "name": "American College of Obstetricians & Gynecologists"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0181",
+          "stance": "oppose",
+          "name": "SPEKTRUM Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0169",
+          "stance": "oppose",
+          "name": "Ohio Association of Community Health Centers"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0225",
+          "stance": "oppose",
+          "name": "The Fenway Institute, Fenway Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0227",
+          "stance": "oppose",
+          "name": "Ibis Reproductive Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0215",
+          "stance": "oppose",
+          "name": "The Light Collective"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0271",
+          "stance": "mixed",
+          "name": "Michelle Dougherty"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0301",
+          "stance": "oppose",
+          "name": "Centauri Health Solutions, Inc."
+        }
+      ],
+      "support_count": 1,
+      "oppose_count": 12,
+      "mixed_count": 3,
+      "total": 16
+    },
+    {
+      "id": "design_usability",
+      "label": "Design & Usability",
+      "nprm_section": "§4(a)-(c)",
+      "description": "Accessibility, UDI display, safety-enhanced design, and quality management system criteria.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0004",
+          "stance": "support",
+          "name": "Public Policy Resilience Institute (PPRi)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0030",
+          "stance": "mixed",
+          "name": "Rohan Sharma"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0036",
+          "stance": "mixed",
+          "name": "John Travis"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0154",
+          "stance": "oppose",
+          "name": "Anesthesia Patient Safety Foundation"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0129",
+          "stance": "oppose",
+          "name": "Qualifacts System LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0147",
+          "stance": "oppose",
+          "name": "Laura Barg-Walkow"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0136",
+          "stance": "oppose",
+          "name": "Texas Medical Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0181",
+          "stance": "oppose",
+          "name": "SPEKTRUM Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0180",
+          "stance": "oppose",
+          "name": "American Academy of Pediatrics"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0185",
+          "stance": "oppose",
+          "name": "Joy Rivera"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0224",
+          "stance": "oppose",
+          "name": "Reider, Fairbanks, Ratwani, Weinger, Neil, Goldman, Mehta, Lichtscheidl"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0210",
+          "stance": "oppose",
+          "name": "Anonymous Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0214",
+          "stance": "oppose",
+          "name": "Ethan Larsen"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0298",
+          "stance": "oppose",
+          "name": "Center for AI and Digital Policy (CAIDP)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0270",
+          "stance": "oppose",
+          "name": "Beth Daley Ullem"
+        }
+      ],
+      "support_count": 1,
+      "oppose_count": 12,
+      "mixed_count": 2,
+      "total": 15
+    },
+    {
+      "id": "conditions_maintenance",
+      "label": "Conditions & Maintenance of Certification",
+      "nprm_section": "§6",
+      "description": "Conditions of certification, real world testing, SVAP, and maintenance requirements.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0041",
+          "stance": "mixed",
+          "name": "SMART Health IT, Computational Health Informatics Program"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0054",
+          "stance": "oppose",
+          "name": "HLN Consulting, LLC"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0050",
+          "stance": "support",
+          "name": "SLI Compliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0058",
+          "stance": "oppose",
+          "name": "The Pew Charitable Trusts"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0158",
+          "stance": "oppose",
+          "name": "American Immunization Registry Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0132",
+          "stance": "mixed",
+          "name": "AAPM&R"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0118",
+          "stance": "oppose",
+          "name": "Anonymous"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0139",
+          "stance": "support",
+          "name": "Firely USA Inc"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0146",
+          "stance": "mixed",
+          "name": "National Association of ACOs (NAACOS)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0268",
+          "stance": "support",
+          "name": "Consumer Technology Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0280",
+          "stance": "oppose",
+          "name": "Patients for Patient Safety US"
+        }
+      ],
+      "support_count": 3,
+      "oppose_count": 5,
+      "mixed_count": 3,
+      "total": 11
+    },
+    {
+      "id": "data_export",
+      "label": "EHI Export & Data Portability",
+      "nprm_section": "§2(e)",
+      "description": "Electronic health information export criteria for data portability and patient access.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0041",
+          "stance": "mixed",
+          "name": "SMART Health IT, Computational Health Informatics Program"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0101",
+          "stance": "oppose",
+          "name": "Thomas Ryan"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0116",
+          "stance": "oppose",
+          "name": "LGBT Tech & The Cancer Network"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0125",
+          "stance": "mixed",
+          "name": "Radiology Partners"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0232",
+          "stance": "oppose",
+          "name": "Participatory Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0247",
+          "stance": "support",
+          "name": "Health Innovation Alliance"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0268",
+          "stance": "support",
+          "name": "Consumer Technology Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0281",
+          "stance": "oppose",
+          "name": "AllianceChicago"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0272",
+          "stance": "support",
+          "name": "Consensus Cloud Solutions"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0265",
+          "stance": "support",
+          "name": "Oracle Health and Life Sciences"
+        }
+      ],
+      "support_count": 4,
+      "oppose_count": 4,
+      "mixed_count": 2,
+      "total": 10
+    },
+    {
+      "id": "clinical_demographics",
+      "label": "Patient Demographics & Observations",
+      "nprm_section": "§1(a)",
+      "description": "Criteria for recording patient demographic data including race, ethnicity, preferred language, and sex.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0103",
+          "stance": "oppose",
+          "name": "Minnesota e-Health Initiative"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0114",
+          "stance": "mixed",
+          "name": "American Academy of Dermatology Association"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0119",
+          "stance": "oppose",
+          "name": "Trinity Health"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0134",
+          "stance": "mixed",
+          "name": "Workgroup for Electronic Data Interchange (WEDI)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0145",
+          "stance": "support",
+          "name": "Medical Information Technology, Inc (MEDITECH)"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0141",
+          "stance": "oppose",
+          "name": "AARP"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0181",
+          "stance": "oppose",
+          "name": "SPEKTRUM Health"
+        }
+      ],
+      "support_count": 1,
+      "oppose_count": 4,
+      "mixed_count": 2,
+      "total": 7
+    },
+    {
+      "id": "clinical_cpoe",
+      "label": "Computerized Provider Order Entry",
+      "nprm_section": "§1(c)",
+      "description": "CPOE criteria for medication, laboratory, and diagnostic imaging orders.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0093",
+          "stance": "support",
+          "name": "Y Combinator"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0122",
+          "stance": "mixed",
+          "name": "eHealth Exchange"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0139",
+          "stance": "support",
+          "name": "Firely USA Inc"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0159",
+          "stance": "support",
+          "name": "Health Universe"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0188",
+          "stance": "oppose",
+          "name": "Manifest MedEx"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0287",
+          "stance": "oppose",
+          "name": "Contexture"
+        }
+      ],
+      "support_count": 3,
+      "oppose_count": 2,
+      "mixed_count": 1,
+      "total": 6
+    },
+    {
+      "id": "clinical_drug_checks",
+      "label": "Drug Interaction & Allergy Checks",
+      "nprm_section": "§1(d)",
+      "description": "Drug-drug interaction checking, drug-allergy interaction checking, and clinical formulary criteria.",
+      "comments": [
+        {
+          "id": "HHS-ONC-2025-0005-0093",
+          "stance": "support",
+          "name": "Y Combinator"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0139",
+          "stance": "support",
+          "name": "Firely USA Inc"
+        },
+        {
+          "id": "HHS-ONC-2025-0005-0163",
+          "stance": "support",
+          "name": "American Pharmacists Association"
+        }
+      ],
+      "support_count": 3,
+      "oppose_count": 0,
+      "mixed_count": 0,
+      "total": 3
+    }
+  ],
+  "beyond_scope": [
+    {
+      "topic": "medicare_reimbursement",
+      "label": "Medicare/Medicaid Reimbursement",
+      "comments": [
+        "HHS-ONC-2025-0005-0005",
+        "HHS-ONC-2025-0005-0021",
+        "HHS-ONC-2025-0005-0052",
+        "HHS-ONC-2025-0005-0089",
+        "HHS-ONC-2025-0005-0088",
+        "HHS-ONC-2025-0005-0209"
+      ],
+      "count": 6
+    },
+    {
+      "topic": "cms_interoperability_rules",
+      "label": "CMS Interoperability Rules",
+      "comments": [
+        "HHS-ONC-2025-0005-0142",
+        "HHS-ONC-2025-0005-0187",
+        "HHS-ONC-2025-0005-0290"
+      ],
+      "count": 3
+    },
+    {
+      "topic": "other_beyond_scope",
+      "label": "Other Out-of-Scope Requests",
+      "comments": [
+        "HHS-ONC-2025-0005-0011",
+        "HHS-ONC-2025-0005-0167",
+        "HHS-ONC-2025-0005-0264"
+      ],
+      "count": 3
+    },
+    {
+      "topic": "state_regulations",
+      "label": "State-Level Regulatory Changes",
+      "comments": ["HHS-ONC-2025-0005-0293"],
+      "count": 1
+    },
+    {
+      "topic": "new_certification_criteria",
+      "label": "New Certification Criteria Not Proposed",
+      "comments": ["HHS-ONC-2025-0005-0150"],
+      "count": 1
+    },
+    {
+      "topic": "prior_authorization_reform",
+      "label": "Prior Authorization Reform",
+      "comments": ["HHS-ONC-2025-0005-0187"],
+      "count": 1
+    }
+  ],
+  "comment_mappings": [
+    {
+      "comment_id": "HHS-ONC-2025-0005-0002",
+      "provisions": ["data_c_cda"],
+      "stance_per_provision": {
+        "data_c_cda": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0003",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0004",
+      "provisions": ["privacy_security", "ai_governance", "design_usability"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "ai_governance": "support",
+        "design_usability": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0005",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": ["medicare_reimbursement"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0008",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0006",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0007",
+      "provisions": ["burden_cost", "information_blocking"],
+      "stance_per_provision": {
+        "burden_cost": "mixed",
+        "information_blocking": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0009",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0010",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0011",
+      "provisions": ["ai_governance"],
+      "stance_per_provision": {
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": ["other_beyond_scope"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0019",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0012",
+      "provisions": ["privacy_security", "ai_governance"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0014",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0018",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0016",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0013",
+      "provisions": [
+        "privacy_security",
+        "information_blocking",
+        "ai_governance"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "information_blocking": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0017",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0015",
+      "provisions": ["privacy_security", "ai_governance"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0020",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0024",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0021",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": ["medicare_reimbursement"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0022",
+      "provisions": ["uscdi_standards"],
+      "stance_per_provision": {
+        "uscdi_standards": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0023",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0027",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0026",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0025",
+      "provisions": [
+        "privacy_security",
+        "information_blocking",
+        "ai_governance"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "information_blocking": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0028",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0034",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0029",
+      "provisions": ["privacy_security", "ai_governance"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0033",
+      "provisions": ["privacy_security", "information_blocking"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0031",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0032",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0030",
+      "provisions": [
+        "privacy_security",
+        "information_blocking",
+        "ai_governance",
+        "clinical_cds",
+        "design_usability"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "information_blocking": "mixed",
+        "ai_governance": "mixed",
+        "clinical_cds": "mixed",
+        "design_usability": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0035",
+      "provisions": ["data_c_cda"],
+      "stance_per_provision": {
+        "data_c_cda": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0038",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0037",
+      "provisions": ["ai_governance", "data_api_access"],
+      "stance_per_provision": {
+        "ai_governance": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0036",
+      "provisions": [
+        "ai_governance",
+        "design_usability",
+        "privacy_security",
+        "clinical_cds",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "ai_governance": "mixed",
+        "design_usability": "mixed",
+        "privacy_security": "mixed",
+        "clinical_cds": "mixed",
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0040",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0043",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0042",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0044",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0045",
+      "provisions": ["health_equity", "data_api_access"],
+      "stance_per_provision": {
+        "health_equity": "mixed",
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0041",
+      "provisions": [
+        "data_api_access",
+        "information_blocking",
+        "data_export",
+        "conditions_maintenance"
+      ],
+      "stance_per_provision": {
+        "data_api_access": "mixed",
+        "information_blocking": "mixed",
+        "data_export": "mixed",
+        "conditions_maintenance": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0047",
+      "provisions": ["data_c_cda", "data_api_access"],
+      "stance_per_provision": {
+        "data_c_cda": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0046",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0051",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0048",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0053",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0054",
+      "provisions": [
+        "data_api_access",
+        "uscdi_standards",
+        "conditions_maintenance"
+      ],
+      "stance_per_provision": {
+        "data_api_access": "oppose",
+        "uscdi_standards": "oppose",
+        "conditions_maintenance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0052",
+      "provisions": ["privacy_security", "data_c_cda"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "data_c_cda": "oppose"
+      },
+      "beyond_scope_topics": ["medicare_reimbursement"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0050",
+      "provisions": ["conditions_maintenance"],
+      "stance_per_provision": {
+        "conditions_maintenance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0049",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0055",
+      "provisions": ["ai_governance"],
+      "stance_per_provision": {
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0056",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0058",
+      "provisions": ["conditions_maintenance"],
+      "stance_per_provision": {
+        "conditions_maintenance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0057",
+      "provisions": ["burden_cost", "data_api_access"],
+      "stance_per_provision": {
+        "burden_cost": "mixed",
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0059",
+      "provisions": [
+        "ai_governance",
+        "data_api_access",
+        "information_blocking",
+        "clinical_cds",
+        "privacy_security"
+      ],
+      "stance_per_provision": {
+        "ai_governance": "mixed",
+        "data_api_access": "mixed",
+        "information_blocking": "mixed",
+        "clinical_cds": "mixed",
+        "privacy_security": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0064",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0060",
+      "provisions": [
+        "privacy_security",
+        "data_c_cda",
+        "uscdi_standards",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "data_c_cda": "support",
+        "uscdi_standards": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0062",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0065",
+      "provisions": ["privacy_security", "data_api_access", "ai_governance"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "data_api_access": "support",
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0063",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0061",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0071",
+      "provisions": ["burden_cost"],
+      "stance_per_provision": {
+        "burden_cost": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0083",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0073",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0074",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0069",
+      "provisions": ["privacy_security", "information_blocking"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0080",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0079",
+      "provisions": [
+        "privacy_security",
+        "health_equity",
+        "information_blocking"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "health_equity": "oppose",
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0076",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0067",
+      "provisions": ["burden_cost"],
+      "stance_per_provision": {
+        "burden_cost": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0082",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0081",
+      "provisions": ["ai_governance", "uscdi_standards"],
+      "stance_per_provision": {
+        "ai_governance": "mixed",
+        "uscdi_standards": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0078",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0077",
+      "provisions": ["privacy_security", "ai_governance"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0075",
+      "provisions": ["privacy_security", "data_api_access", "data_c_cda"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "data_api_access": "oppose",
+        "data_c_cda": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0072",
+      "provisions": ["health_equity"],
+      "stance_per_provision": {
+        "health_equity": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0070",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0066",
+      "provisions": ["data_api_access", "ai_governance"],
+      "stance_per_provision": {
+        "data_api_access": "support",
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0068",
+      "provisions": ["uscdi_standards"],
+      "stance_per_provision": {
+        "uscdi_standards": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0089",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": ["medicare_reimbursement"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0090",
+      "provisions": ["privacy_security", "data_c_cda", "data_api_access"],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "data_c_cda": "mixed",
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0086",
+      "provisions": ["uscdi_standards"],
+      "stance_per_provision": {
+        "uscdi_standards": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0096",
+      "provisions": ["ai_governance", "information_blocking"],
+      "stance_per_provision": {
+        "ai_governance": "mixed",
+        "information_blocking": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0085",
+      "provisions": ["privacy_security", "health_equity"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "health_equity": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0105",
+      "provisions": ["ai_governance", "privacy_security"],
+      "stance_per_provision": {
+        "ai_governance": "support",
+        "privacy_security": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0107",
+      "provisions": ["data_api_access", "data_c_cda", "uscdi_standards"],
+      "stance_per_provision": {
+        "data_api_access": "support",
+        "data_c_cda": "support",
+        "uscdi_standards": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0101",
+      "provisions": ["privacy_security", "data_export", "ai_governance"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "data_export": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0102",
+      "provisions": ["privacy_security", "ai_governance"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0100",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0104",
+      "provisions": ["privacy_security", "information_blocking"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0087",
+      "provisions": [
+        "uscdi_standards",
+        "ai_governance",
+        "data_api_access",
+        "information_blocking",
+        "health_equity"
+      ],
+      "stance_per_provision": {
+        "uscdi_standards": "mixed",
+        "ai_governance": "mixed",
+        "data_api_access": "mixed",
+        "information_blocking": "mixed",
+        "health_equity": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0093",
+      "provisions": [
+        "information_blocking",
+        "clinical_cpoe",
+        "clinical_drug_checks"
+      ],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "clinical_cpoe": "support",
+        "clinical_drug_checks": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0108",
+      "provisions": ["burden_cost", "data_api_access"],
+      "stance_per_provision": {
+        "burden_cost": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0113",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0106",
+      "provisions": [
+        "privacy_security",
+        "data_c_cda",
+        "ai_governance",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "data_c_cda": "oppose",
+        "ai_governance": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0088",
+      "provisions": ["data_api_access", "health_equity"],
+      "stance_per_provision": {
+        "data_api_access": "support",
+        "health_equity": "support"
+      },
+      "beyond_scope_topics": ["medicare_reimbursement"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0095",
+      "provisions": ["burden_cost"],
+      "stance_per_provision": {
+        "burden_cost": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0099",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0112",
+      "provisions": [
+        "data_api_access",
+        "privacy_security",
+        "ai_governance",
+        "clinical_cds"
+      ],
+      "stance_per_provision": {
+        "data_api_access": "mixed",
+        "privacy_security": "mixed",
+        "ai_governance": "mixed",
+        "clinical_cds": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0094",
+      "provisions": ["ai_governance"],
+      "stance_per_provision": {
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0091",
+      "provisions": ["burden_cost", "information_blocking", "ai_governance"],
+      "stance_per_provision": {
+        "burden_cost": "support",
+        "information_blocking": "support",
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0084",
+      "provisions": ["data_api_access", "information_blocking"],
+      "stance_per_provision": {
+        "data_api_access": "support",
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0092",
+      "provisions": ["ai_governance"],
+      "stance_per_provision": {
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0109",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0111",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0103",
+      "provisions": [
+        "privacy_security",
+        "ai_governance",
+        "uscdi_standards",
+        "data_c_cda",
+        "clinical_demographics"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "uscdi_standards": "oppose",
+        "data_c_cda": "oppose",
+        "clinical_demographics": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0098",
+      "provisions": ["privacy_security", "information_blocking"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0097",
+      "provisions": ["privacy_security", "uscdi_standards"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "uscdi_standards": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0133",
+      "provisions": ["burden_cost", "data_api_access"],
+      "stance_per_provision": {
+        "burden_cost": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0127",
+      "provisions": ["ai_governance"],
+      "stance_per_provision": {
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0122",
+      "provisions": ["information_blocking", "clinical_cpoe"],
+      "stance_per_provision": {
+        "information_blocking": "mixed",
+        "clinical_cpoe": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0114",
+      "provisions": [
+        "ai_governance",
+        "clinical_demographics",
+        "uscdi_standards"
+      ],
+      "stance_per_provision": {
+        "ai_governance": "mixed",
+        "clinical_demographics": "mixed",
+        "uscdi_standards": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0119",
+      "provisions": ["privacy_security", "clinical_demographics"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "clinical_demographics": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0120",
+      "provisions": ["ai_governance"],
+      "stance_per_provision": {
+        "ai_governance": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0134",
+      "provisions": [
+        "privacy_security",
+        "clinical_demographics",
+        "data_c_cda",
+        "clinical_cds",
+        "uscdi_standards"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "clinical_demographics": "mixed",
+        "data_c_cda": "mixed",
+        "clinical_cds": "mixed",
+        "uscdi_standards": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0128",
+      "provisions": ["burden_cost", "privacy_security"],
+      "stance_per_provision": {
+        "burden_cost": "mixed",
+        "privacy_security": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0138",
+      "provisions": ["data_api_access", "data_c_cda", "information_blocking"],
+      "stance_per_provision": {
+        "data_api_access": "mixed",
+        "data_c_cda": "mixed",
+        "information_blocking": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0152",
+      "provisions": ["burden_cost", "data_api_access"],
+      "stance_per_provision": {
+        "burden_cost": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0145",
+      "provisions": [
+        "clinical_demographics",
+        "privacy_security",
+        "uscdi_standards",
+        "data_c_cda",
+        "clinical_cds",
+        "ai_governance"
+      ],
+      "stance_per_provision": {
+        "clinical_demographics": "support",
+        "privacy_security": "support",
+        "uscdi_standards": "support",
+        "data_c_cda": "support",
+        "clinical_cds": "support",
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0157",
+      "provisions": ["ai_governance"],
+      "stance_per_provision": {
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0151",
+      "provisions": ["privacy_security", "data_api_access"],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0137",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0140",
+      "provisions": ["privacy_security", "information_blocking"],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "information_blocking": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0144",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0153",
+      "provisions": ["privacy_security", "uscdi_standards"],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "uscdi_standards": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0158",
+      "provisions": [
+        "privacy_security",
+        "information_blocking",
+        "conditions_maintenance",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "information_blocking": "oppose",
+        "conditions_maintenance": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0154",
+      "provisions": [
+        "privacy_security",
+        "ai_governance",
+        "clinical_cds",
+        "design_usability"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "clinical_cds": "oppose",
+        "design_usability": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0130",
+      "provisions": [
+        "data_api_access",
+        "information_blocking",
+        "ai_governance"
+      ],
+      "stance_per_provision": {
+        "data_api_access": "support",
+        "information_blocking": "support",
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0129",
+      "provisions": ["privacy_security", "design_usability"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "design_usability": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0142",
+      "provisions": ["privacy_security", "information_blocking"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": ["cms_interoperability_rules"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0132",
+      "provisions": ["ai_governance", "conditions_maintenance", "data_c_cda"],
+      "stance_per_provision": {
+        "ai_governance": "mixed",
+        "conditions_maintenance": "mixed",
+        "data_c_cda": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0135",
+      "provisions": ["ai_governance", "data_api_access", "data_c_cda"],
+      "stance_per_provision": {
+        "ai_governance": "oppose",
+        "data_api_access": "oppose",
+        "data_c_cda": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0147",
+      "provisions": [
+        "privacy_security",
+        "ai_governance",
+        "clinical_cds",
+        "design_usability"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "clinical_cds": "oppose",
+        "design_usability": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0141",
+      "provisions": [
+        "privacy_security",
+        "clinical_demographics",
+        "information_blocking",
+        "ai_governance",
+        "health_equity"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "clinical_demographics": "oppose",
+        "information_blocking": "oppose",
+        "ai_governance": "oppose",
+        "health_equity": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0115",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0136",
+      "provisions": ["clinical_cds", "design_usability", "ai_governance"],
+      "stance_per_provision": {
+        "clinical_cds": "oppose",
+        "design_usability": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0150",
+      "provisions": ["information_blocking", "data_api_access", "data_c_cda"],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "data_api_access": "support",
+        "data_c_cda": "support"
+      },
+      "beyond_scope_topics": ["new_certification_criteria"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0117",
+      "provisions": ["uscdi_standards", "health_equity"],
+      "stance_per_provision": {
+        "uscdi_standards": "oppose",
+        "health_equity": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0118",
+      "provisions": [
+        "data_api_access",
+        "privacy_security",
+        "information_blocking",
+        "conditions_maintenance"
+      ],
+      "stance_per_provision": {
+        "data_api_access": "oppose",
+        "privacy_security": "oppose",
+        "information_blocking": "oppose",
+        "conditions_maintenance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0121",
+      "provisions": ["privacy_security", "ai_governance"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0123",
+      "provisions": ["burden_cost"],
+      "stance_per_provision": {
+        "burden_cost": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0116",
+      "provisions": [
+        "data_c_cda",
+        "privacy_security",
+        "data_export",
+        "uscdi_standards"
+      ],
+      "stance_per_provision": {
+        "data_c_cda": "oppose",
+        "privacy_security": "oppose",
+        "data_export": "oppose",
+        "uscdi_standards": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0124",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0125",
+      "provisions": ["data_api_access", "information_blocking", "data_export"],
+      "stance_per_provision": {
+        "data_api_access": "mixed",
+        "information_blocking": "mixed",
+        "data_export": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0131",
+      "provisions": ["information_blocking", "health_equity"],
+      "stance_per_provision": {
+        "information_blocking": "oppose",
+        "health_equity": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0126",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0148",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0139",
+      "provisions": [
+        "information_blocking",
+        "conditions_maintenance",
+        "clinical_cpoe",
+        "clinical_drug_checks",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "conditions_maintenance": "support",
+        "clinical_cpoe": "support",
+        "clinical_drug_checks": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0146",
+      "provisions": ["conditions_maintenance", "ai_governance"],
+      "stance_per_provision": {
+        "conditions_maintenance": "mixed",
+        "ai_governance": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0156",
+      "provisions": ["privacy_security", "ai_governance", "data_api_access"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "ai_governance": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0143",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0149",
+      "provisions": ["privacy_security", "data_api_access"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0162",
+      "provisions": ["privacy_security", "clinical_cds"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "clinical_cds": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0160",
+      "provisions": ["uscdi_standards"],
+      "stance_per_provision": {
+        "uscdi_standards": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0167",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": ["other_beyond_scope"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0163",
+      "provisions": ["privacy_security", "clinical_drug_checks"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "clinical_drug_checks": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0161",
+      "provisions": [
+        "data_api_access",
+        "privacy_security",
+        "information_blocking",
+        "data_c_cda"
+      ],
+      "stance_per_provision": {
+        "data_api_access": "support",
+        "privacy_security": "support",
+        "information_blocking": "support",
+        "data_c_cda": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0168",
+      "provisions": ["data_c_cda", "data_api_access"],
+      "stance_per_provision": {
+        "data_c_cda": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0165",
+      "provisions": ["data_c_cda", "data_api_access"],
+      "stance_per_provision": {
+        "data_c_cda": "mixed",
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0181",
+      "provisions": [
+        "privacy_security",
+        "ai_governance",
+        "health_equity",
+        "design_usability",
+        "clinical_cds",
+        "clinical_demographics"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "health_equity": "oppose",
+        "design_usability": "oppose",
+        "clinical_cds": "oppose",
+        "clinical_demographics": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0179",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0194",
+      "provisions": [
+        "privacy_security",
+        "information_blocking",
+        "ai_governance"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "information_blocking": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0177",
+      "provisions": [
+        "privacy_security",
+        "data_c_cda",
+        "information_blocking",
+        "ai_governance",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "data_c_cda": "mixed",
+        "information_blocking": "mixed",
+        "ai_governance": "mixed",
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0169",
+      "provisions": ["privacy_security", "health_equity"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "health_equity": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0173",
+      "provisions": ["information_blocking", "data_api_access"],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0199",
+      "provisions": ["privacy_security", "ai_governance", "uscdi_standards"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "uscdi_standards": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0201",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0198",
+      "provisions": ["information_blocking", "data_api_access"],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0192",
+      "provisions": ["uscdi_standards", "information_blocking"],
+      "stance_per_provision": {
+        "uscdi_standards": "support",
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0191",
+      "provisions": ["privacy_security", "ai_governance", "data_api_access"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0197",
+      "provisions": ["privacy_security", "information_blocking"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0186",
+      "provisions": ["privacy_security", "information_blocking"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0193",
+      "provisions": [
+        "information_blocking",
+        "privacy_security",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "privacy_security": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0159",
+      "provisions": [
+        "ai_governance",
+        "data_api_access",
+        "data_c_cda",
+        "clinical_cpoe"
+      ],
+      "stance_per_provision": {
+        "ai_governance": "support",
+        "data_api_access": "support",
+        "data_c_cda": "support",
+        "clinical_cpoe": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0189",
+      "provisions": ["information_blocking", "privacy_security"],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "privacy_security": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0166",
+      "provisions": ["privacy_security", "uscdi_standards", "ai_governance"],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "uscdi_standards": "mixed",
+        "ai_governance": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0204",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0184",
+      "provisions": ["burden_cost", "data_c_cda", "data_api_access"],
+      "stance_per_provision": {
+        "burden_cost": "oppose",
+        "data_c_cda": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0202",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0175",
+      "provisions": [
+        "data_api_access",
+        "information_blocking",
+        "privacy_security"
+      ],
+      "stance_per_provision": {
+        "data_api_access": "support",
+        "information_blocking": "support",
+        "privacy_security": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0170",
+      "provisions": [
+        "privacy_security",
+        "uscdi_standards",
+        "information_blocking",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "uscdi_standards": "support",
+        "information_blocking": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0180",
+      "provisions": ["data_c_cda", "design_usability", "ai_governance"],
+      "stance_per_provision": {
+        "data_c_cda": "oppose",
+        "design_usability": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0171",
+      "provisions": ["information_blocking", "data_api_access"],
+      "stance_per_provision": {
+        "information_blocking": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0172",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0176",
+      "provisions": ["burden_cost", "data_api_access", "data_c_cda"],
+      "stance_per_provision": {
+        "burden_cost": "support",
+        "data_api_access": "support",
+        "data_c_cda": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0174",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0178",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0182",
+      "provisions": [
+        "privacy_security",
+        "data_api_access",
+        "data_c_cda",
+        "clinical_cds",
+        "information_blocking"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "data_api_access": "support",
+        "data_c_cda": "support",
+        "clinical_cds": "support",
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0183",
+      "provisions": ["ai_governance", "data_api_access", "uscdi_standards"],
+      "stance_per_provision": {
+        "ai_governance": "support",
+        "data_api_access": "support",
+        "uscdi_standards": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0185",
+      "provisions": [
+        "privacy_security",
+        "clinical_cds",
+        "ai_governance",
+        "design_usability"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "clinical_cds": "oppose",
+        "ai_governance": "oppose",
+        "design_usability": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0190",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0200",
+      "provisions": ["ai_governance"],
+      "stance_per_provision": {
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0188",
+      "provisions": ["information_blocking", "clinical_cpoe"],
+      "stance_per_provision": {
+        "information_blocking": "oppose",
+        "clinical_cpoe": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0196",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0205",
+      "provisions": [
+        "privacy_security",
+        "data_api_access",
+        "information_blocking"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "data_api_access": "mixed",
+        "information_blocking": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0187",
+      "provisions": [
+        "privacy_security",
+        "ai_governance",
+        "data_api_access",
+        "information_blocking",
+        "clinical_cds"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "ai_governance": "support",
+        "data_api_access": "support",
+        "information_blocking": "support",
+        "clinical_cds": "support"
+      },
+      "beyond_scope_topics": [
+        "cms_interoperability_rules",
+        "prior_authorization_reform"
+      ]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0203",
+      "provisions": ["burden_cost", "data_api_access"],
+      "stance_per_provision": {
+        "burden_cost": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0195",
+      "provisions": [
+        "privacy_security",
+        "uscdi_standards",
+        "ai_governance",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "uscdi_standards": "mixed",
+        "ai_governance": "mixed",
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0229",
+      "provisions": ["data_c_cda"],
+      "stance_per_provision": {
+        "data_c_cda": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0211",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0237",
+      "provisions": ["data_c_cda"],
+      "stance_per_provision": {
+        "data_c_cda": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0226",
+      "provisions": ["ai_governance", "information_blocking"],
+      "stance_per_provision": {
+        "ai_governance": "oppose",
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0236",
+      "provisions": ["ai_governance", "clinical_cds"],
+      "stance_per_provision": {
+        "ai_governance": "support",
+        "clinical_cds": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0220",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0234",
+      "provisions": ["privacy_security", "data_c_cda", "information_blocking"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "data_c_cda": "oppose",
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0217",
+      "provisions": ["ai_governance", "data_c_cda", "data_api_access"],
+      "stance_per_provision": {
+        "ai_governance": "oppose",
+        "data_c_cda": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0209",
+      "provisions": [
+        "information_blocking",
+        "privacy_security",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "privacy_security": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": ["medicare_reimbursement"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0219",
+      "provisions": ["clinical_cds"],
+      "stance_per_provision": {
+        "clinical_cds": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0216",
+      "provisions": ["privacy_security", "ai_governance", "clinical_cds"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "clinical_cds": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0235",
+      "provisions": ["burden_cost"],
+      "stance_per_provision": {
+        "burden_cost": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0228",
+      "provisions": ["uscdi_standards"],
+      "stance_per_provision": {
+        "uscdi_standards": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0224",
+      "provisions": [
+        "privacy_security",
+        "ai_governance",
+        "design_usability",
+        "clinical_cds"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "design_usability": "oppose",
+        "clinical_cds": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0231",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0208",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0212",
+      "provisions": [
+        "privacy_security",
+        "information_blocking",
+        "ai_governance",
+        "data_api_access"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "information_blocking": "support",
+        "ai_governance": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0210",
+      "provisions": [
+        "privacy_security",
+        "ai_governance",
+        "clinical_cds",
+        "design_usability"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "clinical_cds": "oppose",
+        "design_usability": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0232",
+      "provisions": ["data_export", "information_blocking"],
+      "stance_per_provision": {
+        "data_export": "oppose",
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0225",
+      "provisions": ["uscdi_standards", "health_equity"],
+      "stance_per_provision": {
+        "uscdi_standards": "oppose",
+        "health_equity": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0227",
+      "provisions": ["health_equity", "uscdi_standards"],
+      "stance_per_provision": {
+        "health_equity": "oppose",
+        "uscdi_standards": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0238",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0230",
+      "provisions": ["ai_governance", "clinical_cds"],
+      "stance_per_provision": {
+        "ai_governance": "support",
+        "clinical_cds": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0239",
+      "provisions": ["information_blocking", "clinical_cds"],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "clinical_cds": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0214",
+      "provisions": [
+        "privacy_security",
+        "ai_governance",
+        "clinical_cds",
+        "design_usability"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "clinical_cds": "oppose",
+        "design_usability": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0218",
+      "provisions": ["privacy_security", "data_c_cda"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "data_c_cda": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0215",
+      "provisions": ["privacy_security", "health_equity"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "health_equity": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0222",
+      "provisions": [
+        "privacy_security",
+        "data_api_access",
+        "information_blocking",
+        "uscdi_standards"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "mixed",
+        "data_api_access": "mixed",
+        "information_blocking": "mixed",
+        "uscdi_standards": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0223",
+      "provisions": ["data_c_cda", "data_api_access", "uscdi_standards"],
+      "stance_per_provision": {
+        "data_c_cda": "support",
+        "data_api_access": "support",
+        "uscdi_standards": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0207",
+      "provisions": ["burden_cost", "data_api_access"],
+      "stance_per_provision": {
+        "burden_cost": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0206",
+      "provisions": ["information_blocking", "data_api_access"],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0213",
+      "provisions": ["data_c_cda"],
+      "stance_per_provision": {
+        "data_c_cda": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0241",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0243",
+      "provisions": ["information_blocking", "privacy_security"],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "privacy_security": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0244",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0247",
+      "provisions": [
+        "uscdi_standards",
+        "privacy_security",
+        "data_c_cda",
+        "data_export"
+      ],
+      "stance_per_provision": {
+        "uscdi_standards": "support",
+        "privacy_security": "support",
+        "data_c_cda": "support",
+        "data_export": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0252",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0251",
+      "provisions": ["data_c_cda", "data_api_access"],
+      "stance_per_provision": {
+        "data_c_cda": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0268",
+      "provisions": ["data_export", "conditions_maintenance"],
+      "stance_per_provision": {
+        "data_export": "support",
+        "conditions_maintenance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0269",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0276",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0285",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0275",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0292",
+      "provisions": ["data_c_cda"],
+      "stance_per_provision": {
+        "data_c_cda": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0288",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0287",
+      "provisions": ["data_c_cda", "clinical_cpoe"],
+      "stance_per_provision": {
+        "data_c_cda": "oppose",
+        "clinical_cpoe": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0291",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0296",
+      "provisions": ["ai_governance", "clinical_cds"],
+      "stance_per_provision": {
+        "ai_governance": "support",
+        "clinical_cds": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0298",
+      "provisions": ["privacy_security", "ai_governance", "design_usability"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "design_usability": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0306",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0289",
+      "provisions": ["uscdi_standards", "data_api_access"],
+      "stance_per_provision": {
+        "uscdi_standards": "support",
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0300",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0290",
+      "provisions": ["privacy_security", "ai_governance", "data_c_cda"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "data_c_cda": "oppose"
+      },
+      "beyond_scope_topics": ["cms_interoperability_rules"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0297",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0282",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0305",
+      "provisions": ["information_blocking"],
+      "stance_per_provision": {
+        "information_blocking": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0280",
+      "provisions": ["privacy_security", "conditions_maintenance"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "conditions_maintenance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0283",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0281",
+      "provisions": ["privacy_security", "data_c_cda", "data_export"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "data_c_cda": "oppose",
+        "data_export": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0274",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0246",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0245",
+      "provisions": ["privacy_security", "ai_governance", "clinical_cds"],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "clinical_cds": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0249",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0261",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0259",
+      "provisions": ["data_c_cda"],
+      "stance_per_provision": {
+        "data_c_cda": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0262",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0257",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0256",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0258",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0266",
+      "provisions": ["burden_cost"],
+      "stance_per_provision": {
+        "burden_cost": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0270",
+      "provisions": [
+        "burden_cost",
+        "privacy_security",
+        "ai_governance",
+        "design_usability",
+        "clinical_cds"
+      ],
+      "stance_per_provision": {
+        "burden_cost": "oppose",
+        "privacy_security": "oppose",
+        "ai_governance": "oppose",
+        "design_usability": "oppose",
+        "clinical_cds": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0272",
+      "provisions": ["privacy_security", "data_c_cda", "data_export"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "data_c_cda": "support",
+        "data_export": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0273",
+      "provisions": ["data_c_cda", "privacy_security"],
+      "stance_per_provision": {
+        "data_c_cda": "oppose",
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0242",
+      "provisions": ["ai_governance"],
+      "stance_per_provision": {
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0254",
+      "provisions": ["burden_cost", "data_c_cda", "ai_governance"],
+      "stance_per_provision": {
+        "burden_cost": "support",
+        "data_c_cda": "support",
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0253",
+      "provisions": ["privacy_security"],
+      "stance_per_provision": {
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0255",
+      "provisions": ["data_c_cda", "ai_governance"],
+      "stance_per_provision": {
+        "data_c_cda": "support",
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0250",
+      "provisions": ["information_blocking", "clinical_cds"],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "clinical_cds": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0248",
+      "provisions": ["data_c_cda"],
+      "stance_per_provision": {
+        "data_c_cda": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0240",
+      "provisions": ["burden_cost"],
+      "stance_per_provision": {
+        "burden_cost": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0265",
+      "provisions": ["privacy_security", "data_c_cda", "data_export"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "data_c_cda": "support",
+        "data_export": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0264",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "support"
+      },
+      "beyond_scope_topics": ["other_beyond_scope"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0267",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0286",
+      "provisions": ["data_api_access"],
+      "stance_per_provision": {
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0277",
+      "provisions": ["uscdi_standards"],
+      "stance_per_provision": {
+        "uscdi_standards": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0271",
+      "provisions": ["health_equity"],
+      "stance_per_provision": {
+        "health_equity": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0278",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0294",
+      "provisions": ["data_c_cda", "data_api_access"],
+      "stance_per_provision": {
+        "data_c_cda": "oppose",
+        "data_api_access": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0295",
+      "provisions": ["privacy_security", "uscdi_standards"],
+      "stance_per_provision": {
+        "privacy_security": "support",
+        "uscdi_standards": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0293",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "oppose"
+      },
+      "beyond_scope_topics": ["state_regulations"]
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0279",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0284",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0260",
+      "provisions": [
+        "privacy_security",
+        "information_blocking",
+        "ai_governance"
+      ],
+      "stance_per_provision": {
+        "privacy_security": "oppose",
+        "information_blocking": "oppose",
+        "ai_governance": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0263",
+      "provisions": ["general_framework"],
+      "stance_per_provision": {
+        "general_framework": "mixed"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0299",
+      "provisions": [
+        "ai_governance",
+        "privacy_security",
+        "information_blocking",
+        "clinical_cds"
+      ],
+      "stance_per_provision": {
+        "ai_governance": "oppose",
+        "privacy_security": "oppose",
+        "information_blocking": "oppose",
+        "clinical_cds": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0301",
+      "provisions": ["health_equity"],
+      "stance_per_provision": {
+        "health_equity": "oppose"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0302",
+      "provisions": ["information_blocking", "ai_governance"],
+      "stance_per_provision": {
+        "information_blocking": "support",
+        "ai_governance": "support"
+      },
+      "beyond_scope_topics": []
+    },
+    {
+      "comment_id": "HHS-ONC-2025-0005-0304",
+      "provisions": ["ai_governance", "privacy_security"],
+      "stance_per_provision": {
+        "ai_governance": "oppose",
+        "privacy_security": "oppose"
+      },
+      "beyond_scope_topics": []
+    }
+  ],
+  "unmapped_count": 0
+}

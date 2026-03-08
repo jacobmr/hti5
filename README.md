@@ -33,6 +33,7 @@ Machine-readable JSON files produced by the analysis. See [`data/README.md`](dat
 | [`stats.json`](data/stats.json)                             | Aggregate statistics (position distribution, stakeholder breakdown) |
 | [`coordination_groups.json`](data/coordination_groups.json) | Organized advocacy campaigns detected via pattern analysis          |
 | [`duplicates.json`](data/duplicates.json)                   | 7 duplicate submissions removed from analysis                       |
+| [`nprm_provisions.json`](data/nprm_provisions.json)         | 298 comments mapped to 16 NPRM provision groups with stance         |
 
 ### [`raw-data/`](raw-data/) — Original Comment Text
 
@@ -81,6 +82,13 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and technical detai
 ## Analysis Updates
 
 This analysis has evolved as the dataset and methodology improved:
+
+**v1.5** — _NPRM Provisions Analysis_ (March 8, 2026)
+
+- New Provisions page organizing all 298 comments by the 16 NPRM provision groups they address (derived from Table 1 of the proposed rule).
+- Each provision shows support/oppose/mixed breakdown with expandable comment lists.
+- Beyond-scope detection identifies comments raising topics outside the rule's logical outgrowth (Medicare reimbursement, state regulations, etc.).
+- Privacy & Security was the most-discussed provision (134 comments, 65% opposing).
 
 **v1.4** — _Attachment Text Extraction_ (March 7, 2026)
 

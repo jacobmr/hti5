@@ -126,19 +126,26 @@ export default function Home() {
       </div>
 
       {/* Version update */}
-      <div className="mb-8 flex items-center gap-3 text-sm text-muted-foreground">
-        <span className="font-mono text-xs bg-muted/60 px-2 py-0.5 rounded border border-border">
-          v1.4
+      <div className="mb-8 flex items-center gap-3 rounded-md border border-primary/20 bg-primary/5 px-4 py-3 text-sm text-foreground">
+        <span className="font-mono text-xs font-semibold bg-primary/15 text-primary px-2 py-0.5 rounded border border-primary/30">
+          v1.5
         </span>
         <span>
-          31 attachment-only comments now fully analyzed.{" "}
+          New{" "}
+          <Link
+            href="/provisions"
+            className="font-medium text-primary underline underline-offset-2 hover:opacity-80"
+          >
+            NPRM Provisions page
+          </Link>{" "}
+          — comments organized by the 16 rule sections they address.{" "}
           <a
             href="https://github.com/jacobmr/hti5#analysis-updates"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-primary underline underline-offset-2 hover:opacity-80"
+            className="font-medium text-primary underline underline-offset-2 hover:opacity-80"
           >
-            What changed
+            What changed →
           </a>
         </span>
       </div>
@@ -311,12 +318,18 @@ export default function Home() {
             This split reveals competing interests: clinicians prioritize
             safety; vendors prioritize burden reduction.
           </p>
-          <div className="mt-4 flex gap-3">
+          <div className="mt-4 flex flex-wrap gap-3">
             <Link
               href="/themes"
               className="text-sm text-primary underline underline-offset-2 hover:opacity-80"
             >
               Explore themes →
+            </Link>
+            <Link
+              href="/provisions"
+              className="text-sm text-primary underline underline-offset-2 hover:opacity-80"
+            >
+              By NPRM section →
             </Link>
             <Link
               href="/recommendations"
