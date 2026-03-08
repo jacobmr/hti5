@@ -4,6 +4,7 @@
  * Shows support/opposition per provision and flags beyond-scope asks.
  */
 import { useState, useMemo } from "react";
+import { Link } from "wouter";
 import {
   ChevronDown,
   ChevronUp,
@@ -11,8 +12,10 @@ import {
   XCircle,
   CircleDot,
   AlertTriangle,
+  ExternalLink,
 } from "lucide-react";
 import provisionsData from "@data/nprm_provisions.json";
+import commentsData from "@data/comments.json";
 import { POSITION_LABELS, POSITION_COLORS } from "@shared/const";
 
 type ProvisionComment = {
@@ -21,8 +24,18 @@ type ProvisionComment = {
   name: string;
 };
 
+type CommentData = (typeof commentsData)[0];
+
 type Provision = (typeof provisionsData.provisions)[0];
 type BeyondScope = (typeof provisionsData.beyond_scope)[0];
+
+// Build comment lookup for excerpts and metadata
+const commentLookup = new Map<string, CommentData>();
+for (const c of commentsData) {
+  commentLookup.set(c.id, c as CommentData);
+}
+
+const INITIAL_SHOW = 8;
 
 function StanceIcon({ stance }: { stance: string }) {
   switch (stance) {
@@ -102,8 +115,56 @@ function StanceBar({
   );
 }
 
+function CommentRow({ comment }: { comment: ProvisionComment }) {
+  const data = commentLookup.get(comment.id);
+  const summary = data?.summary || "";
+  const truncated =
+    summary.length > 140 ? summary.substring(0, 140) + "…" : summary;
+
+  return (
+    <div className="py-2 border-b border-border/50 last:border-0">
+      <div className="flex items-start gap-2">
+        <StanceIcon stance={comment.stance} />
+        <div className="flex-1 min-w-0">
+          <div className="flex items-baseline gap-2 flex-wrap">
+            <Link
+              href={`/comments?comment=${comment.id}`}
+              className="font-medium text-sm text-foreground hover:text-primary transition-colors"
+            >
+              {comment.name}
+            </Link>
+            <span className="comment-id">{comment.id.split("-").pop()}</span>
+            {data?.url && (
+              <a
+                href={data.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground/50 hover:text-muted-foreground transition-colors"
+                title="View on regulations.gov"
+              >
+                <ExternalLink size={11} />
+              </a>
+            )}
+          </div>
+          {truncated && (
+            <p className="text-xs text-muted-foreground mt-0.5 leading-relaxed">
+              {truncated}
+            </p>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function ProvisionCard({ provision }: { provision: Provision }) {
   const [expanded, setExpanded] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+
+  const comments = provision.comments as ProvisionComment[];
+  const visibleComments =
+    expanded && !showAll ? comments.slice(0, INITIAL_SHOW) : comments;
+  const hasMore = comments.length > INITIAL_SHOW;
 
   return (
     <div className="border border-border bg-card">
@@ -135,7 +196,10 @@ function ProvisionCard({ provision }: { provision: Provision }) {
 
         {provision.total > 0 && (
           <button
-            onClick={() => setExpanded(!expanded)}
+            onClick={() => {
+              setExpanded(!expanded);
+              if (expanded) setShowAll(false);
+            }}
             className="mt-4 flex items-center gap-1 text-xs text-primary hover:opacity-80"
           >
             {expanded ? <ChevronUp size={13} /> : <ChevronDown size={13} />}
@@ -145,28 +209,29 @@ function ProvisionCard({ provision }: { provision: Provision }) {
       </div>
 
       {expanded && (
-        <div className="border-t border-border px-6 py-4 bg-muted/30 max-h-96 overflow-y-auto">
-          <div className="space-y-1.5">
-            {(provision.comments as ProvisionComment[]).map(comment => (
-              <div
-                key={comment.id}
-                className="flex items-center gap-2 text-sm py-1"
-              >
-                <StanceIcon stance={comment.stance} />
-                <a
-                  href={`https://www.regulations.gov/comment/${comment.id}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-mono text-xs text-primary hover:underline flex-shrink-0"
-                >
-                  {comment.id.split("-").pop()}
-                </a>
-                <span className="text-foreground/80 truncate">
-                  {comment.name}
-                </span>
-              </div>
+        <div className="border-t border-border px-6 py-4 bg-muted/30">
+          <div>
+            {visibleComments.map(comment => (
+              <CommentRow key={comment.id} comment={comment} />
             ))}
           </div>
+          {hasMore && !showAll && (
+            <button
+              onClick={() => setShowAll(true)}
+              className="mt-3 text-xs text-primary hover:opacity-80"
+            >
+              Show all {comments.length} comments (
+              {comments.length - INITIAL_SHOW} more)
+            </button>
+          )}
+          {hasMore && showAll && (
+            <button
+              onClick={() => setShowAll(false)}
+              className="mt-3 text-xs text-primary hover:opacity-80"
+            >
+              Show fewer
+            </button>
+          )}
         </div>
       )}
     </div>
@@ -175,6 +240,12 @@ function ProvisionCard({ provision }: { provision: Provision }) {
 
 function BeyondScopeCard({ topic }: { topic: BeyondScope }) {
   const [expanded, setExpanded] = useState(false);
+  const [showAll, setShowAll] = useState(false);
+
+  const comments = topic.comments as string[];
+  const visibleComments =
+    expanded && !showAll ? comments.slice(0, INITIAL_SHOW) : comments;
+  const hasMore = comments.length > INITIAL_SHOW;
 
   return (
     <div className="border border-amber-500/30 bg-card">
@@ -191,7 +262,10 @@ function BeyondScopeCard({ topic }: { topic: BeyondScope }) {
 
         {topic.count > 0 && (
           <button
-            onClick={() => setExpanded(!expanded)}
+            onClick={() => {
+              setExpanded(!expanded);
+              if (expanded) setShowAll(false);
+            }}
             className="mt-3 flex items-center gap-1 text-xs text-primary hover:opacity-80"
           >
             {expanded ? <ChevronUp size={13} /> : <ChevronDown size={13} />}
@@ -202,20 +276,77 @@ function BeyondScopeCard({ topic }: { topic: BeyondScope }) {
 
       {expanded && (
         <div className="border-t border-amber-500/20 px-5 py-3 bg-amber-50/5">
-          <div className="space-y-1">
-            {topic.comments.map((id: string) => (
-              <div key={id} className="text-sm py-0.5">
-                <a
-                  href={`https://www.regulations.gov/comment/${id}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-mono text-xs text-primary hover:underline"
+          <div>
+            {visibleComments.map((id: string) => {
+              const data = commentLookup.get(id);
+              const name = data?.commenter || id;
+              const summary = data?.summary || "";
+              const truncated =
+                summary.length > 140
+                  ? summary.substring(0, 140) + "…"
+                  : summary;
+
+              return (
+                <div
+                  key={id}
+                  className="py-2 border-b border-border/50 last:border-0"
                 >
-                  {id.split("-").pop()}
-                </a>
-              </div>
-            ))}
+                  <div className="flex items-start gap-2">
+                    <AlertTriangle
+                      size={14}
+                      className="text-amber-500 flex-shrink-0 mt-0.5"
+                    />
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-baseline gap-2 flex-wrap">
+                        <Link
+                          href={`/comments?comment=${id}`}
+                          className="font-medium text-sm text-foreground hover:text-primary transition-colors"
+                        >
+                          {name}
+                        </Link>
+                        <span className="comment-id">
+                          {id.split("-").pop()}
+                        </span>
+                        {data?.url && (
+                          <a
+                            href={data.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-muted-foreground/50 hover:text-muted-foreground transition-colors"
+                            title="View on regulations.gov"
+                          >
+                            <ExternalLink size={11} />
+                          </a>
+                        )}
+                      </div>
+                      {truncated && (
+                        <p className="text-xs text-muted-foreground mt-0.5 leading-relaxed">
+                          {truncated}
+                        </p>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
+          {hasMore && !showAll && (
+            <button
+              onClick={() => setShowAll(true)}
+              className="mt-3 text-xs text-primary hover:opacity-80"
+            >
+              Show all {comments.length} comments (
+              {comments.length - INITIAL_SHOW} more)
+            </button>
+          )}
+          {hasMore && showAll && (
+            <button
+              onClick={() => setShowAll(false)}
+              className="mt-3 text-xs text-primary hover:opacity-80"
+            >
+              Show fewer
+            </button>
+          )}
         </div>
       )}
     </div>

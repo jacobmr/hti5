@@ -3,7 +3,7 @@
  * Design: Federal Register Meets Data Journalism
  * Searchable, filterable list of all 274 substantive comments
  */
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { Search, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
 import commentsData from "@data/comments.json";
 import coordinationData from "@data/coordination_groups.json";
@@ -134,7 +134,13 @@ const coordinationLookup = new Map<string, string>();
   });
 });
 
-function CommentCard({ comment }: { comment: Comment }) {
+function CommentCard({
+  comment,
+  highlighted,
+}: {
+  comment: Comment;
+  highlighted?: boolean;
+}) {
   const [expanded, setExpanded] = useState(false);
   const [assessmentExpanded, setAssessmentExpanded] = useState(false);
   const badgeClass = POSITION_BADGE[comment.position] || "badge-unclear";
@@ -152,7 +158,14 @@ function CommentCard({ comment }: { comment: Comment }) {
   const hasCoI = comment.org_type === "health_it_company";
 
   return (
-    <div className="border border-border bg-card p-5 hover:border-primary/40 transition-colors">
+    <div
+      id={`comment-${comment.id}`}
+      className={`border bg-card p-5 transition-colors ${
+        highlighted
+          ? "border-primary ring-2 ring-primary/20"
+          : "border-border hover:border-primary/40"
+      }`}
+    >
       <div className="flex flex-wrap items-start gap-2 mb-2">
         <span
           className={`inline-block text-xs px-2 py-0.5 rounded-sm font-medium ${badgeClass}`}
@@ -362,9 +375,11 @@ export default function CommentsPage() {
   );
   const [showFilters, setShowFilters] = useState(false);
   const [page, setPage] = useState(1);
+  const [highlightedId, setHighlightedId] = useState<string | null>(null);
+  const scrolledRef = useRef(false);
   const PER_PAGE = 25;
 
-  // Read ?coordination=group_id from URL on mount
+  // Read ?coordination=group_id or ?comment=id from URL on mount
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const groupId = params.get("coordination");
@@ -375,6 +390,16 @@ export default function CommentsPage() {
       if (group) {
         setCoordinationFilter(groupId);
         setShowFilters(true);
+      }
+    }
+    const commentId = params.get("comment");
+    if (commentId) {
+      setHighlightedId(commentId);
+      // Find which page the comment is on and navigate to it
+      const allComments = commentsData as Comment[];
+      const idx = allComments.findIndex(c => c.id === commentId);
+      if (idx >= 0) {
+        setPage(Math.floor(idx / PER_PAGE) + 1);
       }
     }
   }, []);
@@ -429,6 +454,19 @@ export default function CommentsPage() {
     showOnlyCoordinated,
     coordinationFilter,
   ]);
+
+  // Scroll to highlighted comment after render
+  useEffect(() => {
+    if (highlightedId && !scrolledRef.current) {
+      const el = document.getElementById(`comment-${highlightedId}`);
+      if (el) {
+        scrolledRef.current = true;
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }, 100);
+      }
+    }
+  });
 
   const paginated = filtered.slice((page - 1) * PER_PAGE, page * PER_PAGE);
   const totalPages = Math.ceil(filtered.length / PER_PAGE);
@@ -659,7 +697,13 @@ export default function CommentsPage() {
             No comments match your search criteria.
           </div>
         ) : (
-          paginated.map(c => <CommentCard key={c.id} comment={c} />)
+          paginated.map(c => (
+            <CommentCard
+              key={c.id}
+              comment={c}
+              highlighted={c.id === highlightedId}
+            />
+          ))
         )}
       </div>
 
