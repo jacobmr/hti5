@@ -394,9 +394,9 @@ export default function Home() {
 
           <p>
             <strong>The response was decisively negative.</strong> Average
-            sentiment scored −0.70 on a −3 to +3 scale. Of 298 comments, 139
-            (47%) opposed the proposed actions, while only 86 (29%) supported
-            them. The remaining 73 took neutral or mixed positions. Notably,
+            sentiment scored −0.77 on a −3 to +3 scale. Of 298 comments, 151
+            (51%) opposed the proposed actions, while only 91 (31%) supported
+            them. The remaining 56 took neutral or mixed positions. Notably,
             some major organizations filed nuanced comments that resist simple
             categorization—HIMSS and EHRA, for example, support certain
             deregulatory steps while opposing others, reflecting the conditional
