@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-03-07T22:43:05.829Z",
+    "generated": "2026-03-09T05:02:53.112Z",
     "methodology": "source/assessment-methodology.md",
     "prompt": "source/assessment-prompt.md",
     "nprm_reference": "FR Doc 2025-23896, 90 FR 60970-61034",
@@ -12,36 +12,36 @@
     "understanding_distribution": {
       "0": 0,
       "1": 0,
-      "2": 17,
-      "3": 248,
+      "2": 9,
+      "3": 256,
       "4": 18,
       "5": 15
     },
     "outgrowth_distribution": {
-      "within_scope": 166,
-      "borderline": 9,
-      "likely_within": 100,
-      "not_applicable": 23
+      "within_scope": 164,
+      "borderline": 10,
+      "likely_within": 115,
+      "not_applicable": 9
     },
     "provision_distribution": {
-      "ccda_transition": 63,
-      "multiple_provisions": 182,
-      "burden_reduction_general": 10,
-      "general_comment": 12,
+      "ccda_transition": 58,
+      "multiple_provisions": 191,
+      "burden_reduction_general": 8,
+      "general_comment": 3,
       "uscdi_data_elements": 4,
-      "privacy_security_criteria": 12,
-      "information_blocking": 9,
+      "privacy_security_criteria": 13,
+      "information_blocking": 13,
       "certification_removal_general": 1,
       "audit_log_criteria": 2,
-      "dsi_ai_model_card": 3
+      "dsi_ai_model_card": 5
     },
     "posture_distribution": {
-      "partially_accept": 85,
-      "accept": 51,
-      "accept_with_modification": 56,
-      "acknowledge": 106
+      "partially_accept": 87,
+      "accept": 48,
+      "accept_with_modification": 53,
+      "acknowledge": 110
     },
-    "average_understanding": 3.1
+    "average_understanding": 3.13
   },
   "assessments": [
     {
@@ -152,7 +152,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["fhir_standards", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction"
+      ],
       "recommendation_count": 1
     },
     {
@@ -169,7 +172,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["audit_log_standards", "fhir_standards"],
+      "themes": [
+        "audit_log_standards",
+        "fhir_standards"
+      ],
       "recommendation_count": 4
     },
     {
@@ -489,7 +495,11 @@
       "provision_addressed": "general_comment",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["audit_log_standards", "ai_regulation", "patient_safety"],
+      "themes": [
+        "audit_log_standards",
+        "ai_regulation",
+        "patient_safety"
+      ],
       "recommendation_count": 1
     },
     {
@@ -670,7 +680,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["fhir_standards", "burden_reduction", "patient_safety"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "patient_safety"
+      ],
       "recommendation_count": 2
     },
     {
@@ -802,7 +816,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "ccda_removal",
+        "burden_reduction"
+      ],
       "recommendation_count": 2
     },
     {
@@ -912,7 +930,9 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["fhir_standards"],
+      "themes": [
+        "fhir_standards"
+      ],
       "recommendation_count": 1
     },
     {
@@ -929,7 +949,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "clinical_workflow"
+      ],
       "recommendation_count": 2
     },
     {
@@ -946,7 +970,9 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards"],
+      "themes": [
+        "fhir_standards"
+      ],
       "recommendation_count": 3
     },
     {
@@ -963,7 +989,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards", "uscdi_data_classes"],
+      "themes": [
+        "fhir_standards",
+        "uscdi_data_classes"
+      ],
       "recommendation_count": 3
     },
     {
@@ -1004,7 +1033,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept",
       "posture_rationale": "The comment supports the proposed changes, which ONC will finalize as proposed.",
-      "themes": ["fhir_standards", "ccda_removal"],
+      "themes": [
+        "fhir_standards",
+        "ccda_removal"
+      ],
       "recommendation_count": 2
     },
     {
@@ -1021,7 +1053,9 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards"],
+      "themes": [
+        "fhir_standards"
+      ],
       "recommendation_count": 3
     },
     {
@@ -1084,7 +1118,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["fhir_standards", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction"
+      ],
       "recommendation_count": 3
     },
     {
@@ -1147,7 +1184,10 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "accept",
       "posture_rationale": "The comment supports the proposed changes, which ONC will finalize as proposed.",
-      "themes": ["fhir_standards", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction"
+      ],
       "recommendation_count": 4
     },
     {
@@ -1234,7 +1274,10 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction"
+      ],
       "recommendation_count": 4
     },
     {
@@ -1297,7 +1340,11 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["fhir_standards", "data_privacy", "information_blocking"],
+      "themes": [
+        "fhir_standards",
+        "data_privacy",
+        "information_blocking"
+      ],
       "recommendation_count": 3
     },
     {
@@ -1338,7 +1385,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["fhir_standards", "clinical_workflow", "patient_safety"],
+      "themes": [
+        "fhir_standards",
+        "clinical_workflow",
+        "patient_safety"
+      ],
       "recommendation_count": 1
     },
     {
@@ -1378,7 +1429,10 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["fhir_standards", "information_blocking"],
+      "themes": [
+        "fhir_standards",
+        "information_blocking"
+      ],
       "recommendation_count": 2
     },
     {
@@ -1395,7 +1449,10 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["fhir_standards", "information_blocking"],
+      "themes": [
+        "fhir_standards",
+        "information_blocking"
+      ],
       "recommendation_count": 3
     },
     {
@@ -1412,7 +1469,11 @@
       "provision_addressed": "certification_removal_general",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["patient_safety", "burden_reduction", "clinical_workflow"],
+      "themes": [
+        "patient_safety",
+        "burden_reduction",
+        "clinical_workflow"
+      ],
       "recommendation_count": 2
     },
     {
@@ -1473,7 +1534,11 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["information_blocking", "clinical_workflow", "patient_safety"],
+      "themes": [
+        "information_blocking",
+        "clinical_workflow",
+        "patient_safety"
+      ],
       "recommendation_count": 2
     },
     {
@@ -1514,7 +1579,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["ccda_removal", "burden_reduction"],
+      "themes": [
+        "ccda_removal",
+        "burden_reduction"
+      ],
       "recommendation_count": 3
     },
     {
@@ -1648,7 +1716,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction"
+      ],
       "recommendation_count": 4
     },
     {
@@ -1711,7 +1782,11 @@
       "provision_addressed": "burden_reduction_general",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["burden_reduction", "health_equity", "patient_safety"],
+      "themes": [
+        "burden_reduction",
+        "health_equity",
+        "patient_safety"
+      ],
       "recommendation_count": 2
     },
     {
@@ -1796,7 +1871,9 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards"],
+      "themes": [
+        "fhir_standards"
+      ],
       "recommendation_count": 2
     },
     {
@@ -2096,7 +2173,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "clinical_workflow"
+      ],
       "recommendation_count": 2
     },
     {
@@ -2159,7 +2240,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards", "uscdi_data_classes"],
+      "themes": [
+        "fhir_standards",
+        "uscdi_data_classes"
+      ],
       "recommendation_count": 2
     },
     {
@@ -2176,7 +2260,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "ccda_removal",
+        "burden_reduction"
+      ],
       "recommendation_count": 2
     },
     {
@@ -2241,7 +2329,11 @@
       "provision_addressed": "burden_reduction_general",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["patient_safety", "burden_reduction", "clinical_workflow"],
+      "themes": [
+        "patient_safety",
+        "burden_reduction",
+        "clinical_workflow"
+      ],
       "recommendation_count": 2
     },
     {
@@ -2327,7 +2419,10 @@
       "provision_addressed": "burden_reduction_general",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["burden_reduction", "health_equity"],
+      "themes": [
+        "burden_reduction",
+        "health_equity"
+      ],
       "recommendation_count": 2
     },
     {
@@ -2463,7 +2558,11 @@
       "provision_addressed": "general_comment",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["patient_safety", "ai_regulation", "health_equity"],
+      "themes": [
+        "patient_safety",
+        "ai_regulation",
+        "health_equity"
+      ],
       "recommendation_count": 3
     },
     {
@@ -2643,7 +2742,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "clinical_workflow"
+      ],
       "recommendation_count": 2
     },
     {
@@ -4019,7 +4122,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards", "burden_reduction", "data_privacy"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "data_privacy"
+      ],
       "recommendation_count": 4
     },
     {
@@ -4036,7 +4143,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "ccda_removal",
+        "burden_reduction"
+      ],
       "recommendation_count": 5
     },
     {
@@ -4149,7 +4260,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "clinical_workflow"
+      ],
       "recommendation_count": 4
     },
     {
@@ -4211,7 +4326,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "burden_reduction", "health_equity"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "health_equity"
+      ],
       "recommendation_count": 2
     },
     {
@@ -4228,7 +4347,10 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction"
+      ],
       "recommendation_count": 4
     },
     {
@@ -4337,7 +4459,11 @@
       "provision_addressed": "dsi_ai_model_card",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["ai_regulation", "health_equity", "patient_safety"],
+      "themes": [
+        "ai_regulation",
+        "health_equity",
+        "patient_safety"
+      ],
       "recommendation_count": 3
     },
     {
@@ -4449,7 +4575,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "clinical_workflow"
+      ],
       "recommendation_count": 2
     },
     {
@@ -4559,7 +4689,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["ai_regulation", "information_blocking", "burden_reduction"],
+      "themes": [
+        "ai_regulation",
+        "information_blocking",
+        "burden_reduction"
+      ],
       "recommendation_count": 4
     },
     {
@@ -4576,7 +4710,10 @@
       "provision_addressed": "dsi_ai_model_card",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["ai_regulation", "burden_reduction"],
+      "themes": [
+        "ai_regulation",
+        "burden_reduction"
+      ],
       "recommendation_count": 3
     },
     {
@@ -4593,7 +4730,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards", "clinical_workflow"],
+      "themes": [
+        "fhir_standards",
+        "clinical_workflow"
+      ],
       "recommendation_count": 2
     },
     {
@@ -4682,7 +4822,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards", "ai_regulation", "data_privacy"],
+      "themes": [
+        "fhir_standards",
+        "ai_regulation",
+        "data_privacy"
+      ],
       "recommendation_count": 5
     },
     {
@@ -4746,7 +4890,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["fhir_standards", "burden_reduction", "uscdi_data_classes"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "uscdi_data_classes"
+      ],
       "recommendation_count": 3
     },
     {
@@ -5140,7 +5288,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "ccda_removal",
+        "burden_reduction"
+      ],
       "recommendation_count": 4
     },
     {
@@ -5181,7 +5333,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "ccda_removal",
+        "burden_reduction"
+      ],
       "recommendation_count": 2
     },
     {
@@ -5236,17 +5392,28 @@
       "commenter": "Community Clinic Association of Los Angeles County",
       "organization": "Community Clinic Association of Los Angeles County",
       "org_type": "health_system",
-      "position": "neutral_mixed",
+      "position": "strongly_oppose_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
-      "understanding_rationale": "Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "general_comment",
-      "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [],
-      "recommendation_count": 0
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Provides multiple specific recommendations.",
+      "logical_outgrowth": "within_scope",
+      "outgrowth_rationale": "Directly responds to specific provisions proposed for change in the NPRM.",
+      "provision_addressed": "dsi_ai_model_card",
+      "agency_posture": "partially_accept",
+      "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
+      "themes": [
+        "ai_regulation",
+        "data_privacy",
+        "fhir_standards",
+        "information_blocking",
+        "health_equity",
+        "audit_log_standards",
+        "clinical_workflow",
+        "uscdi_data_classes",
+        "patient_safety",
+        "burden_reduction"
+      ],
+      "recommendation_count": 4
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0247",
@@ -5256,20 +5423,19 @@
       "position": "support_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
-      "understanding_rationale": "Addresses specific NPRM provisions. Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity. Provides multiple specific recommendations.",
-      "logical_outgrowth": "within_scope",
-      "outgrowth_rationale": "Directly responds to specific provisions proposed for change in the NPRM.",
-      "provision_addressed": "multiple_provisions",
-      "agency_posture": "accept",
-      "posture_rationale": "The comment supports the proposed changes, which ONC will finalize as proposed.",
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "information_blocking",
+      "agency_posture": "acknowledge",
+      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
       "themes": [
-        "audit_log_standards",
-        "fhir_standards",
-        "ccda_removal",
-        "burden_reduction",
-        "uscdi_data_classes"
+        "ai_regulation",
+        "data_privacy",
+        "information_blocking",
+        "burden_reduction"
       ],
-      "recommendation_count": 4
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0252",
@@ -5380,51 +5546,70 @@
       "commenter": "Wolters Kluwer",
       "organization": "Wolters Kluwer",
       "org_type": "health_it_company",
-      "position": "neutral_mixed",
-      "understanding_score": 2,
-      "understanding_label": "Partial",
-      "understanding_rationale": "Addresses specific NPRM provisions. Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Brief comment with limited specificity.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "ccda_transition",
+      "position": "oppose_deregulation",
+      "understanding_score": 3,
+      "understanding_label": "Adequate",
+      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["fhir_standards", "burden_reduction"],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
+      "themes": [
+        "ai_regulation",
+        "data_privacy",
+        "patient_safety",
+        "information_blocking",
+        "clinical_workflow"
+      ],
+      "recommendation_count": 2
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0285",
       "commenter": "Oral Health Interoperability Alliance - Leavitt Partners",
       "organization": "Oral Health Interoperability Alliance - Leavitt Partners",
       "org_type": "other",
-      "position": "neutral_mixed",
-      "understanding_score": 2,
-      "understanding_label": "Partial",
-      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "ccda_transition",
+      "position": "strongly_support_deregulation",
+      "understanding_score": 3,
+      "understanding_label": "Adequate",
+      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["fhir_standards"],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
+      "themes": [
+        "fhir_standards",
+        "information_blocking",
+        "ccda_removal",
+        "uscdi_data_classes",
+        "ai_regulation",
+        "burden_reduction",
+        "health_equity"
+      ],
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0275",
       "commenter": "Digital Quality Implementers Community - Leavitt Partners",
       "organization": "Digital Quality Implementers Community - Leavitt Partners",
       "org_type": "other",
-      "position": "neutral_mixed",
-      "understanding_score": 2,
-      "understanding_label": "Partial",
-      "understanding_rationale": "Brief comment with limited specificity.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "general_comment",
+      "position": "strongly_support_deregulation",
+      "understanding_score": 3,
+      "understanding_label": "Adequate",
+      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Closely related to the NPRM proposals; a reasonable person would anticipate this as a possible outcome.",
+      "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
+      "themes": [
+        "fhir_standards",
+        "information_blocking",
+        "ccda_removal",
+        "burden_reduction"
+      ],
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0292",
@@ -5440,7 +5625,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["ccda_removal", "fhir_standards", "burden_reduction"],
+      "themes": [
+        "ccda_removal",
+        "fhir_standards",
+        "burden_reduction"
+      ],
       "recommendation_count": 1
     },
     {
@@ -5495,17 +5684,23 @@
       "commenter": "Availity, L.L.C.",
       "organization": "Availity, L.L.C.",
       "org_type": "health_it_company",
-      "position": "neutral_mixed",
-      "understanding_score": 2,
-      "understanding_label": "Partial",
-      "understanding_rationale": "Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "general_comment",
+      "position": "support_deregulation",
+      "understanding_score": 3,
+      "understanding_label": "Adequate",
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
+      "themes": [
+        "data_privacy",
+        "ai_regulation",
+        "information_blocking",
+        "patient_safety",
+        "burden_reduction"
+      ],
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0296",
@@ -5594,7 +5789,11 @@
       "provision_addressed": "uscdi_data_elements",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["fhir_standards", "ai_regulation", "uscdi_data_classes"],
+      "themes": [
+        "fhir_standards",
+        "ai_regulation",
+        "uscdi_data_classes"
+      ],
       "recommendation_count": 3
     },
     {
@@ -5672,17 +5871,24 @@
       "commenter": "Invest for Progress",
       "organization": "Invest for Progress",
       "org_type": "other",
-      "position": "neutral_mixed",
-      "understanding_score": 2,
-      "understanding_label": "Partial",
-      "understanding_rationale": "Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "general_comment",
+      "position": "strongly_oppose_deregulation",
+      "understanding_score": 3,
+      "understanding_label": "Adequate",
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
+      "themes": [
+        "ai_regulation",
+        "data_privacy",
+        "long_term_care",
+        "information_blocking",
+        "clinical_workflow",
+        "burden_reduction"
+      ],
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0305",
@@ -5710,65 +5916,76 @@
       "comment_id": "HHS-ONC-2025-0005-0280",
       "commenter": "Patients for Patient Safety US",
       "organization": "Patients for Patient Safety US",
-      "org_type": "unknown",
-      "position": "oppose_deregulation",
+      "org_type": "health_it_company",
+      "position": "strongly_oppose_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
-      "understanding_rationale": "Addresses specific NPRM provisions. Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
-      "logical_outgrowth": "within_scope",
-      "outgrowth_rationale": "Directly responds to specific provisions proposed for change in the NPRM.",
-      "provision_addressed": "multiple_provisions",
-      "agency_posture": "partially_accept",
-      "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
+      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Closely related to the NPRM proposals; a reasonable person would anticipate this as a possible outcome.",
+      "provision_addressed": "ccda_transition",
+      "agency_posture": "acknowledge",
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
       "themes": [
         "patient_safety",
-        "fhir_standards",
         "ai_regulation",
+        "ccda_removal",
+        "data_privacy",
+        "clinical_workflow",
+        "fhir_standards",
         "burden_reduction",
-        "data_privacy"
+        "health_equity"
       ],
-      "recommendation_count": 4
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0283",
       "commenter": "EMI Advisors LLC",
       "organization": "EMI Advisors LLC",
       "org_type": "health_it_company",
-      "position": "neutral_mixed",
+      "position": "support_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
-      "understanding_rationale": "Brief comment with limited specificity. References specific health IT standards.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "general_comment",
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Brief comment with limited specificity. References specific health IT standards. Provides multiple specific recommendations.",
+      "logical_outgrowth": "borderline",
+      "outgrowth_rationale": "Some requests are within the NPRM scope while others extend beyond what was proposed.",
+      "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
+      "themes": [
+        "fhir_standards",
+        "ai_regulation",
+        "data_privacy"
+      ],
+      "recommendation_count": 3
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0281",
       "commenter": "AllianceChicago",
       "organization": "AllianceChicago",
       "org_type": "health_it_company",
-      "position": "neutral_mixed",
+      "position": "strongly_oppose_deregulation",
       "understanding_score": 4,
       "understanding_label": "Strong",
-      "understanding_rationale": "References specific regulatory provisions. Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. References specific health IT standards. Provides multiple specific recommendations.",
-      "logical_outgrowth": "likely_within",
-      "outgrowth_rationale": "Closely related to the NPRM proposals; a reasonable person would anticipate this as a possible outcome.",
-      "provision_addressed": "ccda_transition",
-      "agency_posture": "accept_with_modification",
-      "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
+      "understanding_rationale": "References specific regulatory provisions. Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Provides multiple specific recommendations.",
+      "logical_outgrowth": "within_scope",
+      "outgrowth_rationale": "Directly responds to specific provisions proposed for change in the NPRM.",
+      "provision_addressed": "multiple_provisions",
+      "agency_posture": "partially_accept",
+      "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
       "themes": [
-        "patient_safety",
+        "data_privacy",
+        "ai_regulation",
+        "health_equity",
         "audit_log_standards",
-        "fhir_standards",
-        "ccda_removal",
         "information_blocking",
-        "burden_reduction"
+        "burden_reduction",
+        "clinical_workflow",
+        "fhir_standards",
+        "uscdi_data_classes",
+        "patient_safety"
       ],
-      "recommendation_count": 4
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0274",
@@ -5784,7 +6001,9 @@
       "provision_addressed": "general_comment",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["patient_safety"],
+      "themes": [
+        "patient_safety"
+      ],
       "recommendation_count": 1
     },
     {
@@ -5801,7 +6020,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "clinical_workflow"
+      ],
       "recommendation_count": 0
     },
     {
@@ -5838,41 +6061,53 @@
       "commenter": "Essentia Health",
       "organization": "Essentia Health",
       "org_type": "health_system",
-      "position": "neutral_mixed",
+      "position": "oppose_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
-      "understanding_rationale": "Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "burden_reduction_general",
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Closely related to the NPRM proposals; a reasonable person would anticipate this as a possible outcome.",
+      "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["burden_reduction"],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
+      "themes": [
+        "ai_regulation",
+        "data_privacy",
+        "ccda_removal",
+        "burden_reduction",
+        "health_equity",
+        "patient_safety",
+        "clinical_workflow"
+      ],
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0261",
       "commenter": "American College Of Physicians",
       "organization": "American College Of Physicians",
       "org_type": "professional_association",
-      "position": "neutral_mixed",
+      "position": "strongly_oppose_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
-      "understanding_rationale": "Addresses specific NPRM provisions. Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
       "logical_outgrowth": "likely_within",
       "outgrowth_rationale": "Closely related to the NPRM proposals; a reasonable person would anticipate this as a possible outcome.",
       "provision_addressed": "multiple_provisions",
-      "agency_posture": "accept_with_modification",
-      "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
+      "agency_posture": "acknowledge",
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
       "themes": [
-        "patient_safety",
-        "audit_log_standards",
+        "ai_regulation",
         "fhir_standards",
+        "data_privacy",
+        "uscdi_data_classes",
         "ccda_removal",
+        "information_blocking",
+        "health_equity",
+        "patient_safety",
         "burden_reduction",
-        "data_privacy"
+        "clinical_workflow"
       ],
-      "recommendation_count": 4
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0259",
@@ -5902,17 +6137,22 @@
       "commenter": "Anonymous Anonymous",
       "organization": null,
       "org_type": "other",
-      "position": "neutral_mixed",
-      "understanding_score": 2,
-      "understanding_label": "Partial",
-      "understanding_rationale": "Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "general_comment",
+      "position": "support_deregulation",
+      "understanding_score": 3,
+      "understanding_label": "Adequate",
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Closely related to the NPRM proposals; a reasonable person would anticipate this as a possible outcome.",
+      "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
+      "themes": [
+        "fhir_standards",
+        "ccda_removal",
+        "information_blocking",
+        "burden_reduction"
+      ],
+      "recommendation_count": 2
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0257",
@@ -5928,7 +6168,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": ["fhir_standards", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction"
+      ],
       "recommendation_count": 2
     },
     {
@@ -5945,7 +6188,10 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["information_blocking", "data_privacy"],
+      "themes": [
+        "information_blocking",
+        "data_privacy"
+      ],
       "recommendation_count": 1
     },
     {
@@ -5962,7 +6208,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": ["fhir_standards", "ai_regulation", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "ai_regulation",
+        "burden_reduction"
+      ],
       "recommendation_count": 5
     },
     {
@@ -6023,45 +6273,52 @@
       "organization": "Consensus Cloud Solutions",
       "org_type": "health_it_company",
       "position": "support_deregulation",
-      "understanding_score": 3,
-      "understanding_label": "Adequate",
-      "understanding_rationale": "Addresses specific NPRM provisions. Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity. References specific health IT standards. Provides multiple specific recommendations.",
-      "logical_outgrowth": "within_scope",
-      "outgrowth_rationale": "Directly responds to specific provisions proposed for change in the NPRM.",
-      "provision_addressed": "ccda_transition",
-      "agency_posture": "accept",
-      "posture_rationale": "The comment supports the proposed changes, which ONC will finalize as proposed.",
+      "understanding_score": 2,
+      "understanding_label": "Partial",
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Brief comment with limited specificity.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "multiple_provisions",
+      "agency_posture": "acknowledge",
+      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
       "themes": [
-        "audit_log_standards",
-        "fhir_standards",
         "ccda_removal",
-        "burden_reduction"
+        "ai_regulation",
+        "information_blocking",
+        "fhir_standards",
+        "burden_reduction",
+        "health_equity"
       ],
-      "recommendation_count": 3
+      "recommendation_count": 1
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0273",
       "commenter": "Michigan Primary Care Association",
       "organization": "Michigan Primary Care Association",
       "org_type": "professional_association",
-      "position": "neutral_mixed",
+      "position": "strongly_oppose_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
       "understanding_rationale": "Addresses specific NPRM provisions. Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
       "logical_outgrowth": "within_scope",
       "outgrowth_rationale": "Directly responds to specific provisions proposed for change in the NPRM.",
-      "provision_addressed": "ccda_transition",
-      "agency_posture": "accept_with_modification",
-      "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
+      "provision_addressed": "dsi_ai_model_card",
+      "agency_posture": "partially_accept",
+      "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
       "themes": [
-        "patient_safety",
+        "data_privacy",
+        "ai_regulation",
+        "health_equity",
         "audit_log_standards",
-        "fhir_standards",
-        "ccda_removal",
+        "information_blocking",
+        "clinical_workflow",
         "burden_reduction",
-        "clinical_workflow"
+        "fhir_standards",
+        "uscdi_data_classes",
+        "patient_safety",
+        "long_term_care"
       ],
-      "recommendation_count": 4
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0242",
@@ -6235,24 +6492,28 @@
       "commenter": "Oracle Health and Life Sciences",
       "organization": "Oracle Health and Life Sciences",
       "org_type": "health_it_company",
-      "position": "support_deregulation",
+      "position": "strongly_oppose_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
-      "understanding_rationale": "Addresses specific NPRM provisions. Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity. References specific health IT standards. Provides multiple specific recommendations.",
-      "logical_outgrowth": "within_scope",
-      "outgrowth_rationale": "Directly responds to specific provisions proposed for change in the NPRM.",
-      "provision_addressed": "ccda_transition",
-      "agency_posture": "accept",
-      "posture_rationale": "The comment supports the proposed changes, which ONC will finalize as proposed.",
+      "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Closely related to the NPRM proposals; a reasonable person would anticipate this as a possible outcome.",
+      "provision_addressed": "multiple_provisions",
+      "agency_posture": "acknowledge",
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
       "themes": [
-        "patient_safety",
-        "audit_log_standards",
         "fhir_standards",
         "ccda_removal",
+        "data_privacy",
         "burden_reduction",
-        "data_privacy"
+        "uscdi_data_classes",
+        "ai_regulation",
+        "information_blocking",
+        "patient_safety",
+        "audit_log_standards",
+        "clinical_workflow"
       ],
-      "recommendation_count": 4
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0264",
@@ -6284,17 +6545,28 @@
       "commenter": "OCHIN",
       "organization": "OCHIN",
       "org_type": "health_system",
-      "position": "neutral_mixed",
-      "understanding_score": 2,
-      "understanding_label": "Partial",
-      "understanding_rationale": "Brief comment with limited specificity.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "general_comment",
+      "position": "strongly_oppose_deregulation",
+      "understanding_score": 3,
+      "understanding_label": "Adequate",
+      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
+      "themes": [
+        "health_equity",
+        "ai_regulation",
+        "fhir_standards",
+        "data_privacy",
+        "information_blocking",
+        "ccda_removal",
+        "burden_reduction",
+        "patient_safety",
+        "clinical_workflow",
+        "audit_log_standards"
+      ],
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0286",
@@ -6310,7 +6582,10 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["fhir_standards", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction"
+      ],
       "recommendation_count": 2
     },
     {
@@ -6353,7 +6628,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["fhir_standards", "burden_reduction", "long_term_care"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "long_term_care"
+      ],
       "recommendation_count": 0
     },
     {
@@ -6361,17 +6640,27 @@
       "commenter": "Healthcare Information Management and Systems Society (HIMSS)",
       "organization": "Healthcare Information Management and Systems Society (HIMSS)",
       "org_type": "professional_association",
-      "position": "neutral_mixed",
+      "position": "support_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
-      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "ccda_transition",
+      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["fhir_standards", "burden_reduction"],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
+      "themes": [
+        "ccda_removal",
+        "uscdi_data_classes",
+        "ai_regulation",
+        "data_privacy",
+        "fhir_standards",
+        "burden_reduction",
+        "information_blocking",
+        "health_equity",
+        "long_term_care"
+      ],
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0294",
@@ -6387,7 +6676,11 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
+      "themes": [
+        "fhir_standards",
+        "ccda_removal",
+        "burden_reduction"
+      ],
       "recommendation_count": 2
     },
     {
@@ -6395,24 +6688,30 @@
       "commenter": "ADVION Advocates",
       "organization": "ADVION Advocates",
       "org_type": "advocacy_group",
-      "position": "support_deregulation",
+      "position": "strongly_oppose_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
       "understanding_rationale": "Addresses specific NPRM provisions. Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
       "logical_outgrowth": "likely_within",
-      "outgrowth_rationale": "Closely related to the NPRM proposals; a reasonable person would anticipate this as a possible outcome.",
-      "provision_addressed": "multiple_provisions",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "privacy_security_criteria",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
       "themes": [
-        "patient_safety",
-        "audit_log_standards",
+        "uscdi_data_classes",
+        "ai_regulation",
+        "long_term_care",
         "fhir_standards",
-        "burden_reduction",
         "data_privacy",
-        "uscdi_data_classes"
+        "audit_log_standards",
+        "patient_safety",
+        "ccda_removal",
+        "information_blocking",
+        "burden_reduction",
+        "clinical_workflow",
+        "health_equity"
       ],
-      "recommendation_count": 4
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0293",
@@ -6428,7 +6727,11 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": ["fhir_standards", "burden_reduction", "uscdi_data_classes"],
+      "themes": [
+        "fhir_standards",
+        "burden_reduction",
+        "uscdi_data_classes"
+      ],
       "recommendation_count": 2
     },
     {
@@ -6436,34 +6739,40 @@
       "commenter": "Real Time Medical Systems.",
       "organization": "Real Time Medical Systems.",
       "org_type": "health_it_company",
-      "position": "neutral_mixed",
-      "understanding_score": 2,
-      "understanding_label": "Partial",
-      "understanding_rationale": "Understands the proposal involves removing certification criteria. Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "burden_reduction_general",
+      "position": "oppose_deregulation",
+      "understanding_score": 3,
+      "understanding_label": "Adequate",
+      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": ["burden_reduction"],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
+      "themes": [
+        "information_blocking",
+        "ai_regulation"
+      ],
+      "recommendation_count": 4
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0284",
       "commenter": "Intermountain Health",
       "organization": "Intermountain Health",
       "org_type": "health_system",
-      "position": "neutral_mixed",
-      "understanding_score": 2,
-      "understanding_label": "Partial",
-      "understanding_rationale": "Identifies the specific rulemaking (HTI-5). Brief comment with limited specificity.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "general_comment",
+      "position": "support_deregulation",
+      "understanding_score": 3,
+      "understanding_label": "Adequate",
+      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number. Brief comment with limited specificity. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Addresses NPRM topics, though specific request may extend beyond the exact proposal.",
+      "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
+      "themes": [
+        "information_blocking",
+        "clinical_workflow"
+      ],
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0260",
@@ -6497,17 +6806,25 @@
       "commenter": "Allina Health",
       "organization": "Allina Health",
       "org_type": "health_system",
-      "position": "neutral_mixed",
+      "position": "oppose_deregulation",
       "understanding_score": 3,
       "understanding_label": "Adequate",
-      "understanding_rationale": "Identifies the specific rulemaking (HTI-5). References the issuing agency or docket number.",
-      "logical_outgrowth": "not_applicable",
-      "outgrowth_rationale": "Comment provides general feedback without requesting a specific regulatory change.",
-      "provision_addressed": "general_comment",
+      "understanding_rationale": "Addresses specific NPRM provisions. References the issuing agency or docket number. Provides multiple specific recommendations.",
+      "logical_outgrowth": "likely_within",
+      "outgrowth_rationale": "Closely related to the NPRM proposals; a reasonable person would anticipate this as a possible outcome.",
+      "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
-      "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [],
-      "recommendation_count": 0
+      "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
+      "themes": [
+        "data_privacy",
+        "ai_regulation",
+        "information_blocking",
+        "patient_safety",
+        "audit_log_standards",
+        "burden_reduction",
+        "clinical_workflow"
+      ],
+      "recommendation_count": 5
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0299",

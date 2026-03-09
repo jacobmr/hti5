@@ -9,11 +9,11 @@
 
 The public response to proposed health IT deregulation was **decisively negative**.
 
-- **139 of 298 commenters (47%) opposed** the proposed deregulation; 86 (29%) supported it
-- Average sentiment: **−0.70** on a −3 to +3 scale
+- **151 of 298 commenters (51%) opposed** the proposed deregulation; 91 (31%) supported it
+- Average sentiment: **−0.77** on a −3 to +3 scale
 - **90% of clinicians** opposed removing certification requirements
 - **Patient safety** was the dominant concern — commenters warned that removing audit log and data integrity standards would create direct clinical risks
-- **FHIR standards** (264 mentions) and **burden reduction** (240 mentions) were the most-discussed themes
+- **FHIR standards** (269 mentions) and **burden reduction** (248 mentions) were the most-discussed themes
 - Multiple **organized advocacy campaigns** were identified, including coordinated attorney networks and form letter campaigns
 
 ---
@@ -83,12 +83,19 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and technical detai
 
 This analysis has evolved as the dataset and methodology improved:
 
-**v1.5** — _NPRM Provisions Analysis_ (March 8, 2026)
+**v1.6** — _Cover-Note Attachment Integration_ (March 9, 2026)
+
+- Fixed 10 comments from major organizations (ACP, Oracle, Wolters Kluwer, ADVION, AllianceChicago, Michigan Primary Care Assoc., etc.) where the commenter submitted a brief cover note like "see attached" but the real substantive content was in the PDF attachment. These had been analyzed using only the cover note text, producing hallucinated/guessed summaries. Now properly analyzed using the full extracted attachment text.
+- Impact: strongly oppose rose from 99→105; oppose 45→46; support 78→76; neutral 61→56. Average sentiment shifted from −0.69 to −0.77. Several large organizations (ACP, Oracle, PFPS US, AllianceChicago, ADVION) turned out to strongly oppose deregulation once their full attachment text was analyzed.
+- Thanks again to [David Rocha](https://github.com/jacobmr/hti5/issues/2) for the continued review.
+
+**v1.5** — _NPRM Provisions Analysis + Attachment Fix Round 2_ (March 8, 2026)
 
 - New Provisions page organizing all 298 comments by the 16 NPRM provision groups they address (derived from Table 1 of the proposed rule).
 - Each provision shows support/oppose/mixed breakdown with expandable comment lists.
 - Beyond-scope detection identifies comments raising topics outside the rule's logical outgrowth (Medicare reimbursement, state regulations, etc.).
 - Privacy & Security was the most-discussed provision (134 comments, 65% opposing).
+- Fixed 12 additional attachment-only comments missed in v1.4 (including OCHIN, HIMSS, Intermountain Health, NCQA). Oppose count rose from 139→144; support from 86→93; neutral dropped from 73→61. Average sentiment shifted from −0.70 to −0.69.
 
 **v1.4** — _Attachment Text Extraction_ (March 7, 2026)
 

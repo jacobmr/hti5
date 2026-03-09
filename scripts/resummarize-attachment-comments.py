@@ -355,7 +355,58 @@ def main():
     # Index by ID
     by_id = {c["id"]: c for c in comments}
 
-    att_only = [c for c in comments if "no substantive" in (c.get("summary") or "").lower()]
+    # Detect attachment-only comments by various placeholder patterns
+    PLACEHOLDER_PHRASES = [
+        "no substantive",
+        "did not provide substantive",
+        "did not provide detailed",
+        "without providing substantive",
+        "does not provide s",  # "does not provide specific/substantive"
+        "has provided detailed feedback in",
+        "referencing an attached file",
+        "submitted attached comments",
+        "provided detailed feedback in an attachment",
+        "main comment text was not inclu",
+        "brief comment indicating",
+        "references attached detailed feedback",
+        "the comment likely",  # hedging = AI guessed without attachment
+    ]
+
+    # Build set of comment IDs that have extracted attachment text
+    extracted_ids = set()
+    for fname in os.listdir(EXTRACTED_DIR):
+        if fname.endswith(".md"):
+            extracted_ids.add(fname.split("_attachment")[0])
+
+    att_only = []
+    seen_ids = set()
+    for c in comments:
+        cid = c["id"]
+        summary = (c.get("summary") or "").lower()
+
+        needs_update = False
+
+        # Method 1: placeholder phrases in summary
+        if any(phrase in summary for phrase in PLACEHOLDER_PHRASES):
+            needs_update = True
+
+        # Method 2: short comment text with attachment = cover note only
+        # Real content is in the attachment PDF, not the comment field
+        if not needs_update and c.get("has_attachment") and cid in extracted_ids:
+            comment_len = c.get("comment_length", 0) or 0
+            if comment_len < 300:
+                needs_update = True
+
+        # Method 3: neutral_mixed with few themes + attachment reference
+        if not needs_update and c.get("position") == "neutral_mixed" and len(c.get("themes", [])) <= 1:
+            if cid in extracted_ids:
+                if any(w in summary for w in ["attach", "comment text", "detailed feedback"]):
+                    needs_update = True
+
+        if needs_update and cid not in seen_ids:
+            att_only.append(c)
+            seen_ids.add(cid)
+
     print(f"Processing {len(att_only)} attachment-only comments...\n")
 
     updated = 0
