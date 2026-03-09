@@ -128,17 +128,11 @@ export default function Home() {
       {/* Version update */}
       <div className="mb-8 flex items-center gap-3 rounded-md border border-primary/20 bg-primary/5 px-4 py-3 text-sm text-foreground">
         <span className="font-mono text-xs font-semibold bg-primary/15 text-primary px-2 py-0.5 rounded border border-primary/30">
-          v1.5
+          v1.6
         </span>
         <span>
-          New{" "}
-          <Link
-            href="/provisions"
-            className="font-medium text-primary underline underline-offset-2 hover:opacity-80"
-          >
-            NPRM Provisions page
-          </Link>{" "}
-          — comments organized by the 16 rule sections they address.{" "}
+          Fixed 10 cover-note-only comments from major organizations — now
+          analyzed from full attachment text.{" "}
           <a
             href="https://github.com/jacobmr/hti5#analysis-updates"
             target="_blank"
