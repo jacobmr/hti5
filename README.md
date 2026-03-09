@@ -48,6 +48,8 @@ Machine-readable JSON files produced by the analysis. See [`data/README.md`](dat
 
 ## Methodology
 
+Analysis is based on the **full text** of each comment, including PDF and DOCX attachments. Of the 298 comments, 211 included attachments — these were downloaded, extracted to text, and used as the primary source for analysis. Subsequent versions (v1.4–v1.6) caught progressively smaller sets of edge cases where attachment text had not been properly integrated.
+
 Comments were analyzed using five approaches:
 
 1. **Position classification** — Each comment categorized on a 5-point scale from _strongly oppose deregulation_ to _strongly support deregulation_
