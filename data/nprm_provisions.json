@@ -3185,35 +3185,26 @@
     {
       "topic": "new_certification_criteria",
       "label": "New Certification Criteria Not Proposed",
-      "comments": [
-        "HHS-ONC-2025-0005-0150",
-        "HHS-ONC-2025-0005-0278"
-      ],
+      "comments": ["HHS-ONC-2025-0005-0150", "HHS-ONC-2025-0005-0278"],
       "count": 2
     },
     {
       "topic": "state_regulations",
       "label": "State-Level Regulatory Changes",
-      "comments": [
-        "HHS-ONC-2025-0005-0293"
-      ],
+      "comments": ["HHS-ONC-2025-0005-0293"],
       "count": 1
     },
     {
       "topic": "prior_authorization_reform",
       "label": "Prior Authorization Reform",
-      "comments": [
-        "HHS-ONC-2025-0005-0187"
-      ],
+      "comments": ["HHS-ONC-2025-0005-0187"],
       "count": 1
     }
   ],
   "comment_mappings": [
     {
       "comment_id": "HHS-ONC-2025-0005-0002",
-      "provisions": [
-        "data_c_cda"
-      ],
+      "provisions": ["data_c_cda"],
       "stance_per_provision": {
         "data_c_cda": "oppose"
       },
@@ -3221,9 +3212,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0003",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
@@ -3231,11 +3220,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0004",
-      "provisions": [
-        "privacy_security",
-        "ai_governance",
-        "design_usability"
-      ],
+      "provisions": ["privacy_security", "ai_governance", "design_usability"],
       "stance_per_provision": {
         "privacy_security": "support",
         "ai_governance": "support",
@@ -3245,21 +3230,15 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0005",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
-      "beyond_scope_topics": [
-        "medicare_reimbursement"
-      ]
+      "beyond_scope_topics": ["medicare_reimbursement"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0008",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "support"
       },
@@ -3267,9 +3246,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0006",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "mixed"
       },
@@ -3277,10 +3254,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0007",
-      "provisions": [
-        "burden_cost",
-        "information_blocking"
-      ],
+      "provisions": ["burden_cost", "information_blocking"],
       "stance_per_provision": {
         "burden_cost": "mixed",
         "information_blocking": "mixed"
@@ -3289,9 +3263,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0009",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3299,9 +3271,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0010",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3309,21 +3279,15 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0011",
-      "provisions": [
-        "ai_governance"
-      ],
+      "provisions": ["ai_governance"],
       "stance_per_provision": {
         "ai_governance": "support"
       },
-      "beyond_scope_topics": [
-        "other_beyond_scope"
-      ]
+      "beyond_scope_topics": ["other_beyond_scope"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0019",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3331,10 +3295,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0012",
-      "provisions": [
-        "privacy_security",
-        "ai_governance"
-      ],
+      "provisions": ["privacy_security", "ai_governance"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose"
@@ -3343,9 +3304,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0014",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3353,9 +3312,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0018",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3363,9 +3320,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0016",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3387,9 +3342,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0017",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3397,10 +3350,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0015",
-      "provisions": [
-        "privacy_security",
-        "ai_governance"
-      ],
+      "provisions": ["privacy_security", "ai_governance"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose"
@@ -3409,9 +3359,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0020",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3419,9 +3367,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0024",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "mixed"
       },
@@ -3429,21 +3375,15 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0021",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
-      "beyond_scope_topics": [
-        "medicare_reimbursement"
-      ]
+      "beyond_scope_topics": ["medicare_reimbursement"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0022",
-      "provisions": [
-        "uscdi_standards"
-      ],
+      "provisions": ["uscdi_standards"],
       "stance_per_provision": {
         "uscdi_standards": "oppose"
       },
@@ -3451,9 +3391,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0023",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3461,9 +3399,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0027",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3471,9 +3407,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0026",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3495,9 +3429,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0028",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3505,9 +3437,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0034",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -3515,10 +3445,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0029",
-      "provisions": [
-        "privacy_security",
-        "ai_governance"
-      ],
+      "provisions": ["privacy_security", "ai_governance"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose"
@@ -3527,10 +3454,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0033",
-      "provisions": [
-        "privacy_security",
-        "information_blocking"
-      ],
+      "provisions": ["privacy_security", "information_blocking"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "information_blocking": "oppose"
@@ -3539,9 +3463,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0031",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3549,9 +3471,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0032",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "oppose"
       },
@@ -3577,9 +3497,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0035",
-      "provisions": [
-        "data_c_cda"
-      ],
+      "provisions": ["data_c_cda"],
       "stance_per_provision": {
         "data_c_cda": "support"
       },
@@ -3587,9 +3505,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0038",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3597,10 +3513,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0037",
-      "provisions": [
-        "ai_governance",
-        "data_api_access"
-      ],
+      "provisions": ["ai_governance", "data_api_access"],
       "stance_per_provision": {
         "ai_governance": "support",
         "data_api_access": "support"
@@ -3627,9 +3540,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0040",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
@@ -3637,9 +3548,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0043",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "support"
       },
@@ -3647,9 +3556,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0042",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -3657,9 +3564,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0044",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "support"
       },
@@ -3667,10 +3572,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0045",
-      "provisions": [
-        "health_equity",
-        "data_api_access"
-      ],
+      "provisions": ["health_equity", "data_api_access"],
       "stance_per_provision": {
         "health_equity": "mixed",
         "data_api_access": "mixed"
@@ -3695,10 +3597,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0047",
-      "provisions": [
-        "data_c_cda",
-        "data_api_access"
-      ],
+      "provisions": ["data_c_cda", "data_api_access"],
       "stance_per_provision": {
         "data_c_cda": "support",
         "data_api_access": "support"
@@ -3707,9 +3606,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0046",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "support"
       },
@@ -3717,9 +3614,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0051",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "oppose"
       },
@@ -3727,9 +3622,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0048",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3737,9 +3630,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0053",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -3761,23 +3652,16 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0052",
-      "provisions": [
-        "privacy_security",
-        "data_c_cda"
-      ],
+      "provisions": ["privacy_security", "data_c_cda"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "data_c_cda": "oppose"
       },
-      "beyond_scope_topics": [
-        "medicare_reimbursement"
-      ]
+      "beyond_scope_topics": ["medicare_reimbursement"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0050",
-      "provisions": [
-        "conditions_maintenance"
-      ],
+      "provisions": ["conditions_maintenance"],
       "stance_per_provision": {
         "conditions_maintenance": "support"
       },
@@ -3785,9 +3669,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0049",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3795,9 +3677,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0055",
-      "provisions": [
-        "ai_governance"
-      ],
+      "provisions": ["ai_governance"],
       "stance_per_provision": {
         "ai_governance": "oppose"
       },
@@ -3805,9 +3685,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0056",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3815,9 +3693,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0058",
-      "provisions": [
-        "conditions_maintenance"
-      ],
+      "provisions": ["conditions_maintenance"],
       "stance_per_provision": {
         "conditions_maintenance": "oppose"
       },
@@ -3825,10 +3701,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0057",
-      "provisions": [
-        "burden_cost",
-        "data_api_access"
-      ],
+      "provisions": ["burden_cost", "data_api_access"],
       "stance_per_provision": {
         "burden_cost": "mixed",
         "data_api_access": "mixed"
@@ -3855,9 +3728,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0064",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "oppose"
       },
@@ -3881,9 +3752,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0062",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "oppose"
       },
@@ -3891,11 +3760,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0065",
-      "provisions": [
-        "privacy_security",
-        "data_api_access",
-        "ai_governance"
-      ],
+      "provisions": ["privacy_security", "data_api_access", "ai_governance"],
       "stance_per_provision": {
         "privacy_security": "support",
         "data_api_access": "support",
@@ -3905,9 +3770,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0063",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "oppose"
       },
@@ -3915,9 +3778,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0061",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "oppose"
       },
@@ -3925,9 +3786,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0071",
-      "provisions": [
-        "burden_cost"
-      ],
+      "provisions": ["burden_cost"],
       "stance_per_provision": {
         "burden_cost": "oppose"
       },
@@ -3935,9 +3794,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0083",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3945,9 +3802,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0073",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -3955,9 +3810,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0074",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
@@ -3965,10 +3818,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0069",
-      "provisions": [
-        "privacy_security",
-        "information_blocking"
-      ],
+      "provisions": ["privacy_security", "information_blocking"],
       "stance_per_provision": {
         "privacy_security": "support",
         "information_blocking": "support"
@@ -3977,9 +3827,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0080",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "support"
       },
@@ -4001,9 +3849,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0076",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -4011,9 +3857,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0067",
-      "provisions": [
-        "burden_cost"
-      ],
+      "provisions": ["burden_cost"],
       "stance_per_provision": {
         "burden_cost": "mixed"
       },
@@ -4021,9 +3865,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0082",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
@@ -4031,10 +3873,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0081",
-      "provisions": [
-        "ai_governance",
-        "uscdi_standards"
-      ],
+      "provisions": ["ai_governance", "uscdi_standards"],
       "stance_per_provision": {
         "ai_governance": "mixed",
         "uscdi_standards": "mixed"
@@ -4043,9 +3882,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0078",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -4053,10 +3890,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0077",
-      "provisions": [
-        "privacy_security",
-        "ai_governance"
-      ],
+      "provisions": ["privacy_security", "ai_governance"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose"
@@ -4065,11 +3899,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0075",
-      "provisions": [
-        "privacy_security",
-        "data_api_access",
-        "data_c_cda"
-      ],
+      "provisions": ["privacy_security", "data_api_access", "data_c_cda"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "data_api_access": "oppose",
@@ -4079,9 +3909,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0072",
-      "provisions": [
-        "health_equity"
-      ],
+      "provisions": ["health_equity"],
       "stance_per_provision": {
         "health_equity": "oppose"
       },
@@ -4089,9 +3917,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0070",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -4099,10 +3925,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0066",
-      "provisions": [
-        "data_api_access",
-        "ai_governance"
-      ],
+      "provisions": ["data_api_access", "ai_governance"],
       "stance_per_provision": {
         "data_api_access": "support",
         "ai_governance": "support"
@@ -4111,9 +3934,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0068",
-      "provisions": [
-        "uscdi_standards"
-      ],
+      "provisions": ["uscdi_standards"],
       "stance_per_provision": {
         "uscdi_standards": "mixed"
       },
@@ -4121,23 +3942,15 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0089",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "mixed"
       },
-      "beyond_scope_topics": [
-        "medicare_reimbursement"
-      ]
+      "beyond_scope_topics": ["medicare_reimbursement"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0090",
-      "provisions": [
-        "privacy_security",
-        "data_c_cda",
-        "data_api_access"
-      ],
+      "provisions": ["privacy_security", "data_c_cda", "data_api_access"],
       "stance_per_provision": {
         "privacy_security": "mixed",
         "data_c_cda": "mixed",
@@ -4147,9 +3960,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0086",
-      "provisions": [
-        "uscdi_standards"
-      ],
+      "provisions": ["uscdi_standards"],
       "stance_per_provision": {
         "uscdi_standards": "support"
       },
@@ -4157,10 +3968,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0096",
-      "provisions": [
-        "ai_governance",
-        "information_blocking"
-      ],
+      "provisions": ["ai_governance", "information_blocking"],
       "stance_per_provision": {
         "ai_governance": "mixed",
         "information_blocking": "mixed"
@@ -4169,10 +3977,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0085",
-      "provisions": [
-        "privacy_security",
-        "health_equity"
-      ],
+      "provisions": ["privacy_security", "health_equity"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "health_equity": "oppose"
@@ -4181,10 +3986,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0105",
-      "provisions": [
-        "ai_governance",
-        "privacy_security"
-      ],
+      "provisions": ["ai_governance", "privacy_security"],
       "stance_per_provision": {
         "ai_governance": "support",
         "privacy_security": "support"
@@ -4193,11 +3995,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0107",
-      "provisions": [
-        "data_api_access",
-        "data_c_cda",
-        "uscdi_standards"
-      ],
+      "provisions": ["data_api_access", "data_c_cda", "uscdi_standards"],
       "stance_per_provision": {
         "data_api_access": "support",
         "data_c_cda": "support",
@@ -4207,11 +4005,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0101",
-      "provisions": [
-        "privacy_security",
-        "data_export",
-        "ai_governance"
-      ],
+      "provisions": ["privacy_security", "data_export", "ai_governance"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "data_export": "oppose",
@@ -4221,10 +4015,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0102",
-      "provisions": [
-        "privacy_security",
-        "ai_governance"
-      ],
+      "provisions": ["privacy_security", "ai_governance"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose"
@@ -4233,9 +4024,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0100",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -4243,10 +4032,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0104",
-      "provisions": [
-        "privacy_security",
-        "information_blocking"
-      ],
+      "provisions": ["privacy_security", "information_blocking"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "information_blocking": "oppose"
@@ -4287,10 +4073,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0108",
-      "provisions": [
-        "burden_cost",
-        "data_api_access"
-      ],
+      "provisions": ["burden_cost", "data_api_access"],
       "stance_per_provision": {
         "burden_cost": "oppose",
         "data_api_access": "oppose"
@@ -4299,9 +4082,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0113",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -4325,23 +4106,16 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0088",
-      "provisions": [
-        "data_api_access",
-        "health_equity"
-      ],
+      "provisions": ["data_api_access", "health_equity"],
       "stance_per_provision": {
         "data_api_access": "support",
         "health_equity": "support"
       },
-      "beyond_scope_topics": [
-        "medicare_reimbursement"
-      ]
+      "beyond_scope_topics": ["medicare_reimbursement"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0095",
-      "provisions": [
-        "burden_cost"
-      ],
+      "provisions": ["burden_cost"],
       "stance_per_provision": {
         "burden_cost": "support"
       },
@@ -4349,9 +4123,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0099",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -4375,9 +4147,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0094",
-      "provisions": [
-        "ai_governance"
-      ],
+      "provisions": ["ai_governance"],
       "stance_per_provision": {
         "ai_governance": "oppose"
       },
@@ -4385,11 +4155,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0091",
-      "provisions": [
-        "burden_cost",
-        "information_blocking",
-        "ai_governance"
-      ],
+      "provisions": ["burden_cost", "information_blocking", "ai_governance"],
       "stance_per_provision": {
         "burden_cost": "support",
         "information_blocking": "support",
@@ -4399,10 +4165,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0084",
-      "provisions": [
-        "data_api_access",
-        "information_blocking"
-      ],
+      "provisions": ["data_api_access", "information_blocking"],
       "stance_per_provision": {
         "data_api_access": "support",
         "information_blocking": "support"
@@ -4411,9 +4174,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0092",
-      "provisions": [
-        "ai_governance"
-      ],
+      "provisions": ["ai_governance"],
       "stance_per_provision": {
         "ai_governance": "support"
       },
@@ -4421,9 +4182,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0109",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "support"
       },
@@ -4431,9 +4190,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0111",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -4459,10 +4216,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0098",
-      "provisions": [
-        "privacy_security",
-        "information_blocking"
-      ],
+      "provisions": ["privacy_security", "information_blocking"],
       "stance_per_provision": {
         "privacy_security": "support",
         "information_blocking": "support"
@@ -4471,10 +4225,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0097",
-      "provisions": [
-        "privacy_security",
-        "uscdi_standards"
-      ],
+      "provisions": ["privacy_security", "uscdi_standards"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "uscdi_standards": "oppose"
@@ -4483,10 +4234,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0133",
-      "provisions": [
-        "burden_cost",
-        "data_api_access"
-      ],
+      "provisions": ["burden_cost", "data_api_access"],
       "stance_per_provision": {
         "burden_cost": "oppose",
         "data_api_access": "oppose"
@@ -4495,9 +4243,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0127",
-      "provisions": [
-        "ai_governance"
-      ],
+      "provisions": ["ai_governance"],
       "stance_per_provision": {
         "ai_governance": "oppose"
       },
@@ -4505,10 +4251,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0122",
-      "provisions": [
-        "information_blocking",
-        "clinical_cpoe"
-      ],
+      "provisions": ["information_blocking", "clinical_cpoe"],
       "stance_per_provision": {
         "information_blocking": "mixed",
         "clinical_cpoe": "mixed"
@@ -4531,10 +4274,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0119",
-      "provisions": [
-        "privacy_security",
-        "clinical_demographics"
-      ],
+      "provisions": ["privacy_security", "clinical_demographics"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "clinical_demographics": "oppose"
@@ -4543,9 +4283,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0120",
-      "provisions": [
-        "ai_governance"
-      ],
+      "provisions": ["ai_governance"],
       "stance_per_provision": {
         "ai_governance": "mixed"
       },
@@ -4571,10 +4309,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0128",
-      "provisions": [
-        "burden_cost",
-        "privacy_security"
-      ],
+      "provisions": ["burden_cost", "privacy_security"],
       "stance_per_provision": {
         "burden_cost": "mixed",
         "privacy_security": "mixed"
@@ -4583,11 +4318,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0138",
-      "provisions": [
-        "data_api_access",
-        "data_c_cda",
-        "information_blocking"
-      ],
+      "provisions": ["data_api_access", "data_c_cda", "information_blocking"],
       "stance_per_provision": {
         "data_api_access": "mixed",
         "data_c_cda": "mixed",
@@ -4597,10 +4328,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0152",
-      "provisions": [
-        "burden_cost",
-        "data_api_access"
-      ],
+      "provisions": ["burden_cost", "data_api_access"],
       "stance_per_provision": {
         "burden_cost": "oppose",
         "data_api_access": "oppose"
@@ -4629,9 +4357,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0157",
-      "provisions": [
-        "ai_governance"
-      ],
+      "provisions": ["ai_governance"],
       "stance_per_provision": {
         "ai_governance": "oppose"
       },
@@ -4639,10 +4365,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0151",
-      "provisions": [
-        "privacy_security",
-        "data_api_access"
-      ],
+      "provisions": ["privacy_security", "data_api_access"],
       "stance_per_provision": {
         "privacy_security": "mixed",
         "data_api_access": "mixed"
@@ -4651,9 +4374,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0137",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -4661,10 +4382,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0140",
-      "provisions": [
-        "privacy_security",
-        "information_blocking"
-      ],
+      "provisions": ["privacy_security", "information_blocking"],
       "stance_per_provision": {
         "privacy_security": "mixed",
         "information_blocking": "mixed"
@@ -4673,9 +4391,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0144",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -4683,10 +4399,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0153",
-      "provisions": [
-        "privacy_security",
-        "uscdi_standards"
-      ],
+      "provisions": ["privacy_security", "uscdi_standards"],
       "stance_per_provision": {
         "privacy_security": "mixed",
         "uscdi_standards": "mixed"
@@ -4741,10 +4454,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0129",
-      "provisions": [
-        "privacy_security",
-        "design_usability"
-      ],
+      "provisions": ["privacy_security", "design_usability"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "design_usability": "oppose"
@@ -4753,25 +4463,16 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0142",
-      "provisions": [
-        "privacy_security",
-        "information_blocking"
-      ],
+      "provisions": ["privacy_security", "information_blocking"],
       "stance_per_provision": {
         "privacy_security": "support",
         "information_blocking": "support"
       },
-      "beyond_scope_topics": [
-        "cms_interoperability_rules"
-      ]
+      "beyond_scope_topics": ["cms_interoperability_rules"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0132",
-      "provisions": [
-        "ai_governance",
-        "conditions_maintenance",
-        "data_c_cda"
-      ],
+      "provisions": ["ai_governance", "conditions_maintenance", "data_c_cda"],
       "stance_per_provision": {
         "ai_governance": "mixed",
         "conditions_maintenance": "mixed",
@@ -4781,11 +4482,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0135",
-      "provisions": [
-        "ai_governance",
-        "data_api_access",
-        "data_c_cda"
-      ],
+      "provisions": ["ai_governance", "data_api_access", "data_c_cda"],
       "stance_per_provision": {
         "ai_governance": "oppose",
         "data_api_access": "oppose",
@@ -4829,9 +4526,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0115",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "support"
       },
@@ -4839,11 +4534,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0136",
-      "provisions": [
-        "clinical_cds",
-        "design_usability",
-        "ai_governance"
-      ],
+      "provisions": ["clinical_cds", "design_usability", "ai_governance"],
       "stance_per_provision": {
         "clinical_cds": "oppose",
         "design_usability": "oppose",
@@ -4853,26 +4544,17 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0150",
-      "provisions": [
-        "information_blocking",
-        "data_api_access",
-        "data_c_cda"
-      ],
+      "provisions": ["information_blocking", "data_api_access", "data_c_cda"],
       "stance_per_provision": {
         "information_blocking": "support",
         "data_api_access": "support",
         "data_c_cda": "support"
       },
-      "beyond_scope_topics": [
-        "new_certification_criteria"
-      ]
+      "beyond_scope_topics": ["new_certification_criteria"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0117",
-      "provisions": [
-        "uscdi_standards",
-        "health_equity"
-      ],
+      "provisions": ["uscdi_standards", "health_equity"],
       "stance_per_provision": {
         "uscdi_standards": "oppose",
         "health_equity": "oppose"
@@ -4897,10 +4579,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0121",
-      "provisions": [
-        "privacy_security",
-        "ai_governance"
-      ],
+      "provisions": ["privacy_security", "ai_governance"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose"
@@ -4909,9 +4588,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0123",
-      "provisions": [
-        "burden_cost"
-      ],
+      "provisions": ["burden_cost"],
       "stance_per_provision": {
         "burden_cost": "oppose"
       },
@@ -4935,9 +4612,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0124",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -4945,11 +4620,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0125",
-      "provisions": [
-        "data_api_access",
-        "information_blocking",
-        "data_export"
-      ],
+      "provisions": ["data_api_access", "information_blocking", "data_export"],
       "stance_per_provision": {
         "data_api_access": "mixed",
         "information_blocking": "mixed",
@@ -4959,10 +4630,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0131",
-      "provisions": [
-        "information_blocking",
-        "health_equity"
-      ],
+      "provisions": ["information_blocking", "health_equity"],
       "stance_per_provision": {
         "information_blocking": "oppose",
         "health_equity": "oppose"
@@ -4971,9 +4639,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0126",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -4981,9 +4647,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0148",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -5009,10 +4673,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0146",
-      "provisions": [
-        "conditions_maintenance",
-        "ai_governance"
-      ],
+      "provisions": ["conditions_maintenance", "ai_governance"],
       "stance_per_provision": {
         "conditions_maintenance": "mixed",
         "ai_governance": "mixed"
@@ -5021,11 +4682,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0156",
-      "provisions": [
-        "privacy_security",
-        "ai_governance",
-        "data_api_access"
-      ],
+      "provisions": ["privacy_security", "ai_governance", "data_api_access"],
       "stance_per_provision": {
         "privacy_security": "support",
         "ai_governance": "support",
@@ -5035,9 +4692,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0143",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "oppose"
       },
@@ -5045,10 +4700,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0149",
-      "provisions": [
-        "privacy_security",
-        "data_api_access"
-      ],
+      "provisions": ["privacy_security", "data_api_access"],
       "stance_per_provision": {
         "privacy_security": "support",
         "data_api_access": "support"
@@ -5057,10 +4709,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0162",
-      "provisions": [
-        "privacy_security",
-        "clinical_cds"
-      ],
+      "provisions": ["privacy_security", "clinical_cds"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "clinical_cds": "oppose"
@@ -5069,9 +4718,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0160",
-      "provisions": [
-        "uscdi_standards"
-      ],
+      "provisions": ["uscdi_standards"],
       "stance_per_provision": {
         "uscdi_standards": "oppose"
       },
@@ -5079,22 +4726,15 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0167",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "oppose"
       },
-      "beyond_scope_topics": [
-        "other_beyond_scope"
-      ]
+      "beyond_scope_topics": ["other_beyond_scope"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0163",
-      "provisions": [
-        "privacy_security",
-        "clinical_drug_checks"
-      ],
+      "provisions": ["privacy_security", "clinical_drug_checks"],
       "stance_per_provision": {
         "privacy_security": "support",
         "clinical_drug_checks": "support"
@@ -5119,10 +4759,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0168",
-      "provisions": [
-        "data_c_cda",
-        "data_api_access"
-      ],
+      "provisions": ["data_c_cda", "data_api_access"],
       "stance_per_provision": {
         "data_c_cda": "support",
         "data_api_access": "support"
@@ -5131,10 +4768,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0165",
-      "provisions": [
-        "data_c_cda",
-        "data_api_access"
-      ],
+      "provisions": ["data_c_cda", "data_api_access"],
       "stance_per_provision": {
         "data_c_cda": "mixed",
         "data_api_access": "mixed"
@@ -5163,9 +4797,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0179",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -5205,10 +4837,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0169",
-      "provisions": [
-        "privacy_security",
-        "health_equity"
-      ],
+      "provisions": ["privacy_security", "health_equity"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "health_equity": "oppose"
@@ -5217,10 +4846,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0173",
-      "provisions": [
-        "information_blocking",
-        "data_api_access"
-      ],
+      "provisions": ["information_blocking", "data_api_access"],
       "stance_per_provision": {
         "information_blocking": "support",
         "data_api_access": "support"
@@ -5229,11 +4855,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0199",
-      "provisions": [
-        "privacy_security",
-        "ai_governance",
-        "uscdi_standards"
-      ],
+      "provisions": ["privacy_security", "ai_governance", "uscdi_standards"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose",
@@ -5243,9 +4865,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0201",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "support"
       },
@@ -5253,10 +4873,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0198",
-      "provisions": [
-        "information_blocking",
-        "data_api_access"
-      ],
+      "provisions": ["information_blocking", "data_api_access"],
       "stance_per_provision": {
         "information_blocking": "support",
         "data_api_access": "support"
@@ -5265,10 +4882,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0192",
-      "provisions": [
-        "uscdi_standards",
-        "information_blocking"
-      ],
+      "provisions": ["uscdi_standards", "information_blocking"],
       "stance_per_provision": {
         "uscdi_standards": "support",
         "information_blocking": "support"
@@ -5277,11 +4891,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0191",
-      "provisions": [
-        "privacy_security",
-        "ai_governance",
-        "data_api_access"
-      ],
+      "provisions": ["privacy_security", "ai_governance", "data_api_access"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose",
@@ -5291,10 +4901,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0197",
-      "provisions": [
-        "privacy_security",
-        "information_blocking"
-      ],
+      "provisions": ["privacy_security", "information_blocking"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "information_blocking": "oppose"
@@ -5303,10 +4910,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0186",
-      "provisions": [
-        "privacy_security",
-        "information_blocking"
-      ],
+      "provisions": ["privacy_security", "information_blocking"],
       "stance_per_provision": {
         "privacy_security": "support",
         "information_blocking": "support"
@@ -5345,10 +4949,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0189",
-      "provisions": [
-        "information_blocking",
-        "privacy_security"
-      ],
+      "provisions": ["information_blocking", "privacy_security"],
       "stance_per_provision": {
         "information_blocking": "support",
         "privacy_security": "support"
@@ -5357,11 +4958,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0166",
-      "provisions": [
-        "privacy_security",
-        "uscdi_standards",
-        "ai_governance"
-      ],
+      "provisions": ["privacy_security", "uscdi_standards", "ai_governance"],
       "stance_per_provision": {
         "privacy_security": "mixed",
         "uscdi_standards": "mixed",
@@ -5371,9 +4968,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0204",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "support"
       },
@@ -5381,11 +4976,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0184",
-      "provisions": [
-        "burden_cost",
-        "data_c_cda",
-        "data_api_access"
-      ],
+      "provisions": ["burden_cost", "data_c_cda", "data_api_access"],
       "stance_per_provision": {
         "burden_cost": "oppose",
         "data_c_cda": "oppose",
@@ -5395,9 +4986,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0202",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -5435,11 +5024,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0180",
-      "provisions": [
-        "data_c_cda",
-        "design_usability",
-        "ai_governance"
-      ],
+      "provisions": ["data_c_cda", "design_usability", "ai_governance"],
       "stance_per_provision": {
         "data_c_cda": "oppose",
         "design_usability": "oppose",
@@ -5449,10 +5034,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0171",
-      "provisions": [
-        "information_blocking",
-        "data_api_access"
-      ],
+      "provisions": ["information_blocking", "data_api_access"],
       "stance_per_provision": {
         "information_blocking": "oppose",
         "data_api_access": "oppose"
@@ -5461,9 +5043,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0172",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -5471,11 +5051,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0176",
-      "provisions": [
-        "burden_cost",
-        "data_api_access",
-        "data_c_cda"
-      ],
+      "provisions": ["burden_cost", "data_api_access", "data_c_cda"],
       "stance_per_provision": {
         "burden_cost": "support",
         "data_api_access": "support",
@@ -5485,9 +5061,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0174",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -5495,9 +5069,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0178",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -5523,11 +5095,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0183",
-      "provisions": [
-        "ai_governance",
-        "data_api_access",
-        "uscdi_standards"
-      ],
+      "provisions": ["ai_governance", "data_api_access", "uscdi_standards"],
       "stance_per_provision": {
         "ai_governance": "support",
         "data_api_access": "support",
@@ -5553,9 +5121,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0190",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -5563,9 +5129,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0200",
-      "provisions": [
-        "ai_governance"
-      ],
+      "provisions": ["ai_governance"],
       "stance_per_provision": {
         "ai_governance": "oppose"
       },
@@ -5573,10 +5137,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0188",
-      "provisions": [
-        "information_blocking",
-        "clinical_cpoe"
-      ],
+      "provisions": ["information_blocking", "clinical_cpoe"],
       "stance_per_provision": {
         "information_blocking": "oppose",
         "clinical_cpoe": "oppose"
@@ -5585,9 +5146,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0196",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "support"
       },
@@ -5630,10 +5189,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0203",
-      "provisions": [
-        "burden_cost",
-        "data_api_access"
-      ],
+      "provisions": ["burden_cost", "data_api_access"],
       "stance_per_provision": {
         "burden_cost": "oppose",
         "data_api_access": "oppose"
@@ -5658,9 +5214,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0229",
-      "provisions": [
-        "data_c_cda"
-      ],
+      "provisions": ["data_c_cda"],
       "stance_per_provision": {
         "data_c_cda": "mixed"
       },
@@ -5668,9 +5222,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0211",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "support"
       },
@@ -5678,9 +5230,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0237",
-      "provisions": [
-        "data_c_cda"
-      ],
+      "provisions": ["data_c_cda"],
       "stance_per_provision": {
         "data_c_cda": "oppose"
       },
@@ -5688,10 +5238,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0226",
-      "provisions": [
-        "ai_governance",
-        "information_blocking"
-      ],
+      "provisions": ["ai_governance", "information_blocking"],
       "stance_per_provision": {
         "ai_governance": "oppose",
         "information_blocking": "oppose"
@@ -5700,10 +5247,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0236",
-      "provisions": [
-        "ai_governance",
-        "clinical_cds"
-      ],
+      "provisions": ["ai_governance", "clinical_cds"],
       "stance_per_provision": {
         "ai_governance": "support",
         "clinical_cds": "support"
@@ -5712,9 +5256,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0220",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "mixed"
       },
@@ -5722,11 +5264,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0234",
-      "provisions": [
-        "privacy_security",
-        "data_c_cda",
-        "information_blocking"
-      ],
+      "provisions": ["privacy_security", "data_c_cda", "information_blocking"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "data_c_cda": "oppose",
@@ -5736,11 +5274,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0217",
-      "provisions": [
-        "ai_governance",
-        "data_c_cda",
-        "data_api_access"
-      ],
+      "provisions": ["ai_governance", "data_c_cda", "data_api_access"],
       "stance_per_provision": {
         "ai_governance": "oppose",
         "data_c_cda": "oppose",
@@ -5760,15 +5294,11 @@
         "privacy_security": "support",
         "data_api_access": "support"
       },
-      "beyond_scope_topics": [
-        "medicare_reimbursement"
-      ]
+      "beyond_scope_topics": ["medicare_reimbursement"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0219",
-      "provisions": [
-        "clinical_cds"
-      ],
+      "provisions": ["clinical_cds"],
       "stance_per_provision": {
         "clinical_cds": "support"
       },
@@ -5776,11 +5306,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0216",
-      "provisions": [
-        "privacy_security",
-        "ai_governance",
-        "clinical_cds"
-      ],
+      "provisions": ["privacy_security", "ai_governance", "clinical_cds"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose",
@@ -5790,9 +5316,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0235",
-      "provisions": [
-        "burden_cost"
-      ],
+      "provisions": ["burden_cost"],
       "stance_per_provision": {
         "burden_cost": "support"
       },
@@ -5800,9 +5324,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0228",
-      "provisions": [
-        "uscdi_standards"
-      ],
+      "provisions": ["uscdi_standards"],
       "stance_per_provision": {
         "uscdi_standards": "support"
       },
@@ -5826,9 +5348,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0231",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -5836,9 +5356,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0208",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
@@ -5878,10 +5396,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0232",
-      "provisions": [
-        "data_export",
-        "information_blocking"
-      ],
+      "provisions": ["data_export", "information_blocking"],
       "stance_per_provision": {
         "data_export": "oppose",
         "information_blocking": "oppose"
@@ -5890,10 +5405,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0225",
-      "provisions": [
-        "uscdi_standards",
-        "health_equity"
-      ],
+      "provisions": ["uscdi_standards", "health_equity"],
       "stance_per_provision": {
         "uscdi_standards": "oppose",
         "health_equity": "oppose"
@@ -5902,10 +5414,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0227",
-      "provisions": [
-        "health_equity",
-        "uscdi_standards"
-      ],
+      "provisions": ["health_equity", "uscdi_standards"],
       "stance_per_provision": {
         "health_equity": "oppose",
         "uscdi_standards": "oppose"
@@ -5914,9 +5423,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0238",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "mixed"
       },
@@ -5924,10 +5431,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0230",
-      "provisions": [
-        "ai_governance",
-        "clinical_cds"
-      ],
+      "provisions": ["ai_governance", "clinical_cds"],
       "stance_per_provision": {
         "ai_governance": "support",
         "clinical_cds": "support"
@@ -5936,10 +5440,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0239",
-      "provisions": [
-        "information_blocking",
-        "clinical_cds"
-      ],
+      "provisions": ["information_blocking", "clinical_cds"],
       "stance_per_provision": {
         "information_blocking": "support",
         "clinical_cds": "support"
@@ -5964,10 +5465,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0218",
-      "provisions": [
-        "privacy_security",
-        "data_c_cda"
-      ],
+      "provisions": ["privacy_security", "data_c_cda"],
       "stance_per_provision": {
         "privacy_security": "support",
         "data_c_cda": "support"
@@ -5976,10 +5474,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0215",
-      "provisions": [
-        "privacy_security",
-        "health_equity"
-      ],
+      "provisions": ["privacy_security", "health_equity"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "health_equity": "oppose"
@@ -6004,11 +5499,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0223",
-      "provisions": [
-        "data_c_cda",
-        "data_api_access",
-        "uscdi_standards"
-      ],
+      "provisions": ["data_c_cda", "data_api_access", "uscdi_standards"],
       "stance_per_provision": {
         "data_c_cda": "support",
         "data_api_access": "support",
@@ -6018,10 +5509,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0207",
-      "provisions": [
-        "burden_cost",
-        "data_api_access"
-      ],
+      "provisions": ["burden_cost", "data_api_access"],
       "stance_per_provision": {
         "burden_cost": "oppose",
         "data_api_access": "oppose"
@@ -6030,10 +5518,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0206",
-      "provisions": [
-        "information_blocking",
-        "data_api_access"
-      ],
+      "provisions": ["information_blocking", "data_api_access"],
       "stance_per_provision": {
         "information_blocking": "support",
         "data_api_access": "support"
@@ -6042,9 +5527,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0213",
-      "provisions": [
-        "data_c_cda"
-      ],
+      "provisions": ["data_c_cda"],
       "stance_per_provision": {
         "data_c_cda": "oppose"
       },
@@ -6052,9 +5535,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0241",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
@@ -6062,10 +5543,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0243",
-      "provisions": [
-        "information_blocking",
-        "privacy_security"
-      ],
+      "provisions": ["information_blocking", "privacy_security"],
       "stance_per_provision": {
         "information_blocking": "support",
         "privacy_security": "support"
@@ -6090,9 +5568,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0247",
-      "provisions": [
-        "burden_cost"
-      ],
+      "provisions": ["burden_cost"],
       "stance_per_provision": {
         "burden_cost": "support"
       },
@@ -6100,9 +5576,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0252",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -6110,10 +5584,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0251",
-      "provisions": [
-        "data_c_cda",
-        "data_api_access"
-      ],
+      "provisions": ["data_c_cda", "data_api_access"],
       "stance_per_provision": {
         "data_c_cda": "support",
         "data_api_access": "support"
@@ -6122,10 +5593,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0268",
-      "provisions": [
-        "data_export",
-        "conditions_maintenance"
-      ],
+      "provisions": ["data_export", "conditions_maintenance"],
       "stance_per_provision": {
         "data_export": "support",
         "conditions_maintenance": "support"
@@ -6134,9 +5602,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0269",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "oppose"
       },
@@ -6144,9 +5610,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0276",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -6154,10 +5618,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0285",
-      "provisions": [
-        "clinical_demographics",
-        "data_api_access"
-      ],
+      "provisions": ["clinical_demographics", "data_api_access"],
       "stance_per_provision": {
         "clinical_demographics": "support",
         "data_api_access": "support"
@@ -6166,9 +5627,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0275",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "support"
       },
@@ -6176,9 +5635,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0292",
-      "provisions": [
-        "data_c_cda"
-      ],
+      "provisions": ["data_c_cda"],
       "stance_per_provision": {
         "data_c_cda": "support"
       },
@@ -6186,9 +5643,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0288",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
@@ -6196,10 +5651,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0287",
-      "provisions": [
-        "data_c_cda",
-        "clinical_cpoe"
-      ],
+      "provisions": ["data_c_cda", "clinical_cpoe"],
       "stance_per_provision": {
         "data_c_cda": "oppose",
         "clinical_cpoe": "oppose"
@@ -6208,9 +5660,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0291",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
@@ -6218,10 +5668,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0296",
-      "provisions": [
-        "ai_governance",
-        "clinical_cds"
-      ],
+      "provisions": ["ai_governance", "clinical_cds"],
       "stance_per_provision": {
         "ai_governance": "support",
         "clinical_cds": "support"
@@ -6230,11 +5677,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0298",
-      "provisions": [
-        "privacy_security",
-        "ai_governance",
-        "design_usability"
-      ],
+      "provisions": ["privacy_security", "ai_governance", "design_usability"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose",
@@ -6244,9 +5687,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0306",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -6254,10 +5695,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0289",
-      "provisions": [
-        "uscdi_standards",
-        "data_api_access"
-      ],
+      "provisions": ["uscdi_standards", "data_api_access"],
       "stance_per_provision": {
         "uscdi_standards": "support",
         "data_api_access": "support"
@@ -6266,9 +5704,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0300",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "support"
       },
@@ -6276,25 +5712,17 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0290",
-      "provisions": [
-        "privacy_security",
-        "ai_governance",
-        "data_c_cda"
-      ],
+      "provisions": ["privacy_security", "ai_governance", "data_c_cda"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose",
         "data_c_cda": "oppose"
       },
-      "beyond_scope_topics": [
-        "cms_interoperability_rules"
-      ]
+      "beyond_scope_topics": ["cms_interoperability_rules"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0297",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -6302,9 +5730,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0282",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "oppose"
       },
@@ -6312,9 +5738,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0305",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "support"
       },
@@ -6322,10 +5746,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0280",
-      "provisions": [
-        "data_c_cda",
-        "privacy_security"
-      ],
+      "provisions": ["data_c_cda", "privacy_security"],
       "stance_per_provision": {
         "data_c_cda": "oppose",
         "privacy_security": "oppose"
@@ -6334,10 +5755,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0283",
-      "provisions": [
-        "health_equity",
-        "data_api_access"
-      ],
+      "provisions": ["health_equity", "data_api_access"],
       "stance_per_provision": {
         "health_equity": "support",
         "data_api_access": "support"
@@ -6346,11 +5764,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0281",
-      "provisions": [
-        "privacy_security",
-        "ai_governance",
-        "clinical_cds"
-      ],
+      "provisions": ["privacy_security", "ai_governance", "clinical_cds"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose",
@@ -6360,9 +5774,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0274",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -6370,9 +5782,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0246",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "mixed"
       },
@@ -6380,11 +5790,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0245",
-      "provisions": [
-        "privacy_security",
-        "ai_governance",
-        "clinical_cds"
-      ],
+      "provisions": ["privacy_security", "ai_governance", "clinical_cds"],
       "stance_per_provision": {
         "privacy_security": "oppose",
         "ai_governance": "oppose",
@@ -6394,10 +5800,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0249",
-      "provisions": [
-        "burden_cost",
-        "clinical_cds"
-      ],
+      "provisions": ["burden_cost", "clinical_cds"],
       "stance_per_provision": {
         "burden_cost": "oppose",
         "clinical_cds": "oppose"
@@ -6406,9 +5809,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0261",
-      "provisions": [
-        "data_c_cda"
-      ],
+      "provisions": ["data_c_cda"],
       "stance_per_provision": {
         "data_c_cda": "oppose"
       },
@@ -6416,9 +5817,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0259",
-      "provisions": [
-        "data_c_cda"
-      ],
+      "provisions": ["data_c_cda"],
       "stance_per_provision": {
         "data_c_cda": "support"
       },
@@ -6426,10 +5825,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0262",
-      "provisions": [
-        "information_blocking",
-        "clinical_drug_checks"
-      ],
+      "provisions": ["information_blocking", "clinical_drug_checks"],
       "stance_per_provision": {
         "information_blocking": "support",
         "clinical_drug_checks": "support"
@@ -6438,9 +5834,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0257",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "mixed"
       },
@@ -6448,9 +5842,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0256",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
@@ -6458,9 +5850,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0258",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "support"
       },
@@ -6468,9 +5858,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0266",
-      "provisions": [
-        "burden_cost"
-      ],
+      "provisions": ["burden_cost"],
       "stance_per_provision": {
         "burden_cost": "support"
       },
@@ -6496,9 +5884,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0272",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "support"
       },
@@ -6522,9 +5908,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0242",
-      "provisions": [
-        "ai_governance"
-      ],
+      "provisions": ["ai_governance"],
       "stance_per_provision": {
         "ai_governance": "support"
       },
@@ -6532,11 +5916,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0254",
-      "provisions": [
-        "burden_cost",
-        "data_c_cda",
-        "ai_governance"
-      ],
+      "provisions": ["burden_cost", "data_c_cda", "ai_governance"],
       "stance_per_provision": {
         "burden_cost": "support",
         "data_c_cda": "support",
@@ -6546,9 +5926,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0253",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -6556,10 +5934,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0255",
-      "provisions": [
-        "data_c_cda",
-        "ai_governance"
-      ],
+      "provisions": ["data_c_cda", "ai_governance"],
       "stance_per_provision": {
         "data_c_cda": "support",
         "ai_governance": "support"
@@ -6568,10 +5943,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0250",
-      "provisions": [
-        "information_blocking",
-        "clinical_cds"
-      ],
+      "provisions": ["information_blocking", "clinical_cds"],
       "stance_per_provision": {
         "information_blocking": "support",
         "clinical_cds": "support"
@@ -6580,9 +5952,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0248",
-      "provisions": [
-        "data_c_cda"
-      ],
+      "provisions": ["data_c_cda"],
       "stance_per_provision": {
         "data_c_cda": "support"
       },
@@ -6590,9 +5960,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0240",
-      "provisions": [
-        "burden_cost"
-      ],
+      "provisions": ["burden_cost"],
       "stance_per_provision": {
         "burden_cost": "support"
       },
@@ -6600,9 +5968,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0265",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "oppose"
       },
@@ -6610,21 +5976,15 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0264",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "support"
       },
-      "beyond_scope_topics": [
-        "other_beyond_scope"
-      ]
+      "beyond_scope_topics": ["other_beyond_scope"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0267",
-      "provisions": [
-        "health_equity"
-      ],
+      "provisions": ["health_equity"],
       "stance_per_provision": {
         "health_equity": "oppose"
       },
@@ -6632,9 +5992,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0286",
-      "provisions": [
-        "data_api_access"
-      ],
+      "provisions": ["data_api_access"],
       "stance_per_provision": {
         "data_api_access": "oppose"
       },
@@ -6642,9 +6000,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0277",
-      "provisions": [
-        "uscdi_standards"
-      ],
+      "provisions": ["uscdi_standards"],
       "stance_per_provision": {
         "uscdi_standards": "support"
       },
@@ -6652,9 +6008,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0271",
-      "provisions": [
-        "health_equity"
-      ],
+      "provisions": ["health_equity"],
       "stance_per_provision": {
         "health_equity": "mixed"
       },
@@ -6662,22 +6016,15 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0278",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "support"
       },
-      "beyond_scope_topics": [
-        "new_certification_criteria"
-      ]
+      "beyond_scope_topics": ["new_certification_criteria"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0294",
-      "provisions": [
-        "data_c_cda",
-        "data_api_access"
-      ],
+      "provisions": ["data_c_cda", "data_api_access"],
       "stance_per_provision": {
         "data_c_cda": "oppose",
         "data_api_access": "oppose"
@@ -6686,9 +6033,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0295",
-      "provisions": [
-        "privacy_security"
-      ],
+      "provisions": ["privacy_security"],
       "stance_per_provision": {
         "privacy_security": "oppose"
       },
@@ -6696,21 +6041,15 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0293",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "oppose"
       },
-      "beyond_scope_topics": [
-        "state_regulations"
-      ]
+      "beyond_scope_topics": ["state_regulations"]
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0279",
-      "provisions": [
-        "information_blocking"
-      ],
+      "provisions": ["information_blocking"],
       "stance_per_provision": {
         "information_blocking": "oppose"
       },
@@ -6718,9 +6057,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0284",
-      "provisions": [
-        "general_framework"
-      ],
+      "provisions": ["general_framework"],
       "stance_per_provision": {
         "general_framework": "support"
       },
@@ -6772,9 +6109,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0301",
-      "provisions": [
-        "health_equity"
-      ],
+      "provisions": ["health_equity"],
       "stance_per_provision": {
         "health_equity": "oppose"
       },
@@ -6782,10 +6117,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0302",
-      "provisions": [
-        "information_blocking",
-        "ai_governance"
-      ],
+      "provisions": ["information_blocking", "ai_governance"],
       "stance_per_provision": {
         "information_blocking": "support",
         "ai_governance": "support"
@@ -6794,10 +6126,7 @@
     },
     {
       "comment_id": "HHS-ONC-2025-0005-0304",
-      "provisions": [
-        "ai_governance",
-        "privacy_security"
-      ],
+      "provisions": ["ai_governance", "privacy_security"],
       "stance_per_provision": {
         "ai_governance": "oppose",
         "privacy_security": "oppose"

@@ -119,10 +119,7 @@
     "position": "strongly_support_deregulation",
     "position_label": "Strongly Support",
     "sentiment_score": 3,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "burden_reduction"],
     "summary": "Trilogy Innovation, Inc. strongly supports the HTI-5 proposed deregulatory rule, emphasizing its alignment with agile, FHIR-based interoperability and reduced certification burdens. They highlight the benefits of removing outdated certification criteria to enable innovation and improved government service delivery.",
     "notable_quote": "We particularly commend the removal of outdated, low-value certification criteria, which too often impose administrative burdens.",
     "recommendations": [
@@ -141,10 +138,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "audit_log_standards",
-      "fhir_standards"
-    ],
+    "themes": ["audit_log_standards", "fhir_standards"],
     "summary": "The commenter urges CMS and ONC to require delegated entities to adopt FHIR APIs for delegated functions, collaborate with accrediting bodies to enforce FHIR interoperability in hospitals, and monitor state public health agencies' FHIR endpoint adoption. These steps are seen as critical to advancing API adoption and interoperability.",
     "notable_quote": "These organizations need to be held accountable to such movement to APIs and using FHIR in production.",
     "recommendations": [
@@ -535,11 +529,7 @@
     "position": "neutral_mixed",
     "position_label": "Mixed/Neutral",
     "sentiment_score": 0,
-    "themes": [
-      "audit_log_standards",
-      "ai_regulation",
-      "patient_safety"
-    ],
+    "themes": ["audit_log_standards", "ai_regulation", "patient_safety"],
     "summary": "I submit this comment based on my professional experience as both a clinician and a legal professional.",
     "notable_quote": "Interoperability is essential for patient safety and continuity of care and is necessary to comply with the Trusted Exchange Framework and Common Agreement (TEFCA).",
     "recommendations": [
@@ -748,11 +738,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "patient_safety"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "patient_safety"],
     "summary": "The commenter, with experience in health care administration, strongly opposes the proposed deregulation of health IT standards and certification criteria. They argue that deregulation would increase financial burdens on health institutions and states while enabling for-profit companies to operate without adequate patient and worker protections.",
     "notable_quote": "This proposed deregulation places more of a financial burden on health institutions and states",
     "recommendations": [
@@ -908,11 +894,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 2,
-    "themes": [
-      "fhir_standards",
-      "ccda_removal",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
     "summary": "The commenter urges ONC/ASTP to accelerate the transition from CDA/CCDA to FHIR Clinical Documents, emphasizing the need for a clear timeline and support. They highlight implementers' preference for funding and assistance to facilitate this industry-wide shift.",
     "notable_quote": "ASTP/ONC should accelerate the industry’s transition from CDA/CCDA to FHIR Clinical Documents.",
     "recommendations": [
@@ -1041,9 +1023,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 2,
-    "themes": [
-      "fhir_standards"
-    ],
+    "themes": ["fhir_standards"],
     "summary": "The commenter suggests that ASTP/ONC should consider evolving FHIR APIs to align with graph query standards like ISO 39075. This alignment would enhance relationship-aware interoperability and enable returning context graphs while maintaining REST-based interoperability.",
     "notable_quote": "ASTP/ONC should look at the evolution of FHIR APIs to align with graph query standards, such as ISO 39075.",
     "recommendations": [
@@ -1062,11 +1042,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "clinical_workflow"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
     "summary": "The commenter values current EHR certification criteria for supporting coordinated and secure healthcare and acknowledges the need to reduce barriers for new vendors. However, they oppose removing certification criteria outright and suggest shifting them to attestation to maintain important features without certification burden.",
     "notable_quote": "It is my proposal that any criteria you intend to remove simply be shifted to attestation.",
     "recommendations": [
@@ -1086,9 +1062,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards"
-    ],
+    "themes": ["fhir_standards"],
     "summary": "The commenter suggests that ASTP/ONC should evaluate real-time and push notification capabilities using advanced FHIR APIs combined with serverless processing, durable streaming technologies, and real-time analytics frameworks. They reference a journal article reviewing tools and techniques for real-time data processing to support this suggestion.",
     "notable_quote": "ASTP/ONC should assess real time and push notifications using FHIR APIs with serverless processing",
     "recommendations": [
@@ -1109,10 +1083,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards",
-      "uscdi_data_classes"
-    ],
+    "themes": ["fhir_standards", "uscdi_data_classes"],
     "summary": "The commenter urges that all first tier, downstream, and related entities (FDR) be required to implement the latest Da Vinci, CARIN Alliance, and Gravity Project FHIR Implementation Guides (IGs) to ensure comprehensive interoperability and data exchange.",
     "notable_quote": "FDR shall be required to use all of the latest Da Vinci, CARIN Alliance, and Gravity Project FHIR IGs.",
     "recommendations": [
@@ -1163,10 +1134,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 2,
-    "themes": [
-      "fhir_standards",
-      "ccda_removal"
-    ],
+    "themes": ["fhir_standards", "ccda_removal"],
     "summary": "The commenter highlights that several countries including Australia, Austria, and Estonia are migrating from CDA to FHIR, emphasizing that the US must keep pace with global interoperability standards by 2035-2037. The US is positioned as a benchmark for nationwide interoperability and should align with this global direction.",
     "notable_quote": "This is the direction that global architecture is heading.",
     "recommendations": [
@@ -1186,9 +1154,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards"
-    ],
+    "themes": ["fhir_standards"],
     "summary": "The commenter suggests that future rulemaking should consider adopting additional FHIR Implementation Guides (IGs) to enhance interoperability and data standardization. Specific FHIR IGs recommended include Laboratory Reporting, Medicolegal Death Investigation, Physical Activity, Structured Data Capture, and Genomics Reporting.",
     "notable_quote": "Future consideration should be given to adopt more FHIR IGs into future rulemaking",
     "recommendations": [
@@ -1262,10 +1228,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "burden_reduction"],
     "summary": "The Oregon Health Authority strongly opposes the proposed deregulatory actions in HTI-5, arguing that reducing health IT standards will slow data flow, increase variability, and undermine public health surveillance infrastructure. They emphasize that maintaining strong, enforceable standards is essential for timely, uniform, and reliable public health data exchange.",
     "notable_quote": "Reducing standardization slows the flow of usable data, increases inconsistencies, and degrades public health response.",
     "recommendations": [
@@ -1342,10 +1305,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 1,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "burden_reduction"],
     "summary": "SLI Compliance requests clarification and streamlining regarding Real World Testing (RWT) and SVAP reporting requirements, expresses concern about reverting to older 170.315(f)(5)(i) standards, and points out incorrect references in 170.315(e)(1). They emphasize reducing developer burden and avoiding redundant reporting.",
     "notable_quote": "We question the value of requiring developers to submit a Real World Test Results Report containing only that same information.",
     "recommendations": [
@@ -1447,10 +1407,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "burden_reduction"],
     "summary": "The Pew Charitable Trusts urges maintaining certain health IT certification requirements critical for public health data reporting, including immunization data exchange and electronic case reporting standards. They oppose removing or weakening these requirements, emphasizing the importance of standardized, timely, and accurate data exchange to support public health efforts.",
     "notable_quote": "The potential removal of this measure impedes federal, state, and local efforts to assess and improve public health and clinical data exchange.",
     "recommendations": [
@@ -1529,11 +1486,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "fhir_standards",
-      "data_privacy",
-      "information_blocking"
-    ],
+    "themes": ["fhir_standards", "data_privacy", "information_blocking"],
     "summary": "The commenter argues that non-standards-based formats like PDFs, faxes, JPEGs, and TIFs should not be accepted as substitutes for structured electronic health information exchange. They urge ONC/ASTP and CMS to remove these formats as HIPAA electronic substitutes and recommend enforcement actions against entities that persist in using them.",
     "notable_quote": "Electronic PDFs, faxes, electronic faxes, JPEGs, and TIFs shall never substitute for standards based electronic transactions.",
     "recommendations": [
@@ -1583,11 +1536,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "fhir_standards",
-      "clinical_workflow",
-      "patient_safety"
-    ],
+    "themes": ["fhir_standards", "clinical_workflow", "patient_safety"],
     "summary": "The commenter expresses concern about the continued use of non-interoperable formats like PDFs, faxes, JPEGs, or TIFs for data exchange. They suggest that repeated reliance on these formats should trigger review by the Joint Commission to ensure better interoperability and data exchange standards.",
     "notable_quote": "Repeated attempts to exchange data via PDFs, faxes, JPEGs or TIFs should be subject to review by the Joint Commission.",
     "recommendations": [
@@ -1634,10 +1583,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "information_blocking"
-    ],
+    "themes": ["fhir_standards", "information_blocking"],
     "summary": "The commenter argues that CSV files and spreadsheets should not replace standards-based electronic transactions or structured EHI exchange. They emphasize that standards-based machine-readable formats via APIs must be required for electronic health information exchange.",
     "notable_quote": "CSV files and spreadsheets shall never substitute for standards based electronic transactions or structured EHI exchange.",
     "recommendations": [
@@ -1657,10 +1603,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "information_blocking"
-    ],
+    "themes": ["fhir_standards", "information_blocking"],
     "summary": "The commenter argues that non-standards-based formats like PDFs, faxes, JPEGs, and TIFs should never replace standards-based electronic transactions or structured EHI exchange. They assert that entities using such formats are committing information blocking and emphasize the necessity of standards-based machine-readable formats exchanged via APIs.",
     "notable_quote": "Entities that only send electronic PDFs, electronic faxes, faxes, JPEGs, or TIF files are committing information blocking.",
     "recommendations": [
@@ -1681,11 +1624,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "patient_safety",
-      "burden_reduction",
-      "clinical_workflow"
-    ],
+    "themes": ["patient_safety", "burden_reduction", "clinical_workflow"],
     "summary": "The commenter, a practicing physician, urges ONC/ASTP to retain usability testing and safety-focused design certification criteria for EHRs, emphasizing that these are critical for patient safety. They argue that removing these requirements risks increased errors, clinician burden, and patient harm.",
     "notable_quote": "EHR usability is not an abstract concern, it is a patient safety issue.",
     "recommendations": [
@@ -1755,11 +1694,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 2,
-    "themes": [
-      "information_blocking",
-      "clinical_workflow",
-      "patient_safety"
-    ],
+    "themes": ["information_blocking", "clinical_workflow", "patient_safety"],
     "summary": "The commenter supports removing information blocking exceptions due to observed misuse and highlights additional information blocking behaviors such as leaving encounters open, duplicate patient records, and not finalizing radiology studies. They request HHS to address these problematic behaviors.",
     "notable_quote": "I fully support the removal of information blocking exceptions proposed and have observed misuse.",
     "recommendations": [
@@ -1808,10 +1743,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 2,
-    "themes": [
-      "ccda_removal",
-      "burden_reduction"
-    ],
+    "themes": ["ccda_removal", "burden_reduction"],
     "summary": "The commenter generally supports the deregulatory actions in HTI-5, believing removed criteria reflect widely adopted or unused features. However, they argue ONC underestimates the true cost of rule review and overestimates savings from deregulatory actions.",
     "notable_quote": "The removed criteria either represent a capability unlikely to disappear or was never really adopted in the first place.",
     "recommendations": [
@@ -1977,10 +1909,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "burden_reduction"],
     "summary": "The Association of Public Health Laboratories opposes key deregulatory actions in the HTI-5 rule, emphasizing that removing standards and certification requirements will increase costs and complexity for public health reporting. They advocate for maintaining certification for public health systems, adopting LOI and LRI standards for lab orders/results, allowing standardized contracts in public health contexts, and recognizing the unique needs of public health interoperability.",
     "notable_quote": "Standards are not bureaucratic obstacles; they are the foundation of true interoperability.",
     "recommendations": [
@@ -2059,11 +1988,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "burden_reduction",
-      "health_equity",
-      "patient_safety"
-    ],
+    "themes": ["burden_reduction", "health_equity", "patient_safety"],
     "summary": "The commenter urges protection of the human right to healthcare for all Americans and immigrants, emphasizing the importance of supporting vulnerable populations. The comment implies concern about potential negative impacts of deregulation on healthcare access and equity.",
     "notable_quote": "Please protect the human right to healthcare for all Americans and those who choose to come to the country.",
     "recommendations": [
@@ -2166,9 +2091,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards"
-    ],
+    "themes": ["fhir_standards"],
     "summary": "The commenter emphasizes the need to accelerate adoption of the latest FHIR Implementation Guides (IGs) across US states and territories to achieve nationwide Medicaid interoperability. They urge CMS and ASTP/ONC to monitor and report on the adoption status of key FHIR IGs such as Da Vinci, CARIN, and Gravity Project.",
     "notable_quote": "CMS and ASTP/ONC need to monitor FHIR IG adoption by US states and territories.",
     "recommendations": [
@@ -2528,11 +2451,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "clinical_workflow"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
     "summary": "The North American Association of Central Cancer Registries supports HTI-5's goals to reduce burden and modernize standards but opposes removing the §170.315(f)(4) certification criterion for cancer registry transmission before FHIR-based reporting is mature. They warn this removal risks disrupting timely, standardized cancer reporting, increasing provider burden, and reducing data quality.",
     "notable_quote": "Removal of §170.315(f)(4) risks disrupting timely incidence cancer reporting and increasing provider burden.",
     "recommendations": [
@@ -2606,10 +2525,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards",
-      "uscdi_data_classes"
-    ],
+    "themes": ["fhir_standards", "uscdi_data_classes"],
     "summary": "The commenter urges acceleration of FHIR API adoption and alignment with the latest FHIR Implementation Guides (IGs) across US states and territories to promote nationwide Medicaid interoperability. They recommend CMS and ASTP/ONC monitor adoption rates of specific FHIR IGs to track progress.",
     "notable_quote": "CMS and ASTP/ONC need to monitor FHIR IG adoption by US states and territories.",
     "recommendations": [
@@ -2629,11 +2545,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 2,
-    "themes": [
-      "fhir_standards",
-      "ccda_removal",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
     "summary": "The Oncology Nursing Society supports removing the 'Transmission to Cancer Registries' certification criterion to reduce burden, recognizing ongoing modernization efforts toward FHIR-based reporting. However, they urge delaying removal until cancer registries can practically receive electronic data to avoid disrupting cancer surveillance.",
     "notable_quote": "ONS urges ASTP/ONC to delay removal until registries demonstrate readiness to support modernized electronic reporting.",
     "recommendations": [
@@ -2709,11 +2621,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "patient_safety",
-      "burden_reduction",
-      "clinical_workflow"
-    ],
+    "themes": ["patient_safety", "burden_reduction", "clinical_workflow"],
     "summary": "MedStar Health urges ONC to retain usability testing requirements to prevent design flaws that could cause patient harm and clinician inefficiency. They emphasize the importance of maintaining safeguards to ensure safety and usability in health IT products.",
     "notable_quote": "Please keep our patients and clinicians safe and keep usability testing in place!",
     "recommendations": [
@@ -2819,10 +2727,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 2,
-    "themes": [
-      "burden_reduction",
-      "health_equity"
-    ],
+    "themes": ["burden_reduction", "health_equity"],
     "summary": "The commenter supports the proposed deregulatory actions, noting that standardization reduces errors during upgrades and improves data accuracy. They suggest that if more data is needed for research, special studies can be conducted instead of burdening routine data collection.",
     "notable_quote": "If you make things standard you will get accurate data and if research need more data then u can have a special study done.",
     "recommendations": [
@@ -2989,11 +2894,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "patient_safety",
-      "ai_regulation",
-      "health_equity"
-    ],
+    "themes": ["patient_safety", "ai_regulation", "health_equity"],
     "summary": "The Texas Health Informatics Alliance emphasizes the need for mandatory AI governance within certified health IT to ensure patient safety, equity, and quality. They urge alignment of HTI-5 with the ANSI 2800:2025 AI Governance Framework and call for explicit data quality and governance requirements to support effective AI oversight.",
     "notable_quote": "AI governance must be treated as a patient safety, equity, quality, and leadership responsibility.",
     "recommendations": [
@@ -3215,11 +3116,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "clinical_workflow"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
     "summary": "The commenter supports HTI-5's goals to reduce burden and modernize standards but opposes removing the §170.315(f)(4) certification criterion for cancer registry transmission. They argue that FHIR-based resources are immature, removal risks disrupting timely cancer reporting, and eliminating certification incentives may reduce interoperability and data quality.",
     "notable_quote": "Removal of §170.315(f)(4) risks disrupting timely incidence cancer reporting and increases provider burden.",
     "recommendations": [
@@ -4889,11 +4786,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "data_privacy"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "data_privacy"],
     "summary": "CVS Health supports the goal of reducing regulatory burden to advance interoperability but urges caution to avoid undermining trust and progress. They emphasize the need for a clear, consistent FHIR strategy and maintaining privacy, security, and clinical quality measure certification criteria to ensure stable, trustworthy health IT ecosystems.",
     "notable_quote": "Too much deregulation too fast could unintentionally delay the advancement of the Administration’s broader goals.",
     "recommendations": [
@@ -4915,11 +4808,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "ccda_removal",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
     "summary": "JPHIT appreciates efforts to reduce regulatory burden but strongly urges retaining legacy standards like CDA and HL7 v2 for public health reporting until FHIR is mature and widely adopted. They emphasize the need for sustained investment and time for public health agencies to transition to FHIR without disrupting existing data flows and compromising data quality.",
     "notable_quote": "Removing these standards would reverse years of progress and squander substantial investments.",
     "recommendations": [
@@ -5060,11 +4949,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "clinical_workflow"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
     "summary": "The American Clinical Laboratory Association expresses cautious concern about ONC's proposed deregulatory actions, emphasizing the need to maintain data quality and interoperability standards critical to laboratory operations. They urge ONC to clarify policies on electronic signatures, the manner exception, and to carefully consider the impact of removing certification criteria on laboratories' operational burdens.",
     "notable_quote": "HL7v2 is a 'transactional' standard capable of handling high-volume clinical laboratory ordering and resulting.",
     "recommendations": [
@@ -5140,11 +5025,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "health_equity"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "health_equity"],
     "summary": "USAging supports the overall deregulatory intent of the HTI-5 proposed rule but strongly opposes removing certification requirements for Direct Project protocols. They emphasize that Direct Secure Messaging is critical for secure health information exchange between health care and community-based organizations, especially for older adults and people with disabilities.",
     "notable_quote": "Removing this element may lead to increased workload and widen the divide between health and social care systems.",
     "recommendations": [
@@ -5164,10 +5045,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "burden_reduction"],
     "summary": "The Council of State and Territorial Epidemiologists (CSTE) opposes the proposed deregulation in HTI-5 that would remove or revise public health reporting certification criteria, emphasizing the need to maintain standardized data exchange to ensure data quality and interoperability. They urge ONC to adopt updated standards and maintain certification criteria that support consistent, high-quality public health data reporting nationwide.",
     "notable_quote": "CSTE opposes ASTP/ONC’s proposal to deregulate HIT certification by removing or revising public health reporting criteria.",
     "recommendations": [
@@ -5299,11 +5177,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "ai_regulation",
-      "health_equity",
-      "patient_safety"
-    ],
+    "themes": ["ai_regulation", "health_equity", "patient_safety"],
     "summary": "The California Department of Justice opposes the removal of the AI model card requirement in the HTI-5 proposed rule, arguing it would reduce transparency, accountability, and exacerbate algorithmic discrimination in healthcare. The comment highlights evidence of bias in healthcare AI and stresses the importance of maintaining federal guardrails to ensure equitable access and safe use of decision support tools.",
     "notable_quote": "Removing the model card requirement would eliminate one of the most significant guardrails currently in place on a federal level for the use of AI in healthcare.",
     "recommendations": [
@@ -5441,11 +5315,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "clinical_workflow"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
     "summary": "The NAACCR supports HTI-5's goals to reduce burden and modernize standards but opposes removing the §170.315(f)(4) certification criterion for cancer registry transmission due to immaturity of FHIR resources and risks to timely, standardized cancer reporting. They urge retaining this criterion until FHIR-based reporting matures with a phased transition plan.",
     "notable_quote": "Removal of §170.315(f)(4) risks disrupting timely incidence cancer reporting.",
     "recommendations": [
@@ -5577,11 +5447,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -2,
-    "themes": [
-      "ai_regulation",
-      "information_blocking",
-      "burden_reduction"
-    ],
+    "themes": ["ai_regulation", "information_blocking", "burden_reduction"],
     "summary": "The Health IT End-Users Alliance supports the intent to reduce regulatory burden but expresses concern that proposed deregulatory actions will increase burdens on end-users by shifting compliance costs and reducing technology quality. They urge ONC to retain real-world testing and decision support intervention transparency requirements to ensure technology meets clinical needs and supports AI trust and safety.",
     "notable_quote": "We urge ASTP/ONC to refrain from removing the real-world testing requirement from the Certification Program.",
     "recommendations": [
@@ -5603,10 +5469,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 2,
-    "themes": [
-      "ai_regulation",
-      "burden_reduction"
-    ],
+    "themes": ["ai_regulation", "burden_reduction"],
     "summary": "The AI Healthcare Coalition supports ONC's deregulatory actions to reduce duplicative and burdensome requirements on FDA-authorized AI medical services. They emphasize that FDA oversight is sufficient for safety and efficacy, and removing ONC's additional predictive decision support intervention requirements will reduce costs and improve efficiency.",
     "notable_quote": "The FDA is best positioned to assess the safety and efficacy of AI/ML systems and risk.",
     "recommendations": [
@@ -5627,10 +5490,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards",
-      "clinical_workflow"
-    ],
+    "themes": ["fhir_standards", "clinical_workflow"],
     "summary": "The commenter highlights the early development of an Australian FHIR-based Encounter Record by the Sparked FHIR accelerator and suggests that ASTP/ONC monitor this initiative as a potential model for future US FHIR Encounter Records. The comment outlines workshop topics exploring the structure and use of such records.",
     "notable_quote": "ASTP/ONC can research this to see if this could be a movement for FHIR Documents",
     "recommendations": [
@@ -5738,11 +5598,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards",
-      "ai_regulation",
-      "data_privacy"
-    ],
+    "themes": ["fhir_standards", "ai_regulation", "data_privacy"],
     "summary": "The commenter advocates for a comprehensive, layered certification approach focused on certifying APIs, AI agents, and multi-agent orchestration systems rather than traditional EHR certification. They emphasize the need for interoperability standards, trust frameworks, and tiered certification for AI agents and swarms to enable advanced healthcare automation and collaboration.",
     "notable_quote": "We need a layered certification approach Certify APIs by maturity levels: Terminology services, Data governance, Security maturity.",
     "recommendations": [
@@ -5820,11 +5676,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 2,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "uscdi_data_classes"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "uscdi_data_classes"],
     "summary": "Clinical Architecture supports HTI-5's deregulatory actions advancing interoperability and API-driven exchange but urges ONC to focus next on data quality and fitness-for-use. They propose incorporating structured, standards-based data quality assessment, such as the USCDI v3 Data Quality Rubric and HL7-balloted PIQI Framework, into future certification programs.",
     "notable_quote": "The country is ready for interoperability that is not only connected—but trusted.",
     "recommendations": [
@@ -6305,11 +6157,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "ccda_removal",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
     "summary": "The California Department of Public Health (CDPH) opposes the HTI-5 proposed rule as it risks undermining standardized interoperability critical for public health reporting. CDPH emphasizes the need to retain HL7 standards-based certification criteria, particularly for cancer registry transmission and electronic case reporting, to ensure data quality, timeliness, and reduce burden on public health agencies.",
     "notable_quote": "Removing public health reporting from EHR certification eliminates any incentive for EHRs to support interoperability.",
     "recommendations": [
@@ -6361,11 +6209,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "ccda_removal",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
     "summary": "The County of Santa Clara opposes the proposed removal of the standards-based electronic case reporting requirement, arguing that it would increase data variability and burden on public health agencies. They emphasize the critical need for standardized, automated data exchange to ensure timely and reliable public health responses.",
     "notable_quote": "Guardrails are not barriers to innovation; they are prerequisites for scalable interoperability.",
     "recommendations": [
@@ -6718,11 +6562,7 @@
     "position": "neutral_mixed",
     "position_label": "Mixed/Neutral",
     "sentiment_score": 0,
-    "themes": [
-      "ccda_removal",
-      "fhir_standards",
-      "burden_reduction"
-    ],
+    "themes": ["ccda_removal", "fhir_standards", "burden_reduction"],
     "summary": "Feb 27, 2026 \nComment to HTI-5 NPRM published on Dec 29, 2025 \nIn general, I concur with the elimination of the redundant governmental validations of an \nHIT module’s capabilities as proposed in th...",
     "notable_quote": "The proposed revision to the RWT requirement of eliminating the RWT Plan \nsubmission, is a positive action to reduce administrative burden for both the HIT \nDevelopers and the ONC-ACBs.",
     "recommendations": [
@@ -6920,11 +6760,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 1.5,
-    "themes": [
-      "fhir_standards",
-      "ai_regulation",
-      "uscdi_data_classes"
-    ],
+    "themes": ["fhir_standards", "ai_regulation", "uscdi_data_classes"],
     "summary": "Re: Comments on “Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory \nActions To Unleash Prosperityˮ Proposed Rule) \n \nCedar Cares, Inc.",
     "notable_quote": "Founded in 2016, Cedarʼs platform unifies patient billing, payments, insurance \ncoverage, and support into a single solution —driving improved results for healthcare \nproviders and better financial journeys for patients.",
     "recommendations": [
@@ -7120,11 +6956,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 1.5,
-    "themes": [
-      "fhir_standards",
-      "ai_regulation",
-      "data_privacy"
-    ],
+    "themes": ["fhir_standards", "ai_regulation", "data_privacy"],
     "summary": "RE: Public Comments on Health Data, Technology, and Interoperability: ASTP/ONC\nDeregulatory Actions to Unleash Prosperity (HTI-5 Proposed Rule)",
     "notable_quote": "Too often today, data owners face significant cost and technical barriers when attempting to\naccess their own patient data at scale.",
     "recommendations": [
@@ -7179,9 +7011,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -1.5,
-    "themes": [
-      "patient_safety"
-    ],
+    "themes": ["patient_safety"],
     "summary": "For all of these reasons, I urge HHS to reject the proposed modiﬁcation to the ONC Certiﬁcation Program.",
     "notable_quote": "It \nwould destroy transparency and accountability in our healthcare system at the expense of patient safety.",
     "recommendations": [
@@ -7200,11 +7030,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "clinical_workflow"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
     "summary": "Altera Digital Health, Inc. provides feedback on the HTI-5 proposed rule based on over three decades of experience delivering clinical and interoperability solutions to a wide range of healthcare providers. They emphasize their informed perspective on the deregulatory actions proposed by ASTP/ONC.",
     "notable_quote": "We can submit informed feedback today on this important topic.",
     "recommendations": [],
@@ -7369,10 +7195,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "burden_reduction"],
     "summary": "Leavitt Partners provides comments and best practices drawn from multiple digital health alliances and collaborations to inform the HTI-5 proposed rule. Their input reflects broad multi-sector perspectives on interoperability and health IT deregulatory actions.",
     "notable_quote": "Comments and best practices from Leavitt Partners based on various multi-sector digital health alliances",
     "recommendations": [
@@ -7392,10 +7215,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -1.5,
-    "themes": [
-      "information_blocking",
-      "data_privacy"
-    ],
+    "themes": ["information_blocking", "data_privacy"],
     "summary": "(“IHIE”) appreciates the opportunity to provide \ncomments on Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions to \nUnleash Prosperity Proposed Rule (HHS-ONC-2025-0005) (“...",
     "notable_quote": "IHIE is strongly opposed \nto this addiƟon in light of the proposed deﬁniƟon for “contract of adhesion” and the suggested \npresumpƟon of interference.",
     "recommendations": [
@@ -7414,11 +7234,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 1.5,
-    "themes": [
-      "fhir_standards",
-      "ai_regulation",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "ai_regulation", "burden_reduction"],
     "summary": "However, patient access to \ninformation has maximum benefit if it supports understanding, decision-making, and action.",
     "notable_quote": "The \nincreased ambiguity that could result from HTI-5 will push risk onto patients, caregivers, \nencoding a “buyer beware” environment in which each patient is dependent on their own \nability to evaluate the quality and safety on a given application.",
     "recommendations": [
@@ -7869,10 +7685,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "burden_reduction"],
     "summary": "The commenter expresses serious concerns about changing eCR certification criteria to a functional requirement, fearing it will hinder standardized public health reporting and burden agencies. They also worry about the move to FHIR-based standards due to lack of technical infrastructure and expertise, which could negatively impact public health response.",
     "notable_quote": "This would be an extremely difficult step for us and could impact public health response.",
     "recommendations": [
@@ -7924,11 +7737,7 @@
     "position": "neutral_mixed",
     "position_label": "Neutral / Mixed",
     "sentiment_score": 0,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "long_term_care"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "long_term_care"],
     "summary": "The Long Term & Post-Acute Care (LTPAC) Health IT Collaborative, representing diverse post-acute care stakeholders, appreciates the opportunity to comment on the HTI-5 proposed rule. The comment reflects the perspective of experts in post-acute care settings regarding ONC's deregulatory actions.",
     "notable_quote": "The Long Term & Post-Acute Care (LTPAC) Health IT Collaborative... appreciates the opportunity to comment on the Notice of Proposed Rulemaking.",
     "recommendations": [],
@@ -7978,11 +7787,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "ccda_removal",
-      "burden_reduction"
-    ],
+    "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
     "summary": "Dynamic Health IT opposes the removal of the 170.315(b)(1) and (b)(2) certification criteria, arguing that without these or a replacement FHIR certification, interoperability will suffer. They highlight the importance of the C-CDA Validation Tool and the lack of current FHIR certification requirements to ensure bi-directional data exchange.",
     "notable_quote": "Without a replacement requirement for EHRs to support bi-directional FHIR data, this leaves a big gap in healthcare interoperability.",
     "recommendations": [
@@ -8038,11 +7843,7 @@
     "position": "strongly_oppose_deregulation",
     "position_label": "Strongly Oppose",
     "sentiment_score": -3,
-    "themes": [
-      "fhir_standards",
-      "burden_reduction",
-      "uscdi_data_classes"
-    ],
+    "themes": ["fhir_standards", "burden_reduction", "uscdi_data_classes"],
     "summary": "The commenter emphasizes the importance of maintaining consistent cancer data reporting standards set by NAACCR for accurate population-based cancer surveillance. They express concern that the HTI-5 proposed deregulation could undermine these standards and support NAACCR's recommended revisions.",
     "notable_quote": "The HTI-5 proposed deregulation measures risk the derailment of the existing NAACCR standards.",
     "recommendations": [
@@ -8062,10 +7863,7 @@
     "position": "oppose_deregulation",
     "position_label": "Oppose",
     "sentiment_score": -1.5,
-    "themes": [
-      "information_blocking",
-      "ai_regulation"
-    ],
+    "themes": ["information_blocking", "ai_regulation"],
     "summary": "Re: Comments on proposed regulation HHS-ONC-2025, Health Data, Technology, and\nInteroperability: ASTP/ONC Deregulatory Actions To Unleash Prosperity",
     "notable_quote": "The information blocking prohibition that Congress established is critical to the appropriate\nutilization of timely patient data to create meaningful improvements in patient health.",
     "recommendations": [
@@ -8087,10 +7885,7 @@
     "position": "support_deregulation",
     "position_label": "Support",
     "sentiment_score": 1.5,
-    "themes": [
-      "information_blocking",
-      "clinical_workflow"
-    ],
+    "themes": ["information_blocking", "clinical_workflow"],
     "summary": "Health Data, Technology, and Interoperability: ASTP/ONC Deregulatory Actions\nto Unleash Prosperity (HTI‑5) Proposed Rule\nRIN 0955‑AA09\nComment on Patient Portal Capabilities to Support Parent and L...",
     "notable_quote": "We write to recommend that ASTP/ONC include clear\nexpectations for health information technology developers regarding standard, configurable\nsupport for parent and legal guardian proxy access to minor patient records within certified\npatient portal and administrative applications.",
     "recommendations": [

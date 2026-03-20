@@ -152,10 +152,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "burden_reduction"],
       "recommendation_count": 1
     },
     {
@@ -172,10 +169,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "audit_log_standards",
-        "fhir_standards"
-      ],
+      "themes": ["audit_log_standards", "fhir_standards"],
       "recommendation_count": 4
     },
     {
@@ -495,11 +489,7 @@
       "provision_addressed": "general_comment",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [
-        "audit_log_standards",
-        "ai_regulation",
-        "patient_safety"
-      ],
+      "themes": ["audit_log_standards", "ai_regulation", "patient_safety"],
       "recommendation_count": 1
     },
     {
@@ -680,11 +670,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "patient_safety"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "patient_safety"],
       "recommendation_count": 2
     },
     {
@@ -816,11 +802,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "fhir_standards",
-        "ccda_removal",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
       "recommendation_count": 2
     },
     {
@@ -930,9 +912,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "fhir_standards"
-      ],
+      "themes": ["fhir_standards"],
       "recommendation_count": 1
     },
     {
@@ -949,11 +929,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "clinical_workflow"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
       "recommendation_count": 2
     },
     {
@@ -970,9 +946,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards"
-      ],
+      "themes": ["fhir_standards"],
       "recommendation_count": 3
     },
     {
@@ -989,10 +963,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards",
-        "uscdi_data_classes"
-      ],
+      "themes": ["fhir_standards", "uscdi_data_classes"],
       "recommendation_count": 3
     },
     {
@@ -1033,10 +1004,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept",
       "posture_rationale": "The comment supports the proposed changes, which ONC will finalize as proposed.",
-      "themes": [
-        "fhir_standards",
-        "ccda_removal"
-      ],
+      "themes": ["fhir_standards", "ccda_removal"],
       "recommendation_count": 2
     },
     {
@@ -1053,9 +1021,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards"
-      ],
+      "themes": ["fhir_standards"],
       "recommendation_count": 3
     },
     {
@@ -1118,10 +1084,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "burden_reduction"],
       "recommendation_count": 3
     },
     {
@@ -1184,10 +1147,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "accept",
       "posture_rationale": "The comment supports the proposed changes, which ONC will finalize as proposed.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "burden_reduction"],
       "recommendation_count": 4
     },
     {
@@ -1274,10 +1234,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "burden_reduction"],
       "recommendation_count": 4
     },
     {
@@ -1340,11 +1297,7 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "fhir_standards",
-        "data_privacy",
-        "information_blocking"
-      ],
+      "themes": ["fhir_standards", "data_privacy", "information_blocking"],
       "recommendation_count": 3
     },
     {
@@ -1385,11 +1338,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "fhir_standards",
-        "clinical_workflow",
-        "patient_safety"
-      ],
+      "themes": ["fhir_standards", "clinical_workflow", "patient_safety"],
       "recommendation_count": 1
     },
     {
@@ -1429,10 +1378,7 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "fhir_standards",
-        "information_blocking"
-      ],
+      "themes": ["fhir_standards", "information_blocking"],
       "recommendation_count": 2
     },
     {
@@ -1449,10 +1395,7 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "fhir_standards",
-        "information_blocking"
-      ],
+      "themes": ["fhir_standards", "information_blocking"],
       "recommendation_count": 3
     },
     {
@@ -1469,11 +1412,7 @@
       "provision_addressed": "certification_removal_general",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "patient_safety",
-        "burden_reduction",
-        "clinical_workflow"
-      ],
+      "themes": ["patient_safety", "burden_reduction", "clinical_workflow"],
       "recommendation_count": 2
     },
     {
@@ -1534,11 +1473,7 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "information_blocking",
-        "clinical_workflow",
-        "patient_safety"
-      ],
+      "themes": ["information_blocking", "clinical_workflow", "patient_safety"],
       "recommendation_count": 2
     },
     {
@@ -1579,10 +1514,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "ccda_removal",
-        "burden_reduction"
-      ],
+      "themes": ["ccda_removal", "burden_reduction"],
       "recommendation_count": 3
     },
     {
@@ -1716,10 +1648,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "burden_reduction"],
       "recommendation_count": 4
     },
     {
@@ -1782,11 +1711,7 @@
       "provision_addressed": "burden_reduction_general",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [
-        "burden_reduction",
-        "health_equity",
-        "patient_safety"
-      ],
+      "themes": ["burden_reduction", "health_equity", "patient_safety"],
       "recommendation_count": 2
     },
     {
@@ -1871,9 +1796,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards"
-      ],
+      "themes": ["fhir_standards"],
       "recommendation_count": 2
     },
     {
@@ -2173,11 +2096,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "clinical_workflow"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
       "recommendation_count": 2
     },
     {
@@ -2240,10 +2159,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards",
-        "uscdi_data_classes"
-      ],
+      "themes": ["fhir_standards", "uscdi_data_classes"],
       "recommendation_count": 2
     },
     {
@@ -2260,11 +2176,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "fhir_standards",
-        "ccda_removal",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
       "recommendation_count": 2
     },
     {
@@ -2329,11 +2241,7 @@
       "provision_addressed": "burden_reduction_general",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [
-        "patient_safety",
-        "burden_reduction",
-        "clinical_workflow"
-      ],
+      "themes": ["patient_safety", "burden_reduction", "clinical_workflow"],
       "recommendation_count": 2
     },
     {
@@ -2419,10 +2327,7 @@
       "provision_addressed": "burden_reduction_general",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [
-        "burden_reduction",
-        "health_equity"
-      ],
+      "themes": ["burden_reduction", "health_equity"],
       "recommendation_count": 2
     },
     {
@@ -2558,11 +2463,7 @@
       "provision_addressed": "general_comment",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [
-        "patient_safety",
-        "ai_regulation",
-        "health_equity"
-      ],
+      "themes": ["patient_safety", "ai_regulation", "health_equity"],
       "recommendation_count": 3
     },
     {
@@ -2742,11 +2643,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "clinical_workflow"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
       "recommendation_count": 2
     },
     {
@@ -4122,11 +4019,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "data_privacy"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "data_privacy"],
       "recommendation_count": 4
     },
     {
@@ -4143,11 +4036,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "fhir_standards",
-        "ccda_removal",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
       "recommendation_count": 5
     },
     {
@@ -4260,11 +4149,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "clinical_workflow"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
       "recommendation_count": 4
     },
     {
@@ -4326,11 +4211,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "health_equity"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "health_equity"],
       "recommendation_count": 2
     },
     {
@@ -4347,10 +4228,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "burden_reduction"],
       "recommendation_count": 4
     },
     {
@@ -4459,11 +4337,7 @@
       "provision_addressed": "dsi_ai_model_card",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "ai_regulation",
-        "health_equity",
-        "patient_safety"
-      ],
+      "themes": ["ai_regulation", "health_equity", "patient_safety"],
       "recommendation_count": 3
     },
     {
@@ -4575,11 +4449,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "clinical_workflow"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
       "recommendation_count": 2
     },
     {
@@ -4689,11 +4559,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "ai_regulation",
-        "information_blocking",
-        "burden_reduction"
-      ],
+      "themes": ["ai_regulation", "information_blocking", "burden_reduction"],
       "recommendation_count": 4
     },
     {
@@ -4710,10 +4576,7 @@
       "provision_addressed": "dsi_ai_model_card",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "ai_regulation",
-        "burden_reduction"
-      ],
+      "themes": ["ai_regulation", "burden_reduction"],
       "recommendation_count": 3
     },
     {
@@ -4730,10 +4593,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards",
-        "clinical_workflow"
-      ],
+      "themes": ["fhir_standards", "clinical_workflow"],
       "recommendation_count": 2
     },
     {
@@ -4822,11 +4682,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards",
-        "ai_regulation",
-        "data_privacy"
-      ],
+      "themes": ["fhir_standards", "ai_regulation", "data_privacy"],
       "recommendation_count": 5
     },
     {
@@ -4890,11 +4746,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "uscdi_data_classes"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "uscdi_data_classes"],
       "recommendation_count": 3
     },
     {
@@ -5288,11 +5140,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "ccda_removal",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
       "recommendation_count": 4
     },
     {
@@ -5333,11 +5181,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "fhir_standards",
-        "ccda_removal",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
       "recommendation_count": 2
     },
     {
@@ -5625,11 +5469,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "ccda_removal",
-        "fhir_standards",
-        "burden_reduction"
-      ],
+      "themes": ["ccda_removal", "fhir_standards", "burden_reduction"],
       "recommendation_count": 1
     },
     {
@@ -5789,11 +5629,7 @@
       "provision_addressed": "uscdi_data_elements",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "fhir_standards",
-        "ai_regulation",
-        "uscdi_data_classes"
-      ],
+      "themes": ["fhir_standards", "ai_regulation", "uscdi_data_classes"],
       "recommendation_count": 3
     },
     {
@@ -5952,11 +5788,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "fhir_standards",
-        "ai_regulation",
-        "data_privacy"
-      ],
+      "themes": ["fhir_standards", "ai_regulation", "data_privacy"],
       "recommendation_count": 3
     },
     {
@@ -6001,9 +5833,7 @@
       "provision_addressed": "general_comment",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [
-        "patient_safety"
-      ],
+      "themes": ["patient_safety"],
       "recommendation_count": 1
     },
     {
@@ -6020,11 +5850,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "clinical_workflow"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "clinical_workflow"],
       "recommendation_count": 0
     },
     {
@@ -6168,10 +5994,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "accept_with_modification",
       "posture_rationale": "ONC appreciates the commenter's nuanced perspective and will incorporate suggested modifications where feasible.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "burden_reduction"],
       "recommendation_count": 2
     },
     {
@@ -6188,10 +6011,7 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "information_blocking",
-        "data_privacy"
-      ],
+      "themes": ["information_blocking", "data_privacy"],
       "recommendation_count": 1
     },
     {
@@ -6208,11 +6028,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "fhir_standards",
-        "ai_regulation",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "ai_regulation", "burden_reduction"],
       "recommendation_count": 5
     },
     {
@@ -6582,10 +6398,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "burden_reduction"],
       "recommendation_count": 2
     },
     {
@@ -6628,11 +6441,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC acknowledges the commenter's general feedback on the proposed rule.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "long_term_care"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "long_term_care"],
       "recommendation_count": 0
     },
     {
@@ -6676,11 +6485,7 @@
       "provision_addressed": "ccda_transition",
       "agency_posture": "partially_accept",
       "posture_rationale": "ONC acknowledges the commenter's concerns and will consider modifications to address specific issues raised while proceeding with the general direction of the proposal.",
-      "themes": [
-        "fhir_standards",
-        "ccda_removal",
-        "burden_reduction"
-      ],
+      "themes": ["fhir_standards", "ccda_removal", "burden_reduction"],
       "recommendation_count": 2
     },
     {
@@ -6727,11 +6532,7 @@
       "provision_addressed": "multiple_provisions",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "fhir_standards",
-        "burden_reduction",
-        "uscdi_data_classes"
-      ],
+      "themes": ["fhir_standards", "burden_reduction", "uscdi_data_classes"],
       "recommendation_count": 2
     },
     {
@@ -6748,10 +6549,7 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has considered the commenter's opposition and specific recommendations. The final rule addresses these concerns in the preamble discussion.",
-      "themes": [
-        "information_blocking",
-        "ai_regulation"
-      ],
+      "themes": ["information_blocking", "ai_regulation"],
       "recommendation_count": 4
     },
     {
@@ -6768,10 +6566,7 @@
       "provision_addressed": "information_blocking",
       "agency_posture": "acknowledge",
       "posture_rationale": "ONC has reviewed and considered this comment in developing the final rule.",
-      "themes": [
-        "information_blocking",
-        "clinical_workflow"
-      ],
+      "themes": ["information_blocking", "clinical_workflow"],
       "recommendation_count": 5
     },
     {
