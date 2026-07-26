@@ -18,6 +18,7 @@ import {
   Legend,
 } from "recharts";
 import statsData from "@data/stats.json";
+import AlertMeForm from "@/components/AlertMeForm";
 import themesData from "@data/themes.json";
 import commentsData from "@data/comments.json";
 import coordinationData from "@data/coordination_groups.json";
@@ -455,6 +456,11 @@ export default function Home() {
             existing inequities.
           </p>
         </div>
+      </section>
+
+      {/* What happens next — alert signup */}
+      <section className="rule-line-thin mt-12 pt-6">
+        <AlertMeForm className="rounded-lg border bg-muted/30 p-5" />
       </section>
 
       {/* Footer */}

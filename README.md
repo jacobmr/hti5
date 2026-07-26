@@ -81,6 +81,71 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and technical detai
 
 ---
 
+## OIRA Review Alerts
+
+Visitors can subscribe to be emailed when the HTI-5 rule moves through OIRA review — the
+last checkpoint before Federal Register publication.
+
+A scheduled job polls OIRA's public
+[rules-under-review feed](https://www.reginfo.gov/public/do/XMLViewFileAction?f=EO_RULES_UNDER_REVIEW.xml)
+every six hours, matching on **RIN 0955-AA09**, and sends at most two emails over the
+rule's lifetime:
+
+| Event         | Meaning                                                                                               |
+| ------------- | ----------------------------------------------------------------------------------------------------- |
+| **ARRIVED**   | The RIN appeared in the feed. OIRA review has begun.                                                  |
+| **CONCLUDED** | The RIN left the feed. Review is finished and publication usually follows within days to a few weeks. |
+
+Departure is the more actionable signal, and there is no separate "completed reviews"
+feed, so it is inferred by diffing against stored state.
+
+### How it works
+
+| Piece                                    | Location                                                                    |
+| ---------------------------------------- | --------------------------------------------------------------------------- |
+| Feed fetch + RIN matching                | `api/lib/oira.js`                                                           |
+| Alert decision logic (pure, unit-tested) | `api/lib/watcher.js`                                                        |
+| Durable state (Vercel Edge Config)       | `api/lib/state.js`                                                          |
+| Double opt-in tokens                     | `api/lib/tokens.js`                                                         |
+| Resend contact + broadcast calls         | `api/lib/notify.js`                                                         |
+| Endpoints                                | `api/index.js`                                                              |
+| Signup form / confirmation page          | `client/src/components/AlertMeForm.tsx`, `client/src/pages/ConfirmPage.tsx` |
+
+Subscribers are stored as Resend contacts in a dedicated segment — **not** as GitHub
+issues like the comment form, since this repository is public and that would expose
+subscriber addresses.
+
+Signup is double opt-in. The confirmation link carries an HMAC-signed token containing
+the address and a 48-hour expiry, so nothing is persisted until the address is proven and
+there is no pending-subscription store to maintain.
+
+### Configuration
+
+See [`.env.example`](.env.example). Two things commonly go wrong:
+
+- `RESEND_API_KEY` must be a **full-access** key. A sending-only key returns
+  `401 restricted_api_key` on the contacts and broadcasts endpoints.
+- `ALERT_FROM` must be on a Resend-verified domain, and its domain must match exactly.
+
+### Testing
+
+```bash
+pnpm test          # includes the feed parser and alert state machine
+```
+
+The parser tests run against a committed snapshot of the real feed
+(`api/lib/__tests__/fixtures/`), so they need no network access. To exercise detection
+without waiting for the real rule to move, set `WATCH_RIN` to a RIN currently in the feed.
+
+Two upstream behaviours the watcher defends against, both covered by tests:
+
+- RegInfo answers **HTTP 200 with an HTML page** for unknown feed names, so a successful
+  status code proves nothing — the payload must parse as OIRA XML.
+- A truncated feed must never be read as "the rule disappeared", so responses with
+  implausibly few records are rejected rather than triggering a CONCLUDED alert.
+
+---
+
 ## Analysis Updates
 
 This analysis has evolved as the dataset and methodology improved:
