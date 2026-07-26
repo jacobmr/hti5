@@ -381,8 +381,16 @@ app.get("/api/cron/check-oira", async (req, res) => {
     const { alerts, nextState } = evaluate(state, record, rundate);
 
     for (const alert of alerts) {
-      await sendAlertBroadcast(alert.kind, alert.rule, alert.days);
-      console.log(`[/api/cron/check-oira] Sent ${alert.kind} broadcast`);
+      const { skipped } = await sendAlertBroadcast(
+        alert.kind,
+        alert.rule,
+        alert.days
+      );
+      console.log(
+        skipped
+          ? `[/api/cron/check-oira] ${alert.kind} already broadcast, skipped`
+          : `[/api/cron/check-oira] Sent ${alert.kind} broadcast`
+      );
     }
 
     await setState(nextState);
