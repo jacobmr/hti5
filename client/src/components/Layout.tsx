@@ -22,6 +22,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import CommentDialog from "./CommentDialog";
+import { usePageviews } from "@/hooks/usePageviews";
 
 const navItems = [
   { path: "/", label: "Overview", icon: BarChart2 },
@@ -38,6 +39,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const [location] = useLocation();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [commentDialogOpen, setCommentDialogOpen] = useState(false);
+
+  usePageviews();
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row">

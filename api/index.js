@@ -4,12 +4,25 @@ import axios from "axios";
 import { fetchFeed, findByRin } from "./lib/oira.js";
 import { getState, setState } from "./lib/state.js";
 import { evaluate } from "./lib/watcher.js";
-import { createConfirmToken, verifyConfirmToken } from "./lib/tokens.js";
+import {
+  createConfirmToken,
+  verifyConfirmToken,
+  createAdminLoginToken,
+  verifyAdminLoginToken,
+  createAdminSessionToken,
+  verifyAdminSessionToken,
+  isAdminEmail,
+  ADMIN_SESSION_MAX_AGE_S,
+} from "./lib/tokens.js";
 import {
   sendConfirmationEmail,
+  sendAdminLoginEmail,
   addSubscriber,
   sendAlertBroadcast,
+  getSubscriberStats,
+  getBroadcastHistory,
 } from "./lib/notify.js";
+import { recordPageview, getStats } from "./lib/analytics.js";
 
 const app = express();
 
@@ -415,6 +428,153 @@ app.get("/api/cron/check-oira", async (req, res) => {
     // the error is explicit in the body and the logs.
     res.status(200).json({ success: false, error: message });
   }
+});
+
+// --- Traffic counters ---
+
+/**
+ * Pageview beacon. Fire-and-forget: always answers 204 so a counting failure
+ * can never surface as an error in a visitor's browser.
+ */
+app.post("/api/track", async (req, res) => {
+  res.status(204).end();
+  try {
+    await recordPageview({
+      path: req.body?.path,
+      ip: clientIpOf(req),
+      userAgent: req.headers["user-agent"] ?? "",
+    });
+  } catch (error) {
+    console.error(`[/api/track] ${error.message}`);
+  }
+});
+
+// --- Admin dashboard ---
+
+const SESSION_COOKIE = "hti5_admin";
+
+/** Minimal cookie reader; avoids adding a parser dependency for one cookie. */
+function readCookie(req, name) {
+  const header = req.headers.cookie;
+  if (!header) return null;
+  for (const part of header.split(";")) {
+    const [k, ...rest] = part.trim().split("=");
+    if (k === name) return decodeURIComponent(rest.join("="));
+  }
+  return null;
+}
+
+/** Express middleware: require a valid admin session cookie. */
+function requireAdmin(req, res, next) {
+  const token = readCookie(req, SESSION_COOKIE);
+  const result = token
+    ? verifyAdminSessionToken(token)
+    : { ok: false, reason: "missing" };
+
+  if (!result.ok || !isAdminEmail(result.subject)) {
+    return res.status(401).json({ success: false, error: "Not signed in" });
+  }
+  req.adminEmail = result.subject;
+  next();
+}
+
+/**
+ * Request a sign-in link.
+ *
+ * Always answers the same way regardless of whether the address is allowlisted,
+ * so this cannot be used to discover who the admins are.
+ */
+app.post("/api/admin/login", async (req, res) => {
+  const generic = {
+    success: true,
+    message: "If that address can sign in, a link is on its way.",
+  };
+
+  try {
+    const { email } = req.body ?? {};
+
+    if (isRateLimited(clientIpOf(req), "admin-login")) {
+      return res
+        .status(429)
+        .json({ success: false, error: "Too many attempts. Try again later." });
+    }
+
+    if (!isValidEmail(email) || !isAdminEmail(email)) {
+      console.warn("[/api/admin/login] Rejected sign-in attempt");
+      return res.json(generic);
+    }
+
+    const normalized = email.trim().toLowerCase();
+    const token = createAdminLoginToken(normalized);
+    const url = `${SITE_URL}/admin?token=${encodeURIComponent(token)}`;
+
+    await sendAdminLoginEmail(normalized, url);
+    console.log("[/api/admin/login] Sign-in link sent");
+    res.json(generic);
+  } catch (error) {
+    console.error(`[/api/admin/login] ${error.message}`);
+    res
+      .status(500)
+      .json({ success: false, error: "Could not send sign-in link." });
+  }
+});
+
+/** Exchange a magic-link token for a session cookie. */
+app.get("/api/admin/session", (req, res) => {
+  const result = verifyAdminLoginToken(req.query.token);
+
+  if (!result.ok || !isAdminEmail(result.subject)) {
+    const expired = result.reason === "expired";
+    return res.status(expired ? 410 : 401).json({
+      success: false,
+      error: expired
+        ? "That sign-in link has expired. Request another."
+        : "That sign-in link is not valid.",
+    });
+  }
+
+  const session = createAdminSessionToken(result.subject);
+  res.setHeader(
+    "Set-Cookie",
+    `${SESSION_COOKIE}=${encodeURIComponent(session)}; Path=/; HttpOnly; Secure; ` +
+      `SameSite=Lax; Max-Age=${ADMIN_SESSION_MAX_AGE_S}`
+  );
+  res.json({ success: true, email: result.subject });
+});
+
+app.post("/api/admin/logout", (req, res) => {
+  res.setHeader(
+    "Set-Cookie",
+    `${SESSION_COOKIE}=; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=0`
+  );
+  res.json({ success: true });
+});
+
+/** Dashboard payload. */
+app.get("/api/admin/stats", requireAdmin, async (req, res) => {
+  // Each source is settled independently so one upstream failure degrades a
+  // single panel rather than blanking the whole dashboard.
+  const [traffic, subscribers, watcher, broadcasts] = await Promise.allSettled([
+    getStats(30),
+    getSubscriberStats(),
+    getState(),
+    getBroadcastHistory(),
+  ]);
+
+  const unwrap = r =>
+    r.status === "fulfilled"
+      ? { ok: true, data: r.value }
+      : { ok: false, error: r.reason?.message ?? "Unavailable" };
+
+  res.json({
+    success: true,
+    email: req.adminEmail,
+    watching: WATCH_RIN,
+    traffic: unwrap(traffic),
+    subscribers: unwrap(subscribers),
+    watcher: unwrap(watcher),
+    broadcasts: unwrap(broadcasts),
+  });
 });
 
 export default app;

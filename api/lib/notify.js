@@ -83,6 +83,29 @@ export async function sendConfirmationEmail(email, confirmUrl) {
   return data;
 }
 
+/** Send the admin sign-in link. Never sent to a non-allowlisted address. */
+export async function sendAdminLoginEmail(email, loginUrl) {
+  const { data, error } = await resend().emails.send({
+    from: from(),
+    to: [email],
+    subject: "Sign in to the HTI-5 dashboard",
+    text:
+      `Sign in to the HTI-5 admin dashboard:\n\n${loginUrl}\n\n` +
+      `This link expires in 15 minutes and can only be used by this address.\n` +
+      `If you didn't request it, ignore this email.\n`,
+    html:
+      `<p>Sign in to the HTI-5 admin dashboard.</p>` +
+      `<p><a href="${escapeHtml(loginUrl)}">Sign in</a></p>` +
+      `<p style="color:#666;font-size:12px">This link expires in 15 minutes. ` +
+      `If you didn't request it, ignore this email.</p>`,
+  });
+
+  if (error) {
+    throw new Error(`Failed to send admin login email: ${error.message}`);
+  }
+  return data;
+}
+
 /**
  * Add a confirmed subscriber to the alert segment.
  * Re-confirming an existing address is treated as success, not an error.
@@ -160,6 +183,44 @@ function concludedCopy(rule, days) {
 // guard would vanish and subscribers would get a repeat blast. Resend's own
 // record of what was already sent does not depend on our storage at all.
 const broadcastName = kind => `HTI-5 ${kind} (RIN 0955-AA09)`;
+
+/** Subscriber counts for the admin dashboard. */
+export async function getSubscriberStats() {
+  const { data, error } = await resend().contacts.list({
+    segmentId: segmentId(),
+    limit: 100,
+  });
+
+  if (error) {
+    throw new Error(`Failed to list subscribers: ${error.message}`);
+  }
+
+  const contacts = data?.data ?? [];
+  const active = contacts.filter(c => !c.unsubscribed);
+
+  return {
+    total: contacts.length,
+    active: active.length,
+    unsubscribed: contacts.length - active.length,
+    // Addresses are deliberately not returned; the dashboard shows counts and
+    // signup timing only.
+    recent: [...active]
+      .sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+      .slice(0, 10)
+      .map(c => ({ createdAt: c.created_at })),
+  };
+}
+
+/** Broadcasts already sent, for the dashboard's alert history. */
+export async function getBroadcastHistory() {
+  const { data, error } = await resend().broadcasts.list({ limit: 100 });
+  if (error) {
+    throw new Error(`Failed to list broadcasts: ${error.message}`);
+  }
+  return (data?.data ?? [])
+    .filter(b => String(b.name ?? "").startsWith("HTI-5 "))
+    .map(b => ({ name: b.name, status: b.status, sentAt: b.sent_at ?? null }));
+}
 
 /** True if a broadcast for this event has already been created in Resend. */
 async function alreadyBroadcast(kind) {

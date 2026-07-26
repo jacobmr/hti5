@@ -15,6 +15,7 @@ import DuplicatesPage from "./pages/DuplicatesPage";
 import ProcessPage from "./pages/ProcessPage";
 import ProvisionsPage from "./pages/ProvisionsPage";
 import ConfirmPage from "./pages/ConfirmPage";
+import AdminPage from "./pages/AdminPage";
 import Layout from "./components/Layout";
 
 function Router() {
@@ -31,6 +32,7 @@ function Router() {
         <Route path="/process" component={ProcessPage} />
         <Route path="/duplicates" component={DuplicatesPage} />
         <Route path="/alerts/confirm" component={ConfirmPage} />
+        <Route path="/admin" component={AdminPage} />
         <Route path="/404" component={NotFound} />
         <Route component={NotFound} />
       </Switch>
