@@ -18,5 +18,6 @@
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api/index.js" },
     { "source": "/(.*)", "destination": "/index.html" }
-  ]
+  ],
+  "crons": [{ "path": "/api/cron/check-oira", "schedule": "0 */6 * * *" }]
 }

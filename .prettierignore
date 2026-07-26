@@ -3,3 +3,8 @@ node_modules
 .git
 *.min.js
 *.min.css
+
+# Captured upstream responses. These are test fixtures and must stay
+# byte-for-byte as RegInfo served them — the HTML one is intentionally
+# malformed, which is precisely what the parser is tested against.
+api/lib/__tests__/fixtures
