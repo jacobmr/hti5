@@ -1,13 +1,12 @@
-import axios from "axios";
+import { createClient } from "redis";
 
-// The watcher needs exactly one durable record. Vercel Edge Config backs it:
-// durable, free, and writing to it does not trigger a redeploy the way
-// committing to the repo would.
+// The watcher needs exactly one durable record. It lives in Redis under a
+// namespaced key because the instance is shared with other projects.
 //
-// Everything storage-specific lives in this file. Swapping to Redis or a gist
-// means reimplementing getState/setState and touching nothing else.
+// Everything storage-specific lives in this file. Swapping backends means
+// reimplementing getState/setState and touching nothing else.
 
-const KEY = process.env.STATE_KEY || "oira_watch_state";
+const KEY = process.env.STATE_KEY || "hti5:oira_watch_state";
 
 export const EMPTY_STATE = {
   present: false,
@@ -20,64 +19,54 @@ export const EMPTY_STATE = {
   alertsSent: [],
 };
 
-function readConnection() {
-  const url = process.env.EDGE_CONFIG;
-  if (!url)
-    throw new Error("EDGE_CONFIG environment variable is not configured");
-  return url;
-}
-
-function writeCredentials() {
-  const id = process.env.EDGE_CONFIG_ID;
-  const token = process.env.VERCEL_API_TOKEN;
-  if (!id || !token) {
-    throw new Error(
-      "EDGE_CONFIG_ID and VERCEL_API_TOKEN must be configured to persist state"
-    );
+/**
+ * Run a callback with a connected client, then always disconnect.
+ *
+ * A fresh connection per invocation is deliberate: serverless instances are
+ * short-lived and freeze between requests, so a cached client tends to be found
+ * dead on the next invocation rather than saving anything.
+ */
+async function withRedis(fn) {
+  const url = process.env.REDIS_URL;
+  if (!url) {
+    throw new Error("REDIS_URL environment variable is not configured");
   }
-  const teamId = process.env.VERCEL_TEAM_ID;
-  return { id, token, teamId };
+
+  const client = createClient({
+    url,
+    socket: { connectTimeout: 10000, reconnectStrategy: false },
+  });
+
+  // Without a listener, a connection error is an unhandled 'error' event that
+  // takes down the function rather than rejecting the await below.
+  client.on("error", () => {});
+
+  await client.connect();
+  try {
+    return await fn(client);
+  } finally {
+    await client.quit().catch(() => {});
+  }
 }
 
 /** Read the watcher state, or EMPTY_STATE if nothing has been stored yet. */
 export async function getState() {
-  const base = readConnection();
-  // The connection string is `https://edge-config.vercel.com/<id>?token=<t>`;
-  // the item endpoint is that same URL with `/item/<key>` before the query.
-  const [origin, query] = base.split("?");
-  const url = `${origin}/item/${encodeURIComponent(KEY)}${query ? `?${query}` : ""}`;
-
   try {
-    const { data } = await axios.get(url, { timeout: 10000 });
-    return { ...EMPTY_STATE, ...(data ?? {}) };
+    return await withRedis(async client => {
+      const raw = await client.get(KEY);
+      if (!raw) return { ...EMPTY_STATE };
+      return { ...EMPTY_STATE, ...JSON.parse(raw) };
+    });
   } catch (error) {
-    // A missing key is the expected first-run condition, not a failure.
-    if (error?.response?.status === 404) return { ...EMPTY_STATE };
     throw new Error(`Failed to read watcher state: ${error.message}`);
   }
 }
 
 /** Persist the watcher state. */
 export async function setState(state) {
-  const { id, token, teamId } = writeCredentials();
-  const url =
-    `https://api.vercel.com/v1/edge-config/${id}/items` +
-    (teamId ? `?teamId=${encodeURIComponent(teamId)}` : "");
-
   try {
-    await axios.patch(
-      url,
-      { items: [{ operation: "upsert", key: KEY, value: state }] },
-      {
-        timeout: 10000,
-        headers: {
-          Authorization: `Bearer ${token}`,
-          "Content-Type": "application/json",
-        },
-      }
-    );
+    await withRedis(client => client.set(KEY, JSON.stringify(state)));
   } catch (error) {
-    const detail = error?.response?.data?.error?.message || error.message;
-    throw new Error(`Failed to persist watcher state: ${detail}`);
+    throw new Error(`Failed to persist watcher state: ${error.message}`);
   }
 }

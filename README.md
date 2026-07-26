@@ -105,7 +105,7 @@ feed, so it is inferred by diffing against stored state.
 | ---------------------------------------- | --------------------------------------------------------------------------- |
 | Feed fetch + RIN matching                | `api/lib/oira.js`                                                           |
 | Alert decision logic (pure, unit-tested) | `api/lib/watcher.js`                                                        |
-| Durable state (Vercel Edge Config)       | `api/lib/state.js`                                                          |
+| Durable state (Redis)                    | `api/lib/state.js`                                                          |
 | Double opt-in tokens                     | `api/lib/tokens.js`                                                         |
 | Resend contact + broadcast calls         | `api/lib/notify.js`                                                         |
 | Endpoints                                | `api/index.js`                                                              |
@@ -126,6 +126,20 @@ See [`.env.example`](.env.example). Two things commonly go wrong:
 - `RESEND_API_KEY` must be a **full-access** key. A sending-only key returns
   `401 restricted_api_key` on the contacts and broadcasts endpoints.
 - `ALERT_FROM` must be on a Resend-verified domain, and its domain must match exactly.
+- `REDIS_URL` points at an instance shared with other projects, so the state key is
+  namespaced (`hti5:oira_watch_state`).
+
+### Duplicate protection
+
+Subscribers should receive each alert exactly once, so there are two independent guards:
+
+1. `alertsSent` in the watcher state records which events have fired.
+2. Before sending, Resend is checked for an existing broadcast of the same name.
+
+The second exists because the first lives in shared Redis. If that state were ever
+flushed or rotated away, guard 1 would silently vanish and the next poll would re-blast
+subscribers; guard 2 doesn't depend on our storage at all. It fails closed — if Resend
+can't be queried, nothing is sent.
 
 ### Testing
 

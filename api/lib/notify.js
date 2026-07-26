@@ -154,21 +154,46 @@ function concludedCopy(rule, days) {
   };
 }
 
+// Broadcast names are the second, independent duplicate guard. The primary
+// guard is `alertsSent` in the watcher state, but that state lives in a Redis
+// instance shared with other projects — if it were ever flushed or rotated, the
+// guard would vanish and subscribers would get a repeat blast. Resend's own
+// record of what was already sent does not depend on our storage at all.
+const broadcastName = kind => `HTI-5 ${kind} (RIN 0955-AA09)`;
+
+/** True if a broadcast for this event has already been created in Resend. */
+async function alreadyBroadcast(kind) {
+  const { data, error } = await resend().broadcasts.list({ limit: 100 });
+
+  if (error) {
+    // Fail closed: if we cannot prove this is a first send, do not send.
+    throw new Error(
+      `Could not verify whether ${kind} was already sent: ${error.message}`
+    );
+  }
+
+  const name = broadcastName(kind);
+  return (data?.data ?? []).some(b => b.name === name);
+}
+
 /**
  * Broadcast an alert to the subscriber segment.
  *
  * @param {"ARRIVED"|"CONCLUDED"} kind
  * @param {object} rule summarized REGACT record
  * @param {number|null} days days under review
+ * @returns {Promise<{skipped: boolean, id?: string}>}
  */
 export async function sendAlertBroadcast(kind, rule, days) {
+  if (await alreadyBroadcast(kind)) {
+    return { skipped: true };
+  }
+
   const copy =
     kind === "ARRIVED" ? arrivedCopy(rule, days) : concludedCopy(rule, days);
 
   const { data, error } = await resend().broadcasts.create({
-    // Name is the human-visible label in the Resend dashboard; the date keeps
-    // repeated events distinguishable if this rule ever cycles twice.
-    name: `HTI-5 ${kind} ${new Date().toISOString().slice(0, 10)}`,
+    name: broadcastName(kind),
     from: from(),
     subject: copy.subject,
     html: copy.html,
@@ -179,5 +204,5 @@ export async function sendAlertBroadcast(kind, rule, days) {
   if (error) {
     throw new Error(`Failed to send ${kind} broadcast: ${error.message}`);
   }
-  return data;
+  return { skipped: false, id: data?.id };
 }
