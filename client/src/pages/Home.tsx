@@ -3,7 +3,7 @@
  * Design: Federal Register Meets Data Journalism
  * Shows key stats, position distribution chart, top themes, and executive summary
  */
-import { useMemo } from "react";
+import { useEffect, useMemo } from "react";
 import { Link } from "wouter";
 import {
   BarChart,
@@ -41,6 +41,15 @@ const THEME_LABELS: Record<string, string> = {
 };
 
 export default function Home() {
+  // wouter routes on pathname only, so arriving from another page via
+  // /#alert-me lands here without the browser scrolling to the anchor.
+  useEffect(() => {
+    if (window.location.hash !== "#alert-me") return;
+    document
+      .getElementById("alert-me")
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, []);
+
   const positionData = useMemo(() => {
     const dist = statsData.position_distribution as Record<string, number>;
     return Object.entries(dist)
@@ -180,6 +189,11 @@ export default function Home() {
           </div>
         ))}
       </div>
+
+      {/* What happens next — alert signup */}
+      <section id="alert-me" className="mb-10 scroll-mt-6">
+        <AlertMeForm className="rounded-lg border bg-muted/30 p-5" />
+      </section>
 
       {/* Position distribution chart */}
       <section className="mb-10">
@@ -456,11 +470,6 @@ export default function Home() {
             existing inequities.
           </p>
         </div>
-      </section>
-
-      {/* What happens next — alert signup */}
-      <section className="rule-line-thin mt-12 pt-6">
-        <AlertMeForm className="rounded-lg border bg-muted/30 p-5" />
       </section>
 
       {/* Footer */}

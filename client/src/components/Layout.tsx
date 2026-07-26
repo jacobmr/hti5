@@ -18,6 +18,7 @@ import {
   X,
   Github,
   Copy,
+  BellRing,
 } from "lucide-react";
 import { useState } from "react";
 import CommentDialog from "./CommentDialog";
@@ -136,6 +137,16 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
         {/* Footer */}
         <div className="px-6 py-5 border-t border-sidebar-border space-y-3">
+          {/* The signup form itself lives on the home page; this makes it
+              reachable from the other pages too. */}
+          <Link
+            href="/#alert-me"
+            className="w-full flex items-center gap-2 px-3 py-2 text-xs text-sidebar-foreground/80 hover:text-white hover:bg-sidebar-accent/50 rounded transition-colors"
+          >
+            <BellRing size={14} />
+            Alert me when HTI-5 moves
+          </Link>
+
           <button
             onClick={() => setCommentDialogOpen(true)}
             className="w-full flex items-center gap-2 px-3 py-2 text-xs text-sidebar-foreground/80 hover:text-white hover:bg-sidebar-accent/50 rounded transition-colors"
