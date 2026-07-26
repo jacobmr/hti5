@@ -437,7 +437,9 @@ app.get("/api/cron/check-oira", async (req, res) => {
  * can never surface as an error in a visitor's browser.
  */
 app.post("/api/track", async (req, res) => {
-  res.status(204).end();
+  // The write must complete BEFORE responding. On serverless the instance can
+  // be frozen as soon as the response flushes, so anything awaited after
+  // res.end() silently never runs.
   try {
     await recordPageview({
       path: req.body?.path,
@@ -447,6 +449,7 @@ app.post("/api/track", async (req, res) => {
   } catch (error) {
     console.error(`[/api/track] ${error.message}`);
   }
+  res.status(204).end();
 });
 
 // --- Admin dashboard ---
