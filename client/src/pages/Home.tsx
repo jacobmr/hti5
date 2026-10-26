@@ -135,6 +135,66 @@ export default function Home() {
         <div className="rule-line-thin mt-6" />
       </div>
 
+      {/* Final rule */}
+      <div className="mb-8 rounded-md border border-primary/30 bg-primary/5 px-5 py-4 text-sm text-foreground">
+        <div className="flex items-center gap-3 mb-2">
+          <span className="font-mono text-xs font-semibold bg-primary/15 text-primary px-2 py-0.5 rounded border border-primary/30">
+            Final rule
+          </span>
+          <span className="font-semibold">
+            The HTI-5 final rule was released October 26, 2026.
+          </span>
+        </div>
+        <p className="leading-relaxed text-muted-foreground">
+          Some of the safeguards survived. Decision support did not. Our
+          comments and the final rule are both on this site. Read Jacob
+          Reider&apos;s analysis, or read the full rule as markdown.
+        </p>
+        <ul className="mt-3 space-y-1 leading-relaxed">
+          <li>
+            <a
+              href="https://docnotes.net/2026/10/26/hti-5-final-rule-safety-compromised/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline underline-offset-2 hover:opacity-80"
+            >
+              Blog post: what they got right, wrong and in between
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/feed/update/urn:li:ugcPost:7424499279899324433/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline underline-offset-2 hover:opacity-80"
+            >
+              LinkedIn post
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://doi.org/10.1093/jamia/ocag168"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline underline-offset-2 hover:opacity-80"
+            >
+              JAMIA Perspective: health information technology deregulation
+              jeopardizes patient safety and public health
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/jacobmr/hti5/tree/main/docs/final-rule"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-primary underline underline-offset-2 hover:opacity-80"
+            >
+              The final rule as markdown (unofficial conversion)
+            </a>
+          </li>
+        </ul>
+      </div>
+
       {/* Version update */}
       <div className="mb-8 flex items-center gap-3 rounded-md border border-primary/20 bg-primary/5 px-4 py-3 text-sm text-foreground">
         <span className="font-mono text-xs font-semibold bg-primary/15 text-primary px-2 py-0.5 rounded border border-primary/30">
